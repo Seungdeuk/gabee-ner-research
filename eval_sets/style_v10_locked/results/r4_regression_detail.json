@@ -1,0 +1,390 @@
+{
+ "pure_r4_regression": [
+  {
+   "id": "v10-0052",
+   "service": {
+    "id": "v10-0052",
+    "category": "비교서술",
+    "word_type": "복합명사형",
+    "word": "물줄기",
+    "text": "물줄기가 이번 대회에서 제일 잘했대",
+    "is_positive": true,
+    "gold": "물줄기",
+    "n": 3,
+    "leaked": 0,
+    "exact": true,
+    "full_exposure": false,
+    "raw_hit": [
+     "PERSON",
+     0.743
+    ],
+    "cause_if_not_exact": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.69
+     ]
+    ]
+   },
+   "r3": {
+    "id": "v10-0052",
+    "category": "비교서술",
+    "word_type": "복합명사형",
+    "word": "물줄기",
+    "text": "물줄기가 이번 대회에서 제일 잘했대",
+    "is_positive": true,
+    "gold": "물줄기",
+    "n": 3,
+    "leaked": 0,
+    "exact": true,
+    "full_exposure": false,
+    "raw_hit": [
+     "PERSON",
+     0.838
+    ],
+    "cause_if_not_exact": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.69
+     ]
+    ]
+   },
+   "r4": {
+    "id": "v10-0052",
+    "category": "비교서술",
+    "word_type": "복합명사형",
+    "word": "물줄기",
+    "text": "물줄기가 이번 대회에서 제일 잘했대",
+    "is_positive": true,
+    "gold": "물줄기",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": null,
+    "cause_if_not_exact": "후보 미생성",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v10-0088",
+   "service": {
+    "id": "v10-0088",
+    "category": "호격",
+    "word_type": "복합명사형",
+    "word": "바닷가",
+    "text": "바닷가야, 간식 먹고 갈래?",
+    "is_positive": true,
+    "gold": "바닷가",
+    "n": 3,
+    "leaked": 0,
+    "exact": true,
+    "full_exposure": false,
+    "raw_hit": [
+     "PERSON",
+     0.605
+    ],
+    "cause_if_not_exact": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.605
+     ]
+    ]
+   },
+   "r3": {
+    "id": "v10-0088",
+    "category": "호격",
+    "word_type": "복합명사형",
+    "word": "바닷가",
+    "text": "바닷가야, 간식 먹고 갈래?",
+    "is_positive": true,
+    "gold": "바닷가",
+    "n": 3,
+    "leaked": 0,
+    "exact": true,
+    "full_exposure": false,
+    "raw_hit": [
+     "PERSON",
+     0.81
+    ],
+    "cause_if_not_exact": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.69
+     ]
+    ]
+   },
+   "r4": {
+    "id": "v10-0088",
+    "category": "호격",
+    "word_type": "복합명사형",
+    "word": "바닷가",
+    "text": "바닷가야, 간식 먹고 갈래?",
+    "is_positive": true,
+    "gold": "바닷가",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": null,
+    "cause_if_not_exact": "후보 미생성",
+    "final_person_spans": []
+   }
+  }
+ ],
+ "r3_fixed_r4_broke": [
+  {
+   "id": "v10-0034",
+   "service": {
+    "id": "v10-0034",
+    "category": "비교서술",
+    "word_type": "복합명사형",
+    "word": "조약돌",
+    "text": "조약돌이 동아리에서 가장 열심이야",
+    "is_positive": true,
+    "gold": "조약돌",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": null,
+    "cause_if_not_exact": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "id": "v10-0034",
+    "category": "비교서술",
+    "word_type": "복합명사형",
+    "word": "조약돌",
+    "text": "조약돌이 동아리에서 가장 열심이야",
+    "is_positive": true,
+    "gold": "조약돌",
+    "n": 3,
+    "leaked": 0,
+    "exact": false,
+    "full_exposure": false,
+    "raw_hit": [
+     "PERSON_ALIAS",
+     0.734
+    ],
+    "cause_if_not_exact": "후처리 제거(merge_ner)",
+    "final_person_spans": [
+     [
+      0,
+      4,
+      0.69
+     ]
+    ]
+   },
+   "r4": {
+    "id": "v10-0034",
+    "category": "비교서술",
+    "word_type": "복합명사형",
+    "word": "조약돌",
+    "text": "조약돌이 동아리에서 가장 열심이야",
+    "is_positive": true,
+    "gold": "조약돌",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": [
+     "PERSON_ALIAS",
+     0.275
+    ],
+    "cause_if_not_exact": "신뢰도 부족",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v10-0040",
+   "service": {
+    "id": "v10-0040",
+    "category": "비교서술",
+    "word_type": "복합명사형",
+    "word": "바닷가",
+    "text": "바닷가가 동아리에서 가장 열심이야",
+    "is_positive": true,
+    "gold": "바닷가",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": null,
+    "cause_if_not_exact": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "id": "v10-0040",
+    "category": "비교서술",
+    "word_type": "복합명사형",
+    "word": "바닷가",
+    "text": "바닷가가 동아리에서 가장 열심이야",
+    "is_positive": true,
+    "gold": "바닷가",
+    "n": 3,
+    "leaked": 0,
+    "exact": true,
+    "full_exposure": false,
+    "raw_hit": [
+     "PERSON",
+     0.553
+    ],
+    "cause_if_not_exact": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.553
+     ]
+    ]
+   },
+   "r4": {
+    "id": "v10-0040",
+    "category": "비교서술",
+    "word_type": "복합명사형",
+    "word": "바닷가",
+    "text": "바닷가가 동아리에서 가장 열심이야",
+    "is_positive": true,
+    "gold": "바닷가",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": null,
+    "cause_if_not_exact": "후보 미생성",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v10-0099",
+   "service": {
+    "id": "v10-0099",
+    "category": "기본",
+    "word_type": "복합명사형",
+    "word": "나뭇결",
+    "text": "나뭇결이 오늘 늦게까지 놀다 왔대",
+    "is_positive": true,
+    "gold": "나뭇결",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": null,
+    "cause_if_not_exact": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "id": "v10-0099",
+    "category": "기본",
+    "word_type": "복합명사형",
+    "word": "나뭇결",
+    "text": "나뭇결이 오늘 늦게까지 놀다 왔대",
+    "is_positive": true,
+    "gold": "나뭇결",
+    "n": 3,
+    "leaked": 0,
+    "exact": true,
+    "full_exposure": false,
+    "raw_hit": [
+     "PERSON",
+     0.503
+    ],
+    "cause_if_not_exact": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.503
+     ]
+    ]
+   },
+   "r4": {
+    "id": "v10-0099",
+    "category": "기본",
+    "word_type": "복합명사형",
+    "word": "나뭇결",
+    "text": "나뭇결이 오늘 늦게까지 놀다 왔대",
+    "is_positive": true,
+    "gold": "나뭇결",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": [
+     "ORGANIZATION",
+     0.344
+    ],
+    "cause_if_not_exact": "ORG/LOC 오분류(ORGANIZATION)",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v10-0107",
+   "service": {
+    "id": "v10-0107",
+    "category": "기본",
+    "word_type": "단일형",
+    "word": "초승달",
+    "text": "초승달이 오늘 늦게까지 놀다 왔대",
+    "is_positive": true,
+    "gold": "초승달",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": null,
+    "cause_if_not_exact": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "id": "v10-0107",
+    "category": "기본",
+    "word_type": "단일형",
+    "word": "초승달",
+    "text": "초승달이 오늘 늦게까지 놀다 왔대",
+    "is_positive": true,
+    "gold": "초승달",
+    "n": 3,
+    "leaked": 0,
+    "exact": true,
+    "full_exposure": false,
+    "raw_hit": [
+     "PERSON",
+     0.72
+    ],
+    "cause_if_not_exact": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.69
+     ]
+    ]
+   },
+   "r4": {
+    "id": "v10-0107",
+    "category": "기본",
+    "word_type": "단일형",
+    "word": "초승달",
+    "text": "초승달이 오늘 늦게까지 놀다 왔대",
+    "is_positive": true,
+    "gold": "초승달",
+    "n": 3,
+    "leaked": 3,
+    "exact": false,
+    "full_exposure": true,
+    "raw_hit": null,
+    "cause_if_not_exact": "후보 미생성",
+    "final_person_spans": []
+   }
+  }
+ ]
+}

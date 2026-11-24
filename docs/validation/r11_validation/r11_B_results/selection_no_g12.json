@@ -1,0 +1,564 @@
+{
+ "variants": {
+  "B-old": {
+   "per_seed": {
+    "7": {
+     "label": "r11-B-s7-ep3",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": false,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8062792251169004,
+      "f1_official": 0.8381944444444444,
+      "total_exposure": 0.10220440881763528,
+      "precision_official": 0.8727404193781634,
+      "precision_all": 0.8133423180592992,
+      "targets_macro_exposure": 0.09351242146599266,
+      "neg_fpr_macro": 0.027083333333333334,
+      "pair_context_accuracy": 0.325,
+      "klue_f1": 0.7039804041641151
+     }
+    },
+    "13": {
+     "label": "r11-B-s13-ep3",
+     "gates": {
+      "G1": false,
+      "G2": true,
+      "G3": true,
+      "G4": false,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": false,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": false,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.7922511690046761,
+      "f1_official": 0.8250434782608697,
+      "total_exposure": 0.12024048096192384,
+      "precision_official": 0.8606676342525399,
+      "precision_all": 0.7890884896872921,
+      "targets_macro_exposure": 0.10702290229490925,
+      "neg_fpr_macro": 0.05416666666666667,
+      "pair_context_accuracy": 0.295,
+      "klue_f1": 0.70050155242417
+     }
+    },
+    "21": {
+     "label": "r11-B-s21-ep4",
+     "gates": {
+      "G1": false,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": true,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8483633934535738,
+      "f1_official": 0.8578183046268153,
+      "total_exposure": 0.09752839011356046,
+      "precision_official": 0.8674863387978142,
+      "precision_all": 0.7942464040025016,
+      "targets_macro_exposure": 0.09879678827227181,
+      "neg_fpr_macro": 0.05,
+      "pair_context_accuracy": 0.3075,
+      "klue_f1": 0.72782874617737
+     }
+    },
+    "42": {
+     "label": "r11-B-s42-ep2",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": false,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": false,
+      "G10": true,
+      "G11": false,
+      "R1": true,
+      "R2": true,
+      "R3": false,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.7869071476285905,
+      "f1_official": 0.8223385689354277,
+      "total_exposure": 0.13092852371409486,
+      "precision_official": 0.8611111111111112,
+      "precision_all": 0.7975626269465133,
+      "targets_macro_exposure": 0.1279402142500364,
+      "neg_fpr_macro": 0.043750000000000004,
+      "pair_context_accuracy": 0.29,
+      "klue_f1": 0.6426199473262338
+     }
+    },
+    "99": {
+     "label": "r11-B-s99-ep2",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": false,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": false,
+      "G10": true,
+      "G11": false,
+      "R1": true,
+      "R2": true,
+      "R3": false,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.749498997995992,
+      "f1_official": 0.8048780487804877,
+      "total_exposure": 0.16165664662658652,
+      "precision_official": 0.8690937257939582,
+      "precision_all": 0.8177842565597667,
+      "targets_macro_exposure": 0.140806272688932,
+      "neg_fpr_macro": 0.025,
+      "pair_context_accuracy": 0.2875,
+      "klue_f1": 0.6431646305991856
+     }
+    }
+   },
+   "group_S": {
+    "eligible_seeds": 0,
+    "D1P_sd_pp": 4.62,
+    "targets_macro_sd_pp": 1.8,
+    "recall_sd_pp": 3.2,
+    "worst_recall_pct": 74.95,
+    "pass": false
+   },
+   "candidate_arm": false
+  },
+  "B-new": {
+   "per_seed": {
+    "7": {
+     "label": "r11-B-s7-ep5",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": false,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8390113560454242,
+      "f1_official": 0.8602739726027396,
+      "total_exposure": 0.0895123580494322,
+      "precision_official": 0.8826423049894588,
+      "precision_all": 0.8328912466843501,
+      "targets_macro_exposure": 0.08093279126883259,
+      "neg_fpr_macro": 0.0375,
+      "pair_context_accuracy": 0.3925,
+      "klue_f1": 0.725790987535954
+     }
+    },
+    "13": {
+     "label": "r11-B-s13-ep5",
+     "gates": {
+      "G1": false,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": true,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8483633934535738,
+      "f1_official": 0.8529214237743452,
+      "total_exposure": 0.07748830995323981,
+      "precision_official": 0.8575286968264686,
+      "precision_all": 0.7796193984039288,
+      "targets_macro_exposure": 0.0739828192363526,
+      "neg_fpr_macro": 0.0625,
+      "pair_context_accuracy": 0.3025,
+      "klue_f1": 0.7202054394770632
+     }
+    },
+    "21": {
+     "label": "r11-B-s21-ep5",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": true,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": true,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8350033400133601,
+      "f1_official": 0.8599931200550396,
+      "total_exposure": 0.08617234468937876,
+      "precision_official": 0.8865248226950354,
+      "precision_all": 0.8372404554588078,
+      "targets_macro_exposure": 0.07519478894176751,
+      "neg_fpr_macro": 0.03333333333333333,
+      "pair_context_accuracy": 0.395,
+      "klue_f1": 0.7377647918188459
+     }
+    },
+    "42": {
+     "label": "r11-B-s42-ep4",
+     "gates": {
+      "G1": false,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": false,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8229792919171677,
+      "f1_official": 0.8375254928619987,
+      "total_exposure": 0.09686038744154976,
+      "precision_official": 0.8525951557093425,
+      "precision_all": 0.7827191867852605,
+      "targets_macro_exposure": 0.09120019880686711,
+      "neg_fpr_macro": 0.05,
+      "pair_context_accuracy": 0.3025,
+      "klue_f1": 0.7096318946254263
+     }
+    },
+    "99": {
+     "label": "r11-B-s99-ep4",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": false,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": false,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8069472277889111,
+      "f1_official": 0.8362755278643129,
+      "total_exposure": 0.10888443553774214,
+      "precision_official": 0.867816091954023,
+      "precision_all": 0.8140161725067385,
+      "targets_macro_exposure": 0.0961669231967703,
+      "neg_fpr_macro": 0.025,
+      "pair_context_accuracy": 0.3525,
+      "klue_f1": 0.6987518002880461
+     }
+    }
+   },
+   "group_S": {
+    "eligible_seeds": 0,
+    "D1P_sd_pp": 1.43,
+    "targets_macro_sd_pp": 0.88,
+    "recall_sd_pp": 1.43,
+    "worst_recall_pct": 80.69,
+    "pass": false
+   },
+   "candidate_arm": true
+  },
+  "C-SWA": {
+   "per_seed": {
+    "7": {
+     "label": "r11-B-s7-swa",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": false,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8189712758851035,
+      "f1_official": 0.8440619621342513,
+      "total_exposure": 0.09752839011356046,
+      "precision_official": 0.8707386363636364,
+      "precision_all": 0.8173333333333334,
+      "targets_macro_exposure": 0.09080300548906571,
+      "neg_fpr_macro": 0.03125,
+      "pair_context_accuracy": 0.36,
+      "klue_f1": 0.7202431610942249
+     }
+    },
+    "13": {
+     "label": "r11-B-s13-swa",
+     "gates": {
+      "G1": false,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": true,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8343353373413493,
+      "f1_official": 0.846492714334124,
+      "total_exposure": 0.08684034736138944,
+      "precision_official": 0.859009628610729,
+      "precision_all": 0.7840552416823603,
+      "targets_macro_exposure": 0.0820964912097143,
+      "neg_fpr_macro": 0.06041666666666667,
+      "pair_context_accuracy": 0.3025,
+      "klue_f1": 0.71304760774071
+     }
+    },
+    "21": {
+     "label": "r11-B-s21-swa",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": true,
+      "G10": true,
+      "G11": true,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": true,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.843687374749499,
+      "f1_official": 0.8641806363325351,
+      "total_exposure": 0.09552438209752839,
+      "precision_official": 0.8856942496493688,
+      "precision_all": 0.8292843072882469,
+      "targets_macro_exposure": 0.09082154540887208,
+      "neg_fpr_macro": 0.0375,
+      "pair_context_accuracy": 0.37,
+      "klue_f1": 0.7312267211342064
+     }
+    },
+    "42": {
+     "label": "r11-B-s42-swa",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": false,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": true,
+      "G10": true,
+      "G11": false,
+      "R1": true,
+      "R2": true,
+      "R3": true,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.8129592518370073,
+      "f1_official": 0.8381542699724518,
+      "total_exposure": 0.10821643286573146,
+      "precision_official": 0.8649609097370291,
+      "precision_all": 0.799080761654629,
+      "targets_macro_exposure": 0.10377982900402719,
+      "neg_fpr_macro": 0.04375,
+      "pair_context_accuracy": 0.305,
+      "klue_f1": 0.6762224020344468
+     }
+    },
+    "99": {
+     "label": "r11-B-s99-swa",
+     "gates": {
+      "G1": true,
+      "G2": true,
+      "G3": true,
+      "G4": true,
+      "G5": true,
+      "G6": true,
+      "G7": true,
+      "G8": true,
+      "G9": false,
+      "G10": true,
+      "G11": false,
+      "R1": true,
+      "R2": true,
+      "R3": false,
+      "R4": true
+     },
+     "all_gates_G1_G11_R1_R4": false,
+     "G12": "pending",
+     "eligible": false,
+     "metrics": {
+      "exact_recall": 0.7782231128924516,
+      "f1_official": 0.8227401129943502,
+      "total_exposure": 0.13293253173012692,
+      "precision_official": 0.8726591760299626,
+      "precision_all": 0.8198451794510908,
+      "targets_macro_exposure": 0.11782965526044606,
+      "neg_fpr_macro": 0.025,
+      "pair_context_accuracy": 0.3275,
+      "klue_f1": 0.6752688172043011
+     }
+    }
+   },
+   "group_S": {
+    "eligible_seeds": 0,
+    "D1P_sd_pp": 2.76,
+    "targets_macro_sd_pp": 1.25,
+    "recall_sd_pp": 2.25,
+    "worst_recall_pct": 77.82,
+    "pass": false
+   },
+   "candidate_arm": true
+  }
+ },
+ "selection": {
+  "candidates": [],
+  "chosen": null,
+  "detail": {
+   "reason": "후보 없음"
+  },
+  "classification": null,
+  "replacement_eligibility": "운영 교체 후보 자격 없음: 사람 의미 검수 519건 미완료, 독립 테스트 미실행(사전 등록 r11-2.0). 교체 권고 불가, 결론은 S0 유지 + 연구 결과 보고",
+  "quality_sensitive": null,
+  "note": "G12 가 pending 이면 eligible 이 아니므로 후보 없음. 후보 없으면 독립 테스트를 열지 않는다."
+ }
+}

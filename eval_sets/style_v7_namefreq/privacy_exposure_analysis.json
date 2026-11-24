@@ -1,0 +1,250 @@
+{
+ "service": {
+  "fingerprint12": "46210943c45f",
+  "n_positive_sentences": 2400,
+  "total_gold_chars": 5980,
+  "char_leak_rate_before": 0.0503,
+  "char_leak_rate_after": 0.051,
+  "full_exposure_rate_before": 0.0529,
+  "full_exposure_rate_after": 0.0529,
+  "partial_exposure_rate_before": 0.0158,
+  "partial_exposure_rate_after": 0.0175,
+  "any_exposure_rate_before": 0.0688,
+  "any_exposure_rate_after": 0.0704,
+  "status_counts_before": {
+   "완전노출": 127,
+   "부분노출": 38,
+   "노출없음": 2235
+  },
+  "status_counts_after": {
+   "완전노출": 127,
+   "부분노출": 42,
+   "노출없음": 2231
+  },
+  "improved_count": 0,
+  "worsened_count": 4,
+  "improved_examples": [],
+  "worsened_examples": [
+   {
+    "id": "v7-저빈도-상이-s1-p1",
+    "name": "상이",
+    "text": "장상이가 아까 전화 와서 늦는다고 했어",
+    "gold": "장상이",
+    "before_masked": "●●●가 아까 전화 와서 늦는다고 했어",
+    "after_masked": "●●이가 아까 전화 와서 늦는다고 했어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-율이-s1-p1",
+    "name": "율이",
+    "text": "장율이가 내일 소풍 간다고 신났어",
+    "gold": "장율이",
+    "before_masked": "●●●가 내일 소풍 간다고 신났어",
+    "after_masked": "●●이가 내일 소풍 간다고 신났어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-봄이-s1-p1",
+    "name": "봄이",
+    "text": "최봄이가 아까 전화 와서 늦는다고 했어",
+    "gold": "최봄이",
+    "before_masked": "●●●가 아까 전화 와서 늦는다고 했어",
+    "after_masked": "●●이가 아까 전화 와서 늦는다고 했어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-석이-s1-p1",
+    "name": "석이",
+    "text": "조석이가 시험 잘 봤다고 자랑하더라",
+    "gold": "조석이",
+    "before_masked": "●●●가 시험 잘 봤다고 자랑하더라",
+    "after_masked": "●●이가 시험 잘 봤다고 자랑하더라",
+    "leaked_before": 0,
+    "leaked_after": 1
+   }
+  ],
+  "worsened_ending_in_i": [
+   {
+    "id": "v7-저빈도-상이-s1-p1",
+    "name": "상이",
+    "text": "장상이가 아까 전화 와서 늦는다고 했어",
+    "gold": "장상이",
+    "before_masked": "●●●가 아까 전화 와서 늦는다고 했어",
+    "after_masked": "●●이가 아까 전화 와서 늦는다고 했어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-율이-s1-p1",
+    "name": "율이",
+    "text": "장율이가 내일 소풍 간다고 신났어",
+    "gold": "장율이",
+    "before_masked": "●●●가 내일 소풍 간다고 신났어",
+    "after_masked": "●●이가 내일 소풍 간다고 신났어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-봄이-s1-p1",
+    "name": "봄이",
+    "text": "최봄이가 아까 전화 와서 늦는다고 했어",
+    "gold": "최봄이",
+    "before_masked": "●●●가 아까 전화 와서 늦는다고 했어",
+    "after_masked": "●●이가 아까 전화 와서 늦는다고 했어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-석이-s1-p1",
+    "name": "석이",
+    "text": "조석이가 시험 잘 봤다고 자랑하더라",
+    "gold": "조석이",
+    "before_masked": "●●●가 시험 잘 봤다고 자랑하더라",
+    "after_masked": "●●이가 시험 잘 봤다고 자랑하더라",
+    "leaked_before": 0,
+    "leaked_after": 1
+   }
+  ],
+  "neg_flagged_before": 34,
+  "neg_flagged_after": 34,
+  "neg_total": 78,
+  "neg_output_text_changed_count": 3,
+  "neg_output_text_changed_examples": [
+   {
+    "word": "눈송이",
+    "text": "눈송이 오늘 학원 끝나고 전화한대",
+    "before": "●●● 오늘 학원 끝나고 전화한대",
+    "after": "●●이 오늘 학원 끝나고 전화한대"
+   },
+   {
+    "word": "눈송이",
+    "text": "눈송이 저녁에 치킨 먹고 싶대",
+    "before": "●●● 저녁에 치킨 먹고 싶대",
+    "after": "●●이 저녁에 치킨 먹고 싶대"
+   },
+   {
+    "word": "눈송이",
+    "text": "눈송이 숙제 다 하고 게임한대",
+    "before": "●●● 숙제 다 하고 게임한대",
+    "after": "●●이 숙제 다 하고 게임한대"
+   }
+  ]
+ },
+ "r1_s7": {
+  "fingerprint12": "c536eadeb5a1",
+  "n_positive_sentences": 2400,
+  "total_gold_chars": 5980,
+  "char_leak_rate_before": 0.0221,
+  "char_leak_rate_after": 0.0226,
+  "full_exposure_rate_before": 0.025,
+  "full_exposure_rate_after": 0.025,
+  "partial_exposure_rate_before": 0.0092,
+  "partial_exposure_rate_after": 0.0104,
+  "any_exposure_rate_before": 0.0342,
+  "any_exposure_rate_after": 0.0354,
+  "status_counts_before": {
+   "완전노출": 60,
+   "부분노출": 22,
+   "노출없음": 2318
+  },
+  "status_counts_after": {
+   "완전노출": 60,
+   "부분노출": 25,
+   "노출없음": 2315
+  },
+  "improved_count": 0,
+  "worsened_count": 3,
+  "improved_examples": [],
+  "worsened_examples": [
+   {
+    "id": "v7-저빈도-상이-s1-p1",
+    "name": "상이",
+    "text": "장상이가 아까 전화 와서 늦는다고 했어",
+    "gold": "장상이",
+    "before_masked": "●●●가 아까 전화 와서 늦는다고 했어",
+    "after_masked": "●●이가 아까 전화 와서 늦는다고 했어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-율이-s1-p1",
+    "name": "율이",
+    "text": "장율이가 내일 소풍 간다고 신났어",
+    "gold": "장율이",
+    "before_masked": "●●●가 내일 소풍 간다고 신났어",
+    "after_masked": "●●이가 내일 소풍 간다고 신났어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-석이-s1-p1",
+    "name": "석이",
+    "text": "조석이가 시험 잘 봤다고 자랑하더라",
+    "gold": "조석이",
+    "before_masked": "●●●가 시험 잘 봤다고 자랑하더라",
+    "after_masked": "●●이가 시험 잘 봤다고 자랑하더라",
+    "leaked_before": 0,
+    "leaked_after": 1
+   }
+  ],
+  "worsened_ending_in_i": [
+   {
+    "id": "v7-저빈도-상이-s1-p1",
+    "name": "상이",
+    "text": "장상이가 아까 전화 와서 늦는다고 했어",
+    "gold": "장상이",
+    "before_masked": "●●●가 아까 전화 와서 늦는다고 했어",
+    "after_masked": "●●이가 아까 전화 와서 늦는다고 했어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-율이-s1-p1",
+    "name": "율이",
+    "text": "장율이가 내일 소풍 간다고 신났어",
+    "gold": "장율이",
+    "before_masked": "●●●가 내일 소풍 간다고 신났어",
+    "after_masked": "●●이가 내일 소풍 간다고 신났어",
+    "leaked_before": 0,
+    "leaked_after": 1
+   },
+   {
+    "id": "v7-저빈도-석이-s1-p1",
+    "name": "석이",
+    "text": "조석이가 시험 잘 봤다고 자랑하더라",
+    "gold": "조석이",
+    "before_masked": "●●●가 시험 잘 봤다고 자랑하더라",
+    "after_masked": "●●이가 시험 잘 봤다고 자랑하더라",
+    "leaked_before": 0,
+    "leaked_after": 1
+   }
+  ],
+  "neg_flagged_before": 42,
+  "neg_flagged_after": 42,
+  "neg_total": 78,
+  "neg_output_text_changed_count": 3,
+  "neg_output_text_changed_examples": [
+   {
+    "word": "눈송이",
+    "text": "눈송이 오늘 학원 끝나고 전화한대",
+    "before": "●●● 오늘 학원 끝나고 전화한대",
+    "after": "●●이 오늘 학원 끝나고 전화한대"
+   },
+   {
+    "word": "눈송이",
+    "text": "눈송이 저녁에 치킨 먹고 싶대",
+    "before": "●●● 저녁에 치킨 먹고 싶대",
+    "after": "●●이 저녁에 치킨 먹고 싶대"
+   },
+   {
+    "word": "눈송이",
+    "text": "눈송이 숙제 다 하고 게임한대",
+    "before": "●●● 숙제 다 하고 게임한대",
+    "after": "●●이 숙제 다 하고 게임한대"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1622 @@
+{
+ "service": {
+  "fingerprint12": "46210943c45f",
+  "before_trim": {
+   "precision": 0.9607,
+   "recall": 0.8855,
+   "f1": 0.9216,
+   "n_positive": 690,
+   "char_leak_rate": 0.0868,
+   "full_exposure_rate": 0.0928,
+   "partial_exposure_rate": 0.0,
+   "any_exposure_rate": 0.0928,
+   "by_category": {
+    "신규고빈도": {
+     "정확탐지": 275,
+     "경계불일치": 10,
+     "완전미탐": 15
+    },
+    "신규저빈도": {
+     "정확탐지": 258,
+     "완전미탐": 37,
+     "경계불일치": 5
+    },
+    "이가로끝남": {
+     "정확탐지": 42,
+     "완전미탐": 3
+    },
+    "신규애칭": {
+     "정확탐지": 26,
+     "완전미탐": 1
+    },
+    "이름문맥_일반단어": {
+     "완전미탐": 8,
+     "정확탐지": 10
+    }
+   },
+   "by_position": {
+    "시작": {
+     "정확탐지": 204,
+     "경계불일치": 10,
+     "완전미탐": 16
+    },
+    "중간": {
+     "정확탐지": 213,
+     "완전미탐": 17
+    },
+    "끝": {
+     "정확탐지": 194,
+     "경계불일치": 5,
+     "완전미탐": 31
+    }
+   },
+   "neg_by_category": {
+    "사물문맥_일반단어": {
+     "total": 18,
+     "flagged": 10,
+     "fpr": 0.5556
+    },
+    "순수비인명": {
+     "total": 45,
+     "flagged": 0,
+     "fpr": 0.0
+    }
+   },
+   "failure_examples": [
+    {
+     "id": "v8-신규고빈도-도은-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "도은",
+     "text": "도은이 아침부터 기분이 좋아 보이더라",
+     "gold": "도은",
+     "predicted": [
+      "도은이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-도은-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "도은",
+     "text": "방금 통화한 사람이 도은이었어",
+     "gold": "도은",
+     "predicted": [
+      "도은이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-소미-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "소미",
+     "text": "어제 소미한테 문자 보냈는데 아직 답이 없어",
+     "gold": "소미",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연준-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "연준",
+     "text": "연준이 아침부터 기분이 좋아 보이더라",
+     "gold": "연준",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연준-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "연준",
+     "text": "방금 통화한 사람이 연준이었어",
+     "gold": "연준",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-상원-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "상원",
+     "text": "상원이 아침부터 기분이 좋아 보이더라",
+     "gold": "상원",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-상원-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "상원",
+     "text": "방금 통화한 사람이 상원이었어",
+     "gold": "상원",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-재성-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "재성",
+     "text": "재성이 아침부터 기분이 좋아 보이더라",
+     "gold": "재성",
+     "predicted": [
+      "재성이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-재성-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "재성",
+     "text": "방금 통화한 사람이 재성이었어",
+     "gold": "재성",
+     "predicted": [
+      "재성이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-진아-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "진아",
+     "text": "진아가 아침부터 기분이 좋아 보이더라",
+     "gold": "진아",
+     "predicted": [
+      "진아가"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-가을-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "가을",
+     "text": "가을이 아침부터 기분이 좋아 보이더라",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "가을",
+     "text": "어제 가을한테 문자 보냈는데 아직 답이 없어",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "가을",
+     "text": "방금 통화한 사람이 가을이었어",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-재은-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "재은",
+     "text": "재은이 아침부터 기분이 좋아 보이더라",
+     "gold": "재은",
+     "predicted": [
+      "재은이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-재은-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "재은",
+     "text": "방금 통화한 사람이 재은이었어",
+     "gold": "재은",
+     "predicted": [
+      "재은이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-무성-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "무성",
+     "text": "무성이 아침부터 기분이 좋아 보이더라",
+     "gold": "무성",
+     "predicted": [
+      "무성이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-무성-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "무성",
+     "text": "방금 통화한 사람이 무성이었어",
+     "gold": "무성",
+     "predicted": [
+      "무성이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-연재-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "연재",
+     "text": "연재가 아침부터 기분이 좋아 보이더라",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "연재",
+     "text": "어제 연재한테 문자 보냈는데 아직 답이 없어",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "연재",
+     "text": "방금 통화한 사람이 연재였어",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-재용-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "재용",
+     "text": "방금 통화한 사람이 재용이었어",
+     "gold": "재용",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-선아-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "선아",
+     "text": "선아가 아침부터 기분이 좋아 보이더라",
+     "gold": "선아",
+     "predicted": [
+      "선아가"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-미소-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "미소",
+     "text": "미소가 아침부터 기분이 좋아 보이더라",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "미소",
+     "text": "어제 미소한테 문자 보냈는데 아직 답이 없어",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "미소",
+     "text": "방금 통화한 사람이 미소였어",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-나무-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "나무",
+     "text": "방금 통화한 사람이 나무였어",
+     "gold": "나무",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-경문-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "경문",
+     "text": "경문이 아침부터 기분이 좋아 보이더라",
+     "gold": "경문",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-경문-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "경문",
+     "text": "방금 통화한 사람이 경문이었어",
+     "gold": "경문",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-동구-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "동구",
+     "text": "동구가 아침부터 기분이 좋아 보이더라",
+     "gold": "동구",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-동구-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "동구",
+     "text": "어제 동구한테 문자 보냈는데 아직 답이 없어",
+     "gold": "동구",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    }
+   ]
+  },
+  "after_trim": {
+   "precision": 0.9827,
+   "recall": 0.9058,
+   "f1": 0.9427,
+   "n_positive": 690,
+   "char_leak_rate": 0.0868,
+   "full_exposure_rate": 0.0928,
+   "partial_exposure_rate": 0.0,
+   "any_exposure_rate": 0.0928,
+   "by_category": {
+    "신규고빈도": {
+     "정확탐지": 285,
+     "완전미탐": 15
+    },
+    "신규저빈도": {
+     "정확탐지": 262,
+     "완전미탐": 37,
+     "경계불일치": 1
+    },
+    "이가로끝남": {
+     "정확탐지": 42,
+     "완전미탐": 3
+    },
+    "신규애칭": {
+     "정확탐지": 26,
+     "완전미탐": 1
+    },
+    "이름문맥_일반단어": {
+     "완전미탐": 8,
+     "정확탐지": 10
+    }
+   },
+   "by_position": {
+    "시작": {
+     "정확탐지": 213,
+     "완전미탐": 16,
+     "경계불일치": 1
+    },
+    "중간": {
+     "정확탐지": 213,
+     "완전미탐": 17
+    },
+    "끝": {
+     "정확탐지": 199,
+     "완전미탐": 31
+    }
+   },
+   "neg_by_category": {
+    "사물문맥_일반단어": {
+     "total": 18,
+     "flagged": 10,
+     "fpr": 0.5556
+    },
+    "순수비인명": {
+     "total": 45,
+     "flagged": 0,
+     "fpr": 0.0
+    }
+   },
+   "failure_examples": [
+    {
+     "id": "v8-신규고빈도-소미-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "소미",
+     "text": "어제 소미한테 문자 보냈는데 아직 답이 없어",
+     "gold": "소미",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연준-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "연준",
+     "text": "연준이 아침부터 기분이 좋아 보이더라",
+     "gold": "연준",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연준-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "연준",
+     "text": "방금 통화한 사람이 연준이었어",
+     "gold": "연준",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-상원-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "상원",
+     "text": "상원이 아침부터 기분이 좋아 보이더라",
+     "gold": "상원",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-상원-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "상원",
+     "text": "방금 통화한 사람이 상원이었어",
+     "gold": "상원",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "가을",
+     "text": "가을이 아침부터 기분이 좋아 보이더라",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "가을",
+     "text": "어제 가을한테 문자 보냈는데 아직 답이 없어",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "가을",
+     "text": "방금 통화한 사람이 가을이었어",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "연재",
+     "text": "연재가 아침부터 기분이 좋아 보이더라",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "연재",
+     "text": "어제 연재한테 문자 보냈는데 아직 답이 없어",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "연재",
+     "text": "방금 통화한 사람이 연재였어",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-재용-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "재용",
+     "text": "방금 통화한 사람이 재용이었어",
+     "gold": "재용",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "미소",
+     "text": "미소가 아침부터 기분이 좋아 보이더라",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "미소",
+     "text": "어제 미소한테 문자 보냈는데 아직 답이 없어",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "미소",
+     "text": "방금 통화한 사람이 미소였어",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-나무-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "나무",
+     "text": "방금 통화한 사람이 나무였어",
+     "gold": "나무",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-경문-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "경문",
+     "text": "경문이 아침부터 기분이 좋아 보이더라",
+     "gold": "경문",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-경문-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "경문",
+     "text": "방금 통화한 사람이 경문이었어",
+     "gold": "경문",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-동구-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "동구",
+     "text": "동구가 아침부터 기분이 좋아 보이더라",
+     "gold": "동구",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-동구-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "동구",
+     "text": "어제 동구한테 문자 보냈는데 아직 답이 없어",
+     "gold": "동구",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-동구-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "동구",
+     "text": "방금 통화한 사람이 동구였어",
+     "gold": "동구",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-기용-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "기용",
+     "text": "어제 기용한테 문자 보냈는데 아직 답이 없어",
+     "gold": "기용",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-률-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "률",
+     "text": "률이 아침부터 기분이 좋아 보이더라",
+     "gold": "률",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-률-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "률",
+     "text": "어제 률한테 문자 보냈는데 아직 답이 없어",
+     "gold": "률",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-률-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "률",
+     "text": "방금 통화한 사람이 률이었어",
+     "gold": "률",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-름-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "름",
+     "text": "름이 아침부터 기분이 좋아 보이더라",
+     "gold": "름",
+     "predicted": [
+      "름이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규저빈도-름-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "름",
+     "text": "어제 름한테 문자 보냈는데 아직 답이 없어",
+     "gold": "름",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-름-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "름",
+     "text": "방금 통화한 사람이 름이었어",
+     "gold": "름",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-제백-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "제백",
+     "text": "제백이 아침부터 기분이 좋아 보이더라",
+     "gold": "제백",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-제백-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "제백",
+     "text": "어제 제백한테 문자 보냈는데 아직 답이 없어",
+     "gold": "제백",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    }
+   ]
+  },
+  "improved_count": 0,
+  "worsened_count": 0,
+  "improved_examples": [],
+  "worsened_examples": []
+ },
+ "r1_s7": {
+  "fingerprint12": "c536eadeb5a1",
+  "before_trim": {
+   "precision": 0.9643,
+   "recall": 0.9,
+   "f1": 0.931,
+   "n_positive": 690,
+   "char_leak_rate": 0.0745,
+   "full_exposure_rate": 0.0812,
+   "partial_exposure_rate": 0.0,
+   "any_exposure_rate": 0.0812,
+   "by_category": {
+    "신규고빈도": {
+     "정확탐지": 276,
+     "경계불일치": 8,
+     "완전미탐": 16
+    },
+    "신규저빈도": {
+     "정확탐지": 266,
+     "완전미탐": 29,
+     "경계불일치": 5
+    },
+    "이가로끝남": {
+     "정확탐지": 42,
+     "완전미탐": 3
+    },
+    "신규애칭": {
+     "정확탐지": 27
+    },
+    "이름문맥_일반단어": {
+     "완전미탐": 8,
+     "정확탐지": 10
+    }
+   },
+   "by_position": {
+    "시작": {
+     "정확탐지": 209,
+     "경계불일치": 9,
+     "완전미탐": 12
+    },
+    "중간": {
+     "정확탐지": 215,
+     "완전미탐": 15
+    },
+    "끝": {
+     "정확탐지": 197,
+     "경계불일치": 4,
+     "완전미탐": 29
+    }
+   },
+   "neg_by_category": {
+    "사물문맥_일반단어": {
+     "total": 18,
+     "flagged": 10,
+     "fpr": 0.5556
+    },
+    "순수비인명": {
+     "total": 45,
+     "flagged": 0,
+     "fpr": 0.0
+    }
+   },
+   "failure_examples": [
+    {
+     "id": "v8-신규고빈도-도은-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "도은",
+     "text": "도은이 아침부터 기분이 좋아 보이더라",
+     "gold": "도은",
+     "predicted": [
+      "도은이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-도은-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "도은",
+     "text": "방금 통화한 사람이 도은이었어",
+     "gold": "도은",
+     "predicted": [
+      "도은이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-연준-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "연준",
+     "text": "연준이 아침부터 기분이 좋아 보이더라",
+     "gold": "연준",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연준-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "연준",
+     "text": "방금 통화한 사람이 연준이었어",
+     "gold": "연준",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-상원-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "상원",
+     "text": "상원이 아침부터 기분이 좋아 보이더라",
+     "gold": "상원",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-상원-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "상원",
+     "text": "방금 통화한 사람이 상원이었어",
+     "gold": "상원",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-재성-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "재성",
+     "text": "재성이 아침부터 기분이 좋아 보이더라",
+     "gold": "재성",
+     "predicted": [
+      "재성이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-재성-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "재성",
+     "text": "방금 통화한 사람이 재성이었어",
+     "gold": "재성",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-진아-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "진아",
+     "text": "진아가 아침부터 기분이 좋아 보이더라",
+     "gold": "진아",
+     "predicted": [
+      "진아가"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-가을-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "가을",
+     "text": "가을이 아침부터 기분이 좋아 보이더라",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "가을",
+     "text": "어제 가을한테 문자 보냈는데 아직 답이 없어",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "가을",
+     "text": "방금 통화한 사람이 가을이었어",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-재은-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "재은",
+     "text": "재은이 아침부터 기분이 좋아 보이더라",
+     "gold": "재은",
+     "predicted": [
+      "재은이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-재은-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "재은",
+     "text": "방금 통화한 사람이 재은이었어",
+     "gold": "재은",
+     "predicted": [
+      "재은이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-무성-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "무성",
+     "text": "무성이 아침부터 기분이 좋아 보이더라",
+     "gold": "무성",
+     "predicted": [
+      "무성이"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-연재-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "연재",
+     "text": "연재가 아침부터 기분이 좋아 보이더라",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "연재",
+     "text": "어제 연재한테 문자 보냈는데 아직 답이 없어",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "연재",
+     "text": "방금 통화한 사람이 연재였어",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-재용-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "재용",
+     "text": "방금 통화한 사람이 재용이었어",
+     "gold": "재용",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-은유-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "은유",
+     "text": "방금 통화한 사람이 은유였어",
+     "gold": "은유",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-선아-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "선아",
+     "text": "선아가 아침부터 기분이 좋아 보이더라",
+     "gold": "선아",
+     "predicted": [
+      "선아가"
+     ],
+     "bucket": "경계불일치",
+     "leaked_chars": 0
+    },
+    {
+     "id": "v8-신규고빈도-미소-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "미소",
+     "text": "미소가 아침부터 기분이 좋아 보이더라",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "미소",
+     "text": "어제 미소한테 문자 보냈는데 아직 답이 없어",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "미소",
+     "text": "방금 통화한 사람이 미소였어",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-나무-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "나무",
+     "text": "방금 통화한 사람이 나무였어",
+     "gold": "나무",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-동구-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "동구",
+     "text": "동구가 아침부터 기분이 좋아 보이더라",
+     "gold": "동구",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-동구-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "동구",
+     "text": "방금 통화한 사람이 동구였어",
+     "gold": "동구",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-선제-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "선제",
+     "text": "방금 통화한 사람이 선제였어",
+     "gold": "선제",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-기용-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "기용",
+     "text": "어제 기용한테 문자 보냈는데 아직 답이 없어",
+     "gold": "기용",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-기용-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "기용",
+     "text": "방금 통화한 사람이 기용이었어",
+     "gold": "기용",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    }
+   ]
+  },
+  "after_trim": {
+   "precision": 0.9845,
+   "recall": 0.9188,
+   "f1": 0.9505,
+   "n_positive": 690,
+   "char_leak_rate": 0.0745,
+   "full_exposure_rate": 0.0812,
+   "partial_exposure_rate": 0.0,
+   "any_exposure_rate": 0.0812,
+   "by_category": {
+    "신규고빈도": {
+     "정확탐지": 284,
+     "완전미탐": 16
+    },
+    "신규저빈도": {
+     "정확탐지": 271,
+     "완전미탐": 29
+    },
+    "이가로끝남": {
+     "정확탐지": 42,
+     "완전미탐": 3
+    },
+    "신규애칭": {
+     "정확탐지": 27
+    },
+    "이름문맥_일반단어": {
+     "완전미탐": 8,
+     "정확탐지": 10
+    }
+   },
+   "by_position": {
+    "시작": {
+     "정확탐지": 218,
+     "완전미탐": 12
+    },
+    "중간": {
+     "정확탐지": 215,
+     "완전미탐": 15
+    },
+    "끝": {
+     "정확탐지": 201,
+     "완전미탐": 29
+    }
+   },
+   "neg_by_category": {
+    "사물문맥_일반단어": {
+     "total": 18,
+     "flagged": 10,
+     "fpr": 0.5556
+    },
+    "순수비인명": {
+     "total": 45,
+     "flagged": 0,
+     "fpr": 0.0
+    }
+   },
+   "failure_examples": [
+    {
+     "id": "v8-신규고빈도-연준-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "연준",
+     "text": "연준이 아침부터 기분이 좋아 보이더라",
+     "gold": "연준",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연준-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "연준",
+     "text": "방금 통화한 사람이 연준이었어",
+     "gold": "연준",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-상원-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "상원",
+     "text": "상원이 아침부터 기분이 좋아 보이더라",
+     "gold": "상원",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-상원-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "상원",
+     "text": "방금 통화한 사람이 상원이었어",
+     "gold": "상원",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-재성-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "재성",
+     "text": "방금 통화한 사람이 재성이었어",
+     "gold": "재성",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "가을",
+     "text": "가을이 아침부터 기분이 좋아 보이더라",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "가을",
+     "text": "어제 가을한테 문자 보냈는데 아직 답이 없어",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-가을-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "가을",
+     "text": "방금 통화한 사람이 가을이었어",
+     "gold": "가을",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "연재",
+     "text": "연재가 아침부터 기분이 좋아 보이더라",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "연재",
+     "text": "어제 연재한테 문자 보냈는데 아직 답이 없어",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-연재-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "연재",
+     "text": "방금 통화한 사람이 연재였어",
+     "gold": "연재",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-재용-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "재용",
+     "text": "방금 통화한 사람이 재용이었어",
+     "gold": "재용",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-은유-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "은유",
+     "text": "방금 통화한 사람이 은유였어",
+     "gold": "은유",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-시작",
+     "category": "신규고빈도_시작",
+     "position": "시작",
+     "name": "미소",
+     "text": "미소가 아침부터 기분이 좋아 보이더라",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-중간",
+     "category": "신규고빈도_중간",
+     "position": "중간",
+     "name": "미소",
+     "text": "어제 미소한테 문자 보냈는데 아직 답이 없어",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규고빈도-미소-끝",
+     "category": "신규고빈도_끝",
+     "position": "끝",
+     "name": "미소",
+     "text": "방금 통화한 사람이 미소였어",
+     "gold": "미소",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-나무-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "나무",
+     "text": "방금 통화한 사람이 나무였어",
+     "gold": "나무",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-동구-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "동구",
+     "text": "동구가 아침부터 기분이 좋아 보이더라",
+     "gold": "동구",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-동구-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "동구",
+     "text": "방금 통화한 사람이 동구였어",
+     "gold": "동구",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-선제-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "선제",
+     "text": "방금 통화한 사람이 선제였어",
+     "gold": "선제",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-기용-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "기용",
+     "text": "어제 기용한테 문자 보냈는데 아직 답이 없어",
+     "gold": "기용",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-기용-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "기용",
+     "text": "방금 통화한 사람이 기용이었어",
+     "gold": "기용",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-희로-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "희로",
+     "text": "방금 통화한 사람이 희로였어",
+     "gold": "희로",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    },
+    {
+     "id": "v8-신규저빈도-률-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "률",
+     "text": "률이 아침부터 기분이 좋아 보이더라",
+     "gold": "률",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-률-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "률",
+     "text": "어제 률한테 문자 보냈는데 아직 답이 없어",
+     "gold": "률",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-률-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "률",
+     "text": "방금 통화한 사람이 률이었어",
+     "gold": "률",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-름-시작",
+     "category": "신규저빈도_시작",
+     "position": "시작",
+     "name": "름",
+     "text": "름이 아침부터 기분이 좋아 보이더라",
+     "gold": "름",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-름-중간",
+     "category": "신규저빈도_중간",
+     "position": "중간",
+     "name": "름",
+     "text": "어제 름한테 문자 보냈는데 아직 답이 없어",
+     "gold": "름",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-름-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "름",
+     "text": "방금 통화한 사람이 름이었어",
+     "gold": "름",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 1
+    },
+    {
+     "id": "v8-신규저빈도-제백-끝",
+     "category": "신규저빈도_끝",
+     "position": "끝",
+     "name": "제백",
+     "text": "방금 통화한 사람이 제백이었어",
+     "gold": "제백",
+     "predicted": [],
+     "bucket": "완전미탐",
+     "leaked_chars": 2
+    }
+   ]
+  },
+  "improved_count": 0,
+  "worsened_count": 0,
+  "improved_examples": [],
+  "worsened_examples": []
+ }
+}

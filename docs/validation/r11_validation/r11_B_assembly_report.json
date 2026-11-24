@@ -1,0 +1,76 @@
+{
+ "seed": 20261125,
+ "r9f_files_copied": {
+  "baseline_train": {
+   "sha256": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+   "copy_identical": true
+  },
+  "baseline_val": {
+   "sha256": "07c0c407433794d895e186cbc1d2e9fdf938dc5e516471b51dc327660e9dbb82",
+   "copy_identical": true
+  },
+  "synth_train": {
+   "sha256": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+   "copy_identical": true
+  },
+  "synth_val": {
+   "sha256": "9d05760819bd02fdd84867f3b8cafe13c4d91f491c230175642cc885cc2561d7",
+   "copy_identical": true
+  },
+  "klue_train": {
+   "sha256": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+   "copy_identical": true
+  },
+  "klue_val": {
+   "sha256": "1f0158284d6ac64ca18db9ff2fc8723628df631a4d73d6f1e5aca61d33c82262",
+   "copy_identical": true
+  },
+  "r9_Ffull_train": {
+   "sha256": "3182dfbbef296cc66235668ccb1f5ad1ad58c59e9125459911e074ad17a2e0a5",
+   "copy_identical": true
+  }
+ },
+ "protect_candidates": {
+  "person_ge4_chars": 326,
+  "orgloc_only": 1564,
+  "picked_person_ge4": 200,
+  "picked_orgloc": 200,
+  "filled_from_other": 0
+ },
+ "composition": {
+  "r11_Dprime": 800,
+  "r10_reuse": 900,
+  "r9f_protect_replay": 400
+ },
+ "rows": {
+  "base_nonklue": 7346,
+  "klue": 469,
+  "extra": 2100,
+  "total": 9915
+ },
+ "steps_per_epoch": 310,
+ "total_steps_max": 2480,
+ "klue_share_pct": 4.73,
+ "relabeled_rows_in_training": 292,
+ "dup_within_new_components": 0,
+ "new_components_sentence_equal_to_R9F_base": 0,
+ "protect_replay_rows_are_intended_duplicates_of_R9F": 400,
+ "labels_in_extra": {
+  "PERSON": 2282,
+  "PERSON_ALIAS": 77,
+  "ORGANIZATION": 161,
+  "LOCATION": 113,
+  "ADDRESS": 20
+ },
+ "person_len_in_extra": {
+  "3": 822,
+  "2": 1127,
+  "4": 333
+ },
+ "one_char_person_in_extra": 0,
+ "pairs_in_extra": 400,
+ "sealed_or_eval_files_used": "없음(R9 봉인셋·R10 dev·R11 val/dev·독립 평가셋 미사용)",
+ "extra_sentences_equal_to_r11_val_dev": 0,
+ "base_sentences_equal_to_r11_val_dev": 0,
+ "r11_B_extra_sha256": "147cc4ffbee8777a55d258080c744a0394dd04c707599b6d14e061a4865960a9"
+}

@@ -1,0 +1,43 @@
+{
+ "mode": "r1pilot-koelectra-small-klue10msg-s7",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "c536eadeb5a1"
+ },
+ "ner_only": false,
+ "categories": {
+  "collision_holdout": {
+   "spans": 50,
+   "full": 50,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 50,
+   "flagged": 0,
+   "miss_examples": []
+  },
+  "collision_holdout_neg": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 5,
+   "flagged": 0,
+   "miss_examples": []
+  }
+ },
+ "person_total": {
+  "spans": 50,
+  "full": 50,
+  "partial": 0,
+  "none": 0,
+  "extra": 0
+ },
+ "latency_100chars": {
+  "median_ms": 4.132,
+  "p95_ms": 13.739,
+  "n": 100
+ }
+}

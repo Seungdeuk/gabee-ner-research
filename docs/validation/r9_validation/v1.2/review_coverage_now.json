@@ -1,0 +1,8 @@
+{
+ "dataset_rows": 2400,
+ "ledger_provided": false,
+ "required_min_total": 240,
+ "target_total": 300,
+ "reviewed_unique_valid": 0,
+ "note": "검수 기록이 없어 완료로 집계한 문장은 0건이다. 미검수 문장을 정상으로 간주하지 않는다."
+}

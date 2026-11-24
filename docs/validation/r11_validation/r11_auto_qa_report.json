@@ -1,0 +1,143 @@
+{
+ "train": {
+  "rows": 800,
+  "S_definitive_structural": {},
+  "F_definitive_surface_label_neutral": {},
+  "M_semantic_review_warnings": {
+   "repeated_prefix_or_suffix_phrase(machine-combined suspect)": 12,
+   "pair_contexts_nearly_identical(cue may be weak)": 40
+  },
+  "bio_alignment_loss": {
+   "rows": 32,
+   "rate_pct": 4.0,
+   "by_type": {
+    "TRAIN_PAIR": 32
+   },
+   "note": "전부 구간 경계가 토큰 내부(이름+조사가 한 토큰)인 서브워드 분절의 성질, 기존 학습 데이터에도 같은 비율(2.5~3.0%)"
+  }
+ },
+ "val": {
+  "rows": 600,
+  "S_definitive_structural": {},
+  "F_definitive_surface_label_neutral": {},
+  "M_semantic_review_warnings": {
+   "pair_word_loanword_suspect_by_ending": 8,
+   "pair_contexts_nearly_identical(cue may be weak)": 32
+  },
+  "bio_alignment_loss": {
+   "rows": 16,
+   "rate_pct": 2.67,
+   "by_type": {
+    "TRAIN_PAIR": 16
+   },
+   "note": "전부 구간 경계가 토큰 내부(이름+조사가 한 토큰)인 서브워드 분절의 성질, 기존 학습 데이터에도 같은 비율(2.5~3.0%)"
+  }
+ },
+ "dev": {
+  "rows": 1920,
+  "S_definitive_structural": {},
+  "F_definitive_surface_label_neutral": {
+   "josa_batchim_mismatch": 3
+  },
+  "M_semantic_review_warnings": {
+   "C2_names_separated_by_connector_gap_over_3(structure ok)": 1,
+   "alias_equals_a_person_name_or_kinship_term": 2,
+   "pair_word_loanword_suspect_by_ending": 6,
+   "pair_contexts_nearly_identical(cue may be weak)": 18
+  },
+  "bio_alignment_loss": {
+   "rows": 46,
+   "rate_pct": 2.4,
+   "by_type": {
+    "D1P": 24,
+    "D1": 5,
+    "C2": 8,
+    "NEWNAME": 3,
+    "LONGNAME": 1,
+    "EXISTING": 4,
+    "NEG_ORGLOC": 1
+   },
+   "note": "전부 구간 경계가 토큰 내부(이름+조사가 한 토큰)인 서브워드 분절의 성질, 기존 학습 데이터에도 같은 비율(2.5~3.0%)"
+  }
+ },
+ "leakage_and_duplicates(from check_r11_data)": {
+  "dup_within": {
+   "train": 0,
+   "val": 0,
+   "dev": 0
+  },
+  "dup_between_roles(sentences)": {
+   "train-val": 0,
+   "train-dev": 0,
+   "val-dev": 0
+  },
+  "skeleton_overlap_between_roles": {
+   "train-val": 0,
+   "train-dev": 0,
+   "val-dev": 0
+  },
+  "sentence_in_existing(R9,R10)": {
+   "train": 0,
+   "val": 0,
+   "dev": 0
+  },
+  "skeleton_in_existing(R9,R10)": {
+   "train": 0,
+   "val": 0,
+   "dev": 0
+  },
+  "near_dup_rows_vs_R9R10_train(count,>=0.7)": {
+   "train": 0,
+   "val": 0,
+   "dev": 0
+  },
+  "near_dup_rows_between_roles(count,>=0.7)": {
+   "val->train": 0,
+   "dev->train": 0,
+   "dev->val": 0,
+   "train->val": 0
+  },
+  "name_role_violations(wrong hash role)": {
+   "train": 0,
+   "val": 0,
+   "dev": 0
+  },
+  "given_part_overlap_between_roles": {
+   "train-val": 0,
+   "train-dev": 0,
+   "val-dev": 0
+  },
+  "pair_word_overlap_between_roles(exact)": {
+   "train-val": 0,
+   "train-dev": 0,
+   "val-dev": 0
+  },
+  "pair_word_containment_between_roles": {
+   "train-val": 0,
+   "train-dev": 0,
+   "val-dev": 0
+  },
+  "pair_words_seen_in_R9R10_training(val,dev must be 0)": {
+   "train": 100,
+   "val": 0,
+   "dev": 0
+  },
+  "pair_integrity": {
+   "train": {
+    "pairs": 400,
+    "invalid": 0,
+    "pairs_with_regular_name_in_noun_sentence": 255
+   },
+   "val": {
+    "pairs": 300,
+    "invalid": 0,
+    "pairs_with_regular_name_in_noun_sentence": 107
+   },
+   "dev": {
+    "pairs": 400,
+    "invalid": 0,
+    "pairs_with_regular_name_in_noun_sentence": 137
+   }
+  }
+ }
+}

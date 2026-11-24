@@ -1,0 +1,699 @@
+{
+ "service": {
+  "fingerprint12": "46210943c45f",
+  "person_recall_raw_by_group": {
+   "기관지역": {
+    "total": 12,
+    "correct": 11,
+    "rate": 0.9167
+   },
+   "자연계절": {
+    "total": 39,
+    "correct": 27,
+    "rate": 0.6923
+   },
+   "일상추상": {
+    "total": 39,
+    "correct": 33,
+    "rate": 0.8462
+   }
+  },
+  "person_recall_final_by_group": {
+   "기관지역": {
+    "total": 12,
+    "correct": 11,
+    "rate": 0.9167,
+    "완전노출": 1,
+    "완전노출률": 0.0833
+   },
+   "자연계절": {
+    "total": 39,
+    "correct": 25,
+    "rate": 0.641,
+    "완전노출": 7,
+    "완전노출률": 0.1795
+   },
+   "일상추상": {
+    "total": 39,
+    "correct": 33,
+    "rate": 0.8462,
+    "완전노출": 3,
+    "완전노출률": 0.0769
+   }
+  },
+  "nonperson_fpr_by_group": {
+   "기관지역": {
+    "total": 12,
+    "flagged": 1,
+    "fpr": 0.0833
+   },
+   "자연계절": {
+    "total": 39,
+    "flagged": 12,
+    "fpr": 0.3077
+   },
+   "일상추상": {
+    "total": 39,
+    "flagged": 3,
+    "fpr": 0.0769
+   }
+  },
+  "failure_cause_by_group": {
+   "기관지역": {
+    "오분류(ORGANIZATION)": 1
+   },
+   "자연계절": {
+    "후처리 제거(merge_ner)": 8,
+    "후보 없음": 5,
+    "낮은 신뢰도": 1
+   },
+   "일상추상": {
+    "후처리 제거(merge_ner)": 3,
+    "후보 없음": 3
+   }
+  },
+  "org_loc_label_match": {
+   "연준": {
+    "total": 3,
+    "label_correct": 2
+   },
+   "상원": {
+    "total": 3,
+    "label_correct": 1
+   },
+   "진주": {
+    "total": 3,
+    "label_correct": 3
+   },
+   "동해": {
+    "total": 3,
+    "label_correct": 2
+   }
+  },
+  "full_exposure_examples": [
+   {
+    "id": "amb-연준-person-1",
+    "word": "연준",
+    "group": "기관지역",
+    "text": "연준이 오늘 피아노 학원 다녀왔대",
+    "raw_prediction": [
+     "ORGANIZATION",
+     0.7528175711631775
+    ],
+    "final_masked": "연준이 오늘 피아노 학원 다녀왔대",
+    "cause": "오분류(ORGANIZATION)"
+   },
+   {
+    "id": "amb-새벽-person-2",
+    "word": "새벽",
+    "group": "자연계절",
+    "text": "어제 새벽한테 전화했는데 안 받더라",
+    "raw_prediction": null,
+    "final_masked": "어제 새벽한테 전화했는데 안 받더라",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-별-person-2",
+    "word": "별",
+    "group": "자연계절",
+    "text": "어제 별한테 전화했는데 안 받더라",
+    "raw_prediction": [
+     "PERSON",
+     0.8773483037948608
+    ],
+    "final_masked": "어제 별한테 전화했는데 안 받더라",
+    "cause": "후처리 제거(merge_ner)"
+   },
+   {
+    "id": "amb-별-person-3",
+    "word": "별",
+    "group": "자연계절",
+    "text": "우리 반에서 별이 제일 웃겨",
+    "raw_prediction": [
+     "PERSON",
+     0.47518327832221985
+    ],
+    "final_masked": "우리 반에서 별이 제일 웃겨",
+    "cause": "낮은 신뢰도"
+   },
+   {
+    "id": "amb-여름-person-2",
+    "word": "여름",
+    "group": "자연계절",
+    "text": "어제 여름한테 전화했는데 안 받더라",
+    "raw_prediction": null,
+    "final_masked": "어제 여름한테 전화했는데 안 받더라",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-여름-person-3",
+    "word": "여름",
+    "group": "자연계절",
+    "text": "우리 반에서 여름이 제일 웃겨",
+    "raw_prediction": null,
+    "final_masked": "우리 반에서 여름이 제일 웃겨",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-가을-person-2",
+    "word": "가을",
+    "group": "자연계절",
+    "text": "어제 가을한테 전화했는데 안 받더라",
+    "raw_prediction": null,
+    "final_masked": "어제 가을한테 전화했는데 안 받더라",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-가을-person-3",
+    "word": "가을",
+    "group": "자연계절",
+    "text": "우리 반에서 가을이 제일 웃겨",
+    "raw_prediction": null,
+    "final_masked": "우리 반에서 가을이 제일 웃겨",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-사랑-person-2",
+    "word": "사랑",
+    "group": "일상추상",
+    "text": "어제 사랑한테 전화했는데 안 받더라",
+    "raw_prediction": null,
+    "final_masked": "어제 사랑한테 전화했는데 안 받더라",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-하나-person-3",
+    "word": "하나",
+    "group": "일상추상",
+    "text": "우리 반에서 하나가 제일 웃겨",
+    "raw_prediction": null,
+    "final_masked": "우리 반에서 하나가 제일 웃겨",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-미소-person-3",
+    "word": "미소",
+    "group": "일상추상",
+    "text": "우리 반에서 미소가 제일 웃겨",
+    "raw_prediction": null,
+    "final_masked": "우리 반에서 미소가 제일 웃겨",
+    "cause": "후보 없음"
+   }
+  ],
+  "surname_subprobe": {
+   "total": 30,
+   "exact": 28,
+   "details": [
+    {
+     "word": "연준",
+     "text": "김연준이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "상원",
+     "text": "김상원이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "진주",
+     "text": "김진주가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "동해",
+     "text": "김동해가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "하늘",
+     "text": "김하늘이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "바다",
+     "text": "김바다가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "이슬",
+     "text": "김이슬이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "노을",
+     "text": "김노을이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "새벽",
+     "text": "김새벽이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "별",
+     "text": "김별이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "여름",
+     "text": "김여름이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "가을",
+     "text": "김가을이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "은하",
+     "text": "김은하가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "태양",
+     "text": "김태양이 오늘 피아노 학원 다녀왔대",
+     "exact": false
+    },
+    {
+     "word": "우주",
+     "text": "김우주가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "장미",
+     "text": "김장미가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "초원",
+     "text": "김초원이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "지수",
+     "text": "김지수가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "정원",
+     "text": "김정원이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "수정",
+     "text": "김수정이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "미래",
+     "text": "김미래가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "사랑",
+     "text": "김사랑이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "보라",
+     "text": "김보라가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "하나",
+     "text": "김하나가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "지혜",
+     "text": "김지혜가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "지성",
+     "text": "김지성이 오늘 피아노 학원 다녀왔대",
+     "exact": false
+    },
+    {
+     "word": "미소",
+     "text": "김미소가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "선율",
+     "text": "김선율이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "연수",
+     "text": "김연수가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "다정",
+     "text": "김다정이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    }
+   ]
+  }
+ },
+ "r1_s7": {
+  "fingerprint12": "c536eadeb5a1",
+  "person_recall_raw_by_group": {
+   "기관지역": {
+    "total": 12,
+    "correct": 11,
+    "rate": 0.9167
+   },
+   "자연계절": {
+    "total": 39,
+    "correct": 33,
+    "rate": 0.8462
+   },
+   "일상추상": {
+    "total": 39,
+    "correct": 32,
+    "rate": 0.8205
+   }
+  },
+  "person_recall_final_by_group": {
+   "기관지역": {
+    "total": 12,
+    "correct": 11,
+    "rate": 0.9167,
+    "완전노출": 1,
+    "완전노출률": 0.0833
+   },
+   "자연계절": {
+    "total": 39,
+    "correct": 31,
+    "rate": 0.7949,
+    "완전노출": 5,
+    "완전노출률": 0.1282
+   },
+   "일상추상": {
+    "total": 39,
+    "correct": 32,
+    "rate": 0.8205,
+    "완전노출": 3,
+    "완전노출률": 0.0769
+   }
+  },
+  "nonperson_fpr_by_group": {
+   "기관지역": {
+    "total": 12,
+    "flagged": 1,
+    "fpr": 0.0833
+   },
+   "자연계절": {
+    "total": 39,
+    "flagged": 8,
+    "fpr": 0.2051
+   },
+   "일상추상": {
+    "total": 39,
+    "flagged": 2,
+    "fpr": 0.0513
+   }
+  },
+  "failure_cause_by_group": {
+   "기관지역": {
+    "오분류(LOCATION)": 1
+   },
+   "자연계절": {
+    "후처리 제거(merge_ner)": 5,
+    "후보 없음": 3
+   },
+   "일상추상": {
+    "후처리 제거(merge_ner)": 4,
+    "후보 없음": 3
+   }
+  },
+  "org_loc_label_match": {
+   "연준": {
+    "total": 3,
+    "label_correct": 3
+   },
+   "상원": {
+    "total": 3,
+    "label_correct": 0
+   },
+   "진주": {
+    "total": 3,
+    "label_correct": 3
+   },
+   "동해": {
+    "total": 3,
+    "label_correct": 2
+   }
+  },
+  "full_exposure_examples": [
+   {
+    "id": "amb-진주-person-2",
+    "word": "진주",
+    "group": "기관지역",
+    "text": "어제 진주한테 전화했는데 안 받더라",
+    "raw_prediction": [
+     "LOCATION",
+     0.48185157775878906
+    ],
+    "final_masked": "어제 진주한테 전화했는데 안 받더라",
+    "cause": "오분류(LOCATION)"
+   },
+   {
+    "id": "amb-새벽-person-2",
+    "word": "새벽",
+    "group": "자연계절",
+    "text": "어제 새벽한테 전화했는데 안 받더라",
+    "raw_prediction": null,
+    "final_masked": "어제 새벽한테 전화했는데 안 받더라",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-별-person-2",
+    "word": "별",
+    "group": "자연계절",
+    "text": "어제 별한테 전화했는데 안 받더라",
+    "raw_prediction": [
+     "PERSON",
+     0.9481709599494934
+    ],
+    "final_masked": "어제 별한테 전화했는데 안 받더라",
+    "cause": "후처리 제거(merge_ner)"
+   },
+   {
+    "id": "amb-별-person-3",
+    "word": "별",
+    "group": "자연계절",
+    "text": "우리 반에서 별이 제일 웃겨",
+    "raw_prediction": [
+     "PERSON",
+     0.7684300541877747
+    ],
+    "final_masked": "우리 반에서 별이 제일 웃겨",
+    "cause": "후처리 제거(merge_ner)"
+   },
+   {
+    "id": "amb-여름-person-2",
+    "word": "여름",
+    "group": "자연계절",
+    "text": "어제 여름한테 전화했는데 안 받더라",
+    "raw_prediction": null,
+    "final_masked": "어제 여름한테 전화했는데 안 받더라",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-가을-person-2",
+    "word": "가을",
+    "group": "자연계절",
+    "text": "어제 가을한테 전화했는데 안 받더라",
+    "raw_prediction": null,
+    "final_masked": "어제 가을한테 전화했는데 안 받더라",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-사랑-person-2",
+    "word": "사랑",
+    "group": "일상추상",
+    "text": "어제 사랑한테 전화했는데 안 받더라",
+    "raw_prediction": null,
+    "final_masked": "어제 사랑한테 전화했는데 안 받더라",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-미소-person-2",
+    "word": "미소",
+    "group": "일상추상",
+    "text": "어제 미소한테 전화했는데 안 받더라",
+    "raw_prediction": null,
+    "final_masked": "어제 미소한테 전화했는데 안 받더라",
+    "cause": "후보 없음"
+   },
+   {
+    "id": "amb-미소-person-3",
+    "word": "미소",
+    "group": "일상추상",
+    "text": "우리 반에서 미소가 제일 웃겨",
+    "raw_prediction": null,
+    "final_masked": "우리 반에서 미소가 제일 웃겨",
+    "cause": "후보 없음"
+   }
+  ],
+  "surname_subprobe": {
+   "total": 30,
+   "exact": 28,
+   "details": [
+    {
+     "word": "연준",
+     "text": "김연준이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "상원",
+     "text": "김상원이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "진주",
+     "text": "김진주가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "동해",
+     "text": "김동해가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "하늘",
+     "text": "김하늘이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "바다",
+     "text": "김바다가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "이슬",
+     "text": "김이슬이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "노을",
+     "text": "김노을이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "새벽",
+     "text": "김새벽이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "별",
+     "text": "김별이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "여름",
+     "text": "김여름이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "가을",
+     "text": "김가을이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "은하",
+     "text": "김은하가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "태양",
+     "text": "김태양이 오늘 피아노 학원 다녀왔대",
+     "exact": false
+    },
+    {
+     "word": "우주",
+     "text": "김우주가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "장미",
+     "text": "김장미가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "초원",
+     "text": "김초원이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "지수",
+     "text": "김지수가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "정원",
+     "text": "김정원이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "수정",
+     "text": "김수정이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "미래",
+     "text": "김미래가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "사랑",
+     "text": "김사랑이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "보라",
+     "text": "김보라가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "하나",
+     "text": "김하나가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "지혜",
+     "text": "김지혜가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "지성",
+     "text": "김지성이 오늘 피아노 학원 다녀왔대",
+     "exact": false
+    },
+    {
+     "word": "미소",
+     "text": "김미소가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "선율",
+     "text": "김선율이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "연수",
+     "text": "김연수가 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    },
+    {
+     "word": "다정",
+     "text": "김다정이 오늘 피아노 학원 다녀왔대",
+     "exact": true
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,767 @@
+{
+  "model_file": "model.onnx",
+  "run_id": "r6-koelectra-small-klue10-s42",
+  "logits": {
+    "baseline_val": {
+      "max_abs_diff": 4.458427429199219e-05,
+      "tokens": 3089,
+      "argmax_mismatch_tokens": 0
+    },
+    "synth_val": {
+      "max_abs_diff": 6.73532485961914e-05,
+      "tokens": 15116,
+      "argmax_mismatch_tokens": 0
+    },
+    "edge": {
+      "max_abs_diff": 1.7017126083374023e-05,
+      "tokens": 131,
+      "argmax_mismatch_tokens": 0
+    },
+    "synth_val_padded_batch64": {
+      "max_abs_diff": 4.76837158203125e-06
+    }
+  },
+  "span_agreement": {
+    "baseline_val": {
+      "sentences": 180,
+      "reference": "torch(truncate128)",
+      "same_single": 180,
+      "same_batched": 180,
+      "rate_single": 1.0,
+      "rate_batched": 1.0,
+      "over_128_tokens": 4,
+      "torch_windowed_vs_truncated_same": 180
+    },
+    "synth_val": {
+      "sentences": 1289,
+      "reference": "torch(truncate128)",
+      "same_single": 1289,
+      "same_batched": 1289,
+      "rate_single": 1.0,
+      "rate_batched": 1.0,
+      "over_128_tokens": 0,
+      "torch_windowed_vs_truncated_same": 1289
+    },
+    "edge": {
+      "sentences": 10,
+      "reference": "torch(truncate128)",
+      "same_single": 10,
+      "same_batched": 10,
+      "rate_single": 1.0,
+      "rate_batched": 1.0,
+      "over_128_tokens": 0
+    },
+    "long": {
+      "sentences": 150,
+      "reference": "torch_windowed",
+      "same_single": 150,
+      "same_batched": 150,
+      "rate_single": 1.0,
+      "rate_batched": 1.0,
+      "over_128_tokens": 150
+    }
+  },
+  "tokenizer": {
+    "baseline_val": {
+      "sentences": 180,
+      "ids_match": 180,
+      "offsets_match": 180,
+      "ids_rate": 1.0,
+      "offsets_rate": 1.0,
+      "mismatch_examples": []
+    },
+    "synth_val": {
+      "sentences": 1289,
+      "ids_match": 1289,
+      "offsets_match": 1289,
+      "ids_rate": 1.0,
+      "offsets_rate": 1.0,
+      "mismatch_examples": []
+    },
+    "edge": {
+      "sentences": 10,
+      "ids_match": 10,
+      "offsets_match": 10,
+      "ids_rate": 1.0,
+      "offsets_rate": 1.0,
+      "mismatch_examples": []
+    },
+    "long": {
+      "sentences": 150,
+      "ids_match": 150,
+      "offsets_match": 150,
+      "ids_rate": 1.0,
+      "offsets_rate": 1.0,
+      "mismatch_examples": []
+    }
+  },
+  "metrics": {
+    "baseline_val": {
+      "sentences": 180,
+      "gold_spans": 76,
+      "overlap": {
+        "micro": {
+          "precision": 0.9157,
+          "recall": 1.0,
+          "f1": 0.956,
+          "tp": 76,
+          "fp": 7,
+          "fn": 0
+        },
+        "per_label": {
+          "PERSON": {
+            "precision": 0.8571,
+            "recall": 1.0,
+            "f1": 0.9231,
+            "tp": 36,
+            "fp": 6,
+            "fn": 0
+          },
+          "PERSON_ALIAS": {
+            "precision": 0.8889,
+            "recall": 1.0,
+            "f1": 0.9412,
+            "tp": 8,
+            "fp": 1,
+            "fn": 0
+          },
+          "ADDRESS": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "LOCATION": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0
+          },
+          "ORGANIZATION": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      "exact": {
+        "micro": {
+          "precision": 0.9036,
+          "recall": 0.9868,
+          "f1": 0.9434,
+          "tp": 75,
+          "fp": 8,
+          "fn": 1
+        },
+        "per_label": {
+          "PERSON": {
+            "precision": 0.8333,
+            "recall": 0.9722,
+            "f1": 0.8974,
+            "tp": 35,
+            "fp": 7,
+            "fn": 1
+          },
+          "PERSON_ALIAS": {
+            "precision": 0.8889,
+            "recall": 1.0,
+            "f1": 0.9412,
+            "tp": 8,
+            "fp": 1,
+            "fn": 0
+          },
+          "ADDRESS": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 16,
+            "fp": 0,
+            "fn": 0
+          },
+          "LOCATION": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0
+          },
+          "ORGANIZATION": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      "negative_sentences": 108,
+      "false_positive_sentences": 6,
+      "fpr": 0.0556,
+      "pytorch_same_set": {
+        "sentences": 180,
+        "gold_spans": 76,
+        "overlap": {
+          "micro": {
+            "precision": 0.9157,
+            "recall": 1.0,
+            "f1": 0.956,
+            "tp": 76,
+            "fp": 7,
+            "fn": 0
+          },
+          "per_label": {
+            "PERSON": {
+              "precision": 0.8571,
+              "recall": 1.0,
+              "f1": 0.9231,
+              "tp": 36,
+              "fp": 6,
+              "fn": 0
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.8889,
+              "recall": 1.0,
+              "f1": 0.9412,
+              "tp": 8,
+              "fp": 1,
+              "fn": 0
+            },
+            "ADDRESS": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "tp": 16,
+              "fp": 0,
+              "fn": 0
+            },
+            "LOCATION": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            },
+            "ORGANIZATION": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          }
+        },
+        "exact": {
+          "micro": {
+            "precision": 0.9036,
+            "recall": 0.9868,
+            "f1": 0.9434,
+            "tp": 75,
+            "fp": 8,
+            "fn": 1
+          },
+          "per_label": {
+            "PERSON": {
+              "precision": 0.8333,
+              "recall": 0.9722,
+              "f1": 0.8974,
+              "tp": 35,
+              "fp": 7,
+              "fn": 1
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.8889,
+              "recall": 1.0,
+              "f1": 0.9412,
+              "tp": 8,
+              "fp": 1,
+              "fn": 0
+            },
+            "ADDRESS": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "tp": 16,
+              "fp": 0,
+              "fn": 0
+            },
+            "LOCATION": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            },
+            "ORGANIZATION": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "tp": 8,
+              "fp": 0,
+              "fn": 0
+            }
+          }
+        },
+        "negative_sentences": 108,
+        "false_positive_sentences": 6,
+        "fpr": 0.0556
+      }
+    },
+    "synth_val": {
+      "sentences": 1289,
+      "gold_spans": 1174,
+      "overlap": {
+        "micro": {
+          "precision": 0.9576,
+          "recall": 0.9813,
+          "f1": 0.9693,
+          "tp": 1152,
+          "fp": 51,
+          "fn": 22
+        },
+        "per_label": {
+          "PERSON": {
+            "precision": 0.9586,
+            "recall": 0.9801,
+            "f1": 0.9692,
+            "tp": 394,
+            "fp": 17,
+            "fn": 8
+          },
+          "PERSON_ALIAS": {
+            "precision": 0.9947,
+            "recall": 0.935,
+            "f1": 0.9639,
+            "tp": 187,
+            "fp": 1,
+            "fn": 13
+          },
+          "ADDRESS": {
+            "precision": 0.99,
+            "recall": 0.995,
+            "f1": 0.9925,
+            "tp": 199,
+            "fp": 2,
+            "fn": 1
+          },
+          "LOCATION": {
+            "precision": 0.9671,
+            "recall": 1.0,
+            "f1": 0.9833,
+            "tp": 206,
+            "fp": 7,
+            "fn": 0
+          },
+          "ORGANIZATION": {
+            "precision": 0.8737,
+            "recall": 1.0,
+            "f1": 0.9326,
+            "tp": 166,
+            "fp": 24,
+            "fn": 0
+          }
+        }
+      },
+      "exact": {
+        "micro": {
+          "precision": 0.941,
+          "recall": 0.9642,
+          "f1": 0.9525,
+          "tp": 1132,
+          "fp": 71,
+          "fn": 42
+        },
+        "per_label": {
+          "PERSON": {
+            "precision": 0.9343,
+            "recall": 0.9552,
+            "f1": 0.9446,
+            "tp": 384,
+            "fp": 27,
+            "fn": 18
+          },
+          "PERSON_ALIAS": {
+            "precision": 0.984,
+            "recall": 0.925,
+            "f1": 0.9536,
+            "tp": 185,
+            "fp": 3,
+            "fn": 15
+          },
+          "ADDRESS": {
+            "precision": 0.9552,
+            "recall": 0.96,
+            "f1": 0.9576,
+            "tp": 192,
+            "fp": 9,
+            "fn": 8
+          },
+          "LOCATION": {
+            "precision": 0.9671,
+            "recall": 1.0,
+            "f1": 0.9833,
+            "tp": 206,
+            "fp": 7,
+            "fn": 0
+          },
+          "ORGANIZATION": {
+            "precision": 0.8684,
+            "recall": 0.994,
+            "f1": 0.927,
+            "tp": 165,
+            "fp": 25,
+            "fn": 1
+          }
+        }
+      },
+      "negative_sentences": 275,
+      "false_positive_sentences": 22,
+      "fpr": 0.08,
+      "pytorch_same_set": {
+        "sentences": 1289,
+        "gold_spans": 1174,
+        "overlap": {
+          "micro": {
+            "precision": 0.9576,
+            "recall": 0.9813,
+            "f1": 0.9693,
+            "tp": 1152,
+            "fp": 51,
+            "fn": 22
+          },
+          "per_label": {
+            "PERSON": {
+              "precision": 0.9586,
+              "recall": 0.9801,
+              "f1": 0.9692,
+              "tp": 394,
+              "fp": 17,
+              "fn": 8
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.9947,
+              "recall": 0.935,
+              "f1": 0.9639,
+              "tp": 187,
+              "fp": 1,
+              "fn": 13
+            },
+            "ADDRESS": {
+              "precision": 0.99,
+              "recall": 0.995,
+              "f1": 0.9925,
+              "tp": 199,
+              "fp": 2,
+              "fn": 1
+            },
+            "LOCATION": {
+              "precision": 0.9671,
+              "recall": 1.0,
+              "f1": 0.9833,
+              "tp": 206,
+              "fp": 7,
+              "fn": 0
+            },
+            "ORGANIZATION": {
+              "precision": 0.8737,
+              "recall": 1.0,
+              "f1": 0.9326,
+              "tp": 166,
+              "fp": 24,
+              "fn": 0
+            }
+          }
+        },
+        "exact": {
+          "micro": {
+            "precision": 0.941,
+            "recall": 0.9642,
+            "f1": 0.9525,
+            "tp": 1132,
+            "fp": 71,
+            "fn": 42
+          },
+          "per_label": {
+            "PERSON": {
+              "precision": 0.9343,
+              "recall": 0.9552,
+              "f1": 0.9446,
+              "tp": 384,
+              "fp": 27,
+              "fn": 18
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.984,
+              "recall": 0.925,
+              "f1": 0.9536,
+              "tp": 185,
+              "fp": 3,
+              "fn": 15
+            },
+            "ADDRESS": {
+              "precision": 0.9552,
+              "recall": 0.96,
+              "f1": 0.9576,
+              "tp": 192,
+              "fp": 9,
+              "fn": 8
+            },
+            "LOCATION": {
+              "precision": 0.9671,
+              "recall": 1.0,
+              "f1": 0.9833,
+              "tp": 206,
+              "fp": 7,
+              "fn": 0
+            },
+            "ORGANIZATION": {
+              "precision": 0.8684,
+              "recall": 0.994,
+              "f1": 0.927,
+              "tp": 165,
+              "fp": 25,
+              "fn": 1
+            }
+          }
+        },
+        "negative_sentences": 275,
+        "false_positive_sentences": 22,
+        "fpr": 0.08
+      }
+    },
+    "long": {
+      "sentences": 150,
+      "gold_spans": 3747,
+      "overlap": {
+        "micro": {
+          "precision": 0.8884,
+          "recall": 0.9287,
+          "f1": 0.9081,
+          "tp": 3480,
+          "fp": 437,
+          "fn": 267
+        },
+        "per_label": {
+          "PERSON": {
+            "precision": 0.8802,
+            "recall": 0.8614,
+            "f1": 0.8707,
+            "tp": 1131,
+            "fp": 154,
+            "fn": 182
+          },
+          "PERSON_ALIAS": {
+            "precision": 0.9417,
+            "recall": 0.9054,
+            "f1": 0.9232,
+            "tp": 565,
+            "fp": 35,
+            "fn": 59
+          },
+          "ADDRESS": {
+            "precision": 0.9227,
+            "recall": 0.9954,
+            "f1": 0.9577,
+            "tp": 645,
+            "fp": 54,
+            "fn": 3
+          },
+          "LOCATION": {
+            "precision": 0.8883,
+            "recall": 0.9672,
+            "f1": 0.9261,
+            "tp": 620,
+            "fp": 78,
+            "fn": 21
+          },
+          "ORGANIZATION": {
+            "precision": 0.8173,
+            "recall": 0.9962,
+            "f1": 0.8979,
+            "tp": 519,
+            "fp": 116,
+            "fn": 2
+          }
+        }
+      },
+      "exact": {
+        "micro": {
+          "precision": 0.8397,
+          "recall": 0.8778,
+          "f1": 0.8583,
+          "tp": 3289,
+          "fp": 628,
+          "fn": 458
+        },
+        "per_label": {
+          "PERSON": {
+            "precision": 0.8436,
+            "recall": 0.8256,
+            "f1": 0.8345,
+            "tp": 1084,
+            "fp": 201,
+            "fn": 229
+          },
+          "PERSON_ALIAS": {
+            "precision": 0.83,
+            "recall": 0.7981,
+            "f1": 0.8137,
+            "tp": 498,
+            "fp": 102,
+            "fn": 126
+          },
+          "ADDRESS": {
+            "precision": 0.8798,
+            "recall": 0.9491,
+            "f1": 0.9131,
+            "tp": 615,
+            "fp": 84,
+            "fn": 33
+          },
+          "LOCATION": {
+            "precision": 0.8711,
+            "recall": 0.9485,
+            "f1": 0.9081,
+            "tp": 608,
+            "fp": 90,
+            "fn": 33
+          },
+          "ORGANIZATION": {
+            "precision": 0.7622,
+            "recall": 0.929,
+            "f1": 0.8374,
+            "tp": 484,
+            "fp": 151,
+            "fn": 37
+          }
+        }
+      },
+      "negative_sentences": 0,
+      "false_positive_sentences": 0,
+      "fpr": 0.0,
+      "pytorch_same_set": {
+        "sentences": 150,
+        "gold_spans": 3747,
+        "overlap": {
+          "micro": {
+            "precision": 0.8884,
+            "recall": 0.9287,
+            "f1": 0.9081,
+            "tp": 3480,
+            "fp": 437,
+            "fn": 267
+          },
+          "per_label": {
+            "PERSON": {
+              "precision": 0.8802,
+              "recall": 0.8614,
+              "f1": 0.8707,
+              "tp": 1131,
+              "fp": 154,
+              "fn": 182
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.9417,
+              "recall": 0.9054,
+              "f1": 0.9232,
+              "tp": 565,
+              "fp": 35,
+              "fn": 59
+            },
+            "ADDRESS": {
+              "precision": 0.9227,
+              "recall": 0.9954,
+              "f1": 0.9577,
+              "tp": 645,
+              "fp": 54,
+              "fn": 3
+            },
+            "LOCATION": {
+              "precision": 0.8883,
+              "recall": 0.9672,
+              "f1": 0.9261,
+              "tp": 620,
+              "fp": 78,
+              "fn": 21
+            },
+            "ORGANIZATION": {
+              "precision": 0.8173,
+              "recall": 0.9962,
+              "f1": 0.8979,
+              "tp": 519,
+              "fp": 116,
+              "fn": 2
+            }
+          }
+        },
+        "exact": {
+          "micro": {
+            "precision": 0.8397,
+            "recall": 0.8778,
+            "f1": 0.8583,
+            "tp": 3289,
+            "fp": 628,
+            "fn": 458
+          },
+          "per_label": {
+            "PERSON": {
+              "precision": 0.8436,
+              "recall": 0.8256,
+              "f1": 0.8345,
+              "tp": 1084,
+              "fp": 201,
+              "fn": 229
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.83,
+              "recall": 0.7981,
+              "f1": 0.8137,
+              "tp": 498,
+              "fp": 102,
+              "fn": 126
+            },
+            "ADDRESS": {
+              "precision": 0.8798,
+              "recall": 0.9491,
+              "f1": 0.9131,
+              "tp": 615,
+              "fp": 84,
+              "fn": 33
+            },
+            "LOCATION": {
+              "precision": 0.8711,
+              "recall": 0.9485,
+              "f1": 0.9081,
+              "tp": 608,
+              "fp": 90,
+              "fn": 33
+            },
+            "ORGANIZATION": {
+              "precision": 0.7622,
+              "recall": 0.929,
+              "f1": 0.8374,
+              "tp": 484,
+              "fp": 151,
+              "fn": 37
+            }
+          }
+        },
+        "negative_sentences": 0,
+        "false_positive_sentences": 0,
+        "fpr": 0.0
+      }
+    }
+  },
+  "disagreements": []
+}

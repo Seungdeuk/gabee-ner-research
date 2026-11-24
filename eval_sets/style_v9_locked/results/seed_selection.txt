@@ -1,0 +1,5 @@
+seed=42 exact_f1=0.9494 overlap_f1=0.9620 fpr=0.0463
+seed=7 exact_f1=0.9494 overlap_f1=0.9620 fpr=0.0556
+seed=99 exact_f1=0.9427 overlap_f1=0.9682 fpr=0.0463
+seed=21 exact_f1=0.9231 overlap_f1=0.9487 fpr=0.0556
+seed=13 exact_f1=0.9136 overlap_f1=0.9383 fpr=0.0741

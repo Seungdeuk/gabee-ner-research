@@ -1,0 +1,54 @@
+{
+ "values": {
+  "token_agreement_pct": 100.0,
+  "latency_p50_ratio": 1.0227508746785055,
+  "latency_p95_ratio(report)": 1.0279652036526599,
+  "latency_mean_ratio(report)": 1.0217680178122324,
+  "size_ratio": 1.0,
+  "rss_ratio": 0.995295698924731
+ },
+ "pass_by_item": {
+  "parity": true,
+  "latency_p50": true,
+  "size": true,
+  "rss": true
+ },
+ "G12": true,
+ "label": "C-SWA-s21",
+ "limits": {
+  "token_agreement_pct_min": 99.9,
+  "latency_ratio_max": 1.3,
+  "size_ratio_max": 1.3,
+  "rss_ratio_max": 1.3
+ },
+ "order": [
+  "s0",
+  "cand",
+  "cand",
+  "s0",
+  "s0",
+  "cand"
+ ],
+ "s0": {
+  "p50_ms": 4.718500014860183,
+  "p95_ms": 6.835280006635003,
+  "mean_ms": 4.902559332161521,
+  "model_size_mb": 53.839,
+  "rss_mb_after": 148.8
+ },
+ "cand": {
+  "p50_ms": 4.8258500173687935,
+  "p95_ms": 7.026430004043505,
+  "mean_ms": 5.009278331029539,
+  "model_size_mb": 53.839,
+  "rss_mb_after": 148.1
+ },
+ "cpu_percent_before_each_run": [
+  20.0,
+  30.4,
+  29.0,
+  34.5,
+  30.1,
+  28.7
+ ]
+}

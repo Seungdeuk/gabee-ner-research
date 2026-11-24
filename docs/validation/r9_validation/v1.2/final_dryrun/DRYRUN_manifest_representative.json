@@ -1,0 +1,91 @@
+{
+ "dataset": "r9_representative_v1.2.jsonl",
+ "set_kind": "representative",
+ "rows": 1600,
+ "sha256": "110cceef97381a71125a96e1c08f4396878ce41d3676a57d938d464d2d313039",
+ "validator_version": "r9-1.1",
+ "spec_version": "r9-1.1",
+ "validated_at": "2026-11-19T08:46:18.882865+00:00",
+ "errors_total": 0,
+ "errors": {},
+ "warnings": {
+  "UNLABELED_KNOWN_NAME_LEN2": 56
+ },
+ "info": {
+  "rows_total": 1600,
+  "rows_excluded": 0,
+  "excluded_reasons": {},
+  "sentences": 1600,
+  "person_sentences": 950,
+  "other_only_sentences": 250,
+  "negative_sentences": 400,
+  "person_spans": 1098,
+  "person_alias_spans": 95,
+  "labels": {
+   "EMAIL": 62,
+   "PERSON_ALIAS": 95,
+   "PERSON": 1003,
+   "PHONE": 63,
+   "ADDRESS": 63,
+   "ACCOUNT": 62
+  },
+  "person_len_dist": {
+   "2": 382,
+   "3": 607,
+   "4": 108,
+   "5": 1
+  },
+  "multi_person_sentences": 148,
+  "distinct_person_values": 1098,
+  "distinct_ratio": 1.0,
+  "max_person_value_reuse": 1,
+  "values_reused_over_4": 0,
+  "categories": {
+   "가족 안부·심부름": 240,
+   "정산·돈·구매": 192,
+   "학교·학원": 320,
+   "병원·건강": 128,
+   "잡담·감정": 224,
+   "여행·이동·집 방문": 128,
+   "일정·약속": 240,
+   "사진·영상 공유": 128
+  },
+  "styles": {
+   "존댓말대화": 147,
+   "반말대화": 937,
+   "초단답": 166,
+   "메모·정리": 148,
+   "안내문복사": 202
+  },
+  "length_chars": {
+   "min": 10,
+   "max": 117,
+   "mean": 50.9
+  },
+  "kin_adjacent_person_sentences": 95,
+  "negatives_with_kin_term": 40,
+  "person_2char_share_pct": 34.8,
+  "alias_share_pct": 8.7,
+  "targets": {
+   "total": 1600,
+   "person_sentences": 950,
+   "other_only_sentences": 250,
+   "negative_sentences": 400
+  },
+  "within_set": {
+   "skeleton_distinct": 1599,
+   "rows_with_skeleton_repeated_over_2": 0,
+   "rows_with_near_duplicate_partner": 0,
+   "near_duplicate_share": 0.0
+  },
+  "reference": {
+   "files": 48,
+   "rows": 48602,
+   "sentence_equal_rows": 0,
+   "skeleton_equal_rows": 0,
+   "skeleton_similar_rows": 0,
+   "rows_with_name_seen_in_reference": 198,
+   "name_seen_share": 0.1237
+  }
+ }
+}

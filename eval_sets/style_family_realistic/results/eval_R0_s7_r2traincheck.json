@@ -1,0 +1,64 @@
+{
+ "mode": "v5-koelectra-small-klue10msg-s7",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "c09df531418f"
+ },
+ "ner_only": false,
+ "categories": {
+  "nickname_train_check": {
+   "spans": 36,
+   "full": 24,
+   "partial": 0,
+   "none": 12,
+   "extra": 0,
+   "sentences": 36,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "람이 사진 좀 보내줘",
+     "람이"
+    ],
+    [
+     "none",
+     "할머니가 람이 많이 보고싶어하셨어",
+     "람이"
+    ],
+    [
+     "none",
+     "할머니가 율이 많이 보고싶어하셨어",
+     "율이"
+    ],
+    [
+     "none",
+     "할머니가 민이 많이 보고싶어하셨어",
+     "민이"
+    ],
+    [
+     "none",
+     "할머니가 현이 많이 보고싶어하셨어",
+     "현이"
+    ],
+    [
+     "none",
+     "할머니가 솔이 많이 보고싶어하셨어",
+     "솔이"
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 36,
+  "full": 24,
+  "partial": 0,
+  "none": 12,
+  "extra": 0
+ },
+ "latency_100chars": {
+  "median_ms": 0.189,
+  "p95_ms": 13.111,
+  "n": 100
+ }
+}

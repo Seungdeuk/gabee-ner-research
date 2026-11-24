@@ -1,0 +1,230 @@
+{
+  "version": "ops-1.0",
+  "status": "FINAL — 사용자 승인(2026-11-23)으로 사전 등록 확정(태그 r11-ops-prereg-1.0). 태그 생성 뒤 임계값·정의·판정 논리 변경 금지.",
+  "label": "자동 검증 기반 연구용 · 사람 검수 미완료 — 운영 교체 평가는 연구 게이트(R11-G1~G12, R11-S)와 별개",
+  "comparison": {
+    "A": "S0 koelectra-small-v2b (현재 서비스)",
+    "B": "R11 B-new seed 21 (에폭 5)",
+    "paired": true
+  },
+  "statistics": {
+    "method": "문장 단위 쌍체 군집 부트스트랩(군집 = pair_id 가 있으면 쌍, 없으면 문장), 모델 A·B 는 같은 재표본을 쓴다",
+    "resamples": 5000,
+    "seed": 20261123,
+    "interval": "95% percentile(2.5%, 97.5%)",
+    "difference": "B - A (%p), 상대 변화율은 (B-A)/A",
+    "one_sided_use": "상한/하한 조건은 양측 95% 구간의 해당 끝점으로 판정한다(단측 97.5% 에 해당)",
+    "multiple_comparisons": "유형별 검사(P6 6개, P7 최대 5개)는 보정하지 않고 모두 통과해야 한다(보수적)",
+    "boundaries": "비교는 반올림 없이 원 값(%p)으로 하며 '이하·이상·≥·≤' 는 경계 포함, '초과·미만·>·<' 는 경계 제외, 부동소수 오차 허용치 1e-9. 연구 게이트의 소수 둘째 자리 반올림 규칙은 쓰지 않는다"
+  },
+  "definitions": {
+    "gold_unit": "PERSON·PERSON_ALIAS 정답 구간(span). 분모는 모두 평가셋에서 제외 처리(exclude, 쌍의 한쪽 제외 시 쌍 전체)를 두 모델에 동일하게 적용한 뒤의 개수",
+    "type": "행의 primary_stress_type(문장당 1개). stress_types 의 보조 유형은 쓰지 않는다",
+    "exact_recall": "예측 구간이 정답과 (start,end) 완전 일치한 정답 구간 수 / 정답 구간 수",
+    "total_exposure": "(부분 노출 + 완전 노출) 정답 구간 수 / 정답 구간 수. 경계만 틀리지만 글자가 전부 가려진 구간(boundary_only)은 노출이 아니다",
+    "type_exposure": "그 type 행들의 정답 구간 중 노출 구간 수 / 그 type 행들의 정답 구간 수",
+    "precision_official": "정답 PERSON 이 있는 문장의 예측만 세는 공식 Precision(r11_eval_lib 정의 그대로)",
+    "precision_all": "정답 없는 문장의 예측 오탐까지 센 전체 Precision",
+    "prediction": "detect_with_ner(text, ()) 의 PERSON 구간(등록 이름 사전 없음). 두 모델 모두 같은 규칙·병합·후처리 코드",
+    "negative_rows": "정답 PERSON 이 없는 행(오탐 판정 대상)"
+  },
+  "dataset_validity_minimums": {
+    "gold_spans_per_P6_type_min": 100,
+    "D1_noun_sentences_min": 250,
+    "rule": "다음 중 하나면 INVALID_DATASET 으로 평가를 시작하지 않는다(EVALUATED.lock 도 만들지 않음): P6 유형 정답 구간 <100, D1 명사 문장 <250, P7 유형(A1·A3·B2·C1·D3) 정답 구간 0, 허용 목록 밖 유형이 있거나 허용 목록 유형이 비어 있음. 평가셋을 보강해 새 봉인으로 다시 시도해야 하며 이때도 기준은 바뀌지 않는다",
+    "P7_type_min_gold_for_ci": 50,
+    "P7_types_min_gold_any": 1,
+    "allowed_types": [
+      "A1",
+      "A3",
+      "B1",
+      "B2",
+      "C1",
+      "C2",
+      "D1",
+      "D1P",
+      "D2",
+      "D3",
+      "A3N",
+      "GENERIC",
+      "OTHER",
+      "NEWNAME",
+      "LONGNAME",
+      "ORGLOC_MIX"
+    ]
+  },
+  "primary_checks": {
+    "P1_recall": {
+      "metric": "exact_recall",
+      "population": "전체 정답 구간",
+      "delta_pp_min": 10.0,
+      "ci_lower_pp_gt": 5.0
+    },
+    "P2_total_exposure": {
+      "metric": "total_exposure_rate",
+      "population": "전체 정답 구간",
+      "delta_pp_max": -8.0,
+      "ci_upper_pp_lt": -4.0
+    },
+    "P3_f1_official": {
+      "metric": "f1_official",
+      "population": "전체",
+      "delta_pp_min": 8.0,
+      "ci_lower_pp_gt": 0.0
+    },
+    "P4_precision_all_noninferior": {
+      "metric": "precision_all",
+      "population": "전체(정답 없는 문장 포함)",
+      "delta_pp_min": -3.0,
+      "ci_lower_pp_ge": -6.0
+    },
+    "P5_negative_fpr": {
+      "metric": "neg_fpr_macro",
+      "population": "음성 유형 A3N·D2·GENERIC·OTHER 의 유형별 오탐률(예측이 1개 이상인 문장 비율)의 단순 평균, D1 은 제외(P8 에서 따로 판정)",
+      "neg_types": [
+        "A3N",
+        "D2",
+        "GENERIC",
+        "OTHER"
+      ],
+      "absolute_max": 0.06,
+      "absolute_applies_to": "B 모델",
+      "delta_pp_max": 2.0,
+      "ci_upper_pp_le": 4.0
+    },
+    "P6_target_types_exposure": {
+      "types": [
+        "D1P",
+        "B1",
+        "C2",
+        "NEWNAME",
+        "LONGNAME",
+        "ORGLOC_MIX"
+      ],
+      "population": "각 type 행의 정답 구간(분모 100 이상 필수)",
+      "delta_pp_max": 1.0,
+      "ci_upper_pp_le": 3.0,
+      "rule": "6개 모두 충족"
+    },
+    "P7_regression_types_exposure": {
+      "types": [
+        "A1",
+        "A3",
+        "B2",
+        "C1",
+        "D3"
+      ],
+      "population": "각 type 행의 정답 구간(제외 처리 후)",
+      "delta_pp_max": 2.0,
+      "ci_upper_pp_le": 5.0,
+      "min_gold_spans_for_ci": 50,
+      "small_type_point_delta_pp_max": 5.0,
+      "denominator_rules": "정답 구간 ≥50: 점추정(≤+2.0pp)과 구간 상한(≤+5.0pp) 모두 충족. 1~49: 점추정만 ≤+5.0pp(구간 미사용). 0 또는 유형 없음: INVALID_DATASET(평가 시작 안 함). 이 규칙은 INVALID_DATASET 조건(P6 유형 <100, D1 <250, P7 유형 0, 허용 목록 밖 유형)과 겹치지 않는다: 1~49 는 평가 가능한 경우로 점추정 규칙만 적용한다",
+      "rule": "5개 유형 모두 충족"
+    },
+    "P8_D1_noun_fpr": {
+      "metric": "D1_fpr",
+      "population": "D1 명사 문장(role=noun, type=D1) 전체, 250 이상",
+      "definition": "최종 예측에 PERSON 구간이 1개 이상인 문장 비율",
+      "absolute_max": 0.5015,
+      "absolute_applies_to": "B 모델",
+      "delta_pp_max": 10.0,
+      "ci_upper_pp_le": 15.0
+    },
+    "P9_pair_context_accuracy": {
+      "metric": "pair_context_accuracy",
+      "population": "사람 문장·명사 문장이 모두 남은 쌍(pair_id)",
+      "definition": "사람 문장의 정답 구간이 모두 가려지고(boundary_only 허용) 명사 문장에는 PERSON 예측이 없으면 정답 쌍",
+      "delta_pp_min": 0.0,
+      "absolute_min": 0.235,
+      "absolute_applies_to": "B 모델",
+      "interval": "95% 신뢰구간은 보고만 하고 판정에는 쓰지 않는다. 독립 평가 뒤 조건을 추가하거나 바꾸지 않는다(사용자 확정 2026-11-23)"
+    }
+  },
+  "secondary_checks": {
+    "S1_klue_val_f1": {
+      "population": "KLUE val 고정 파일 data_r9/klue_val.jsonl(해시는 r11_reference_baselines.json 의 eval_sets.klue_val)",
+      "metric": "공식 채점 lib.score_rows 의 prf.f1(최종 예측 경로)",
+      "delta_pp_min": -1.0,
+      "absolute_min": 0.6854,
+      "absolute_applies_to": "B 모델",
+      "interval": "점추정으로 판정(독립 평가셋과 무관한 공개 데이터)"
+    },
+    "S2_g12_onnx_cpu": {
+      "procedure": "apps/api/scripts/g12_r11.py(고정 문장 1,000개 토큰 일치, S0·후보 교대 CPU 지연 측정, 중앙값 집계)",
+      "parity_min_pct": 99.9,
+      "p50_ratio_max": 1.3,
+      "size_ratio_max": 1.3,
+      "rss_ratio_max": 1.3,
+      "S2a": "개발(평가) PC 측정. seed 21 은 연구 단계에서 통과: 토큰 일치 100%, p50 1.06배, 크기 1.00배, RSS 1.00배",
+      "S2b": {
+        "status": "UNVERIFIED(운영 환경 확인 전)",
+        "procedure": "운영 담당자가 알려준 CPU·메모리 제한, ONNX Runtime 버전, 추론 스레드(PRIVACY_NER_THREADS), 요청 동시성(PRIVACY_NER_MAX_CONCURRENCY), Docker 구성을 같은 조건으로 재현한 환경에서 S0 와 R11 을 교대로 측정(g12_r11.py 절차)",
+        "criteria": "토큰 일치 ≥99.9%, p50 지연·모델 크기·RSS 모두 S0 대비 +30% 이내",
+        "rule": "S2a(개발 PC) 통과를 S2b 통과로 간주하지 않는다. 운영 환경 정보 확인 전에는 UNVERIFIED 로 기록하고 운영 교체를 승인하지 않는다"
+      }
+    },
+    "S3_pipeline_offline": {
+      "population": "합성 문장·가짜 전송 계층만 사용(실제 개인정보·가족 채팅 원문 미사용). A·B 두 모델 각각에 같은 검사를 적용",
+      "S3-1": "실모델 스모크: GABEE_NER_TEST_MODEL_DIR=<모델 폴더> 로 test_ner.py 전체가 통과(실모델 시험 3건 포함, 실패 0)",
+      "S3-2": "fail-closed(required): 모델 없음·해시 불일치·타임아웃·추론 오류에서 PrivacyUnavailable(503)이 나고 가짜 외부 호출 횟수 0",
+      "S3-3": "왕복: diag_roundtrip.py 합성 데이터에서 가명화한 외부 전송 본문에 정답 이름이 0건 남고, 복원 결과가 원문과 일치",
+      "S3-4": "요청 본문 누출: eval_workflows.py 가짜 httpx.post 캡처 본문에 등록 이름·합성 주민번호·카드·계좌 원문 0건",
+      "S3-5": "도구 결과 복원·재가명화: family_chat 에이전트 경로 시험에서 도구 결과가 가명화되고 최종 답에서만 복원",
+      "S3-6": "라벨 매핑: labels.json 이 두 모델에서 동일하고 LABEL_TO_KIND 로 PERSON·PERSON_ALIAS·ADDRESS 가 모두 매핑",
+      "S3-7": "모델 교체 전후 쌍체 비교: compare_two_models.py 로 NER 로딩 성공, 합성 코퍼스에서 스팬 차이 집계(판정은 P1~P9, 여기서는 오류 0만 확인)",
+      "rule": "모두 통과해야 한다. 하나라도 실패하면 S3 미충족"
+    }
+  },
+  "deployment_readiness_S4": {
+    "note": "모델 평가 판정과 별도의 운영 승인 조건. 하나라도 확인하지 못하면 '운영 교체 승인 조건 미충족'으로 보고한다(모델 평가가 통과했더라도 교체하지 않는다)",
+    "items": [
+      "S4-1 운영 S0 ONNX 실제 SHA256 이 46210943c45f01b6a9fa500894fb9821b1c130be63de8d8f7ef603d2d87ccf8e",
+      "S4-2 운영 PRIVACY_NER_MODE 실제 값이 required (auto 이면 미충족: 모델 로딩 실패 시 규칙만으로 외부 전송)",
+      "S4-3 required 에서 NER 로딩 실패 시 외부 LLM 호출 0건을 운영과 같은 구성에서 확인",
+      "S4-4 규칙·등록 이름·NER·스팬 병합 통합 경로가 운영에서 동작(ner_status 지문 확인)",
+      "S4-5 운영 이미지 재빌드·롤백 절차(이전 이미지 태그 보존)가 문서화되고 시험됨",
+      "S4-6 S2b 운영 환경 정보(CPU·메모리 제한, ONNX Runtime 버전, 추론 스레드, 요청 동시성, Docker 구성) 확인과 같은 조건 재측정 통과"
+    ]
+  },
+  "verdict": {
+    "REPLACEMENT_CANDIDATE": "P1~P9, S1~S3(S2a·S2b 포함) 모두 충족. 운영 반영은 S4 충족과 사용자의 별도 최종 승인이 있어야 하며 R11-S 미충족·사람 검수 미완료 위험은 계속 표기한다",
+    "KEEP_S0": "P1~P9 중 하나라도 미충족(구간이 기준을 가로지르면 미충족). 임계값을 바꾸거나 다른 시드·후보로 재평가하지 않는다",
+    "INVALID_DATASET": "평가셋 최소 분모 미달. 평가하지 않는다",
+    "OPS_NOT_READY": "모델 평가(P1~P9, S1~S3)는 통과했으나 S2b 미검증 또는 S4 미확인·미충족: 운영 교체 승인 조건 미충족"
+  },
+  "rules": [
+    "결과를 본 뒤 임계값·통계 방법·정의를 바꾸지 않는다",
+    "독립 평가는 모델당 1회, EVALUATED.lock 으로 재실행을 막는다",
+    "S0 와 B 는 같은 입력·정답·평가 코드·후처리·병합 규칙을 쓴다",
+    "R9 독립 테스트는 회귀 참고용이며 이 평가 결과와 섞지 않는다",
+    "사람 검수 미완료: 평가셋 라벨 오류는 구간에 반영되지 않으며 결과 해석의 한계로 매번 표기한다"
+  ],
+  "supplementary_analysis": {
+    "S1600_regression_weighted": {
+      "label": "보조 분석(공식 P1~P9 판정에 쓰지 않음). 회귀 유형 비중을 높인 1,600문장 부분집합이며 자연 분포 대표 세트가 아니다",
+      "why_not_natural_representative": "R9 대표 세트의 구성(사람 950 / 기타만 250 / 없음 400)을 2,350문장 안에서 재현할 수 없다(스트레스 세트의 기타만 문장은 50개뿐). 그래서 '대표'라는 이름을 쓰지 않는다",
+      "selection": "평가셋 도착 전에 규칙으로 고정: 유형별 행을 SHA256('r11-ops-subset-1.0|' + id)(쌍 유형은 pair_id) 오름차순으로 정렬해 앞에서 quota 만큼 선택(쌍 유형은 쌍 단위로 선택해 두 문장을 함께 포함). 평가 후 재선정 금지",
+      "quota_rows": {
+        "A1": 150,
+        "A3": 100,
+        "B2": 80,
+        "C1": 100,
+        "D3": 100,
+        "D2": 100,
+        "A3N": 60,
+        "GENERIC": 40,
+        "OTHER": 50,
+        "B1": 100,
+        "C2": 100,
+        "NEWNAME": 150,
+        "LONGNAME": 60,
+        "ORGLOC_MIX": 50,
+        "D1P_D1_pair_rows": 360
+      },
+      "total_rows": 1600,
+      "report": "P1~P5·P8~P9 와 같은 지표·같은 쌍체 군집 부트스트랩 구간을 보고만 한다(판정 없음)",
+      "if_unavailable": "제외 처리 뒤 어느 유형이 quota 보다 적으면 보조 분석을 생략하고 사유를 기록한다(공식 판정에 영향 없음)"
+    }
+  }
+}

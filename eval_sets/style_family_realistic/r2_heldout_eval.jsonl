@@ -1,0 +1,25 @@
+{"id": "r2-ho-0001", "category": "nickname_holdout", "text": "윤이 요즘 많이 먹어서 그런지 쑥쑥 크더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0002", "category": "nickname_holdout", "text": "환이 요즘 많이 먹어서 그런지 쑥쑥 크더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0003", "category": "nickname_holdout", "text": "겸이 요즘 많이 먹어서 그런지 쑥쑥 크더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0004", "category": "nickname_holdout", "text": "혁이 요즘 많이 먹어서 그런지 쑥쑥 크더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0005", "category": "nickname_holdout", "text": "윤이가 어린이집 선생님이 칭찬했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0006", "category": "nickname_holdout", "text": "환이가 어린이집 선생님이 칭찬했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0007", "category": "nickname_holdout", "text": "겸이가 어린이집 선생님이 칭찬했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0008", "category": "nickname_holdout", "text": "혁이가 어린이집 선생님이 칭찬했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0009", "category": "nickname_holdout", "text": "삼촌이 윤이 데리고 공원 갔대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0010", "category": "nickname_holdout", "text": "삼촌이 환이 데리고 공원 갔대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0011", "category": "nickname_holdout", "text": "삼촌이 겸이 데리고 공원 갔대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0012", "category": "nickname_holdout", "text": "삼촌이 혁이 데리고 공원 갔대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0013", "category": "nickname_holdout", "text": "윤이 밤에 잠투정 심하게 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0014", "category": "nickname_holdout", "text": "환이 밤에 잠투정 심하게 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0015", "category": "nickname_holdout", "text": "겸이 밤에 잠투정 심하게 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0016", "category": "nickname_holdout", "text": "혁이 밤에 잠투정 심하게 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0017", "category": "nickname_holdout", "text": "윤이가 요즘 말이 많이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0018", "category": "nickname_holdout", "text": "환이가 요즘 말이 많이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0019", "category": "nickname_holdout", "text": "겸이가 요즘 말이 많이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0020", "category": "nickname_holdout", "text": "혁이가 요즘 말이 많이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_holdout"}
+{"id": "r2-ho-0021", "category": "nickname_holdout_neg", "text": "숨이 차올랐어", "spans": [], "known_names": [], "template_id": "nickname_holdout_neg"}
+{"id": "r2-ho-0022", "category": "nickname_holdout_neg", "text": "달이 밝더라", "spans": [], "known_names": [], "template_id": "nickname_holdout_neg"}
+{"id": "r2-ho-0023", "category": "nickname_holdout_neg", "text": "손이 차가워", "spans": [], "known_names": [], "template_id": "nickname_holdout_neg"}
+{"id": "r2-ho-0024", "category": "nickname_holdout_neg", "text": "술이 좀 과했나봐", "spans": [], "known_names": [], "template_id": "nickname_holdout_neg"}
+{"id": "r2-ho-0025", "category": "nickname_holdout_neg", "text": "상이 비뚤어졌어", "spans": [], "known_names": [], "template_id": "nickname_holdout_neg"}

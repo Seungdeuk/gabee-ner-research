@@ -1,0 +1,55 @@
+{"id": "r1-ho-0001", "category": "collision_holdout", "text": "조회민이 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0002", "category": "collision_holdout", "text": "조회호가 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0003", "category": "collision_holdout", "text": "정산호가 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0004", "category": "collision_holdout", "text": "정산준이 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0005", "category": "collision_holdout", "text": "강좌영이 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0006", "category": "collision_holdout", "text": "강좌아가 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0007", "category": "collision_holdout", "text": "차단호가 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0008", "category": "collision_holdout", "text": "차단민이 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0009", "category": "collision_holdout", "text": "공유호가 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0010", "category": "collision_holdout", "text": "공유준이 어제부터 기침을 하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0011", "category": "collision_holdout", "text": "조회민한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0012", "category": "collision_holdout", "text": "조회호한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0013", "category": "collision_holdout", "text": "정산호한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0014", "category": "collision_holdout", "text": "정산준한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0015", "category": "collision_holdout", "text": "강좌영한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0016", "category": "collision_holdout", "text": "강좌아한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0017", "category": "collision_holdout", "text": "차단호한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0018", "category": "collision_holdout", "text": "차단민한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0019", "category": "collision_holdout", "text": "공유호한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0020", "category": "collision_holdout", "text": "공유준한테 저녁에 안부전화 좀 넣어줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0021", "category": "collision_holdout", "text": "할머니가 조회민 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0022", "category": "collision_holdout", "text": "할머니가 조회호 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0023", "category": "collision_holdout", "text": "할머니가 정산호 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0024", "category": "collision_holdout", "text": "할머니가 정산준 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0025", "category": "collision_holdout", "text": "할머니가 강좌영 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0026", "category": "collision_holdout", "text": "할머니가 강좌아 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0027", "category": "collision_holdout", "text": "할머니가 차단호 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0028", "category": "collision_holdout", "text": "할머니가 차단민 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0029", "category": "collision_holdout", "text": "할머니가 공유호 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0030", "category": "collision_holdout", "text": "할머니가 공유준 보고싶다고 하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0031", "category": "collision_holdout", "text": "조회민 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0032", "category": "collision_holdout", "text": "조회호 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0033", "category": "collision_holdout", "text": "정산호 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0034", "category": "collision_holdout", "text": "정산준 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0035", "category": "collision_holdout", "text": "강좌영 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0036", "category": "collision_holdout", "text": "강좌아 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0037", "category": "collision_holdout", "text": "차단호 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0038", "category": "collision_holdout", "text": "차단민 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0039", "category": "collision_holdout", "text": "공유호 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0040", "category": "collision_holdout", "text": "공유준 오늘 늦게 온다고 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0041", "category": "collision_holdout", "text": "조회민은 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0042", "category": "collision_holdout", "text": "조회호는 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0043", "category": "collision_holdout", "text": "정산호는 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0044", "category": "collision_holdout", "text": "정산준은 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0045", "category": "collision_holdout", "text": "강좌영은 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0046", "category": "collision_holdout", "text": "강좌아는 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0047", "category": "collision_holdout", "text": "차단호는 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0048", "category": "collision_holdout", "text": "차단민은 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0049", "category": "collision_holdout", "text": "공유호는 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0050", "category": "collision_holdout", "text": "공유준은 요즘 바빠보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "collision_holdout"}
+{"id": "r1-ho-0051", "category": "collision_holdout_neg", "text": "조회 결과 좀 보내줘", "spans": [], "known_names": [], "template_id": "collision_holdout_neg"}
+{"id": "r1-ho-0052", "category": "collision_holdout_neg", "text": "정산 내역 확인해줘", "spans": [], "known_names": [], "template_id": "collision_holdout_neg"}
+{"id": "r1-ho-0053", "category": "collision_holdout_neg", "text": "강좌 신청 마감이래", "spans": [], "known_names": [], "template_id": "collision_holdout_neg"}
+{"id": "r1-ho-0054", "category": "collision_holdout_neg", "text": "차단 설정 어떻게 하는거야", "spans": [], "known_names": [], "template_id": "collision_holdout_neg"}
+{"id": "r1-ho-0055", "category": "collision_holdout_neg", "text": "공유 링크 좀 보내줘", "spans": [], "known_names": [], "template_id": "collision_holdout_neg"}

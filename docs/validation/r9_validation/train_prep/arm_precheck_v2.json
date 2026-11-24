@@ -1,0 +1,1069 @@
+{
+ "seeds": [
+  7,
+  13,
+  21,
+  42,
+  99
+ ],
+ "batch": 32,
+ "epochs": 8,
+ "klue_rows_fixed": 469,
+ "arms": {
+  "7": {
+   "C1": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 730,
+     "ADDRESS": 612,
+     "PERSON_ALIAS": 584,
+     "PERSON": 1538,
+     "ORGANIZATION": 947
+    },
+    "person_family_spans": 2122,
+    "negative_rows(no NER span)": 1209,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 0,
+    "long_text_rows(>120 chars)": 23
+   },
+   "CP": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 730,
+     "ADDRESS": 612,
+     "PERSON": 1830,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 947
+    },
+    "person_family_spans": 2122,
+    "negative_rows(no NER span)": 1209,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 23
+   },
+   "F-full": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 939,
+     "ADDRESS": 716,
+     "PERSON": 4567,
+     "PERSON_ALIAS": 478,
+     "ORGANIZATION": 1172
+    },
+    "person_family_spans": 5045,
+    "negative_rows(no NER span)": 1866,
+    "r9_new_rows": 3126,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 23
+   },
+   "E1": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 787,
+     "ADDRESS": 642,
+     "PERSON": 2643,
+     "PERSON_ALIAS": 342,
+     "ORGANIZATION": 992
+    },
+    "person_family_spans": 2985,
+    "negative_rows(no NER span)": 1350,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 23
+   },
+   "E2": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 807,
+     "ADDRESS": 612,
+     "PERSON": 2473,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 1086
+    },
+    "person_family_spans": 2765,
+    "negative_rows(no NER span)": 1209,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 23
+   },
+   "E3": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 730,
+     "ADDRESS": 612,
+     "PERSON": 2740,
+     "PERSON_ALIAS": 328,
+     "ORGANIZATION": 947
+    },
+    "person_family_spans": 3068,
+    "negative_rows(no NER span)": 1209,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 23
+   },
+   "E4": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 730,
+     "ADDRESS": 612,
+     "PERSON": 1950,
+     "PERSON_ALIAS": 392,
+     "ORGANIZATION": 947
+    },
+    "person_family_spans": 2342,
+    "negative_rows(no NER span)": 1771,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 23
+   },
+   "C0": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 1205,
+     "ADDRESS": 1113,
+     "PERSON": 2740,
+     "PERSON_ALIAS": 532,
+     "ORGANIZATION": 1486
+    },
+    "person_family_spans": 3272,
+    "negative_rows(no NER span)": 2071,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 32
+   },
+   "C0s": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 853,
+     "ADDRESS": 724,
+     "PERSON": 2048,
+     "PERSON_ALIAS": 356,
+     "ORGANIZATION": 1087
+    },
+    "person_family_spans": 2404,
+    "negative_rows(no NER span)": 1429,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 27
+   }
+  },
+  "13": {
+   "C1": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 715,
+     "ADDRESS": 612,
+     "PERSON_ALIAS": 584,
+     "PERSON": 1528,
+     "ORGANIZATION": 950
+    },
+    "person_family_spans": 2112,
+    "negative_rows(no NER span)": 1208,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 0,
+    "long_text_rows(>120 chars)": 22
+   },
+   "CP": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 715,
+     "ADDRESS": 612,
+     "PERSON": 1820,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 950
+    },
+    "person_family_spans": 2112,
+    "negative_rows(no NER span)": 1208,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 22
+   },
+   "F-full": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 924,
+     "ADDRESS": 716,
+     "PERSON": 4557,
+     "PERSON_ALIAS": 478,
+     "ORGANIZATION": 1175
+    },
+    "person_family_spans": 5035,
+    "negative_rows(no NER span)": 1865,
+    "r9_new_rows": 3126,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 22
+   },
+   "E1": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 772,
+     "ADDRESS": 642,
+     "PERSON": 2633,
+     "PERSON_ALIAS": 342,
+     "ORGANIZATION": 995
+    },
+    "person_family_spans": 2975,
+    "negative_rows(no NER span)": 1349,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 22
+   },
+   "E2": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 792,
+     "ADDRESS": 612,
+     "PERSON": 2463,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 1089
+    },
+    "person_family_spans": 2755,
+    "negative_rows(no NER span)": 1208,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 22
+   },
+   "E3": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 715,
+     "ADDRESS": 612,
+     "PERSON": 2730,
+     "PERSON_ALIAS": 328,
+     "ORGANIZATION": 950
+    },
+    "person_family_spans": 3058,
+    "negative_rows(no NER span)": 1208,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 22
+   },
+   "E4": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 715,
+     "ADDRESS": 612,
+     "PERSON": 1940,
+     "PERSON_ALIAS": 392,
+     "ORGANIZATION": 950
+    },
+    "person_family_spans": 2332,
+    "negative_rows(no NER span)": 1770,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 22
+   },
+   "C0": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 1177,
+     "ADDRESS": 1088,
+     "PERSON": 2738,
+     "PERSON_ALIAS": 522,
+     "ORGANIZATION": 1510
+    },
+    "person_family_spans": 3260,
+    "negative_rows(no NER span)": 2069,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 30
+   },
+   "C0s": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 847,
+     "ADDRESS": 725,
+     "PERSON": 2062,
+     "PERSON_ALIAS": 351,
+     "ORGANIZATION": 1092
+    },
+    "person_family_spans": 2413,
+    "negative_rows(no NER span)": 1415,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 24
+   }
+  },
+  "21": {
+   "C1": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 736,
+     "ADDRESS": 612,
+     "PERSON_ALIAS": 584,
+     "PERSON": 1488,
+     "ORGANIZATION": 966
+    },
+    "person_family_spans": 2072,
+    "negative_rows(no NER span)": 1206,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 0,
+    "long_text_rows(>120 chars)": 21
+   },
+   "CP": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 736,
+     "ADDRESS": 612,
+     "PERSON": 1780,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 966
+    },
+    "person_family_spans": 2072,
+    "negative_rows(no NER span)": 1206,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "F-full": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 945,
+     "ADDRESS": 716,
+     "PERSON": 4517,
+     "PERSON_ALIAS": 478,
+     "ORGANIZATION": 1191
+    },
+    "person_family_spans": 4995,
+    "negative_rows(no NER span)": 1863,
+    "r9_new_rows": 3126,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "E1": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 793,
+     "ADDRESS": 642,
+     "PERSON": 2593,
+     "PERSON_ALIAS": 342,
+     "ORGANIZATION": 1011
+    },
+    "person_family_spans": 2935,
+    "negative_rows(no NER span)": 1347,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "E2": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 813,
+     "ADDRESS": 612,
+     "PERSON": 2423,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 1105
+    },
+    "person_family_spans": 2715,
+    "negative_rows(no NER span)": 1206,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "E3": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 736,
+     "ADDRESS": 612,
+     "PERSON": 2690,
+     "PERSON_ALIAS": 328,
+     "ORGANIZATION": 966
+    },
+    "person_family_spans": 3018,
+    "negative_rows(no NER span)": 1206,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "E4": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 736,
+     "ADDRESS": 612,
+     "PERSON": 1900,
+     "PERSON_ALIAS": 392,
+     "ORGANIZATION": 966
+    },
+    "person_family_spans": 2292,
+    "negative_rows(no NER span)": 1768,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "C0": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 1203,
+     "ADDRESS": 1103,
+     "PERSON": 2715,
+     "PERSON_ALIAS": 524,
+     "ORGANIZATION": 1520
+    },
+    "person_family_spans": 3239,
+    "negative_rows(no NER span)": 2035,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 32
+   },
+   "C0s": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 846,
+     "ADDRESS": 729,
+     "PERSON": 2037,
+     "PERSON_ALIAS": 357,
+     "ORGANIZATION": 1095
+    },
+    "person_family_spans": 2394,
+    "negative_rows(no NER span)": 1400,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 22
+   }
+  },
+  "42": {
+   "C1": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 724,
+     "ADDRESS": 612,
+     "PERSON_ALIAS": 584,
+     "PERSON": 1542,
+     "ORGANIZATION": 962
+    },
+    "person_family_spans": 2126,
+    "negative_rows(no NER span)": 1206,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 0,
+    "long_text_rows(>120 chars)": 26
+   },
+   "CP": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 724,
+     "ADDRESS": 612,
+     "PERSON": 1834,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 962
+    },
+    "person_family_spans": 2126,
+    "negative_rows(no NER span)": 1206,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 26
+   },
+   "F-full": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 933,
+     "ADDRESS": 716,
+     "PERSON": 4571,
+     "PERSON_ALIAS": 478,
+     "ORGANIZATION": 1187
+    },
+    "person_family_spans": 5049,
+    "negative_rows(no NER span)": 1863,
+    "r9_new_rows": 3126,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 26
+   },
+   "E1": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 781,
+     "ADDRESS": 642,
+     "PERSON": 2647,
+     "PERSON_ALIAS": 342,
+     "ORGANIZATION": 1007
+    },
+    "person_family_spans": 2989,
+    "negative_rows(no NER span)": 1347,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 26
+   },
+   "E2": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 801,
+     "ADDRESS": 612,
+     "PERSON": 2477,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 1101
+    },
+    "person_family_spans": 2769,
+    "negative_rows(no NER span)": 1206,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 26
+   },
+   "E3": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 724,
+     "ADDRESS": 612,
+     "PERSON": 2744,
+     "PERSON_ALIAS": 328,
+     "ORGANIZATION": 962
+    },
+    "person_family_spans": 3072,
+    "negative_rows(no NER span)": 1206,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 26
+   },
+   "E4": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 724,
+     "ADDRESS": 612,
+     "PERSON": 1954,
+     "PERSON_ALIAS": 392,
+     "ORGANIZATION": 962
+    },
+    "person_family_spans": 2346,
+    "negative_rows(no NER span)": 1768,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 26
+   },
+   "C0": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 1192,
+     "ADDRESS": 1095,
+     "PERSON": 2760,
+     "PERSON_ALIAS": 513,
+     "ORGANIZATION": 1512
+    },
+    "person_family_spans": 3273,
+    "negative_rows(no NER span)": 2074,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 32
+   },
+   "C0s": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 851,
+     "ADDRESS": 738,
+     "PERSON": 2060,
+     "PERSON_ALIAS": 342,
+     "ORGANIZATION": 1097
+    },
+    "person_family_spans": 2402,
+    "negative_rows(no NER span)": 1421,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 28
+   }
+  },
+  "99": {
+   "C1": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 741,
+     "ADDRESS": 612,
+     "PERSON_ALIAS": 584,
+     "PERSON": 1507,
+     "ORGANIZATION": 937
+    },
+    "person_family_spans": 2091,
+    "negative_rows(no NER span)": 1209,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 0,
+    "long_text_rows(>120 chars)": 21
+   },
+   "CP": {
+    "rows": 4689,
+    "klue_rows": 469,
+    "steps_per_epoch": 147,
+    "max_total_steps": 1176,
+    "warmup_steps": 117,
+    "label_spans": {
+     "LOCATION": 741,
+     "ADDRESS": 612,
+     "PERSON": 1799,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 937
+    },
+    "person_family_spans": 2091,
+    "negative_rows(no NER span)": 1209,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "F-full": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 950,
+     "ADDRESS": 716,
+     "PERSON": 4536,
+     "PERSON_ALIAS": 478,
+     "ORGANIZATION": 1162
+    },
+    "person_family_spans": 5014,
+    "negative_rows(no NER span)": 1866,
+    "r9_new_rows": 3126,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "E1": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 798,
+     "ADDRESS": 642,
+     "PERSON": 2612,
+     "PERSON_ALIAS": 342,
+     "ORGANIZATION": 982
+    },
+    "person_family_spans": 2954,
+    "negative_rows(no NER span)": 1350,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "E2": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 818,
+     "ADDRESS": 612,
+     "PERSON": 2442,
+     "PERSON_ALIAS": 292,
+     "ORGANIZATION": 1076
+    },
+    "person_family_spans": 2734,
+    "negative_rows(no NER span)": 1209,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "E3": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 741,
+     "ADDRESS": 612,
+     "PERSON": 2709,
+     "PERSON_ALIAS": 328,
+     "ORGANIZATION": 937
+    },
+    "person_family_spans": 3037,
+    "negative_rows(no NER span)": 1209,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "E4": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 741,
+     "ADDRESS": 612,
+     "PERSON": 1919,
+     "PERSON_ALIAS": 392,
+     "ORGANIZATION": 937
+    },
+    "person_family_spans": 2311,
+    "negative_rows(no NER span)": 1771,
+    "r9_new_rows": 782,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 21
+   },
+   "C0": {
+    "rows": 7815,
+    "klue_rows": 469,
+    "steps_per_epoch": 245,
+    "max_total_steps": 1960,
+    "warmup_steps": 196,
+    "label_spans": {
+     "LOCATION": 1190,
+     "ADDRESS": 1101,
+     "PERSON": 2736,
+     "PERSON_ALIAS": 525,
+     "ORGANIZATION": 1496
+    },
+    "person_family_spans": 3261,
+    "negative_rows(no NER span)": 2060,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 30
+   },
+   "C0s": {
+    "rows": 5471,
+    "klue_rows": 469,
+    "steps_per_epoch": 171,
+    "max_total_steps": 1368,
+    "warmup_steps": 136,
+    "label_spans": {
+     "LOCATION": 874,
+     "ADDRESS": 737,
+     "PERSON": 2024,
+     "PERSON_ALIAS": 346,
+     "ORGANIZATION": 1059
+    },
+    "person_family_spans": 2370,
+    "negative_rows(no NER span)": 1431,
+    "r9_new_rows": 0,
+    "relabeled_rows(r9p)": 292,
+    "long_text_rows(>120 chars)": 23
+   }
+  }
+ },
+ "checks": {
+  "c0_extra_files": {
+   "c0_extra_s7": {
+    "rows": 3126,
+    "unique": 3126,
+    "relabeled_rows": 0,
+    "labels": {
+     "ORGANIZATION": 539,
+     "ADDRESS": 501,
+     "PERSON": 910,
+     "LOCATION": 475,
+     "PERSON_ALIAS": 240
+    },
+    "sha16": "0048df6e1a792a22"
+   },
+   "c0s_extra_s7": {
+    "rows": 782,
+    "unique": 782,
+    "relabeled_rows": 0,
+    "labels": {
+     "ORGANIZATION": 140,
+     "ADDRESS": 112,
+     "PERSON": 218,
+     "LOCATION": 123,
+     "PERSON_ALIAS": 64
+    },
+    "sha16": "20477b63f08b0913"
+   },
+   "c0s_subset_of_c0_s7": true,
+   "c0_extra_s13": {
+    "rows": 3126,
+    "unique": 3126,
+    "relabeled_rows": 0,
+    "labels": {
+     "ORGANIZATION": 560,
+     "PERSON": 918,
+     "ADDRESS": 476,
+     "LOCATION": 462,
+     "PERSON_ALIAS": 230
+    },
+    "sha16": "41b8b38323b2619e"
+   },
+   "c0s_extra_s13": {
+    "rows": 782,
+    "unique": 782,
+    "relabeled_rows": 0,
+    "labels": {
+     "ORGANIZATION": 142,
+     "PERSON": 242,
+     "ADDRESS": 113,
+     "LOCATION": 132,
+     "PERSON_ALIAS": 59
+    },
+    "sha16": "33c895e4ad3b0096"
+   },
+   "c0s_subset_of_c0_s13": true,
+   "c0_extra_s21": {
+    "rows": 3126,
+    "unique": 3126,
+    "relabeled_rows": 0,
+    "labels": {
+     "ORGANIZATION": 554,
+     "PERSON": 935,
+     "LOCATION": 467,
+     "ADDRESS": 491,
+     "PERSON_ALIAS": 232
+    },
+    "sha16": "0e2545e3919a79ab"
+   },
+   "c0s_extra_s21": {
+    "rows": 782,
+    "unique": 782,
+    "relabeled_rows": 0,
+    "labels": {
+     "ORGANIZATION": 129,
+     "PERSON": 257,
+     "LOCATION": 110,
+     "ADDRESS": 117,
+     "PERSON_ALIAS": 65
+    },
+    "sha16": "8d4fa689290122b2"
+   },
+   "c0s_subset_of_c0_s21": true,
+   "c0_extra_s42": {
+    "rows": 3126,
+    "unique": 3126,
+    "relabeled_rows": 0,
+    "labels": {
+     "LOCATION": 468,
+     "ADDRESS": 483,
+     "PERSON": 926,
+     "PERSON_ALIAS": 221,
+     "ORGANIZATION": 550
+    },
+    "sha16": "24537d64fb3a26e2"
+   },
+   "c0s_extra_s42": {
+    "rows": 782,
+    "unique": 782,
+    "relabeled_rows": 0,
+    "labels": {
+     "LOCATION": 127,
+     "ADDRESS": 126,
+     "PERSON": 226,
+     "PERSON_ALIAS": 50,
+     "ORGANIZATION": 135
+    },
+    "sha16": "3f0e8cd8ba594a9b"
+   },
+   "c0s_subset_of_c0_s42": true,
+   "c0_extra_s99": {
+    "rows": 3126,
+    "unique": 3126,
+    "relabeled_rows": 0,
+    "labels": {
+     "ADDRESS": 489,
+     "PERSON": 937,
+     "LOCATION": 449,
+     "ORGANIZATION": 559,
+     "PERSON_ALIAS": 233
+    },
+    "sha16": "ff68822e1ce60f71"
+   },
+   "c0s_extra_s99": {
+    "rows": 782,
+    "unique": 782,
+    "relabeled_rows": 0,
+    "labels": {
+     "ADDRESS": 125,
+     "PERSON": 225,
+     "LOCATION": 133,
+     "ORGANIZATION": 122,
+     "PERSON_ALIAS": 54
+    },
+    "sha16": "478cc452959ba860"
+   },
+   "c0s_subset_of_c0_s99": true
+  },
+  "klue_sample_hash_by_seed": {
+   "7": {
+    "hashes": [
+     "06612c0a84e3"
+    ],
+    "same_across_all_arms": true
+   },
+   "13": {
+    "hashes": [
+     "cd0b69c7dcad"
+    ],
+    "same_across_all_arms": true
+   },
+   "21": {
+    "hashes": [
+     "cbad36cfe4c5"
+    ],
+    "same_across_all_arms": true
+   },
+   "42": {
+    "hashes": [
+     "c032acc588c3"
+    ],
+    "same_across_all_arms": true
+   },
+   "99": {
+    "hashes": [
+     "0cfc47df4bf8"
+    ],
+    "same_across_all_arms": true
+   }
+  },
+  "arm_equalities": {
+   "C1_vs_CP_rows_steps_equal": true,
+   "F-full_vs_C0_rows_steps_equal": true,
+   "E_vs_C0s_rows_steps_equal": true,
+   "klue_rows_equal_all_arms": true,
+   "C0_has_no_r9_new_rows": true,
+   "relabeled_share_F-full_vs_C0_within_0.5pp": true,
+   "relabeled_rows_equal_CP_F-full_C0_C0s_E": true,
+   "c0s_subset_of_c0_all_seeds": true,
+   "C1_has_zero_relabeled": true,
+   "klue_same_in_all_arms_all_seeds": true
+  },
+  "effect_decomposition": {
+   "policy_effect = CP - C1": "같은 행·같은 KLUE·같은 스텝, 라벨 정책만 다름 → 정책 효과만",
+   "enrichment_effect = F-full - C0": "같은 정책·행 수·스텝, 새 합성 행 vs 기존 행 재추출 → 보강 효과만",
+   "bucket_effect = Ek - C0s": "같은 정책·행 수·스텝(782), 버킷 하나 vs 기존 행 재추출",
+   "confound_check": "C0/C0s 는 새 R9 행 0개, E/F-full 은 기존 행 그대로 + 새 행. 신규 행이 정책 재라벨 행과 겹치지 않음"
+  },
+  "new_vs_existing_training_sentence_overlap": 0
+ }
+}

@@ -1,0 +1,30 @@
+{"id": "r1b-ho-0001", "category": "locsuffix_holdout", "text": "발급소 요즘 키가 많이 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0002", "category": "locsuffix_holdout", "text": "상담관 요즘 키가 많이 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0003", "category": "locsuffix_holdout", "text": "주문소 요즘 키가 많이 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0004", "category": "locsuffix_holdout", "text": "포장관 요즘 키가 많이 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0005", "category": "locsuffix_holdout", "text": "환불소 요즘 키가 많이 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0006", "category": "locsuffix_holdout", "text": "발급소가 어제 놀이터에서 넘어졌대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0007", "category": "locsuffix_holdout", "text": "상담관이 어제 놀이터에서 넘어졌대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0008", "category": "locsuffix_holdout", "text": "주문소가 어제 놀이터에서 넘어졌대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0009", "category": "locsuffix_holdout", "text": "포장관이 어제 놀이터에서 넘어졌대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0010", "category": "locsuffix_holdout", "text": "환불소가 어제 놀이터에서 넘어졌대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0011", "category": "locsuffix_holdout", "text": "할머니가 발급소 간식 사주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0012", "category": "locsuffix_holdout", "text": "할머니가 상담관 간식 사주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0013", "category": "locsuffix_holdout", "text": "할머니가 주문소 간식 사주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0014", "category": "locsuffix_holdout", "text": "할머니가 포장관 간식 사주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0015", "category": "locsuffix_holdout", "text": "할머니가 환불소 간식 사주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0016", "category": "locsuffix_holdout", "text": "발급소 사진 가족방에 올라왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0017", "category": "locsuffix_holdout", "text": "상담관 사진 가족방에 올라왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0018", "category": "locsuffix_holdout", "text": "주문소 사진 가족방에 올라왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0019", "category": "locsuffix_holdout", "text": "포장관 사진 가족방에 올라왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0020", "category": "locsuffix_holdout", "text": "환불소 사진 가족방에 올라왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0021", "category": "locsuffix_holdout", "text": "발급소가 오늘 발표를 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0022", "category": "locsuffix_holdout", "text": "상담관이 오늘 발표를 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0023", "category": "locsuffix_holdout", "text": "주문소가 오늘 발표를 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0024", "category": "locsuffix_holdout", "text": "포장관이 오늘 발표를 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0025", "category": "locsuffix_holdout", "text": "환불소가 오늘 발표를 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "locsuffix_holdout"}
+{"id": "r1b-ho-0026", "category": "locsuffix_holdout_neg", "text": "대기실에 사람이 꽉 찼더라", "spans": [], "known_names": [], "template_id": "locsuffix_holdout_neg"}
+{"id": "r1b-ho-0027", "category": "locsuffix_holdout_neg", "text": "세차장 다녀왔어", "spans": [], "known_names": [], "template_id": "locsuffix_holdout_neg"}
+{"id": "r1b-ho-0028", "category": "locsuffix_holdout_neg", "text": "매표소 앞에서 기다려", "spans": [], "known_names": [], "template_id": "locsuffix_holdout_neg"}
+{"id": "r1b-ho-0029", "category": "locsuffix_holdout_neg", "text": "박물관 관람 시간 확인해줘", "spans": [], "known_names": [], "template_id": "locsuffix_holdout_neg"}
+{"id": "r1b-ho-0030", "category": "locsuffix_holdout_neg", "text": "수영장 다녀와서 머리 젖었어", "spans": [], "known_names": [], "template_id": "locsuffix_holdout_neg"}

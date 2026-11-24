@@ -1,0 +1,541 @@
+{
+ "v12_locked": {
+  "pos": 200,
+  "neg": 60,
+  "precision": 0.9137931034482759,
+  "recall": 0.795,
+  "f1": 0.8502673796791445,
+  "full_exposure": 26,
+  "partial_exposure": 2,
+  "fully_masked": 172,
+  "full_exposure_rate": 0.13,
+  "total_exposure_rate": 0.14,
+  "nonperson_fpr": 0.0333,
+  "full_exposure_cases": [
+   {
+    "id": "v12-0005",
+    "word": "책꽂이",
+    "text": "할머니가 책꽂이를 아주 예뻐하셨대"
+   },
+   {
+    "id": "v12-0016",
+    "word": "삽",
+    "text": "할머니가 삽을 아주 예뻐하셨대"
+   },
+   {
+    "id": "v12-0021",
+    "word": "부뚜막",
+    "text": "부뚜막이 모임에서 유난히 눈에 띄어"
+   },
+   {
+    "id": "v12-0029",
+    "word": "뒷간",
+    "text": "뒷간이 모임에서 유난히 눈에 띄어"
+   },
+   {
+    "id": "v12-0036",
+    "word": "삽",
+    "text": "삽이 모임에서 유난히 눈에 띄어"
+   },
+   {
+    "id": "v12-0040",
+    "word": "키",
+    "text": "키가 모임에서 유난히 눈에 띄어"
+   },
+   {
+    "id": "v12-0049",
+    "word": "뒷간",
+    "text": "뒷간 안부가 궁금해졌어"
+   },
+   {
+    "id": "v12-0056",
+    "word": "삽",
+    "text": "삽 안부가 궁금해졌어"
+   },
+   {
+    "id": "v12-0060",
+    "word": "키",
+    "text": "키 안부가 궁금해졌어"
+   },
+   {
+    "id": "v12-0076",
+    "word": "삽",
+    "text": "삽한테 잘 지내는지 물어봤어"
+   },
+   {
+    "id": "v12-0080",
+    "word": "키",
+    "text": "키한테 잘 지내는지 물어봤어"
+   },
+   {
+    "id": "v12-0088",
+    "word": "토방",
+    "text": "토방아, 조심히 가"
+   },
+   {
+    "id": "v12-0096",
+    "word": "삽",
+    "text": "삽아, 조심히 가"
+   },
+   {
+    "id": "v12-0100",
+    "word": "키",
+    "text": "키야, 조심히 가"
+   },
+   {
+    "id": "v12-0105",
+    "word": "책꽂이",
+    "text": "아빠가 책꽂이를 챙겨서 나갔어"
+   },
+   {
+    "id": "v12-0109",
+    "word": "뒷간",
+    "text": "아빠가 뒷간을 챙겨서 나갔어"
+   },
+   {
+    "id": "v12-0116",
+    "word": "삽",
+    "text": "아빠가 삽을 챙겨서 나갔어"
+   },
+   {
+    "id": "v12-0120",
+    "word": "키",
+    "text": "아빠가 키를 챙겨서 나갔어"
+   },
+   {
+    "id": "v12-0140",
+    "word": "키",
+    "text": "키가 요즘 제일 바빠 보여"
+   },
+   {
+    "id": "v12-0156",
+    "word": "삽",
+    "text": "삽이 요즘 통 소식이 없네"
+   },
+   {
+    "id": "v12-0160",
+    "word": "키",
+    "text": "키가 요즘 통 소식이 없네"
+   },
+   {
+    "id": "v12-0176",
+    "word": "삽",
+    "text": "삽한테 도착했는지 물어봤어"
+   },
+   {
+    "id": "v12-0180",
+    "word": "키",
+    "text": "키한테 도착했는지 물어봤어"
+   },
+   {
+    "id": "v12-0181",
+    "word": "부뚜막",
+    "text": "부뚜막아 왔어?"
+   },
+   {
+    "id": "v12-0185",
+    "word": "책꽂이",
+    "text": "책꽂이야 왔어?"
+   },
+   {
+    "id": "v12-0200",
+    "word": "키",
+    "text": "키야 왔어?"
+   }
+  ]
+ },
+ "v10_locked": {
+  "pos": 112,
+  "neg": 52,
+  "precision": 0.8648648648648649,
+  "recall": 0.8571428571428571,
+  "f1": 0.8609865470852017,
+  "full_exposure": 1,
+  "partial_exposure": 8,
+  "fully_masked": 103,
+  "full_exposure_rate": 0.0089,
+  "total_exposure_rate": 0.0804,
+  "nonperson_fpr": 0.0192,
+  "full_exposure_cases": [
+   {
+    "id": "v10-0025",
+    "word": "들국화",
+    "text": "담임선생님이 들국화를 특별히 챙겨주셨어"
+   }
+  ]
+ },
+ "v11_locked": {
+  "pos": 200,
+  "neg": 60,
+  "precision": 0.989247311827957,
+  "recall": 0.92,
+  "f1": 0.9533678756476685,
+  "full_exposure": 14,
+  "partial_exposure": 0,
+  "fully_masked": 186,
+  "full_exposure_rate": 0.07,
+  "total_exposure_rate": 0.07,
+  "nonperson_fpr": 0.0667,
+  "full_exposure_cases": [
+   {
+    "id": "v11-0024",
+    "word": "돌계단",
+    "text": "돌계단이 동네에서 제일 눈에 띄어"
+   },
+   {
+    "id": "v11-0027",
+    "word": "마룻바닥",
+    "text": "마룻바닥이 동네에서 제일 눈에 띄어"
+   },
+   {
+    "id": "v11-0032",
+    "word": "빗장",
+    "text": "빗장이 동네에서 제일 눈에 띄어"
+   },
+   {
+    "id": "v11-0044",
+    "word": "돌계단",
+    "text": "돌계단 소식을 오랜만에 들었어"
+   },
+   {
+    "id": "v11-0046",
+    "word": "장독대",
+    "text": "장독대 소식을 오랜만에 들었어"
+   },
+   {
+    "id": "v11-0047",
+    "word": "마룻바닥",
+    "text": "마룻바닥 소식을 오랜만에 들었어"
+   },
+   {
+    "id": "v11-0089",
+    "word": "빨랫줄",
+    "text": "빨랫줄아, 얼른 씻고 나와"
+   },
+   {
+    "id": "v11-0104",
+    "word": "돌계단",
+    "text": "엄마가 돌계단을 데리러 간다고 했어"
+   },
+   {
+    "id": "v11-0124",
+    "word": "돌계단",
+    "text": "돌계단이 우리 가족 중에서 제일 부지런해"
+   },
+   {
+    "id": "v11-0132",
+    "word": "빗장",
+    "text": "빗장이 우리 가족 중에서 제일 부지런해"
+   },
+   {
+    "id": "v11-0144",
+    "word": "돌계단",
+    "text": "돌계단이 오늘 기분 좋아 보이더라"
+   },
+   {
+    "id": "v11-0149",
+    "word": "빨랫줄",
+    "text": "빨랫줄이 오늘 기분 좋아 보이더라"
+   },
+   {
+    "id": "v11-0152",
+    "word": "빗장",
+    "text": "빗장이 오늘 기분 좋아 보이더라"
+   },
+   {
+    "id": "v11-0164",
+    "word": "돌계단",
+    "text": "돌계단한테 사진 좀 보내달라고 했어"
+   }
+  ]
+ },
+ "v9_locked": {
+  "pos": 60,
+  "neg": 40,
+  "precision": 0.9166666666666666,
+  "recall": 0.9166666666666666,
+  "f1": 0.9166666666666666,
+  "full_exposure": 0,
+  "partial_exposure": 0,
+  "fully_masked": 60,
+  "full_exposure_rate": 0.0,
+  "total_exposure_rate": 0.0,
+  "nonperson_fpr": 0.025,
+  "full_exposure_cases": []
+ },
+ "ambiguity_probe_48": {
+  "pos": 90,
+  "neg": 90,
+  "precision": 0.9058823529411765,
+  "recall": 0.8555555555555555,
+  "f1": 0.88,
+  "full_exposure": 5,
+  "partial_exposure": 0,
+  "fully_masked": 85,
+  "full_exposure_rate": 0.0556,
+  "total_exposure_rate": 0.0556,
+  "nonperson_fpr": 0.0667,
+  "full_exposure_cases": [
+   {
+    "id": "amb-별-person-2",
+    "word": "별",
+    "text": "어제 별한테 전화했는데 안 받더라"
+   },
+   {
+    "id": "amb-별-person-3",
+    "word": "별",
+    "text": "우리 반에서 별이 제일 웃겨"
+   },
+   {
+    "id": "amb-수정-person-1",
+    "word": "수정",
+    "text": "수정이 오늘 피아노 학원 다녀왔대"
+   },
+   {
+    "id": "amb-사랑-person-2",
+    "word": "사랑",
+    "text": "어제 사랑한테 전화했는데 안 받더라"
+   },
+   {
+    "id": "amb-사랑-person-3",
+    "word": "사랑",
+    "text": "우리 반에서 사랑이 제일 웃겨"
+   }
+  ]
+ },
+ "draft56": {
+  "pos": 35,
+  "neg": 21,
+  "precision": 1.0,
+  "recall": 0.9428571428571428,
+  "f1": 0.9705882352941176,
+  "full_exposure": 2,
+  "partial_exposure": 0,
+  "fully_masked": 33,
+  "full_exposure_rate": 0.0571,
+  "total_exposure_rate": 0.0571,
+  "nonperson_fpr": 0.0,
+  "full_exposure_cases": [
+   {
+    "id": "draft-사랑-person-1",
+    "word": "사랑",
+    "text": "사랑한테 생일 선물로 뭘 줄지 아직 못 정했어"
+   },
+   {
+    "id": "draft-사랑-person-3",
+    "word": "사랑",
+    "text": "선생님이 사랑을 칭찬하셨어"
+   }
+  ]
+ },
+ "v8_independent": {
+  "pos": 690,
+  "neg": 63,
+  "precision": 0.9787878787878788,
+  "recall": 0.936231884057971,
+  "f1": 0.957037037037037,
+  "full_exposure": 30,
+  "partial_exposure": 0,
+  "fully_masked": 660,
+  "full_exposure_rate": 0.0435,
+  "total_exposure_rate": 0.0435,
+  "nonperson_fpr": 0.2222,
+  "full_exposure_cases": [
+   {
+    "id": "v8-신규고빈도-가을-시작",
+    "word": null,
+    "text": "가을이 아침부터 기분이 좋아 보이더라"
+   },
+   {
+    "id": "v8-신규고빈도-연재-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 연재였어"
+   },
+   {
+    "id": "v8-신규고빈도-미소-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 미소였어"
+   },
+   {
+    "id": "v8-신규저빈도-동구-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 동구였어"
+   },
+   {
+    "id": "v8-신규저빈도-기용-중간",
+    "word": null,
+    "text": "어제 기용한테 문자 보냈는데 아직 답이 없어"
+   },
+   {
+    "id": "v8-신규저빈도-기용-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 기용이었어"
+   },
+   {
+    "id": "v8-신규저빈도-률-시작",
+    "word": null,
+    "text": "률이 아침부터 기분이 좋아 보이더라"
+   },
+   {
+    "id": "v8-신규저빈도-률-중간",
+    "word": null,
+    "text": "어제 률한테 문자 보냈는데 아직 답이 없어"
+   },
+   {
+    "id": "v8-신규저빈도-률-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 률이었어"
+   },
+   {
+    "id": "v8-신규저빈도-름-시작",
+    "word": null,
+    "text": "름이 아침부터 기분이 좋아 보이더라"
+   },
+   {
+    "id": "v8-신규저빈도-름-중간",
+    "word": null,
+    "text": "어제 름한테 문자 보냈는데 아직 답이 없어"
+   },
+   {
+    "id": "v8-신규저빈도-름-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 름이었어"
+   },
+   {
+    "id": "v8-신규저빈도-제백-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 제백이었어"
+   },
+   {
+    "id": "v8-신규저빈도-형식-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 형식이었어"
+   },
+   {
+    "id": "v8-신규저빈도-인건-시작",
+    "word": null,
+    "text": "인건이 아침부터 기분이 좋아 보이더라"
+   },
+   {
+    "id": "v8-신규저빈도-인건-중간",
+    "word": null,
+    "text": "어제 인건한테 문자 보냈는데 아직 답이 없어"
+   },
+   {
+    "id": "v8-신규저빈도-인건-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 인건이었어"
+   },
+   {
+    "id": "v8-신규저빈도-이룸-시작",
+    "word": null,
+    "text": "이룸이 아침부터 기분이 좋아 보이더라"
+   },
+   {
+    "id": "v8-신규저빈도-준화-시작",
+    "word": null,
+    "text": "준화가 아침부터 기분이 좋아 보이더라"
+   },
+   {
+    "id": "v8-신규저빈도-준화-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 준화였어"
+   },
+   {
+    "id": "v8-신규저빈도-선후-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 선후였어"
+   },
+   {
+    "id": "v8-신규저빈도-렌-시작",
+    "word": null,
+    "text": "렌이 아침부터 기분이 좋아 보이더라"
+   },
+   {
+    "id": "v8-신규저빈도-렌-중간",
+    "word": null,
+    "text": "어제 렌한테 문자 보냈는데 아직 답이 없어"
+   },
+   {
+    "id": "v8-신규저빈도-렌-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 렌이었어"
+   },
+   {
+    "id": "v8-이가로끝남-서이-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 서이였어"
+   },
+   {
+    "id": "v8-이름문맥_일반단어-여름-시작",
+    "word": null,
+    "text": "여름이 아침부터 기분이 좋아 보이더라"
+   },
+   {
+    "id": "v8-이름문맥_일반단어-여름-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 여름이었어"
+   },
+   {
+    "id": "v8-이름문맥_일반단어-믿음-시작",
+    "word": null,
+    "text": "믿음이 아침부터 기분이 좋아 보이더라"
+   },
+   {
+    "id": "v8-이름문맥_일반단어-믿음-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 믿음이었어"
+   },
+   {
+    "id": "v8-이름문맥_일반단어-기쁨-끝",
+    "word": null,
+    "text": "방금 통화한 사람이 기쁨이었어"
+   }
+  ]
+ },
+ "r3_heldout": {
+  "pos": 16,
+  "neg": 8,
+  "precision": 0.7894736842105263,
+  "recall": 0.9375,
+  "f1": 0.8571428571428572,
+  "full_exposure": 1,
+  "partial_exposure": 0,
+  "fully_masked": 15,
+  "full_exposure_rate": 0.0625,
+  "total_exposure_rate": 0.0625,
+  "nonperson_fpr": 0.125,
+  "full_exposure_cases": [
+   {
+    "id": "r3-ho-0008",
+    "word": null,
+    "text": "반디한테 저녁 메뉴 뭐 먹을지 물어봤어"
+   }
+  ]
+ },
+ "r6_heldout": {
+  "pos": 8,
+  "neg": 8,
+  "precision": 1.0,
+  "recall": 0.75,
+  "f1": 0.8571428571428571,
+  "full_exposure": 2,
+  "partial_exposure": 0,
+  "fully_masked": 6,
+  "full_exposure_rate": 0.25,
+  "total_exposure_rate": 0.25,
+  "nonperson_fpr": 0.125,
+  "full_exposure_cases": [
+   {
+    "id": "r6-ho-0001",
+    "word": null,
+    "text": "뒤뜰 소식 듣고 반가웠어"
+   },
+   {
+    "id": "r6-ho-0002",
+    "word": null,
+    "text": "앞뜰 소식 듣고 반가웠어"
+   }
+  ]
+ }
+}

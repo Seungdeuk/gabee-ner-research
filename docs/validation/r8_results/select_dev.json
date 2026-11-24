@@ -1,0 +1,130 @@
+{
+ "verdict": {
+  "s7": {
+   "G1_macro_fp_delta_pp": -5.3,
+   "G1_worst_set_fp_delta_pp": 15.0,
+   "G1": false,
+   "G2_overmerge": [
+    8,
+    9
+   ],
+   "G2": true,
+   "G3_macro_f1_delta_pp": 2.99,
+   "G3": true,
+   "G4_set_exposure_delta_pp": {
+    "v7_namefreq": -2.96,
+    "realistic_family": -6.92,
+    "v14_realistic": -1.03,
+    "nemotron_full": -3.44,
+    "nemotron_given": -4.04
+   },
+   "G4": true,
+   "passes_gates": false,
+   "macro_exposure_delta_pp": -3.68,
+   "meets_improvement": true,
+   "eligible": false
+  },
+  "s13": {
+   "G1_macro_fp_delta_pp": -7.01,
+   "G1_worst_set_fp_delta_pp": 10.0,
+   "G1": false,
+   "G2_overmerge": [
+    8,
+    9
+   ],
+   "G2": true,
+   "G3_macro_f1_delta_pp": 3.27,
+   "G3": true,
+   "G4_set_exposure_delta_pp": {
+    "v7_namefreq": -3.58,
+    "realistic_family": -6.92,
+    "v14_realistic": -1.03,
+    "nemotron_full": -3.36,
+    "nemotron_given": -3.96
+   },
+   "G4": true,
+   "passes_gates": false,
+   "macro_exposure_delta_pp": -3.77,
+   "meets_improvement": true,
+   "eligible": false
+  },
+  "s21": {
+   "G1_macro_fp_delta_pp": -3.9,
+   "G1_worst_set_fp_delta_pp": 5.0,
+   "G1": true,
+   "G2_overmerge": [
+    8,
+    9
+   ],
+   "G2": true,
+   "G3_macro_f1_delta_pp": 3.95,
+   "G3": true,
+   "G4_set_exposure_delta_pp": {
+    "v7_namefreq": -4.08,
+    "realistic_family": -10.38,
+    "v14_realistic": -1.03,
+    "nemotron_full": -3.4,
+    "nemotron_given": -4.24
+   },
+   "G4": true,
+   "passes_gates": true,
+   "macro_exposure_delta_pp": -4.63,
+   "meets_improvement": true,
+   "eligible": true
+  },
+  "s42": {
+   "G1_macro_fp_delta_pp": -6.89,
+   "G1_worst_set_fp_delta_pp": 0.0,
+   "G1": true,
+   "G2_overmerge": [
+    8,
+    9
+   ],
+   "G2": true,
+   "G3_macro_f1_delta_pp": 3.08,
+   "G3": true,
+   "G4_set_exposure_delta_pp": {
+    "v7_namefreq": -2.42,
+    "realistic_family": -5.38,
+    "v14_realistic": 0.0,
+    "nemotron_full": -2.68,
+    "nemotron_given": -3.92
+   },
+   "G4": true,
+   "passes_gates": true,
+   "macro_exposure_delta_pp": -2.88,
+   "meets_improvement": true,
+   "eligible": true
+  },
+  "s99": {
+   "G1_macro_fp_delta_pp": -6.7,
+   "G1_worst_set_fp_delta_pp": 5.0,
+   "G1": true,
+   "G2_overmerge": [
+    8,
+    9
+   ],
+   "G2": true,
+   "G3_macro_f1_delta_pp": 3.05,
+   "G3": true,
+   "G4_set_exposure_delta_pp": {
+    "v7_namefreq": -2.79,
+    "realistic_family": -7.69,
+    "v14_realistic": 0.0,
+    "nemotron_full": -2.24,
+    "nemotron_given": -3.52
+   },
+   "G4": true,
+   "passes_gates": true,
+   "macro_exposure_delta_pp": -3.25,
+   "meets_improvement": true,
+   "eligible": true
+  }
+ },
+ "eligible": [
+  "s21",
+  "s42",
+  "s99"
+ ],
+ "chosen": "s21"
+}

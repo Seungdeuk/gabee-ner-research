@@ -1,0 +1,89 @@
+{
+ "mode": "vC-koelectra-small-klue10narrowmsg-s13",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "77c59c5ea18d"
+ },
+ "ner_only": false,
+ "categories": {
+  "메신저": {
+   "spans": 260,
+   "full": 219,
+   "partial": 15,
+   "none": 26,
+   "extra": 10,
+   "sentences": 200,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "민송아가 오늘 학원 안 간다고 쌤이 문자왔어",
+     "민송아"
+    ],
+    [
+     "none",
+     "서명소가 오늘 학원 안 간다고 쌤이 문자왔어",
+     "서명소"
+    ],
+    [
+     "none",
+     "나민성이 오늘 학원 안 간다고 쌤이 문자왔어",
+     "나민성"
+    ],
+    [
+     "none",
+     "조준이가 오늘 학원 안 간다고 쌤이 문자왔어",
+     "조준이"
+    ],
+    [
+     "partial",
+     "곽용이 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분",
+     "곽용이"
+    ],
+    [
+     "none",
+     "할머니 생신에 우호래이랑 하동훈 같이 가기로 했어",
+     "우호래"
+    ]
+   ]
+  },
+  "비인명": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 22,
+   "flagged": 2,
+   "miss_examples": [
+    [
+     "과마스킹",
+     "오늘 하늘 완전 예쁘더라 ㅋㅋ",
+     [
+      "하늘"
+     ]
+    ],
+    [
+     "과마스킹",
+     "장보고 올게 뭐 필요한거 있어?",
+     [
+      "장보고"
+     ]
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 260,
+  "full": 219,
+  "partial": 15,
+  "none": 26,
+  "extra": 10
+ },
+ "latency_100chars": {
+  "median_ms": 9.101,
+  "p95_ms": 12.338,
+  "n": 100
+ }
+}

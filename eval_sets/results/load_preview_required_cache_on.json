@@ -1,0 +1,93 @@
+{
+ "mode": "required",
+ "ner_threads": 2,
+ "ner_concurrency": 2,
+ "preview_lines": 100,
+ "per_user_requests": 10,
+ "server_ready_s": 7.0,
+ "rss_boot_mb": 227.6,
+ "rss_after_warmup_mb": 251.2,
+ "rss_end_mb": 269.3,
+ "levels": [
+  {
+   "concurrency": 1,
+   "requests": 10,
+   "ok": 10,
+   "status": {
+    "200": 10
+   },
+   "wall_s": 0.27,
+   "throughput_rps": 37.57,
+   "p50_ms": 21.7,
+   "p95_ms": 39.7,
+   "p99_ms": 39.7,
+   "mean_ms": 25.6,
+   "max_ms": 39.7,
+   "rss_peak_mb": 251.4
+  },
+  {
+   "concurrency": 4,
+   "requests": 40,
+   "ok": 40,
+   "status": {
+    "200": 40
+   },
+   "wall_s": 0.94,
+   "throughput_rps": 42.74,
+   "p50_ms": 85.7,
+   "p95_ms": 146.5,
+   "p99_ms": 180.8,
+   "mean_ms": 88.5,
+   "max_ms": 180.8,
+   "rss_peak_mb": 254.5
+  },
+  {
+   "concurrency": 8,
+   "requests": 80,
+   "ok": 80,
+   "status": {
+    "200": 80
+   },
+   "wall_s": 1.92,
+   "throughput_rps": 41.75,
+   "p50_ms": 176.7,
+   "p95_ms": 274.3,
+   "p99_ms": 300.5,
+   "mean_ms": 181.7,
+   "max_ms": 303.0,
+   "rss_peak_mb": 258.1
+  },
+  {
+   "concurrency": 16,
+   "requests": 160,
+   "ok": 160,
+   "status": {
+    "200": 160
+   },
+   "wall_s": 3.77,
+   "throughput_rps": 42.41,
+   "p50_ms": 369.1,
+   "p95_ms": 525.8,
+   "p99_ms": 563.8,
+   "mean_ms": 359.2,
+   "max_ms": 663.8,
+   "rss_peak_mb": 263.9
+  },
+  {
+   "concurrency": 32,
+   "requests": 320,
+   "ok": 320,
+   "status": {
+    "200": 320
+   },
+   "wall_s": 7.47,
+   "throughput_rps": 42.82,
+   "p50_ms": 727.2,
+   "p95_ms": 977.6,
+   "p99_ms": 1175.5,
+   "mean_ms": 704.7,
+   "max_ms": 1330.2,
+   "rss_peak_mb": 269.3
+  }
+ ]
+}

@@ -1,0 +1,468 @@
+{
+ "service": [
+  {
+   "id": "r3-ho-0001",
+   "text": "안개를 유치원 선생님이 칭찬했대",
+   "gold": "안개",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "안개",
+    "유치원"
+   ]
+  },
+  {
+   "id": "r3-ho-0002",
+   "text": "단풍을 유치원 선생님이 칭찬했대",
+   "gold": "단풍",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "단풍",
+    "유치원"
+   ]
+  },
+  {
+   "id": "r3-ho-0003",
+   "text": "여울을 유치원 선생님이 칭찬했대",
+   "gold": "여울",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "여울",
+    "유치원"
+   ]
+  },
+  {
+   "id": "r3-ho-0004",
+   "text": "반디를 유치원 선생님이 칭찬했대",
+   "gold": "반디",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "반디",
+    "유치원"
+   ]
+  },
+  {
+   "id": "r3-ho-0005",
+   "text": "안개한테 저녁 메뉴 뭐 먹을지 물어봤어",
+   "gold": "안개",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "안개"
+   ]
+  },
+  {
+   "id": "r3-ho-0006",
+   "text": "단풍한테 저녁 메뉴 뭐 먹을지 물어봤어",
+   "gold": "단풍",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "단풍"
+   ]
+  },
+  {
+   "id": "r3-ho-0007",
+   "text": "여울한테 저녁 메뉴 뭐 먹을지 물어봤어",
+   "gold": "여울",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "여울"
+   ]
+  },
+  {
+   "id": "r3-ho-0008",
+   "text": "반디한테 저녁 메뉴 뭐 먹을지 물어봤어",
+   "gold": "반디",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "반디"
+   ]
+  },
+  {
+   "id": "r3-ho-0009",
+   "text": "안개야, 손 씻고 밥 먹자",
+   "gold": "안개",
+   "exact": false,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "안개야"
+   ]
+  },
+  {
+   "id": "r3-ho-0010",
+   "text": "단풍아, 손 씻고 밥 먹자",
+   "gold": "단풍",
+   "exact": false,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "단풍아"
+   ]
+  },
+  {
+   "id": "r3-ho-0011",
+   "text": "여울아, 손 씻고 밥 먹자",
+   "gold": "여울",
+   "exact": false,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "여울아"
+   ]
+  },
+  {
+   "id": "r3-ho-0012",
+   "text": "반디야, 손 씻고 밥 먹자",
+   "gold": "반디",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "반디"
+   ]
+  },
+  {
+   "id": "r3-ho-0013",
+   "text": "안개가 반에서 제일 그림을 잘 그려",
+   "gold": "안개",
+   "exact": false,
+   "leaked": 2,
+   "n": 2,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0014",
+   "text": "단풍이 반에서 제일 그림을 잘 그려",
+   "gold": "단풍",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "단풍"
+   ]
+  },
+  {
+   "id": "r3-ho-0015",
+   "text": "여울이 반에서 제일 그림을 잘 그려",
+   "gold": "여울",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "여울"
+   ]
+  },
+  {
+   "id": "r3-ho-0016",
+   "text": "반디가 반에서 제일 그림을 잘 그려",
+   "gold": "반디",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "반디"
+   ]
+  },
+  {
+   "id": "r3-ho-0017",
+   "text": "아침에 안개가 자욱했다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0018",
+   "text": "안개 때문에 앞이 잘 안 보였다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0019",
+   "text": "산에 단풍이 곱게 들었다",
+   "flagged": true,
+   "pred_person_spans": [
+    "단풍"
+   ]
+  },
+  {
+   "id": "r3-ho-0020",
+   "text": "단풍 구경하러 산에 갔다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0021",
+   "text": "여울 소리가 들려왔다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0022",
+   "text": "여울을 건너 길을 갔다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0023",
+   "text": "여름밤 반디가 날아다녔다",
+   "flagged": true,
+   "pred_person_spans": [
+    "반디"
+   ]
+  },
+  {
+   "id": "r3-ho-0024",
+   "text": "반디 불빛이 은은했다",
+   "flagged": true,
+   "pred_person_spans": [
+    "반디"
+   ]
+  }
+ ],
+ "r3": [
+  {
+   "id": "r3-ho-0001",
+   "text": "안개를 유치원 선생님이 칭찬했대",
+   "gold": "안개",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "안개",
+    "유치원"
+   ]
+  },
+  {
+   "id": "r3-ho-0002",
+   "text": "단풍을 유치원 선생님이 칭찬했대",
+   "gold": "단풍",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "단풍",
+    "유치원"
+   ]
+  },
+  {
+   "id": "r3-ho-0003",
+   "text": "여울을 유치원 선생님이 칭찬했대",
+   "gold": "여울",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "여울",
+    "유치원"
+   ]
+  },
+  {
+   "id": "r3-ho-0004",
+   "text": "반디를 유치원 선생님이 칭찬했대",
+   "gold": "반디",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "반디",
+    "유치원"
+   ]
+  },
+  {
+   "id": "r3-ho-0005",
+   "text": "안개한테 저녁 메뉴 뭐 먹을지 물어봤어",
+   "gold": "안개",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "안개"
+   ]
+  },
+  {
+   "id": "r3-ho-0006",
+   "text": "단풍한테 저녁 메뉴 뭐 먹을지 물어봤어",
+   "gold": "단풍",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "단풍"
+   ]
+  },
+  {
+   "id": "r3-ho-0007",
+   "text": "여울한테 저녁 메뉴 뭐 먹을지 물어봤어",
+   "gold": "여울",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "여울"
+   ]
+  },
+  {
+   "id": "r3-ho-0008",
+   "text": "반디한테 저녁 메뉴 뭐 먹을지 물어봤어",
+   "gold": "반디",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "반디"
+   ]
+  },
+  {
+   "id": "r3-ho-0009",
+   "text": "안개야, 손 씻고 밥 먹자",
+   "gold": "안개",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "안개"
+   ]
+  },
+  {
+   "id": "r3-ho-0010",
+   "text": "단풍아, 손 씻고 밥 먹자",
+   "gold": "단풍",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "단풍"
+   ]
+  },
+  {
+   "id": "r3-ho-0011",
+   "text": "여울아, 손 씻고 밥 먹자",
+   "gold": "여울",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "여울"
+   ]
+  },
+  {
+   "id": "r3-ho-0012",
+   "text": "반디야, 손 씻고 밥 먹자",
+   "gold": "반디",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "반디"
+   ]
+  },
+  {
+   "id": "r3-ho-0013",
+   "text": "안개가 반에서 제일 그림을 잘 그려",
+   "gold": "안개",
+   "exact": false,
+   "leaked": 2,
+   "n": 2,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0014",
+   "text": "단풍이 반에서 제일 그림을 잘 그려",
+   "gold": "단풍",
+   "exact": false,
+   "leaked": 2,
+   "n": 2,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0015",
+   "text": "여울이 반에서 제일 그림을 잘 그려",
+   "gold": "여울",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "여울"
+   ]
+  },
+  {
+   "id": "r3-ho-0016",
+   "text": "반디가 반에서 제일 그림을 잘 그려",
+   "gold": "반디",
+   "exact": true,
+   "leaked": 0,
+   "n": 2,
+   "pred_person_spans": [
+    "반디"
+   ]
+  },
+  {
+   "id": "r3-ho-0017",
+   "text": "아침에 안개가 자욱했다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0018",
+   "text": "안개 때문에 앞이 잘 안 보였다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0019",
+   "text": "산에 단풍이 곱게 들었다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0020",
+   "text": "단풍 구경하러 산에 갔다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0021",
+   "text": "여울 소리가 들려왔다",
+   "flagged": false,
+   "pred_person_spans": []
+  },
+  {
+   "id": "r3-ho-0022",
+   "text": "여울을 건너 길을 갔다",
+   "flagged": true,
+   "pred_person_spans": [
+    "여울"
+   ]
+  },
+  {
+   "id": "r3-ho-0023",
+   "text": "여름밤 반디가 날아다녔다",
+   "flagged": true,
+   "pred_person_spans": [
+    "반디"
+   ]
+  },
+  {
+   "id": "r3-ho-0024",
+   "text": "반디 불빛이 은은했다",
+   "flagged": true,
+   "pred_person_spans": [
+    "반디"
+   ]
+  }
+ ]
+}

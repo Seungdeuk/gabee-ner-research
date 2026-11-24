@@ -1,0 +1,2202 @@
+[
+ {
+  "id": "r10pb-001",
+  "pair_id": "pb-001",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "카페에서 {NW1:sub} 먼저 계산해 줬대, 나중에 확인할게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-002",
+  "pair_id": "pb-001",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "카페에서 {WN1:sub} 먼저 계산서에 찍혔대, 나중에 확인할게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-003",
+  "pair_id": "pb-002",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "마트 영수증 보니까 {NW1:top} 오늘 우리랑 같이 장 봤더라",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-004",
+  "pair_id": "pb-002",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "마트 영수증 보니까 {WN1:top} 오늘 우리랑 같이 세일이더라",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-005",
+  "pair_id": "pb-003",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 용돈은 {NW1:obj} 만나서 직접 줄게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-006",
+  "pair_id": "pb-003",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 용돈은 {WN1:obj} 사서 직접 줄게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-007",
+  "pair_id": "pb-004",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "선물값은 {NW1:com} 반반 나눠서 내자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-008",
+  "pair_id": "pb-004",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "선물값은 {WN1:com} 반반 묶어서 내자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-009",
+  "pair_id": "pb-005",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "이 영수증은 {NW1:dat} 전해 놔, 정산할 거야",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-010",
+  "pair_id": "pb-005",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "이 영수증은 {WN1:dat} 붙여 놔, 정산할 거야",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-011",
+  "pair_id": "pb-006",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "택시비 얼마 나왔냐고 {NW1:voc} 하고 동생을 불러 물어봤어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-012",
+  "pair_id": "pb-006",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "택시비 얼마 나왔냐고 {WN1:voc} 하고 지갑을 불러 물어봤어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-013",
+  "pair_id": "pb-007",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:pos} 생일 선물 값은 내가 낼게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-014",
+  "pair_id": "pb-007",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "{WN1:pos} 포장 값은 내가 낼게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-015",
+  "pair_id": "pb-008",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "환불 받은 사람은 {NW1:bare}, 나머지는 다음 주에 정리하자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-016",
+  "pair_id": "pb-008",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "환불 받은 물건은 {WN1:bare}, 나머지는 다음 주에 정리하자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-017",
+  "pair_id": "pb-009",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "이번 모임 총무는 {NW1:lit}라는 친구야, 정산은 거기서 하자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-018",
+  "pair_id": "pb-009",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "이번 모임 간식은 {WN1:lit}라는 과자야, 정산은 거기서 하자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-019",
+  "pair_id": "pb-010",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "공동 통장 관리는 {NW1:sub} 맡았어, 걱정 마",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-020",
+  "pair_id": "pb-010",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "공동 통장 관리는 {WN1:sub} 필요해, 걱정 마",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-021",
+  "pair_id": "pb-011",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:top} 이번 달 회비를 아직 못 냈어요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-022",
+  "pair_id": "pb-011",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "{WN1:top} 이번 달 회비를 아직 못 샀어요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-023",
+  "pair_id": "pb-012",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "학원비 보내려고 {NW1:obj} 만났는데 깜빡 못 줬네",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-024",
+  "pair_id": "pb-012",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "학원비 보내려고 {WN1:obj} 샀는데 깜빡 못 줬네",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-025",
+  "pair_id": "pb-013",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "오늘 저녁값은 {NW1:com} 따로 계산하자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-026",
+  "pair_id": "pb-013",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "오늘 저녁값은 {WN1:com} 따로 포장하자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-027",
+  "pair_id": "pb-014",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "카드값 문제는 {NW1:dat} 먼저 물어보고 얘기해",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-028",
+  "pair_id": "pb-014",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "카드값 문제는 {WN1:dat} 먼저 적어 두고 얘기해",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-029",
+  "pair_id": "pb-015",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "누가 샀는지 모르면 그냥 {NW1:bare} 물어봐도 돼",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-030",
+  "pair_id": "pb-015",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "누가 샀는지 모르면 그냥 {WN1:bare} 검색해도 돼",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-031",
+  "pair_id": "pb-016",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:pos} 몫으로 남겨 둔 돈이야, 건드리지 마",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-032",
+  "pair_id": "pb-016",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "{WN1:pos} 값으로 남겨 둔 돈이야, 건드리지 마",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-033",
+  "pair_id": "pb-017",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "세일 첫날이라 줄 서 있는 {NW1:sub} 눈에 확 띄었어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-034",
+  "pair_id": "pb-017",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "세일 첫날이라 진열돼 있는 {WN1:sub} 눈에 확 띄었어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-035",
+  "pair_id": "pb-018",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "용돈 기입장에 {NW1:lit}라고 적혀 있는데 누구야?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-036",
+  "pair_id": "pb-018",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "용돈 기입장에 {WN1:lit}라고 적혀 있는데 뭐야?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-037",
+  "pair_id": "pb-019",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "온라인 주문 취소는 {NW1:top} 직접 전화해서 한대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-038",
+  "pair_id": "pb-019",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "온라인 주문 취소는 {WN1:top} 앱에서 버튼으로 한대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-039",
+  "pair_id": "pb-020",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "엄마가 나보고 {NW1:obj} 데리고 마트 다녀오래",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-040",
+  "pair_id": "pb-020",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "엄마가 나보고 {WN1:obj} 담아서 마트 다녀오래",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-041",
+  "pair_id": "pb-021",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "이번 주 식비는 {NW1:com} 나눠서 계산했습니다",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-042",
+  "pair_id": "pb-021",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "이번 주 식비는 {WN1:com} 합쳐서 계산했습니다",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-043",
+  "pair_id": "pb-022",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "이 가방 사도 되냐고 {NW1:voc} 하고 언니한테 카톡했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-044",
+  "pair_id": "pb-022",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "이 가방 사도 되냐고 {WN1:voc} 하고 가방한테 말을 걸었어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-045",
+  "pair_id": "pb-023",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "송금 내역에 찍힌 {NW1:sub} 우리 가족 맞지?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-046",
+  "pair_id": "pb-023",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "송금 내역에 찍힌 {WN1:sub} 우리 물건 맞지?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-047",
+  "pair_id": "pb-024",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "이번엔 내가 쏠게, 다음엔 {NW1:bare} 차례야",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-048",
+  "pair_id": "pb-024",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "이번엔 내가 쏠게, 다음엔 {WN1:bare} 사 올 차례야",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-049",
+  "pair_id": "pb-025",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "남은 거스름돈은 {NW1:dat} 주기로 했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-050",
+  "pair_id": "pb-025",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "남은 거스름돈은 {WN1:dat} 쓰기로 했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-051",
+  "pair_id": "pb-026",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "아까 산 건 {NW1:pos} 학용품이니까 따로 적어 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-052",
+  "pair_id": "pb-026",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "아까 산 건 {WN1:pos} 학용품 세트니까 따로 적어 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-053",
+  "pair_id": "pb-027",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "새 냉장고 대금은 {NW1:top} 할부로 낸다고 들었어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-054",
+  "pair_id": "pb-027",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "새 냉장고 대금은 {WN1:top} 할인으로 낸다고 들었어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-055",
+  "pair_id": "pb-028",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "내일 쇼핑몰 가면 {NW1:obj} 꼭 만나 와라",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-056",
+  "pair_id": "pb-028",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "내일 쇼핑몰 가면 {WN1:obj} 꼭 구해 와라",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-057",
+  "pair_id": "pb-029",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "장보기 담당은 {NW1:lit}라는 이름 가진 막내야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-058",
+  "pair_id": "pb-029",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "장보기 목록은 {WN1:lit}라는 이름 가진 항목이야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-059",
+  "pair_id": "pb-030",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "오늘 점심은 {NW1:com} 먹고 내가 낼게, 다음에 갚아",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-060",
+  "pair_id": "pb-030",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "오늘 점심은 {WN1:com} 곁들여서 내가 낼게, 다음에 갚아",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-061",
+  "pair_id": "pb-031",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "어제 환불해 간 {NW1:sub} 아직 안 돌아왔대",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-062",
+  "pair_id": "pb-031",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "어제 환불해 간 {WN1:sub} 아직 안 들어왔대",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-063",
+  "pair_id": "pb-032",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "생활비 통장 비밀번호는 {NW1:bare} 말고 아무한테도 알려 주지 마",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-064",
+  "pair_id": "pb-032",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "생활비 통장 비밀번호는 {WN1:bare} 말고 아무데도 적어 두지 마",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-065",
+  "pair_id": "pb-033",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "내가 먼저 낸 택시비는 {NW1:dat} 나눠서 받을게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-066",
+  "pair_id": "pb-033",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "내가 먼저 낸 택시비는 {WN1:dat} 나눠서 청구할게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-067",
+  "pair_id": "pb-034",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 모임 회비 내는 건 {NW1:top} 아직이에요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-068",
+  "pair_id": "pb-034",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 모임 회비에 넣는 건 {WN1:top} 아직이에요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-069",
+  "pair_id": "pb-035",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:pos} 덕분에 이번 달 지출이 확 줄었어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-070",
+  "pair_id": "pb-035",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "{WN1:pos} 가격 덕분에 이번 달 지출이 확 줄었어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-071",
+  "pair_id": "pb-036",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "중고거래에서 {NW1:obj} 만나 직접 받아 왔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-072",
+  "pair_id": "pb-036",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "중고거래에서 {WN1:obj} 싸게 직접 받아 왔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-073",
+  "pair_id": "pb-037",
+  "role": "person",
+  "scenario": "정산·돈·구매",
+  "text": "환불 도와줘서 고맙다고 {NW1:voc} 하고 말했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-074",
+  "pair_id": "pb-037",
+  "role": "noun",
+  "scenario": "정산·돈·구매",
+  "text": "환불 되어서 고맙다고 {WN1:voc} 하고 말했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-075",
+  "pair_id": "pb-038",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "진료실에서 {NW1:sub} 먼저 들어가 의사 선생님을 만났어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-076",
+  "pair_id": "pb-038",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "진료실에서 {WN1:sub} 먼저 들어가 의사 선생님께 보였어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-077",
+  "pair_id": "pb-039",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "아침에 열이 났는데 {NW1:top} 약 먹고 자고 있어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-078",
+  "pair_id": "pb-039",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "아침에 열이 났는데 {WN1:top} 약 먹고 나았어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-079",
+  "pair_id": "pb-040",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "치과 예약하러 가면서 {NW1:obj} 같이 데리고 갔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-080",
+  "pair_id": "pb-040",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "치과 예약하러 가면서 {WN1:obj} 같이 챙기고 갔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-081",
+  "pair_id": "pb-041",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "검진 결과는 {NW1:com} 같이 들으러 가자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-082",
+  "pair_id": "pb-041",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "검진 결과는 {WN1:com} 같이 보러 가자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-083",
+  "pair_id": "pb-042",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "감기 옮기지 않게 {NW1:dat} 마스크 씌워 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-084",
+  "pair_id": "pb-042",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "감기 옮기지 않게 {WN1:dat} 마스크 걸어 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-085",
+  "pair_id": "pb-043",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "약 먹었냐고 {NW1:voc} 하고 물었더니 고개를 끄덕였어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-086",
+  "pair_id": "pb-043",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "약 먹었냐고 {WN1:voc} 하고 인형에게 물었더니 웃더라",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-087",
+  "pair_id": "pb-044",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "{NW1:pos} 진료 기록은 내가 병원에서 받아 올게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-088",
+  "pair_id": "pb-044",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "{WN1:pos} 포장 상자는 내가 병원에서 받아 올게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-089",
+  "pair_id": "pb-045",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "병원에 같이 갈 사람은 {NW1:bare}, 약국은 내가 들를게",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-090",
+  "pair_id": "pb-045",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "병원에 같이 갈 물건은 {WN1:bare}, 약국은 내가 들를게",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-091",
+  "pair_id": "pb-046",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "원장님 이름이 {NW1:lit}라는 분이래, 소개받은 병원이야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-092",
+  "pair_id": "pb-046",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "약 이름이 {WN1:lit}라는 거래, 소개받은 병원이야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-093",
+  "pair_id": "pb-047",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "병원 앞에서 기다리는 {NW1:sub} 우리 가족 같아요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-094",
+  "pair_id": "pb-047",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "병원 앞에서 기다리는 {WN1:sub} 우리 가족 거 같아요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-095",
+  "pair_id": "pb-048",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "입원한 동안 간병은 {NW1:top} 번갈아 서기로 했어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-096",
+  "pair_id": "pb-048",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "입원한 동안 간식은 {WN1:top} 번갈아 먹기로 했어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-097",
+  "pair_id": "pb-049",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "열 재 보고 {NW1:obj} 이마에 올려 줬어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-098",
+  "pair_id": "pb-049",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "열 재 보고 {WN1:obj} 이마에 얹어 줬어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-099",
+  "pair_id": "pb-050",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "정형외과 진료는 {NW1:com} 같이 받는 게 어때",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-100",
+  "pair_id": "pb-050",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "정형외과 진료는 {WN1:com} 같이 맡는 게 어때",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-101",
+  "pair_id": "pb-051",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "독감 주사는 {NW1:dat} 맞히기 전에 예약 확인해",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-102",
+  "pair_id": "pb-051",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "독감 주사는 {WN1:dat} 놓기 전에 예약 확인해",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-103",
+  "pair_id": "pb-052",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "다리 다쳤을 때 곁에서 챙겨 준 건 {NW1:bare}",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-104",
+  "pair_id": "pb-052",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "다리 다쳤을 때 위에 올려 둔 건 {WN1:bare}",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-105",
+  "pair_id": "pb-053",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "{NW1:pos} 체온이 높아서 걱정이다",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-106",
+  "pair_id": "pb-053",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "{WN1:pos} 온도가 높아서 걱정이다",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-107",
+  "pair_id": "pb-054",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "건강검진 날짜를 알려 준 {NW1:sub} 어제 왔어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-108",
+  "pair_id": "pb-054",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "건강검진 날짜를 적은 {WN1:sub} 어제 왔어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-109",
+  "pair_id": "pb-055",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "소아과 대기실에 오래 앉아 있던 {NW1:top} 졸려 보였어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-110",
+  "pair_id": "pb-055",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "소아과 대기실에 오래 놓여 있던 {WN1:top} 낡아 보였어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-111",
+  "pair_id": "pb-056",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "약국 가기 전에 {NW1:obj} 확인해 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-112",
+  "pair_id": "pb-056",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "약국 가기 전에 {WN1:obj} 챙겨 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-113",
+  "pair_id": "pb-057",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "물리치료 선생님은 {NW1:lit}라는 분이래, 정말 좋아",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-114",
+  "pair_id": "pb-057",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "물리치료 기구는 {WN1:lit}라는 거래, 정말 좋아",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-115",
+  "pair_id": "pb-058",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "요즘 아프다고 해서 {NW1:com} 병원 간 거 기억나?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-116",
+  "pair_id": "pb-058",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "요즘 아프다고 해서 {WN1:com} 약 먹은 거 기억나?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-117",
+  "pair_id": "pb-059",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "수술 끝나고 눈 뜬 {NW1:sub} 제일 먼저 웃었어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-118",
+  "pair_id": "pb-059",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "수술 끝나고 옮겨진 {WN1:sub} 제일 먼저 소독했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-119",
+  "pair_id": "pb-060",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "아픈 데 없냐고 {NW1:dat} 물어봤더니 괜찮대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-120",
+  "pair_id": "pb-060",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "아픈 데 없냐고 {WN1:dat} 발라 봤더니 괜찮대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-121",
+  "pair_id": "pb-061",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "병원 갈 때 부축해 준 건 {NW1:bare}, 고마웠어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-122",
+  "pair_id": "pb-061",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "병원 갈 때 가져가는 건 {WN1:bare}, 필요했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-123",
+  "pair_id": "pb-062",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "오늘 약 챙겨 먹는 건 {NW1:top} 잊지 않았지?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-124",
+  "pair_id": "pb-062",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "오늘 약과 함께 먹는 건 {WN1:top} 잊지 않았지?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-125",
+  "pair_id": "pb-063",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "엑스레이 찍을 때 {NW1:obj} 꼭 붙잡아 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-126",
+  "pair_id": "pb-063",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "엑스레이 찍을 때 {WN1:obj} 꼭 풀어 놔",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-127",
+  "pair_id": "pb-064",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "{NW1:pos} 상태가 어제보다 괜찮은 것 같아요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-128",
+  "pair_id": "pb-064",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "{WN1:pos} 맛이 어제보다 괜찮은 것 같아요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-129",
+  "pair_id": "pb-065",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "물 마시고 {NW1:com} 쉬면서 열 내리길 기다렸어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-130",
+  "pair_id": "pb-065",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "물 마시고 {WN1:com} 섞어서 열 내리길 기다렸어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-131",
+  "pair_id": "pb-066",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "빨리 낫자고 {NW1:voc} 하고 손을 잡아 줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-132",
+  "pair_id": "pb-066",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "빨리 낫자고 {WN1:voc} 하고 화분을 잡아 줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-133",
+  "pair_id": "pb-067",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "접수 카드에 {NW1:lit}라고 쓰고 번호를 받았어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-134",
+  "pair_id": "pb-067",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "접수 카드에 {WN1:lit}라고 쓰고 번호를 지웠어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-135",
+  "pair_id": "pb-068",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "응급실에서 {NW1:sub} 울어서 모두 놀랐어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-136",
+  "pair_id": "pb-068",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "응급실에서 {WN1:sub} 깨져서 모두 놀랐어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-137",
+  "pair_id": "pb-069",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "치과 갔다 온 {NW1:top} 아직 뺨이 부어 있대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-138",
+  "pair_id": "pb-069",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "치과 갔다 온 {WN1:top} 아직 포장이 뜯어져 있대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-139",
+  "pair_id": "pb-070",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "병문안 오는 분은 {NW1:bare}, 시간은 3시쯤",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-140",
+  "pair_id": "pb-070",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "병문안 가져오는 건 {WN1:bare}, 시간은 3시쯤",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-141",
+  "pair_id": "pb-071",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "저녁 준비하다 보니 {NW1:sub} 옆에서 설거지를 도와줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-142",
+  "pair_id": "pb-071",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "저녁 준비하다 보니 {WN1:sub} 옆에서 끓어 넘쳤어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-143",
+  "pair_id": "pb-072",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "빨래는 {NW1:top} 널어 놨고 나는 청소기만 돌렸어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-144",
+  "pair_id": "pb-072",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "빨래는 {WN1:top} 개어 놨고 나는 청소기만 돌렸어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-145",
+  "pair_id": "pb-073",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "주말에 {NW1:obj} 불러서 김치 담그는 걸 같이 했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-146",
+  "pair_id": "pb-073",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "주말에 {WN1:obj} 넣어서 김치 담그는 걸 같이 했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-147",
+  "pair_id": "pb-074",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "오늘 저녁은 {NW1:com} 함께 먹으니까 반찬 넉넉히 해",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-148",
+  "pair_id": "pb-074",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "오늘 저녁은 {WN1:com} 함께 내놓으니까 반찬 넉넉히 해",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-149",
+  "pair_id": "pb-075",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "남은 반찬은 {NW1:dat} 먹여도 괜찮겠지",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-150",
+  "pair_id": "pb-075",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "남은 반찬은 {WN1:dat} 얹어도 괜찮겠지",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-151",
+  "pair_id": "pb-076",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "밥 다 됐으니 {NW1:voc} 하고 큰 소리로 불렀어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-152",
+  "pair_id": "pb-076",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "밥 다 됐으니 {WN1:voc} 하고 솥뚜껑을 두드렸어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-153",
+  "pair_id": "pb-077",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "{NW1:pos} 입맛에 맞추려고 국을 싱겁게 끓였어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-154",
+  "pair_id": "pb-077",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "{WN1:pos} 맛에 맞추려고 국을 싱겁게 끓였어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-155",
+  "pair_id": "pb-078",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "설거지 당번은 {NW1:bare}, 쓰레기 버리기는 내가 할게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-156",
+  "pair_id": "pb-078",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "설거지 도구는 {WN1:bare}, 쓰레기 버리기는 내가 할게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-157",
+  "pair_id": "pb-079",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "냉장고에 넣어 둔 {NW1:lit}라는 사람 줄 반찬 가져가",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-158",
+  "pair_id": "pb-079",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "냉장고에 넣어 둔 {WN1:lit}라는 반찬 가져가",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-159",
+  "pair_id": "pb-080",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "거실 청소하는데 {NW1:sub} 도와줘서 금방 끝났어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-160",
+  "pair_id": "pb-080",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "거실 청소하는데 {WN1:sub} 굴러다녀서 금방 끝났어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-161",
+  "pair_id": "pb-081",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "계란찜 만든 건 {NW1:top} 처음이래요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-162",
+  "pair_id": "pb-081",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "계란찜 넣은 건 {WN1:top} 처음이래요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-163",
+  "pair_id": "pb-082",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "엄마가 {NW1:obj} 시켜서 마늘을 까라고 하셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-164",
+  "pair_id": "pb-082",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "엄마가 {WN1:obj} 넣어서 마늘을 까라고 하셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-165",
+  "pair_id": "pb-083",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "베란다 정리는 {NW1:com} 같이 하면 한 시간이면 끝나",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-166",
+  "pair_id": "pb-083",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "베란다 정리는 {WN1:com} 같이 두면 한 시간이면 끝나",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-167",
+  "pair_id": "pb-084",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "김치 한 통은 {NW1:dat} 가져다줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-168",
+  "pair_id": "pb-084",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "김치 한 통은 {WN1:dat} 담아 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-169",
+  "pair_id": "pb-085",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "오늘 요리 담당은 {NW1:bare}, 장은 어제 봐 놨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-170",
+  "pair_id": "pb-085",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "오늘 요리 재료는 {WN1:bare}, 장은 어제 봐 놨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-171",
+  "pair_id": "pb-086",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "{NW1:pos} 간식은 서랍에 넣어 뒀어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-172",
+  "pair_id": "pb-086",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "{WN1:pos} 간장은 서랍에 넣어 뒀어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-173",
+  "pair_id": "pb-087",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "설거지 끝내고 나오니 {NW1:sub} 거실에서 TV를 보고 있었어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-174",
+  "pair_id": "pb-087",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "설거지 끝내고 나오니 {WN1:sub} 싱크대에서 말라 있었어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-175",
+  "pair_id": "pb-088",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "저녁 식탁에 {NW1:top} 앉혀 놓고 같이 먹기로 했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-176",
+  "pair_id": "pb-088",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "저녁 식탁에 {WN1:top} 올려 놓고 같이 먹기로 했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-177",
+  "pair_id": "pb-089",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "점심에 {NW1:obj} 불러 주면 좋겠어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-178",
+  "pair_id": "pb-089",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "점심에 {WN1:obj} 만들어 주면 좋겠어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-179",
+  "pair_id": "pb-090",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "이모가 소개한 {NW1:lit}라는 분이 김치를 담가 주셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-180",
+  "pair_id": "pb-090",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "이모가 소개한 {WN1:lit}라는 김치를 담가 주셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-181",
+  "pair_id": "pb-091",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "주방 청소는 {NW1:com} 분담해서 하면 편해",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-182",
+  "pair_id": "pb-091",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "주방 청소는 {WN1:com} 정리해서 하면 편해",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-183",
+  "pair_id": "pb-092",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "냄비 뚜껑을 열었더니 {NW1:sub} 쏟아져 나왔어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-184",
+  "pair_id": "pb-092",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "냄비 뚜껑을 열었더니 {WN1:sub} 놀라서 나왔어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-185",
+  "pair_id": "pb-093",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "생선 구워서 {NW1:dat} 먼저 줘, 배고플 거야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-186",
+  "pair_id": "pb-093",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "생선 구워서 {WN1:dat} 먼저 넣어, 배고플 거야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-187",
+  "pair_id": "pb-094",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "빨래 개는 일은 {NW1:bare}, 방 정리는 다 같이 하자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-188",
+  "pair_id": "pb-094",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "빨래 헹구는 건 {WN1:bare}, 방 정리는 다 같이 하자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-189",
+  "pair_id": "pb-095",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "전기밥솥 청소는 {NW1:top} 오늘 마쳤어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-190",
+  "pair_id": "pb-095",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "전기밥솥 청소에 {WN1:top} 오늘 썼어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-191",
+  "pair_id": "pb-096",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "{NW1:pos} 생일상에는 미역국을 꼭 올릴 거야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-192",
+  "pair_id": "pb-096",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "{WN1:pos} 밥상에는 미역국을 꼭 올릴 거야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-193",
+  "pair_id": "pb-097",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "시장에서 {NW1:obj} 마주쳐서 반가웠어, 같이 나물도 샀어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-194",
+  "pair_id": "pb-097",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "시장에서 {WN1:obj} 고르다가 반가웠어, 같이 나물도 샀어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-195",
+  "pair_id": "pb-098",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "상 차리는 거 도와 달라고 {NW1:voc} 하고 외쳤어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-196",
+  "pair_id": "pb-098",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "상 차리는 거 도와 달라고 {WN1:voc} 하고 중얼댔어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-197",
+  "pair_id": "pb-099",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "두부 부침은 {NW1:com} 같이 부쳐서 먹었어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-198",
+  "pair_id": "pb-099",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "두부 부침은 {WN1:com} 곁들여서 먹었어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-199",
+  "pair_id": "pb-100",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "냉장고 문에 {NW1:lit}라고 적힌 쪽지가 붙어 있어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-200",
+  "pair_id": "pb-100",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "냉장고 문에 {WN1:lit}라고 적힌 쪽지가 떨어져 있어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-201",
+  "pair_id": "pb-101",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "주방에서 요리하다 다친 {NW1:sub} 바로 연락했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-202",
+  "pair_id": "pb-101",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "주방에서 요리하다 쏟은 {WN1:sub} 바로 닦았어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-203",
+  "pair_id": "pb-102",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "쓰레기 분리수거는 {NW1:top} 어제 다 했으니까 오늘은 쉬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-204",
+  "pair_id": "pb-102",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "쓰레기 분리수거에서 {WN1:top} 어제 다 빠졌으니까 오늘은 쉬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-205",
+  "pair_id": "pb-103",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "남은 국은 {NW1:dat} 부어 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-206",
+  "pair_id": "pb-103",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "남은 국은 {WN1:dat} 데워 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-207",
+  "pair_id": "pb-104",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "집안일 분담표에 {NW1:obj} 추가해서 청소를 맡겨 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-208",
+  "pair_id": "pb-104",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "집안일 분담표에 {WN1:obj} 추가해서 청소 도구를 적어 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pb-209",
+  "pair_id": "pb-105",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "오늘 반찬 만든 사람은 {NW1:bare}, 맛있게 먹자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-210",
+  "pair_id": "pb-105",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "오늘 반찬 만든 재료는 {WN1:bare}, 맛있게 먹자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-211",
+  "pair_id": "pb-106",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "약 먹일 때 {NW1:obj} 꼭 안아 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-212",
+  "pair_id": "pb-106",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "약 먹일 때 {WN1:obj} 꼭 섞어 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-213",
+  "pair_id": "pb-107",
+  "role": "person",
+  "scenario": "병원·건강",
+  "text": "{NW1:pos} 처방전은 책상 위에 있어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-214",
+  "pair_id": "pb-107",
+  "role": "noun",
+  "scenario": "병원·건강",
+  "text": "{WN1:pos} 포장지는 책상 위에 있어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-215",
+  "pair_id": "pb-108",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "아침상은 {NW1:sub} 차렸으니 너는 치우기만 해",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-216",
+  "pair_id": "pb-108",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "아침상은 {WN1:sub} 올라왔으니 너는 치우기만 해",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-217",
+  "pair_id": "pb-109",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "식사 전에 {NW1:com} 인사부터 하자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-218",
+  "pair_id": "pb-109",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "식사 전에 {WN1:com} 손질부터 하자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-219",
+  "pair_id": "pb-110",
+  "role": "person",
+  "scenario": "음식·집안일",
+  "text": "간식은 {NW1:dat} 먼저 건네고 나서 먹자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pb-220",
+  "pair_id": "pb-110",
+  "role": "noun",
+  "scenario": "음식·집안일",
+  "text": "간식은 {WN1:dat} 먼저 덮어 놓고 나서 먹자",
+  "tags": [
+   "hard"
+  ]
+ }
+]

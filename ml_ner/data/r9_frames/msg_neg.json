@@ -1,0 +1,1282 @@
+[
+ {
+  "id": "msgn-001",
+  "scenario": "일정·약속",
+  "text": "{K1:top} 토요일 저녁에 외식하자고 하셨어",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-002",
+  "scenario": "학교·학원",
+  "text": "{K1:sub} 학원 끝나는 시간에 맞춰 데리러 오신대",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-003",
+  "scenario": "안부·심부름",
+  "text": "{K1:bare}, 밥은 먹었어? 오늘 날씨 추운데 따뜻하게 입고 다녀",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-004",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:dat} 이번 달 용돈 먼저 보내드렸어요",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-005",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:obj} 쏙 빼닮은 사진이 앨범에서 나왔어 ㅋㅋ",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-006",
+  "scenario": "병원·건강",
+  "text": "{K1:top} 아침에 병원 다녀오셨는데 별일 아니래",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-007",
+  "scenario": "이동·방문",
+  "text": "{K1:com} 같이 가려면 차 안 막힐 때 출발하는 게 좋겠다",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-008",
+  "scenario": "잡담",
+  "text": "{K1:pos} 김치찌개가 세상에서 제일 맛있다는 데 다들 동의하지?",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-009",
+  "scenario": "일정·약속",
+  "text": "{K1:dat} 일요일에 점심 먹으러 간다고 말씀드렸어?",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-010",
+  "scenario": "학교·학원",
+  "text": "{K1:sub} 내일 학교 앞에서 기다리신다고 전해 달래",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-011",
+  "scenario": "안부·심부름",
+  "text": "{K1:bare}, 퇴근길에 우유 한 통만 사다 줄 수 있어?",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-012",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:obj} 모시고 마트 가서 장 보고 영수증 사진 찍어서 보낼게",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-013",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:sub} 찍어 주신 영상 봤어? 진짜 웃기더라",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-014",
+  "scenario": "병원·건강",
+  "text": "{K1:dat} 약 챙겨 드시라고 전화 한번 드려 봐",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-015",
+  "scenario": "이동·방문",
+  "text": "{K1:sub} 지금 기차역으로 가고 계시니까 마중 나가자",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-016",
+  "scenario": "잡담",
+  "text": "{K1:top} 요즘 아침마다 산책하시는 게 취미가 되셨대",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-017",
+  "scenario": "일정·약속",
+  "text": "{K1:com} 다음 주 수요일에 시간 되는지 물어볼게요",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-018",
+  "scenario": "학교·학원",
+  "text": "{K1:sub} 숙제 다 했냐고 물어보셔서 아직이라고 했어",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-019",
+  "scenario": "안부·심부름",
+  "text": "{K1:bare}, 열쇠 어디에 뒀는지 기억나세요?",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-020",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:sub} 이번 명절 선물은 같이 사자고 하셔서 반반 내기로 했어",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-021",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:pos} 생신 때 찍은 영상 편집해서 올려 둘게",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-022",
+  "scenario": "병원·건강",
+  "text": "{K1:sub} 감기 걸려서 목이 많이 아프시대, 죽 좀 끓여 드려야겠다",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-023",
+  "scenario": "이동·방문",
+  "text": "{K1:obj} 터미널까지 태워다 드리고 올게, 좀 늦을 것 같아",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-024",
+  "scenario": "잡담",
+  "text": "{K1:top} 요즘 드라마에 푹 빠지셔서 전화해도 잘 안 받으셔",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-025",
+  "scenario": "일정·약속",
+  "text": "{K1:sub} 다음 주에 우리 집에 오시기로 했으니까 방 좀 치워 놔",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-026",
+  "scenario": "학교·학원",
+  "text": "{K1:sub} 오늘 상담 있는 날이라고 학교에 같이 가 주신대",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-027",
+  "scenario": "안부·심부름",
+  "text": "{K1:dat} 걱정하지 마시라고 문자 보내 놨어요",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-028",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:sub} 카드 말고 현금으로 달라고 하셔서 은행에 들렀어",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-029",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:top} 이 사진 보고 어릴 적 생각난다고 하셨어 ㅎㅎ",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-030",
+  "scenario": "병원·건강",
+  "text": "{K1:sub} 병원 예약 시간 바꾸고 싶으시대, 대신 전화해 줄래?",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-031",
+  "scenario": "이동·방문",
+  "text": "{K1:com} 통화하다가 내일 아침 일찍 출발하기로 했어",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-032",
+  "scenario": "잡담",
+  "text": "{K1:top} 요즘 통 안 드셔서 내가 반찬 좀 만들어 가려고",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-033",
+  "scenario": "일정·약속",
+  "text": "{K1:sub} 우리 오기 전에 불 켜 놓으신다고 하셨어, 늦어도 괜찮아",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-034",
+  "scenario": "학교·학원",
+  "text": "{K1:sub} 시험 잘 보라고 응원 문자 보내셨네, 답장했어?",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-035",
+  "scenario": "안부·심부름",
+  "text": "{K1:dat} 안부 전화 좀 자주 드려, 기다리고 계시더라",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-036",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:obj} 위해서 케이크 하나 주문했어, 같이 돈 모으자",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-037",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:pos} 웃는 모습 담긴 사진 몇 장 골라서 보냈어",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-038",
+  "scenario": "병원·건강",
+  "text": "{K1:sub} 무릎이 아프셔서 오늘은 계단 있는 데는 못 가신대",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-039",
+  "scenario": "이동·방문",
+  "text": "{K1:sub} 먼저 도착해서 주차장에서 기다리고 계셔",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-040",
+  "scenario": "잡담",
+  "text": "{K1:top} 오늘 하루 어땠는지 궁금해하시니까 저녁에 전화드려",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-041",
+  "scenario": "일정·약속",
+  "text": "{K1:sub} 저녁은 밖에서 먹고 오라고 하셨어, 시간 되는 사람 손 들어",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-042",
+  "scenario": "학교·학원",
+  "text": "{K1:sub} 체험학습 가는 날이라고 도시락 싸 주셨어",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-043",
+  "scenario": "안부·심부름",
+  "text": "{K1:bare}, 어제 보내 주신 용돈 잘 받았어요, 감사합니다",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-044",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:sub} 보내 주신 택배 오늘 도착했어, 고맙다고 전해 줘",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-045",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:sub} 이 영상 보고 너무 좋아하셔서 한 번 더 찍어 달라셔",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-046",
+  "scenario": "병원·건강",
+  "text": "{K1:sub} 혈압 약 다 떨어졌다고 하셔서 약국 들렀다 갈게",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-047",
+  "scenario": "이동·방문",
+  "text": "{K1:com} 시장 가는 길인데 필요한 거 있으면 말해 줘",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-048",
+  "scenario": "잡담",
+  "text": "{K1:sub} 오늘은 이야기 너무 많이 하셔서 목소리가 쉬셨더라",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-049",
+  "scenario": "일정·약속",
+  "text": "{K1:top} 주말마다 텃밭에 가시는데 이번에는 다 같이 가 볼까?",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-050",
+  "scenario": "학교·학원",
+  "text": "{K1:sub} 시험 끝나면 같이 영화 보러 가자고 하셨는데 어때?",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-051",
+  "scenario": "안부·심부름",
+  "text": "{K1:sub} {K2:dat} 안부 전해 달라고 하셨어",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-052",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:top} {K2:com} 같이 시장 가기로 했대",
+  "tags": [
+   "kin_only"
+  ]
+ },
+ {
+  "id": "msgn-053",
+  "scenario": "일정·약속",
+  "text": "{L1}에서 저녁 7시에 만나자",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-054",
+  "scenario": "학교·학원",
+  "text": "오늘 수업 끝나고 {O1} 앞에서 기다릴게",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-055",
+  "scenario": "안부·심부름",
+  "text": "할머니 모시고 {O1}에 다녀오는 길이야",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-056",
+  "scenario": "정산·돈·구매",
+  "text": "이번 주말에 {L1}으로 놀러 갈까?",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-057",
+  "scenario": "사진·영상 공유",
+  "text": "{L1} 가는 버스 타는 곳이 어디였지?",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-058",
+  "scenario": "병원·건강",
+  "text": "내일 {O1}에서 상담 있어서 일찍 나가야 돼",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-059",
+  "scenario": "이동·방문",
+  "text": "{L1}에 새로 생긴 카페 사진 찍어 올게요",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-060",
+  "scenario": "잡담",
+  "text": "{O1} 근처에서 점심 먹고 갈 건데 같이 올래?",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-061",
+  "scenario": "일정·약속",
+  "text": "{L1}까지 차로 얼마나 걸릴 것 같아?",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-062",
+  "scenario": "학교·학원",
+  "text": "어제 {L1}에서 찍은 야경 영상이야, 한번 봐",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-063",
+  "scenario": "안부·심부름",
+  "text": "{O1}에서 검사 결과 나왔는데 다 정상이래",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-064",
+  "scenario": "정산·돈·구매",
+  "text": "{L1} 갔다 오느라 오늘은 좀 늦을 것 같아",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-065",
+  "scenario": "사진·영상 공유",
+  "text": "{O1} 가는 길에 약국 들렀다 갈게",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-066",
+  "scenario": "병원·건강",
+  "text": "다음 달에 {L1}으로 여행 가는 거 어떻게 생각해?",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-067",
+  "scenario": "이동·방문",
+  "text": "{O1} 앞에 주차할 데 없으면 길 건너편에 대고 와",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-068",
+  "scenario": "잡담",
+  "text": "방금 {L1} 지나왔는데 눈이 엄청 와",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-069",
+  "scenario": "일정·약속",
+  "text": "{O1}에서 가족 모임 한다고 연락 왔어, 가능한 사람?",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-070",
+  "scenario": "학교·학원",
+  "text": "{L1}에서 {O2}까지 걸어가면 십오 분쯤 걸려",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-071",
+  "scenario": "안부·심부름",
+  "text": "{O1}에 제출할 서류를 깜빡해서 다시 집에 가는 중이야",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-072",
+  "scenario": "정산·돈·구매",
+  "text": "주말에 {L1} 시장 가서 과일 좀 사 올게",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-073",
+  "scenario": "사진·영상 공유",
+  "text": "{O1} 예약은 내가 해 놨으니까 시간만 맞춰서 와",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-074",
+  "scenario": "병원·건강",
+  "text": "{L1} 날씨 어때? 우산 챙겨야 하나?",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-075",
+  "scenario": "이동·방문",
+  "text": "오늘 {O1}에서 발표회 한대, 사진 많이 찍어 줘",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-076",
+  "scenario": "잡담",
+  "text": "{L1}에서 기차 타고 내려갈 테니까 역으로 마중 나와 줘",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-077",
+  "scenario": "일정·약속",
+  "text": "{O1} 갔다가 바로 {L2}으로 이동할 거야",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-078",
+  "scenario": "학교·학원",
+  "text": "{L1} 가는 길이 막혀서 조금 늦을 것 같아요",
+  "tags": [
+   "locorg"
+  ]
+ },
+ {
+  "id": "msgn-079",
+  "scenario": "일정·약속",
+  "text": "오늘은 {W1:top} 때문에 하루 종일 기분이 좋더라",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-080",
+  "scenario": "학교·학원",
+  "text": "저녁에 {W1:obj} 먹고 싶은데 같이 먹을래?",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-081",
+  "scenario": "안부·심부름",
+  "text": "{W1:sub} 너무 심해서 외출은 다음에 하자",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-082",
+  "scenario": "정산·돈·구매",
+  "text": "학교 가기 전에 {W1:obj} 챙겼는지 확인해",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-083",
+  "scenario": "사진·영상 공유",
+  "text": "이번 주말엔 {W1:com} 같이 보내는 건 어때?",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-084",
+  "scenario": "병원·건강",
+  "text": "마트에서 {W1:obj} 세일하길래 두 개 사 왔어",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-085",
+  "scenario": "이동·방문",
+  "text": "이 {W1:bare} 사진 진짜 잘 나왔다, 배경화면으로 해야지",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-086",
+  "scenario": "잡담",
+  "text": "병원 가기 전에 {W1:obj} 먹지 말라고 하더라",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-087",
+  "scenario": "일정·약속",
+  "text": "{W1:top} 비싸서 이번 달은 아끼기로 했어",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-088",
+  "scenario": "학교·학원",
+  "text": "{W1:pos} 가격이 많이 올라서 깜짝 놀랐어",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-089",
+  "scenario": "안부·심부름",
+  "text": "요즘 {W1:sub} 유행이라 다들 하나씩 가지고 있대",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-090",
+  "scenario": "정산·돈·구매",
+  "text": "내일 아침에 {W1:sub} 도착한다고 하니까 문 앞 좀 봐 줘",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-091",
+  "scenario": "사진·영상 공유",
+  "text": "{W1:obj} 찍은 영상 올렸으니까 시간 날 때 봐",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-092",
+  "scenario": "병원·건강",
+  "text": "{W1:dat} 알레르기 있으니까 조심해서 먹어",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-093",
+  "scenario": "이동·방문",
+  "text": "올해 {W1:top} 유난히 빨리 오는 것 같지 않아?",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-094",
+  "scenario": "잡담",
+  "text": "숙제가 {W1:com} 관련된 건데 어렵네",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-095",
+  "scenario": "일정·약속",
+  "text": "지난번에 산 {W1:sub} 고장 났어, 영수증 찾아봐야겠다",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-096",
+  "scenario": "학교·학원",
+  "text": "{W1:obj} 사 오라고 했는데 잊어버리고 그냥 왔어",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-097",
+  "scenario": "안부·심부름",
+  "text": "{W1:sub} 떨어져서 오늘은 장을 봐야 해",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-098",
+  "scenario": "정산·돈·구매",
+  "text": "저녁 메뉴는 {W1:bare}, 어때? 다들 괜찮으면 그렇게 하자",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-099",
+  "scenario": "사진·영상 공유",
+  "text": "창밖을 보니 {W1:sub} 잘 보이네, 사진 한 장 찍어 둘게",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-100",
+  "scenario": "병원·건강",
+  "text": "{W1:top} 몸에 좋다니까 이번에는 많이 먹어 둬",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-101",
+  "scenario": "이동·방문",
+  "text": "어제 산 {W1:obj} 환불하러 갔다 올게",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-102",
+  "scenario": "잡담",
+  "text": "{W1:pos} 맛이 어떤지 궁금하니까 후기 좀 남겨 줘",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-103",
+  "scenario": "일정·약속",
+  "text": "이번 주 미술 시간에 {W1:obj} 그린다고 준비물이 필요하대",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-104",
+  "scenario": "학교·학원",
+  "text": "감기 걸렸을 땐 {W1:obj} 먹는 게 좋다고 하더라",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-105",
+  "scenario": "안부·심부름",
+  "text": "{W1:sub} 너무 많이 와서 길이 미끄러워, 조심해서 와",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-106",
+  "scenario": "정산·돈·구매",
+  "text": "방 정리하다가 옛날 {W1:obj} 찾았어, 완전 반가웠어",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-107",
+  "scenario": "사진·영상 공유",
+  "text": "오는 길에 {W1:obj} 한 봉지만 사다 줄 수 있어?",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-108",
+  "scenario": "병원·건강",
+  "text": "{W1:top} 이제 슬슬 정리해야 할 시기인 것 같아",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-109",
+  "scenario": "이동·방문",
+  "text": "체육 시간에 {W1:obj} 가져오래서 아침부터 찾는 중이야",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-110",
+  "scenario": "잡담",
+  "text": "선물로 {W1:obj} 사 주면 좋아하실까?",
+  "tags": [
+   "noun"
+  ]
+ },
+ {
+  "id": "msgn-111",
+  "scenario": "일정·약속",
+  "text": "우리 집 주소는 {AD1}이야, 택배는 여기로 보내 줘",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-112",
+  "scenario": "학교·학원",
+  "text": "병원 번호가 {PH1}이래, 예약 전화 좀 걸어 봐",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-113",
+  "scenario": "안부·심부름",
+  "text": "메일 주소 {EM1}로 서류 보내 주세요",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-114",
+  "scenario": "정산·돈·구매",
+  "text": "입금은 {AC1}로 부탁해요",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-115",
+  "scenario": "사진·영상 공유",
+  "text": "배달 주소는 {AD1}으로 해 줘, 문 앞에 두고 가시라고 해",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-116",
+  "scenario": "병원·건강",
+  "text": "연락처 {PH1} 맞지? 문자 한번 보내 볼게",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-117",
+  "scenario": "이동·방문",
+  "text": "신청서에 {EM1} 적어 놨으니까 확인 메일 오면 알려 줘",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-118",
+  "scenario": "잡담",
+  "text": "이번 달 회비는 {AC1}로 보내면 돼",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-119",
+  "scenario": "일정·약속",
+  "text": "학원 위치는 {AD1}이래, 지도에서 찾아봐",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-120",
+  "scenario": "학교·학원",
+  "text": "급하면 {PH1}로 전화해, 계속 켜 놓을게",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-121",
+  "scenario": "안부·심부름",
+  "text": "가입할 때 쓴 이메일은 {EM1}이야, 비밀번호는 따로 말해 줄게",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-122",
+  "scenario": "정산·돈·구매",
+  "text": "{AC1} 계좌로 5만 원 보냈으니까 확인해 줘",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-123",
+  "scenario": "사진·영상 공유",
+  "text": "이사 가면 주소가 {AD1}으로 바뀐대, 미리 적어 둬",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-124",
+  "scenario": "병원·건강",
+  "text": "수리 기사님 번호는 {PH1}이니까 필요하면 연락해 봐",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-125",
+  "scenario": "이동·방문",
+  "text": "사진은 {EM1}로 보내 놨어, 용량이 커서 메일로 했어",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-126",
+  "scenario": "잡담",
+  "text": "계좌번호 {AC1} 맞는지 다시 한번 확인하고 보내",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-127",
+  "scenario": "일정·약속",
+  "text": "오늘 모임 장소는 {AD1}이야, 6시까지 오면 돼",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-128",
+  "scenario": "학교·학원",
+  "text": "이 번호 {PH1}로 전화 오면 받지 말고 나한테 알려 줘",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-129",
+  "scenario": "안부·심부름",
+  "text": "공동구매 신청 확인은 {EM1}로 간다고 되어 있어",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-130",
+  "scenario": "정산·돈·구매",
+  "text": "등록금은 {AC1}로 입금하면 된대, 마감이 금요일이야",
+  "tags": [
+   "pii_only"
+  ]
+ },
+ {
+  "id": "msgn-131",
+  "scenario": "일정·약속",
+  "text": "내일 아침 8시에 일어나서 같이 아침 먹자",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-132",
+  "scenario": "학교·학원",
+  "text": "이번 달 전기요금이 4만 2천 원 나왔어",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-133",
+  "scenario": "안부·심부름",
+  "text": "방금 도착했어, 문 좀 열어 줘",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-134",
+  "scenario": "정산·돈·구매",
+  "text": "오늘 저녁 메뉴 뭐야? 배고파 죽겠다",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-135",
+  "scenario": "사진·영상 공유",
+  "text": "시험이 다음 주 화요일부터 시작이래, 공부 좀 해야겠다",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-136",
+  "scenario": "병원·건강",
+  "text": "택배 세 개 왔는데 하나는 내 거 아니야",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-137",
+  "scenario": "이동·방문",
+  "text": "다들 잘 지내지? 요즘 날이 많이 추워졌네",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-138",
+  "scenario": "잡담",
+  "text": "비가 와서 약속은 다음 주로 미룰까 해",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-139",
+  "scenario": "일정·약속",
+  "text": "급식이 맛없어서 도시락 싸 가고 싶어",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-140",
+  "scenario": "학교·학원",
+  "text": "오늘 수학 숙제 12쪽까지래, 잊지 말고 챙겨",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-141",
+  "scenario": "안부·심부름",
+  "text": "휴대폰 충전기 어디 있는지 아는 사람?",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-142",
+  "scenario": "정산·돈·구매",
+  "text": "저녁 6시까지 들어올게, 먼저 먹지 말고 기다려 줘",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-143",
+  "scenario": "사진·영상 공유",
+  "text": "방금 보낸 영상 용량이 커서 안 열리면 말해 줘",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-144",
+  "scenario": "병원·건강",
+  "text": "이번 주 금요일에 다 같이 모일 수 있는 사람 손 들어 봐",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-145",
+  "scenario": "이동·방문",
+  "text": "계란 열 개랑 두부 두 모만 사다 줘, 카드로 계산하면 돼",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-146",
+  "scenario": "잡담",
+  "text": "버스가 십 분 뒤에 도착한대, 정류장에서 기다릴게",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-147",
+  "scenario": "일정·약속",
+  "text": "감기 낫는 데 일주일은 걸린대, 푹 쉬어야겠어",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-148",
+  "scenario": "학교·학원",
+  "text": "오늘 사진 백 장 넘게 찍었어, 정리하는 데 한참 걸리겠다",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-149",
+  "scenario": "안부·심부름",
+  "text": "세탁기 다 돌았으니까 빨래 좀 널어 줘",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-150",
+  "scenario": "정산·돈·구매",
+  "text": "다음 달 15일에 가족 사진 찍으러 가자",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-151",
+  "scenario": "사진·영상 공유",
+  "text": "방금 일어났어, 어제 너무 늦게 잤나 봐",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-152",
+  "scenario": "병원·건강",
+  "text": "치과 예약이 3시 반이라서 점심은 가볍게 먹으려고",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-153",
+  "scenario": "이동·방문",
+  "text": "축하해, 시험 합격했다는 소식 들었어!",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-154",
+  "scenario": "잡담",
+  "text": "고마워, 덕분에 오늘 정말 편하게 다녀왔어요",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-155",
+  "scenario": "일정·약속",
+  "text": "다음 주 월요일은 휴일이니까 늦잠 자도 돼",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-156",
+  "scenario": "학교·학원",
+  "text": "휴대폰 요금제 바꾸면 한 달에 만 원 아낄 수 있대",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-157",
+  "scenario": "안부·심부름",
+  "text": "어제 본 영화 너무 재밌어서 또 보고 싶다",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-158",
+  "scenario": "정산·돈·구매",
+  "text": "저녁에 비 온다니까 빨래는 실내에 널어 놔",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-159",
+  "scenario": "사진·영상 공유",
+  "text": "지금 출발해서 한 시간쯤 걸릴 거야, 조심히 갈게",
+  "tags": [
+   "plain"
+  ]
+ },
+ {
+  "id": "msgn-160",
+  "scenario": "병원·건강",
+  "text": "열두 시까지 안 자면 혼날 줄 알아, 얼른 들어가",
+  "tags": [
+   "plain"
+  ]
+ }
+]

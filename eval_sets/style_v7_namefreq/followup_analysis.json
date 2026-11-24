@@ -1,0 +1,6907 @@
+{
+ "service": {
+  "fingerprint12": "46210943c45f",
+  "before_trim": {
+   "precision": 0.9086,
+   "recall": 0.8738,
+   "f1": 0.8908,
+   "buckets": {
+    "정확탐지": 2097,
+    "경계불일치": 176,
+    "완전미탐": 127
+   },
+   "boundary_mismatch_by_particle": {
+    "조사있음": 142,
+    "조사없음": 34
+   },
+   "neg_fpr": 0.4359,
+   "residual_char_leak_rate": 0.0503,
+   "residual_leak_examples": [
+    {
+     "text": "이다은 숙제 다 하고 게임한대",
+     "gold_name": "이다은",
+     "masked": "OO은 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "최소율 시험 잘 봤다고 자랑하더라",
+     "gold_name": "최소율",
+     "masked": "최소율 시험 잘 봤다고 자랑하더라",
+     "leaked_chars": 3
+    },
+    {
+     "text": "최소율이 내일 소풍 간다고 신났어",
+     "gold_name": "최소율",
+     "masked": "최소율이 내일 소풍 간다고 신났어",
+     "leaked_chars": 3
+    },
+    {
+     "text": "박채은 숙제 다 하고 게임한대",
+     "gold_name": "박채은",
+     "masked": "OO은 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "김가은 숙제 다 하고 게임한대",
+     "gold_name": "김가은",
+     "masked": "OO은 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "시연 오늘 학원 끝나고 전화한대",
+     "gold_name": "시연",
+     "masked": "시연 오늘 학원 끝나고 전화한대",
+     "leaked_chars": 2
+    },
+    {
+     "text": "시연이 숙제 다 하고 게임한대",
+     "gold_name": "시연",
+     "masked": "시연이 숙제 다 하고 게임한대",
+     "leaked_chars": 2
+    },
+    {
+     "text": "김아인 시험 잘 봤다고 자랑하더라",
+     "gold_name": "김아인",
+     "masked": "OO인 시험 잘 봤다고 자랑하더라",
+     "leaked_chars": 1
+    },
+    {
+     "text": "강다인 저녁에 치킨 먹고 싶대",
+     "gold_name": "강다인",
+     "masked": "OO인 저녁에 치킨 먹고 싶대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "임서은 숙제 다 하고 게임한대",
+     "gold_name": "임서은",
+     "masked": "OO은 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    }
+   ],
+   "mismatch_detail": [
+    {
+     "id": "v7-고빈도-하은-s0-p1",
+     "name": "하은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "하은이 내일 소풍 간다고 신났어",
+     "gold": "하은",
+     "predicted": [
+      "하은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-하은-s1-p1",
+     "name": "하은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강하은이 숙제 다 하고 게임한대",
+     "gold": "강하은",
+     "predicted": [
+      "강하은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-수아-s1-p1",
+     "name": "수아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이수아가 시험 잘 봤다고 자랑하더라",
+     "gold": "이수아",
+     "predicted": [
+      "이수아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지아-s1-p1",
+     "name": "지아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강지아가 오늘 학원 끝나고 전화한대",
+     "gold": "강지아",
+     "predicted": [
+      "강지아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-다은-s0-p1",
+     "name": "다은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "다은이 내일 소풍 간다고 신났어",
+     "gold": "다은",
+     "predicted": [
+      "다은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-다은-s1-p0",
+     "name": "다은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "이다은 숙제 다 하고 게임한대",
+     "gold": "이다은",
+     "predicted": [
+      "이다"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-다은-s1-p1",
+     "name": "다은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이다은이 아까 전화 와서 늦는다고 했어",
+     "gold": "이다은",
+     "predicted": [
+      "이다은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예은-s0-p1",
+     "name": "예은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "예은이 숙제 다 하고 게임한대",
+     "gold": "예은",
+     "predicted": [
+      "예은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예은-s1-p1",
+     "name": "예은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김예은이 저녁에 치킨 먹고 싶대",
+     "gold": "김예은",
+     "predicted": [
+      "김예은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-서아-s0-p1",
+     "name": "서아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "서아가 시험 잘 봤다고 자랑하더라",
+     "gold": "서아",
+     "predicted": [
+      "서아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-서아-s1-p1",
+     "name": "서아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박서아가 시험 잘 봤다고 자랑하더라",
+     "gold": "박서아",
+     "predicted": [
+      "박서아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민지-s1-p1",
+     "name": "민지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박민지가 내일 소풍 간다고 신났어",
+     "gold": "박민지",
+     "predicted": [
+      "박민지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-유나-s1-p1",
+     "name": "유나",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임유나가 내일 소풍 간다고 신났어",
+     "gold": "임유나",
+     "predicted": [
+      "임유나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-시은-s0-p1",
+     "name": "시은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "시은이 숙제 다 하고 게임한대",
+     "gold": "시은",
+     "predicted": [
+      "시은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-시은-s1-p1",
+     "name": "시은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조시은이 내일 소풍 간다고 신났어",
+     "gold": "조시은",
+     "predicted": [
+      "조시은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채은-s0-p1",
+     "name": "채은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "채은이 저녁에 치킨 먹고 싶대",
+     "gold": "채은",
+     "predicted": [
+      "채은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채은-s1-p0",
+     "name": "채은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박채은 숙제 다 하고 게임한대",
+     "gold": "박채은",
+     "predicted": [
+      "박채"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-채은-s1-p1",
+     "name": "채은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박채은이 오늘 학원 끝나고 전화한대",
+     "gold": "박채은",
+     "predicted": [
+      "박채은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민성-s0-p1",
+     "name": "민성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "민성이 저녁에 치킨 먹고 싶대",
+     "gold": "민성",
+     "predicted": [
+      "민성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민성-s1-p1",
+     "name": "민성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최민성이 시험 잘 봤다고 자랑하더라",
+     "gold": "최민성",
+     "predicted": [
+      "최민성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-시아-s1-p1",
+     "name": "시아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장시아가 저녁에 치킨 먹고 싶대",
+     "gold": "장시아",
+     "predicted": [
+      "장시아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-가은-s0-p1",
+     "name": "가은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "가은이 내일 소풍 간다고 신났어",
+     "gold": "가은",
+     "predicted": [
+      "가은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-가은-s1-p0",
+     "name": "가은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "김가은 숙제 다 하고 게임한대",
+     "gold": "김가은",
+     "predicted": [
+      "김가"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-가은-s1-p1",
+     "name": "가은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김가은이 저녁에 치킨 먹고 싶대",
+     "gold": "김가은",
+     "predicted": [
+      "김가은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-윤아-s0-p1",
+     "name": "윤아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "윤아가 오늘 학원 끝나고 전화한대",
+     "gold": "윤아",
+     "predicted": [
+      "윤아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-윤아-s1-p1",
+     "name": "윤아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조윤아가 숙제 다 하고 게임한대",
+     "gold": "조윤아",
+     "predicted": [
+      "조윤아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예나-s0-p1",
+     "name": "예나",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "예나가 시험 잘 봤다고 자랑하더라",
+     "gold": "예나",
+     "predicted": [
+      "예나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예나-s1-p1",
+     "name": "예나",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정예나가 저녁에 치킨 먹고 싶대",
+     "gold": "정예나",
+     "predicted": [
+      "정예나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-주아-s0-p1",
+     "name": "주아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "주아가 숙제 다 하고 게임한대",
+     "gold": "주아",
+     "predicted": [
+      "주아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-주아-s1-p1",
+     "name": "주아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤주아가 오늘 학원 끝나고 전화한대",
+     "gold": "윤주아",
+     "predicted": [
+      "윤주아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-나은-s0-p1",
+     "name": "나은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "나은이 저녁에 치킨 먹고 싶대",
+     "gold": "나은",
+     "predicted": [
+      "나은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-나은-s1-p1",
+     "name": "나은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이나은이 저녁에 치킨 먹고 싶대",
+     "gold": "이나은",
+     "predicted": [
+      "이나은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지은-s0-p1",
+     "name": "지은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "지은이 시험 잘 봤다고 자랑하더라",
+     "gold": "지은",
+     "predicted": [
+      "지은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지은-s1-p1",
+     "name": "지은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강지은이 오늘 학원 끝나고 전화한대",
+     "gold": "강지은",
+     "predicted": [
+      "강지은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-아인-s1-p0",
+     "name": "아인",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "김아인 시험 잘 봤다고 자랑하더라",
+     "gold": "김아인",
+     "predicted": [
+      "김아"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-다인-s1-p0",
+     "name": "다인",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강다인 저녁에 치킨 먹고 싶대",
+     "gold": "강다인",
+     "predicted": [
+      "강다"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-서은-s0-p1",
+     "name": "서은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "서은이 저녁에 치킨 먹고 싶대",
+     "gold": "서은",
+     "predicted": [
+      "서은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-서은-s1-p0",
+     "name": "서은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "임서은 숙제 다 하고 게임한대",
+     "gold": "임서은",
+     "predicted": [
+      "임서"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-서은-s1-p1",
+     "name": "서은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임서은이 숙제 다 하고 게임한대",
+     "gold": "임서은",
+     "predicted": [
+      "임서은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채아-s0-p1",
+     "name": "채아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "채아가 숙제 다 하고 게임한대",
+     "gold": "채아",
+     "predicted": [
+      "채아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채아-s1-p1",
+     "name": "채아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임채아가 오늘 학원 끝나고 전화한대",
+     "gold": "임채아",
+     "predicted": [
+      "임채아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지한-s1-p0",
+     "name": "지한",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조지한 숙제 다 하고 게임한대",
+     "gold": "조지한",
+     "predicted": [
+      "조지"
+     ],
+     "reason": "뒷부분 누락('한' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-예지-s1-p1",
+     "name": "예지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이예지가 시험 잘 봤다고 자랑하더라",
+     "gold": "이예지",
+     "predicted": [
+      "이예지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-수정-s0-p1",
+     "name": "수정",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "수정이 내일 소풍 간다고 신났어",
+     "gold": "수정",
+     "predicted": [
+      "수정이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-소은-s0-p1",
+     "name": "소은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "소은이 저녁에 치킨 먹고 싶대",
+     "gold": "소은",
+     "predicted": [
+      "소은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-소은-s1-p1",
+     "name": "소은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정소은이 숙제 다 하고 게임한대",
+     "gold": "정소은",
+     "predicted": [
+      "정소은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-윤지-s1-p1",
+     "name": "윤지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임윤지가 아까 전화 와서 늦는다고 했어",
+     "gold": "임윤지",
+     "predicted": [
+      "임윤지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-세아-s1-p1",
+     "name": "세아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조세아가 오늘 학원 끝나고 전화한대",
+     "gold": "조세아",
+     "predicted": [
+      "조세아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-윤성-s1-p1",
+     "name": "윤성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤윤성이 시험 잘 봤다고 자랑하더라",
+     "gold": "윤윤성",
+     "predicted": [
+      "윤윤성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-사랑-s0-p1",
+     "name": "사랑",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "사랑이 오늘 학원 끝나고 전화한대",
+     "gold": "사랑",
+     "predicted": [
+      "사랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-사랑-s1-p0",
+     "name": "사랑",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조사랑 오늘 학원 끝나고 전화한대",
+     "gold": "조사랑",
+     "predicted": [
+      "조사"
+     ],
+     "reason": "뒷부분 누락('랑' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-사랑-s1-p1",
+     "name": "사랑",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조사랑이 아까 전화 와서 늦는다고 했어",
+     "gold": "조사랑",
+     "predicted": [
+      "조사랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지성-s1-p1",
+     "name": "지성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강지성이 숙제 다 하고 게임한대",
+     "gold": "강지성",
+     "predicted": [
+      "강지성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-연주-s0-p1",
+     "name": "연주",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "연주가 시험 잘 봤다고 자랑하더라",
+     "gold": "연주",
+     "predicted": [
+      "연주가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-리아-s1-p1",
+     "name": "리아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조리아가 시험 잘 봤다고 자랑하더라",
+     "gold": "조리아",
+     "predicted": [
+      "조리아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-준성-s0-p1",
+     "name": "준성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "준성이 내일 소풍 간다고 신났어",
+     "gold": "준성",
+     "predicted": [
+      "준성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-준성-s1-p1",
+     "name": "준성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조준성이 오늘 학원 끝나고 전화한대",
+     "gold": "조준성",
+     "predicted": [
+      "조준성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예성-s0-p1",
+     "name": "예성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "예성이 내일 소풍 간다고 신났어",
+     "gold": "예성",
+     "predicted": [
+      "예성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예성-s1-p1",
+     "name": "예성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김예성이 숙제 다 하고 게임한대",
+     "gold": "김예성",
+     "predicted": [
+      "김예성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-현지-s1-p1",
+     "name": "현지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이현지가 내일 소풍 간다고 신났어",
+     "gold": "이현지",
+     "predicted": [
+      "이현지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-준-s0-p1",
+     "name": "준",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "준이 저녁에 치킨 먹고 싶대",
+     "gold": "준",
+     "predicted": [
+      "준이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-정은-s1-p0",
+     "name": "정은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "이정은 시험 잘 봤다고 자랑하더라",
+     "gold": "이정은",
+     "predicted": [
+      "이정"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-정은-s1-p1",
+     "name": "정은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이정은이 시험 잘 봤다고 자랑하더라",
+     "gold": "이정은",
+     "predicted": [
+      "이정은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-승아-s0-p1",
+     "name": "승아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "승아가 숙제 다 하고 게임한대",
+     "gold": "승아",
+     "predicted": [
+      "승아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-승아-s1-p1",
+     "name": "승아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정승아가 오늘 학원 끝나고 전화한대",
+     "gold": "정승아",
+     "predicted": [
+      "정승아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-로아-s0-p1",
+     "name": "로아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "로아가 아까 전화 와서 늦는다고 했어",
+     "gold": "로아",
+     "predicted": [
+      "로아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-로아-s1-p1",
+     "name": "로아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강로아가 숙제 다 하고 게임한대",
+     "gold": "강로아",
+     "predicted": [
+      "강로아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-세은-s0-p1",
+     "name": "세은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "세은이 저녁에 치킨 먹고 싶대",
+     "gold": "세은",
+     "predicted": [
+      "세은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-세은-s1-p1",
+     "name": "세은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박세은이 내일 소풍 간다고 신났어",
+     "gold": "박세은",
+     "predicted": [
+      "박세은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민아-s0-p1",
+     "name": "민아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "민아가 오늘 학원 끝나고 전화한대",
+     "gold": "민아",
+     "predicted": [
+      "민아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민아-s1-p1",
+     "name": "민아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정민아가 시험 잘 봤다고 자랑하더라",
+     "gold": "정민아",
+     "predicted": [
+      "정민아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-주은-s0-p1",
+     "name": "주은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "주은이 오늘 학원 끝나고 전화한대",
+     "gold": "주은",
+     "predicted": [
+      "주은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-주은-s1-p1",
+     "name": "주은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임주은이 저녁에 치킨 먹고 싶대",
+     "gold": "임주은",
+     "predicted": [
+      "임주은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-은성-s0-p1",
+     "name": "은성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "은성이 내일 소풍 간다고 신났어",
+     "gold": "은성",
+     "predicted": [
+      "은성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-은성-s1-p1",
+     "name": "은성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조은성이 오늘 학원 끝나고 전화한대",
+     "gold": "조은성",
+     "predicted": [
+      "조은성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-설아-s0-p1",
+     "name": "설아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "설아가 내일 소풍 간다고 신났어",
+     "gold": "설아",
+     "predicted": [
+      "설아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-설아-s1-p1",
+     "name": "설아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김설아가 숙제 다 하고 게임한대",
+     "gold": "김설아",
+     "predicted": [
+      "김설아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-현성-s0-p1",
+     "name": "현성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "현성이 저녁에 치킨 먹고 싶대",
+     "gold": "현성",
+     "predicted": [
+      "현성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-현성-s1-p1",
+     "name": "현성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박현성이 시험 잘 봤다고 자랑하더라",
+     "gold": "박현성",
+     "predicted": [
+      "박현성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-은지-s1-p1",
+     "name": "은지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장은지가 내일 소풍 간다고 신났어",
+     "gold": "장은지",
+     "predicted": [
+      "장은지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-연아-s0-p1",
+     "name": "연아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "연아가 내일 소풍 간다고 신났어",
+     "gold": "연아",
+     "predicted": [
+      "연아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-연아-s1-p1",
+     "name": "연아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정연아가 숙제 다 하고 게임한대",
+     "gold": "정연아",
+     "predicted": [
+      "정연아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-태양-s1-p1",
+     "name": "태양",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김태양이 시험 잘 봤다고 자랑하더라",
+     "gold": "김태양",
+     "predicted": [
+      "김태양이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-우성-s1-p1",
+     "name": "우성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장우성이 저녁에 치킨 먹고 싶대",
+     "gold": "장우성",
+     "predicted": [
+      "장우성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-현아-s1-p0",
+     "name": "현아",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤현아 아까 전화 와서 늦는다고 했어",
+     "gold": "윤현아",
+     "predicted": [
+      "윤현"
+     ],
+     "reason": "뒷부분 누락('아' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-현아-s1-p1",
+     "name": "현아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤현아가 저녁에 치킨 먹고 싶대",
+     "gold": "윤현아",
+     "predicted": [
+      "윤현",
+      "아가"
+     ],
+     "reason": "뒷부분 누락('아' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-정아-s0-p1",
+     "name": "정아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "정아가 숙제 다 하고 게임한대",
+     "gold": "정아",
+     "predicted": [
+      "정아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-정아-s1-p1",
+     "name": "정아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정정아가 저녁에 치킨 먹고 싶대",
+     "gold": "정정아",
+     "predicted": [
+      "정정아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-태은-s0-p1",
+     "name": "태은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "태은이 아까 전화 와서 늦는다고 했어",
+     "gold": "태은",
+     "predicted": [
+      "태은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-태은-s1-p1",
+     "name": "태은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정태은이 내일 소풍 간다고 신났어",
+     "gold": "정태은",
+     "predicted": [
+      "정태은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-송아-s0-p1",
+     "name": "송아",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "송아가 오늘 학원 끝나고 전화한대",
+     "gold": "송아",
+     "predicted": [
+      "송아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-송아-s1-p1",
+     "name": "송아",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강송아가 내일 소풍 간다고 신났어",
+     "gold": "강송아",
+     "predicted": [
+      "강송아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-옥-s0-p1",
+     "name": "옥",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "옥이 오늘 학원 끝나고 전화한대",
+     "gold": "옥",
+     "predicted": [
+      "옥이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-상이-s1-p0",
+     "name": "상이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장상이 아까 전화 와서 늦는다고 했어",
+     "gold": "장상이",
+     "predicted": [
+      "장상"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-명화-s0-p1",
+     "name": "명화",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "명화가 아까 전화 와서 늦는다고 했어",
+     "gold": "명화",
+     "predicted": [
+      "명화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-명화-s1-p1",
+     "name": "명화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김명화가 저녁에 치킨 먹고 싶대",
+     "gold": "김명화",
+     "predicted": [
+      "김명화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-선예-s1-p0",
+     "name": "선예",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최선예 숙제 다 하고 게임한대",
+     "gold": "최선예",
+     "predicted": [
+      "최선"
+     ],
+     "reason": "뒷부분 누락('예' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-동은-s0-p1",
+     "name": "동은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "동은이 오늘 학원 끝나고 전화한대",
+     "gold": "동은",
+     "predicted": [
+      "동은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-동은-s1-p0",
+     "name": "동은",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조동은 내일 소풍 간다고 신났어",
+     "gold": "조동은",
+     "predicted": [
+      "조동"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-동은-s1-p1",
+     "name": "동은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조동은이 숙제 다 하고 게임한대",
+     "gold": "조동은",
+     "predicted": [
+      "조동은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-상아-s1-p1",
+     "name": "상아",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤상아가 저녁에 치킨 먹고 싶대",
+     "gold": "윤상아",
+     "predicted": [
+      "윤상아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-비송-s0-p1",
+     "name": "비송",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "비송이 내일 소풍 간다고 신났어",
+     "gold": "비송",
+     "predicted": [
+      "비송이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-비송-s1-p1",
+     "name": "비송",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이비송이 내일 소풍 간다고 신났어",
+     "gold": "이비송",
+     "predicted": [
+      "이비송이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-지이-s1-p0",
+     "name": "지이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강지이 숙제 다 하고 게임한대",
+     "gold": "강지이",
+     "predicted": [
+      "강지"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-인화-s1-p1",
+     "name": "인화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김인화가 숙제 다 하고 게임한대",
+     "gold": "김인화",
+     "predicted": [
+      "김인화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-현애-s1-p0",
+     "name": "현애",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤현애 시험 잘 봤다고 자랑하더라",
+     "gold": "윤현애",
+     "predicted": [
+      "윤현"
+     ],
+     "reason": "뒷부분 누락('애' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-현애-s1-p1",
+     "name": "현애",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤현애가 저녁에 치킨 먹고 싶대",
+     "gold": "윤현애",
+     "predicted": [
+      "윤현"
+     ],
+     "reason": "뒷부분 누락('애' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-율이-s1-p0",
+     "name": "율이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장율이 숙제 다 하고 게임한대",
+     "gold": "장율이",
+     "predicted": [
+      "장율"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s0-p1",
+     "name": "비가나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "비가나가 저녁에 치킨 먹고 싶대",
+     "gold": "비가나",
+     "predicted": [
+      "비가나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s1-p0",
+     "name": "비가나",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최비가나 저녁에 치킨 먹고 싶대",
+     "gold": "최비가나",
+     "predicted": [
+      "최비"
+     ],
+     "reason": "뒷부분 누락('가나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s1-p1",
+     "name": "비가나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최비가나가 아까 전화 와서 늦는다고 했어",
+     "gold": "최비가나",
+     "predicted": [
+      "최비"
+     ],
+     "reason": "뒷부분 누락('가나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-윤송-s0-p1",
+     "name": "윤송",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "윤송이 아까 전화 와서 늦는다고 했어",
+     "gold": "윤송",
+     "predicted": [
+      "윤송이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-윤송-s1-p1",
+     "name": "윤송",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임윤송이 시험 잘 봤다고 자랑하더라",
+     "gold": "임윤송",
+     "predicted": [
+      "임윤송이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-하니-s1-p0",
+     "name": "하니",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강하니 아까 전화 와서 늦는다고 했어",
+     "gold": "강하니",
+     "predicted": [
+      "강하"
+     ],
+     "reason": "뒷부분 누락('니' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-로나-s0-p1",
+     "name": "로나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "로나가 아까 전화 와서 늦는다고 했어",
+     "gold": "로나",
+     "predicted": [
+      "로나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-민애-s1-p0",
+     "name": "민애",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조민애 저녁에 치킨 먹고 싶대",
+     "gold": "조민애",
+     "predicted": [
+      "조민"
+     ],
+     "reason": "뒷부분 누락('애' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-제은-s0-p1",
+     "name": "제은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "제은이 내일 소풍 간다고 신났어",
+     "gold": "제은",
+     "predicted": [
+      "제은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-제은-s1-p1",
+     "name": "제은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김제은이 저녁에 치킨 먹고 싶대",
+     "gold": "김제은",
+     "predicted": [
+      "김제은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-랑-s0-p1",
+     "name": "랑",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "랑이 오늘 학원 끝나고 전화한대",
+     "gold": "랑",
+     "predicted": [
+      "랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-랑-s1-p1",
+     "name": "랑",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임랑이 내일 소풍 간다고 신났어",
+     "gold": "임랑",
+     "predicted": [
+      "임랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-하-s0-p1",
+     "name": "하",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "하가 내일 소풍 간다고 신났어",
+     "gold": "하",
+     "predicted": [
+      "하가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-소아-s1-p1",
+     "name": "소아",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최소아가 오늘 학원 끝나고 전화한대",
+     "gold": "최소아",
+     "predicted": [
+      "최소아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-혜랑-s0-p1",
+     "name": "혜랑",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "혜랑이 시험 잘 봤다고 자랑하더라",
+     "gold": "혜랑",
+     "predicted": [
+      "혜랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-혜랑-s1-p0",
+     "name": "혜랑",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "정혜랑 숙제 다 하고 게임한대",
+     "gold": "정혜랑",
+     "predicted": [
+      "정혜"
+     ],
+     "reason": "뒷부분 누락('랑' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-혜랑-s1-p1",
+     "name": "혜랑",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정혜랑이 내일 소풍 간다고 신났어",
+     "gold": "정혜랑",
+     "predicted": [
+      "정혜랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-니나-s1-p1",
+     "name": "니나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박니나가 오늘 학원 끝나고 전화한대",
+     "gold": "박니나",
+     "predicted": [
+      "박니나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-새라-s1-p0",
+     "name": "새라",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박새라 숙제 다 하고 게임한대",
+     "gold": "박새라",
+     "predicted": [
+      "박새"
+     ],
+     "reason": "뒷부분 누락('라' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-하얀-s0-p1",
+     "name": "하얀",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "하얀이 아까 전화 와서 늦는다고 했어",
+     "gold": "하얀",
+     "predicted": [
+      "하얀이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-다슬-s0-p1",
+     "name": "다슬",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "다슬이 오늘 학원 끝나고 전화한대",
+     "gold": "다슬",
+     "predicted": [
+      "다슬이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-솔지-s0-p1",
+     "name": "솔지",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "솔지가 시험 잘 봤다고 자랑하더라",
+     "gold": "솔지",
+     "predicted": [
+      "솔지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-솔지-s1-p1",
+     "name": "솔지",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강솔지가 내일 소풍 간다고 신났어",
+     "gold": "강솔지",
+     "predicted": [
+      "강솔지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-해니-s1-p1",
+     "name": "해니",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강해니가 저녁에 치킨 먹고 싶대",
+     "gold": "강해니",
+     "predicted": [
+      "강해"
+     ],
+     "reason": "뒷부분 누락('니' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-라나-s1-p1",
+     "name": "라나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강라나가 오늘 학원 끝나고 전화한대",
+     "gold": "강라나",
+     "predicted": [
+      "강라나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-시야-s1-p0",
+     "name": "시야",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "정시야 시험 잘 봤다고 자랑하더라",
+     "gold": "정시야",
+     "predicted": [
+      "정시"
+     ],
+     "reason": "뒷부분 누락('야' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-시야-s1-p1",
+     "name": "시야",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정시야가 아까 전화 와서 늦는다고 했어",
+     "gold": "정시야",
+     "predicted": [
+      "정시"
+     ],
+     "reason": "뒷부분 누락('야' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-레이나-s0-p1",
+     "name": "레이나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "레이나가 저녁에 치킨 먹고 싶대",
+     "gold": "레이나",
+     "predicted": [
+      "레이나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-레이나-s1-p0",
+     "name": "레이나",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "임레이나 시험 잘 봤다고 자랑하더라",
+     "gold": "임레이나",
+     "predicted": [
+      "임레이"
+     ],
+     "reason": "뒷부분 누락('나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-레이나-s1-p1",
+     "name": "레이나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임레이나가 저녁에 치킨 먹고 싶대",
+     "gold": "임레이나",
+     "predicted": [
+      "임레이나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-초은-s0-p1",
+     "name": "초은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "초은이 내일 소풍 간다고 신났어",
+     "gold": "초은",
+     "predicted": [
+      "초은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-초은-s1-p1",
+     "name": "초은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장초은이 저녁에 치킨 먹고 싶대",
+     "gold": "장초은",
+     "predicted": [
+      "장초은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-새나-s0-p1",
+     "name": "새나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "새나가 숙제 다 하고 게임한대",
+     "gold": "새나",
+     "predicted": [
+      "새나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-새나-s1-p1",
+     "name": "새나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조새나가 숙제 다 하고 게임한대",
+     "gold": "조새나",
+     "predicted": [
+      "조새나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-봄이-s1-p0",
+     "name": "봄이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최봄이 시험 잘 봤다고 자랑하더라",
+     "gold": "최봄이",
+     "predicted": [
+      "최봄"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-차은-s0-p1",
+     "name": "차은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "차은이 내일 소풍 간다고 신났어",
+     "gold": "차은",
+     "predicted": [
+      "차은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-차은-s1-p1",
+     "name": "차은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정차은이 저녁에 치킨 먹고 싶대",
+     "gold": "정차은",
+     "predicted": [
+      "정차은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-엘리나-s0-p1",
+     "name": "엘리나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "엘리나가 내일 소풍 간다고 신났어",
+     "gold": "엘리나",
+     "predicted": [
+      "엘리나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-클로이-s1-p0",
+     "name": "클로이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박클로이 시험 잘 봤다고 자랑하더라",
+     "gold": "박클로이",
+     "predicted": [
+      "박클로"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-별아-s0-p1",
+     "name": "별아",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "별아가 저녁에 치킨 먹고 싶대",
+     "gold": "별아",
+     "predicted": [
+      "별아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-별아-s1-p1",
+     "name": "별아",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장별아가 저녁에 치킨 먹고 싶대",
+     "gold": "장별아",
+     "predicted": [
+      "장별아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-상일-s0-p1",
+     "name": "상일",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "상일이 아까 전화 와서 늦는다고 했어",
+     "gold": "상일",
+     "predicted": [
+      "상일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-상일-s1-p0",
+     "name": "상일",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장상일 내일 소풍 간다고 신났어",
+     "gold": "장상일",
+     "predicted": [
+      "장상"
+     ],
+     "reason": "뒷부분 누락('일' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-상일-s1-p1",
+     "name": "상일",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장상일이 내일 소풍 간다고 신났어",
+     "gold": "장상일",
+     "predicted": [
+      "장상일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-용식-s1-p0",
+     "name": "용식",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강용식 숙제 다 하고 게임한대",
+     "gold": "강용식",
+     "predicted": [
+      "강용"
+     ],
+     "reason": "뒷부분 누락('식' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-석이-s1-p0",
+     "name": "석이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조석이 시험 잘 봤다고 자랑하더라",
+     "gold": "조석이",
+     "predicted": [
+      "조석"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-태길-s0-p1",
+     "name": "태길",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "태길이 저녁에 치킨 먹고 싶대",
+     "gold": "태길",
+     "predicted": [
+      "태길이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-태길-s1-p1",
+     "name": "태길",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강태길이 시험 잘 봤다고 자랑하더라",
+     "gold": "강태길",
+     "predicted": [
+      "강태길이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-주일-s1-p1",
+     "name": "주일",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박주일이 아까 전화 와서 늦는다고 했어",
+     "gold": "박주일",
+     "predicted": [
+      "박주일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-성화-s1-p1",
+     "name": "성화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김성화가 저녁에 치킨 먹고 싶대",
+     "gold": "김성화",
+     "predicted": [
+      "김성화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-용은-s0-p1",
+     "name": "용은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "용은이 저녁에 치킨 먹고 싶대",
+     "gold": "용은",
+     "predicted": [
+      "용은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-용은-s1-p0",
+     "name": "용은",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박용은 숙제 다 하고 게임한대",
+     "gold": "박용은",
+     "predicted": [
+      "박용"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-용은-s1-p1",
+     "name": "용은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박용은이 아까 전화 와서 늦는다고 했어",
+     "gold": "박용은",
+     "predicted": [
+      "박용은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-명일-s0-p1",
+     "name": "명일",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "명일이 시험 잘 봤다고 자랑하더라",
+     "gold": "명일",
+     "predicted": [
+      "명일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-명일-s1-p0",
+     "name": "명일",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤명일 아까 전화 와서 늦는다고 했어",
+     "gold": "윤명일",
+     "predicted": [
+      "윤명"
+     ],
+     "reason": "뒷부분 누락('일' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-명일-s1-p1",
+     "name": "명일",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤명일이 시험 잘 봤다고 자랑하더라",
+     "gold": "윤명일",
+     "predicted": [
+      "윤명일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-재창-s0-p1",
+     "name": "재창",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "재창이 오늘 학원 끝나고 전화한대",
+     "gold": "재창",
+     "predicted": [
+      "재창이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-용화-s0-p1",
+     "name": "용화",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "용화가 시험 잘 봤다고 자랑하더라",
+     "gold": "용화",
+     "predicted": [
+      "용화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-용화-s1-p1",
+     "name": "용화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김용화가 내일 소풍 간다고 신났어",
+     "gold": "김용화",
+     "predicted": [
+      "김용화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-덕인-s1-p0",
+     "name": "덕인",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤덕인 숙제 다 하고 게임한대",
+     "gold": "윤덕인",
+     "predicted": [
+      "윤덕"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-규백-s0-p1",
+     "name": "규백",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "규백이 오늘 학원 끝나고 전화한대",
+     "gold": "규백",
+     "predicted": [
+      "규백이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-종성-s0-p1",
+     "name": "종성",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "종성이 시험 잘 봤다고 자랑하더라",
+     "gold": "종성",
+     "predicted": [
+      "종성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-종성-s1-p1",
+     "name": "종성",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최종성이 오늘 학원 끝나고 전화한대",
+     "gold": "최종성",
+     "predicted": [
+      "최종성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-철한-s1-p0",
+     "name": "철한",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "정철한 오늘 학원 끝나고 전화한대",
+     "gold": "정철한",
+     "predicted": [
+      "정철"
+     ],
+     "reason": "뒷부분 누락('한' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-정도-s1-p0",
+     "name": "정도",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강정도 시험 잘 봤다고 자랑하더라",
+     "gold": "강정도",
+     "predicted": [
+      "강정"
+     ],
+     "reason": "뒷부분 누락('도' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-찬일-s0-p1",
+     "name": "찬일",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "찬일이 오늘 학원 끝나고 전화한대",
+     "gold": "찬일",
+     "predicted": [
+      "찬일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-찬일-s1-p0",
+     "name": "찬일",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장찬일 저녁에 치킨 먹고 싶대",
+     "gold": "장찬일",
+     "predicted": [
+      "장찬"
+     ],
+     "reason": "뒷부분 누락('일' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-찬일-s1-p1",
+     "name": "찬일",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장찬일이 아까 전화 와서 늦는다고 했어",
+     "gold": "장찬일",
+     "predicted": [
+      "장찬일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    }
+   ]
+  },
+  "after_trim": {
+   "precision": 0.9645,
+   "recall": 0.9275,
+   "f1": 0.9456,
+   "buckets": {
+    "정확탐지": 2226,
+    "경계불일치": 47,
+    "완전미탐": 127
+   },
+   "boundary_mismatch_by_particle": {
+    "조사없음": 34,
+    "조사있음": 13
+   },
+   "neg_fpr": 0.4359,
+   "residual_char_leak_rate": 0.051,
+   "residual_leak_examples": [
+    {
+     "text": "이다은 숙제 다 하고 게임한대",
+     "gold_name": "이다은",
+     "masked": "OO은 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "최소율 시험 잘 봤다고 자랑하더라",
+     "gold_name": "최소율",
+     "masked": "최소율 시험 잘 봤다고 자랑하더라",
+     "leaked_chars": 3
+    },
+    {
+     "text": "최소율이 내일 소풍 간다고 신났어",
+     "gold_name": "최소율",
+     "masked": "최소율이 내일 소풍 간다고 신났어",
+     "leaked_chars": 3
+    },
+    {
+     "text": "박채은 숙제 다 하고 게임한대",
+     "gold_name": "박채은",
+     "masked": "OO은 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "김가은 숙제 다 하고 게임한대",
+     "gold_name": "김가은",
+     "masked": "OO은 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "시연 오늘 학원 끝나고 전화한대",
+     "gold_name": "시연",
+     "masked": "시연 오늘 학원 끝나고 전화한대",
+     "leaked_chars": 2
+    },
+    {
+     "text": "시연이 숙제 다 하고 게임한대",
+     "gold_name": "시연",
+     "masked": "시연이 숙제 다 하고 게임한대",
+     "leaked_chars": 2
+    },
+    {
+     "text": "김아인 시험 잘 봤다고 자랑하더라",
+     "gold_name": "김아인",
+     "masked": "OO인 시험 잘 봤다고 자랑하더라",
+     "leaked_chars": 1
+    },
+    {
+     "text": "강다인 저녁에 치킨 먹고 싶대",
+     "gold_name": "강다인",
+     "masked": "OO인 저녁에 치킨 먹고 싶대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "임서은 숙제 다 하고 게임한대",
+     "gold_name": "임서은",
+     "masked": "OO은 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    }
+   ],
+   "mismatch_detail": [
+    {
+     "id": "v7-고빈도-다은-s1-p0",
+     "name": "다은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "이다은 숙제 다 하고 게임한대",
+     "gold": "이다은",
+     "predicted": [
+      "이다"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-채은-s1-p0",
+     "name": "채은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박채은 숙제 다 하고 게임한대",
+     "gold": "박채은",
+     "predicted": [
+      "박채"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-가은-s1-p0",
+     "name": "가은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "김가은 숙제 다 하고 게임한대",
+     "gold": "김가은",
+     "predicted": [
+      "김가"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-아인-s1-p0",
+     "name": "아인",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "김아인 시험 잘 봤다고 자랑하더라",
+     "gold": "김아인",
+     "predicted": [
+      "김아"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-다인-s1-p0",
+     "name": "다인",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강다인 저녁에 치킨 먹고 싶대",
+     "gold": "강다인",
+     "predicted": [
+      "강다"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-서은-s1-p0",
+     "name": "서은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "임서은 숙제 다 하고 게임한대",
+     "gold": "임서은",
+     "predicted": [
+      "임서"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-지한-s1-p0",
+     "name": "지한",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조지한 숙제 다 하고 게임한대",
+     "gold": "조지한",
+     "predicted": [
+      "조지"
+     ],
+     "reason": "뒷부분 누락('한' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-사랑-s1-p0",
+     "name": "사랑",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조사랑 오늘 학원 끝나고 전화한대",
+     "gold": "조사랑",
+     "predicted": [
+      "조사"
+     ],
+     "reason": "뒷부분 누락('랑' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-준-s0-p1",
+     "name": "준",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "준이 저녁에 치킨 먹고 싶대",
+     "gold": "준",
+     "predicted": [
+      "준이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-정은-s1-p0",
+     "name": "정은",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "이정은 시험 잘 봤다고 자랑하더라",
+     "gold": "이정은",
+     "predicted": [
+      "이정"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-현아-s1-p0",
+     "name": "현아",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤현아 아까 전화 와서 늦는다고 했어",
+     "gold": "윤현아",
+     "predicted": [
+      "윤현"
+     ],
+     "reason": "뒷부분 누락('아' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-현아-s1-p1",
+     "name": "현아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤현아가 저녁에 치킨 먹고 싶대",
+     "gold": "윤현아",
+     "predicted": [
+      "윤현",
+      "아가"
+     ],
+     "reason": "뒷부분 누락('아' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-옥-s0-p1",
+     "name": "옥",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "옥이 오늘 학원 끝나고 전화한대",
+     "gold": "옥",
+     "predicted": [
+      "옥이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-상이-s1-p0",
+     "name": "상이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장상이 아까 전화 와서 늦는다고 했어",
+     "gold": "장상이",
+     "predicted": [
+      "장상"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-상이-s1-p1",
+     "name": "상이",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장상이가 아까 전화 와서 늦는다고 했어",
+     "gold": "장상이",
+     "predicted": [
+      "장상"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-선예-s1-p0",
+     "name": "선예",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최선예 숙제 다 하고 게임한대",
+     "gold": "최선예",
+     "predicted": [
+      "최선"
+     ],
+     "reason": "뒷부분 누락('예' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-동은-s1-p0",
+     "name": "동은",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조동은 내일 소풍 간다고 신났어",
+     "gold": "조동은",
+     "predicted": [
+      "조동"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-지이-s1-p0",
+     "name": "지이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강지이 숙제 다 하고 게임한대",
+     "gold": "강지이",
+     "predicted": [
+      "강지"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-현애-s1-p0",
+     "name": "현애",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤현애 시험 잘 봤다고 자랑하더라",
+     "gold": "윤현애",
+     "predicted": [
+      "윤현"
+     ],
+     "reason": "뒷부분 누락('애' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-현애-s1-p1",
+     "name": "현애",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤현애가 저녁에 치킨 먹고 싶대",
+     "gold": "윤현애",
+     "predicted": [
+      "윤현"
+     ],
+     "reason": "뒷부분 누락('애' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-율이-s1-p0",
+     "name": "율이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장율이 숙제 다 하고 게임한대",
+     "gold": "장율이",
+     "predicted": [
+      "장율"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-율이-s1-p1",
+     "name": "율이",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장율이가 내일 소풍 간다고 신났어",
+     "gold": "장율이",
+     "predicted": [
+      "장율"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s1-p0",
+     "name": "비가나",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최비가나 저녁에 치킨 먹고 싶대",
+     "gold": "최비가나",
+     "predicted": [
+      "최비"
+     ],
+     "reason": "뒷부분 누락('가나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s1-p1",
+     "name": "비가나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최비가나가 아까 전화 와서 늦는다고 했어",
+     "gold": "최비가나",
+     "predicted": [
+      "최비"
+     ],
+     "reason": "뒷부분 누락('가나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-하니-s1-p0",
+     "name": "하니",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강하니 아까 전화 와서 늦는다고 했어",
+     "gold": "강하니",
+     "predicted": [
+      "강하"
+     ],
+     "reason": "뒷부분 누락('니' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-민애-s1-p0",
+     "name": "민애",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조민애 저녁에 치킨 먹고 싶대",
+     "gold": "조민애",
+     "predicted": [
+      "조민"
+     ],
+     "reason": "뒷부분 누락('애' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-랑-s0-p1",
+     "name": "랑",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "랑이 오늘 학원 끝나고 전화한대",
+     "gold": "랑",
+     "predicted": [
+      "랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-하-s0-p1",
+     "name": "하",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "하가 내일 소풍 간다고 신났어",
+     "gold": "하",
+     "predicted": [
+      "하가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-혜랑-s1-p0",
+     "name": "혜랑",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "정혜랑 숙제 다 하고 게임한대",
+     "gold": "정혜랑",
+     "predicted": [
+      "정혜"
+     ],
+     "reason": "뒷부분 누락('랑' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-새라-s1-p0",
+     "name": "새라",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박새라 숙제 다 하고 게임한대",
+     "gold": "박새라",
+     "predicted": [
+      "박새"
+     ],
+     "reason": "뒷부분 누락('라' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-해니-s1-p1",
+     "name": "해니",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강해니가 저녁에 치킨 먹고 싶대",
+     "gold": "강해니",
+     "predicted": [
+      "강해"
+     ],
+     "reason": "뒷부분 누락('니' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-시야-s1-p0",
+     "name": "시야",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "정시야 시험 잘 봤다고 자랑하더라",
+     "gold": "정시야",
+     "predicted": [
+      "정시"
+     ],
+     "reason": "뒷부분 누락('야' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-시야-s1-p1",
+     "name": "시야",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정시야가 아까 전화 와서 늦는다고 했어",
+     "gold": "정시야",
+     "predicted": [
+      "정시"
+     ],
+     "reason": "뒷부분 누락('야' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-레이나-s1-p0",
+     "name": "레이나",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "임레이나 시험 잘 봤다고 자랑하더라",
+     "gold": "임레이나",
+     "predicted": [
+      "임레이"
+     ],
+     "reason": "뒷부분 누락('나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-봄이-s1-p0",
+     "name": "봄이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최봄이 시험 잘 봤다고 자랑하더라",
+     "gold": "최봄이",
+     "predicted": [
+      "최봄"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-봄이-s1-p1",
+     "name": "봄이",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최봄이가 아까 전화 와서 늦는다고 했어",
+     "gold": "최봄이",
+     "predicted": [
+      "최봄"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-클로이-s1-p0",
+     "name": "클로이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박클로이 시험 잘 봤다고 자랑하더라",
+     "gold": "박클로이",
+     "predicted": [
+      "박클로"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-상일-s1-p0",
+     "name": "상일",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장상일 내일 소풍 간다고 신났어",
+     "gold": "장상일",
+     "predicted": [
+      "장상"
+     ],
+     "reason": "뒷부분 누락('일' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-용식-s1-p0",
+     "name": "용식",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강용식 숙제 다 하고 게임한대",
+     "gold": "강용식",
+     "predicted": [
+      "강용"
+     ],
+     "reason": "뒷부분 누락('식' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-석이-s1-p0",
+     "name": "석이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조석이 시험 잘 봤다고 자랑하더라",
+     "gold": "조석이",
+     "predicted": [
+      "조석"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-석이-s1-p1",
+     "name": "석이",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조석이가 시험 잘 봤다고 자랑하더라",
+     "gold": "조석이",
+     "predicted": [
+      "조석"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-용은-s1-p0",
+     "name": "용은",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박용은 숙제 다 하고 게임한대",
+     "gold": "박용은",
+     "predicted": [
+      "박용"
+     ],
+     "reason": "뒷부분 누락('은' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-명일-s1-p0",
+     "name": "명일",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤명일 아까 전화 와서 늦는다고 했어",
+     "gold": "윤명일",
+     "predicted": [
+      "윤명"
+     ],
+     "reason": "뒷부분 누락('일' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-덕인-s1-p0",
+     "name": "덕인",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤덕인 숙제 다 하고 게임한대",
+     "gold": "윤덕인",
+     "predicted": [
+      "윤덕"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-철한-s1-p0",
+     "name": "철한",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "정철한 오늘 학원 끝나고 전화한대",
+     "gold": "정철한",
+     "predicted": [
+      "정철"
+     ],
+     "reason": "뒷부분 누락('한' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-정도-s1-p0",
+     "name": "정도",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강정도 시험 잘 봤다고 자랑하더라",
+     "gold": "강정도",
+     "predicted": [
+      "강정"
+     ],
+     "reason": "뒷부분 누락('도' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-찬일-s1-p0",
+     "name": "찬일",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장찬일 저녁에 치킨 먹고 싶대",
+     "gold": "장찬일",
+     "predicted": [
+      "장찬"
+     ],
+     "reason": "뒷부분 누락('일' 못 덮음)"
+    }
+   ]
+  },
+  "name_context_table": [
+   {
+    "word": "바다",
+    "real_registered_count": 4,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "노을",
+    "real_registered_count": 5,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "하늘",
+    "real_registered_count": 98,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "구름",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "시냇물",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "소나기",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "무지개",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "들판",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "안개",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.6667,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "이슬",
+    "real_registered_count": 4,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "파도",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "폭포",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "단풍",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.6667,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "눈송이",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "별빛",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "햇살",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "바람",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "새벽",
+    "real_registered_count": 10,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "노래방",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "운동장",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "놀이터",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "도서관",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "미술관",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "박물관",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "수족관",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "놀이공원",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   }
+  ],
+  "name_context_raw": [
+   {
+    "word": "바다",
+    "condition": "성붙임(이름문맥)",
+    "text": "김바다 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김바다"
+    ]
+   },
+   {
+    "word": "바다",
+    "condition": "호격(이름문맥)",
+    "text": "바다야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "바다"
+    ]
+   },
+   {
+    "word": "노을",
+    "condition": "성붙임(이름문맥)",
+    "text": "김노을 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김노을"
+    ]
+   },
+   {
+    "word": "노을",
+    "condition": "호격(이름문맥)",
+    "text": "노을야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "노을"
+    ]
+   },
+   {
+    "word": "하늘",
+    "condition": "성붙임(이름문맥)",
+    "text": "김하늘 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김하늘"
+    ]
+   },
+   {
+    "word": "하늘",
+    "condition": "호격(이름문맥)",
+    "text": "하늘야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "하늘"
+    ]
+   },
+   {
+    "word": "구름",
+    "condition": "성붙임(이름문맥)",
+    "text": "김구름 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김구름"
+    ]
+   },
+   {
+    "word": "구름",
+    "condition": "호격(이름문맥)",
+    "text": "구름야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "시냇물",
+    "condition": "성붙임(이름문맥)",
+    "text": "김시냇물 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": [
+     "김시"
+    ]
+   },
+   {
+    "word": "시냇물",
+    "condition": "호격(이름문맥)",
+    "text": "시냇물야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "소나기",
+    "condition": "성붙임(이름문맥)",
+    "text": "김소나기 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김소나기"
+    ]
+   },
+   {
+    "word": "소나기",
+    "condition": "호격(이름문맥)",
+    "text": "소나기야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "소나기"
+    ]
+   },
+   {
+    "word": "무지개",
+    "condition": "성붙임(이름문맥)",
+    "text": "김무지개 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "무지개",
+    "condition": "호격(이름문맥)",
+    "text": "무지개야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "무지개"
+    ]
+   },
+   {
+    "word": "들판",
+    "condition": "성붙임(이름문맥)",
+    "text": "김들판 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": [
+     "김들"
+    ]
+   },
+   {
+    "word": "들판",
+    "condition": "호격(이름문맥)",
+    "text": "들판야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "안개",
+    "condition": "성붙임(이름문맥)",
+    "text": "김안개 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김안개"
+    ]
+   },
+   {
+    "word": "안개",
+    "condition": "호격(이름문맥)",
+    "text": "안개야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "안개"
+    ]
+   },
+   {
+    "word": "이슬",
+    "condition": "성붙임(이름문맥)",
+    "text": "김이슬 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김이슬"
+    ]
+   },
+   {
+    "word": "이슬",
+    "condition": "호격(이름문맥)",
+    "text": "이슬야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "이슬"
+    ]
+   },
+   {
+    "word": "파도",
+    "condition": "성붙임(이름문맥)",
+    "text": "김파도 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": [
+     "김파"
+    ]
+   },
+   {
+    "word": "파도",
+    "condition": "호격(이름문맥)",
+    "text": "파도야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "파도"
+    ]
+   },
+   {
+    "word": "폭포",
+    "condition": "성붙임(이름문맥)",
+    "text": "김폭포 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김폭포"
+    ]
+   },
+   {
+    "word": "폭포",
+    "condition": "호격(이름문맥)",
+    "text": "폭포야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "단풍",
+    "condition": "성붙임(이름문맥)",
+    "text": "김단풍 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김단풍"
+    ]
+   },
+   {
+    "word": "단풍",
+    "condition": "호격(이름문맥)",
+    "text": "단풍야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": [
+     "단풍야"
+    ]
+   },
+   {
+    "word": "눈송이",
+    "condition": "성붙임(이름문맥)",
+    "text": "김눈송이 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김눈송이"
+    ]
+   },
+   {
+    "word": "눈송이",
+    "condition": "호격(이름문맥)",
+    "text": "눈송이야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "눈송이"
+    ]
+   },
+   {
+    "word": "별빛",
+    "condition": "성붙임(이름문맥)",
+    "text": "김별빛 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김별빛"
+    ]
+   },
+   {
+    "word": "별빛",
+    "condition": "호격(이름문맥)",
+    "text": "별빛야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "별빛"
+    ]
+   },
+   {
+    "word": "햇살",
+    "condition": "성붙임(이름문맥)",
+    "text": "김햇살 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김햇살"
+    ]
+   },
+   {
+    "word": "햇살",
+    "condition": "호격(이름문맥)",
+    "text": "햇살야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "햇살"
+    ]
+   },
+   {
+    "word": "바람",
+    "condition": "성붙임(이름문맥)",
+    "text": "김바람 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김바람"
+    ]
+   },
+   {
+    "word": "바람",
+    "condition": "호격(이름문맥)",
+    "text": "바람야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "새벽",
+    "condition": "성붙임(이름문맥)",
+    "text": "김새벽 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김새벽"
+    ]
+   },
+   {
+    "word": "새벽",
+    "condition": "호격(이름문맥)",
+    "text": "새벽야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "노래방",
+    "condition": "성붙임(이름문맥)",
+    "text": "김노래방 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김노래방"
+    ]
+   },
+   {
+    "word": "노래방",
+    "condition": "호격(이름문맥)",
+    "text": "노래방야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "운동장",
+    "condition": "성붙임(이름문맥)",
+    "text": "김운동장 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "운동장",
+    "condition": "호격(이름문맥)",
+    "text": "운동장야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "놀이터",
+    "condition": "성붙임(이름문맥)",
+    "text": "김놀이터 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "놀이터",
+    "condition": "호격(이름문맥)",
+    "text": "놀이터야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "도서관",
+    "condition": "성붙임(이름문맥)",
+    "text": "김도서관 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김도서관"
+    ]
+   },
+   {
+    "word": "도서관",
+    "condition": "호격(이름문맥)",
+    "text": "도서관야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "미술관",
+    "condition": "성붙임(이름문맥)",
+    "text": "김미술관 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "미술관",
+    "condition": "호격(이름문맥)",
+    "text": "미술관야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "박물관",
+    "condition": "성붙임(이름문맥)",
+    "text": "김박물관 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "박물관",
+    "condition": "호격(이름문맥)",
+    "text": "박물관야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "수족관",
+    "condition": "성붙임(이름문맥)",
+    "text": "김수족관 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "수족관",
+    "condition": "호격(이름문맥)",
+    "text": "수족관야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "놀이공원",
+    "condition": "성붙임(이름문맥)",
+    "text": "김놀이공원 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "놀이공원",
+    "condition": "호격(이름문맥)",
+    "text": "놀이공원야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   }
+  ]
+ },
+ "r1_s7": {
+  "fingerprint12": "c536eadeb5a1",
+  "before_trim": {
+   "precision": 0.9165,
+   "recall": 0.9096,
+   "f1": 0.913,
+   "buckets": {
+    "정확탐지": 2183,
+    "경계불일치": 157,
+    "완전미탐": 60
+   },
+   "boundary_mismatch_by_particle": {
+    "조사있음": 140,
+    "조사없음": 17
+   },
+   "neg_fpr": 0.5385,
+   "residual_char_leak_rate": 0.0221,
+   "residual_leak_examples": [
+    {
+     "text": "시연 오늘 학원 끝나고 전화한대",
+     "gold_name": "시연",
+     "masked": "시연 오늘 학원 끝나고 전화한대",
+     "leaked_chars": 2
+    },
+    {
+     "text": "강다인 저녁에 치킨 먹고 싶대",
+     "gold_name": "강다인",
+     "masked": "OO인 저녁에 치킨 먹고 싶대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "조지한 숙제 다 하고 게임한대",
+     "gold_name": "조지한",
+     "masked": "OO한 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "도하 내일 소풍 간다고 신났어",
+     "gold_name": "도하",
+     "masked": "도하 내일 소풍 간다고 신났어",
+     "leaked_chars": 2
+    },
+    {
+     "text": "윤이든 숙제 다 하고 게임한대",
+     "gold_name": "윤이든",
+     "masked": "OO든 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "연주 오늘 학원 끝나고 전화한대",
+     "gold_name": "연주",
+     "masked": "연주 오늘 학원 끝나고 전화한대",
+     "leaked_chars": 2
+    },
+    {
+     "text": "최재이 저녁에 치킨 먹고 싶대",
+     "gold_name": "최재이",
+     "masked": "OO이 저녁에 치킨 먹고 싶대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "봄 오늘 학원 끝나고 전화한대",
+     "gold_name": "봄",
+     "masked": "봄 오늘 학원 끝나고 전화한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "봄이 시험 잘 봤다고 자랑하더라",
+     "gold_name": "봄",
+     "masked": "봄이 시험 잘 봤다고 자랑하더라",
+     "leaked_chars": 1
+    },
+    {
+     "text": "현지 내일 소풍 간다고 신났어",
+     "gold_name": "현지",
+     "masked": "현지 내일 소풍 간다고 신났어",
+     "leaked_chars": 2
+    }
+   ],
+   "mismatch_detail": [
+    {
+     "id": "v7-고빈도-하은-s0-p1",
+     "name": "하은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "하은이 내일 소풍 간다고 신났어",
+     "gold": "하은",
+     "predicted": [
+      "하은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-하은-s1-p1",
+     "name": "하은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강하은이 숙제 다 하고 게임한대",
+     "gold": "강하은",
+     "predicted": [
+      "강하은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-수아-s1-p1",
+     "name": "수아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이수아가 시험 잘 봤다고 자랑하더라",
+     "gold": "이수아",
+     "predicted": [
+      "이수아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지아-s1-p1",
+     "name": "지아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강지아가 오늘 학원 끝나고 전화한대",
+     "gold": "강지아",
+     "predicted": [
+      "강지아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-다은-s0-p1",
+     "name": "다은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "다은이 내일 소풍 간다고 신났어",
+     "gold": "다은",
+     "predicted": [
+      "다은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-다은-s1-p1",
+     "name": "다은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이다은이 아까 전화 와서 늦는다고 했어",
+     "gold": "이다은",
+     "predicted": [
+      "이다은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예은-s0-p1",
+     "name": "예은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "예은이 숙제 다 하고 게임한대",
+     "gold": "예은",
+     "predicted": [
+      "예은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예은-s1-p1",
+     "name": "예은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김예은이 저녁에 치킨 먹고 싶대",
+     "gold": "김예은",
+     "predicted": [
+      "김예은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-서아-s0-p1",
+     "name": "서아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "서아가 시험 잘 봤다고 자랑하더라",
+     "gold": "서아",
+     "predicted": [
+      "서아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-서아-s1-p1",
+     "name": "서아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박서아가 시험 잘 봤다고 자랑하더라",
+     "gold": "박서아",
+     "predicted": [
+      "박서아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민지-s1-p1",
+     "name": "민지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박민지가 내일 소풍 간다고 신났어",
+     "gold": "박민지",
+     "predicted": [
+      "박민지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-유나-s1-p1",
+     "name": "유나",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임유나가 내일 소풍 간다고 신났어",
+     "gold": "임유나",
+     "predicted": [
+      "임유나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-시은-s0-p1",
+     "name": "시은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "시은이 숙제 다 하고 게임한대",
+     "gold": "시은",
+     "predicted": [
+      "시은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-시은-s1-p1",
+     "name": "시은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조시은이 내일 소풍 간다고 신났어",
+     "gold": "조시은",
+     "predicted": [
+      "조시은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채은-s0-p1",
+     "name": "채은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "채은이 저녁에 치킨 먹고 싶대",
+     "gold": "채은",
+     "predicted": [
+      "채은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채은-s1-p1",
+     "name": "채은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박채은이 오늘 학원 끝나고 전화한대",
+     "gold": "박채은",
+     "predicted": [
+      "박채은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민성-s0-p1",
+     "name": "민성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "민성이 저녁에 치킨 먹고 싶대",
+     "gold": "민성",
+     "predicted": [
+      "민성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민성-s1-p1",
+     "name": "민성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최민성이 시험 잘 봤다고 자랑하더라",
+     "gold": "최민성",
+     "predicted": [
+      "최민성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-시아-s1-p1",
+     "name": "시아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장시아가 저녁에 치킨 먹고 싶대",
+     "gold": "장시아",
+     "predicted": [
+      "장시아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-가은-s0-p1",
+     "name": "가은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "가은이 내일 소풍 간다고 신났어",
+     "gold": "가은",
+     "predicted": [
+      "가은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-가은-s1-p1",
+     "name": "가은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김가은이 저녁에 치킨 먹고 싶대",
+     "gold": "김가은",
+     "predicted": [
+      "김가은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-윤아-s0-p1",
+     "name": "윤아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "윤아가 오늘 학원 끝나고 전화한대",
+     "gold": "윤아",
+     "predicted": [
+      "윤아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-윤아-s1-p1",
+     "name": "윤아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조윤아가 숙제 다 하고 게임한대",
+     "gold": "조윤아",
+     "predicted": [
+      "조윤아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예나-s0-p1",
+     "name": "예나",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "예나가 시험 잘 봤다고 자랑하더라",
+     "gold": "예나",
+     "predicted": [
+      "예나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예나-s1-p1",
+     "name": "예나",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정예나가 저녁에 치킨 먹고 싶대",
+     "gold": "정예나",
+     "predicted": [
+      "정예나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-주아-s0-p1",
+     "name": "주아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "주아가 숙제 다 하고 게임한대",
+     "gold": "주아",
+     "predicted": [
+      "주아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-주아-s1-p1",
+     "name": "주아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤주아가 오늘 학원 끝나고 전화한대",
+     "gold": "윤주아",
+     "predicted": [
+      "윤주아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-나은-s0-p1",
+     "name": "나은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "나은이 저녁에 치킨 먹고 싶대",
+     "gold": "나은",
+     "predicted": [
+      "나은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-나은-s1-p1",
+     "name": "나은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이나은이 저녁에 치킨 먹고 싶대",
+     "gold": "이나은",
+     "predicted": [
+      "이나은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지은-s0-p1",
+     "name": "지은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "지은이 시험 잘 봤다고 자랑하더라",
+     "gold": "지은",
+     "predicted": [
+      "지은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지은-s1-p1",
+     "name": "지은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강지은이 오늘 학원 끝나고 전화한대",
+     "gold": "강지은",
+     "predicted": [
+      "강지은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-다인-s1-p0",
+     "name": "다인",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강다인 저녁에 치킨 먹고 싶대",
+     "gold": "강다인",
+     "predicted": [
+      "강다"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-서은-s0-p1",
+     "name": "서은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "서은이 저녁에 치킨 먹고 싶대",
+     "gold": "서은",
+     "predicted": [
+      "서은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-서은-s1-p1",
+     "name": "서은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임서은이 숙제 다 하고 게임한대",
+     "gold": "임서은",
+     "predicted": [
+      "임서은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채아-s0-p1",
+     "name": "채아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "채아가 숙제 다 하고 게임한대",
+     "gold": "채아",
+     "predicted": [
+      "채아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채아-s1-p1",
+     "name": "채아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임채아가 오늘 학원 끝나고 전화한대",
+     "gold": "임채아",
+     "predicted": [
+      "임채아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지한-s1-p0",
+     "name": "지한",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조지한 숙제 다 하고 게임한대",
+     "gold": "조지한",
+     "predicted": [
+      "조지"
+     ],
+     "reason": "뒷부분 누락('한' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-예지-s1-p1",
+     "name": "예지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이예지가 시험 잘 봤다고 자랑하더라",
+     "gold": "이예지",
+     "predicted": [
+      "이예지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-소은-s0-p1",
+     "name": "소은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "소은이 저녁에 치킨 먹고 싶대",
+     "gold": "소은",
+     "predicted": [
+      "소은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-소은-s1-p1",
+     "name": "소은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정소은이 숙제 다 하고 게임한대",
+     "gold": "정소은",
+     "predicted": [
+      "정소은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-윤지-s1-p1",
+     "name": "윤지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임윤지가 아까 전화 와서 늦는다고 했어",
+     "gold": "임윤지",
+     "predicted": [
+      "임윤지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-세아-s1-p1",
+     "name": "세아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조세아가 오늘 학원 끝나고 전화한대",
+     "gold": "조세아",
+     "predicted": [
+      "조세아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-이든-s1-p0",
+     "name": "이든",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤이든 숙제 다 하고 게임한대",
+     "gold": "윤이든",
+     "predicted": [
+      "윤이"
+     ],
+     "reason": "뒷부분 누락('든' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-윤성-s1-p1",
+     "name": "윤성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤윤성이 시험 잘 봤다고 자랑하더라",
+     "gold": "윤윤성",
+     "predicted": [
+      "윤윤성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-사랑-s0-p1",
+     "name": "사랑",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "사랑이 오늘 학원 끝나고 전화한대",
+     "gold": "사랑",
+     "predicted": [
+      "사랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-사랑-s1-p1",
+     "name": "사랑",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조사랑이 아까 전화 와서 늦는다고 했어",
+     "gold": "조사랑",
+     "predicted": [
+      "조사랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-지성-s1-p1",
+     "name": "지성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강지성이 숙제 다 하고 게임한대",
+     "gold": "강지성",
+     "predicted": [
+      "강지성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-연주-s0-p1",
+     "name": "연주",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "연주가 시험 잘 봤다고 자랑하더라",
+     "gold": "연주",
+     "predicted": [
+      "연주가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-재이-s1-p0",
+     "name": "재이",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최재이 저녁에 치킨 먹고 싶대",
+     "gold": "최재이",
+     "predicted": [
+      "최재"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-리아-s1-p1",
+     "name": "리아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조리아가 시험 잘 봤다고 자랑하더라",
+     "gold": "조리아",
+     "predicted": [
+      "조리아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-준성-s0-p1",
+     "name": "준성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "준성이 내일 소풍 간다고 신났어",
+     "gold": "준성",
+     "predicted": [
+      "준성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-준성-s1-p1",
+     "name": "준성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조준성이 오늘 학원 끝나고 전화한대",
+     "gold": "조준성",
+     "predicted": [
+      "조준성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예성-s0-p1",
+     "name": "예성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "예성이 내일 소풍 간다고 신났어",
+     "gold": "예성",
+     "predicted": [
+      "예성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-예성-s1-p1",
+     "name": "예성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김예성이 숙제 다 하고 게임한대",
+     "gold": "김예성",
+     "predicted": [
+      "김예성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-현지-s1-p1",
+     "name": "현지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이현지가 내일 소풍 간다고 신났어",
+     "gold": "이현지",
+     "predicted": [
+      "이현지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-준-s0-p1",
+     "name": "준",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "준이 저녁에 치킨 먹고 싶대",
+     "gold": "준",
+     "predicted": [
+      "준이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-정은-s1-p1",
+     "name": "정은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이정은이 시험 잘 봤다고 자랑하더라",
+     "gold": "이정은",
+     "predicted": [
+      "이정은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-승아-s0-p1",
+     "name": "승아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "승아가 숙제 다 하고 게임한대",
+     "gold": "승아",
+     "predicted": [
+      "승아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-승아-s1-p1",
+     "name": "승아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정승아가 오늘 학원 끝나고 전화한대",
+     "gold": "정승아",
+     "predicted": [
+      "정승아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-로아-s0-p1",
+     "name": "로아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "로아가 아까 전화 와서 늦는다고 했어",
+     "gold": "로아",
+     "predicted": [
+      "로아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-로아-s1-p1",
+     "name": "로아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강로아가 숙제 다 하고 게임한대",
+     "gold": "강로아",
+     "predicted": [
+      "강로아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-세은-s0-p1",
+     "name": "세은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "세은이 저녁에 치킨 먹고 싶대",
+     "gold": "세은",
+     "predicted": [
+      "세은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-세은-s1-p1",
+     "name": "세은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박세은이 내일 소풍 간다고 신났어",
+     "gold": "박세은",
+     "predicted": [
+      "박세은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민아-s0-p1",
+     "name": "민아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "민아가 오늘 학원 끝나고 전화한대",
+     "gold": "민아",
+     "predicted": [
+      "민아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-민아-s1-p1",
+     "name": "민아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정민아가 시험 잘 봤다고 자랑하더라",
+     "gold": "정민아",
+     "predicted": [
+      "정민아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-주은-s0-p1",
+     "name": "주은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "주은이 오늘 학원 끝나고 전화한대",
+     "gold": "주은",
+     "predicted": [
+      "주은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-주은-s1-p1",
+     "name": "주은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임주은이 저녁에 치킨 먹고 싶대",
+     "gold": "임주은",
+     "predicted": [
+      "임주은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-은성-s0-p1",
+     "name": "은성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "은성이 내일 소풍 간다고 신났어",
+     "gold": "은성",
+     "predicted": [
+      "은성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-은성-s1-p1",
+     "name": "은성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조은성이 오늘 학원 끝나고 전화한대",
+     "gold": "조은성",
+     "predicted": [
+      "조은성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-설아-s0-p1",
+     "name": "설아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "설아가 내일 소풍 간다고 신났어",
+     "gold": "설아",
+     "predicted": [
+      "설아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-설아-s1-p1",
+     "name": "설아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김설아가 숙제 다 하고 게임한대",
+     "gold": "김설아",
+     "predicted": [
+      "김설아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-현성-s0-p1",
+     "name": "현성",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "현성이 저녁에 치킨 먹고 싶대",
+     "gold": "현성",
+     "predicted": [
+      "현성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-현성-s1-p1",
+     "name": "현성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박현성이 시험 잘 봤다고 자랑하더라",
+     "gold": "박현성",
+     "predicted": [
+      "박현성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-은지-s1-p1",
+     "name": "은지",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장은지가 내일 소풍 간다고 신났어",
+     "gold": "장은지",
+     "predicted": [
+      "장은지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-연아-s0-p1",
+     "name": "연아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "연아가 내일 소풍 간다고 신났어",
+     "gold": "연아",
+     "predicted": [
+      "연아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-연아-s1-p1",
+     "name": "연아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정연아가 숙제 다 하고 게임한대",
+     "gold": "정연아",
+     "predicted": [
+      "정연아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-태양-s1-p1",
+     "name": "태양",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김태양이 시험 잘 봤다고 자랑하더라",
+     "gold": "김태양",
+     "predicted": [
+      "김태양이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채이-s1-p0",
+     "name": "채이",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박채이 저녁에 치킨 먹고 싶대",
+     "gold": "박채이",
+     "predicted": [
+      "박채"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-채이-s1-p1",
+     "name": "채이",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박채이가 내일 소풍 간다고 신났어",
+     "gold": "박채이",
+     "predicted": [
+      "박채"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-우성-s1-p1",
+     "name": "우성",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장우성이 저녁에 치킨 먹고 싶대",
+     "gold": "장우성",
+     "predicted": [
+      "장우성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-현아-s1-p1",
+     "name": "현아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤현아가 저녁에 치킨 먹고 싶대",
+     "gold": "윤현아",
+     "predicted": [
+      "윤현아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-정아-s0-p1",
+     "name": "정아",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "정아가 숙제 다 하고 게임한대",
+     "gold": "정아",
+     "predicted": [
+      "정아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-정아-s1-p1",
+     "name": "정아",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정정아가 저녁에 치킨 먹고 싶대",
+     "gold": "정정아",
+     "predicted": [
+      "정정아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-태은-s0-p1",
+     "name": "태은",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "태은이 아까 전화 와서 늦는다고 했어",
+     "gold": "태은",
+     "predicted": [
+      "태은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-태은-s1-p1",
+     "name": "태은",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정태은이 내일 소풍 간다고 신났어",
+     "gold": "정태은",
+     "predicted": [
+      "정태은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-송아-s0-p1",
+     "name": "송아",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "송아가 오늘 학원 끝나고 전화한대",
+     "gold": "송아",
+     "predicted": [
+      "송아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-송아-s1-p1",
+     "name": "송아",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강송아가 내일 소풍 간다고 신났어",
+     "gold": "강송아",
+     "predicted": [
+      "강송아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-옥-s0-p1",
+     "name": "옥",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "옥이 오늘 학원 끝나고 전화한대",
+     "gold": "옥",
+     "predicted": [
+      "옥이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-상이-s1-p0",
+     "name": "상이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장상이 아까 전화 와서 늦는다고 했어",
+     "gold": "장상이",
+     "predicted": [
+      "장상"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-명화-s0-p1",
+     "name": "명화",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "명화가 아까 전화 와서 늦는다고 했어",
+     "gold": "명화",
+     "predicted": [
+      "명화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-명화-s1-p1",
+     "name": "명화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김명화가 저녁에 치킨 먹고 싶대",
+     "gold": "김명화",
+     "predicted": [
+      "김명"
+     ],
+     "reason": "뒷부분 누락('화' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-동은-s0-p1",
+     "name": "동은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "동은이 오늘 학원 끝나고 전화한대",
+     "gold": "동은",
+     "predicted": [
+      "동은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-동은-s1-p1",
+     "name": "동은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조동은이 숙제 다 하고 게임한대",
+     "gold": "조동은",
+     "predicted": [
+      "조동은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-가이-s1-p0",
+     "name": "가이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박가이 저녁에 치킨 먹고 싶대",
+     "gold": "박가이",
+     "predicted": [
+      "박가"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-상아-s1-p1",
+     "name": "상아",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤상아가 저녁에 치킨 먹고 싶대",
+     "gold": "윤상아",
+     "predicted": [
+      "윤상아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-비송-s0-p1",
+     "name": "비송",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "비송이 내일 소풍 간다고 신났어",
+     "gold": "비송",
+     "predicted": [
+      "비송이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-비송-s1-p1",
+     "name": "비송",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "이비송이 내일 소풍 간다고 신났어",
+     "gold": "이비송",
+     "predicted": [
+      "이비송이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-인화-s1-p1",
+     "name": "인화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김인화가 숙제 다 하고 게임한대",
+     "gold": "김인화",
+     "predicted": [
+      "김인화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-율이-s1-p0",
+     "name": "율이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장율이 숙제 다 하고 게임한대",
+     "gold": "장율이",
+     "predicted": [
+      "장율"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s0-p1",
+     "name": "비가나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "비가나가 저녁에 치킨 먹고 싶대",
+     "gold": "비가나",
+     "predicted": [
+      "비가나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s1-p0",
+     "name": "비가나",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최비가나 저녁에 치킨 먹고 싶대",
+     "gold": "최비가나",
+     "predicted": [
+      "최비"
+     ],
+     "reason": "뒷부분 누락('가나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s1-p1",
+     "name": "비가나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최비가나가 아까 전화 와서 늦는다고 했어",
+     "gold": "최비가나",
+     "predicted": [
+      "최비"
+     ],
+     "reason": "뒷부분 누락('가나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-윤송-s0-p1",
+     "name": "윤송",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "윤송이 아까 전화 와서 늦는다고 했어",
+     "gold": "윤송",
+     "predicted": [
+      "윤송이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-윤송-s1-p1",
+     "name": "윤송",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임윤송이 시험 잘 봤다고 자랑하더라",
+     "gold": "임윤송",
+     "predicted": [
+      "임윤송이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-로나-s0-p1",
+     "name": "로나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "로나가 아까 전화 와서 늦는다고 했어",
+     "gold": "로나",
+     "predicted": [
+      "로나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-주-s0-p1",
+     "name": "주",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "주가 숙제 다 하고 게임한대",
+     "gold": "주",
+     "predicted": [
+      "주가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-제은-s0-p1",
+     "name": "제은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "제은이 내일 소풍 간다고 신났어",
+     "gold": "제은",
+     "predicted": [
+      "제은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-제은-s1-p1",
+     "name": "제은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김제은이 저녁에 치킨 먹고 싶대",
+     "gold": "김제은",
+     "predicted": [
+      "김제은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-랑-s0-p1",
+     "name": "랑",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "랑이 오늘 학원 끝나고 전화한대",
+     "gold": "랑",
+     "predicted": [
+      "랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-랑-s1-p1",
+     "name": "랑",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임랑이 내일 소풍 간다고 신났어",
+     "gold": "임랑",
+     "predicted": [
+      "임랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-하-s0-p1",
+     "name": "하",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "하가 내일 소풍 간다고 신났어",
+     "gold": "하",
+     "predicted": [
+      "하가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-다함-s1-p0",
+     "name": "다함",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "이다함 시험 잘 봤다고 자랑하더라",
+     "gold": "이다함",
+     "predicted": [
+      "이다"
+     ],
+     "reason": "뒷부분 누락('함' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-소아-s1-p1",
+     "name": "소아",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최소아가 오늘 학원 끝나고 전화한대",
+     "gold": "최소아",
+     "predicted": [
+      "최소아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-혜랑-s0-p1",
+     "name": "혜랑",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "혜랑이 시험 잘 봤다고 자랑하더라",
+     "gold": "혜랑",
+     "predicted": [
+      "혜랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-혜랑-s1-p1",
+     "name": "혜랑",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정혜랑이 내일 소풍 간다고 신났어",
+     "gold": "정혜랑",
+     "predicted": [
+      "정혜랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-니나-s1-p1",
+     "name": "니나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박니나가 오늘 학원 끝나고 전화한대",
+     "gold": "박니나",
+     "predicted": [
+      "박니나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-하얀-s0-p1",
+     "name": "하얀",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "하얀이 아까 전화 와서 늦는다고 했어",
+     "gold": "하얀",
+     "predicted": [
+      "하얀이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-솔지-s0-p1",
+     "name": "솔지",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "솔지가 시험 잘 봤다고 자랑하더라",
+     "gold": "솔지",
+     "predicted": [
+      "솔지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-솔지-s1-p1",
+     "name": "솔지",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강솔지가 내일 소풍 간다고 신났어",
+     "gold": "강솔지",
+     "predicted": [
+      "강솔지가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-라나-s1-p1",
+     "name": "라나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강라나가 오늘 학원 끝나고 전화한대",
+     "gold": "강라나",
+     "predicted": [
+      "강라나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-레이나-s0-p1",
+     "name": "레이나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "레이나가 저녁에 치킨 먹고 싶대",
+     "gold": "레이나",
+     "predicted": [
+      "레이나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-레이나-s1-p1",
+     "name": "레이나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "임레이나가 저녁에 치킨 먹고 싶대",
+     "gold": "임레이나",
+     "predicted": [
+      "임레이나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-초은-s0-p1",
+     "name": "초은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "초은이 내일 소풍 간다고 신났어",
+     "gold": "초은",
+     "predicted": [
+      "초은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-초은-s1-p1",
+     "name": "초은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장초은이 저녁에 치킨 먹고 싶대",
+     "gold": "장초은",
+     "predicted": [
+      "장초은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-새나-s0-p1",
+     "name": "새나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "새나가 숙제 다 하고 게임한대",
+     "gold": "새나",
+     "predicted": [
+      "새나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-새나-s1-p1",
+     "name": "새나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조새나가 숙제 다 하고 게임한대",
+     "gold": "조새나",
+     "predicted": [
+      "조새나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-봄이-s1-p0",
+     "name": "봄이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최봄이 시험 잘 봤다고 자랑하더라",
+     "gold": "최봄이",
+     "predicted": [
+      "최봄"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-봄이-s1-p1",
+     "name": "봄이",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최봄이가 아까 전화 와서 늦는다고 했어",
+     "gold": "최봄이",
+     "predicted": [
+      "최봄"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-차은-s0-p1",
+     "name": "차은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "차은이 내일 소풍 간다고 신났어",
+     "gold": "차은",
+     "predicted": [
+      "차은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-차은-s1-p1",
+     "name": "차은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정차은이 저녁에 치킨 먹고 싶대",
+     "gold": "정차은",
+     "predicted": [
+      "정차은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-엘리나-s0-p1",
+     "name": "엘리나",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "엘리나가 내일 소풍 간다고 신났어",
+     "gold": "엘리나",
+     "predicted": [
+      "엘리나가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-클로이-s1-p0",
+     "name": "클로이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박클로이 시험 잘 봤다고 자랑하더라",
+     "gold": "박클로이",
+     "predicted": [
+      "박클로"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-별아-s0-p1",
+     "name": "별아",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "별아가 저녁에 치킨 먹고 싶대",
+     "gold": "별아",
+     "predicted": [
+      "별아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-별아-s1-p1",
+     "name": "별아",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장별아가 저녁에 치킨 먹고 싶대",
+     "gold": "장별아",
+     "predicted": [
+      "장별아가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-상일-s0-p1",
+     "name": "상일",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "상일이 아까 전화 와서 늦는다고 했어",
+     "gold": "상일",
+     "predicted": [
+      "상일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-상일-s1-p1",
+     "name": "상일",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장상일이 내일 소풍 간다고 신났어",
+     "gold": "장상일",
+     "predicted": [
+      "장상일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-전-s0-p1",
+     "name": "전",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "전이 시험 잘 봤다고 자랑하더라",
+     "gold": "전",
+     "predicted": [
+      "전이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-형신-s1-p0",
+     "name": "형신",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강형신 내일 소풍 간다고 신났어",
+     "gold": "강형신",
+     "predicted": [
+      "형신"
+     ],
+     "reason": "앞부분 누락('강' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-석이-s1-p0",
+     "name": "석이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조석이 시험 잘 봤다고 자랑하더라",
+     "gold": "조석이",
+     "predicted": [
+      "조석"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-태길-s0-p1",
+     "name": "태길",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "태길이 저녁에 치킨 먹고 싶대",
+     "gold": "태길",
+     "predicted": [
+      "태길이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-태길-s1-p1",
+     "name": "태길",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "강태길이 시험 잘 봤다고 자랑하더라",
+     "gold": "강태길",
+     "predicted": [
+      "강태길이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-주일-s1-p1",
+     "name": "주일",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박주일이 아까 전화 와서 늦는다고 했어",
+     "gold": "박주일",
+     "predicted": [
+      "박주일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-성화-s1-p1",
+     "name": "성화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김성화가 저녁에 치킨 먹고 싶대",
+     "gold": "김성화",
+     "predicted": [
+      "김성화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-용은-s0-p1",
+     "name": "용은",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "용은이 저녁에 치킨 먹고 싶대",
+     "gold": "용은",
+     "predicted": [
+      "용은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-용은-s1-p1",
+     "name": "용은",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박용은이 아까 전화 와서 늦는다고 했어",
+     "gold": "박용은",
+     "predicted": [
+      "박용은이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-명일-s0-p1",
+     "name": "명일",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "명일이 시험 잘 봤다고 자랑하더라",
+     "gold": "명일",
+     "predicted": [
+      "명일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-명일-s1-p1",
+     "name": "명일",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "윤명일이 시험 잘 봤다고 자랑하더라",
+     "gold": "윤명일",
+     "predicted": [
+      "윤명일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-용화-s0-p1",
+     "name": "용화",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "용화가 시험 잘 봤다고 자랑하더라",
+     "gold": "용화",
+     "predicted": [
+      "용화가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-용화-s1-p1",
+     "name": "용화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김용화가 내일 소풍 간다고 신났어",
+     "gold": "김용화",
+     "predicted": [
+      "김용"
+     ],
+     "reason": "뒷부분 누락('화' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-덕인-s1-p0",
+     "name": "덕인",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤덕인 숙제 다 하고 게임한대",
+     "gold": "윤덕인",
+     "predicted": [
+      "윤덕"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-신일-s1-p1",
+     "name": "신일",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "정신일이 숙제 다 하고 게임한대",
+     "gold": "정신일",
+     "predicted": [
+      "정신일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-종성-s0-p1",
+     "name": "종성",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "종성이 시험 잘 봤다고 자랑하더라",
+     "gold": "종성",
+     "predicted": [
+      "종성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-종성-s1-p1",
+     "name": "종성",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최종성이 오늘 학원 끝나고 전화한대",
+     "gold": "최종성",
+     "predicted": [
+      "최종성이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-철한-s1-p0",
+     "name": "철한",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "정철한 오늘 학원 끝나고 전화한대",
+     "gold": "정철한",
+     "predicted": [
+      "정철"
+     ],
+     "reason": "뒷부분 누락('한' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-정도-s1-p0",
+     "name": "정도",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강정도 시험 잘 봤다고 자랑하더라",
+     "gold": "강정도",
+     "predicted": [
+      "강정"
+     ],
+     "reason": "뒷부분 누락('도' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-찬일-s0-p1",
+     "name": "찬일",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "찬일이 오늘 학원 끝나고 전화한대",
+     "gold": "찬일",
+     "predicted": [
+      "찬일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-찬일-s1-p1",
+     "name": "찬일",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장찬일이 아까 전화 와서 늦는다고 했어",
+     "gold": "장찬일",
+     "predicted": [
+      "장찬일이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    }
+   ]
+  },
+  "after_trim": {
+   "precision": 0.9694,
+   "recall": 0.9621,
+   "f1": 0.9657,
+   "buckets": {
+    "정확탐지": 2309,
+    "완전미탐": 60,
+    "경계불일치": 31
+   },
+   "boundary_mismatch_by_particle": {
+    "조사없음": 17,
+    "조사있음": 14
+   },
+   "neg_fpr": 0.5385,
+   "residual_char_leak_rate": 0.0226,
+   "residual_leak_examples": [
+    {
+     "text": "시연 오늘 학원 끝나고 전화한대",
+     "gold_name": "시연",
+     "masked": "시연 오늘 학원 끝나고 전화한대",
+     "leaked_chars": 2
+    },
+    {
+     "text": "강다인 저녁에 치킨 먹고 싶대",
+     "gold_name": "강다인",
+     "masked": "OO인 저녁에 치킨 먹고 싶대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "조지한 숙제 다 하고 게임한대",
+     "gold_name": "조지한",
+     "masked": "OO한 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "도하 내일 소풍 간다고 신났어",
+     "gold_name": "도하",
+     "masked": "도하 내일 소풍 간다고 신났어",
+     "leaked_chars": 2
+    },
+    {
+     "text": "윤이든 숙제 다 하고 게임한대",
+     "gold_name": "윤이든",
+     "masked": "OO든 숙제 다 하고 게임한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "연주 오늘 학원 끝나고 전화한대",
+     "gold_name": "연주",
+     "masked": "연주 오늘 학원 끝나고 전화한대",
+     "leaked_chars": 2
+    },
+    {
+     "text": "최재이 저녁에 치킨 먹고 싶대",
+     "gold_name": "최재이",
+     "masked": "OO이 저녁에 치킨 먹고 싶대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "봄 오늘 학원 끝나고 전화한대",
+     "gold_name": "봄",
+     "masked": "봄 오늘 학원 끝나고 전화한대",
+     "leaked_chars": 1
+    },
+    {
+     "text": "봄이 시험 잘 봤다고 자랑하더라",
+     "gold_name": "봄",
+     "masked": "봄이 시험 잘 봤다고 자랑하더라",
+     "leaked_chars": 1
+    },
+    {
+     "text": "현지 내일 소풍 간다고 신났어",
+     "gold_name": "현지",
+     "masked": "현지 내일 소풍 간다고 신났어",
+     "leaked_chars": 2
+    }
+   ],
+   "mismatch_detail": [
+    {
+     "id": "v7-고빈도-다인-s1-p0",
+     "name": "다인",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강다인 저녁에 치킨 먹고 싶대",
+     "gold": "강다인",
+     "predicted": [
+      "강다"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-지한-s1-p0",
+     "name": "지한",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조지한 숙제 다 하고 게임한대",
+     "gold": "조지한",
+     "predicted": [
+      "조지"
+     ],
+     "reason": "뒷부분 누락('한' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-이든-s1-p0",
+     "name": "이든",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤이든 숙제 다 하고 게임한대",
+     "gold": "윤이든",
+     "predicted": [
+      "윤이"
+     ],
+     "reason": "뒷부분 누락('든' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-재이-s1-p0",
+     "name": "재이",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최재이 저녁에 치킨 먹고 싶대",
+     "gold": "최재이",
+     "predicted": [
+      "최재"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-준-s0-p1",
+     "name": "준",
+     "category": "고빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "준이 저녁에 치킨 먹고 싶대",
+     "gold": "준",
+     "predicted": [
+      "준이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-고빈도-채이-s1-p0",
+     "name": "채이",
+     "category": "고빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박채이 저녁에 치킨 먹고 싶대",
+     "gold": "박채이",
+     "predicted": [
+      "박채"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-고빈도-채이-s1-p1",
+     "name": "채이",
+     "category": "고빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "박채이가 내일 소풍 간다고 신났어",
+     "gold": "박채이",
+     "predicted": [
+      "박채"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-옥-s0-p1",
+     "name": "옥",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "옥이 오늘 학원 끝나고 전화한대",
+     "gold": "옥",
+     "predicted": [
+      "옥이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-상이-s1-p0",
+     "name": "상이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장상이 아까 전화 와서 늦는다고 했어",
+     "gold": "장상이",
+     "predicted": [
+      "장상"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-상이-s1-p1",
+     "name": "상이",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장상이가 아까 전화 와서 늦는다고 했어",
+     "gold": "장상이",
+     "predicted": [
+      "장상"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-명화-s1-p1",
+     "name": "명화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김명화가 저녁에 치킨 먹고 싶대",
+     "gold": "김명화",
+     "predicted": [
+      "김명"
+     ],
+     "reason": "뒷부분 누락('화' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-가이-s1-p0",
+     "name": "가이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박가이 저녁에 치킨 먹고 싶대",
+     "gold": "박가이",
+     "predicted": [
+      "박가"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-율이-s1-p0",
+     "name": "율이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "장율이 숙제 다 하고 게임한대",
+     "gold": "장율이",
+     "predicted": [
+      "장율"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-율이-s1-p1",
+     "name": "율이",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "장율이가 내일 소풍 간다고 신났어",
+     "gold": "장율이",
+     "predicted": [
+      "장율"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s1-p0",
+     "name": "비가나",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최비가나 저녁에 치킨 먹고 싶대",
+     "gold": "최비가나",
+     "predicted": [
+      "최비"
+     ],
+     "reason": "뒷부분 누락('가나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-비가나-s1-p1",
+     "name": "비가나",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최비가나가 아까 전화 와서 늦는다고 했어",
+     "gold": "최비가나",
+     "predicted": [
+      "최비"
+     ],
+     "reason": "뒷부분 누락('가나' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-주-s0-p1",
+     "name": "주",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "주가 숙제 다 하고 게임한대",
+     "gold": "주",
+     "predicted": [
+      "주가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-랑-s0-p1",
+     "name": "랑",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "랑이 오늘 학원 끝나고 전화한대",
+     "gold": "랑",
+     "predicted": [
+      "랑이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-하-s0-p1",
+     "name": "하",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "하가 내일 소풍 간다고 신났어",
+     "gold": "하",
+     "predicted": [
+      "하가"
+     ],
+     "reason": "조사 포함(끝에 '가' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-다함-s1-p0",
+     "name": "다함",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "이다함 시험 잘 봤다고 자랑하더라",
+     "gold": "이다함",
+     "predicted": [
+      "이다"
+     ],
+     "reason": "뒷부분 누락('함' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-봄이-s1-p0",
+     "name": "봄이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "최봄이 시험 잘 봤다고 자랑하더라",
+     "gold": "최봄이",
+     "predicted": [
+      "최봄"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-봄이-s1-p1",
+     "name": "봄이",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "최봄이가 아까 전화 와서 늦는다고 했어",
+     "gold": "최봄이",
+     "predicted": [
+      "최봄"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-클로이-s1-p0",
+     "name": "클로이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "박클로이 시험 잘 봤다고 자랑하더라",
+     "gold": "박클로이",
+     "predicted": [
+      "박클로"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-전-s0-p1",
+     "name": "전",
+     "category": "저빈도_성없음_조사있음",
+     "has_surname": false,
+     "has_particle": true,
+     "text": "전이 시험 잘 봤다고 자랑하더라",
+     "gold": "전",
+     "predicted": [
+      "전이"
+     ],
+     "reason": "조사 포함(끝에 '이' 더 가져감)"
+    },
+    {
+     "id": "v7-저빈도-형신-s1-p0",
+     "name": "형신",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강형신 내일 소풍 간다고 신났어",
+     "gold": "강형신",
+     "predicted": [
+      "형신"
+     ],
+     "reason": "앞부분 누락('강' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-석이-s1-p0",
+     "name": "석이",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "조석이 시험 잘 봤다고 자랑하더라",
+     "gold": "조석이",
+     "predicted": [
+      "조석"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-석이-s1-p1",
+     "name": "석이",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "조석이가 시험 잘 봤다고 자랑하더라",
+     "gold": "조석이",
+     "predicted": [
+      "조석"
+     ],
+     "reason": "뒷부분 누락('이' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-용화-s1-p1",
+     "name": "용화",
+     "category": "저빈도_성있음_조사있음",
+     "has_surname": true,
+     "has_particle": true,
+     "text": "김용화가 내일 소풍 간다고 신났어",
+     "gold": "김용화",
+     "predicted": [
+      "김용"
+     ],
+     "reason": "뒷부분 누락('화' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-덕인-s1-p0",
+     "name": "덕인",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "윤덕인 숙제 다 하고 게임한대",
+     "gold": "윤덕인",
+     "predicted": [
+      "윤덕"
+     ],
+     "reason": "뒷부분 누락('인' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-철한-s1-p0",
+     "name": "철한",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "정철한 오늘 학원 끝나고 전화한대",
+     "gold": "정철한",
+     "predicted": [
+      "정철"
+     ],
+     "reason": "뒷부분 누락('한' 못 덮음)"
+    },
+    {
+     "id": "v7-저빈도-정도-s1-p0",
+     "name": "정도",
+     "category": "저빈도_성있음_조사없음",
+     "has_surname": true,
+     "has_particle": false,
+     "text": "강정도 시험 잘 봤다고 자랑하더라",
+     "gold": "강정도",
+     "predicted": [
+      "강정"
+     ],
+     "reason": "뒷부분 누락('도' 못 덮음)"
+    }
+   ]
+  },
+  "name_context_table": [
+   {
+    "word": "바다",
+    "real_registered_count": 4,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "노을",
+    "real_registered_count": 5,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "하늘",
+    "real_registered_count": 98,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "구름",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "시냇물",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "소나기",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.3333,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "무지개",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "들판",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.6667,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "안개",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "이슬",
+    "real_registered_count": 4,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "파도",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "폭포",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.3333,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "단풍",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "눈송이",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "별빛",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "햇살",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 1.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "바람",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.3333,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "새벽",
+    "real_registered_count": 10,
+    "object_context_false_positive_rate": 0.3333,
+    "surname_context_detected": true,
+    "vocative_context_detected": true
+   },
+   {
+    "word": "노래방",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "운동장",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "놀이터",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "도서관",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": true,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "미술관",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "박물관",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "수족관",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   },
+   {
+    "word": "놀이공원",
+    "real_registered_count": 0,
+    "object_context_false_positive_rate": 0.0,
+    "surname_context_detected": false,
+    "vocative_context_detected": false
+   }
+  ],
+  "name_context_raw": [
+   {
+    "word": "바다",
+    "condition": "성붙임(이름문맥)",
+    "text": "김바다 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김바다"
+    ]
+   },
+   {
+    "word": "바다",
+    "condition": "호격(이름문맥)",
+    "text": "바다야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "바다"
+    ]
+   },
+   {
+    "word": "노을",
+    "condition": "성붙임(이름문맥)",
+    "text": "김노을 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김노을"
+    ]
+   },
+   {
+    "word": "노을",
+    "condition": "호격(이름문맥)",
+    "text": "노을야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "노을"
+    ]
+   },
+   {
+    "word": "하늘",
+    "condition": "성붙임(이름문맥)",
+    "text": "김하늘 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김하늘"
+    ]
+   },
+   {
+    "word": "하늘",
+    "condition": "호격(이름문맥)",
+    "text": "하늘야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "하늘"
+    ]
+   },
+   {
+    "word": "구름",
+    "condition": "성붙임(이름문맥)",
+    "text": "김구름 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김구름"
+    ]
+   },
+   {
+    "word": "구름",
+    "condition": "호격(이름문맥)",
+    "text": "구름야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "구름"
+    ]
+   },
+   {
+    "word": "시냇물",
+    "condition": "성붙임(이름문맥)",
+    "text": "김시냇물 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": [
+     "김시"
+    ]
+   },
+   {
+    "word": "시냇물",
+    "condition": "호격(이름문맥)",
+    "text": "시냇물야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "소나기",
+    "condition": "성붙임(이름문맥)",
+    "text": "김소나기 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김소나기"
+    ]
+   },
+   {
+    "word": "소나기",
+    "condition": "호격(이름문맥)",
+    "text": "소나기야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "소나기"
+    ]
+   },
+   {
+    "word": "무지개",
+    "condition": "성붙임(이름문맥)",
+    "text": "김무지개 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김무지개"
+    ]
+   },
+   {
+    "word": "무지개",
+    "condition": "호격(이름문맥)",
+    "text": "무지개야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "무지개"
+    ]
+   },
+   {
+    "word": "들판",
+    "condition": "성붙임(이름문맥)",
+    "text": "김들판 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김들판"
+    ]
+   },
+   {
+    "word": "들판",
+    "condition": "호격(이름문맥)",
+    "text": "들판야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "안개",
+    "condition": "성붙임(이름문맥)",
+    "text": "김안개 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김안개"
+    ]
+   },
+   {
+    "word": "안개",
+    "condition": "호격(이름문맥)",
+    "text": "안개야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "안개"
+    ]
+   },
+   {
+    "word": "이슬",
+    "condition": "성붙임(이름문맥)",
+    "text": "김이슬 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김이슬"
+    ]
+   },
+   {
+    "word": "이슬",
+    "condition": "호격(이름문맥)",
+    "text": "이슬야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "이슬"
+    ]
+   },
+   {
+    "word": "파도",
+    "condition": "성붙임(이름문맥)",
+    "text": "김파도 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": [
+     "김파"
+    ]
+   },
+   {
+    "word": "파도",
+    "condition": "호격(이름문맥)",
+    "text": "파도야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "파도"
+    ]
+   },
+   {
+    "word": "폭포",
+    "condition": "성붙임(이름문맥)",
+    "text": "김폭포 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김폭포"
+    ]
+   },
+   {
+    "word": "폭포",
+    "condition": "호격(이름문맥)",
+    "text": "폭포야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "폭포"
+    ]
+   },
+   {
+    "word": "단풍",
+    "condition": "성붙임(이름문맥)",
+    "text": "김단풍 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김단풍"
+    ]
+   },
+   {
+    "word": "단풍",
+    "condition": "호격(이름문맥)",
+    "text": "단풍야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "단풍"
+    ]
+   },
+   {
+    "word": "눈송이",
+    "condition": "성붙임(이름문맥)",
+    "text": "김눈송이 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김눈송이"
+    ]
+   },
+   {
+    "word": "눈송이",
+    "condition": "호격(이름문맥)",
+    "text": "눈송이야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "눈송이"
+    ]
+   },
+   {
+    "word": "별빛",
+    "condition": "성붙임(이름문맥)",
+    "text": "김별빛 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김별빛"
+    ]
+   },
+   {
+    "word": "별빛",
+    "condition": "호격(이름문맥)",
+    "text": "별빛야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "별빛"
+    ]
+   },
+   {
+    "word": "햇살",
+    "condition": "성붙임(이름문맥)",
+    "text": "김햇살 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김햇살"
+    ]
+   },
+   {
+    "word": "햇살",
+    "condition": "호격(이름문맥)",
+    "text": "햇살야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "햇살"
+    ]
+   },
+   {
+    "word": "바람",
+    "condition": "성붙임(이름문맥)",
+    "text": "김바람 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김바람"
+    ]
+   },
+   {
+    "word": "바람",
+    "condition": "호격(이름문맥)",
+    "text": "바람야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "새벽",
+    "condition": "성붙임(이름문맥)",
+    "text": "김새벽 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김새벽"
+    ]
+   },
+   {
+    "word": "새벽",
+    "condition": "호격(이름문맥)",
+    "text": "새벽야 빨리 밥 먹어",
+    "exact_detected": true,
+    "predicted": [
+     "새벽"
+    ]
+   },
+   {
+    "word": "노래방",
+    "condition": "성붙임(이름문맥)",
+    "text": "김노래방 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김노래방"
+    ]
+   },
+   {
+    "word": "노래방",
+    "condition": "호격(이름문맥)",
+    "text": "노래방야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "운동장",
+    "condition": "성붙임(이름문맥)",
+    "text": "김운동장 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "운동장",
+    "condition": "호격(이름문맥)",
+    "text": "운동장야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "놀이터",
+    "condition": "성붙임(이름문맥)",
+    "text": "김놀이터 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김놀이터"
+    ]
+   },
+   {
+    "word": "놀이터",
+    "condition": "호격(이름문맥)",
+    "text": "놀이터야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "도서관",
+    "condition": "성붙임(이름문맥)",
+    "text": "김도서관 오늘 유치원 다녀왔대",
+    "exact_detected": true,
+    "predicted": [
+     "김도서관"
+    ]
+   },
+   {
+    "word": "도서관",
+    "condition": "호격(이름문맥)",
+    "text": "도서관야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "미술관",
+    "condition": "성붙임(이름문맥)",
+    "text": "김미술관 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "미술관",
+    "condition": "호격(이름문맥)",
+    "text": "미술관야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "박물관",
+    "condition": "성붙임(이름문맥)",
+    "text": "김박물관 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "박물관",
+    "condition": "호격(이름문맥)",
+    "text": "박물관야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "수족관",
+    "condition": "성붙임(이름문맥)",
+    "text": "김수족관 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "수족관",
+    "condition": "호격(이름문맥)",
+    "text": "수족관야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "놀이공원",
+    "condition": "성붙임(이름문맥)",
+    "text": "김놀이공원 오늘 유치원 다녀왔대",
+    "exact_detected": false,
+    "predicted": []
+   },
+   {
+    "word": "놀이공원",
+    "condition": "호격(이름문맥)",
+    "text": "놀이공원야 빨리 밥 먹어",
+    "exact_detected": false,
+    "predicted": []
+   }
+  ]
+ }
+}

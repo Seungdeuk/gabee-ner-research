@@ -1,0 +1,12 @@
+{
+ "sentences": 1000,
+ "sentence_list_sha256": "28602d2cd7ec4d6d8d77b87c003f3e5ef8f5d0759877d0ae1dd47972c5c412f6",
+ "tokens": 16317,
+ "token_agreement_pct": 100.0,
+ "identical_sentences": "1000/1000",
+ "length_mismatch_sentences": 0,
+ "torch": "2.6.0+cu124",
+ "onnxruntime": "1.31.1",
+ "device": "cpu",
+ "onnx_sha256": "c6c63461cc4f55c1468f873f54310c64aeec814ebde3f713ca6cc17f8cd3f7b7"
+}

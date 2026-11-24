@@ -1,0 +1,50 @@
+{
+ "onnx_dir": "C:\\Users\\<user>\\venvs\\ner-runs\\service_v2b",
+ "model_size_mb": 53.839,
+ "rss_mb_after": 148.6,
+ "p50_ms": 5.038050003349781,
+ "p95_ms": 7.9387950419913995,
+ "mean_ms": 5.328350667647707,
+ "passes": [
+  {
+   "p50_ms": 5.038050003349781,
+   "p95_ms": 7.9387950419913995,
+   "mean_ms": 5.328350667647707
+  },
+  {
+   "p50_ms": 5.441350018372759,
+   "p95_ms": 8.434850018238649,
+   "mean_ms": 5.630411667516455
+  },
+  {
+   "p50_ms": 4.792699997778982,
+   "p95_ms": 7.7186700043967,
+   "mean_ms": 5.204590663391476
+  },
+  {
+   "p50_ms": 5.307400017045438,
+   "p95_ms": 7.677259951015003,
+   "mean_ms": 5.568329998059198
+  },
+  {
+   "p50_ms": 4.889050003839657,
+   "p95_ms": 7.998830027645456,
+   "mean_ms": 5.275994001810129
+  }
+ ],
+ "conditions": {
+  "threads": 2,
+  "warmup_sentences": 30,
+  "measured_sentences": 300,
+  "repeats": 5,
+  "batch": 1,
+  "seed": 20261127,
+  "cache_cleared_each_sentence": true,
+  "cpu_percent_before": 28.3,
+  "avail_ram_mb_before": 6505,
+  "onnxruntime": "1.31.0",
+  "python": "3.14.8",
+  "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "cpu_count": 12
+ }
+}

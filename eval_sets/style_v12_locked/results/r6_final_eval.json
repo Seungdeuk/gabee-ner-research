@@ -1,0 +1,5829 @@
+{
+ "service": {
+  "fingerprint12": "46210943c45f",
+  "v12_overall": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 56,
+    "fp": 37,
+    "fn": 144,
+    "precision": 0.6021505376344086,
+    "recall": 0.28,
+    "f1": 0.38225255972696254
+   },
+   "final_prf": {
+    "tp": 49,
+    "fp": 25,
+    "fn": 151,
+    "precision": 0.6621621621621622,
+    "recall": 0.245,
+    "f1": 0.35766423357664234
+   },
+   "exposure": {
+    "full_exposure": 126,
+    "partial_exposure": 3,
+    "fully_masked": 71,
+    "full_exposure_rate": 0.63,
+    "partial_exposure_rate": 0.015,
+    "fully_masked_rate": 0.355,
+    "total_exposure_rate": 0.645
+   },
+   "nonperson_fpr": 0.1,
+   "cause_counts": {
+    "후보 미생성": 111,
+    "1자 길이필터 탈락": 8,
+    "신뢰도 부족": 6,
+    "ORG/LOC 오분류(ORGANIZATION)": 1
+   },
+   "full_exposure_cases": [
+    {
+     "id": "v12-0001",
+     "word": "부뚜막",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 부뚜막을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0002",
+     "word": "쪽마루",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 쪽마루를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0003",
+     "word": "외양간",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 외양간을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0004",
+     "word": "나막신",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 나막신을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0005",
+     "word": "책꽂이",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 책꽂이를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0006",
+     "word": "대들보",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 대들보를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0007",
+     "word": "들창",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 들창을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0008",
+     "word": "토방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 토방을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0009",
+     "word": "뒷간",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 뒷간을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0010",
+     "word": "곁방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 곁방을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0011",
+     "word": "베개",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 베개를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0012",
+     "word": "이불",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 이불을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0014",
+     "word": "화로",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 화로를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0015",
+     "word": "섬돌",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 섬돌을 아주 예뻐하셨대",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0016",
+     "word": "삽",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 삽을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0017",
+     "word": "호미",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 호미를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0018",
+     "word": "쟁반",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 쟁반을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0020",
+     "word": "키",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 키를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0021",
+     "word": "부뚜막",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "부뚜막이 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0023",
+     "word": "외양간",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "외양간이 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0024",
+     "word": "나막신",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "나막신이 모임에서 유난히 눈에 띄어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0025",
+     "word": "책꽂이",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "책꽂이가 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0026",
+     "word": "대들보",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "대들보가 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0028",
+     "word": "토방",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "토방이 모임에서 유난히 눈에 띄어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0029",
+     "word": "뒷간",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "뒷간이 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0031",
+     "word": "베개",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "베개가 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0032",
+     "word": "이불",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "이불이 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0034",
+     "word": "화로",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "화로가 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0038",
+     "word": "쟁반",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "쟁반이 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0040",
+     "word": "키",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "키가 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0041",
+     "word": "부뚜막",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "부뚜막 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0043",
+     "word": "외양간",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "외양간 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0044",
+     "word": "나막신",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "나막신 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0045",
+     "word": "책꽂이",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "책꽂이 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0049",
+     "word": "뒷간",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "뒷간 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0051",
+     "word": "베개",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "베개 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0052",
+     "word": "이불",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "이불 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0054",
+     "word": "화로",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "화로 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0058",
+     "word": "쟁반",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "쟁반 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0060",
+     "word": "키",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "키 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0063",
+     "word": "외양간",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "외양간한테 잘 지내는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0064",
+     "word": "나막신",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "나막신한테 잘 지내는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0065",
+     "word": "책꽂이",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "책꽂이한테 잘 지내는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0066",
+     "word": "대들보",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "대들보한테 잘 지내는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0068",
+     "word": "토방",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "토방한테 잘 지내는지 물어봤어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0069",
+     "word": "뒷간",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "뒷간한테 잘 지내는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0071",
+     "word": "베개",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "베개한테 잘 지내는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0072",
+     "word": "이불",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "이불한테 잘 지내는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0074",
+     "word": "화로",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "화로한테 잘 지내는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0076",
+     "word": "삽",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "삽한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0080",
+     "word": "키",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "키한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0081",
+     "word": "부뚜막",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "부뚜막아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0082",
+     "word": "쪽마루",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "쪽마루야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0083",
+     "word": "외양간",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "외양간아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0084",
+     "word": "나막신",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "나막신아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0085",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "책꽂이야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0086",
+     "word": "대들보",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "대들보야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0088",
+     "word": "토방",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "토방아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0089",
+     "word": "뒷간",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "뒷간아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0090",
+     "word": "곁방",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "곁방아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0091",
+     "word": "베개",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "베개야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0094",
+     "word": "화로",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "화로야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0101",
+     "word": "부뚜막",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 부뚜막을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0102",
+     "word": "쪽마루",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 쪽마루를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0103",
+     "word": "외양간",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 외양간을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0104",
+     "word": "나막신",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 나막신을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0105",
+     "word": "책꽂이",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 책꽂이를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0106",
+     "word": "대들보",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 대들보를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0107",
+     "word": "들창",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 들창을 챙겨서 나갔어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0108",
+     "word": "토방",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 토방을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0109",
+     "word": "뒷간",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 뒷간을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0110",
+     "word": "곁방",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 곁방을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0111",
+     "word": "베개",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 베개를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0112",
+     "word": "이불",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 이불을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0114",
+     "word": "화로",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 화로를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0116",
+     "word": "삽",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 삽을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0117",
+     "word": "호미",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 호미를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0118",
+     "word": "쟁반",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 쟁반을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0120",
+     "word": "키",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 키를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0121",
+     "word": "부뚜막",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "부뚜막이 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0122",
+     "word": "쪽마루",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "쪽마루가 요즘 제일 바빠 보여",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0123",
+     "word": "외양간",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "외양간이 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0124",
+     "word": "나막신",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "나막신이 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0125",
+     "word": "책꽂이",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "책꽂이가 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0126",
+     "word": "대들보",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "대들보가 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0129",
+     "word": "뒷간",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "뒷간이 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0131",
+     "word": "베개",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "베개가 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0132",
+     "word": "이불",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "이불이 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0134",
+     "word": "화로",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "화로가 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0138",
+     "word": "쟁반",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "쟁반이 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0140",
+     "word": "키",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "키가 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0141",
+     "word": "부뚜막",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "부뚜막이 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0142",
+     "word": "쪽마루",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "쪽마루가 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0143",
+     "word": "외양간",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "외양간이 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0144",
+     "word": "나막신",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "나막신이 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0145",
+     "word": "책꽂이",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "책꽂이가 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0146",
+     "word": "대들보",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "대들보가 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0149",
+     "word": "뒷간",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "뒷간이 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0151",
+     "word": "베개",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "베개가 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0152",
+     "word": "이불",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "이불이 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0154",
+     "word": "화로",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "화로가 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0158",
+     "word": "쟁반",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "쟁반이 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0160",
+     "word": "키",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "키가 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0163",
+     "word": "외양간",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "외양간한테 도착했는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0165",
+     "word": "책꽂이",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "책꽂이한테 도착했는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0168",
+     "word": "토방",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "토방한테 도착했는지 물어봤어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0169",
+     "word": "뒷간",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "뒷간한테 도착했는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0172",
+     "word": "이불",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "이불한테 도착했는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0174",
+     "word": "화로",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "화로한테 도착했는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0175",
+     "word": "섬돌",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "섬돌한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0176",
+     "word": "삽",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "삽한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0178",
+     "word": "쟁반",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "쟁반한테 도착했는지 물어봤어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0180",
+     "word": "키",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "키한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0181",
+     "word": "부뚜막",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "부뚜막아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0182",
+     "word": "쪽마루",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "쪽마루야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0183",
+     "word": "외양간",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "외양간아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0184",
+     "word": "나막신",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "나막신아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0185",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "책꽂이야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0186",
+     "word": "대들보",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "대들보야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0188",
+     "word": "토방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "토방아 왔어?",
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v12-0189",
+     "word": "뒷간",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "뒷간아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0190",
+     "word": "곁방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "곁방아 왔어?",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0191",
+     "word": "베개",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "베개야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0192",
+     "word": "이불",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "이불아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0194",
+     "word": "화로",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "화로야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0198",
+     "word": "쟁반",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "쟁반아 왔어?",
+     "cause": "후보 미생성"
+    }
+   ]
+  },
+  "v12_by_category": {
+   "기본": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 13,
+     "fp": 6,
+     "fn": 27,
+     "precision": 0.6842105263157895,
+     "recall": 0.325,
+     "f1": 0.4406779661016949
+    },
+    "final_prf": {
+     "tp": 13,
+     "fp": 5,
+     "fn": 27,
+     "precision": 0.7222222222222222,
+     "recall": 0.325,
+     "f1": 0.44827586206896547
+    },
+    "exposure": {
+     "full_exposure": 22,
+     "partial_exposure": 0,
+     "fully_masked": 18,
+     "full_exposure_rate": 0.55,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.45,
+     "total_exposure_rate": 0.55
+    },
+    "nonperson_fpr": null
+   },
+   "목적격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 5,
+     "fp": 2,
+     "fn": 35,
+     "precision": 0.7142857142857143,
+     "recall": 0.125,
+     "f1": 0.2127659574468085
+    },
+    "final_prf": {
+     "tp": 5,
+     "fp": 0,
+     "fn": 35,
+     "precision": 1.0,
+     "recall": 0.125,
+     "f1": 0.2222222222222222
+    },
+    "exposure": {
+     "full_exposure": 35,
+     "partial_exposure": 0,
+     "fully_masked": 5,
+     "full_exposure_rate": 0.875,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.125,
+     "total_exposure_rate": 0.875
+    },
+    "nonperson_fpr": null
+   },
+   "비교서술": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 8,
+     "fp": 12,
+     "fn": 32,
+     "precision": 0.4,
+     "recall": 0.2,
+     "f1": 0.26666666666666666
+    },
+    "final_prf": {
+     "tp": 7,
+     "fp": 9,
+     "fn": 33,
+     "precision": 0.4375,
+     "recall": 0.175,
+     "f1": 0.24999999999999994
+    },
+    "exposure": {
+     "full_exposure": 24,
+     "partial_exposure": 1,
+     "fully_masked": 15,
+     "full_exposure_rate": 0.6,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.375,
+     "total_exposure_rate": 0.625
+    },
+    "nonperson_fpr": null
+   },
+   "여격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 24,
+     "fp": 3,
+     "fn": 16,
+     "precision": 0.8888888888888888,
+     "recall": 0.6,
+     "f1": 0.7164179104477612
+    },
+    "final_prf": {
+     "tp": 18,
+     "fp": 1,
+     "fn": 22,
+     "precision": 0.9473684210526315,
+     "recall": 0.45,
+     "f1": 0.6101694915254237
+    },
+    "exposure": {
+     "full_exposure": 21,
+     "partial_exposure": 1,
+     "fully_masked": 18,
+     "full_exposure_rate": 0.525,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.45,
+     "total_exposure_rate": 0.55
+    },
+    "nonperson_fpr": null
+   },
+   "호격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 6,
+     "fp": 14,
+     "fn": 34,
+     "precision": 0.3,
+     "recall": 0.15,
+     "f1": 0.2
+    },
+    "final_prf": {
+     "tp": 6,
+     "fp": 10,
+     "fn": 34,
+     "precision": 0.375,
+     "recall": 0.15,
+     "f1": 0.21428571428571425
+    },
+    "exposure": {
+     "full_exposure": 24,
+     "partial_exposure": 1,
+     "fully_masked": 15,
+     "full_exposure_rate": 0.6,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.375,
+     "total_exposure_rate": 0.625
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "v12_by_word_type": {
+   "단일형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 34,
+     "fp": 24,
+     "fn": 66,
+     "precision": 0.5862068965517241,
+     "recall": 0.34,
+     "f1": 0.43037974683544306
+    },
+    "final_prf": {
+     "tp": 30,
+     "fp": 18,
+     "fn": 70,
+     "precision": 0.625,
+     "recall": 0.3,
+     "f1": 0.4054054054054054
+    },
+    "exposure": {
+     "full_exposure": 52,
+     "partial_exposure": 1,
+     "fully_masked": 47,
+     "full_exposure_rate": 0.52,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.47,
+     "total_exposure_rate": 0.53
+    },
+    "nonperson_fpr": 0.25
+   },
+   "복합명사형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 22,
+     "fp": 13,
+     "fn": 78,
+     "precision": 0.6285714285714286,
+     "recall": 0.22,
+     "f1": 0.32592592592592595
+    },
+    "final_prf": {
+     "tp": 19,
+     "fp": 7,
+     "fn": 81,
+     "precision": 0.7307692307692307,
+     "recall": 0.19,
+     "f1": 0.30158730158730157
+    },
+    "exposure": {
+     "full_exposure": 74,
+     "partial_exposure": 2,
+     "fully_masked": 24,
+     "full_exposure_rate": 0.74,
+     "partial_exposure_rate": 0.02,
+     "fully_masked_rate": 0.24,
+     "total_exposure_rate": 0.76
+    },
+    "nonperson_fpr": 0.05
+   }
+  },
+  "v12_by_style": {
+   "가족채팅체": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 26,
+     "fp": 19,
+     "fn": 74,
+     "precision": 0.5777777777777777,
+     "recall": 0.26,
+     "f1": 0.3586206896551724
+    },
+    "final_prf": {
+     "tp": 23,
+     "fp": 13,
+     "fn": 77,
+     "precision": 0.6388888888888888,
+     "recall": 0.23,
+     "f1": 0.3382352941176471
+    },
+    "exposure": {
+     "full_exposure": 64,
+     "partial_exposure": 1,
+     "fully_masked": 35,
+     "full_exposure_rate": 0.64,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.35,
+     "total_exposure_rate": 0.65
+    },
+    "nonperson_fpr": null
+   },
+   "중의성문맥": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 30,
+     "fp": 18,
+     "fn": 70,
+     "precision": 0.625,
+     "recall": 0.3,
+     "f1": 0.4054054054054054
+    },
+    "final_prf": {
+     "tp": 26,
+     "fp": 12,
+     "fn": 74,
+     "precision": 0.6842105263157895,
+     "recall": 0.26,
+     "f1": 0.37681159420289856
+    },
+    "exposure": {
+     "full_exposure": 62,
+     "partial_exposure": 2,
+     "fully_masked": 36,
+     "full_exposure_rate": 0.62,
+     "partial_exposure_rate": 0.02,
+     "fully_masked_rate": 0.36,
+     "total_exposure_rate": 0.64
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "r3_heldout": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 12,
+    "fp": 3,
+    "fn": 4,
+    "precision": 0.8,
+    "recall": 0.75,
+    "f1": 0.7741935483870969
+   },
+   "final_prf": {
+    "tp": 12,
+    "fp": 7,
+    "fn": 4,
+    "precision": 0.631578947368421,
+    "recall": 0.75,
+    "f1": 0.6857142857142857
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 15,
+    "full_exposure_rate": 0.0625,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9375,
+    "total_exposure_rate": 0.0625
+   },
+   "nonperson_fpr": 0.375
+  },
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "final_prf": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "exposure": {
+    "full_exposure": 8,
+    "partial_exposure": 0,
+    "fully_masked": 0,
+    "full_exposure_rate": 1.0,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.0,
+    "total_exposure_rate": 1.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r5_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 4,
+    "fp": 2,
+    "fn": 4,
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1": 0.5714285714285715
+   },
+   "final_prf": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 4,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666
+   },
+   "exposure": {
+    "full_exposure": 4,
+    "partial_exposure": 0,
+    "fully_masked": 4,
+    "full_exposure_rate": 0.5,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.5,
+    "total_exposure_rate": 0.5
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r6_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 2,
+    "fp": 1,
+    "fn": 6,
+    "precision": 0.6666666666666666,
+    "recall": 0.25,
+    "f1": 0.36363636363636365
+   },
+   "final_prf": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 6,
+    "precision": 1.0,
+    "recall": 0.25,
+    "f1": 0.4
+   },
+   "exposure": {
+    "full_exposure": 6,
+    "partial_exposure": 0,
+    "fully_masked": 2,
+    "full_exposure_rate": 0.75,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.25,
+    "total_exposure_rate": 0.75
+   },
+   "nonperson_fpr": 0.25
+  },
+  "ambiguity_probe_48": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "raw_prf": {
+    "tp": 71,
+    "fp": 13,
+    "fn": 19,
+    "precision": 0.8452380952380952,
+    "recall": 0.7888888888888889,
+    "f1": 0.8160919540229884
+   },
+   "final_prf": {
+    "tp": 69,
+    "fp": 10,
+    "fn": 21,
+    "precision": 0.8734177215189873,
+    "recall": 0.7666666666666667,
+    "f1": 0.8165680473372781
+   },
+   "exposure": {
+    "full_exposure": 11,
+    "partial_exposure": 0,
+    "fully_masked": 79,
+    "full_exposure_rate": 0.1222,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.8778,
+    "total_exposure_rate": 0.1222
+   },
+   "nonperson_fpr": 0.1778
+  },
+  "draft56": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "raw_prf": {
+    "tp": 13,
+    "fp": 12,
+    "fn": 22,
+    "precision": 0.52,
+    "recall": 0.37142857142857144,
+    "f1": 0.43333333333333335
+   },
+   "final_prf": {
+    "tp": 13,
+    "fp": 10,
+    "fn": 22,
+    "precision": 0.5652173913043478,
+    "recall": 0.37142857142857144,
+    "f1": 0.4482758620689655
+   },
+   "exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 0,
+    "fully_masked": 23,
+    "full_exposure_rate": 0.3429,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.6571,
+    "total_exposure_rate": 0.3429
+   },
+   "nonperson_fpr": 0.0952
+  },
+  "v8_independent": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "raw_prf": {
+    "tp": 620,
+    "fp": 25,
+    "fn": 70,
+    "precision": 0.9612403100775194,
+    "recall": 0.8985507246376812,
+    "f1": 0.9288389513108615
+   },
+   "final_prf": {
+    "tp": 611,
+    "fp": 15,
+    "fn": 79,
+    "precision": 0.9760383386581469,
+    "recall": 0.8855072463768116,
+    "f1": 0.9285714285714285
+   },
+   "exposure": {
+    "full_exposure": 64,
+    "partial_exposure": 0,
+    "fully_masked": 626,
+    "full_exposure_rate": 0.0928,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9072,
+    "total_exposure_rate": 0.0928
+   },
+   "nonperson_fpr": 0.1587
+  },
+  "v9_locked": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "raw_prf": {
+    "tp": 38,
+    "fp": 16,
+    "fn": 22,
+    "precision": 0.7037037037037037,
+    "recall": 0.6333333333333333,
+    "f1": 0.6666666666666667
+   },
+   "final_prf": {
+    "tp": 38,
+    "fp": 9,
+    "fn": 22,
+    "precision": 0.8085106382978723,
+    "recall": 0.6333333333333333,
+    "f1": 0.7102803738317757
+   },
+   "exposure": {
+    "full_exposure": 13,
+    "partial_exposure": 0,
+    "fully_masked": 47,
+    "full_exposure_rate": 0.2167,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.7833,
+    "total_exposure_rate": 0.2167
+   },
+   "nonperson_fpr": 0.15
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "raw_prf": {
+    "tp": 41,
+    "fp": 33,
+    "fn": 71,
+    "precision": 0.5540540540540541,
+    "recall": 0.36607142857142855,
+    "f1": 0.44086021505376344
+   },
+   "final_prf": {
+    "tp": 41,
+    "fp": 22,
+    "fn": 71,
+    "precision": 0.6507936507936508,
+    "recall": 0.36607142857142855,
+    "f1": 0.4685714285714286
+   },
+   "exposure": {
+    "full_exposure": 49,
+    "partial_exposure": 4,
+    "fully_masked": 59,
+    "full_exposure_rate": 0.4375,
+    "partial_exposure_rate": 0.0357,
+    "fully_masked_rate": 0.5268,
+    "total_exposure_rate": 0.4732
+   },
+   "nonperson_fpr": 0.1154
+  },
+  "v11_locked": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 56,
+    "fp": 26,
+    "fn": 144,
+    "precision": 0.6829268292682927,
+    "recall": 0.28,
+    "f1": 0.3971631205673759
+   },
+   "final_prf": {
+    "tp": 52,
+    "fp": 9,
+    "fn": 148,
+    "precision": 0.8524590163934426,
+    "recall": 0.26,
+    "f1": 0.3984674329501916
+   },
+   "exposure": {
+    "full_exposure": 140,
+    "partial_exposure": 3,
+    "fully_masked": 57,
+    "full_exposure_rate": 0.7,
+    "partial_exposure_rate": 0.015,
+    "fully_masked_rate": 0.285,
+    "total_exposure_rate": 0.715
+   },
+   "nonperson_fpr": 0.0667
+  }
+ },
+ "r3_candidate": {
+  "fingerprint12": "14f297c7d5f5",
+  "v12_overall": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 131,
+    "fp": 28,
+    "fn": 69,
+    "precision": 0.8238993710691824,
+    "recall": 0.655,
+    "f1": 0.7298050139275767
+   },
+   "final_prf": {
+    "tp": 116,
+    "fp": 17,
+    "fn": 84,
+    "precision": 0.8721804511278195,
+    "recall": 0.58,
+    "f1": 0.6966966966966966
+   },
+   "exposure": {
+    "full_exposure": 68,
+    "partial_exposure": 5,
+    "fully_masked": 127,
+    "full_exposure_rate": 0.34,
+    "partial_exposure_rate": 0.025,
+    "fully_masked_rate": 0.635,
+    "total_exposure_rate": 0.365
+   },
+   "nonperson_fpr": 0.1167,
+   "cause_counts": {
+    "후보 미생성": 44,
+    "신뢰도 부족": 3,
+    "1자 길이필터 탈락": 19,
+    "ORG/LOC 오분류(ORGANIZATION)": 1,
+    "ORG/LOC 오분류(LOCATION)": 1
+   },
+   "full_exposure_cases": [
+    {
+     "id": "v12-0001",
+     "word": "부뚜막",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 부뚜막을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0002",
+     "word": "쪽마루",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 쪽마루를 아주 예뻐하셨대",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0003",
+     "word": "외양간",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 외양간을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0004",
+     "word": "나막신",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 나막신을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0005",
+     "word": "책꽂이",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 책꽂이를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0006",
+     "word": "대들보",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 대들보를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0008",
+     "word": "토방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 토방을 아주 예뻐하셨대",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0009",
+     "word": "뒷간",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 뒷간을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0010",
+     "word": "곁방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 곁방을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0011",
+     "word": "베개",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 베개를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0012",
+     "word": "이불",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 이불을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0014",
+     "word": "화로",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 화로를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0016",
+     "word": "삽",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 삽을 아주 예뻐하셨대",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0018",
+     "word": "쟁반",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 쟁반을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0025",
+     "word": "책꽂이",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "책꽂이가 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0029",
+     "word": "뒷간",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "뒷간이 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0034",
+     "word": "화로",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "화로가 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0036",
+     "word": "삽",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "삽이 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0040",
+     "word": "키",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "키가 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0044",
+     "word": "나막신",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "나막신 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0045",
+     "word": "책꽂이",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "책꽂이 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0049",
+     "word": "뒷간",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "뒷간 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0052",
+     "word": "이불",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "이불 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0054",
+     "word": "화로",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "화로 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0060",
+     "word": "키",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "키 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0076",
+     "word": "삽",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "삽한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0080",
+     "word": "키",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "키한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0081",
+     "word": "부뚜막",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "부뚜막아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0084",
+     "word": "나막신",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "나막신아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0085",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "책꽂이야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0089",
+     "word": "뒷간",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "뒷간아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0094",
+     "word": "화로",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "화로야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0096",
+     "word": "삽",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "삽아, 조심히 가",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0100",
+     "word": "키",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "키야, 조심히 가",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0101",
+     "word": "부뚜막",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 부뚜막을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0102",
+     "word": "쪽마루",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 쪽마루를 챙겨서 나갔어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0103",
+     "word": "외양간",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 외양간을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0104",
+     "word": "나막신",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 나막신을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0105",
+     "word": "책꽂이",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 책꽂이를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0109",
+     "word": "뒷간",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 뒷간을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0110",
+     "word": "곁방",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 곁방을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0111",
+     "word": "베개",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 베개를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0112",
+     "word": "이불",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 이불을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0114",
+     "word": "화로",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 화로를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0116",
+     "word": "삽",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 삽을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0117",
+     "word": "호미",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 호미를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0118",
+     "word": "쟁반",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 쟁반을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0120",
+     "word": "키",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 키를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0122",
+     "word": "쪽마루",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "쪽마루가 요즘 제일 바빠 보여",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0125",
+     "word": "책꽂이",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "책꽂이가 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0132",
+     "word": "이불",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "이불이 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0134",
+     "word": "화로",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "화로가 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0136",
+     "word": "삽",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "삽이 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0140",
+     "word": "키",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "키가 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0154",
+     "word": "화로",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "화로가 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0156",
+     "word": "삽",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "삽이 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0160",
+     "word": "키",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "키가 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0176",
+     "word": "삽",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "삽한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0180",
+     "word": "키",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "키한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0181",
+     "word": "부뚜막",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "부뚜막아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0185",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "책꽂이야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0188",
+     "word": "토방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "토방아 왔어?",
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v12-0189",
+     "word": "뒷간",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "뒷간아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0190",
+     "word": "곁방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "곁방아 왔어?",
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v12-0192",
+     "word": "이불",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "이불아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0194",
+     "word": "화로",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "화로야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0198",
+     "word": "쟁반",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "쟁반아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0200",
+     "word": "키",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "키야 왔어?",
+     "cause": "1자 길이필터 탈락"
+    }
+   ]
+  },
+  "v12_by_category": {
+   "기본": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 27,
+     "fp": 11,
+     "fn": 13,
+     "precision": 0.7105263157894737,
+     "recall": 0.675,
+     "f1": 0.6923076923076923
+    },
+    "final_prf": {
+     "tp": 24,
+     "fp": 8,
+     "fn": 16,
+     "precision": 0.75,
+     "recall": 0.6,
+     "f1": 0.6666666666666665
+    },
+    "exposure": {
+     "full_exposure": 9,
+     "partial_exposure": 4,
+     "fully_masked": 27,
+     "full_exposure_rate": 0.225,
+     "partial_exposure_rate": 0.1,
+     "fully_masked_rate": 0.675,
+     "total_exposure_rate": 0.325
+    },
+    "nonperson_fpr": null
+   },
+   "목적격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 12,
+     "fp": 5,
+     "fn": 28,
+     "precision": 0.7058823529411765,
+     "recall": 0.3,
+     "f1": 0.42105263157894735
+    },
+    "final_prf": {
+     "tp": 11,
+     "fp": 1,
+     "fn": 29,
+     "precision": 0.9166666666666666,
+     "recall": 0.275,
+     "f1": 0.4230769230769231
+    },
+    "exposure": {
+     "full_exposure": 28,
+     "partial_exposure": 0,
+     "fully_masked": 12,
+     "full_exposure_rate": 0.7,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.3,
+     "total_exposure_rate": 0.7
+    },
+    "nonperson_fpr": null
+   },
+   "비교서술": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 29,
+     "fp": 8,
+     "fn": 11,
+     "precision": 0.7837837837837838,
+     "recall": 0.725,
+     "f1": 0.7532467532467533
+    },
+    "final_prf": {
+     "tp": 25,
+     "fp": 4,
+     "fn": 15,
+     "precision": 0.8620689655172413,
+     "recall": 0.625,
+     "f1": 0.7246376811594203
+    },
+    "exposure": {
+     "full_exposure": 11,
+     "partial_exposure": 0,
+     "fully_masked": 29,
+     "full_exposure_rate": 0.275,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.725,
+     "total_exposure_rate": 0.275
+    },
+    "nonperson_fpr": null
+   },
+   "여격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 40,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "final_prf": {
+     "tp": 36,
+     "fp": 0,
+     "fn": 4,
+     "precision": 1.0,
+     "recall": 0.9,
+     "f1": 0.9473684210526316
+    },
+    "exposure": {
+     "full_exposure": 4,
+     "partial_exposure": 0,
+     "fully_masked": 36,
+     "full_exposure_rate": 0.1,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.9,
+     "total_exposure_rate": 0.1
+    },
+    "nonperson_fpr": null
+   },
+   "호격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 23,
+     "fp": 4,
+     "fn": 17,
+     "precision": 0.8518518518518519,
+     "recall": 0.575,
+     "f1": 0.6865671641791045
+    },
+    "final_prf": {
+     "tp": 20,
+     "fp": 4,
+     "fn": 20,
+     "precision": 0.8333333333333334,
+     "recall": 0.5,
+     "f1": 0.625
+    },
+    "exposure": {
+     "full_exposure": 16,
+     "partial_exposure": 1,
+     "fully_masked": 23,
+     "full_exposure_rate": 0.4,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.575,
+     "total_exposure_rate": 0.425
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "v12_by_word_type": {
+   "단일형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 72,
+     "fp": 10,
+     "fn": 28,
+     "precision": 0.8780487804878049,
+     "recall": 0.72,
+     "f1": 0.7912087912087912
+    },
+    "final_prf": {
+     "tp": 57,
+     "fp": 8,
+     "fn": 43,
+     "precision": 0.8769230769230769,
+     "recall": 0.57,
+     "f1": 0.6909090909090909
+    },
+    "exposure": {
+     "full_exposure": 36,
+     "partial_exposure": 1,
+     "fully_masked": 63,
+     "full_exposure_rate": 0.36,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.63,
+     "total_exposure_rate": 0.37
+    },
+    "nonperson_fpr": 0.25
+   },
+   "복합명사형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 59,
+     "fp": 18,
+     "fn": 41,
+     "precision": 0.7662337662337663,
+     "recall": 0.59,
+     "f1": 0.6666666666666666
+    },
+    "final_prf": {
+     "tp": 59,
+     "fp": 9,
+     "fn": 41,
+     "precision": 0.8676470588235294,
+     "recall": 0.59,
+     "f1": 0.7023809523809523
+    },
+    "exposure": {
+     "full_exposure": 32,
+     "partial_exposure": 4,
+     "fully_masked": 64,
+     "full_exposure_rate": 0.32,
+     "partial_exposure_rate": 0.04,
+     "fully_masked_rate": 0.64,
+     "total_exposure_rate": 0.36
+    },
+    "nonperson_fpr": 0.1
+   }
+  },
+  "v12_by_style": {
+   "가족채팅체": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 66,
+     "fp": 11,
+     "fn": 34,
+     "precision": 0.8571428571428571,
+     "recall": 0.66,
+     "f1": 0.7457627118644068
+    },
+    "final_prf": {
+     "tp": 59,
+     "fp": 7,
+     "fn": 41,
+     "precision": 0.8939393939393939,
+     "recall": 0.59,
+     "f1": 0.7108433734939759
+    },
+    "exposure": {
+     "full_exposure": 34,
+     "partial_exposure": 2,
+     "fully_masked": 64,
+     "full_exposure_rate": 0.34,
+     "partial_exposure_rate": 0.02,
+     "fully_masked_rate": 0.64,
+     "total_exposure_rate": 0.36
+    },
+    "nonperson_fpr": null
+   },
+   "중의성문맥": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 65,
+     "fp": 17,
+     "fn": 35,
+     "precision": 0.7926829268292683,
+     "recall": 0.65,
+     "f1": 0.7142857142857142
+    },
+    "final_prf": {
+     "tp": 57,
+     "fp": 10,
+     "fn": 43,
+     "precision": 0.8507462686567164,
+     "recall": 0.57,
+     "f1": 0.6826347305389222
+    },
+    "exposure": {
+     "full_exposure": 34,
+     "partial_exposure": 3,
+     "fully_masked": 63,
+     "full_exposure_rate": 0.34,
+     "partial_exposure_rate": 0.03,
+     "fully_masked_rate": 0.63,
+     "total_exposure_rate": 0.37
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "r3_heldout": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 14,
+    "fp": 0,
+    "fn": 2,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "final_prf": {
+    "tp": 14,
+    "fp": 4,
+    "fn": 2,
+    "precision": 0.7777777777777778,
+    "recall": 0.875,
+    "f1": 0.823529411764706
+   },
+   "exposure": {
+    "full_exposure": 2,
+    "partial_exposure": 0,
+    "fully_masked": 14,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.375
+  },
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "final_prf": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "exposure": {
+    "full_exposure": 8,
+    "partial_exposure": 0,
+    "fully_masked": 0,
+    "full_exposure_rate": 1.0,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.0,
+    "total_exposure_rate": 1.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r5_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1": 0.7999999999999999
+   },
+   "final_prf": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1": 0.7999999999999999
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 7,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r6_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 5,
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1": 0.5454545454545454
+   },
+   "final_prf": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 5,
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1": 0.5454545454545454
+   },
+   "exposure": {
+    "full_exposure": 5,
+    "partial_exposure": 0,
+    "fully_masked": 3,
+    "full_exposure_rate": 0.625,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.375,
+    "total_exposure_rate": 0.625
+   },
+   "nonperson_fpr": 0.25
+  },
+  "ambiguity_probe_48": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "raw_prf": {
+    "tp": 78,
+    "fp": 2,
+    "fn": 12,
+    "precision": 0.975,
+    "recall": 0.8666666666666667,
+    "f1": 0.9176470588235294
+   },
+   "final_prf": {
+    "tp": 76,
+    "fp": 2,
+    "fn": 14,
+    "precision": 0.9743589743589743,
+    "recall": 0.8444444444444444,
+    "f1": 0.9047619047619048
+   },
+   "exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 0,
+    "fully_masked": 78,
+    "full_exposure_rate": 0.1333,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.8667,
+    "total_exposure_rate": 0.1333
+   },
+   "nonperson_fpr": 0.0444
+  },
+  "draft56": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "raw_prf": {
+    "tp": 23,
+    "fp": 0,
+    "fn": 12,
+    "precision": 1.0,
+    "recall": 0.6571428571428571,
+    "f1": 0.7931034482758621
+   },
+   "final_prf": {
+    "tp": 22,
+    "fp": 0,
+    "fn": 13,
+    "precision": 1.0,
+    "recall": 0.6285714285714286,
+    "f1": 0.7719298245614035
+   },
+   "exposure": {
+    "full_exposure": 13,
+    "partial_exposure": 0,
+    "fully_masked": 22,
+    "full_exposure_rate": 0.3714,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.6286,
+    "total_exposure_rate": 0.3714
+   },
+   "nonperson_fpr": 0.0476
+  },
+  "v8_independent": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "raw_prf": {
+    "tp": 645,
+    "fp": 18,
+    "fn": 45,
+    "precision": 0.9728506787330317,
+    "recall": 0.9347826086956522,
+    "f1": 0.9534368070953437
+   },
+   "final_prf": {
+    "tp": 636,
+    "fp": 14,
+    "fn": 54,
+    "precision": 0.9784615384615385,
+    "recall": 0.9217391304347826,
+    "f1": 0.9492537313432836
+   },
+   "exposure": {
+    "full_exposure": 40,
+    "partial_exposure": 0,
+    "fully_masked": 650,
+    "full_exposure_rate": 0.058,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.942,
+    "total_exposure_rate": 0.058
+   },
+   "nonperson_fpr": 0.1587
+  },
+  "v9_locked": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "raw_prf": {
+    "tp": 45,
+    "fp": 8,
+    "fn": 15,
+    "precision": 0.8490566037735849,
+    "recall": 0.75,
+    "f1": 0.7964601769911505
+   },
+   "final_prf": {
+    "tp": 45,
+    "fp": 3,
+    "fn": 15,
+    "precision": 0.9375,
+    "recall": 0.75,
+    "f1": 0.8333333333333334
+   },
+   "exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 1,
+    "fully_masked": 47,
+    "full_exposure_rate": 0.2,
+    "partial_exposure_rate": 0.0167,
+    "fully_masked_rate": 0.7833,
+    "total_exposure_rate": 0.2167
+   },
+   "nonperson_fpr": 0.025
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "raw_prf": {
+    "tp": 68,
+    "fp": 24,
+    "fn": 44,
+    "precision": 0.7391304347826086,
+    "recall": 0.6071428571428571,
+    "f1": 0.6666666666666666
+   },
+   "final_prf": {
+    "tp": 67,
+    "fp": 9,
+    "fn": 45,
+    "precision": 0.881578947368421,
+    "recall": 0.5982142857142857,
+    "f1": 0.7127659574468085
+   },
+   "exposure": {
+    "full_exposure": 36,
+    "partial_exposure": 1,
+    "fully_masked": 75,
+    "full_exposure_rate": 0.3214,
+    "partial_exposure_rate": 0.0089,
+    "fully_masked_rate": 0.6696,
+    "total_exposure_rate": 0.3304
+   },
+   "nonperson_fpr": 0.0962
+  },
+  "v11_locked": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 96,
+    "fp": 12,
+    "fn": 104,
+    "precision": 0.8888888888888888,
+    "recall": 0.48,
+    "f1": 0.6233766233766234
+   },
+   "final_prf": {
+    "tp": 94,
+    "fp": 2,
+    "fn": 106,
+    "precision": 0.9791666666666666,
+    "recall": 0.47,
+    "f1": 0.6351351351351351
+   },
+   "exposure": {
+    "full_exposure": 104,
+    "partial_exposure": 2,
+    "fully_masked": 94,
+    "full_exposure_rate": 0.52,
+    "partial_exposure_rate": 0.01,
+    "fully_masked_rate": 0.47,
+    "total_exposure_rate": 0.53
+   },
+   "nonperson_fpr": 0.1
+  }
+ },
+ "r4_candidate": {
+  "fingerprint12": "56249473d8d9",
+  "v12_overall": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 129,
+    "fp": 20,
+    "fn": 71,
+    "precision": 0.8657718120805369,
+    "recall": 0.645,
+    "f1": 0.7392550143266476
+   },
+   "final_prf": {
+    "tp": 107,
+    "fp": 11,
+    "fn": 93,
+    "precision": 0.9067796610169492,
+    "recall": 0.535,
+    "f1": 0.6729559748427674
+   },
+   "exposure": {
+    "full_exposure": 83,
+    "partial_exposure": 2,
+    "fully_masked": 115,
+    "full_exposure_rate": 0.415,
+    "partial_exposure_rate": 0.01,
+    "fully_masked_rate": 0.575,
+    "total_exposure_rate": 0.425
+   },
+   "nonperson_fpr": 0.1167,
+   "cause_counts": {
+    "후보 미생성": 51,
+    "신뢰도 부족": 9,
+    "1자 길이필터 탈락": 20,
+    "ORG/LOC 오분류(ORGANIZATION)": 3
+   },
+   "full_exposure_cases": [
+    {
+     "id": "v12-0001",
+     "word": "부뚜막",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 부뚜막을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0002",
+     "word": "쪽마루",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 쪽마루를 아주 예뻐하셨대",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0003",
+     "word": "외양간",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 외양간을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0004",
+     "word": "나막신",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 나막신을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0005",
+     "word": "책꽂이",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 책꽂이를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0009",
+     "word": "뒷간",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 뒷간을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0010",
+     "word": "곁방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 곁방을 아주 예뻐하셨대",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0012",
+     "word": "이불",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 이불을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0014",
+     "word": "화로",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 화로를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0016",
+     "word": "삽",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 삽을 아주 예뻐하셨대",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0021",
+     "word": "부뚜막",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "부뚜막이 모임에서 유난히 눈에 띄어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0022",
+     "word": "쪽마루",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "쪽마루가 모임에서 유난히 눈에 띄어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0025",
+     "word": "책꽂이",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "책꽂이가 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0029",
+     "word": "뒷간",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "뒷간이 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0032",
+     "word": "이불",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "이불이 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0034",
+     "word": "화로",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "화로가 모임에서 유난히 눈에 띄어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0036",
+     "word": "삽",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "삽이 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0040",
+     "word": "키",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "키가 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0042",
+     "word": "쪽마루",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "쪽마루 안부가 궁금해졌어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0043",
+     "word": "외양간",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "외양간 안부가 궁금해졌어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0045",
+     "word": "책꽂이",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "책꽂이 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0049",
+     "word": "뒷간",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "뒷간 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0051",
+     "word": "베개",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "베개 안부가 궁금해졌어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0052",
+     "word": "이불",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "이불 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0054",
+     "word": "화로",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "화로 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0056",
+     "word": "삽",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "삽 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0058",
+     "word": "쟁반",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "쟁반 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0060",
+     "word": "키",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "키 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0076",
+     "word": "삽",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "삽한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0080",
+     "word": "키",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "키한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0081",
+     "word": "부뚜막",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "부뚜막아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0083",
+     "word": "외양간",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "외양간아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0084",
+     "word": "나막신",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "나막신아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0085",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "책꽂이야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0088",
+     "word": "토방",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "토방아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0089",
+     "word": "뒷간",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "뒷간아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0090",
+     "word": "곁방",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "곁방아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0094",
+     "word": "화로",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "화로야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0095",
+     "word": "섬돌",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "섬돌아, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0096",
+     "word": "삽",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "삽아, 조심히 가",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0100",
+     "word": "키",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "키야, 조심히 가",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0101",
+     "word": "부뚜막",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 부뚜막을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0102",
+     "word": "쪽마루",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 쪽마루를 챙겨서 나갔어",
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v12-0103",
+     "word": "외양간",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 외양간을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0104",
+     "word": "나막신",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 나막신을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0105",
+     "word": "책꽂이",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 책꽂이를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0109",
+     "word": "뒷간",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 뒷간을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0110",
+     "word": "곁방",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 곁방을 챙겨서 나갔어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0111",
+     "word": "베개",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 베개를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0112",
+     "word": "이불",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 이불을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0114",
+     "word": "화로",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 화로를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0116",
+     "word": "삽",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 삽을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0118",
+     "word": "쟁반",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 쟁반을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0120",
+     "word": "키",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 키를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0121",
+     "word": "부뚜막",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "부뚜막이 요즘 제일 바빠 보여",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0125",
+     "word": "책꽂이",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "책꽂이가 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0131",
+     "word": "베개",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "베개가 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0132",
+     "word": "이불",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "이불이 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0134",
+     "word": "화로",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "화로가 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0136",
+     "word": "삽",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "삽이 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0138",
+     "word": "쟁반",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "쟁반이 요즘 제일 바빠 보여",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0140",
+     "word": "키",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "키가 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0145",
+     "word": "책꽂이",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "책꽂이가 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0149",
+     "word": "뒷간",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "뒷간이 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0152",
+     "word": "이불",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "이불이 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0154",
+     "word": "화로",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "화로가 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0156",
+     "word": "삽",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "삽이 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0158",
+     "word": "쟁반",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "쟁반이 요즘 통 소식이 없네",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0160",
+     "word": "키",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "키가 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0176",
+     "word": "삽",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "삽한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0180",
+     "word": "키",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "키한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0181",
+     "word": "부뚜막",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "부뚜막아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0183",
+     "word": "외양간",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "외양간아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0184",
+     "word": "나막신",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "나막신아 왔어?",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0185",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "책꽂이야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0188",
+     "word": "토방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "토방아 왔어?",
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v12-0189",
+     "word": "뒷간",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "뒷간아 왔어?",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0190",
+     "word": "곁방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "곁방아 왔어?",
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v12-0192",
+     "word": "이불",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "이불아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0194",
+     "word": "화로",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "화로야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0195",
+     "word": "섬돌",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "섬돌아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0198",
+     "word": "쟁반",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "쟁반아 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0200",
+     "word": "키",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "키야 왔어?",
+     "cause": "1자 길이필터 탈락"
+    }
+   ]
+  },
+  "v12_by_category": {
+   "기본": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 25,
+     "fp": 8,
+     "fn": 15,
+     "precision": 0.7575757575757576,
+     "recall": 0.625,
+     "f1": 0.6849315068493151
+    },
+    "final_prf": {
+     "tp": 19,
+     "fp": 5,
+     "fn": 21,
+     "precision": 0.7916666666666666,
+     "recall": 0.475,
+     "f1": 0.5937499999999999
+    },
+    "exposure": {
+     "full_exposure": 17,
+     "partial_exposure": 2,
+     "fully_masked": 21,
+     "full_exposure_rate": 0.425,
+     "partial_exposure_rate": 0.05,
+     "fully_masked_rate": 0.525,
+     "total_exposure_rate": 0.475
+    },
+    "nonperson_fpr": null
+   },
+   "목적격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 18,
+     "fp": 3,
+     "fn": 22,
+     "precision": 0.8571428571428571,
+     "recall": 0.45,
+     "f1": 0.5901639344262294
+    },
+    "final_prf": {
+     "tp": 16,
+     "fp": 1,
+     "fn": 24,
+     "precision": 0.9411764705882353,
+     "recall": 0.4,
+     "f1": 0.5614035087719298
+    },
+    "exposure": {
+     "full_exposure": 23,
+     "partial_exposure": 0,
+     "fully_masked": 17,
+     "full_exposure_rate": 0.575,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.425,
+     "total_exposure_rate": 0.575
+    },
+    "nonperson_fpr": null
+   },
+   "비교서술": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 26,
+     "fp": 7,
+     "fn": 14,
+     "precision": 0.7878787878787878,
+     "recall": 0.65,
+     "f1": 0.7123287671232875
+    },
+    "final_prf": {
+     "tp": 21,
+     "fp": 3,
+     "fn": 19,
+     "precision": 0.875,
+     "recall": 0.525,
+     "f1": 0.6562500000000001
+    },
+    "exposure": {
+     "full_exposure": 16,
+     "partial_exposure": 0,
+     "fully_masked": 24,
+     "full_exposure_rate": 0.4,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.6,
+     "total_exposure_rate": 0.4
+    },
+    "nonperson_fpr": null
+   },
+   "여격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 40,
+     "fp": 0,
+     "fn": 0,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "final_prf": {
+     "tp": 36,
+     "fp": 0,
+     "fn": 4,
+     "precision": 1.0,
+     "recall": 0.9,
+     "f1": 0.9473684210526316
+    },
+    "exposure": {
+     "full_exposure": 4,
+     "partial_exposure": 0,
+     "fully_masked": 36,
+     "full_exposure_rate": 0.1,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.9,
+     "total_exposure_rate": 0.1
+    },
+    "nonperson_fpr": null
+   },
+   "호격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 20,
+     "fp": 2,
+     "fn": 20,
+     "precision": 0.9090909090909091,
+     "recall": 0.5,
+     "f1": 0.6451612903225806
+    },
+    "final_prf": {
+     "tp": 15,
+     "fp": 2,
+     "fn": 25,
+     "precision": 0.8823529411764706,
+     "recall": 0.375,
+     "f1": 0.5263157894736842
+    },
+    "exposure": {
+     "full_exposure": 23,
+     "partial_exposure": 0,
+     "fully_masked": 17,
+     "full_exposure_rate": 0.575,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.425,
+     "total_exposure_rate": 0.575
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "v12_by_word_type": {
+   "단일형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 68,
+     "fp": 8,
+     "fn": 32,
+     "precision": 0.8947368421052632,
+     "recall": 0.68,
+     "f1": 0.7727272727272727
+    },
+    "final_prf": {
+     "tp": 51,
+     "fp": 7,
+     "fn": 49,
+     "precision": 0.8793103448275862,
+     "recall": 0.51,
+     "f1": 0.6455696202531647
+    },
+    "exposure": {
+     "full_exposure": 43,
+     "partial_exposure": 0,
+     "fully_masked": 57,
+     "full_exposure_rate": 0.43,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.57,
+     "total_exposure_rate": 0.43
+    },
+    "nonperson_fpr": 0.3
+   },
+   "복합명사형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 61,
+     "fp": 12,
+     "fn": 39,
+     "precision": 0.8356164383561644,
+     "recall": 0.61,
+     "f1": 0.7052023121387282
+    },
+    "final_prf": {
+     "tp": 56,
+     "fp": 4,
+     "fn": 44,
+     "precision": 0.9333333333333333,
+     "recall": 0.56,
+     "f1": 0.7000000000000001
+    },
+    "exposure": {
+     "full_exposure": 40,
+     "partial_exposure": 2,
+     "fully_masked": 58,
+     "full_exposure_rate": 0.4,
+     "partial_exposure_rate": 0.02,
+     "fully_masked_rate": 0.58,
+     "total_exposure_rate": 0.42
+    },
+    "nonperson_fpr": 0.05
+   }
+  },
+  "v12_by_style": {
+   "가족채팅체": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 60,
+     "fp": 12,
+     "fn": 40,
+     "precision": 0.8333333333333334,
+     "recall": 0.6,
+     "f1": 0.6976744186046512
+    },
+    "final_prf": {
+     "tp": 51,
+     "fp": 7,
+     "fn": 49,
+     "precision": 0.8793103448275862,
+     "recall": 0.51,
+     "f1": 0.6455696202531647
+    },
+    "exposure": {
+     "full_exposure": 42,
+     "partial_exposure": 1,
+     "fully_masked": 57,
+     "full_exposure_rate": 0.42,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.57,
+     "total_exposure_rate": 0.43
+    },
+    "nonperson_fpr": null
+   },
+   "중의성문맥": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 69,
+     "fp": 8,
+     "fn": 31,
+     "precision": 0.8961038961038961,
+     "recall": 0.69,
+     "f1": 0.7796610169491525
+    },
+    "final_prf": {
+     "tp": 56,
+     "fp": 4,
+     "fn": 44,
+     "precision": 0.9333333333333333,
+     "recall": 0.56,
+     "f1": 0.7000000000000001
+    },
+    "exposure": {
+     "full_exposure": 41,
+     "partial_exposure": 1,
+     "fully_masked": 58,
+     "full_exposure_rate": 0.41,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.58,
+     "total_exposure_rate": 0.42
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "r3_heldout": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1": 0.967741935483871
+   },
+   "final_prf": {
+    "tp": 15,
+    "fp": 4,
+    "fn": 1,
+    "precision": 0.7894736842105263,
+    "recall": 0.9375,
+    "f1": 0.8571428571428572
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 15,
+    "full_exposure_rate": 0.0625,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9375,
+    "total_exposure_rate": 0.0625
+   },
+   "nonperson_fpr": 0.375
+  },
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 2,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "final_prf": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 2,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "exposure": {
+    "full_exposure": 2,
+    "partial_exposure": 0,
+    "fully_masked": 6,
+    "full_exposure_rate": 0.25,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.75,
+    "total_exposure_rate": 0.25
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r5_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 6,
+    "fp": 3,
+    "fn": 2,
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1": 0.7058823529411765
+   },
+   "final_prf": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1": 0.7999999999999999
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 1,
+    "fully_masked": 6,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.125,
+    "fully_masked_rate": 0.75,
+    "total_exposure_rate": 0.25
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r6_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 5,
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1": 0.5454545454545454
+   },
+   "final_prf": {
+    "tp": 3,
+    "fp": 0,
+    "fn": 5,
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1": 0.5454545454545454
+   },
+   "exposure": {
+    "full_exposure": 5,
+    "partial_exposure": 0,
+    "fully_masked": 3,
+    "full_exposure_rate": 0.625,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.375,
+    "total_exposure_rate": 0.625
+   },
+   "nonperson_fpr": 0.25
+  },
+  "ambiguity_probe_48": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "raw_prf": {
+    "tp": 82,
+    "fp": 5,
+    "fn": 8,
+    "precision": 0.9425287356321839,
+    "recall": 0.9111111111111111,
+    "f1": 0.9265536723163842
+   },
+   "final_prf": {
+    "tp": 80,
+    "fp": 1,
+    "fn": 10,
+    "precision": 0.9876543209876543,
+    "recall": 0.8888888888888888,
+    "f1": 0.935672514619883
+   },
+   "exposure": {
+    "full_exposure": 9,
+    "partial_exposure": 0,
+    "fully_masked": 81,
+    "full_exposure_rate": 0.1,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9,
+    "total_exposure_rate": 0.1
+   },
+   "nonperson_fpr": 0.1
+  },
+  "draft56": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "raw_prf": {
+    "tp": 25,
+    "fp": 0,
+    "fn": 10,
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1": 0.8333333333333333
+   },
+   "final_prf": {
+    "tp": 25,
+    "fp": 0,
+    "fn": 10,
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1": 0.8333333333333333
+   },
+   "exposure": {
+    "full_exposure": 10,
+    "partial_exposure": 0,
+    "fully_masked": 25,
+    "full_exposure_rate": 0.2857,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.7143,
+    "total_exposure_rate": 0.2857
+   },
+   "nonperson_fpr": 0.0476
+  },
+  "v8_independent": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "raw_prf": {
+    "tp": 639,
+    "fp": 21,
+    "fn": 51,
+    "precision": 0.9681818181818181,
+    "recall": 0.9260869565217391,
+    "f1": 0.9466666666666667
+   },
+   "final_prf": {
+    "tp": 631,
+    "fp": 12,
+    "fn": 59,
+    "precision": 0.9813374805598756,
+    "recall": 0.9144927536231884,
+    "f1": 0.9467366841710427
+   },
+   "exposure": {
+    "full_exposure": 47,
+    "partial_exposure": 0,
+    "fully_masked": 643,
+    "full_exposure_rate": 0.0681,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9319,
+    "total_exposure_rate": 0.0681
+   },
+   "nonperson_fpr": 0.1429
+  },
+  "v9_locked": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "raw_prf": {
+    "tp": 53,
+    "fp": 4,
+    "fn": 7,
+    "precision": 0.9298245614035088,
+    "recall": 0.8833333333333333,
+    "f1": 0.905982905982906
+   },
+   "final_prf": {
+    "tp": 53,
+    "fp": 3,
+    "fn": 7,
+    "precision": 0.9464285714285714,
+    "recall": 0.8833333333333333,
+    "f1": 0.9137931034482758
+   },
+   "exposure": {
+    "full_exposure": 4,
+    "partial_exposure": 0,
+    "fully_masked": 56,
+    "full_exposure_rate": 0.0667,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9333,
+    "total_exposure_rate": 0.0667
+   },
+   "nonperson_fpr": 0.025
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "raw_prf": {
+    "tp": 76,
+    "fp": 18,
+    "fn": 36,
+    "precision": 0.8085106382978723,
+    "recall": 0.6785714285714286,
+    "f1": 0.737864077669903
+   },
+   "final_prf": {
+    "tp": 75,
+    "fp": 10,
+    "fn": 37,
+    "precision": 0.8823529411764706,
+    "recall": 0.6696428571428571,
+    "f1": 0.7614213197969542
+   },
+   "exposure": {
+    "full_exposure": 27,
+    "partial_exposure": 2,
+    "fully_masked": 83,
+    "full_exposure_rate": 0.2411,
+    "partial_exposure_rate": 0.0179,
+    "fully_masked_rate": 0.7411,
+    "total_exposure_rate": 0.2589
+   },
+   "nonperson_fpr": 0.0192
+  },
+  "v11_locked": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 93,
+    "fp": 17,
+    "fn": 107,
+    "precision": 0.8454545454545455,
+    "recall": 0.465,
+    "f1": 0.6
+   },
+   "final_prf": {
+    "tp": 91,
+    "fp": 6,
+    "fn": 109,
+    "precision": 0.9381443298969072,
+    "recall": 0.455,
+    "f1": 0.6127946127946128
+   },
+   "exposure": {
+    "full_exposure": 103,
+    "partial_exposure": 6,
+    "fully_masked": 91,
+    "full_exposure_rate": 0.515,
+    "partial_exposure_rate": 0.03,
+    "fully_masked_rate": 0.455,
+    "total_exposure_rate": 0.545
+   },
+   "nonperson_fpr": 0.05
+  }
+ },
+ "r5_candidate": {
+  "fingerprint12": "a270ea570419",
+  "v12_overall": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 161,
+    "fp": 31,
+    "fn": 39,
+    "precision": 0.8385416666666666,
+    "recall": 0.805,
+    "f1": 0.8214285714285714
+   },
+   "final_prf": {
+    "tp": 143,
+    "fp": 17,
+    "fn": 57,
+    "precision": 0.89375,
+    "recall": 0.715,
+    "f1": 0.7944444444444444
+   },
+   "exposure": {
+    "full_exposure": 42,
+    "partial_exposure": 4,
+    "fully_masked": 154,
+    "full_exposure_rate": 0.21,
+    "partial_exposure_rate": 0.02,
+    "fully_masked_rate": 0.77,
+    "total_exposure_rate": 0.23
+   },
+   "nonperson_fpr": 0.05,
+   "cause_counts": {
+    "후보 미생성": 16,
+    "1자 길이필터 탈락": 20,
+    "신뢰도 부족": 6
+   },
+   "full_exposure_cases": [
+    {
+     "id": "v12-0003",
+     "word": "외양간",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 외양간을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0009",
+     "word": "뒷간",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 뒷간을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0010",
+     "word": "곁방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 곁방을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0012",
+     "word": "이불",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 이불을 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0016",
+     "word": "삽",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 삽을 아주 예뻐하셨대",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0020",
+     "word": "키",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 키를 아주 예뻐하셨대",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0021",
+     "word": "부뚜막",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "부뚜막이 모임에서 유난히 눈에 띄어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0029",
+     "word": "뒷간",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "뒷간이 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0036",
+     "word": "삽",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "삽이 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0040",
+     "word": "키",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "키가 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0041",
+     "word": "부뚜막",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "부뚜막 안부가 궁금해졌어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0048",
+     "word": "토방",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "토방 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0049",
+     "word": "뒷간",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "뒷간 안부가 궁금해졌어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0050",
+     "word": "곁방",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "곁방 안부가 궁금해졌어",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0056",
+     "word": "삽",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "삽 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0061",
+     "word": "부뚜막",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "부뚜막한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0076",
+     "word": "삽",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "삽한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0080",
+     "word": "키",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "키한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0081",
+     "word": "부뚜막",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "부뚜막아, 조심히 가",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0085",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "책꽂이야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0096",
+     "word": "삽",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "삽아, 조심히 가",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0100",
+     "word": "키",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "키야, 조심히 가",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0103",
+     "word": "외양간",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 외양간을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0109",
+     "word": "뒷간",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 뒷간을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0110",
+     "word": "곁방",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 곁방을 챙겨서 나갔어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0111",
+     "word": "베개",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 베개를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0112",
+     "word": "이불",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 이불을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0114",
+     "word": "화로",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 화로를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0116",
+     "word": "삽",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 삽을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0118",
+     "word": "쟁반",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 쟁반을 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0120",
+     "word": "키",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 키를 챙겨서 나갔어",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0136",
+     "word": "삽",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "삽이 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0140",
+     "word": "키",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "키가 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0156",
+     "word": "삽",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "삽이 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0160",
+     "word": "키",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "키가 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0176",
+     "word": "삽",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "삽한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0180",
+     "word": "키",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "키한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0181",
+     "word": "부뚜막",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "부뚜막아 왔어?",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0185",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "책꽂이야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0188",
+     "word": "토방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "토방아 왔어?",
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v12-0196",
+     "word": "삽",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "삽아 왔어?",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0200",
+     "word": "키",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "키야 왔어?",
+     "cause": "1자 길이필터 탈락"
+    }
+   ]
+  },
+  "v12_by_category": {
+   "기본": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 30,
+     "fp": 14,
+     "fn": 10,
+     "precision": 0.6818181818181818,
+     "recall": 0.75,
+     "f1": 0.7142857142857143
+    },
+    "final_prf": {
+     "tp": 26,
+     "fp": 9,
+     "fn": 14,
+     "precision": 0.7428571428571429,
+     "recall": 0.65,
+     "f1": 0.6933333333333334
+    },
+    "exposure": {
+     "full_exposure": 7,
+     "partial_exposure": 1,
+     "fully_masked": 32,
+     "full_exposure_rate": 0.175,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.8,
+     "total_exposure_rate": 0.2
+    },
+    "nonperson_fpr": null
+   },
+   "목적격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 24,
+     "fp": 3,
+     "fn": 16,
+     "precision": 0.8888888888888888,
+     "recall": 0.6,
+     "f1": 0.7164179104477612
+    },
+    "final_prf": {
+     "tp": 23,
+     "fp": 2,
+     "fn": 17,
+     "precision": 0.92,
+     "recall": 0.575,
+     "f1": 0.7076923076923077
+    },
+    "exposure": {
+     "full_exposure": 15,
+     "partial_exposure": 2,
+     "fully_masked": 23,
+     "full_exposure_rate": 0.375,
+     "partial_exposure_rate": 0.05,
+     "fully_masked_rate": 0.575,
+     "total_exposure_rate": 0.425
+    },
+    "nonperson_fpr": null
+   },
+   "비교서술": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 35,
+     "fp": 6,
+     "fn": 5,
+     "precision": 0.8536585365853658,
+     "recall": 0.875,
+     "f1": 0.8641975308641976
+    },
+    "final_prf": {
+     "tp": 31,
+     "fp": 3,
+     "fn": 9,
+     "precision": 0.9117647058823529,
+     "recall": 0.775,
+     "f1": 0.8378378378378379
+    },
+    "exposure": {
+     "full_exposure": 6,
+     "partial_exposure": 0,
+     "fully_masked": 34,
+     "full_exposure_rate": 0.15,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.85,
+     "total_exposure_rate": 0.15
+    },
+    "nonperson_fpr": null
+   },
+   "여격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 39,
+     "fp": 3,
+     "fn": 1,
+     "precision": 0.9285714285714286,
+     "recall": 0.975,
+     "f1": 0.951219512195122
+    },
+    "final_prf": {
+     "tp": 35,
+     "fp": 0,
+     "fn": 5,
+     "precision": 1.0,
+     "recall": 0.875,
+     "f1": 0.9333333333333333
+    },
+    "exposure": {
+     "full_exposure": 5,
+     "partial_exposure": 0,
+     "fully_masked": 35,
+     "full_exposure_rate": 0.125,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.875,
+     "total_exposure_rate": 0.125
+    },
+    "nonperson_fpr": null
+   },
+   "호격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 33,
+     "fp": 5,
+     "fn": 7,
+     "precision": 0.868421052631579,
+     "recall": 0.825,
+     "f1": 0.8461538461538461
+    },
+    "final_prf": {
+     "tp": 28,
+     "fp": 3,
+     "fn": 12,
+     "precision": 0.9032258064516129,
+     "recall": 0.7,
+     "f1": 0.7887323943661972
+    },
+    "exposure": {
+     "full_exposure": 9,
+     "partial_exposure": 1,
+     "fully_masked": 30,
+     "full_exposure_rate": 0.225,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.75,
+     "total_exposure_rate": 0.25
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "v12_by_word_type": {
+   "단일형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 86,
+     "fp": 9,
+     "fn": 14,
+     "precision": 0.9052631578947369,
+     "recall": 0.86,
+     "f1": 0.8820512820512821
+    },
+    "final_prf": {
+     "tp": 70,
+     "fp": 8,
+     "fn": 30,
+     "precision": 0.8974358974358975,
+     "recall": 0.7,
+     "f1": 0.7865168539325842
+    },
+    "exposure": {
+     "full_exposure": 24,
+     "partial_exposure": 0,
+     "fully_masked": 76,
+     "full_exposure_rate": 0.24,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.76,
+     "total_exposure_rate": 0.24
+    },
+    "nonperson_fpr": 0.1
+   },
+   "복합명사형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 75,
+     "fp": 22,
+     "fn": 25,
+     "precision": 0.7731958762886598,
+     "recall": 0.75,
+     "f1": 0.7614213197969544
+    },
+    "final_prf": {
+     "tp": 73,
+     "fp": 9,
+     "fn": 27,
+     "precision": 0.8902439024390244,
+     "recall": 0.73,
+     "f1": 0.8021978021978022
+    },
+    "exposure": {
+     "full_exposure": 18,
+     "partial_exposure": 4,
+     "fully_masked": 78,
+     "full_exposure_rate": 0.18,
+     "partial_exposure_rate": 0.04,
+     "fully_masked_rate": 0.78,
+     "total_exposure_rate": 0.22
+    },
+    "nonperson_fpr": 0.05
+   }
+  },
+  "v12_by_style": {
+   "가족채팅체": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 82,
+     "fp": 9,
+     "fn": 18,
+     "precision": 0.9010989010989011,
+     "recall": 0.82,
+     "f1": 0.8586387434554974
+    },
+    "final_prf": {
+     "tp": 74,
+     "fp": 6,
+     "fn": 26,
+     "precision": 0.925,
+     "recall": 0.74,
+     "f1": 0.8222222222222222
+    },
+    "exposure": {
+     "full_exposure": 20,
+     "partial_exposure": 2,
+     "fully_masked": 78,
+     "full_exposure_rate": 0.2,
+     "partial_exposure_rate": 0.02,
+     "fully_masked_rate": 0.78,
+     "total_exposure_rate": 0.22
+    },
+    "nonperson_fpr": null
+   },
+   "중의성문맥": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 79,
+     "fp": 22,
+     "fn": 21,
+     "precision": 0.7821782178217822,
+     "recall": 0.79,
+     "f1": 0.7860696517412936
+    },
+    "final_prf": {
+     "tp": 69,
+     "fp": 11,
+     "fn": 31,
+     "precision": 0.8625,
+     "recall": 0.69,
+     "f1": 0.7666666666666667
+    },
+    "exposure": {
+     "full_exposure": 22,
+     "partial_exposure": 2,
+     "fully_masked": 76,
+     "full_exposure_rate": 0.22,
+     "partial_exposure_rate": 0.02,
+     "fully_masked_rate": 0.76,
+     "total_exposure_rate": 0.24
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "r3_heldout": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 16,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "final_prf": {
+    "tp": 16,
+    "fp": 4,
+    "fn": 0,
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1": 0.888888888888889
+   },
+   "exposure": {
+    "full_exposure": 0,
+    "partial_exposure": 0,
+    "fully_masked": 16,
+    "full_exposure_rate": 0.0,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 1.0,
+    "total_exposure_rate": 0.0
+   },
+   "nonperson_fpr": 0.125
+  },
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "final_prf": {
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 7,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r5_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 6,
+    "fp": 2,
+    "fn": 2,
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1": 0.75
+   },
+   "final_prf": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1": 0.7999999999999999
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 7,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r6_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 3,
+    "precision": 1.0,
+    "recall": 0.625,
+    "f1": 0.7692307692307693
+   },
+   "final_prf": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 4,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666
+   },
+   "exposure": {
+    "full_exposure": 4,
+    "partial_exposure": 0,
+    "fully_masked": 4,
+    "full_exposure_rate": 0.5,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.5,
+    "total_exposure_rate": 0.5
+   },
+   "nonperson_fpr": 0.125
+  },
+  "ambiguity_probe_48": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "raw_prf": {
+    "tp": 84,
+    "fp": 3,
+    "fn": 6,
+    "precision": 0.9655172413793104,
+    "recall": 0.9333333333333333,
+    "f1": 0.9491525423728815
+   },
+   "final_prf": {
+    "tp": 82,
+    "fp": 3,
+    "fn": 8,
+    "precision": 0.9647058823529412,
+    "recall": 0.9111111111111111,
+    "f1": 0.9371428571428572
+   },
+   "exposure": {
+    "full_exposure": 5,
+    "partial_exposure": 0,
+    "fully_masked": 85,
+    "full_exposure_rate": 0.0556,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9444,
+    "total_exposure_rate": 0.0556
+   },
+   "nonperson_fpr": 0.0444
+  },
+  "draft56": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "raw_prf": {
+    "tp": 34,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9714285714285714,
+    "f1": 0.9855072463768115
+   },
+   "final_prf": {
+    "tp": 34,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9714285714285714,
+    "f1": 0.9855072463768115
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 34,
+    "full_exposure_rate": 0.0286,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9714,
+    "total_exposure_rate": 0.0286
+   },
+   "nonperson_fpr": 0.0
+  },
+  "v8_independent": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "raw_prf": {
+    "tp": 637,
+    "fp": 20,
+    "fn": 53,
+    "precision": 0.969558599695586,
+    "recall": 0.9231884057971015,
+    "f1": 0.9458054936896808
+   },
+   "final_prf": {
+    "tp": 626,
+    "fp": 11,
+    "fn": 64,
+    "precision": 0.9827315541601256,
+    "recall": 0.9072463768115943,
+    "f1": 0.9434815373021855
+   },
+   "exposure": {
+    "full_exposure": 53,
+    "partial_exposure": 0,
+    "fully_masked": 637,
+    "full_exposure_rate": 0.0768,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9232,
+    "total_exposure_rate": 0.0768
+   },
+   "nonperson_fpr": 0.1429
+  },
+  "v9_locked": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "raw_prf": {
+    "tp": 56,
+    "fp": 5,
+    "fn": 4,
+    "precision": 0.9180327868852459,
+    "recall": 0.9333333333333333,
+    "f1": 0.9256198347107439
+   },
+   "final_prf": {
+    "tp": 56,
+    "fp": 3,
+    "fn": 4,
+    "precision": 0.9491525423728814,
+    "recall": 0.9333333333333333,
+    "f1": 0.9411764705882353
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 1,
+    "fully_masked": 58,
+    "full_exposure_rate": 0.0167,
+    "partial_exposure_rate": 0.0167,
+    "fully_masked_rate": 0.9667,
+    "total_exposure_rate": 0.0333
+   },
+   "nonperson_fpr": 0.025
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "raw_prf": {
+    "tp": 94,
+    "fp": 14,
+    "fn": 18,
+    "precision": 0.8703703703703703,
+    "recall": 0.8392857142857143,
+    "f1": 0.8545454545454546
+   },
+   "final_prf": {
+    "tp": 93,
+    "fp": 8,
+    "fn": 19,
+    "precision": 0.9207920792079208,
+    "recall": 0.8303571428571429,
+    "f1": 0.8732394366197184
+   },
+   "exposure": {
+    "full_exposure": 11,
+    "partial_exposure": 1,
+    "fully_masked": 100,
+    "full_exposure_rate": 0.0982,
+    "partial_exposure_rate": 0.0089,
+    "fully_masked_rate": 0.8929,
+    "total_exposure_rate": 0.1071
+   },
+   "nonperson_fpr": 0.0192
+  },
+  "v11_locked": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 165,
+    "fp": 13,
+    "fn": 35,
+    "precision": 0.9269662921348315,
+    "recall": 0.825,
+    "f1": 0.8730158730158731
+   },
+   "final_prf": {
+    "tp": 163,
+    "fp": 6,
+    "fn": 37,
+    "precision": 0.9644970414201184,
+    "recall": 0.815,
+    "f1": 0.8834688346883469
+   },
+   "exposure": {
+    "full_exposure": 31,
+    "partial_exposure": 4,
+    "fully_masked": 165,
+    "full_exposure_rate": 0.155,
+    "partial_exposure_rate": 0.02,
+    "fully_masked_rate": 0.825,
+    "total_exposure_rate": 0.175
+   },
+   "nonperson_fpr": 0.0167
+  }
+ },
+ "r6_candidate": {
+  "fingerprint12": "c59b174ba126",
+  "v12_overall": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 181,
+    "fp": 22,
+    "fn": 19,
+    "precision": 0.8916256157635468,
+    "recall": 0.905,
+    "f1": 0.8982630272952853
+   },
+   "final_prf": {
+    "tp": 163,
+    "fp": 13,
+    "fn": 37,
+    "precision": 0.9261363636363636,
+    "recall": 0.815,
+    "f1": 0.8670212765957446
+   },
+   "exposure": {
+    "full_exposure": 24,
+    "partial_exposure": 1,
+    "fully_masked": 175,
+    "full_exposure_rate": 0.12,
+    "partial_exposure_rate": 0.005,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.05,
+   "cause_counts": {
+    "1자 길이필터 탈락": 22,
+    "후보 미생성": 2
+   },
+   "full_exposure_cases": [
+    {
+     "id": "v12-0016",
+     "word": "삽",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "text": "할머니가 삽을 아주 예뻐하셨대",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0036",
+     "word": "삽",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "삽이 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0040",
+     "word": "키",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "text": "키가 모임에서 유난히 눈에 띄어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0045",
+     "word": "책꽂이",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "책꽂이 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0048",
+     "word": "토방",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "토방 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0056",
+     "word": "삽",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "삽 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0060",
+     "word": "키",
+     "category": "기본",
+     "style": "중의성문맥",
+     "text": "키 안부가 궁금해졌어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0076",
+     "word": "삽",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "삽한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0080",
+     "word": "키",
+     "category": "여격",
+     "style": "중의성문맥",
+     "text": "키한테 잘 지내는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0081",
+     "word": "부뚜막",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "부뚜막아, 조심히 가",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0085",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "책꽂이야, 조심히 가",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0096",
+     "word": "삽",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "삽아, 조심히 가",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0100",
+     "word": "키",
+     "category": "호격",
+     "style": "중의성문맥",
+     "text": "키야, 조심히 가",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0116",
+     "word": "삽",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "text": "아빠가 삽을 챙겨서 나갔어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0136",
+     "word": "삽",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "삽이 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0140",
+     "word": "키",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "text": "키가 요즘 제일 바빠 보여",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0156",
+     "word": "삽",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "삽이 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0160",
+     "word": "키",
+     "category": "기본",
+     "style": "가족채팅체",
+     "text": "키가 요즘 통 소식이 없네",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0161",
+     "word": "부뚜막",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "부뚜막한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0176",
+     "word": "삽",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "삽한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0180",
+     "word": "키",
+     "category": "여격",
+     "style": "가족채팅체",
+     "text": "키한테 도착했는지 물어봤어",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0185",
+     "word": "책꽂이",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "책꽂이야 왔어?",
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v12-0196",
+     "word": "삽",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "삽아 왔어?",
+     "cause": "1자 길이필터 탈락"
+    },
+    {
+     "id": "v12-0200",
+     "word": "키",
+     "category": "호격",
+     "style": "가족채팅체",
+     "text": "키야 왔어?",
+     "cause": "1자 길이필터 탈락"
+    }
+   ]
+  },
+  "v12_by_category": {
+   "기본": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 35,
+     "fp": 6,
+     "fn": 5,
+     "precision": 0.8536585365853658,
+     "recall": 0.875,
+     "f1": 0.8641975308641976
+    },
+    "final_prf": {
+     "tp": 31,
+     "fp": 3,
+     "fn": 9,
+     "precision": 0.9117647058823529,
+     "recall": 0.775,
+     "f1": 0.8378378378378379
+    },
+    "exposure": {
+     "full_exposure": 6,
+     "partial_exposure": 1,
+     "fully_masked": 33,
+     "full_exposure_rate": 0.15,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.825,
+     "total_exposure_rate": 0.175
+    },
+    "nonperson_fpr": null
+   },
+   "목적격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 38,
+     "fp": 2,
+     "fn": 2,
+     "precision": 0.95,
+     "recall": 0.95,
+     "f1": 0.9500000000000001
+    },
+    "final_prf": {
+     "tp": 36,
+     "fp": 2,
+     "fn": 4,
+     "precision": 0.9473684210526315,
+     "recall": 0.9,
+     "f1": 0.9230769230769231
+    },
+    "exposure": {
+     "full_exposure": 2,
+     "partial_exposure": 0,
+     "fully_masked": 38,
+     "full_exposure_rate": 0.05,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.95,
+     "total_exposure_rate": 0.05
+    },
+    "nonperson_fpr": null
+   },
+   "비교서술": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 36,
+     "fp": 4,
+     "fn": 4,
+     "precision": 0.9,
+     "recall": 0.9,
+     "f1": 0.9
+    },
+    "final_prf": {
+     "tp": 32,
+     "fp": 4,
+     "fn": 8,
+     "precision": 0.8888888888888888,
+     "recall": 0.8,
+     "f1": 0.8421052631578948
+    },
+    "exposure": {
+     "full_exposure": 4,
+     "partial_exposure": 0,
+     "fully_masked": 36,
+     "full_exposure_rate": 0.1,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.9,
+     "total_exposure_rate": 0.1
+    },
+    "nonperson_fpr": null
+   },
+   "여격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 39,
+     "fp": 3,
+     "fn": 1,
+     "precision": 0.9285714285714286,
+     "recall": 0.975,
+     "f1": 0.951219512195122
+    },
+    "final_prf": {
+     "tp": 35,
+     "fp": 0,
+     "fn": 5,
+     "precision": 1.0,
+     "recall": 0.875,
+     "f1": 0.9333333333333333
+    },
+    "exposure": {
+     "full_exposure": 5,
+     "partial_exposure": 0,
+     "fully_masked": 35,
+     "full_exposure_rate": 0.125,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.875,
+     "total_exposure_rate": 0.125
+    },
+    "nonperson_fpr": null
+   },
+   "호격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 33,
+     "fp": 7,
+     "fn": 7,
+     "precision": 0.825,
+     "recall": 0.825,
+     "f1": 0.825
+    },
+    "final_prf": {
+     "tp": 29,
+     "fp": 4,
+     "fn": 11,
+     "precision": 0.8787878787878788,
+     "recall": 0.725,
+     "f1": 0.7945205479452054
+    },
+    "exposure": {
+     "full_exposure": 7,
+     "partial_exposure": 0,
+     "fully_masked": 33,
+     "full_exposure_rate": 0.175,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.825,
+     "total_exposure_rate": 0.175
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "v12_by_word_type": {
+   "단일형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 95,
+     "fp": 5,
+     "fn": 5,
+     "precision": 0.95,
+     "recall": 0.95,
+     "f1": 0.9500000000000001
+    },
+    "final_prf": {
+     "tp": 77,
+     "fp": 5,
+     "fn": 23,
+     "precision": 0.9390243902439024,
+     "recall": 0.77,
+     "f1": 0.8461538461538461
+    },
+    "exposure": {
+     "full_exposure": 18,
+     "partial_exposure": 0,
+     "fully_masked": 82,
+     "full_exposure_rate": 0.18,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.82,
+     "total_exposure_rate": 0.18
+    },
+    "nonperson_fpr": 0.15
+   },
+   "복합명사형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 86,
+     "fp": 17,
+     "fn": 14,
+     "precision": 0.8349514563106796,
+     "recall": 0.86,
+     "f1": 0.8472906403940887
+    },
+    "final_prf": {
+     "tp": 86,
+     "fp": 8,
+     "fn": 14,
+     "precision": 0.9148936170212766,
+     "recall": 0.86,
+     "f1": 0.8865979381443299
+    },
+    "exposure": {
+     "full_exposure": 6,
+     "partial_exposure": 1,
+     "fully_masked": 93,
+     "full_exposure_rate": 0.06,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.93,
+     "total_exposure_rate": 0.07
+    },
+    "nonperson_fpr": 0.0
+   }
+  },
+  "v12_by_style": {
+   "가족채팅체": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 91,
+     "fp": 10,
+     "fn": 9,
+     "precision": 0.900990099009901,
+     "recall": 0.91,
+     "f1": 0.9054726368159204
+    },
+    "final_prf": {
+     "tp": 82,
+     "fp": 7,
+     "fn": 18,
+     "precision": 0.9213483146067416,
+     "recall": 0.82,
+     "f1": 0.8677248677248677
+    },
+    "exposure": {
+     "full_exposure": 11,
+     "partial_exposure": 0,
+     "fully_masked": 89,
+     "full_exposure_rate": 0.11,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.89,
+     "total_exposure_rate": 0.11
+    },
+    "nonperson_fpr": null
+   },
+   "중의성문맥": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 90,
+     "fp": 12,
+     "fn": 10,
+     "precision": 0.8823529411764706,
+     "recall": 0.9,
+     "f1": 0.8910891089108911
+    },
+    "final_prf": {
+     "tp": 81,
+     "fp": 6,
+     "fn": 19,
+     "precision": 0.9310344827586207,
+     "recall": 0.81,
+     "f1": 0.8663101604278076
+    },
+    "exposure": {
+     "full_exposure": 13,
+     "partial_exposure": 1,
+     "fully_masked": 86,
+     "full_exposure_rate": 0.13,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.86,
+     "total_exposure_rate": 0.14
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "r3_heldout": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 15,
+    "fp": 2,
+    "fn": 1,
+    "precision": 0.8823529411764706,
+    "recall": 0.9375,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "tp": 15,
+    "fp": 4,
+    "fn": 1,
+    "precision": 0.7894736842105263,
+    "recall": 0.9375,
+    "f1": 0.8571428571428572
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 15,
+    "full_exposure_rate": 0.0625,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9375,
+    "total_exposure_rate": 0.0625
+   },
+   "nonperson_fpr": 0.125
+  },
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "final_prf": {
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 7,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r5_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 7,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1": 0.875
+   },
+   "final_prf": {
+    "tp": 7,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1": 0.875
+   },
+   "exposure": {
+    "full_exposure": 0,
+    "partial_exposure": 0,
+    "fully_masked": 8,
+    "full_exposure_rate": 0.0,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 1.0,
+    "total_exposure_rate": 0.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r6_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 3,
+    "precision": 1.0,
+    "recall": 0.625,
+    "f1": 0.7692307692307693
+   },
+   "final_prf": {
+    "tp": 5,
+    "fp": 0,
+    "fn": 3,
+    "precision": 1.0,
+    "recall": 0.625,
+    "f1": 0.7692307692307693
+   },
+   "exposure": {
+    "full_exposure": 3,
+    "partial_exposure": 0,
+    "fully_masked": 5,
+    "full_exposure_rate": 0.375,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.625,
+    "total_exposure_rate": 0.375
+   },
+   "nonperson_fpr": 0.125
+  },
+  "ambiguity_probe_48": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "raw_prf": {
+    "tp": 85,
+    "fp": 3,
+    "fn": 5,
+    "precision": 0.9659090909090909,
+    "recall": 0.9444444444444444,
+    "f1": 0.9550561797752809
+   },
+   "final_prf": {
+    "tp": 84,
+    "fp": 3,
+    "fn": 6,
+    "precision": 0.9655172413793104,
+    "recall": 0.9333333333333333,
+    "f1": 0.9491525423728815
+   },
+   "exposure": {
+    "full_exposure": 3,
+    "partial_exposure": 0,
+    "fully_masked": 87,
+    "full_exposure_rate": 0.0333,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9667,
+    "total_exposure_rate": 0.0333
+   },
+   "nonperson_fpr": 0.0111
+  },
+  "draft56": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "raw_prf": {
+    "tp": 32,
+    "fp": 0,
+    "fn": 3,
+    "precision": 1.0,
+    "recall": 0.9142857142857143,
+    "f1": 0.955223880597015
+   },
+   "final_prf": {
+    "tp": 32,
+    "fp": 0,
+    "fn": 3,
+    "precision": 1.0,
+    "recall": 0.9142857142857143,
+    "f1": 0.955223880597015
+   },
+   "exposure": {
+    "full_exposure": 3,
+    "partial_exposure": 0,
+    "fully_masked": 32,
+    "full_exposure_rate": 0.0857,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9143,
+    "total_exposure_rate": 0.0857
+   },
+   "nonperson_fpr": 0.0
+  },
+  "v8_independent": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "raw_prf": {
+    "tp": 659,
+    "fp": 14,
+    "fn": 31,
+    "precision": 0.9791976225854383,
+    "recall": 0.9550724637681159,
+    "f1": 0.9669845928099781
+   },
+   "final_prf": {
+    "tp": 650,
+    "fp": 12,
+    "fn": 40,
+    "precision": 0.9818731117824774,
+    "recall": 0.9420289855072463,
+    "f1": 0.9615384615384615
+   },
+   "exposure": {
+    "full_exposure": 28,
+    "partial_exposure": 0,
+    "fully_masked": 662,
+    "full_exposure_rate": 0.0406,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9594,
+    "total_exposure_rate": 0.0406
+   },
+   "nonperson_fpr": 0.254
+  },
+  "v9_locked": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "raw_prf": {
+    "tp": 59,
+    "fp": 2,
+    "fn": 1,
+    "precision": 0.9672131147540983,
+    "recall": 0.9833333333333333,
+    "f1": 0.9752066115702478
+   },
+   "final_prf": {
+    "tp": 59,
+    "fp": 1,
+    "fn": 1,
+    "precision": 0.9833333333333333,
+    "recall": 0.9833333333333333,
+    "f1": 0.9833333333333333
+   },
+   "exposure": {
+    "full_exposure": 0,
+    "partial_exposure": 1,
+    "fully_masked": 59,
+    "full_exposure_rate": 0.0,
+    "partial_exposure_rate": 0.0167,
+    "fully_masked_rate": 0.9833,
+    "total_exposure_rate": 0.0167
+   },
+   "nonperson_fpr": 0.025
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "raw_prf": {
+    "tp": 91,
+    "fp": 33,
+    "fn": 21,
+    "precision": 0.7338709677419355,
+    "recall": 0.8125,
+    "f1": 0.7711864406779662
+   },
+   "final_prf": {
+    "tp": 91,
+    "fp": 12,
+    "fn": 21,
+    "precision": 0.883495145631068,
+    "recall": 0.8125,
+    "f1": 0.8465116279069768
+   },
+   "exposure": {
+    "full_exposure": 9,
+    "partial_exposure": 7,
+    "fully_masked": 96,
+    "full_exposure_rate": 0.0804,
+    "partial_exposure_rate": 0.0625,
+    "fully_masked_rate": 0.8571,
+    "total_exposure_rate": 0.1429
+   },
+   "nonperson_fpr": 0.0385
+  },
+  "v11_locked": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 169,
+    "fp": 38,
+    "fn": 31,
+    "precision": 0.8164251207729468,
+    "recall": 0.845,
+    "f1": 0.8304668304668306
+   },
+   "final_prf": {
+    "tp": 169,
+    "fp": 13,
+    "fn": 31,
+    "precision": 0.9285714285714286,
+    "recall": 0.845,
+    "f1": 0.8848167539267017
+   },
+   "exposure": {
+    "full_exposure": 18,
+    "partial_exposure": 8,
+    "fully_masked": 174,
+    "full_exposure_rate": 0.09,
+    "partial_exposure_rate": 0.04,
+    "fully_masked_rate": 0.87,
+    "total_exposure_rate": 0.13
+   },
+   "nonperson_fpr": 0.0833
+  }
+ }
+}

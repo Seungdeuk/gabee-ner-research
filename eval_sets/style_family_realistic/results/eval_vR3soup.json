@@ -1,0 +1,74 @@
+{
+ "mode": "vR3-koelectra-small-klue10msg-soup",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "3836fcd7f55b"
+ },
+ "ner_only": false,
+ "categories": {
+  "메신저": {
+   "spans": 260,
+   "full": 0,
+   "partial": 0,
+   "none": 260,
+   "extra": 0,
+   "sentences": 200,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "낼 3시에 배승지 데리러 갈 사람 있어?",
+     "배승지"
+    ],
+    [
+     "none",
+     "낼 3시에 안민린 데리러 갈 사람 있어?",
+     "안민린"
+    ],
+    [
+     "none",
+     "낼 3시에 이준하 데리러 갈 사람 있어?",
+     "이준하"
+    ],
+    [
+     "none",
+     "낼 3시에 우민래 데리러 갈 사람 있어?",
+     "우민래"
+    ],
+    [
+     "none",
+     "낼 3시에 홍가하 데리러 갈 사람 있어?",
+     "홍가하"
+    ],
+    [
+     "none",
+     "낼 3시에 신한찬 데리러 갈 사람 있어?",
+     "신한찬"
+    ]
+   ]
+  },
+  "비인명": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 22,
+   "flagged": 0,
+   "miss_examples": []
+  }
+ },
+ "person_total": {
+  "spans": 260,
+  "full": 0,
+  "partial": 0,
+  "none": 260,
+  "extra": 0
+ },
+ "latency_100chars": {
+  "median_ms": 8.984,
+  "p95_ms": 13.644,
+  "n": 100
+ }
+}

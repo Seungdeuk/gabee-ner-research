@@ -1,0 +1,96 @@
+{
+ "mode": "vC-koelectra-small-klue10narrowmsg-s42",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "c1c9d563ee05"
+ },
+ "ner_only": false,
+ "categories": {
+  "메신저": {
+   "spans": 260,
+   "full": 237,
+   "partial": 13,
+   "none": 10,
+   "extra": 11,
+   "sentences": 200,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "서명소가 오늘 학원 안 간다고 쌤이 문자왔어",
+     "서명소"
+    ],
+    [
+     "none",
+     "조준이가 오늘 학원 안 간다고 쌤이 문자왔어",
+     "조준이"
+    ],
+    [
+     "none",
+     "엄마가 신가유 간식 사놨대 ㅎㅎ",
+     "신가유"
+    ],
+    [
+     "partial",
+     "곽용이 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분",
+     "곽용이"
+    ],
+    [
+     "partial",
+     "오늘 저녁엔 남근이 좋아하는 거 해줄까",
+     "남근이"
+    ],
+    [
+     "partial",
+     "주말에 오용이 축구 경기 있어서 다같이 응원가자",
+     "오용이"
+    ]
+   ]
+  },
+  "비인명": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 22,
+   "flagged": 3,
+   "miss_examples": [
+    [
+     "과마스킹",
+     "오늘 하늘 완전 예쁘더라 ㅋㅋ",
+     [
+      "하늘"
+     ]
+    ],
+    [
+     "과마스킹",
+     "바다 보러 갈까 주말에",
+     [
+      "바다"
+     ]
+    ],
+    [
+     "과마스킹",
+     "장보고 올게 뭐 필요한거 있어?",
+     [
+      "장보고"
+     ]
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 260,
+  "full": 237,
+  "partial": 13,
+  "none": 10,
+  "extra": 11
+ },
+ "latency_100chars": {
+  "median_ms": 9.984,
+  "p95_ms": 16.188,
+  "n": 100
+ }
+}

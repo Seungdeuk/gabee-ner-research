@@ -1,0 +1,1846 @@
+{
+ "R6+기존병합": {
+  "fingerprint12": "c59b174ba126",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.8415841584158416,
+    "recall": 1.0,
+    "f1": 0.913978494623656
+   },
+   "final_prf": {
+    "precision": 0.8901098901098901,
+    "recall": 0.9529411764705882,
+    "f1": 0.9204545454545454
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 0,
+    "masked": 81,
+    "full_rate": 0.0471,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9529,
+    "total_rate": 0.0471
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.45454545454545453,
+    "recall": 0.2777777777777778,
+    "f1": 0.3448275862068966
+   },
+   "final_prf": {
+    "precision": 0.45454545454545453,
+    "recall": 0.2777777777777778,
+    "f1": 0.3448275862068966
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 4
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 0,
+    "masked": 32,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.9411764705882353,
+    "recall": 0.8888888888888888,
+    "f1": 0.9142857142857143
+   },
+   "final_prf": {
+    "precision": 0.9375,
+    "recall": 0.8333333333333334,
+    "f1": 0.8823529411764706
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 1,
+    "masked": 31,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8611,
+    "total_rate": 0.1389
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8205,
+    "recall": 0.7382,
+    "f1": 0.7722
+   },
+   "exposure": {
+    "full_rate": 0.109,
+    "partial_rate": 0.0209,
+    "masked_rate": 0.8702,
+    "total_rate": 0.1298
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 6,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 10
+ },
+ "R6+B": {
+  "fingerprint12": "c59b174ba126",
+  "mode": "b",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.8415841584158416,
+    "recall": 1.0,
+    "f1": 0.913978494623656
+   },
+   "final_prf": {
+    "precision": 0.8901098901098901,
+    "recall": 0.9529411764705882,
+    "f1": 0.9204545454545454
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 0,
+    "masked": 81,
+    "full_rate": 0.0471,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9529,
+    "total_rate": 0.0471
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.45454545454545453,
+    "recall": 0.2777777777777778,
+    "f1": 0.3448275862068966
+   },
+   "final_prf": {
+    "precision": 0.45454545454545453,
+    "recall": 0.2777777777777778,
+    "f1": 0.3448275862068966
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 4
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 0,
+    "masked": 32,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.9411764705882353,
+    "recall": 0.8888888888888888,
+    "f1": 0.9142857142857143
+   },
+   "final_prf": {
+    "precision": 0.9375,
+    "recall": 0.8333333333333334,
+    "f1": 0.8823529411764706
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 1,
+    "masked": 31,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8611,
+    "total_rate": 0.1389
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8205,
+    "recall": 0.7382,
+    "f1": 0.7722
+   },
+   "exposure": {
+    "full_rate": 0.109,
+    "partial_rate": 0.0209,
+    "masked_rate": 0.8702,
+    "total_rate": 0.1298
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 6,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 10
+ },
+ "R7+기존병합(참고)": {
+  "fingerprint12": "098cb439c7e4",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.7476635514018691,
+    "recall": 0.9411764705882353,
+    "f1": 0.8333333333333334
+   },
+   "final_prf": {
+    "precision": 0.8247422680412371,
+    "recall": 0.9411764705882353,
+    "f1": 0.879120879120879
+   },
+   "exposure": {
+    "full": 5,
+    "partial": 0,
+    "masked": 80,
+    "full_rate": 0.0588,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9412,
+    "total_rate": 0.0588
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.5833333333333334,
+    "recall": 0.3888888888888889,
+    "f1": 0.4666666666666666
+   },
+   "final_prf": {
+    "precision": 0.5833333333333334,
+    "recall": 0.3888888888888889,
+    "f1": 0.4666666666666666
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 3
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8611111111111112,
+    "f1": 0.9253731343283582
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8611111111111112,
+    "f1": 0.9253731343283582
+   },
+   "exposure": {
+    "full": 5,
+    "partial": 0,
+    "masked": 31,
+    "full_rate": 0.1389,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8611,
+    "total_rate": 0.1389
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.5576923076923077,
+    "recall": 0.8055555555555556,
+    "f1": 0.6590909090909091
+   },
+   "final_prf": {
+    "precision": 0.6904761904761905,
+    "recall": 0.8055555555555556,
+    "f1": 0.7435897435897436
+   },
+   "exposure": {
+    "full": 6,
+    "partial": 0,
+    "masked": 30,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.7746,
+    "recall": 0.7492,
+    "f1": 0.7537
+   },
+   "exposure": {
+    "full_rate": 0.1328,
+    "partial_rate": 0.0139,
+    "masked_rate": 0.8534,
+    "total_rate": 0.1467
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 6,
+   "cases": [
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "alias_alias_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 9
+ },
+ "R7+B(참고)": {
+  "fingerprint12": "098cb439c7e4",
+  "mode": "b",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "exposure": {
+    "full": 0,
+    "partial": 0,
+    "masked": 85,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "masked_rate": 1.0,
+    "total_rate": 0.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.5833333333333334,
+    "recall": 0.3888888888888889,
+    "f1": 0.4666666666666666
+   },
+   "final_prf": {
+    "precision": 0.5833333333333334,
+    "recall": 0.3888888888888889,
+    "f1": 0.4666666666666666
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 3
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8611111111111112,
+    "f1": 0.9253731343283582
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8611111111111112,
+    "f1": 0.9253731343283582
+   },
+   "exposure": {
+    "full": 5,
+    "partial": 0,
+    "masked": 31,
+    "full_rate": 0.1389,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8611,
+    "total_rate": 0.1389
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6875,
+    "recall": 0.9166666666666666,
+    "f1": 0.7857142857142857
+   },
+   "final_prf": {
+    "precision": 0.717391304347826,
+    "recall": 0.9166666666666666,
+    "f1": 0.8048780487804877
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 0,
+    "masked": 34,
+    "full_rate": 0.0556,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9444,
+    "total_rate": 0.0556
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.7835,
+    "recall": 0.7917,
+    "f1": 0.7765
+   },
+   "exposure": {
+    "full_rate": 0.0903,
+    "partial_rate": 0.0139,
+    "masked_rate": 0.8958,
+    "total_rate": 0.1042
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 7,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "alias_alias_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 10
+ },
+ "P+Amb-s7+기존병합": {
+  "fingerprint12": "d38ba679c06d",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 0.8947368421052632,
+    "recall": 1.0,
+    "f1": 0.9444444444444444
+   },
+   "exposure": {
+    "full": 0,
+    "partial": 0,
+    "masked": 85,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "masked_rate": 1.0,
+    "total_rate": 0.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.45454545454545453,
+    "recall": 0.2777777777777778,
+    "f1": 0.3448275862068966
+   },
+   "final_prf": {
+    "precision": 0.45454545454545453,
+    "recall": 0.2777777777777778,
+    "f1": 0.3448275862068966
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 4
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.9722222222222222,
+    "f1": 0.9859154929577464
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.9722222222222222,
+    "f1": 0.9859154929577464
+   },
+   "exposure": {
+    "full": 1,
+    "partial": 0,
+    "masked": 35,
+    "full_rate": 0.0278,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9722,
+    "total_rate": 0.0278
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6122448979591837,
+    "recall": 0.8333333333333334,
+    "f1": 0.7058823529411765
+   },
+   "final_prf": {
+    "precision": 0.9375,
+    "recall": 0.8333333333333334,
+    "f1": 0.8823529411764706
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 1,
+    "masked": 31,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8611,
+    "total_rate": 0.1389
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8217,
+    "recall": 0.7708,
+    "f1": 0.7894
+   },
+   "exposure": {
+    "full_rate": 0.0764,
+    "partial_rate": 0.0209,
+    "masked_rate": 0.9028,
+    "total_rate": 0.0972
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 3,
+   "cases": [
+    "concat_nospace2",
+    "concat_nospace_end",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 7
+ },
+ "P+Amb-s7+B": {
+  "fingerprint12": "d38ba679c06d",
+  "mode": "b",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 0.8947368421052632,
+    "recall": 1.0,
+    "f1": 0.9444444444444444
+   },
+   "exposure": {
+    "full": 0,
+    "partial": 0,
+    "masked": 85,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "masked_rate": 1.0,
+    "total_rate": 0.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.3,
+    "recall": 0.16666666666666666,
+    "f1": 0.21428571428571427
+   },
+   "final_prf": {
+    "precision": 0.3,
+    "recall": 0.16666666666666666,
+    "f1": 0.21428571428571427
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 5
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.9722222222222222,
+    "f1": 0.9859154929577464
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.9722222222222222,
+    "f1": 0.9859154929577464
+   },
+   "exposure": {
+    "full": 1,
+    "partial": 0,
+    "masked": 35,
+    "full_rate": 0.0278,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9722,
+    "total_rate": 0.0278
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.717391304347826,
+    "recall": 0.9166666666666666,
+    "f1": 0.8048780487804877
+   },
+   "final_prf": {
+    "precision": 0.96875,
+    "recall": 0.8611111111111112,
+    "f1": 0.911764705882353
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 0,
+    "masked": 32,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.7909,
+    "recall": 0.75,
+    "f1": 0.7641
+   },
+   "exposure": {
+    "full_rate": 0.0764,
+    "partial_rate": 0.0139,
+    "masked_rate": 0.9097,
+    "total_rate": 0.0903
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 6,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 11
+ },
+ "P+Amb-s13+기존병합": {
+  "fingerprint12": "91ee359461a5",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "exposure": {
+    "full": 0,
+    "partial": 0,
+    "masked": 85,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "masked_rate": 1.0,
+    "total_rate": 0.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.36363636363636365,
+    "recall": 0.2222222222222222,
+    "f1": 0.27586206896551724
+   },
+   "final_prf": {
+    "precision": 0.36363636363636365,
+    "recall": 0.2222222222222222,
+    "f1": 0.27586206896551724
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 4
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+   },
+   "exposure": {
+    "full": 6,
+    "partial": 0,
+    "masked": 30,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6875,
+    "recall": 0.9166666666666666,
+    "f1": 0.7857142857142857
+   },
+   "final_prf": {
+    "precision": 0.6590909090909091,
+    "recall": 0.8055555555555556,
+    "f1": 0.7250000000000001
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 2,
+    "masked": 30,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.714,
+    "recall": 0.7153,
+    "f1": 0.7048
+   },
+   "exposure": {
+    "full_rate": 0.1111,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8611,
+    "total_rate": 0.1389
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 4,
+   "cases": [
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_alias_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 8
+ },
+ "P+Amb-s13+B": {
+  "fingerprint12": "91ee359461a5",
+  "mode": "b",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "exposure": {
+    "full": 0,
+    "partial": 0,
+    "masked": 85,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "masked_rate": 1.0,
+    "total_rate": 0.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.36363636363636365,
+    "recall": 0.2222222222222222,
+    "f1": 0.27586206896551724
+   },
+   "final_prf": {
+    "precision": 0.36363636363636365,
+    "recall": 0.2222222222222222,
+    "f1": 0.27586206896551724
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 4
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+   },
+   "exposure": {
+    "full": 6,
+    "partial": 0,
+    "masked": 30,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6875,
+    "recall": 0.9166666666666666,
+    "f1": 0.7857142857142857
+   },
+   "final_prf": {
+    "precision": 0.6590909090909091,
+    "recall": 0.8055555555555556,
+    "f1": 0.7250000000000001
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 2,
+    "masked": 30,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.714,
+    "recall": 0.7153,
+    "f1": 0.7048
+   },
+   "exposure": {
+    "full_rate": 0.1111,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8611,
+    "total_rate": 0.1389
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 6,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "nick_concat",
+    "alias_alias_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 10
+ },
+ "P+Amb-s21+기존병합": {
+  "fingerprint12": "b01dce5ebab0",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.7155963302752294,
+    "recall": 0.9176470588235294,
+    "f1": 0.8041237113402062
+   },
+   "final_prf": {
+    "precision": 0.8210526315789474,
+    "recall": 0.9176470588235294,
+    "f1": 0.8666666666666667
+   },
+   "exposure": {
+    "full": 7,
+    "partial": 0,
+    "masked": 78,
+    "full_rate": 0.0824,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9176,
+    "total_rate": 0.0824
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.5833333333333334,
+    "recall": 0.3888888888888889,
+    "f1": 0.4666666666666666
+   },
+   "final_prf": {
+    "precision": 0.5833333333333334,
+    "recall": 0.3888888888888889,
+    "f1": 0.4666666666666666
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 3
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 0.9714285714285714,
+    "recall": 0.9444444444444444,
+    "f1": 0.9577464788732395
+   },
+   "final_prf": {
+    "precision": 0.9714285714285714,
+    "recall": 0.9444444444444444,
+    "f1": 0.9577464788732395
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 0,
+    "masked": 34,
+    "full_rate": 0.0556,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9444,
+    "total_rate": 0.0556
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.625,
+    "recall": 0.8333333333333334,
+    "f1": 0.7142857142857143
+   },
+   "final_prf": {
+    "precision": 0.6521739130434783,
+    "recall": 0.8333333333333334,
+    "f1": 0.7317073170731708
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 3,
+    "masked": 31,
+    "full_rate": 0.0556,
+    "partial_rate": 0.0833,
+    "masked_rate": 0.8611,
+    "total_rate": 0.1389
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.757,
+    "recall": 0.7711,
+    "f1": 0.7557
+   },
+   "exposure": {
+    "full_rate": 0.0901,
+    "partial_rate": 0.0347,
+    "masked_rate": 0.8752,
+    "total_rate": 0.1248
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 3,
+   "cases": [
+    "alias_concat",
+    "nick_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 6
+ },
+ "P+Amb-s21+B": {
+  "fingerprint12": "b01dce5ebab0",
+  "mode": "b",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1": 0.9090909090909091
+   },
+   "exposure": {
+    "full": 0,
+    "partial": 0,
+    "masked": 85,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "masked_rate": 1.0,
+    "total_rate": 0.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.5833333333333334,
+    "recall": 0.3888888888888889,
+    "f1": 0.4666666666666666
+   },
+   "final_prf": {
+    "precision": 0.5833333333333334,
+    "recall": 0.3888888888888889,
+    "f1": 0.4666666666666666
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 14,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 3
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 0.9714285714285714,
+    "recall": 0.9444444444444444,
+    "f1": 0.9577464788732395
+   },
+   "final_prf": {
+    "precision": 0.9714285714285714,
+    "recall": 0.9444444444444444,
+    "f1": 0.9577464788732395
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 0,
+    "masked": 34,
+    "full_rate": 0.0556,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9444,
+    "total_rate": 0.0556
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6595744680851063,
+    "recall": 0.8611111111111112,
+    "f1": 0.7469879518072289
+   },
+   "final_prf": {
+    "precision": 0.6595744680851063,
+    "recall": 0.8611111111111112,
+    "f1": 0.7469879518072289
+   },
+   "exposure": {
+    "full": 1,
+    "partial": 3,
+    "masked": 32,
+    "full_rate": 0.0278,
+    "partial_rate": 0.0833,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.7619,
+    "recall": 0.7986,
+    "f1": 0.7701
+   },
+   "exposure": {
+    "full_rate": 0.0625,
+    "partial_rate": 0.0347,
+    "masked_rate": 0.9028,
+    "total_rate": 0.0972
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 7,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "alias_alias_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 10
+ },
+ "P+Amb-s42+기존병합": {
+  "fingerprint12": "32b849f80307",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.7692307692307693,
+    "recall": 0.9411764705882353,
+    "f1": 0.8465608465608465
+   },
+   "final_prf": {
+    "precision": 0.7790697674418605,
+    "recall": 0.788235294117647,
+    "f1": 0.7836257309941521
+   },
+   "exposure": {
+    "full": 16,
+    "partial": 0,
+    "masked": 69,
+    "full_rate": 0.1882,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8118,
+    "total_rate": 0.1882
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.4666666666666667,
+    "recall": 0.3888888888888889,
+    "f1": 0.42424242424242425
+   },
+   "final_prf": {
+    "precision": 0.5454545454545454,
+    "recall": 0.3333333333333333,
+    "f1": 0.41379310344827586
+   },
+   "exposure": {
+    "full": 5,
+    "partial": 0,
+    "masked": 13,
+    "full_rate": 0.2778,
+    "partial_rate": 0.0,
+    "masked_rate": 0.7222,
+    "total_rate": 0.2778
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 3
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1": 0.9565217391304348
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 0,
+    "masked": 32,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.0417
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.509090909090909,
+    "recall": 0.7777777777777778,
+    "f1": 0.6153846153846153
+   },
+   "final_prf": {
+    "precision": 0.8888888888888888,
+    "recall": 0.6666666666666666,
+    "f1": 0.761904761904762
+   },
+   "exposure": {
+    "full": 11,
+    "partial": 0,
+    "masked": 25,
+    "full_rate": 0.3056,
+    "partial_rate": 0.0,
+    "masked_rate": 0.6944,
+    "total_rate": 0.3056
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8034,
+    "recall": 0.6693,
+    "f1": 0.7251
+   },
+   "exposure": {
+    "full_rate": 0.2207,
+    "partial_rate": 0.0,
+    "masked_rate": 0.7793,
+    "total_rate": 0.2207
+   },
+   "nonperson_fpr_macro": 0.0139
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 7,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "alias_alias_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 10
+ },
+ "P+Amb-s42+B": {
+  "fingerprint12": "32b849f80307",
+  "mode": "b",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.803921568627451,
+    "recall": 0.9647058823529412,
+    "f1": 0.877005347593583
+   },
+   "final_prf": {
+    "precision": 0.7790697674418605,
+    "recall": 0.788235294117647,
+    "f1": 0.7836257309941521
+   },
+   "exposure": {
+    "full": 16,
+    "partial": 0,
+    "masked": 69,
+    "full_rate": 0.1882,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8118,
+    "total_rate": 0.1882
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.2727272727272727,
+    "recall": 0.16666666666666666,
+    "f1": 0.20689655172413793
+   },
+   "final_prf": {
+    "precision": 0.2727272727272727,
+    "recall": 0.16666666666666666,
+    "f1": 0.20689655172413793
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 1,
+    "masked": 15,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 5
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1": 0.9565217391304348
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 0,
+    "masked": 32,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.0417
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.7083333333333334,
+    "recall": 0.9444444444444444,
+    "f1": 0.8095238095238096
+   },
+   "final_prf": {
+    "precision": 0.8928571428571429,
+    "recall": 0.6944444444444444,
+    "f1": 0.78125
+   },
+   "exposure": {
+    "full": 10,
+    "partial": 0,
+    "masked": 26,
+    "full_rate": 0.2778,
+    "partial_rate": 0.0,
+    "masked_rate": 0.7222,
+    "total_rate": 0.2778
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.7362,
+    "recall": 0.6346,
+    "f1": 0.6782
+   },
+   "exposure": {
+    "full_rate": 0.1721,
+    "partial_rate": 0.0139,
+    "masked_rate": 0.814,
+    "total_rate": 0.186
+   },
+   "nonperson_fpr_macro": 0.0139
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 7,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "alias_alias_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 12
+ },
+ "P+Amb-s99+기존병합": {
+  "fingerprint12": "f7b508aaf7eb",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.865979381443299,
+    "recall": 0.9882352941176471,
+    "f1": 0.9230769230769231
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.9647058823529412,
+    "f1": 0.9820359281437125
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 0,
+    "masked": 82,
+    "full_rate": 0.0353,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9647,
+    "total_rate": 0.0353
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.2727272727272727,
+    "recall": 0.16666666666666666,
+    "f1": 0.20689655172413793
+   },
+   "final_prf": {
+    "precision": 0.2727272727272727,
+    "recall": 0.16666666666666666,
+    "f1": 0.20689655172413793
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 2,
+    "masked": 14,
+    "full_rate": 0.1111,
+    "partial_rate": 0.1111,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 4
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+   },
+   "exposure": {
+    "full": 6,
+    "partial": 0,
+    "masked": 30,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.7083333333333334,
+    "recall": 0.9444444444444444,
+    "f1": 0.8095238095238096
+   },
+   "final_prf": {
+    "precision": 0.9411764705882353,
+    "recall": 0.8888888888888888,
+    "f1": 0.9142857142857143
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 1,
+    "masked": 33,
+    "full_rate": 0.0556,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.9167,
+    "total_rate": 0.0833
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8035,
+    "recall": 0.7134,
+    "f1": 0.7531
+   },
+   "exposure": {
+    "full_rate": 0.0922,
+    "partial_rate": 0.0347,
+    "masked_rate": 0.8731,
+    "total_rate": 0.1269
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 6,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 10
+ },
+ "P+Amb-s99+B": {
+  "fingerprint12": "f7b508aaf7eb",
+  "mode": "b",
+  "실사용": {
+   "n_pos": 85,
+   "n_neg": 5,
+   "raw_prf": {
+    "precision": 0.8854166666666666,
+    "recall": 1.0,
+    "f1": 0.9392265193370166
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.9764705882352941,
+    "f1": 0.988095238095238
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 0,
+    "masked": 83,
+    "full_rate": 0.0235,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9765,
+    "total_rate": 0.0235
+   },
+   "nonperson_fpr": 0.0
+  },
+  "무공백인접": {
+   "n_pos": 18,
+   "n_neg": 0,
+   "raw_prf": {
+    "precision": 0.2727272727272727,
+    "recall": 0.16666666666666666,
+    "f1": 0.20689655172413793
+   },
+   "final_prf": {
+    "precision": 0.2727272727272727,
+    "recall": 0.16666666666666666,
+    "f1": 0.20689655172413793
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 2,
+    "masked": 14,
+    "full_rate": 0.1111,
+    "partial_rate": 0.1111,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": null,
+   "overmerge_count": 4
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1": 0.9090909090909091
+   },
+   "exposure": {
+    "full": 6,
+    "partial": 0,
+    "masked": 30,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.7083333333333334,
+    "recall": 0.9444444444444444,
+    "f1": 0.8095238095238096
+   },
+   "final_prf": {
+    "precision": 0.9411764705882353,
+    "recall": 0.8888888888888888,
+    "f1": 0.9142857142857143
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 1,
+    "masked": 33,
+    "full_rate": 0.0556,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.9167,
+    "total_rate": 0.0833
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8035,
+    "recall": 0.7163,
+    "f1": 0.7546
+   },
+   "exposure": {
+    "full_rate": 0.0892,
+    "partial_rate": 0.0347,
+    "masked_rate": 0.8761,
+    "total_rate": 0.1239
+   },
+   "nonperson_fpr_macro": 0.0
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "adjacent_stress_overmerge": {
+   "count": 6,
+   "cases": [
+    "concat_nospace",
+    "concat_nospace2",
+    "concat_nospace_end",
+    "alias_concat",
+    "nick_concat",
+    "three_people_nospace"
+   ]
+  },
+  "total_overmerge": 10
+ }
+}

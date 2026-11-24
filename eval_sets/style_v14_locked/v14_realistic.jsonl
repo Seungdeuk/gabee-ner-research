@@ -1,0 +1,111 @@
+{"id": "v14-r-0001", "category": "기본", "style": "실사용", "text": "도하가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0002", "category": "기본", "style": "실사용", "text": "선호가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0003", "category": "기본", "style": "실사용", "text": "태오가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0004", "category": "기본", "style": "실사용", "text": "현서가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0005", "category": "기본", "style": "실사용", "text": "은찬이 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0006", "category": "기본", "style": "실사용", "text": "시후가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0007", "category": "기본", "style": "실사용", "text": "민재가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0008", "category": "기본", "style": "실사용", "text": "준혁이 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0009", "category": "기본", "style": "실사용", "text": "동혁이 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0010", "category": "기본", "style": "실사용", "text": "성훈이 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0011", "category": "기본", "style": "실사용", "text": "상철이 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0012", "category": "기본", "style": "실사용", "text": "경훈이 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0013", "category": "기본", "style": "실사용", "text": "재민이 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0014", "category": "기본", "style": "실사용", "text": "승우가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0015", "category": "기본", "style": "실사용", "text": "쭈쭈가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0016", "category": "기본", "style": "실사용", "text": "순돌이가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 3}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0017", "category": "기본", "style": "실사용", "text": "까미가 요즘 많이 피곤해 보여", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "v14-r-0018", "category": "목적격", "style": "실사용", "text": "삼촌이 도하를 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0019", "category": "목적격", "style": "실사용", "text": "삼촌이 선호를 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0020", "category": "목적격", "style": "실사용", "text": "삼촌이 태오를 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0021", "category": "목적격", "style": "실사용", "text": "삼촌이 현서를 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0022", "category": "목적격", "style": "실사용", "text": "삼촌이 은찬을 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0023", "category": "목적격", "style": "실사용", "text": "삼촌이 시후를 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0024", "category": "목적격", "style": "실사용", "text": "삼촌이 민재를 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0025", "category": "목적격", "style": "실사용", "text": "삼촌이 준혁을 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0026", "category": "목적격", "style": "실사용", "text": "삼촌이 동혁을 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0027", "category": "목적격", "style": "실사용", "text": "삼촌이 성훈을 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0028", "category": "목적격", "style": "실사용", "text": "삼촌이 상철을 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0029", "category": "목적격", "style": "실사용", "text": "삼촌이 경훈을 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0030", "category": "목적격", "style": "실사용", "text": "삼촌이 재민을 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0031", "category": "목적격", "style": "실사용", "text": "삼촌이 승우를 데리러 온대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0032", "category": "목적격", "style": "실사용", "text": "삼촌이 쭈쭈를 데리러 온대", "spans": [{"kind": "PERSON_ALIAS", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0033", "category": "목적격", "style": "실사용", "text": "삼촌이 순돌이를 데리러 온대", "spans": [{"kind": "PERSON_ALIAS", "start": 4, "end": 7}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0034", "category": "목적격", "style": "실사용", "text": "삼촌이 까미를 데리러 온대", "spans": [{"kind": "PERSON_ALIAS", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "v14-r-0035", "category": "비교서술", "style": "실사용", "text": "도하가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0036", "category": "비교서술", "style": "실사용", "text": "선호가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0037", "category": "비교서술", "style": "실사용", "text": "태오가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0038", "category": "비교서술", "style": "실사용", "text": "현서가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0039", "category": "비교서술", "style": "실사용", "text": "은찬이 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0040", "category": "비교서술", "style": "실사용", "text": "시후가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0041", "category": "비교서술", "style": "실사용", "text": "민재가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0042", "category": "비교서술", "style": "실사용", "text": "준혁이 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0043", "category": "비교서술", "style": "실사용", "text": "동혁이 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0044", "category": "비교서술", "style": "실사용", "text": "성훈이 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0045", "category": "비교서술", "style": "실사용", "text": "상철이 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0046", "category": "비교서술", "style": "실사용", "text": "경훈이 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0047", "category": "비교서술", "style": "실사용", "text": "재민이 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0048", "category": "비교서술", "style": "실사용", "text": "승우가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0049", "category": "비교서술", "style": "실사용", "text": "쭈쭈가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0050", "category": "비교서술", "style": "실사용", "text": "순돌이가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 3}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0051", "category": "비교서술", "style": "실사용", "text": "까미가 가족 중에 제일 다정해", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "v14-r-0052", "category": "여격", "style": "실사용", "text": "도하한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0053", "category": "여격", "style": "실사용", "text": "선호한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0054", "category": "여격", "style": "실사용", "text": "태오한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0055", "category": "여격", "style": "실사용", "text": "현서한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0056", "category": "여격", "style": "실사용", "text": "은찬한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0057", "category": "여격", "style": "실사용", "text": "시후한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0058", "category": "여격", "style": "실사용", "text": "민재한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0059", "category": "여격", "style": "실사용", "text": "준혁한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0060", "category": "여격", "style": "실사용", "text": "동혁한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0061", "category": "여격", "style": "실사용", "text": "성훈한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0062", "category": "여격", "style": "실사용", "text": "상철한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0063", "category": "여격", "style": "실사용", "text": "경훈한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0064", "category": "여격", "style": "실사용", "text": "재민한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0065", "category": "여격", "style": "실사용", "text": "승우한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0066", "category": "여격", "style": "실사용", "text": "쭈쭈한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0067", "category": "여격", "style": "실사용", "text": "순돌이한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 3}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0068", "category": "여격", "style": "실사용", "text": "까미한테 숙제 끝났는지 물어봤어", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "v14-r-0069", "category": "호격", "style": "실사용", "text": "도하야! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0070", "category": "호격", "style": "실사용", "text": "선호야! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0071", "category": "호격", "style": "실사용", "text": "태오야! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0072", "category": "호격", "style": "실사용", "text": "현서야! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0073", "category": "호격", "style": "실사용", "text": "은찬아! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0074", "category": "호격", "style": "실사용", "text": "시후야! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0075", "category": "호격", "style": "실사용", "text": "민재야! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0076", "category": "호격", "style": "실사용", "text": "준혁아! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0077", "category": "호격", "style": "실사용", "text": "동혁아! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0078", "category": "호격", "style": "실사용", "text": "성훈아! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0079", "category": "호격", "style": "실사용", "text": "상철아! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0080", "category": "호격", "style": "실사용", "text": "경훈아! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0081", "category": "호격", "style": "실사용", "text": "재민아! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0082", "category": "호격", "style": "실사용", "text": "승우야! 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0083", "category": "호격", "style": "실사용", "text": "쭈쭈야! 밥 먹자", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0084", "category": "호격", "style": "실사용", "text": "순돌이야! 밥 먹자", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 3}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0085", "category": "호격", "style": "실사용", "text": "까미야! 밥 먹자", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "v14-r-0086", "category": "무공백인접", "style": "실사용", "text": "도하선호가 같이 등교했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "v14-r-0087", "category": "무공백인접", "style": "실사용", "text": "태오현서한테 모임 시간 알려줬어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "v14-r-0088", "category": "무공백인접", "style": "실사용", "text": "은찬시후가 같이 등교했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "v14-r-0089", "category": "무공백인접", "style": "실사용", "text": "민재준혁한테 모임 시간 알려줬어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "v14-r-0090", "category": "무공백인접", "style": "실사용", "text": "동혁쭈쭈가 같이 등교했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON_ALIAS", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "v14-r-0091", "category": "무공백인접", "style": "실사용", "text": "성훈순돌이한테 모임 시간 알려줬어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON_ALIAS", "start": 2, "end": 5}], "known_names": [], "template_id": "무공백인접"}
+{"id": "v14-r-0092", "category": "background", "style": "실사용", "text": "결제 때문에 정신없었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0093", "category": "background", "style": "실사용", "text": "배달을 확인했어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0094", "category": "background", "style": "실사용", "text": "운송장이 늦게 왔어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0095", "category": "background", "style": "실사용", "text": "주문서 때문에 정신없었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0096", "category": "background", "style": "실사용", "text": "입금을 확인했어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0097", "category": "background", "style": "실사용", "text": "송금이 늦게 왔어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0098", "category": "background", "style": "실사용", "text": "청구서 때문에 정신없었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0099", "category": "background", "style": "실사용", "text": "고지서을 확인했어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0100", "category": "background", "style": "실사용", "text": "상품권이 늦게 왔어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0101", "category": "background", "style": "실사용", "text": "교환 때문에 정신없었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0102", "category": "background", "style": "실사용", "text": "식당을 확인했어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0103", "category": "background", "style": "실사용", "text": "도서관이 늦게 왔어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0104", "category": "background", "style": "실사용", "text": "세탁소 때문에 정신없었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0105", "category": "background", "style": "실사용", "text": "미용실을 확인했어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0106", "category": "background", "style": "실사용", "text": "우체국이 늦게 왔어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0107", "category": "background", "style": "실사용", "text": "어린이집 때문에 정신없었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0108", "category": "background", "style": "실사용", "text": "유치원을 확인했어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0109", "category": "background", "style": "실사용", "text": "슈퍼이 늦게 왔어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0110", "category": "background", "style": "실사용", "text": "문구점 때문에 정신없었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "v14-r-0111", "category": "background", "style": "실사용", "text": "빵집을 확인했어", "spans": [], "known_names": [], "template_id": "background"}

@@ -1,0 +1,279 @@
+{
+ "mode": "r1pilot-koelectra-small-klue10msg-s99",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "d67d376f381d"
+ },
+ "ner_only": false,
+ "categories": {
+  "가족대화": {
+   "spans": 56,
+   "full": 54,
+   "partial": 1,
+   "none": 1,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "차혜이 지금 숙제하고 있대",
+     "차혜이"
+    ],
+    [
+     "none",
+     "할머니가 이상형 보고 싶다셔",
+     "이상형"
+    ]
+   ]
+  },
+  "배송수령": {
+   "spans": 56,
+   "full": 48,
+   "partial": 5,
+   "none": 3,
+   "extra": 2,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "받으실 분 안연이",
+     "안연이"
+    ],
+    [
+     "none",
+     "수취인 성명: 성소진",
+     "성소진"
+    ],
+    [
+     "none",
+     "수취인 성명: 지대안",
+     "지대안"
+    ],
+    [
+     "partial",
+     "반송 요청자 하원래",
+     "하원래"
+    ],
+    [
+     "partial",
+     "현금 수령인 나용나",
+     "나용나"
+    ],
+    [
+     "partial",
+     "현금 수령인 지진래",
+     "지진래"
+    ]
+   ]
+  },
+  "명단목록": {
+   "spans": 147,
+   "full": 137,
+   "partial": 6,
+   "none": 4,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "출석자: 김재주, 윤명은, 심경소",
+     "윤명은"
+    ],
+    [
+     "none",
+     "출석자: 김재주, 윤명은, 심경소",
+     "심경소"
+    ],
+    [
+     "none",
+     "가) 진원우  나) 조준정  다) 나가지",
+     "나가지"
+    ],
+    [
+     "partial",
+     "가) 손송빈  나) 백한아  다) 진경아",
+     "백한아"
+    ],
+    [
+     "partial",
+     "가) 손송빈  나) 백한아  다) 진경아",
+     "진경아"
+    ],
+    [
+     "none",
+     "오늘 발표자: 백연석, 홍보준",
+     "홍보준"
+    ]
+   ]
+  },
+  "공문안내": {
+   "spans": 56,
+   "full": 53,
+   "partial": 3,
+   "none": 0,
+   "extra": 1,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "구상은 담당 선생님께 확인 바랍니다",
+     "구상은"
+    ],
+    [
+     "partial",
+     "주덕은 담당 선생님께 확인 바랍니다",
+     "주덕은"
+    ],
+    [
+     "partial",
+     "신청인 정병은 직인",
+     "정병은"
+    ]
+   ]
+  },
+  "기사체": {
+   "spans": 56,
+   "full": 54,
+   "partial": 1,
+   "none": 1,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "목격자 오상형(37)씨는 \"놀랐다\"고 전했다",
+     "오상형"
+    ],
+    [
+     "none",
+     "검찰은 성병소를 참고인으로 소환했다",
+     "성병소"
+    ]
+   ]
+  },
+  "호칭조사": {
+   "spans": 56,
+   "full": 56,
+   "partial": 0,
+   "none": 0,
+   "extra": 1,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": []
+  },
+  "이름만": {
+   "spans": 56,
+   "full": 55,
+   "partial": 0,
+   "none": 1,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "연인네 옆집이야",
+     "연인"
+    ]
+   ]
+  },
+  "비인명": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 40,
+   "flagged": 4,
+   "miss_examples": [
+    [
+     "과마스킹",
+     "하늘이 흐려서 우산을 챙겼어",
+     [
+      "하늘"
+     ]
+    ],
+    [
+     "과마스킹",
+     "노을이 예뻐서 한참 봤어",
+     [
+      "노을"
+     ]
+    ],
+    [
+     "과마스킹",
+     "달빛이 밝아서 산책했어",
+     [
+      "달빛"
+     ]
+    ],
+    [
+     "과마스킹",
+     "미래를 위해 저축을 늘렸어",
+     [
+      "미래"
+     ]
+    ]
+   ]
+  },
+  "주소": {
+   "spans": 56,
+   "full": 50,
+   "partial": 6,
+   "none": 0,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "자택 주소는 신촌역 2번 출구 옆 오피스텔 1501호 입니다",
+     "신촌역 2번 출구 옆 오피스텔 1501호"
+    ],
+    [
+     "partial",
+     "배송 주소: 신촌역 2번 출구 옆 오피스텔 1501호",
+     "신촌역 2번 출구 옆 오피스텔 1501호"
+    ],
+    [
+     "partial",
+     "서울 영등포구 여의대로 108 IFC몰 3층쪽으로 와주세요",
+     "서울 영등포구 여의대로 108 IFC몰 3층"
+    ],
+    [
+     "partial",
+     "신촌역 2번 출구 옆 오피스텔 1501호쪽으로 와주세요",
+     "신촌역 2번 출구 옆 오피스텔 1501호"
+    ],
+    [
+     "partial",
+     "울산 중구 성남로 200 다온빌딩 6층쪽으로 와주세요",
+     "울산 중구 성남로 200 다온빌딩 6층"
+    ],
+    [
+     "partial",
+     "사업장 위치는 신촌역 2번 출구 옆 오피스텔 1501호 입니다",
+     "신촌역 2번 출구 옆 오피스텔 1501호"
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 483,
+  "full": 457,
+  "partial": 16,
+  "none": 10,
+  "extra": 4
+ },
+ "latency_100chars": {
+  "median_ms": 9.707,
+  "p95_ms": 12.75,
+  "n": 100
+ }
+}

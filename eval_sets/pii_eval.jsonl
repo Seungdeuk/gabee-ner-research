@@ -1,0 +1,362 @@
+{"id": "pii-0001", "text": "내 번호는 011-132-6810 이야 저장해둬", "spans": [{"kind": "PHONE", "start": 6, "end": 18}], "known_names": []}
+{"id": "pii-0002", "text": "내 번호는 01095553947 이야 저장해둬", "spans": [{"kind": "PHONE", "start": 6, "end": 17}], "known_names": []}
+{"id": "pii-0003", "text": "엄마 폰 010-5035-7937 로 전화해봐", "spans": [{"kind": "PHONE", "start": 5, "end": 18}], "known_names": []}
+{"id": "pii-0004", "text": "엄마 폰 010 6643 8665 로 전화해봐", "spans": [{"kind": "PHONE", "start": 5, "end": 18}], "known_names": []}
+{"id": "pii-0005", "text": "택배 기사님 연락처 016-155-6549 래", "spans": [{"kind": "PHONE", "start": 11, "end": 23}], "known_names": []}
+{"id": "pii-0006", "text": "택배 기사님 연락처 +82-10-5753-0283 래", "spans": [{"kind": "PHONE", "start": 11, "end": 27}], "known_names": []}
+{"id": "pii-0007", "text": "연락 주세요 011-237-0661", "spans": [{"kind": "PHONE", "start": 7, "end": 19}], "known_names": []}
+{"id": "pii-0008", "text": "연락 주세요 011-480-3172", "spans": [{"kind": "PHONE", "start": 7, "end": 19}], "known_names": []}
+{"id": "pii-0009", "text": "학원 번호 032-0449-4471 인데 5시 이후엔 안 받아", "spans": [{"kind": "PHONE", "start": 6, "end": 19}], "known_names": []}
+{"id": "pii-0010", "text": "학원 번호 070-5194-8015 인데 5시 이후엔 안 받아", "spans": [{"kind": "PHONE", "start": 6, "end": 19}], "known_names": []}
+{"id": "pii-0011", "text": "병원 예약하려면 02-748-5762 으로 걸면 돼", "spans": [{"kind": "PHONE", "start": 9, "end": 20}], "known_names": []}
+{"id": "pii-0012", "text": "병원 예약하려면 032 5510 8425 으로 걸면 돼", "spans": [{"kind": "PHONE", "start": 9, "end": 22}], "known_names": []}
+{"id": "pii-0013", "text": "할머니 댁 전화 011-568-7385", "spans": [{"kind": "PHONE", "start": 9, "end": 21}], "known_names": []}
+{"id": "pii-0014", "text": "할머니 댁 전화 +82-10-5294-7136", "spans": [{"kind": "PHONE", "start": 9, "end": 25}], "known_names": []}
+{"id": "pii-0015", "text": "혹시 급하면 01058627497 로 문자 줘", "spans": [{"kind": "PHONE", "start": 7, "end": 18}], "known_names": []}
+{"id": "pii-0016", "text": "혹시 급하면 +821039963324 로 문자 줘", "spans": [{"kind": "PHONE", "start": 7, "end": 20}], "known_names": []}
+{"id": "pii-0017", "text": "아빠 번호 바뀌었어. +82-10-5225-6978", "spans": [{"kind": "PHONE", "start": 12, "end": 28}], "known_names": []}
+{"id": "pii-0018", "text": "아빠 번호 바뀌었어. +82-10-4619-8188", "spans": [{"kind": "PHONE", "start": 12, "end": 28}], "known_names": []}
+{"id": "pii-0019", "text": "+82-10-4177-8226 이 번호 누구 거야?", "spans": [{"kind": "PHONE", "start": 0, "end": 16}], "known_names": []}
+{"id": "pii-0020", "text": "010.5102.7350 이 번호 누구 거야?", "spans": [{"kind": "PHONE", "start": 0, "end": 13}], "known_names": []}
+{"id": "pii-0021", "text": "수리 기사 번호는 +82-10-5942-0809, 오전에만 받는대", "spans": [{"kind": "PHONE", "start": 10, "end": 26}], "known_names": []}
+{"id": "pii-0022", "text": "수리 기사 번호는 +82-10-3930-1599, 오전에만 받는대", "spans": [{"kind": "PHONE", "start": 10, "end": 26}], "known_names": []}
+{"id": "pii-0023", "text": "연락처: 011-721-6657", "spans": [{"kind": "PHONE", "start": 5, "end": 17}], "known_names": []}
+{"id": "pii-0024", "text": "연락처: 016-157-7866", "spans": [{"kind": "PHONE", "start": 5, "end": 17}], "known_names": []}
+{"id": "pii-0025", "text": "내일 +821019203108 로 전화드릴게요", "spans": [{"kind": "PHONE", "start": 3, "end": 16}], "known_names": []}
+{"id": "pii-0026", "text": "내일 010.1509.0296 로 전화드릴게요", "spans": [{"kind": "PHONE", "start": 3, "end": 16}], "known_names": []}
+{"id": "pii-0027", "text": "집 전화 042-9025-8487", "spans": [{"kind": "PHONE", "start": 5, "end": 18}], "known_names": []}
+{"id": "pii-0028", "text": "집 전화 042 8572 3793", "spans": [{"kind": "PHONE", "start": 5, "end": 18}], "known_names": []}
+{"id": "pii-0029", "text": "두 번호 다 알려줄게 010.3415.6954 / 016-284-2005", "spans": [{"kind": "PHONE", "start": 12, "end": 25}, {"kind": "PHONE", "start": 28, "end": 40}], "known_names": []}
+{"id": "pii-0030", "text": "두 번호 다 알려줄게 010.5276.2972 / 016-889-6681", "spans": [{"kind": "PHONE", "start": 12, "end": 25}, {"kind": "PHONE", "start": 28, "end": 40}], "known_names": []}
+{"id": "pii-0031", "text": "전화번호 010-5521-8834 맞지? 끝에 8834", "spans": [{"kind": "PHONE", "start": 5, "end": 18}], "known_names": []}
+{"id": "pii-0032", "text": "+82 10-4410-2297 이 번호로 해외에서 연락 와", "spans": [{"kind": "PHONE", "start": 0, "end": 16}], "known_names": []}
+{"id": "pii-0033", "text": "엄마 폰 01055218834 이거 맞나", "spans": [{"kind": "PHONE", "start": 5, "end": 16}], "known_names": []}
+{"id": "pii-0034", "text": "지점 전화는 02-318-4402 야", "spans": [{"kind": "PHONE", "start": 7, "end": 18}], "known_names": []}
+{"id": "pii-0035", "text": "010.3321.7740 으로 보내줘", "spans": [{"kind": "PHONE", "start": 0, "end": 13}], "known_names": []}
+{"id": "pii-0036", "text": "메일 주소 kim.minsu68@example.net 야", "spans": [{"kind": "EMAIL", "start": 6, "end": 29}], "known_names": []}
+{"id": "pii-0037", "text": "메일 주소 yh_lee31@example.com 야", "spans": [{"kind": "EMAIL", "start": 6, "end": 26}], "known_names": []}
+{"id": "pii-0038", "text": "hello_home@example.net 로 사진 보내줘", "spans": [{"kind": "EMAIL", "start": 0, "end": 22}], "known_names": []}
+{"id": "pii-0039", "text": "family202623@home.example 로 사진 보내줘", "spans": [{"kind": "EMAIL", "start": 0, "end": 25}], "known_names": []}
+{"id": "pii-0040", "text": "이 이메일로 가입했어: kim.minsu44@mail.test", "spans": [{"kind": "EMAIL", "start": 13, "end": 34}], "known_names": []}
+{"id": "pii-0041", "text": "이 이메일로 가입했어: mom196298@example.com", "spans": [{"kind": "EMAIL", "start": 13, "end": 34}], "known_names": []}
+{"id": "pii-0042", "text": "신청서는 jihoo0412@example.org 으로 보내면 된대", "spans": [{"kind": "EMAIL", "start": 5, "end": 26}], "known_names": []}
+{"id": "pii-0043", "text": "신청서는 yh_lee@family.test 으로 보내면 된대", "spans": [{"kind": "EMAIL", "start": 5, "end": 23}], "known_names": []}
+{"id": "pii-0044", "text": "내 구글 계정 papa.park@example.net", "spans": [{"kind": "EMAIL", "start": 8, "end": 29}], "known_names": []}
+{"id": "pii-0045", "text": "내 구글 계정 kim.minsu@example.net", "spans": [{"kind": "EMAIL", "start": 8, "end": 29}], "known_names": []}
+{"id": "pii-0046", "text": "참조에 family2026@family.test 도 넣어줘", "spans": [{"kind": "EMAIL", "start": 4, "end": 26}], "known_names": []}
+{"id": "pii-0047", "text": "참조에 family2026@family.test 도 넣어줘", "spans": [{"kind": "EMAIL", "start": 4, "end": 26}], "known_names": []}
+{"id": "pii-0048", "text": "학교 메일 hello_home46@example.org 확인해봐", "spans": [{"kind": "EMAIL", "start": 6, "end": 30}], "known_names": []}
+{"id": "pii-0049", "text": "학교 메일 sy.choi34@family.test 확인해봐", "spans": [{"kind": "EMAIL", "start": 6, "end": 27}], "known_names": []}
+{"id": "pii-0050", "text": "청구서 papa.park@example.com으로 왔어", "spans": [{"kind": "EMAIL", "start": 4, "end": 25}], "known_names": []}
+{"id": "pii-0051", "text": "청구서 jihoo0412@example.org으로 왔어", "spans": [{"kind": "EMAIL", "start": 4, "end": 25}], "known_names": []}
+{"id": "pii-0052", "text": "답장은 kim.minsu19@example.com.", "spans": [{"kind": "EMAIL", "start": 4, "end": 27}], "known_names": []}
+{"id": "pii-0053", "text": "답장은 sy.choi@home.example.", "spans": [{"kind": "EMAIL", "start": 4, "end": 24}], "known_names": []}
+{"id": "pii-0054", "text": "아빠 이메일: jihoo041286@example.org", "spans": [{"kind": "EMAIL", "start": 8, "end": 31}], "known_names": []}
+{"id": "pii-0055", "text": "아빠 이메일: yh_lee68@family.test", "spans": [{"kind": "EMAIL", "start": 8, "end": 28}], "known_names": []}
+{"id": "pii-0056", "text": "주민번호 141009-3934848 야 적어줘", "spans": [{"kind": "RRN", "start": 5, "end": 19}], "known_names": []}
+{"id": "pii-0057", "text": "주민번호 700723-1661095 야 적어줘", "spans": [{"kind": "RRN", "start": 5, "end": 19}], "known_names": []}
+{"id": "pii-0058", "text": "주민번호 190411 3453462 야 적어줘", "spans": [{"kind": "RRN", "start": 5, "end": 19}], "known_names": []}
+{"id": "pii-0059", "text": "신청서에 651217-2532967 쓰래", "spans": [{"kind": "RRN", "start": 5, "end": 19}], "known_names": []}
+{"id": "pii-0060", "text": "신청서에 230502 4307934 쓰래", "spans": [{"kind": "RRN", "start": 5, "end": 19}], "known_names": []}
+{"id": "pii-0061", "text": "신청서에 400626-2566386 쓰래", "spans": [{"kind": "RRN", "start": 5, "end": 19}], "known_names": []}
+{"id": "pii-0062", "text": "내 주민등록번호 830202 1857895", "spans": [{"kind": "RRN", "start": 9, "end": 23}], "known_names": []}
+{"id": "pii-0063", "text": "내 주민등록번호 010212-4440818", "spans": [{"kind": "RRN", "start": 9, "end": 23}], "known_names": []}
+{"id": "pii-0064", "text": "내 주민등록번호 6305032571620", "spans": [{"kind": "RRN", "start": 9, "end": 22}], "known_names": []}
+{"id": "pii-0065", "text": "보험 가입하려면 130303-3656085 필요해", "spans": [{"kind": "RRN", "start": 9, "end": 23}], "known_names": []}
+{"id": "pii-0066", "text": "보험 가입하려면 610505-1747711 필요해", "spans": [{"kind": "RRN", "start": 9, "end": 23}], "known_names": []}
+{"id": "pii-0067", "text": "보험 가입하려면 6007192150539 필요해", "spans": [{"kind": "RRN", "start": 9, "end": 22}], "known_names": []}
+{"id": "pii-0068", "text": "아이 주민번호는 801109 2392057 입니다", "spans": [{"kind": "RRN", "start": 9, "end": 23}], "known_names": []}
+{"id": "pii-0069", "text": "아이 주민번호는 4605271420512 입니다", "spans": [{"kind": "RRN", "start": 9, "end": 22}], "known_names": []}
+{"id": "pii-0070", "text": "아이 주민번호는 1812133827546 입니다", "spans": [{"kind": "RRN", "start": 9, "end": 22}], "known_names": []}
+{"id": "pii-0071", "text": "131226-4149585 이게 맞아?", "spans": [{"kind": "RRN", "start": 0, "end": 14}], "known_names": []}
+{"id": "pii-0072", "text": "451012-1565832 이게 맞아?", "spans": [{"kind": "RRN", "start": 0, "end": 14}], "known_names": []}
+{"id": "pii-0073", "text": "640523-1384977 이게 맞아?", "spans": [{"kind": "RRN", "start": 0, "end": 14}], "known_names": []}
+{"id": "pii-0074", "text": "외국인등록번호 510203-2976087 확인 부탁", "spans": [{"kind": "RRN", "start": 8, "end": 22}], "known_names": []}
+{"id": "pii-0075", "text": "외국인등록번호 131114-4309937 확인 부탁", "spans": [{"kind": "RRN", "start": 8, "end": 22}], "known_names": []}
+{"id": "pii-0076", "text": "외국인등록번호 710915-1318118 확인 부탁", "spans": [{"kind": "RRN", "start": 8, "end": 22}], "known_names": []}
+{"id": "pii-0077", "text": "주민번호 뒷자리까지 900325 1598636 보내드렸어요", "spans": [{"kind": "RRN", "start": 11, "end": 25}], "known_names": []}
+{"id": "pii-0078", "text": "주민번호 뒷자리까지 070601 4267226 보내드렸어요", "spans": [{"kind": "RRN", "start": 11, "end": 25}], "known_names": []}
+{"id": "pii-0079", "text": "주민번호 뒷자리까지 510526 1615444 보내드렸어요", "spans": [{"kind": "RRN", "start": 11, "end": 25}], "known_names": []}
+{"id": "pii-0080", "text": "생년월일 900101 그리고 주민번호 900101-1234568 였나", "spans": [{"kind": "RRN", "start": 21, "end": 35}], "known_names": []}
+{"id": "pii-0081", "text": "2307153123456 이건 2020년 이후 번호 형식이야", "spans": [{"kind": "RRN", "start": 0, "end": 13}], "known_names": []}
+{"id": "pii-0082", "text": "카드번호 4916-9749-1856-4221 야", "spans": [{"kind": "CARD", "start": 5, "end": 24}], "known_names": []}
+{"id": "pii-0083", "text": "카드번호 3530-6057-3440-5441 야", "spans": [{"kind": "CARD", "start": 5, "end": 24}], "known_names": []}
+{"id": "pii-0084", "text": "결제는 3530-0740-1662-5269 로 해줘", "spans": [{"kind": "CARD", "start": 4, "end": 23}], "known_names": []}
+{"id": "pii-0085", "text": "결제는 5105429223129119 로 해줘", "spans": [{"kind": "CARD", "start": 4, "end": 20}], "known_names": []}
+{"id": "pii-0086", "text": "내 신용카드 4916175569154326 유효기간 08/29", "spans": [{"kind": "CARD", "start": 7, "end": 23}], "known_names": []}
+{"id": "pii-0087", "text": "내 신용카드 4539 9775 9195 6264 유효기간 08/29", "spans": [{"kind": "CARD", "start": 7, "end": 26}], "known_names": []}
+{"id": "pii-0088", "text": "3467-413317-22225 이 카드로 긁었어", "spans": [{"kind": "CARD", "start": 0, "end": 17}], "known_names": []}
+{"id": "pii-0089", "text": "9410075200391362 이 카드로 긁었어", "spans": [{"kind": "CARD", "start": 0, "end": 16}], "known_names": []}
+{"id": "pii-0090", "text": "카드 번호 불러줄게 5412 1538 1064 0282", "spans": [{"kind": "CARD", "start": 11, "end": 30}], "known_names": []}
+{"id": "pii-0091", "text": "카드 번호 불러줄게 3530 0703 2133 5479", "spans": [{"kind": "CARD", "start": 11, "end": 30}], "known_names": []}
+{"id": "pii-0092", "text": "엄마 카드 3747-040713-56641 한도 초과래", "spans": [{"kind": "CARD", "start": 6, "end": 23}], "known_names": []}
+{"id": "pii-0093", "text": "엄마 카드 4539703390826098 한도 초과래", "spans": [{"kind": "CARD", "start": 6, "end": 22}], "known_names": []}
+{"id": "pii-0094", "text": "체크카드 4539 2705 1293 0208 분실했어", "spans": [{"kind": "CARD", "start": 5, "end": 24}], "known_names": []}
+{"id": "pii-0095", "text": "체크카드 3769-069460-71515 분실했어", "spans": [{"kind": "CARD", "start": 5, "end": 22}], "known_names": []}
+{"id": "pii-0096", "text": "법인카드 5105-0974-2995-1683 사용 내역 확인해줘", "spans": [{"kind": "CARD", "start": 5, "end": 24}], "known_names": []}
+{"id": "pii-0097", "text": "법인카드 4916563658999034 사용 내역 확인해줘", "spans": [{"kind": "CARD", "start": 5, "end": 21}], "known_names": []}
+{"id": "pii-0098", "text": "자동결제 카드가 9410 4863 1709 4841 로 등록돼 있어", "spans": [{"kind": "CARD", "start": 9, "end": 28}], "known_names": []}
+{"id": "pii-0099", "text": "자동결제 카드가 3470-057590-47930 로 등록돼 있어", "spans": [{"kind": "CARD", "start": 9, "end": 26}], "known_names": []}
+{"id": "pii-0100", "text": "이 번호로 결제 부탁: 4916486549308993", "spans": [{"kind": "CARD", "start": 13, "end": 29}], "known_names": []}
+{"id": "pii-0101", "text": "이 번호로 결제 부탁: 3485-648864-70265", "spans": [{"kind": "CARD", "start": 13, "end": 30}], "known_names": []}
+{"id": "pii-0102", "text": "카드 뒷자리 4916-8876-3287-4207!", "spans": [{"kind": "CARD", "start": 7, "end": 26}], "known_names": []}
+{"id": "pii-0103", "text": "우체국 595-004-493931 로 입금해줘", "spans": [{"kind": "ACCOUNT", "start": 4, "end": 18}], "known_names": []}
+{"id": "pii-0104", "text": "우체국 131361-26-011534 로 입금해줘", "spans": [{"kind": "ACCOUNT", "start": 4, "end": 20}], "known_names": []}
+{"id": "pii-0105", "text": "수협 78199142936 로 입금해줘", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 14}], "known_names": []}
+{"id": "pii-0106", "text": "계좌번호 620-97-349111 (신한은행)", "spans": [{"kind": "ACCOUNT", "start": 5, "end": 18}], "known_names": []}
+{"id": "pii-0107", "text": "계좌번호 892-265636-21121 (수협)", "spans": [{"kind": "ACCOUNT", "start": 5, "end": 21}], "known_names": []}
+{"id": "pii-0108", "text": "계좌번호 055-510-818107 (토스뱅크)", "spans": [{"kind": "ACCOUNT", "start": 5, "end": 19}], "known_names": []}
+{"id": "pii-0109", "text": "우체국 계좌 560-53-828425 맞지?", "spans": [{"kind": "ACCOUNT", "start": 7, "end": 20}], "known_names": []}
+{"id": "pii-0110", "text": "우체국 계좌 94330867745 맞지?", "spans": [{"kind": "ACCOUNT", "start": 7, "end": 18}], "known_names": []}
+{"id": "pii-0111", "text": "농협 계좌 349-61-833682 맞지?", "spans": [{"kind": "ACCOUNT", "start": 6, "end": 19}], "known_names": []}
+{"id": "pii-0112", "text": "송금은 토스뱅크 294570259646 으로", "spans": [{"kind": "ACCOUNT", "start": 9, "end": 21}], "known_names": []}
+{"id": "pii-0113", "text": "송금은 우리은행 4534-44-1790041 으로", "spans": [{"kind": "ACCOUNT", "start": 9, "end": 24}], "known_names": []}
+{"id": "pii-0114", "text": "송금은 신한은행 147850-48-472797 으로", "spans": [{"kind": "ACCOUNT", "start": 9, "end": 25}], "known_names": []}
+{"id": "pii-0115", "text": "계좌 43580332366 로 용돈 보냈어", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 14}], "known_names": []}
+{"id": "pii-0116", "text": "계좌 827965-30-300401 로 용돈 보냈어", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 19}], "known_names": []}
+{"id": "pii-0117", "text": "계좌 47688596377 로 용돈 보냈어", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 14}], "known_names": []}
+{"id": "pii-0118", "text": "내 계좌는 785894690382 국민은행 야", "spans": [{"kind": "ACCOUNT", "start": 6, "end": 18}], "known_names": []}
+{"id": "pii-0119", "text": "내 계좌는 470-24-954918 토스뱅크 야", "spans": [{"kind": "ACCOUNT", "start": 6, "end": 19}], "known_names": []}
+{"id": "pii-0120", "text": "내 계좌는 101-420941-76944 우체국 야", "spans": [{"kind": "ACCOUNT", "start": 6, "end": 22}], "known_names": []}
+{"id": "pii-0121", "text": "축의금 계좌 농협 417-09-578775 예금주 본인", "spans": [{"kind": "ACCOUNT", "start": 10, "end": 23}], "known_names": []}
+{"id": "pii-0122", "text": "축의금 계좌 카카오뱅크 503-466-382772 예금주 본인", "spans": [{"kind": "ACCOUNT", "start": 13, "end": 27}], "known_names": []}
+{"id": "pii-0123", "text": "축의금 계좌 케이뱅크 334684-39-509772 예금주 본인", "spans": [{"kind": "ACCOUNT", "start": 12, "end": 28}], "known_names": []}
+{"id": "pii-0124", "text": "3333-12-3456789 카카오뱅크로 보내", "spans": [{"kind": "ACCOUNT", "start": 0, "end": 15}], "known_names": []}
+{"id": "pii-0125", "text": "입금 계좌 110-123-456789 신한은행", "spans": [{"kind": "ACCOUNT", "start": 6, "end": 20}], "known_names": []}
+{"id": "pii-0126", "text": "계좌 번호가 1002345678901 이야", "spans": [{"kind": "ACCOUNT", "start": 7, "end": 20}], "known_names": []}
+{"id": "pii-0127", "text": "농협 352-1234-5678-93", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 19}], "known_names": []}
+{"id": "pii-0128", "text": "하나은행 123-456789-01234 로 부탁해", "spans": [{"kind": "ACCOUNT", "start": 5, "end": 21}], "known_names": []}
+{"id": "pii-0129", "text": "와이파이 비밀번호는 35871227 야", "spans": [{"kind": "SECRET", "start": 11, "end": 19}], "known_names": []}
+{"id": "pii-0130", "text": "와이파이 비밀번호는 921550 야", "spans": [{"kind": "SECRET", "start": 11, "end": 17}], "known_names": []}
+{"id": "pii-0131", "text": "비번 9558 로 바꿨어", "spans": [{"kind": "SECRET", "start": 3, "end": 7}], "known_names": []}
+{"id": "pii-0132", "text": "비번 Qwer513# 로 바꿨어", "spans": [{"kind": "SECRET", "start": 3, "end": 11}], "known_names": []}
+{"id": "pii-0133", "text": "인증번호 172247 왔는데 입력해줘", "spans": [{"kind": "SECRET", "start": 5, "end": 11}], "known_names": []}
+{"id": "pii-0134", "text": "인증번호 907893 왔는데 입력해줘", "spans": [{"kind": "SECRET", "start": 5, "end": 11}], "known_names": []}
+{"id": "pii-0135", "text": "OTP 6606 야 빨리", "spans": [{"kind": "SECRET", "start": 4, "end": 8}], "known_names": []}
+{"id": "pii-0136", "text": "OTP 186437 야 빨리", "spans": [{"kind": "SECRET", "start": 4, "end": 10}], "known_names": []}
+{"id": "pii-0137", "text": "공동현관 비밀번호: 98993402", "spans": [{"kind": "SECRET", "start": 11, "end": 19}], "known_names": []}
+{"id": "pii-0138", "text": "공동현관 비밀번호: Qwer558#", "spans": [{"kind": "SECRET", "start": 11, "end": 19}], "known_names": []}
+{"id": "pii-0139", "text": "패스워드는 Qwer891# 입니다", "spans": [{"kind": "SECRET", "start": 6, "end": 14}], "known_names": []}
+{"id": "pii-0140", "text": "패스워드는 gabee3927! 입니다", "spans": [{"kind": "SECRET", "start": 6, "end": 16}], "known_names": []}
+{"id": "pii-0141", "text": "핀번호 gabee3739! 기억해둬", "spans": [{"kind": "SECRET", "start": 4, "end": 14}], "known_names": []}
+{"id": "pii-0142", "text": "핀번호 Qwer174# 기억해둬", "spans": [{"kind": "SECRET", "start": 4, "end": 12}], "known_names": []}
+{"id": "pii-0143", "text": "PIN Qwer317# 입력하면 돼", "spans": [{"kind": "SECRET", "start": 4, "end": 12}], "known_names": []}
+{"id": "pii-0144", "text": "PIN gabee5530! 입력하면 돼", "spans": [{"kind": "SECRET", "start": 4, "end": 14}], "known_names": []}
+{"id": "pii-0145", "text": "인증코드 528117 5분 안에 넣어야 돼", "spans": [{"kind": "SECRET", "start": 5, "end": 11}], "known_names": []}
+{"id": "pii-0146", "text": "인증코드 42810285 5분 안에 넣어야 돼", "spans": [{"kind": "SECRET", "start": 5, "end": 13}], "known_names": []}
+{"id": "pii-0147", "text": "카드 비밀번호 8117 이야", "spans": [{"kind": "SECRET", "start": 8, "end": 12}], "known_names": []}
+{"id": "pii-0148", "text": "카드 비밀번호 gabee5045! 이야", "spans": [{"kind": "SECRET", "start": 8, "end": 18}], "known_names": []}
+{"id": "pii-0149", "text": "보안코드 370948 문자로 왔어", "spans": [{"kind": "SECRET", "start": 5, "end": 11}], "known_names": []}
+{"id": "pii-0150", "text": "보안코드 923973 문자로 왔어", "spans": [{"kind": "SECRET", "start": 5, "end": 11}], "known_names": []}
+{"id": "pii-0151", "text": "password: 1292", "spans": [{"kind": "SECRET", "start": 10, "end": 14}], "known_names": []}
+{"id": "pii-0152", "text": "password: gabee1884!", "spans": [{"kind": "SECRET", "start": 10, "end": 20}], "known_names": []}
+{"id": "pii-0153", "text": "인증 번호 782480 이거 입력", "spans": [{"kind": "SECRET", "start": 6, "end": 12}], "known_names": []}
+{"id": "pii-0154", "text": "pw=Family2026! 로그인해봐", "spans": [{"kind": "SECRET", "start": 3, "end": 14}], "known_names": []}
+{"id": "pii-0155", "text": "비밀번호는 아직 못 정했어", "spans": [], "known_names": []}
+{"id": "pii-0156", "text": "비밀번호 바꿔야 하는데 귀찮다", "spans": [], "known_names": []}
+{"id": "pii-0157", "text": "우리 집 주소는 올림픽로 44 야", "spans": [{"kind": "ADDRESS", "start": 9, "end": 16}], "known_names": []}
+{"id": "pii-0158", "text": "우리 집 주소는 서울특별시 마포구 신사동 184-35 야", "spans": [{"kind": "ADDRESS", "start": 9, "end": 29}], "known_names": []}
+{"id": "pii-0159", "text": "우리 집 주소는 18동338호 야", "spans": [{"kind": "ADDRESS", "start": 9, "end": 16}], "known_names": []}
+{"id": "pii-0160", "text": "세종대로 274 로 택배 보내줘", "spans": [{"kind": "ADDRESS", "start": 0, "end": 8}], "known_names": []}
+{"id": "pii-0161", "text": "망원동 56번지 로 택배 보내줘", "spans": [{"kind": "ADDRESS", "start": 0, "end": 8}], "known_names": []}
+{"id": "pii-0162", "text": "7동1638호 로 택배 보내줘", "spans": [{"kind": "ADDRESS", "start": 0, "end": 7}], "known_names": []}
+{"id": "pii-0163", "text": "약속 장소 대전 유성구 충장로 5 앞", "spans": [{"kind": "ADDRESS", "start": 6, "end": 18}], "known_names": []}
+{"id": "pii-0164", "text": "약속 장소 정자동 149번지 앞", "spans": [{"kind": "ADDRESS", "start": 6, "end": 15}], "known_names": []}
+{"id": "pii-0165", "text": "약속 장소 123동 266호 앞", "spans": [{"kind": "ADDRESS", "start": 6, "end": 15}], "known_names": []}
+{"id": "pii-0166", "text": "이사 간 곳이 중앙로 49 래", "spans": [{"kind": "ADDRESS", "start": 8, "end": 14}], "known_names": []}
+{"id": "pii-0167", "text": "이사 간 곳이 인천시 연수구 범일동 240-14 래", "spans": [{"kind": "ADDRESS", "start": 8, "end": 26}], "known_names": []}
+{"id": "pii-0168", "text": "이사 간 곳이 112동 2037호 래", "spans": [{"kind": "ADDRESS", "start": 8, "end": 18}], "known_names": []}
+{"id": "pii-0169", "text": "학원 위치 한강대로 58", "spans": [{"kind": "ADDRESS", "start": 6, "end": 13}], "known_names": []}
+{"id": "pii-0170", "text": "학원 위치 범일동 22번지", "spans": [{"kind": "ADDRESS", "start": 6, "end": 14}], "known_names": []}
+{"id": "pii-0171", "text": "학원 위치 127동 513호", "spans": [{"kind": "ADDRESS", "start": 6, "end": 15}], "known_names": []}
+{"id": "pii-0172", "text": "내비에 충장로 344-25 찍고 와", "spans": [{"kind": "ADDRESS", "start": 4, "end": 14}], "known_names": []}
+{"id": "pii-0173", "text": "내비에 서울특별시 마포구 망원동 884-19 찍고 와", "spans": [{"kind": "ADDRESS", "start": 4, "end": 24}], "known_names": []}
+{"id": "pii-0174", "text": "내비에 107동 1766호 찍고 와", "spans": [{"kind": "ADDRESS", "start": 4, "end": 14}], "known_names": []}
+{"id": "pii-0175", "text": "할머니 댁 가로수길 98-20", "spans": [{"kind": "ADDRESS", "start": 6, "end": 16}], "known_names": []}
+{"id": "pii-0176", "text": "할머니 댁 삼성동 289-12", "spans": [{"kind": "ADDRESS", "start": 6, "end": 16}], "known_names": []}
+{"id": "pii-0177", "text": "할머니 댁 118동 384호", "spans": [{"kind": "ADDRESS", "start": 6, "end": 15}], "known_names": []}
+{"id": "pii-0178", "text": "배송지 변경: 가로수길 144", "spans": [{"kind": "ADDRESS", "start": 8, "end": 16}], "known_names": []}
+{"id": "pii-0179", "text": "배송지 변경: 연남동 287-39", "spans": [{"kind": "ADDRESS", "start": 8, "end": 18}], "known_names": []}
+{"id": "pii-0180", "text": "배송지 변경: 10동1243호", "spans": [{"kind": "ADDRESS", "start": 8, "end": 16}], "known_names": []}
+{"id": "pii-0181", "text": "주소 테헤란로 130 127동 693호 입니다", "spans": [{"kind": "ADDRESS", "start": 3, "end": 21}], "known_names": []}
+{"id": "pii-0182", "text": "주소 양재대로 125 5동987호 입니다", "spans": [{"kind": "ADDRESS", "start": 3, "end": 18}], "known_names": []}
+{"id": "pii-0183", "text": "주소 테헤란로 14 11동709호 입니다", "spans": [{"kind": "ADDRESS", "start": 3, "end": 18}], "known_names": []}
+{"id": "pii-0184", "text": "주소 경기도 수원시 시청로 17 3동672호 입니다", "spans": [{"kind": "ADDRESS", "start": 3, "end": 24}], "known_names": []}
+{"id": "pii-0185", "text": "서울시 강남구 쪽으로 이사 가려고", "spans": [{"kind": "ADDRESS", "start": 0, "end": 7}], "known_names": []}
+{"id": "pii-0186", "text": "경기도 수원시 에 있는 병원이야", "spans": [{"kind": "ADDRESS", "start": 0, "end": 7}], "known_names": []}
+{"id": "pii-0187", "text": "대전 유성구 에서 만나자", "spans": [{"kind": "ADDRESS", "start": 0, "end": 6}], "known_names": []}
+{"id": "pii-0188", "text": "주소는 서울시강남구테헤란로 152 야", "spans": [{"kind": "ADDRESS", "start": 4, "end": 18}], "known_names": []}
+{"id": "pii-0189", "text": "민수이 오늘 늦는대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0190", "text": "이영희한테 전화해봐", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0191", "text": "영희가 시장 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0192", "text": "이영희는 아직 학교야", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0193", "text": "지후에게 물어볼게", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0194", "text": "이영희야 밥 먹자", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0195", "text": "민수랑 같이 갈게", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0196", "text": "어제 영희도 왔어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0197", "text": "오늘 장은 이영희 가 볼게", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0198", "text": "오늘 장은 최서연 가 볼게", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0199", "text": "오늘 장은 박지후 가 볼게", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0200", "text": "오늘 장은 이영희 가 볼게", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0201", "text": "오늘 장은 최서연 가 볼게", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0202", "text": "오늘 장은 김민수 가 볼게", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0203", "text": "지후님 생일 선물 뭐가 좋을까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0204", "text": "서연님 생일 선물 뭐가 좋을까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0205", "text": "영희님 생일 선물 뭐가 좋을까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0206", "text": "민수님 생일 선물 뭐가 좋을까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0207", "text": "김민수 는 몇 시에 와?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0208", "text": "우리 엄마는 이영희씨고 아빠는 김민수씨야", "spans": [{"kind": "PERSON", "start": 7, "end": 10}, {"kind": "PERSON", "start": 17, "end": 20}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "pii-0209", "text": "담임 선생님은 김철수선생님이래", "spans": [{"kind": "PERSON", "start": 8, "end": 11}], "known_names": []}
+{"id": "pii-0210", "text": "김철수씨한테 먼저 연락해보자", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "pii-0211", "text": "담임 선생님은 박영숙선생님이래", "spans": [{"kind": "PERSON", "start": 8, "end": 11}], "known_names": []}
+{"id": "pii-0212", "text": "박영숙씨한테 먼저 연락해보자", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "pii-0213", "text": "담임 선생님은 최민정선생님이래", "spans": [{"kind": "PERSON", "start": 8, "end": 11}], "known_names": []}
+{"id": "pii-0214", "text": "최민정씨한테 먼저 연락해보자", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "pii-0215", "text": "담임 선생님은 정하늘선생님이래", "spans": [{"kind": "PERSON", "start": 8, "end": 11}], "known_names": []}
+{"id": "pii-0216", "text": "정하늘씨한테 먼저 연락해보자", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "pii-0217", "text": "담임 선생님은 윤재석선생님이래", "spans": [{"kind": "PERSON", "start": 8, "end": 11}], "known_names": []}
+{"id": "pii-0218", "text": "윤재석씨한테 먼저 연락해보자", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "pii-0219", "text": "담임 선생님은 한지민선생님이래", "spans": [{"kind": "PERSON", "start": 8, "end": 11}], "known_names": []}
+{"id": "pii-0220", "text": "한지민씨한테 먼저 연락해보자", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "pii-0221", "text": "담임 선생님은 오세훈선생님이래", "spans": [{"kind": "PERSON", "start": 8, "end": 11}], "known_names": []}
+{"id": "pii-0222", "text": "오세훈씨한테 먼저 연락해보자", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "pii-0223", "text": "담임 선생님은 강다영선생님이래", "spans": [{"kind": "PERSON", "start": 8, "end": 11}], "known_names": []}
+{"id": "pii-0224", "text": "강다영씨한테 먼저 연락해보자", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "pii-0225", "text": "옆집 이수정님이 택배 맡아주셨대", "spans": [{"kind": "PERSON", "start": 3, "end": 6}], "known_names": []}
+{"id": "pii-0226", "text": "옆집 조현우님이 택배 맡아주셨대", "spans": [{"kind": "PERSON", "start": 3, "end": 6}], "known_names": []}
+{"id": "pii-0227", "text": "옆집 서민재님이 택배 맡아주셨대", "spans": [{"kind": "PERSON", "start": 3, "end": 6}], "known_names": []}
+{"id": "pii-0228", "text": "옆집 권지아님이 택배 맡아주셨대", "spans": [{"kind": "PERSON", "start": 3, "end": 6}], "known_names": []}
+{"id": "pii-0229", "text": "옆집 송태양님이 택배 맡아주셨대", "spans": [{"kind": "PERSON", "start": 3, "end": 6}], "known_names": []}
+{"id": "pii-0230", "text": "친구 배진우군이 놀러 왔어", "spans": [{"kind": "PERSON", "start": 3, "end": 6}], "known_names": []}
+{"id": "pii-0231", "text": "철수한테 말해놨어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "pii-0232", "text": "영숙이가 전화했어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "pii-0233", "text": "민재랑 같이 갈게", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "pii-0234", "text": "도현이 숙제 봐줬어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "pii-0235", "text": "서윤이 어린이집 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "pii-0236", "text": "하준이는 감기 걸렸대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "pii-0237", "text": "010-7788-1234 로 연락하고 dad.park@example.org 로 서류 보내줘", "spans": [{"kind": "PHONE", "start": 0, "end": 13}, {"kind": "EMAIL", "start": 21, "end": 41}], "known_names": []}
+{"id": "pii-0238", "text": "테헤란로 152 에서 민수를 만나, 번호는 010-2000-3000", "spans": [{"kind": "ADDRESS", "start": 0, "end": 8}, {"kind": "PERSON", "start": 12, "end": 14}, {"kind": "PHONE", "start": 24, "end": 37}], "known_names": ["김민수"]}
+{"id": "pii-0239", "text": "비번 abcd1234 이고 카드는 5412 9738 5377 3819", "spans": [{"kind": "SECRET", "start": 3, "end": 11}, {"kind": "CARD", "start": 19, "end": 38}], "known_names": []}
+{"id": "pii-0240", "text": "계좌 110-123-456789 예금주 이영희", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 17}, {"kind": "PERSON", "start": 22, "end": 25}], "known_names": ["이영희"]}
+{"id": "pii-0241", "text": "번호는 공일공 일이삼사 오육칠팔 이야", "spans": [{"kind": "PHONE", "start": 4, "end": 17}], "known_names": []}
+{"id": "pii-0242", "text": "연락처 010 - 3456 - 7890 으로", "spans": [{"kind": "PHONE", "start": 4, "end": 21}], "known_names": []}
+{"id": "pii-0243", "text": "전화 010-3456-78 90 해줘", "spans": [{"kind": "PHONE", "start": 3, "end": 17}], "known_names": []}
+{"id": "pii-0244", "text": "번호 010-34567890 야", "spans": [{"kind": "PHONE", "start": 3, "end": 15}], "known_names": []}
+{"id": "pii-0245", "text": "이메일은 mom1962@example.net 입니당", "spans": [{"kind": "EMAIL", "start": 5, "end": 24}], "known_names": []}
+{"id": "pii-0246", "text": "메일 주소 mom1962 골뱅이 example 닷컴", "spans": [{"kind": "EMAIL", "start": 6, "end": 28}], "known_names": []}
+{"id": "pii-0247", "text": "카드번호 4539 1488 0343 6467 구요", "spans": [{"kind": "CARD", "start": 5, "end": 24}], "known_names": []}
+{"id": "pii-0248", "text": "비밀번호가 ab12 인데 짧아", "spans": [{"kind": "SECRET", "start": 6, "end": 10}], "known_names": []}
+{"id": "pii-0249", "text": "pin번호는 2580", "spans": [{"kind": "SECRET", "start": 7, "end": 11}], "known_names": []}
+{"id": "pii-0250", "text": "계좌 1234567890123", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 16}], "known_names": []}
+{"id": "pii-0251", "text": "내일 오후 3시에 만나자", "spans": [], "known_names": []}
+{"id": "pii-0252", "text": "2026-11-03 에 병원 예약했어", "spans": [], "known_names": []}
+{"id": "pii-0253", "text": "11월 3일 오전 10:30 치과야", "spans": [], "known_names": []}
+{"id": "pii-0254", "text": "회의는 14:00 부터래", "spans": [], "known_names": []}
+{"id": "pii-0255", "text": "총 15,000원이 나왔어", "spans": [], "known_names": []}
+{"id": "pii-0256", "text": "택배비 3,500원 더 내야 해", "spans": [], "known_names": []}
+{"id": "pii-0257", "text": "월급이 3,200,000원 들어왔어", "spans": [], "known_names": []}
+{"id": "pii-0258", "text": "보증금 5000만원이래", "spans": [], "known_names": []}
+{"id": "pii-0259", "text": "사과 3개랑 배 2개 사와", "spans": [], "known_names": []}
+{"id": "pii-0260", "text": "우유 1리터 두 팩 부탁", "spans": [], "known_names": []}
+{"id": "pii-0261", "text": "계란 30구 한 판 사줘", "spans": [], "known_names": []}
+{"id": "pii-0262", "text": "물 2L 6병", "spans": [], "known_names": []}
+{"id": "pii-0263", "text": "주문번호 202611030012 로 조회해봐", "spans": [], "known_names": []}
+{"id": "pii-0264", "text": "운송장 번호는 6012345678901 이래", "spans": [], "known_names": []}
+{"id": "pii-0265", "text": "주문번호 ORD-20261103-0042", "spans": [], "known_names": []}
+{"id": "pii-0266", "text": "접수번호 77412 로 문의했어", "spans": [], "known_names": []}
+{"id": "pii-0267", "text": "3층에서 내려", "spans": [], "known_names": []}
+{"id": "pii-0268", "text": "101호 앞에서 기다릴게", "spans": [], "known_names": []}
+{"id": "pii-0269", "text": "2번 출구 앞이야", "spans": [], "known_names": []}
+{"id": "pii-0270", "text": "지하 1층 주차장에 있어", "spans": [], "known_names": []}
+{"id": "pii-0271", "text": "오늘 걸음 수 12345보 걸었어", "spans": [], "known_names": []}
+{"id": "pii-0272", "text": "시험 점수 87점 나왔어", "spans": [], "known_names": []}
+{"id": "pii-0273", "text": "키가 172cm 야", "spans": [], "known_names": []}
+{"id": "pii-0274", "text": "몸무게 65kg", "spans": [], "known_names": []}
+{"id": "pii-0275", "text": "강남역에서 만나자", "spans": [], "known_names": []}
+{"id": "pii-0276", "text": "서울 가는 기차 탔어", "spans": [], "known_names": []}
+{"id": "pii-0277", "text": "부산 여행 가자", "spans": [], "known_names": []}
+{"id": "pii-0278", "text": "제주도 항공권 알아보자", "spans": [], "known_names": []}
+{"id": "pii-0279", "text": "김치찌개 먹을까", "spans": [], "known_names": []}
+{"id": "pii-0280", "text": "박수 쳐줄게", "spans": [], "known_names": []}
+{"id": "pii-0281", "text": "이사 준비 하자", "spans": [], "known_names": []}
+{"id": "pii-0282", "text": "정리 좀 해야겠다", "spans": [], "known_names": []}
+{"id": "pii-0283", "text": "고객님 번호표 받으세요", "spans": [], "known_names": []}
+{"id": "pii-0284", "text": "선생님이 숙제 내줬어", "spans": [], "known_names": []}
+{"id": "pii-0285", "text": "사장님이 일찍 보내주셨어", "spans": [], "known_names": []}
+{"id": "pii-0286", "text": "이사님 오셨대", "spans": [], "known_names": []}
+{"id": "pii-0287", "text": "고추씨 좀 사와", "spans": [], "known_names": []}
+{"id": "pii-0288", "text": "그대로 둬도 돼", "spans": [], "known_names": []}
+{"id": "pii-0289", "text": "마음대로 해", "spans": [], "known_names": []}
+{"id": "pii-0290", "text": "운동 30분 했어", "spans": [], "known_names": []}
+{"id": "pii-0291", "text": "엄마 오늘 늦어?", "spans": [], "known_names": []}
+{"id": "pii-0292", "text": "아빠 퇴근했어?", "spans": [], "known_names": []}
+{"id": "pii-0293", "text": "할머니 보고 싶다", "spans": [], "known_names": []}
+{"id": "pii-0294", "text": "동생 학교 갔어", "spans": [], "known_names": []}
+{"id": "pii-0295", "text": "저녁 뭐 먹지", "spans": [], "known_names": []}
+{"id": "pii-0296", "text": "오늘 날씨 좋다", "spans": [], "known_names": []}
+{"id": "pii-0297", "text": "주말에 뭐 해?", "spans": [], "known_names": []}
+{"id": "pii-0298", "text": "영화 보러 갈래?", "spans": [], "known_names": []}
+{"id": "pii-0299", "text": "7호선 타고 가", "spans": [], "known_names": []}
+{"id": "pii-0300", "text": "버스 402번 타", "spans": [], "known_names": []}
+{"id": "pii-0301", "text": "엘리베이터 고장났대", "spans": [], "known_names": []}
+{"id": "pii-0302", "text": "열쇠 어디 뒀지", "spans": [], "known_names": []}
+{"id": "pii-0303", "text": "2026년 목표는 운동하기", "spans": [], "known_names": []}
+{"id": "pii-0304", "text": "올해 1월 1일에 시작했어", "spans": [], "known_names": []}
+{"id": "pii-0305", "text": "100m 달리기 했어", "spans": [], "known_names": []}
+{"id": "pii-0306", "text": "3대 5로 졌어", "spans": [], "known_names": []}
+{"id": "pii-0307", "text": "비밀번호 바꿔야 하는데 까먹었어", "spans": [], "known_names": []}
+{"id": "pii-0308", "text": "인증번호가 안 와", "spans": [], "known_names": []}
+{"id": "pii-0309", "text": "카드 한도가 다 찼어", "spans": [], "known_names": []}
+{"id": "pii-0310", "text": "계좌 이체가 안 돼", "spans": [], "known_names": []}
+{"id": "pii-0311", "text": "주소 알려줘", "spans": [], "known_names": []}
+{"id": "pii-0312", "text": "이메일 확인했어?", "spans": [], "known_names": []}
+{"id": "pii-0313", "text": "전화 받아", "spans": [], "known_names": []}
+{"id": "pii-0314", "text": "번호 저장해둘게", "spans": [], "known_names": []}
+{"id": "pii-0315", "text": "1588 번으로 전화하면 돼", "spans": [], "known_names": []}
+{"id": "pii-0316", "text": "회사는 9시부터 6시까지", "spans": [], "known_names": []}
+{"id": "pii-0317", "text": "점심은 12시 30분에 먹자", "spans": [], "known_names": []}
+{"id": "pii-0318", "text": "다음 주 월요일 휴가야", "spans": [], "known_names": []}
+{"id": "pii-0319", "text": "1.5배속으로 봤어", "spans": [], "known_names": []}
+{"id": "pii-0320", "text": "할인율 30% 야", "spans": [], "known_names": []}
+{"id": "pii-0321", "text": "평점 4.5점", "spans": [], "known_names": []}
+{"id": "pii-0322", "text": "버전 2.3.1 으로 업데이트해", "spans": [], "known_names": []}
+{"id": "pii-0323", "text": "대전 갔다가 대구 들러", "spans": [], "known_names": []}
+{"id": "pii-0324", "text": "한강에서 자전거 타자", "spans": [], "known_names": []}
+{"id": "pii-0325", "text": "광주 친구 만나러 가", "spans": [], "known_names": []}
+{"id": "pii-0326", "text": "인천공항 도착", "spans": [], "known_names": []}
+{"id": "pii-0327", "text": "12,345,678원 이나 썼어", "spans": [], "known_names": []}
+{"id": "pii-0328", "text": "20261103123456 은 송장 번호야", "spans": [], "known_names": []}
+{"id": "pii-0329", "text": "수량 1000개 입고", "spans": [], "known_names": []}
+{"id": "pii-0330", "text": "전화 안 받네", "spans": [], "known_names": []}
+{"id": "pii-0331", "text": "오늘 저녁은 삼겹살 어때", "spans": [], "known_names": []}
+{"id": "pii-0332", "text": "이번 주말 가족 모임 장소 정하자", "spans": [], "known_names": []}
+{"id": "pii-0333", "text": "아이 학원 시간표 공유할게", "spans": [], "known_names": []}
+{"id": "pii-0334", "text": "장 보러 가는데 필요한 거 있어?", "spans": [], "known_names": []}
+{"id": "pii-0335", "text": "우리 집 고양이 사진 봐", "spans": [], "known_names": []}
+{"id": "pii-0336", "text": "사진 찍어서 올려줘", "spans": [], "known_names": []}
+{"id": "pii-0337", "text": "고마워 잘 먹었어", "spans": [], "known_names": []}
+{"id": "pii-0338", "text": "생일 축하해", "spans": [], "known_names": []}
+{"id": "pii-0339", "text": "서울 친구랑 부산 구경 갔어", "spans": [], "known_names": []}
+{"id": "pii-0340", "text": "전화번호 0312345 맞아?", "spans": [], "known_names": []}
+{"id": "pii-0341", "text": "회원번호 1234-5678-9012 로 조회", "spans": [], "known_names": []}
+{"id": "pii-0342", "text": "예약번호 2026-1103-0042-7781 이야", "spans": [], "known_names": []}
+{"id": "pii-0343", "text": "송장 1234567890 이야", "spans": [], "known_names": []}
+{"id": "pii-0344", "text": "큰 번호 9876543210123 이래", "spans": [], "known_names": []}
+{"id": "pii-0345", "text": "스코어 3-2 로 이겼어", "spans": [], "known_names": []}
+{"id": "pii-0346", "text": "새벽 02:30 에 일어났어", "spans": [], "known_names": []}
+{"id": "pii-0347", "text": "2026.11.03 에 출발", "spans": [], "known_names": []}
+{"id": "pii-0348", "text": "0.5kg 만 사와", "spans": [], "known_names": []}
+{"id": "pii-0349", "text": "코드 123-456 입력해", "spans": [], "known_names": []}
+{"id": "pii-0350", "text": "5-6-7 다음 주 일정이야", "spans": [], "known_names": []}
+{"id": "pii-0351", "text": "사무실 3동 2층이야", "spans": [], "known_names": []}
+{"id": "pii-0352", "text": "한강로 3가 쪽으로 가", "spans": [], "known_names": []}
+{"id": "pii-0353", "text": "4인분 5000원씩 걷자", "spans": [], "known_names": []}
+{"id": "pii-0354", "text": "그건 마음먹기에 달렸어", "spans": [], "known_names": []}
+{"id": "pii-0355", "text": "이번 달 가스비 82,340원", "spans": [], "known_names": []}
+{"id": "pii-0356", "text": "집에 가면 연락할게", "spans": [], "known_names": []}
+{"id": "pii-0357", "text": "예약하려면 전화해야 해", "spans": [], "known_names": []}
+{"id": "pii-0358", "text": "아이가 2호선에서 내렸대", "spans": [], "known_names": []}
+{"id": "pii-0359", "text": "2번 방에서 자", "spans": [], "known_names": []}
+{"id": "pii-0360", "text": "5분만 기다려", "spans": [], "known_names": []}
+{"id": "pii-0361", "text": "3명 예약했어", "spans": [], "known_names": []}
+{"id": "pii-0362", "text": "10시 20분 도착 예정", "spans": [], "known_names": []}

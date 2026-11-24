@@ -1,0 +1,222 @@
+{"id": "fam-0001", "category": "메신저", "text": "낼 3시에 배승지 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0002", "category": "메신저", "text": "낼 3시에 안민린 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0003", "category": "메신저", "text": "낼 3시에 이준하 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0004", "category": "메신저", "text": "낼 3시에 우민래 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0005", "category": "메신저", "text": "낼 3시에 홍가하 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0006", "category": "메신저", "text": "낼 3시에 신한찬 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0007", "category": "메신저", "text": "낼 3시에 우영라 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0008", "category": "메신저", "text": "낼 3시에 주덕유 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0009", "category": "메신저", "text": "낼 3시에 서한라 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0010", "category": "메신저", "text": "낼 3시에 민송진 데리러 갈 사람 있어?", "spans": [{"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-01"}
+{"id": "fam-0011", "category": "메신저", "text": "배근철이 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0012", "category": "메신저", "text": "민송아가 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0013", "category": "메신저", "text": "손용철이 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0014", "category": "메신저", "text": "곽도빈이 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0015", "category": "메신저", "text": "서명소가 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0016", "category": "메신저", "text": "최가희가 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0017", "category": "메신저", "text": "나민성이 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0018", "category": "메신저", "text": "김상석이 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0019", "category": "메신저", "text": "조준이가 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0020", "category": "메신저", "text": "성이진이 오늘 학원 안 간다고 쌤이 문자왔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-02"}
+{"id": "fam-0021", "category": "메신저", "text": "엄마가 서호연 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0022", "category": "메신저", "text": "엄마가 성우린 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0023", "category": "메신저", "text": "엄마가 하연완 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0024", "category": "메신저", "text": "엄마가 성윤유 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0025", "category": "메신저", "text": "엄마가 고한라 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0026", "category": "메신저", "text": "엄마가 민정완 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0027", "category": "메신저", "text": "엄마가 신가유 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0028", "category": "메신저", "text": "엄마가 송대후 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0029", "category": "메신저", "text": "엄마가 한태정 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0030", "category": "메신저", "text": "엄마가 허혜지 간식 사놨대 ㅎㅎ", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-03"}
+{"id": "fam-0031", "category": "메신저", "text": "박태헌 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0032", "category": "메신저", "text": "조채온 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0033", "category": "메신저", "text": "백준규 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0034", "category": "메신저", "text": "장시빈 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0035", "category": "메신저", "text": "송도규 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0036", "category": "메신저", "text": "곽용이 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0037", "category": "메신저", "text": "최철율 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0038", "category": "메신저", "text": "권명솔 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0039", "category": "메신저", "text": "노영헌 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0040", "category": "메신저", "text": "박하헌 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-04"}
+{"id": "fam-0041", "category": "메신저", "text": "할머니 생신에 류보은이랑 한송정 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0042", "category": "메신저", "text": "할머니 생신에 임윤유이랑 백예윤 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0043", "category": "메신저", "text": "할머니 생신에 우호래이랑 하동훈 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0044", "category": "메신저", "text": "할머니 생신에 진원지이랑 임해라 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0045", "category": "메신저", "text": "할머니 생신에 한예민이랑 김소환 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0046", "category": "메신저", "text": "할머니 생신에 주서성이랑 나도환 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0047", "category": "메신저", "text": "할머니 생신에 노예찬이랑 장경연 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0048", "category": "메신저", "text": "할머니 생신에 허예건이랑 민동하 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0049", "category": "메신저", "text": "할머니 생신에 문시나이랑 허초지 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0050", "category": "메신저", "text": "할머니 생신에 주연환이랑 고수솔 같이 가기로 했어", "spans": [{"kind": "PERSON", "start": 8, "end": 11}, {"kind": "PERSON", "start": 14, "end": 17}], "known_names": [], "template_id": "메신저-05"}
+{"id": "fam-0051", "category": "메신저", "text": "백채성 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0052", "category": "메신저", "text": "나연건 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0053", "category": "메신저", "text": "차혜영 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0054", "category": "메신저", "text": "황민원 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0055", "category": "메신저", "text": "한민희 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0056", "category": "메신저", "text": "주효율 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0057", "category": "메신저", "text": "오혜안 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0058", "category": "메신저", "text": "노근정 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0059", "category": "메신저", "text": "홍진헌 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0060", "category": "메신저", "text": "곽성솔 성적표 나왔는데 이번엔 잘봤더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-06"}
+{"id": "fam-0061", "category": "메신저", "text": "오늘 저녁엔 서민라 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0062", "category": "메신저", "text": "오늘 저녁엔 우송소 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0063", "category": "메신저", "text": "오늘 저녁엔 윤민경 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0064", "category": "메신저", "text": "오늘 저녁엔 성경안 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0065", "category": "메신저", "text": "오늘 저녁엔 한명헌 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0066", "category": "메신저", "text": "오늘 저녁엔 임현건 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0067", "category": "메신저", "text": "오늘 저녁엔 곽해래 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0068", "category": "메신저", "text": "오늘 저녁엔 고서완 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0069", "category": "메신저", "text": "오늘 저녁엔 장경석 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0070", "category": "메신저", "text": "오늘 저녁엔 남근이 좋아하는 거 해줄까", "spans": [{"kind": "PERSON", "start": 7, "end": 10}], "known_names": [], "template_id": "메신저-07"}
+{"id": "fam-0071", "category": "메신저", "text": "심정윤가 주아래 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0072", "category": "메신저", "text": "송태린가 최덕희 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0073", "category": "메신저", "text": "노원찬가 이우훈 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0074", "category": "메신저", "text": "안도호가 홍호유 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0075", "category": "메신저", "text": "양성현가 신해하 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0076", "category": "메신저", "text": "문준규가 임우수 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0077", "category": "메신저", "text": "윤병빈가 심찬레 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0078", "category": "메신저", "text": "민진하가 윤상호 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0079", "category": "메신저", "text": "차성지가 나민석 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0080", "category": "메신저", "text": "노영래가 차윤래 괴롭혀서 또 싸웠대 ㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-08"}
+{"id": "fam-0081", "category": "메신저", "text": "주말에 오용이 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0082", "category": "메신저", "text": "주말에 양용지 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0083", "category": "메신저", "text": "주말에 남덕정 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0084", "category": "메신저", "text": "주말에 성보우 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0085", "category": "메신저", "text": "주말에 허진소 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0086", "category": "메신저", "text": "주말에 송다철 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0087", "category": "메신저", "text": "주말에 박아완 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0088", "category": "메신저", "text": "주말에 류한영 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0089", "category": "메신저", "text": "주말에 노예율 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0090", "category": "메신저", "text": "주말에 남대나 축구 경기 있어서 다같이 응원가자", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-09"}
+{"id": "fam-0091", "category": "메신저", "text": "한유성 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0092", "category": "메신저", "text": "배경준 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0093", "category": "메신저", "text": "김준래 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0094", "category": "메신저", "text": "장나하 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0095", "category": "메신저", "text": "지덕연 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0096", "category": "메신저", "text": "허하헌 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0097", "category": "메신저", "text": "박다유 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0098", "category": "메신저", "text": "손경철 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0099", "category": "메신저", "text": "하준우 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0100", "category": "메신저", "text": "성보완 담임선생님이 상담 신청하라셔", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-10"}
+{"id": "fam-0101", "category": "메신저", "text": "진태음이랑 곽철훈 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0102", "category": "메신저", "text": "차호율이랑 강한소 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0103", "category": "메신저", "text": "장병완이랑 윤효헌 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0104", "category": "메신저", "text": "정초소랑 차서빈 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0105", "category": "메신저", "text": "심시소랑 안예헌 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0106", "category": "메신저", "text": "고연레랑 홍찬나 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0107", "category": "메신저", "text": "곽호훈이랑 최우아 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0108", "category": "메신저", "text": "고예빈이랑 장한준 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0109", "category": "메신저", "text": "유우연이랑 양아석 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0110", "category": "메신저", "text": "남윤수랑 하철은 둘다 감기 걸렸나봐 콜록콜록", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "메신저-11"}
+{"id": "fam-0111", "category": "메신저", "text": "아빠가 장윤음 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0112", "category": "메신저", "text": "아빠가 전송유 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0113", "category": "메신저", "text": "아빠가 구근준 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0114", "category": "메신저", "text": "아빠가 임준준 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0115", "category": "메신저", "text": "아빠가 진태형 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0116", "category": "메신저", "text": "아빠가 서대인 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0117", "category": "메신저", "text": "아빠가 우이석 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0118", "category": "메신저", "text": "아빠가 홍소환 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0119", "category": "메신저", "text": "아빠가 노보소 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0120", "category": "메신저", "text": "아빠가 배원철 용돈 줬다는데 들었어?", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-12"}
+{"id": "fam-0121", "category": "메신저", "text": "남명율 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0122", "category": "메신저", "text": "임준헌 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0123", "category": "메신저", "text": "권경지 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0124", "category": "메신저", "text": "성보안 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0125", "category": "메신저", "text": "최아소 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0126", "category": "메신저", "text": "곽시진 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0127", "category": "메신저", "text": "문근수 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0128", "category": "메신저", "text": "정채진 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0129", "category": "메신저", "text": "황명빈 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0130", "category": "메신저", "text": "이하찬 전학 간다는 거 진짜야??", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-13"}
+{"id": "fam-0131", "category": "메신저", "text": "삼촌이 서세우 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0132", "category": "메신저", "text": "삼촌이 류다빈 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0133", "category": "메신저", "text": "삼촌이 주소온 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0134", "category": "메신저", "text": "삼촌이 권건준 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0135", "category": "메신저", "text": "삼촌이 장예수 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0136", "category": "메신저", "text": "삼촌이 노진진 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0137", "category": "메신저", "text": "삼촌이 허동호 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0138", "category": "메신저", "text": "삼촌이 나보은 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0139", "category": "메신저", "text": "삼촌이 남병준 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0140", "category": "메신저", "text": "삼촌이 문건환 보고싶다고 영상통화 하재", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-14"}
+{"id": "fam-0141", "category": "메신저", "text": "우혜건이 장효정랑 주효현 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0142", "category": "메신저", "text": "차근형이 지재지랑 차호유 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0143", "category": "메신저", "text": "차보이이 송상소랑 신성소 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0144", "category": "메신저", "text": "조현호이 진유인랑 민원혁 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0145", "category": "메신저", "text": "나윤솔이 남예건랑 남연희 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0146", "category": "메신저", "text": "서덕완이 유주수랑 지미경 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0147", "category": "메신저", "text": "노가준이 장건레랑 고해인 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0148", "category": "메신저", "text": "송서라이 하종형랑 민혜음 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0149", "category": "메신저", "text": "백명나이 이태철랑 고가소 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0150", "category": "메신저", "text": "조나하이 안소영랑 서덕완 다 데리고 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": [], "template_id": "메신저-15"}
+{"id": "fam-0151", "category": "메신저", "text": "장찬성 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0152", "category": "메신저", "text": "송예윤 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0153", "category": "메신저", "text": "진나나 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0154", "category": "메신저", "text": "하용현 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0155", "category": "메신저", "text": "곽철환 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0156", "category": "메신저", "text": "전덕진 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0157", "category": "메신저", "text": "심철혁 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0158", "category": "메신저", "text": "양주성 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0159", "category": "메신저", "text": "허준이 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0160", "category": "메신저", "text": "고한훈 오늘 반찬 뭐 좋아하는지 알아?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-16"}
+{"id": "fam-0161", "category": "메신저", "text": "고모가 고가철 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0162", "category": "메신저", "text": "고모가 우재유 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0163", "category": "메신저", "text": "고모가 정근민 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0164", "category": "메신저", "text": "고모가 송송윤 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0165", "category": "메신저", "text": "고모가 서영래 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0166", "category": "메신저", "text": "고모가 양시윤 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0167", "category": "메신저", "text": "고모가 유종후 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0168", "category": "메신저", "text": "고모가 고서지 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0169", "category": "메신저", "text": "고모가 이찬안 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0170", "category": "메신저", "text": "고모가 조유인 선물 사왔다고 전해달래", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "메신저-17"}
+{"id": "fam-0171", "category": "메신저", "text": "신하건한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0172", "category": "메신저", "text": "구명영한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0173", "category": "메신저", "text": "심호경한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0174", "category": "메신저", "text": "백유성한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0175", "category": "메신저", "text": "권근연한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0176", "category": "메신저", "text": "양한하한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0177", "category": "메신저", "text": "박기규한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0178", "category": "메신저", "text": "진아빈한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0179", "category": "메신저", "text": "나현하한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0180", "category": "메신저", "text": "임승안한테 숙제 다 했는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-18"}
+{"id": "fam-0181", "category": "메신저", "text": "안대정이랑 곽성소 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0182", "category": "메신저", "text": "김승윤이랑 조한주 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0183", "category": "메신저", "text": "송혜찬이랑 전대율 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0184", "category": "메신저", "text": "김준찬이랑 주종은 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0185", "category": "메신저", "text": "신현유이랑 송승호 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0186", "category": "메신저", "text": "서도민이랑 윤하인 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0187", "category": "메신저", "text": "윤이인이랑 진기호 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0188", "category": "메신저", "text": "안소준이랑 배송우 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0189", "category": "메신저", "text": "우보인이랑 최찬유 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0190", "category": "메신저", "text": "심상혁이랑 진이진 둘이 또 투닥거리네 ㅋㅋㅋ", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "메신저-19"}
+{"id": "fam-0191", "category": "메신저", "text": "민소솔 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0192", "category": "메신저", "text": "황시헌 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0193", "category": "메신저", "text": "노소솔 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0194", "category": "메신저", "text": "나호유 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0195", "category": "메신저", "text": "오병연 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0196", "category": "메신저", "text": "구덕우 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0197", "category": "메신저", "text": "유동호 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0198", "category": "메신저", "text": "유다성 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0199", "category": "메신저", "text": "하준온 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0200", "category": "메신저", "text": "황명음 어린이집 발표회 몇시더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "메신저-20"}
+{"id": "fam-0201", "category": "비인명", "text": "낼 비 온대 우산 챙겨", "spans": [], "known_names": [], "template_id": "비인명-01"}
+{"id": "fam-0202", "category": "비인명", "text": "저녁 뭐 먹을지 투표좀", "spans": [], "known_names": [], "template_id": "비인명-02"}
+{"id": "fam-0203", "category": "비인명", "text": "오늘 하늘 완전 예쁘더라 ㅋㅋ", "spans": [], "known_names": [], "template_id": "비인명-03"}
+{"id": "fam-0204", "category": "비인명", "text": "바다 보러 갈까 주말에", "spans": [], "known_names": [], "template_id": "비인명-04"}
+{"id": "fam-0205", "category": "비인명", "text": "장보고 올게 뭐 필요한거 있어?", "spans": [], "known_names": [], "template_id": "비인명-05"}
+{"id": "fam-0206", "category": "비인명", "text": "에어컨 또 고장났나봐", "spans": [], "known_names": [], "template_id": "비인명-06"}
+{"id": "fam-0207", "category": "비인명", "text": "강아지 산책 누가 시킬거야", "spans": [], "known_names": [], "template_id": "비인명-07"}
+{"id": "fam-0208", "category": "비인명", "text": "학원비 입금했어 확인해줘", "spans": [], "known_names": [], "template_id": "비인명-08"}
+{"id": "fam-0209", "category": "비인명", "text": "택배 왔는데 누구꺼야", "spans": [], "known_names": [], "template_id": "비인명-09"}
+{"id": "fam-0210", "category": "비인명", "text": "주차 좀 당겨줘", "spans": [], "known_names": [], "template_id": "비인명-10"}
+{"id": "fam-0211", "category": "비인명", "text": "쓰레기 분리수거 해야돼", "spans": [], "known_names": [], "template_id": "비인명-11"}
+{"id": "fam-0212", "category": "비인명", "text": "전기세 많이 나왔다 ㅠㅠ", "spans": [], "known_names": [], "template_id": "비인명-12"}
+{"id": "fam-0213", "category": "비인명", "text": "오늘 날씨 왜케 덥냐", "spans": [], "known_names": [], "template_id": "비인명-13"}
+{"id": "fam-0214", "category": "비인명", "text": "청소기 또 고장났어", "spans": [], "known_names": [], "template_id": "비인명-14"}
+{"id": "fam-0215", "category": "비인명", "text": "휴지 다 썼나봐 사와야해", "spans": [], "known_names": [], "template_id": "비인명-15"}
+{"id": "fam-0216", "category": "비인명", "text": "기름 넣어야 할듯", "spans": [], "known_names": [], "template_id": "비인명-16"}
+{"id": "fam-0217", "category": "비인명", "text": "보일러 좀 봐줘 안켜져", "spans": [], "known_names": [], "template_id": "비인명-17"}
+{"id": "fam-0218", "category": "비인명", "text": "인터넷 끊겼다 기사님 불러야하나", "spans": [], "known_names": [], "template_id": "비인명-18"}
+{"id": "fam-0219", "category": "비인명", "text": "빨래 좀 널어줘", "spans": [], "known_names": [], "template_id": "비인명-19"}
+{"id": "fam-0220", "category": "비인명", "text": "화분에 물 좀 줘", "spans": [], "known_names": [], "template_id": "비인명-20"}
+{"id": "fam-0221", "category": "비인명", "text": "오늘 기쁨 두배다 월급날이야", "spans": [], "known_names": [], "template_id": "비인명-21"}
+{"id": "fam-0222", "category": "비인명", "text": "초원이 나오는 그 노래 또 나왔어", "spans": [], "known_names": [], "template_id": "비인명-22"}

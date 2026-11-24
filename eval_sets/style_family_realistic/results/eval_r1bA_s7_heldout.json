@@ -1,0 +1,74 @@
+{
+ "mode": "r1bA-pilot-koelectra-small-klue10msg-s7",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "974bb437eddf"
+ },
+ "ner_only": false,
+ "categories": {
+  "locsuffix_holdout": {
+   "spans": 25,
+   "full": 15,
+   "partial": 1,
+   "none": 9,
+   "extra": 0,
+   "sentences": 25,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "발급소 요즘 키가 많이 컸더라",
+     "발급소"
+    ],
+    [
+     "none",
+     "환불소 요즘 키가 많이 컸더라",
+     "환불소"
+    ],
+    [
+     "none",
+     "환불소가 어제 놀이터에서 넘어졌대",
+     "환불소"
+    ],
+    [
+     "none",
+     "할머니가 발급소 간식 사주셨대",
+     "발급소"
+    ],
+    [
+     "none",
+     "할머니가 상담관 간식 사주셨대",
+     "상담관"
+    ],
+    [
+     "none",
+     "할머니가 주문소 간식 사주셨대",
+     "주문소"
+    ]
+   ]
+  },
+  "locsuffix_holdout_neg": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 5,
+   "flagged": 0,
+   "miss_examples": []
+  }
+ },
+ "person_total": {
+  "spans": 25,
+  "full": 15,
+  "partial": 1,
+  "none": 9,
+  "extra": 0
+ },
+ "latency_100chars": {
+  "median_ms": 0.087,
+  "p95_ms": 8.186,
+  "n": 100
+ }
+}

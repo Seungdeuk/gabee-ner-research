@@ -1,0 +1,259 @@
+{
+ "mode": "r1pilot-koelectra-small-klue10msg-s7",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "c536eadeb5a1"
+ },
+ "ner_only": false,
+ "categories": {
+  "가족대화": {
+   "spans": 56,
+   "full": 52,
+   "partial": 3,
+   "none": 1,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "신한음 지금 올라오고 있대",
+     "신한음"
+    ],
+    [
+     "partial",
+     "차혜이 지금 숙제하고 있대",
+     "차혜이"
+    ],
+    [
+     "partial",
+     "조주형 오늘 늦게 온다고 했어",
+     "조주형"
+    ],
+    [
+     "partial",
+     "안가이랑 놀이공원 가기로 했어",
+     "안가이"
+    ]
+   ]
+  },
+  "배송수령": {
+   "spans": 56,
+   "full": 51,
+   "partial": 4,
+   "none": 1,
+   "extra": 3,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "받으실 분 안연이",
+     "안연이"
+    ],
+    [
+     "partial",
+     "예약자 성명란에 신지인 적어주세요",
+     "신지인"
+    ],
+    [
+     "partial",
+     "예약자 성명란에 성하경 적어주세요",
+     "성하경"
+    ],
+    [
+     "none",
+     "예약자 성명란에 주민은 적어주세요",
+     "주민은"
+    ],
+    [
+     "partial",
+     "예약자 성명란에 성민은 적어주세요",
+     "성민은"
+    ]
+   ]
+  },
+  "명단목록": {
+   "spans": 147,
+   "full": 141,
+   "partial": 4,
+   "none": 2,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "출석자: 문상율, 우건나, 허동음",
+     "허동음"
+    ],
+    [
+     "none",
+     "가) 진원우  나) 조준정  다) 나가지",
+     "나가지"
+    ],
+    [
+     "partial",
+     "가) 손송빈  나) 백한아  다) 진경아",
+     "백한아"
+    ],
+    [
+     "partial",
+     "오늘 발표자: 하윤빈, 한경형",
+     "한경형"
+    ],
+    [
+     "partial",
+     "모둠 구성 1모둠 우기철 곽해규 2모둠 노유라",
+     "노유라"
+    ],
+    [
+     "partial",
+     "가입자 목록 류근원 · 민아라",
+     "민아라"
+    ]
+   ]
+  },
+  "공문안내": {
+   "spans": 56,
+   "full": 54,
+   "partial": 2,
+   "none": 0,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "주덕은 담당 선생님께 확인 바랍니다",
+     "주덕은"
+    ],
+    [
+     "partial",
+     "신청인 정병은 직인",
+     "정병은"
+    ]
+   ]
+  },
+  "기사체": {
+   "spans": 56,
+   "full": 56,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": []
+  },
+  "호칭조사": {
+   "spans": 56,
+   "full": 56,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": []
+  },
+  "이름만": {
+   "spans": 56,
+   "full": 54,
+   "partial": 0,
+   "none": 2,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "재연은 열 난대",
+     "재연"
+    ],
+    [
+     "none",
+     "연인네 옆집이야",
+     "연인"
+    ]
+   ]
+  },
+  "비인명": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 40,
+   "flagged": 2,
+   "miss_examples": [
+    [
+     "과마스킹",
+     "노을이 예뻐서 한참 봤어",
+     [
+      "노을"
+     ]
+    ],
+    [
+     "과마스킹",
+     "달빛이 밝아서 산책했어",
+     [
+      "달빛"
+     ]
+    ]
+   ]
+  },
+  "주소": {
+   "spans": 56,
+   "full": 45,
+   "partial": 11,
+   "none": 0,
+   "extra": 0,
+   "sentences": 56,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "자택 주소는 서울 영등포구 여의대로 108 IFC몰 3층 입니다",
+     "서울 영등포구 여의대로 108 IFC몰 3층"
+    ],
+    [
+     "partial",
+     "자택 주소는 신촌역 2번 출구 옆 오피스텔 1501호 입니다",
+     "신촌역 2번 출구 옆 오피스텔 1501호"
+    ],
+    [
+     "partial",
+     "자택 주소는 울산 중구 성남로 200 다온빌딩 6층 입니다",
+     "울산 중구 성남로 200 다온빌딩 6층"
+    ],
+    [
+     "partial",
+     "배송 주소: 서울 영등포구 여의대로 108 IFC몰 3층",
+     "서울 영등포구 여의대로 108 IFC몰 3층"
+    ],
+    [
+     "partial",
+     "배송 주소: 신촌역 2번 출구 옆 오피스텔 1501호",
+     "신촌역 2번 출구 옆 오피스텔 1501호"
+    ],
+    [
+     "partial",
+     "서울 영등포구 여의대로 108 IFC몰 3층쪽으로 와주세요",
+     "서울 영등포구 여의대로 108 IFC몰 3층"
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 483,
+  "full": 464,
+  "partial": 13,
+  "none": 6,
+  "extra": 3
+ },
+ "latency_100chars": {
+  "median_ms": 10.511,
+  "p95_ms": 14.607,
+  "n": 100
+ }
+}

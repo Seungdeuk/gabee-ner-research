@@ -1,0 +1,382 @@
+{
+ "summary": {
+  "cross_set": {
+   "exact_or_normalized_sentence_pairs": 0,
+   "skeleton_equal_pairs": 7,
+   "skeleton_similar_4gram_ge_0.6_rows": 15,
+   "person_values_in_both_sets": 3,
+   "rep_person_values": 1098,
+   "stress_person_values": 663
+  },
+  "unlabeled_name_suspects": {
+   "REP": {
+    "all|other|len2": 25
+   },
+   "STRESS": {
+    "D1|D1_pair_by_design|len2": 86,
+    "A3|other|len2": 11,
+    "A1|other|len2": 6,
+    "D3|other|len2": 1,
+    "C2|other|len2": 2,
+    "D1|D1_pair_by_design|len3+": 3,
+    "A3N|other|len2": 15,
+    "OTHER|other|len2": 2,
+    "D1P|other|len2": 9,
+    "D2|other|len2": 6,
+    "D1|other|len2": 1,
+    "C1|other|len2": 1,
+    "B1|other|len2": 1
+   }
+  },
+  "d1_d1p_pairing": {
+   "d1p_values": 50,
+   "d1p_values_found_in_some_d1_sentence": 50,
+   "d1_sentences_with_a_d1p_value": 90,
+   "d1_sentences": 90
+  },
+  "spec_checks": {
+   "rep_len_ge_60_share_pct": 34.9,
+   "stress_len_ge_60_share_pct": 20.1,
+   "rep_person_2char_pct": 30.5,
+   "rep_person_3char_pct": 50.7,
+   "rep_person_4plus_pct": 18.8,
+   "rep_alias_pct": 8.7,
+   "rep_multi_person_pct_of_person_sentences": 15.6,
+   "rep_id_prefix_ok": true,
+   "stress_id_prefix_ok": true,
+   "rep_split_set_ok": true,
+   "stress_split_set_ok": true,
+   "stress_has_primary_and_list": true,
+   "sources": {
+    "synthetic_gpt_r9": 2400
+   },
+   "batches_rep": 8,
+   "batches_stress": 4,
+   "template_id_present_rep": 0,
+   "template_id_present_stress": 0,
+   "context_entities_rows": {
+    "rep": 16,
+    "stress": 40
+   },
+   "negative_with_context_entities_stress_A3N": 40,
+   "stress_person_len_by_type": {
+    "A1": {
+     "2": 110
+    },
+    "A3": {
+     "2": 50,
+     "3": 40
+    },
+    "B1": {
+     "3": 90
+    },
+    "B2": {
+     "2": 10,
+     "3": 26,
+     "4": 14
+    },
+    "C1": {
+     "2": 17,
+     "3": 27,
+     "4": 16
+    },
+    "C2": {
+     "2": 42,
+     "3": 38
+    },
+    "D3": {
+     "2": 56,
+     "3": 61,
+     "4": 18
+    },
+    "D1P": {
+     "2": 48,
+     "3": 2
+    }
+   },
+   "rep_top1_sentence_ending3_share_pct": 4.8,
+   "rep_top1_first_token_share_pct": 7.0,
+   "rep_distinct_sentence_endings3": 303,
+   "stress_top1_sentence_ending3_share_pct": 4.1,
+   "stress_top1_first_token_share_pct": 3.9,
+   "stress_distinct_sentence_endings3": 170
+  },
+  "eval_code_compat": {
+   "rep": {
+    "oracle_person_f1": 1.0,
+    "oracle_exposure": 0.0,
+    "oracle_protected_all": 1.0,
+    "account_policy": {
+     "blocked": 62,
+     "value_masked": 0,
+     "exposed": 0,
+     "n": 62
+    }
+   },
+   "stress": {
+    "oracle_person_f1": 1.0,
+    "oracle_exposure": 0.0,
+    "oracle_protected_all": 1.0,
+    "account_policy": {
+     "blocked": 12,
+     "value_masked": 0,
+     "exposed": 0,
+     "n": 12
+    }
+   }
+  },
+  "id_list_counts": {
+   "CROSS_SENTENCE_PAIRS": 0,
+   "CROSS_SHARED_PERSON_VALUE_ROWS": 6,
+   "CROSS_SKELETON_EQUAL_PAIRS": 7,
+   "CROSS_SKELETON_SIMILAR_PAIRS": 15,
+   "REP_NEAR_DUPLICATE_PAIRS": 5,
+   "REP_POSSIBLE_ONE_CHAR_NAME_PATTERN": 5,
+   "REP_UNLABELED_NAME_SUSPECT_OTHER": 25,
+   "STRESS_NEAR_DUPLICATE_PAIRS": 3,
+   "STRESS_POSSIBLE_ONE_CHAR_NAME_PATTERN": 1,
+   "STRESS_UNLABELED_NAME_SUSPECT_D1_PAIR_BY_DESIGN": 89,
+   "STRESS_UNLABELED_NAME_SUSPECT_LEN3PLUS": 3,
+   "STRESS_UNLABELED_NAME_SUSPECT_OTHER": 55
+  }
+ },
+ "ids": {
+  "CROSS_SENTENCE_PAIRS": [],
+  "CROSS_SKELETON_EQUAL_PAIRS": [
+   "R9R-1512|R9S-0033",
+   "R9R-1475|R9S-0070",
+   "R9R-0030|R9S-0240",
+   "R9R-1128|R9S-0245",
+   "R9R-0385|R9S-0280",
+   "R9R-1263|R9S-0574",
+   "R9R-1342|R9S-0750"
+  ],
+  "CROSS_SKELETON_SIMILAR_PAIRS": [
+   "R9R-1512|R9S-0033",
+   "R9R-1475|R9S-0070",
+   "R9R-0195|R9S-0176",
+   "R9R-1427|R9S-0203",
+   "R9R-0030|R9S-0240",
+   "R9R-1128|R9S-0245",
+   "R9R-0385|R9S-0280",
+   "R9R-0916|R9S-0391",
+   "R9R-1427|R9S-0431",
+   "R9R-0807|R9S-0444",
+   "R9R-0935|R9S-0495",
+   "R9R-1263|R9S-0574",
+   "R9R-0793|R9S-0669",
+   "R9R-0927|R9S-0703",
+   "R9R-1342|R9S-0750"
+  ],
+  "CROSS_SHARED_PERSON_VALUE_ROWS": [
+   "R9R-0110",
+   "R9R-0768",
+   "R9R-1167",
+   "R9S-0030",
+   "R9S-0100",
+   "R9S-0104"
+  ],
+  "REP_NEAR_DUPLICATE_PAIRS": [
+   "R9R-0067|R9R-1467",
+   "R9R-0447|R9R-1047",
+   "R9R-0452|R9R-1452",
+   "R9R-0506|R9R-0586",
+   "R9R-0548|R9R-1308"
+  ],
+  "STRESS_NEAR_DUPLICATE_PAIRS": [
+   "R9S-0098|R9S-0198",
+   "R9S-0133|R9S-0333",
+   "R9S-0156|R9S-0656"
+  ],
+  "REP_POSSIBLE_ONE_CHAR_NAME_PATTERN": [
+   "R9R-0072",
+   "R9R-0710",
+   "R9R-0943",
+   "R9R-1166",
+   "R9R-1485"
+  ],
+  "STRESS_POSSIBLE_ONE_CHAR_NAME_PATTERN": [
+   "R9S-0040"
+  ],
+  "REP_UNLABELED_NAME_SUSPECT_OTHER": [
+   "R9R-0053",
+   "R9R-0106",
+   "R9R-0162",
+   "R9R-0301",
+   "R9R-0335",
+   "R9R-0373",
+   "R9R-0411",
+   "R9R-0554",
+   "R9R-0661",
+   "R9R-0773",
+   "R9R-0796",
+   "R9R-0828",
+   "R9R-0881",
+   "R9R-0897",
+   "R9R-0918",
+   "R9R-0977",
+   "R9R-1034",
+   "R9R-1037",
+   "R9R-1039",
+   "R9R-1081",
+   "R9R-1137",
+   "R9R-1314",
+   "R9R-1331",
+   "R9R-1401",
+   "R9R-1402"
+  ],
+  "STRESS_UNLABELED_NAME_SUSPECT_D1_PAIR_BY_DESIGN": [
+   "R9S-0001",
+   "R9S-0006",
+   "R9S-0023",
+   "R9S-0025",
+   "R9S-0029",
+   "R9S-0031",
+   "R9S-0034",
+   "R9S-0040",
+   "R9S-0052",
+   "R9S-0053",
+   "R9S-0057",
+   "R9S-0061",
+   "R9S-0064",
+   "R9S-0088",
+   "R9S-0089",
+   "R9S-0107",
+   "R9S-0112",
+   "R9S-0120",
+   "R9S-0124",
+   "R9S-0137",
+   "R9S-0139",
+   "R9S-0140",
+   "R9S-0145",
+   "R9S-0165",
+   "R9S-0166",
+   "R9S-0178",
+   "R9S-0180",
+   "R9S-0181",
+   "R9S-0193",
+   "R9S-0230",
+   "R9S-0236",
+   "R9S-0249",
+   "R9S-0250",
+   "R9S-0251",
+   "R9S-0257",
+   "R9S-0262",
+   "R9S-0277",
+   "R9S-0285",
+   "R9S-0292",
+   "R9S-0297",
+   "R9S-0315",
+   "R9S-0317",
+   "R9S-0340",
+   "R9S-0344",
+   "R9S-0345",
+   "R9S-0352",
+   "R9S-0354",
+   "R9S-0363",
+   "R9S-0364",
+   "R9S-0374",
+   "R9S-0377",
+   "R9S-0383",
+   "R9S-0392",
+   "R9S-0393",
+   "R9S-0396",
+   "R9S-0399",
+   "R9S-0426",
+   "R9S-0441",
+   "R9S-0448",
+   "R9S-0451",
+   "R9S-0457",
+   "R9S-0458",
+   "R9S-0471",
+   "R9S-0496",
+   "R9S-0498",
+   "R9S-0506",
+   "R9S-0523",
+   "R9S-0528",
+   "R9S-0557",
+   "R9S-0558",
+   "R9S-0566",
+   "R9S-0576",
+   "R9S-0583",
+   "R9S-0590",
+   "R9S-0606",
+   "R9S-0616",
+   "R9S-0657",
+   "R9S-0667",
+   "R9S-0717",
+   "R9S-0730",
+   "R9S-0742",
+   "R9S-0744",
+   "R9S-0763",
+   "R9S-0764",
+   "R9S-0767",
+   "R9S-0768",
+   "R9S-0784",
+   "R9S-0786",
+   "R9S-0790"
+  ],
+  "STRESS_UNLABELED_NAME_SUSPECT_OTHER": [
+   "R9S-0030",
+   "R9S-0042",
+   "R9S-0071",
+   "R9S-0077",
+   "R9S-0086",
+   "R9S-0104",
+   "R9S-0105",
+   "R9S-0110",
+   "R9S-0113",
+   "R9S-0125",
+   "R9S-0138",
+   "R9S-0159",
+   "R9S-0202",
+   "R9S-0212",
+   "R9S-0227",
+   "R9S-0265",
+   "R9S-0302",
+   "R9S-0304",
+   "R9S-0313",
+   "R9S-0324",
+   "R9S-0362",
+   "R9S-0370",
+   "R9S-0372",
+   "R9S-0405",
+   "R9S-0450",
+   "R9S-0466",
+   "R9S-0469",
+   "R9S-0487",
+   "R9S-0499",
+   "R9S-0500",
+   "R9S-0530",
+   "R9S-0535",
+   "R9S-0540",
+   "R9S-0541",
+   "R9S-0554",
+   "R9S-0559",
+   "R9S-0563",
+   "R9S-0585",
+   "R9S-0586",
+   "R9S-0591",
+   "R9S-0601",
+   "R9S-0618",
+   "R9S-0634",
+   "R9S-0641",
+   "R9S-0649",
+   "R9S-0655",
+   "R9S-0661",
+   "R9S-0678",
+   "R9S-0696",
+   "R9S-0700",
+   "R9S-0729",
+   "R9S-0731",
+   "R9S-0751",
+   "R9S-0775",
+   "R9S-0779"
+  ],
+  "STRESS_UNLABELED_NAME_SUSPECT_LEN3PLUS": [
+   "R9S-0107",
+   "R9S-0251",
+   "R9S-0557"
+  ]
+ }
+}

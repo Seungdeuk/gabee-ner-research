@@ -1,0 +1,10 @@
+R11 health=200 start_to_health_s=6.4
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+MODE=required
+3831601b7ffb6093a8d1b8c832e46ad140712c6e402f17b3054c3ec0f9ae4c94
+{"mode": "required", "active": true, "fingerprint": "3831601b7ffb"}
+--- rollback to S0 image
+S0 health=200 switch_time_s=7.2
+46210943c45f01b6a9fa500894fb9821b1c130be63de8d8f7ef603d2d87ccf8e
+{"mode": "auto", "active": true, "fingerprint": "46210943c45f"}
+remaining nonprod containers: 0

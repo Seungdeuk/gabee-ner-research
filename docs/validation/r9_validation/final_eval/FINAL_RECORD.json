@@ -1,0 +1,36 @@
+{
+ "executed": "2026-11-19, 1회(첫 실행에서 정상 종료, 재실행 없음)",
+ "command_args": "--execute-final --model service <v2b 폴더> 46210943c45f --model cand_F-full_s13 <r9-F-full-s13 export> --expect-onnx-sha 997191d7...",
+ "final_result_json_sha256": "a110b05a599e04b22ddd91405bd90ea6b3a2dd4011b904ecc0b8c8ef8ccfa5f5",
+ "run_log_sha256": "149123a942729907a824fb2aa666122508b3a605250a745e4744f92c9b884e4a",
+ "model_onnx_sha256_in_result": {
+  "service": "46210943c45f01b6a9fa500894fb9821b1c130be63de8d8f7ef603d2d87ccf8e",
+  "cand_F-full_s13": "997191d7874ca3d71e3030e232d566daafa2cd8c7f36d9cceb2cadb2447a9bdf"
+ },
+ "sealed_sha256_in_result": {
+  "representative": "110cceef97381a71125a96e1c08f4396878ce41d3676a57d938d464d2d313039",
+  "stress": "8f742bb7f321dd8c820f68ddcc49030c017c5af424a66967ae074b7e394ce66b"
+ },
+ "recommendation": {
+  "conditions": {
+   "1_exposure_upper_ci<0_and_point<=-1.0pp": true,
+   "2_fpr_diff_upper_ci<=+2.0pp": true,
+   "3_f1_diff_lower_ci>=-1.0pp": true,
+   "4_overmerge<=service": true,
+   "5_no_stress_type_exposure_worse_than_+2.0pp": false
+  },
+  "recommend_replacement": false,
+  "worst_stress_type": [
+   "D1P",
+   0.04000000000000001
+  ],
+  "point_diffs": {
+   "exposure": -0.0883424408014572,
+   "fpr": -0.0075000000000000015,
+   "f1": 0.1323317205670147
+  },
+  "note": "사용자가 최종 결정한다. 하나라도 어기면 '교체 근거 불충분'. 유의하지 않은 차이는 개선이라고 쓰지 않는다."
+ },
+ "preflight": "PREFLIGHT_frozen.json (커밋 f5c0e323, 실행 전)",
+ "readonly": "원본 결과 파일은 ner-runs/r9/final 에서 읽기 전용 속성으로 보존"
+}

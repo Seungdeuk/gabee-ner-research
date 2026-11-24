@@ -1,0 +1,19 @@
+== R6_B vs R6_normal ==
+  control_end_position: R6_normal=[('PERSON', 9, 11, '민준'), ('PERSON', 15, 17, '윤이')] -> R6_B=[('PERSON', 9, 11, '민준'), ('PERSON', 14, 17, '서윤이')]
+  control_particle_wa: R6_normal=[('PERSON', 1, 3, '준이'), ('PERSON', 5, 8, '서윤이')] -> R6_B=[('PERSON', 0, 3, '민준이'), ('PERSON', 5, 8, '서윤이')]
+  control_particle_object: R6_normal=[('PERSON', 5, 7, '민준'), ('PERSON', 11, 13, '윤이')] -> R6_B=[('PERSON', 5, 8, '민준이'), ('PERSON', 10, 13, '서윤이')]
+== R7_normal vs R6_normal ==
+  control_end_position: R6_normal=[('PERSON', 9, 11, '민준'), ('PERSON', 15, 17, '윤이')] -> R7_normal=[('PERSON', 9, 11, '민준'), ('PERSON', 14, 16, '서윤')]
+  control_particle_wa: R6_normal=[('PERSON', 1, 3, '준이'), ('PERSON', 5, 8, '서윤이')] -> R7_normal=[('PERSON', 0, 3, '민준이'), ('PERSON', 5, 8, '서윤이')]
+  control_particle_object: R6_normal=[('PERSON', 5, 7, '민준'), ('PERSON', 11, 13, '윤이')] -> R7_normal=[('PERSON', 5, 8, '민준이'), ('PERSON', 10, 13, '서윤이')]
+  concat_nospace: R6_normal=[('PERSON', 0, 5, '민준서윤이')] -> R7_normal=[('PERSON', 0, 3, '민준서'), ('PERSON', 3, 5, '윤이')]
+  concat_nospace2: R6_normal=[('PERSON', 0, 5, '지호민준이')] -> R7_normal=[('PERSON', 0, 4, '지호민준')]
+  concat_nospace_end: R6_normal=[('PERSON', 3, 8, '민준서윤이')] -> R7_normal=[('PERSON', 3, 7, '민준서윤')]
+  nick_concat: R6_normal=[('PERSON', 0, 5, '콩이민준이')] -> R7_normal=[('PERSON', 0, 4, '콩이민준')]
+  alias_alias_concat: R6_normal=[('PERSON', 0, 3, '민준이'), ('PERSON', 4, 7, '지호형')] -> R7_normal=[('PERSON', 0, 7, '민준이형지호형')]
+== R7_B vs R6_normal ==
+  control_end_position: R6_normal=[('PERSON', 9, 11, '민준'), ('PERSON', 15, 17, '윤이')] -> R7_B=[('PERSON', 9, 11, '민준'), ('PERSON', 14, 17, '서윤이')]
+  control_particle_wa: R6_normal=[('PERSON', 1, 3, '준이'), ('PERSON', 5, 8, '서윤이')] -> R7_B=[('PERSON', 0, 3, '민준이'), ('PERSON', 5, 8, '서윤이')]
+  control_particle_object: R6_normal=[('PERSON', 5, 7, '민준'), ('PERSON', 11, 13, '윤이')] -> R7_B=[('PERSON', 5, 8, '민준이'), ('PERSON', 10, 13, '서윤이')]
+  concat_nospace2: R6_normal=[('PERSON', 0, 5, '지호민준이')] -> R7_B=[('PERSON', 0, 4, '지호민준')]
+  alias_alias_concat: R6_normal=[('PERSON', 0, 3, '민준이'), ('PERSON', 4, 7, '지호형')] -> R7_B=[('PERSON', 0, 7, '민준이형지호형')]

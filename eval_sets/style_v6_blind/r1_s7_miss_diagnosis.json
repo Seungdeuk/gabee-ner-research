@@ -1,0 +1,1203 @@
+{
+ "complete_miss": [
+  {
+   "id": "v6-0166",
+   "category": "낯선_이름",
+   "text": "단우리 오늘 저녁엔 뭐 먹고 싶대?",
+   "gold_name": "단우리",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 1,
+     "score": 0.8986,
+     "text": "단"
+    }
+   ]
+  },
+  {
+   "id": "v6-0221",
+   "category": "애칭_줄임말",
+   "text": "강이 오늘 유치원에서 노래 배웠대",
+   "gold_name": "강이",
+   "gold_start": 0,
+   "gold_end": 2,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 1,
+     "score": 0.961,
+     "text": "강"
+    }
+   ]
+  },
+  {
+   "id": "v6-0224",
+   "category": "애칭_줄임말",
+   "text": "강이 요즘 부쩍 말이 늘었어",
+   "gold_name": "강이",
+   "gold_start": 0,
+   "gold_end": 2,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 1,
+     "score": 0.9605,
+     "text": "강"
+    }
+   ]
+  },
+  {
+   "id": "v6-0226",
+   "category": "애칭_줄임말",
+   "text": "할머니가 강이 보고싶다고 전화하셨어",
+   "gold_name": "강이",
+   "gold_start": 5,
+   "gold_end": 7,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 5,
+     "end": 6,
+     "score": 0.9607,
+     "text": "강"
+    }
+   ]
+  },
+  {
+   "id": "v6-0227",
+   "category": "애칭_줄임말",
+   "text": "강이 데리러 몇시에 갈까",
+   "gold_name": "강이",
+   "gold_start": 0,
+   "gold_end": 2,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 1,
+     "score": 0.9609,
+     "text": "강"
+    }
+   ]
+  },
+  {
+   "id": "v6-0246",
+   "category": "애칭_줄임말",
+   "text": "할머니가 담이 보고싶다고 전화하셨어",
+   "gold_name": "담이",
+   "gold_start": 5,
+   "gold_end": 7,
+   "cause": "점수 임계값 탈락",
+   "raw_candidates": [
+    {
+     "label": "PERSON_ALIAS",
+     "start": 5,
+     "end": 6,
+     "score": 0.476,
+     "text": "담"
+    }
+   ]
+  },
+  {
+   "id": "v6-0261",
+   "category": "애칭_줄임말",
+   "text": "찬이 오늘 유치원에서 노래 배웠대",
+   "gold_name": "찬이",
+   "gold_start": 0,
+   "gold_end": 2,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 1,
+     "score": 0.9445,
+     "text": "찬"
+    }
+   ]
+  },
+  {
+   "id": "v6-0264",
+   "category": "애칭_줄임말",
+   "text": "찬이 요즘 부쩍 말이 늘었어",
+   "gold_name": "찬이",
+   "gold_start": 0,
+   "gold_end": 2,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 1,
+     "score": 0.8743,
+     "text": "찬"
+    }
+   ]
+  },
+  {
+   "id": "v6-0266",
+   "category": "애칭_줄임말",
+   "text": "할머니가 찬이 보고싶다고 전화하셨어",
+   "gold_name": "찬이",
+   "gold_start": 5,
+   "gold_end": 7,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 5,
+     "end": 6,
+     "score": 0.8907,
+     "text": "찬"
+    }
+   ]
+  },
+  {
+   "id": "v6-0267",
+   "category": "애칭_줄임말",
+   "text": "찬이 데리러 몇시에 갈까",
+   "gold_name": "찬이",
+   "gold_start": 0,
+   "gold_end": 2,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 1,
+     "score": 0.9583,
+     "text": "찬"
+    }
+   ]
+  },
+  {
+   "id": "v6-0276",
+   "category": "애칭_줄임말",
+   "text": "할머니가 곤이 보고싶다고 전화하셨어",
+   "gold_name": "곤이",
+   "gold_start": 5,
+   "gold_end": 7,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 5,
+     "end": 6,
+     "score": 0.9495,
+     "text": "곤"
+    }
+   ]
+  },
+  {
+   "id": "v6-0277",
+   "category": "애칭_줄임말",
+   "text": "곤이 데리러 몇시에 갈까",
+   "gold_name": "곤이",
+   "gold_start": 0,
+   "gold_end": 2,
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 1,
+     "score": 0.96,
+     "text": "곤"
+    }
+   ]
+  },
+  {
+   "id": "v6-0281",
+   "category": "ORGLOC_표면형",
+   "text": "할인소 오늘 늦게 끝난대",
+   "gold_name": "할인소",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0282",
+   "category": "ORGLOC_표면형",
+   "text": "할인소가 숙제 검사받았대",
+   "gold_name": "할인소",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0283",
+   "category": "ORGLOC_표면형",
+   "text": "할인소 사진 좀 보내줘",
+   "gold_name": "할인소",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0284",
+   "category": "ORGLOC_표면형",
+   "text": "삼촌이 할인소 데리러 간대",
+   "gold_name": "할인소",
+   "gold_start": 4,
+   "gold_end": 7,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0285",
+   "category": "ORGLOC_표면형",
+   "text": "할인소가 오늘 상 받았대",
+   "gold_name": "할인소",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0286",
+   "category": "ORGLOC_표면형",
+   "text": "예약관 오늘 늦게 끝난대",
+   "gold_name": "예약관",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0288",
+   "category": "ORGLOC_표면형",
+   "text": "예약관 사진 좀 보내줘",
+   "gold_name": "예약관",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0289",
+   "category": "ORGLOC_표면형",
+   "text": "삼촌이 예약관 데리러 간대",
+   "gold_name": "예약관",
+   "gold_start": 4,
+   "gold_end": 7,
+   "cause": "다른 라벨로 오분류(LOCATION/ORGANIZATION)",
+   "raw_candidates": [
+    {
+     "label": "ORGANIZATION",
+     "start": 4,
+     "end": 6,
+     "score": 0.4171,
+     "text": "예약"
+    },
+    {
+     "label": "LOCATION",
+     "start": 6,
+     "end": 7,
+     "score": 0.4981,
+     "text": "관"
+    }
+   ]
+  },
+  {
+   "id": "v6-0291",
+   "category": "ORGLOC_표면형",
+   "text": "문의실 오늘 늦게 끝난대",
+   "gold_name": "문의실",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0292",
+   "category": "ORGLOC_표면형",
+   "text": "문의실이 숙제 검사받았대",
+   "gold_name": "문의실",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0293",
+   "category": "ORGLOC_표면형",
+   "text": "문의실 사진 좀 보내줘",
+   "gold_name": "문의실",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0295",
+   "category": "ORGLOC_표면형",
+   "text": "문의실이 오늘 상 받았대",
+   "gold_name": "문의실",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0296",
+   "category": "ORGLOC_표면형",
+   "text": "안내장 오늘 늦게 끝난대",
+   "gold_name": "안내장",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0298",
+   "category": "ORGLOC_표면형",
+   "text": "안내장 사진 좀 보내줘",
+   "gold_name": "안내장",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0300",
+   "category": "ORGLOC_표면형",
+   "text": "안내장이 오늘 상 받았대",
+   "gold_name": "안내장",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0306",
+   "category": "ORGLOC_표면형",
+   "text": "대출원 오늘 늦게 끝난대",
+   "gold_name": "대출원",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0307",
+   "category": "ORGLOC_표면형",
+   "text": "대출원이 숙제 검사받았대",
+   "gold_name": "대출원",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0308",
+   "category": "ORGLOC_표면형",
+   "text": "대출원 사진 좀 보내줘",
+   "gold_name": "대출원",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0309",
+   "category": "ORGLOC_표면형",
+   "text": "삼촌이 대출원 데리러 간대",
+   "gold_name": "대출원",
+   "gold_start": 4,
+   "gold_end": 7,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0310",
+   "category": "ORGLOC_표면형",
+   "text": "대출원이 오늘 상 받았대",
+   "gold_name": "대출원",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0311",
+   "category": "ORGLOC_표면형",
+   "text": "등록관 오늘 늦게 끝난대",
+   "gold_name": "등록관",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "다른 라벨로 오분류(ORGANIZATION)",
+   "raw_candidates": [
+    {
+     "label": "ORGANIZATION",
+     "start": 0,
+     "end": 3,
+     "score": 0.5166,
+     "text": "등록관"
+    }
+   ]
+  },
+  {
+   "id": "v6-0313",
+   "category": "ORGLOC_표면형",
+   "text": "등록관 사진 좀 보내줘",
+   "gold_name": "등록관",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "다른 라벨로 오분류(ORGANIZATION)",
+   "raw_candidates": [
+    {
+     "label": "ORGANIZATION",
+     "start": 0,
+     "end": 2,
+     "score": 0.5249,
+     "text": "등록"
+    }
+   ]
+  },
+  {
+   "id": "v6-0314",
+   "category": "ORGLOC_표면형",
+   "text": "삼촌이 등록관 데리러 간대",
+   "gold_name": "등록관",
+   "gold_start": 4,
+   "gold_end": 7,
+   "cause": "다른 라벨로 오분류(ORGANIZATION)",
+   "raw_candidates": [
+    {
+     "label": "ORGANIZATION",
+     "start": 4,
+     "end": 7,
+     "score": 0.7853,
+     "text": "등록관"
+    }
+   ]
+  },
+  {
+   "id": "v6-0316",
+   "category": "ORGLOC_표면형",
+   "text": "면접소 오늘 늦게 끝난대",
+   "gold_name": "면접소",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0317",
+   "category": "ORGLOC_표면형",
+   "text": "면접소가 숙제 검사받았대",
+   "gold_name": "면접소",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0318",
+   "category": "ORGLOC_표면형",
+   "text": "면접소 사진 좀 보내줘",
+   "gold_name": "면접소",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0319",
+   "category": "ORGLOC_표면형",
+   "text": "삼촌이 면접소 데리러 간대",
+   "gold_name": "면접소",
+   "gold_start": 4,
+   "gold_end": 7,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  },
+  {
+   "id": "v6-0320",
+   "category": "ORGLOC_표면형",
+   "text": "면접소가 오늘 상 받았대",
+   "gold_name": "면접소",
+   "gold_start": 0,
+   "gold_end": 3,
+   "cause": "후보 미생성",
+   "raw_candidates": []
+  }
+ ],
+ "boundary_mismatch": [
+  {
+   "id": "v6-0041",
+   "category": "일반_메신저",
+   "text": "신가은이 오늘 학원 끝나고 바로 온대",
+   "gold_name": "신가은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "신가은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.967,
+     "text": "신가은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0045",
+   "category": "일반_메신저",
+   "text": "신가은이 숙제 다 했다고 자랑하더라",
+   "gold_name": "신가은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "신가은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.967,
+     "text": "신가은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0048",
+   "category": "일반_메신저",
+   "text": "신가은이 축구화 새로 사달래",
+   "gold_name": "신가은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "신가은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9666,
+     "text": "신가은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0050",
+   "category": "일반_메신저",
+   "text": "신가은이랑 같이 도서관 가기로 했어",
+   "gold_name": "신가은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "신가은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9668,
+     "text": "신가은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0121",
+   "category": "일반_메신저",
+   "text": "류채은이 오늘 학원 끝나고 바로 온대",
+   "gold_name": "류채은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "류채은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9675,
+     "text": "류채은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0125",
+   "category": "일반_메신저",
+   "text": "류채은이 숙제 다 했다고 자랑하더라",
+   "gold_name": "류채은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "류채은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9673,
+     "text": "류채은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0128",
+   "category": "일반_메신저",
+   "text": "류채은이 축구화 새로 사달래",
+   "gold_name": "류채은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "류채은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9674,
+     "text": "류채은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0130",
+   "category": "일반_메신저",
+   "text": "류채은이랑 같이 도서관 가기로 했어",
+   "gold_name": "류채은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "류채은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9676,
+     "text": "류채은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0151",
+   "category": "일반_메신저",
+   "text": "양하은이 오늘 학원 끝나고 바로 온대",
+   "gold_name": "양하은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "양하은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9676,
+     "text": "양하은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0155",
+   "category": "일반_메신저",
+   "text": "양하은이 숙제 다 했다고 자랑하더라",
+   "gold_name": "양하은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "양하은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9674,
+     "text": "양하은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0158",
+   "category": "일반_메신저",
+   "text": "양하은이 축구화 새로 사달래",
+   "gold_name": "양하은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "양하은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9674,
+     "text": "양하은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0160",
+   "category": "일반_메신저",
+   "text": "양하은이랑 같이 도서관 가기로 했어",
+   "gold_name": "양하은",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "양하은이"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9677,
+     "text": "양하은이"
+    }
+   ]
+  },
+  {
+   "id": "v6-0202",
+   "category": "낯선_이름",
+   "text": "창해나가 어제 늦게까지 안 자더라",
+   "gold_name": "창해나",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "창해나가"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9659,
+     "text": "창해나가"
+    }
+   ]
+  },
+  {
+   "id": "v6-0205",
+   "category": "낯선_이름",
+   "text": "창해나가 줄넘기 대회 나간대",
+   "gold_name": "창해나",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "창해나가"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 4,
+     "score": 0.9665,
+     "text": "창해나가"
+    }
+   ]
+  },
+  {
+   "id": "v6-0290",
+   "category": "ORGLOC_표면형",
+   "text": "예약관이 오늘 상 받았대",
+   "gold_name": "예약관",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "partial",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 2,
+     "text": "예약"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 2,
+     "score": 0.5868,
+     "text": "예약"
+    }
+   ]
+  },
+  {
+   "id": "v6-0297",
+   "category": "ORGLOC_표면형",
+   "text": "안내장이 숙제 검사받았대",
+   "gold_name": "안내장",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "partial",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 2,
+     "text": "안내"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 2,
+     "score": 0.6376,
+     "text": "안내"
+    }
+   ]
+  },
+  {
+   "id": "v6-0299",
+   "category": "ORGLOC_표면형",
+   "text": "삼촌이 안내장 데리러 간대",
+   "gold_name": "안내장",
+   "gold_start": 4,
+   "gold_end": 7,
+   "coverage": "partial",
+   "final_prediction": [
+    {
+     "start": 4,
+     "end": 6,
+     "text": "안내"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 4,
+     "end": 6,
+     "score": 0.5884,
+     "text": "안내"
+    }
+   ]
+  },
+  {
+   "id": "v6-0375",
+   "category": "조사_경계건강검진",
+   "text": "강이준네 옆집으로 이사왔대",
+   "gold_name": "강이준",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 2,
+     "text": "강이"
+    },
+    {
+     "start": 2,
+     "end": 4,
+     "text": "준네"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 2,
+     "score": 0.8299,
+     "text": "강이"
+    },
+    {
+     "label": "PERSON_ALIAS",
+     "start": 2,
+     "end": 4,
+     "score": 0.8259,
+     "text": "준네"
+    }
+   ]
+  },
+  {
+   "id": "v6-0383",
+   "category": "조사_경계건강검진",
+   "text": "노을하네 옆집으로 이사왔대",
+   "gold_name": "노을하",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "노을하네"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON_ALIAS",
+     "start": 0,
+     "end": 4,
+     "score": 0.6473,
+     "text": "노을하네"
+    }
+   ]
+  },
+  {
+   "id": "v6-0391",
+   "category": "조사_경계건강검진",
+   "text": "민서온네 옆집으로 이사왔대",
+   "gold_name": "민서온",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "partial",
+   "final_prediction": [
+    {
+     "start": 2,
+     "end": 4,
+     "text": "온네"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON_ALIAS",
+     "start": 0,
+     "end": 1,
+     "score": 0.5106,
+     "text": "민"
+    },
+    {
+     "label": "PERSON",
+     "start": 1,
+     "end": 2,
+     "score": 0.9561,
+     "text": "서"
+    },
+    {
+     "label": "PERSON_ALIAS",
+     "start": 2,
+     "end": 4,
+     "score": 0.866,
+     "text": "온네"
+    }
+   ]
+  },
+  {
+   "id": "v6-0399",
+   "category": "조사_경계건강검진",
+   "text": "백하늘네 옆집으로 이사왔대",
+   "gold_name": "백하늘",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "백하늘네"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON_ALIAS",
+     "start": 0,
+     "end": 4,
+     "score": 0.8379,
+     "text": "백하늘네"
+    }
+   ]
+  },
+  {
+   "id": "v6-0407",
+   "category": "조사_경계건강검진",
+   "text": "오지연네 옆집으로 이사왔대",
+   "gold_name": "오지연",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "오지연네"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON_ALIAS",
+     "start": 0,
+     "end": 4,
+     "score": 0.7246,
+     "text": "오지연네"
+    }
+   ]
+  },
+  {
+   "id": "v6-0415",
+   "category": "조사_경계건강검진",
+   "text": "장우빈네 옆집으로 이사왔대",
+   "gold_name": "장우빈",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 2,
+     "text": "장우"
+    },
+    {
+     "start": 2,
+     "end": 4,
+     "text": "빈네"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON",
+     "start": 0,
+     "end": 2,
+     "score": 0.8458,
+     "text": "장우"
+    },
+    {
+     "label": "PERSON_ALIAS",
+     "start": 2,
+     "end": 4,
+     "score": 0.7742,
+     "text": "빈네"
+    }
+   ]
+  },
+  {
+   "id": "v6-0423",
+   "category": "조사_경계건강검진",
+   "text": "조하늘네 옆집으로 이사왔대",
+   "gold_name": "조하늘",
+   "gold_start": 0,
+   "gold_end": 3,
+   "coverage": "full",
+   "final_prediction": [
+    {
+     "start": 0,
+     "end": 4,
+     "text": "조하늘네"
+    }
+   ],
+   "cause": "후처리 제거/경계 트리밍(merge_ner)",
+   "raw_candidates": [
+    {
+     "label": "PERSON_ALIAS",
+     "start": 0,
+     "end": 4,
+     "score": 0.7157,
+     "text": "조하늘네"
+    }
+   ]
+  }
+ ]
+}

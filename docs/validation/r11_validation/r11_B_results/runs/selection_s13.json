@@ -1,0 +1,48 @@
+{
+ "B_old_epoch": 3,
+ "B_new_epoch": 5,
+ "same_epoch": false,
+ "excluded_by_safety": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "val_by_epoch": {
+  "1": {
+   "pair_context_accuracy": 0.11666666666666667,
+   "exact_recall": 0.6556420233463035,
+   "person_total_exposure": 0.3808353808353808,
+   "n_pairs": 300,
+   "d1_fpr": 0.3160621761658031
+  },
+  "2": {
+   "pair_context_accuracy": 0.20666666666666667,
+   "exact_recall": 0.7217898832684825,
+   "person_total_exposure": 0.3095823095823096,
+   "n_pairs": 300,
+   "d1_fpr": 0.2538860103626943
+  },
+  "3": {
+   "pair_context_accuracy": 0.24666666666666667,
+   "exact_recall": 0.7509727626459144,
+   "person_total_exposure": 0.2727272727272727,
+   "n_pairs": 300,
+   "d1_fpr": 0.2694300518134715
+  },
+  "4": {
+   "pair_context_accuracy": 0.2633333333333333,
+   "exact_recall": 0.7898832684824902,
+   "person_total_exposure": 0.20884520884520885,
+   "n_pairs": 300,
+   "d1_fpr": 0.3316062176165803
+  },
+  "5": {
+   "pair_context_accuracy": 0.2966666666666667,
+   "exact_recall": 0.8210116731517509,
+   "person_total_exposure": 0.17444717444717445,
+   "n_pairs": 300,
+   "d1_fpr": 0.33678756476683935
+  }
+ }
+}

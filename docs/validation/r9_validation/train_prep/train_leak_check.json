@@ -1,0 +1,28 @@
+{
+ "train_rows": 3126,
+ "val_rows": 844,
+ "train_val_sentence_overlap": 0,
+ "train_val_frame_overlap": 0,
+ "train_val_person_value_overlap": 0,
+ "train_val_given_name_overlap": 9,
+ "rows_checked_against_dev_existing_sealed_new180": 8660,
+ "rows_rejected_by_text_guards": 0,
+ "rejected_by_reason": {},
+ "names_in_dev_sets": 0,
+ "names_in_sealed_or_new180(count only)": 0,
+ "person_value_reuse_train": {
+  "max": 34,
+  "top5_counts": [
+   34,
+   32,
+   32,
+   3,
+   3
+  ],
+  "values_used_over_10_times": 3,
+  "values_used_once": 2384,
+  "distinct": 2602,
+  "share_of_name_spans_by_top20_values_pct": 4.9
+ },
+ "ok": true
+}

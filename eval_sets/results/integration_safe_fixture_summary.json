@@ -1,0 +1,3424 @@
+{
+ "dataset": "safe_fixture",
+ "sentences": 180,
+ "negative_sentences": 28,
+ "c_differs_from_a_sentences": 44,
+ "methods": {
+  "A_rule": {
+   "overall_fine": {
+    "exact": {
+     "gold": 176,
+     "pred": 93,
+     "tp": 93,
+     "fp": 0,
+     "fn": 83,
+     "precision": 1.0,
+     "recall": 0.5284090909090909,
+     "f1": 0.6914498141263942,
+     "fnr": 0.4715909090909091
+    },
+    "overlap": {
+     "gold": 176,
+     "pred": 93,
+     "tp": 93,
+     "fp": 0,
+     "fn": 83,
+     "precision": 1.0,
+     "recall": 0.5284090909090909,
+     "f1": 0.6914498141263942,
+     "fnr": 0.4715909090909091
+    }
+   },
+   "overall_mapped": {
+    "exact": {
+     "gold": 176,
+     "pred": 93,
+     "tp": 93,
+     "fp": 0,
+     "fn": 83,
+     "precision": 1.0,
+     "recall": 0.5284090909090909,
+     "f1": 0.6914498141263942,
+     "fnr": 0.4715909090909091
+    },
+    "overlap": {
+     "gold": 176,
+     "pred": 93,
+     "tp": 93,
+     "fp": 0,
+     "fn": 83,
+     "precision": 1.0,
+     "recall": 0.5284090909090909,
+     "f1": 0.6914498141263942,
+     "fnr": 0.4715909090909091
+    }
+   },
+   "ner_labels_only_fine": {
+    "exact": {
+     "gold": 80,
+     "pred": 28,
+     "tp": 28,
+     "fp": 0,
+     "fn": 52,
+     "precision": 1.0,
+     "recall": 0.35,
+     "f1": 0.5185185185185185,
+     "fnr": 0.65
+    },
+    "overlap": {
+     "gold": 80,
+     "pred": 28,
+     "tp": 28,
+     "fp": 0,
+     "fn": 52,
+     "precision": 1.0,
+     "recall": 0.35,
+     "f1": 0.5185185185185185,
+     "fnr": 0.65
+    }
+   },
+   "ner_labels_only_mapped": {
+    "exact": {
+     "gold": 80,
+     "pred": 28,
+     "tp": 28,
+     "fp": 0,
+     "fn": 52,
+     "precision": 1.0,
+     "recall": 0.35,
+     "f1": 0.5185185185185185,
+     "fnr": 0.65
+    },
+    "overlap": {
+     "gold": 80,
+     "pred": 28,
+     "tp": 28,
+     "fp": 0,
+     "fn": 52,
+     "precision": 1.0,
+     "recall": 0.35,
+     "f1": 0.5185185185185185,
+     "fnr": 0.65
+    }
+   },
+   "name_only_mapped_PERSON": {
+    "exact": {
+     "gold": 48,
+     "pred": 12,
+     "tp": 12,
+     "fp": 0,
+     "fn": 36,
+     "precision": 1.0,
+     "recall": 0.25,
+     "f1": 0.4,
+     "fnr": 0.75
+    },
+    "overlap": {
+     "gold": 48,
+     "pred": 12,
+     "tp": 12,
+     "fp": 0,
+     "fn": 36,
+     "precision": 1.0,
+     "recall": 0.25,
+     "f1": 0.4,
+     "fnr": 0.75
+    }
+   },
+   "per_kind_fine": {
+    "PHONE_PERSONAL": {
+     "exact": {
+      "gold": 28,
+      "pred": 20,
+      "tp": 20,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1": 0.8333333333333333,
+      "fnr": 0.2857142857142857
+     },
+     "overlap": {
+      "gold": 28,
+      "pred": 20,
+      "tp": 20,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1": 0.8333333333333333,
+      "fnr": 0.2857142857142857
+     }
+    },
+    "PHONE_PUBLIC": {
+     "exact": {
+      "gold": 4,
+      "pred": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "fnr": 0.75
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "fnr": 0.75
+     }
+    },
+    "EMAIL": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "RRN": {
+     "exact": {
+      "gold": 28,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "fnr": 0.42857142857142855
+     },
+     "overlap": {
+      "gold": 28,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "fnr": 0.42857142857142855
+     }
+    },
+    "CARD": {
+     "exact": {
+      "gold": 20,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "fnr": 0.4
+     },
+     "overlap": {
+      "gold": 20,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "fnr": 0.4
+     }
+    },
+    "ACCOUNT": {
+     "exact": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "SECRET": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "ADDRESS": {
+     "exact": {
+      "gold": 24,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "fnr": 0.3333333333333333
+     },
+     "overlap": {
+      "gold": 24,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "fnr": 0.3333333333333333
+     }
+    },
+    "LOCATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "PERSON": {
+     "exact": {
+      "gold": 40,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 28,
+      "precision": 1.0,
+      "recall": 0.3,
+      "f1": 0.4615384615384615,
+      "fnr": 0.7
+     },
+     "overlap": {
+      "gold": 40,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 28,
+      "precision": 1.0,
+      "recall": 0.3,
+      "f1": 0.4615384615384615,
+      "fnr": 0.7
+     }
+    },
+    "PERSON_ALIAS": {
+     "exact": {
+      "gold": 8,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 8,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "ORGANIZATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    }
+   },
+   "per_kind_mapped": {
+    "PHONE": {
+     "exact": {
+      "gold": 32,
+      "pred": 21,
+      "tp": 21,
+      "fp": 0,
+      "fn": 11,
+      "precision": 1.0,
+      "recall": 0.65625,
+      "f1": 0.7924528301886793,
+      "fnr": 0.34375
+     },
+     "overlap": {
+      "gold": 32,
+      "pred": 21,
+      "tp": 21,
+      "fp": 0,
+      "fn": 11,
+      "precision": 1.0,
+      "recall": 0.65625,
+      "f1": 0.7924528301886793,
+      "fnr": 0.34375
+     }
+    },
+    "EMAIL": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "RRN": {
+     "exact": {
+      "gold": 28,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "fnr": 0.42857142857142855
+     },
+     "overlap": {
+      "gold": 28,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "fnr": 0.42857142857142855
+     }
+    },
+    "CARD": {
+     "exact": {
+      "gold": 20,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "fnr": 0.4
+     },
+     "overlap": {
+      "gold": 20,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "fnr": 0.4
+     }
+    },
+    "ACCOUNT": {
+     "exact": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "SECRET": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "ADDRESS": {
+     "exact": {
+      "gold": 24,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "fnr": 0.3333333333333333
+     },
+     "overlap": {
+      "gold": 24,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1": 0.8,
+      "fnr": 0.3333333333333333
+     }
+    },
+    "PERSON": {
+     "exact": {
+      "gold": 48,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 36,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "fnr": 0.75
+     },
+     "overlap": {
+      "gold": 48,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 36,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "fnr": 0.75
+     }
+    },
+    "LOCATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "ORGANIZATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    }
+   },
+   "protect": {
+    "protect_gold": 164,
+    "protect_hit": 92,
+    "pred": 93,
+    "pred_on_protect": 92,
+    "protect_recall": 0.5609756097560976,
+    "protect_precision": 0.989247311827957
+   },
+   "fpr": {
+    "neg_sentences": 28,
+    "neg_flagged_any": 0,
+    "fpr_any": 0.0,
+    "neg_flagged_excl_location_org": 0,
+    "fpr_excl_location_org": 0.0
+   },
+   "tags": {
+    "addr_abbrev": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.5,
+     "precision_overlap": 1.0,
+     "protect_recall": 0.5,
+     "fp": 0
+    },
+    "alias_title": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "card_luhn_fail": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "card_typo": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "hangul_num": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "kin_nickname": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "kin_nickname_name": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "location_general": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "long_text": {
+     "sentences": 4,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "multi_pii": {
+     "sentences": 8,
+     "gold": 24,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_given_only": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "name_known": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_len_2": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "name_len_3": {
+     "sentences": 20,
+     "gold": 36,
+     "recall_overlap": 0.6666666666666666,
+     "precision_overlap": 1.0,
+     "protect_recall": 0.6666666666666666,
+     "fp": 0
+    },
+    "name_len_4": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "name_no_title": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "neg_amount": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_datetime": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_kin": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_order": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_version": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_waybill": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_word": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "negative": {
+     "sentences": 28,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "normal_account": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_address": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_card": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_email": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_name": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_phone": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_rrn": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "nospace": {
+     "sentences": 8,
+     "gold": 12,
+     "recall_overlap": 0.6666666666666666,
+     "precision_overlap": 1.0,
+     "protect_recall": 0.6666666666666666,
+     "fp": 0
+    },
+    "ocr_noise": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "odd_space": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "org_name": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "phone_public": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.25,
+     "precision_overlap": 1.0,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "rrn_checksum_fail": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "rrn_invalid_date": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "secret": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    }
+   },
+   "residual": {
+    "full": 92,
+    "partial": 0,
+    "none": 72,
+    "left_chars": 611,
+    "gold_chars": 1764,
+    "spans": 164,
+    "not_fully_masked": 72,
+    "full_rate": 0.5609756097560976,
+    "partial_rate": 0.0,
+    "none_rate": 0.43902439024390244,
+    "left_char_rate": 0.3463718820861678,
+    "by_kind": {
+     "ACCOUNT": {
+      "full": 8,
+      "left_chars": 0
+     },
+     "ADDRESS": {
+      "full": 16,
+      "left_chars": 110,
+      "none": 8
+     },
+     "CARD": {
+      "full": 12,
+      "left_chars": 140,
+      "none": 8
+     },
+     "EMAIL": {
+      "full": 4,
+      "left_chars": 0
+     },
+     "PERSON": {
+      "none": 36,
+      "left_chars": 103,
+      "full": 12
+     },
+     "PHONE": {
+      "none": 8,
+      "left_chars": 90,
+      "full": 20
+     },
+     "RRN": {
+      "none": 12,
+      "left_chars": 168,
+      "full": 16
+     },
+     "SECRET": {
+      "full": 4,
+      "left_chars": 0
+     }
+    }
+   },
+   "timing": {
+    "rounds": 5,
+    "mean_ms": 0.03038611111111111,
+    "p95_ms": 0.0497,
+    "max_ms": 0.3117,
+    "ms_per_100_chars": 0.08574227935413074
+   },
+   "error_counts": {
+    "FN": 83,
+    "FP": 0,
+    "BOUNDARY": 0
+   },
+   "top_errors": [
+    {
+     "error_type": "FN",
+     "kind": "PERSON",
+     "tags": "name_len_3|name_no_title",
+     "count": 8
+    },
+    {
+     "error_type": "FN",
+     "kind": "ADDRESS",
+     "tags": "addr_abbrev",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PERSON_ALIAS",
+     "tags": "alias_title",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PHONE_PERSONAL",
+     "tags": "hangul_num",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "RRN",
+     "tags": "hangul_num",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PERSON",
+     "tags": "kin_nickname|name_given_only",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PERSON_ALIAS",
+     "tags": "kin_nickname_name",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "LOCATION",
+     "tags": "location_general",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PERSON",
+     "tags": "name_given_only",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PERSON",
+     "tags": "name_len_2",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PERSON",
+     "tags": "name_len_3",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PERSON",
+     "tags": "name_len_4",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "ADDRESS",
+     "tags": "nospace",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "CARD",
+     "tags": "ocr_noise",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "RRN",
+     "tags": "ocr_noise",
+     "count": 4
+    }
+   ],
+   "error_examples": []
+  },
+  "B_ner": {
+   "overall_fine": {
+    "exact": {
+     "gold": 176,
+     "pred": 81,
+     "tp": 78,
+     "fp": 3,
+     "fn": 98,
+     "precision": 0.9629629629629629,
+     "recall": 0.4431818181818182,
+     "f1": 0.6070038910505836,
+     "fnr": 0.5568181818181818
+    },
+    "overlap": {
+     "gold": 176,
+     "pred": 81,
+     "tp": 79,
+     "fp": 2,
+     "fn": 97,
+     "precision": 0.9753086419753086,
+     "recall": 0.44886363636363635,
+     "f1": 0.6147859922178988,
+     "fnr": 0.5511363636363636
+    }
+   },
+   "overall_mapped": {
+    "exact": {
+     "gold": 176,
+     "pred": 81,
+     "tp": 78,
+     "fp": 3,
+     "fn": 98,
+     "precision": 0.9629629629629629,
+     "recall": 0.4431818181818182,
+     "f1": 0.6070038910505836,
+     "fnr": 0.5568181818181818
+    },
+    "overlap": {
+     "gold": 176,
+     "pred": 81,
+     "tp": 79,
+     "fp": 2,
+     "fn": 97,
+     "precision": 0.9753086419753086,
+     "recall": 0.44886363636363635,
+     "f1": 0.6147859922178988,
+     "fnr": 0.5511363636363636
+    }
+   },
+   "ner_labels_only_fine": {
+    "exact": {
+     "gold": 80,
+     "pred": 81,
+     "tp": 78,
+     "fp": 3,
+     "fn": 2,
+     "precision": 0.9629629629629629,
+     "recall": 0.975,
+     "f1": 0.9689440993788819,
+     "fnr": 0.025
+    },
+    "overlap": {
+     "gold": 80,
+     "pred": 81,
+     "tp": 79,
+     "fp": 2,
+     "fn": 1,
+     "precision": 0.9753086419753086,
+     "recall": 0.9875,
+     "f1": 0.9813664596273292,
+     "fnr": 0.0125
+    }
+   },
+   "ner_labels_only_mapped": {
+    "exact": {
+     "gold": 80,
+     "pred": 81,
+     "tp": 78,
+     "fp": 3,
+     "fn": 2,
+     "precision": 0.9629629629629629,
+     "recall": 0.975,
+     "f1": 0.9689440993788819,
+     "fnr": 0.025
+    },
+    "overlap": {
+     "gold": 80,
+     "pred": 81,
+     "tp": 79,
+     "fp": 2,
+     "fn": 1,
+     "precision": 0.9753086419753086,
+     "recall": 0.9875,
+     "f1": 0.9813664596273292,
+     "fnr": 0.0125
+    }
+   },
+   "name_only_mapped_PERSON": {
+    "exact": {
+     "gold": 48,
+     "pred": 49,
+     "tp": 48,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.9795918367346939,
+     "recall": 1.0,
+     "f1": 0.9896907216494846,
+     "fnr": 0.0
+    },
+    "overlap": {
+     "gold": 48,
+     "pred": 49,
+     "tp": 48,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.9795918367346939,
+     "recall": 1.0,
+     "f1": 0.9896907216494846,
+     "fnr": 0.0
+    }
+   },
+   "per_kind_fine": {
+    "PHONE_PERSONAL": {
+     "exact": {
+      "gold": 28,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 28,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "PHONE_PUBLIC": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "EMAIL": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "RRN": {
+     "exact": {
+      "gold": 28,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 28,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "CARD": {
+     "exact": {
+      "gold": 20,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 20,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "ACCOUNT": {
+     "exact": {
+      "gold": 8,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 8,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "SECRET": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "ADDRESS": {
+     "exact": {
+      "gold": 24,
+      "pred": 23,
+      "tp": 22,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.9565217391304348,
+      "recall": 0.9166666666666666,
+      "f1": 0.9361702127659574,
+      "fnr": 0.08333333333333333
+     },
+     "overlap": {
+      "gold": 24,
+      "pred": 23,
+      "tp": 23,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1": 0.9787234042553191,
+      "fnr": 0.041666666666666664
+     }
+    },
+    "LOCATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 5,
+      "tp": 4,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 5,
+      "tp": 4,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "fnr": 0.0
+     }
+    },
+    "PERSON": {
+     "exact": {
+      "gold": 40,
+      "pred": 41,
+      "tp": 40,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.975609756097561,
+      "recall": 1.0,
+      "f1": 0.9876543209876543,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 40,
+      "pred": 41,
+      "tp": 40,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.975609756097561,
+      "recall": 1.0,
+      "f1": 0.9876543209876543,
+      "fnr": 0.0
+     }
+    },
+    "PERSON_ALIAS": {
+     "exact": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "ORGANIZATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    }
+   },
+   "per_kind_mapped": {
+    "PHONE": {
+     "exact": {
+      "gold": 32,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 32,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 32,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 32,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "EMAIL": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "RRN": {
+     "exact": {
+      "gold": 28,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 28,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 28,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "CARD": {
+     "exact": {
+      "gold": 20,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 20,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "ACCOUNT": {
+     "exact": {
+      "gold": 8,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 8,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "SECRET": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "ADDRESS": {
+     "exact": {
+      "gold": 24,
+      "pred": 23,
+      "tp": 22,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.9565217391304348,
+      "recall": 0.9166666666666666,
+      "f1": 0.9361702127659574,
+      "fnr": 0.08333333333333333
+     },
+     "overlap": {
+      "gold": 24,
+      "pred": 23,
+      "tp": 23,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1": 0.9787234042553191,
+      "fnr": 0.041666666666666664
+     }
+    },
+    "PERSON": {
+     "exact": {
+      "gold": 48,
+      "pred": 49,
+      "tp": 48,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9795918367346939,
+      "recall": 1.0,
+      "f1": 0.9896907216494846,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 48,
+      "pred": 49,
+      "tp": 48,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9795918367346939,
+      "recall": 1.0,
+      "f1": 0.9896907216494846,
+      "fnr": 0.0
+     }
+    },
+    "LOCATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 5,
+      "tp": 4,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 5,
+      "tp": 4,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.888888888888889,
+      "fnr": 0.0
+     }
+    },
+    "ORGANIZATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    }
+   },
+   "protect": {
+    "protect_gold": 164,
+    "protect_hit": 71,
+    "pred": 81,
+    "pred_on_protect": 71,
+    "protect_recall": 0.4329268292682927,
+    "protect_precision": 0.8765432098765432
+   },
+   "fpr": {
+    "neg_sentences": 28,
+    "neg_flagged_any": 1,
+    "fpr_any": 0.03571428571428571,
+    "neg_flagged_excl_location_org": 1,
+    "fpr_excl_location_org": 0.03571428571428571
+   },
+   "tags": {
+    "addr_abbrev": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "alias_title": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "card_luhn_fail": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "card_typo": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "hangul_num": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "kin_nickname": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "kin_nickname_name": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "location_general": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "long_text": {
+     "sentences": 4,
+     "gold": 8,
+     "recall_overlap": 0.5,
+     "precision_overlap": 1.0,
+     "protect_recall": 0.5,
+     "fp": 0
+    },
+    "multi_pii": {
+     "sentences": 8,
+     "gold": 24,
+     "recall_overlap": 0.3333333333333333,
+     "precision_overlap": 1.0,
+     "protect_recall": 0.3333333333333333,
+     "fp": 0
+    },
+    "name_given_only": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_known": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_len_2": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_len_3": {
+     "sentences": 20,
+     "gold": 36,
+     "recall_overlap": 0.5555555555555556,
+     "precision_overlap": 1.0,
+     "protect_recall": 0.5555555555555556,
+     "fp": 0
+    },
+    "name_len_4": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_no_title": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "neg_amount": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_datetime": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_kin": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_order": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_version": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_waybill": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_word": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": 0.0,
+     "protect_recall": null,
+     "fp": 1
+    },
+    "negative": {
+     "sentences": 28,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": 0.0,
+     "protect_recall": null,
+     "fp": 1
+    },
+    "normal_account": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "normal_address": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_card": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "normal_email": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "normal_name": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_phone": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "normal_rrn": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "nospace": {
+     "sentences": 8,
+     "gold": 12,
+     "recall_overlap": 0.25,
+     "precision_overlap": 0.75,
+     "protect_recall": 0.25,
+     "fp": 1
+    },
+    "ocr_noise": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "odd_space": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "org_name": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "phone_public": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "rrn_checksum_fail": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "rrn_invalid_date": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "secret": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    }
+   },
+   "residual": {
+    "full": 71,
+    "partial": 1,
+    "none": 92,
+    "left_chars": 1305,
+    "gold_chars": 1764,
+    "spans": 164,
+    "not_fully_masked": 93,
+    "full_rate": 0.4329268292682927,
+    "partial_rate": 0.006097560975609756,
+    "none_rate": 0.5609756097560976,
+    "left_char_rate": 0.7397959183673469,
+    "by_kind": {
+     "ACCOUNT": {
+      "none": 8,
+      "left_chars": 116
+     },
+     "ADDRESS": {
+      "full": 23,
+      "left_chars": 2,
+      "partial": 1
+     },
+     "CARD": {
+      "none": 20,
+      "left_chars": 355
+     },
+     "EMAIL": {
+      "none": 4,
+      "left_chars": 81
+     },
+     "PERSON": {
+      "full": 48,
+      "left_chars": 0
+     },
+     "PHONE": {
+      "none": 28,
+      "left_chars": 338
+     },
+     "RRN": {
+      "none": 28,
+      "left_chars": 385
+     },
+     "SECRET": {
+      "none": 4,
+      "left_chars": 28
+     }
+    }
+   },
+   "timing": {
+    "rounds": 5,
+    "mean_ms": 4.7591294444444445,
+    "p95_ms": 5.7858,
+    "max_ms": 46.5151,
+    "ms_per_100_chars": 13.429115848879134
+   },
+   "error_counts": {
+    "FN": 97,
+    "FP": 2,
+    "BOUNDARY": 1
+   },
+   "top_errors": [
+    {
+     "error_type": "FN",
+     "kind": "CARD",
+     "tags": "card_luhn_fail",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "CARD",
+     "tags": "card_typo",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PHONE_PERSONAL",
+     "tags": "hangul_num",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "RRN",
+     "tags": "hangul_num",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PHONE_PERSONAL",
+     "tags": "long_text|name_len_3",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PHONE_PERSONAL",
+     "tags": "multi_pii",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PHONE_PERSONAL",
+     "tags": "multi_pii|name_len_3",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "RRN",
+     "tags": "multi_pii|name_len_3",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "ACCOUNT",
+     "tags": "multi_pii|name_len_3",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "ACCOUNT",
+     "tags": "normal_account",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "CARD",
+     "tags": "normal_card",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "EMAIL",
+     "tags": "normal_email",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PHONE_PERSONAL",
+     "tags": "normal_phone",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "RRN",
+     "tags": "normal_rrn",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "RRN",
+     "tags": "nospace",
+     "count": 4
+    }
+   ],
+   "error_examples": []
+  },
+  "C_rule_ner": {
+   "overall_fine": {
+    "exact": {
+     "gold": 176,
+     "pred": 137,
+     "tp": 127,
+     "fp": 10,
+     "fn": 49,
+     "precision": 0.927007299270073,
+     "recall": 0.7215909090909091,
+     "f1": 0.8115015974440895,
+     "fnr": 0.2784090909090909
+    },
+    "overlap": {
+     "gold": 176,
+     "pred": 137,
+     "tp": 128,
+     "fp": 9,
+     "fn": 48,
+     "precision": 0.9343065693430657,
+     "recall": 0.7272727272727273,
+     "f1": 0.8178913738019169,
+     "fnr": 0.2727272727272727
+    }
+   },
+   "overall_mapped": {
+    "exact": {
+     "gold": 176,
+     "pred": 137,
+     "tp": 135,
+     "fp": 2,
+     "fn": 41,
+     "precision": 0.9854014598540146,
+     "recall": 0.7670454545454546,
+     "f1": 0.8626198083067093,
+     "fnr": 0.23295454545454544
+    },
+    "overlap": {
+     "gold": 176,
+     "pred": 137,
+     "tp": 136,
+     "fp": 1,
+     "fn": 40,
+     "precision": 0.9927007299270073,
+     "recall": 0.7727272727272727,
+     "f1": 0.8690095846645368,
+     "fnr": 0.22727272727272727
+    }
+   },
+   "ner_labels_only_fine": {
+    "exact": {
+     "gold": 80,
+     "pred": 72,
+     "tp": 62,
+     "fp": 10,
+     "fn": 18,
+     "precision": 0.8611111111111112,
+     "recall": 0.775,
+     "f1": 0.8157894736842106,
+     "fnr": 0.225
+    },
+    "overlap": {
+     "gold": 80,
+     "pred": 72,
+     "tp": 63,
+     "fp": 9,
+     "fn": 17,
+     "precision": 0.875,
+     "recall": 0.7875,
+     "f1": 0.8289473684210527,
+     "fnr": 0.2125
+    }
+   },
+   "ner_labels_only_mapped": {
+    "exact": {
+     "gold": 80,
+     "pred": 72,
+     "tp": 70,
+     "fp": 2,
+     "fn": 10,
+     "precision": 0.9722222222222222,
+     "recall": 0.875,
+     "f1": 0.9210526315789473,
+     "fnr": 0.125
+    },
+    "overlap": {
+     "gold": 80,
+     "pred": 72,
+     "tp": 71,
+     "fp": 1,
+     "fn": 9,
+     "precision": 0.9861111111111112,
+     "recall": 0.8875,
+     "f1": 0.9342105263157895,
+     "fnr": 0.1125
+    }
+   },
+   "name_only_mapped_PERSON": {
+    "exact": {
+     "gold": 48,
+     "pred": 49,
+     "tp": 48,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.9795918367346939,
+     "recall": 1.0,
+     "f1": 0.9896907216494846,
+     "fnr": 0.0
+    },
+    "overlap": {
+     "gold": 48,
+     "pred": 49,
+     "tp": 48,
+     "fp": 1,
+     "fn": 0,
+     "precision": 0.9795918367346939,
+     "recall": 1.0,
+     "f1": 0.9896907216494846,
+     "fnr": 0.0
+    }
+   },
+   "per_kind_fine": {
+    "PHONE_PERSONAL": {
+     "exact": {
+      "gold": 28,
+      "pred": 20,
+      "tp": 20,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1": 0.8333333333333333,
+      "fnr": 0.2857142857142857
+     },
+     "overlap": {
+      "gold": 28,
+      "pred": 20,
+      "tp": 20,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1": 0.8333333333333333,
+      "fnr": 0.2857142857142857
+     }
+    },
+    "PHONE_PUBLIC": {
+     "exact": {
+      "gold": 4,
+      "pred": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "fnr": 0.75
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 1,
+      "tp": 1,
+      "fp": 0,
+      "fn": 3,
+      "precision": 1.0,
+      "recall": 0.25,
+      "f1": 0.4,
+      "fnr": 0.75
+     }
+    },
+    "EMAIL": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "RRN": {
+     "exact": {
+      "gold": 28,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "fnr": 0.42857142857142855
+     },
+     "overlap": {
+      "gold": 28,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "fnr": 0.42857142857142855
+     }
+    },
+    "CARD": {
+     "exact": {
+      "gold": 20,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "fnr": 0.4
+     },
+     "overlap": {
+      "gold": 20,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "fnr": 0.4
+     }
+    },
+    "ACCOUNT": {
+     "exact": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "SECRET": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "ADDRESS": {
+     "exact": {
+      "gold": 24,
+      "pred": 23,
+      "tp": 22,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.9565217391304348,
+      "recall": 0.9166666666666666,
+      "f1": 0.9361702127659574,
+      "fnr": 0.08333333333333333
+     },
+     "overlap": {
+      "gold": 24,
+      "pred": 23,
+      "tp": 23,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1": 0.9787234042553191,
+      "fnr": 0.041666666666666664
+     }
+    },
+    "LOCATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "PERSON": {
+     "exact": {
+      "gold": 40,
+      "pred": 49,
+      "tp": 40,
+      "fp": 9,
+      "fn": 0,
+      "precision": 0.8163265306122449,
+      "recall": 1.0,
+      "f1": 0.898876404494382,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 40,
+      "pred": 49,
+      "tp": 40,
+      "fp": 9,
+      "fn": 0,
+      "precision": 0.8163265306122449,
+      "recall": 1.0,
+      "f1": 0.898876404494382,
+      "fnr": 0.0
+     }
+    },
+    "PERSON_ALIAS": {
+     "exact": {
+      "gold": 8,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 8,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 8,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "ORGANIZATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    }
+   },
+   "per_kind_mapped": {
+    "PHONE": {
+     "exact": {
+      "gold": 32,
+      "pred": 21,
+      "tp": 21,
+      "fp": 0,
+      "fn": 11,
+      "precision": 1.0,
+      "recall": 0.65625,
+      "f1": 0.7924528301886793,
+      "fnr": 0.34375
+     },
+     "overlap": {
+      "gold": 32,
+      "pred": 21,
+      "tp": 21,
+      "fp": 0,
+      "fn": 11,
+      "precision": 1.0,
+      "recall": 0.65625,
+      "f1": 0.7924528301886793,
+      "fnr": 0.34375
+     }
+    },
+    "EMAIL": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "RRN": {
+     "exact": {
+      "gold": 28,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "fnr": 0.42857142857142855
+     },
+     "overlap": {
+      "gold": 28,
+      "pred": 16,
+      "tp": 16,
+      "fp": 0,
+      "fn": 12,
+      "precision": 1.0,
+      "recall": 0.5714285714285714,
+      "f1": 0.7272727272727273,
+      "fnr": 0.42857142857142855
+     }
+    },
+    "CARD": {
+     "exact": {
+      "gold": 20,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "fnr": 0.4
+     },
+     "overlap": {
+      "gold": 20,
+      "pred": 12,
+      "tp": 12,
+      "fp": 0,
+      "fn": 8,
+      "precision": 1.0,
+      "recall": 0.6,
+      "f1": 0.7499999999999999,
+      "fnr": 0.4
+     }
+    },
+    "ACCOUNT": {
+     "exact": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 8,
+      "pred": 8,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "SECRET": {
+     "exact": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "fnr": 0.0
+     }
+    },
+    "ADDRESS": {
+     "exact": {
+      "gold": 24,
+      "pred": 23,
+      "tp": 22,
+      "fp": 1,
+      "fn": 2,
+      "precision": 0.9565217391304348,
+      "recall": 0.9166666666666666,
+      "f1": 0.9361702127659574,
+      "fnr": 0.08333333333333333
+     },
+     "overlap": {
+      "gold": 24,
+      "pred": 23,
+      "tp": 23,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1": 0.9787234042553191,
+      "fnr": 0.041666666666666664
+     }
+    },
+    "PERSON": {
+     "exact": {
+      "gold": 48,
+      "pred": 49,
+      "tp": 48,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9795918367346939,
+      "recall": 1.0,
+      "f1": 0.9896907216494846,
+      "fnr": 0.0
+     },
+     "overlap": {
+      "gold": 48,
+      "pred": 49,
+      "tp": 48,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9795918367346939,
+      "recall": 1.0,
+      "f1": 0.9896907216494846,
+      "fnr": 0.0
+     }
+    },
+    "LOCATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    },
+    "ORGANIZATION": {
+     "exact": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     },
+     "overlap": {
+      "gold": 4,
+      "pred": 0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "fnr": 1.0
+     }
+    }
+   },
+   "protect": {
+    "protect_gold": 164,
+    "protect_hit": 135,
+    "pred": 137,
+    "pred_on_protect": 135,
+    "protect_recall": 0.823170731707317,
+    "protect_precision": 0.9854014598540146
+   },
+   "fpr": {
+    "neg_sentences": 28,
+    "neg_flagged_any": 1,
+    "fpr_any": 0.03571428571428571,
+    "neg_flagged_excl_location_org": 1,
+    "fpr_excl_location_org": 0.03571428571428571
+   },
+   "tags": {
+    "addr_abbrev": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "alias_title": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "card_luhn_fail": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "card_typo": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "hangul_num": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "kin_nickname": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "kin_nickname_name": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "location_general": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "long_text": {
+     "sentences": 4,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "multi_pii": {
+     "sentences": 8,
+     "gold": 24,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_given_only": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_known": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_len_2": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_len_3": {
+     "sentences": 20,
+     "gold": 36,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_len_4": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "name_no_title": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "neg_amount": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_datetime": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_kin": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_order": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_version": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_waybill": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "neg_word": {
+     "sentences": 4,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": 0.0,
+     "protect_recall": null,
+     "fp": 1
+    },
+    "negative": {
+     "sentences": 28,
+     "gold": 0,
+     "recall_overlap": null,
+     "precision_overlap": 0.0,
+     "protect_recall": null,
+     "fp": 1
+    },
+    "normal_account": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_address": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_card": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_email": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_name": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_phone": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "normal_rrn": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "nospace": {
+     "sentences": 8,
+     "gold": 12,
+     "recall_overlap": 0.9166666666666666,
+     "precision_overlap": 1.0,
+     "protect_recall": 0.9166666666666666,
+     "fp": 0
+    },
+    "ocr_noise": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "odd_space": {
+     "sentences": 8,
+     "gold": 8,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "org_name": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "phone_public": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.25,
+     "precision_overlap": 1.0,
+     "protect_recall": null,
+     "fp": 0
+    },
+    "rrn_checksum_fail": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    },
+    "rrn_invalid_date": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 0.0,
+     "precision_overlap": null,
+     "protect_recall": 0.0,
+     "fp": 0
+    },
+    "secret": {
+     "sentences": 4,
+     "gold": 4,
+     "recall_overlap": 1.0,
+     "precision_overlap": 1.0,
+     "protect_recall": 1.0,
+     "fp": 0
+    }
+   },
+   "residual": {
+    "full": 134,
+    "partial": 1,
+    "none": 29,
+    "left_chars": 414,
+    "gold_chars": 1764,
+    "spans": 164,
+    "not_fully_masked": 30,
+    "full_rate": 0.8170731707317073,
+    "partial_rate": 0.006097560975609756,
+    "none_rate": 0.17682926829268292,
+    "left_char_rate": 0.23469387755102042,
+    "by_kind": {
+     "ACCOUNT": {
+      "full": 8,
+      "left_chars": 0
+     },
+     "ADDRESS": {
+      "full": 22,
+      "left_chars": 16,
+      "partial": 1,
+      "none": 1
+     },
+     "CARD": {
+      "full": 12,
+      "left_chars": 140,
+      "none": 8
+     },
+     "EMAIL": {
+      "full": 4,
+      "left_chars": 0
+     },
+     "PERSON": {
+      "full": 48,
+      "left_chars": 0
+     },
+     "PHONE": {
+      "none": 8,
+      "left_chars": 90,
+      "full": 20
+     },
+     "RRN": {
+      "none": 12,
+      "left_chars": 168,
+      "full": 16
+     },
+     "SECRET": {
+      "full": 4,
+      "left_chars": 0
+     }
+    }
+   },
+   "timing": {
+    "rounds": 5,
+    "mean_ms": 4.8071544444444445,
+    "p95_ms": 5.6122,
+    "max_ms": 45.3752,
+    "ms_per_100_chars": 13.564630819877724
+   },
+   "error_counts": {
+    "FN": 48,
+    "FP": 9,
+    "BOUNDARY": 1
+   },
+   "top_errors": [
+    {
+     "error_type": "FP",
+     "kind": "PERSON",
+     "tags": "alias_title",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PERSON_ALIAS",
+     "tags": "alias_title",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PHONE_PERSONAL",
+     "tags": "hangul_num",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "RRN",
+     "tags": "hangul_num",
+     "count": 4
+    },
+    {
+     "error_type": "FP",
+     "kind": "PERSON",
+     "tags": "kin_nickname_name",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PERSON_ALIAS",
+     "tags": "kin_nickname_name",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "LOCATION",
+     "tags": "location_general",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "CARD",
+     "tags": "ocr_noise",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "RRN",
+     "tags": "ocr_noise",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "CARD",
+     "tags": "odd_space",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PHONE_PERSONAL",
+     "tags": "odd_space",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "ORGANIZATION",
+     "tags": "org_name",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "RRN",
+     "tags": "rrn_invalid_date",
+     "count": 4
+    },
+    {
+     "error_type": "FN",
+     "kind": "PHONE_PUBLIC",
+     "tags": "phone_public",
+     "count": 3
+    },
+    {
+     "error_type": "FP",
+     "kind": "PERSON",
+     "tags": "neg_word|negative",
+     "count": 1
+    }
+   ],
+   "error_examples": []
+  }
+ }
+}

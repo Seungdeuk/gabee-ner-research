@@ -1,0 +1,53 @@
+{
+ "v9-0036": {
+  "ctrl": {
+   "id": "v9-0036",
+   "group": "A_new_phrase",
+   "category": "비교서술",
+   "word": "빗방울",
+   "text": "빗방울이 우리 학원에서 제일 성실해",
+   "raw_hit": [
+    "PERSON",
+    0.686
+   ],
+   "final_person_spans": [
+    [
+     0,
+     3,
+     0.686
+    ]
+   ],
+   "is_positive": true,
+   "gold": "빗방울",
+   "gold_span": [
+    0,
+    3
+   ],
+   "n": 3,
+   "leaked": 0,
+   "exact": true,
+   "full_exposure": false,
+   "cause_if_not_exact": null
+  },
+  "r3": {
+   "id": "v9-0036",
+   "group": "A_new_phrase",
+   "category": "비교서술",
+   "word": "빗방울",
+   "text": "빗방울이 우리 학원에서 제일 성실해",
+   "raw_hit": null,
+   "final_person_spans": [],
+   "is_positive": true,
+   "gold": "빗방울",
+   "gold_span": [
+    0,
+    3
+   ],
+   "n": 3,
+   "leaked": 3,
+   "exact": false,
+   "full_exposure": true,
+   "cause_if_not_exact": "후보 미생성"
+  }
+ }
+}

@@ -1,0 +1,397 @@
+{
+ "model_a": "r1pilot-koelectra-small-klue10msg-s7",
+ "model_b": "r1bA-pilot-koelectra-small-klue10msg-s7",
+ "n_gold_spans": 260,
+ "transition_matrix": {
+  "full->full": 236,
+  "full->none": 7,
+  "full->partial": 6,
+  "none->full": 1,
+  "none->none": 2,
+  "partial->full": 1,
+  "partial->none": 1,
+  "partial->partial": 6
+ },
+ "worsened_count": 14,
+ "improved_count": 2,
+ "worsened_examples": [
+  {
+   "id": "fam-0012",
+   "text": "민송아가 오늘 학원 안 간다고 쌤이 문자왔어",
+   "gold": "민송아",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "민송아가"
+    ]
+   ],
+   "B_spans": []
+  },
+  {
+   "id": "fam-0044",
+   "text": "할머니 생신에 진원지이랑 임해라 같이 가기로 했어",
+   "gold": "진원지",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "진원지"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "임해라"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.623,
+     "임해라"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0090",
+   "text": "주말에 남대나 축구 경기 있어서 다같이 응원가자",
+   "gold": "남대나",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "남대나"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "남대"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0102",
+   "text": "차호율이랑 강한소 둘다 감기 걸렸나봐 콜록콜록",
+   "gold": "강한소",
+   "A": "partial",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "차호율"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "강한"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "차호율"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0111",
+   "text": "아빠가 장윤음 용돈 줬다는데 들었어?",
+   "gold": "장윤음",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "장윤음"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.663,
+     "장윤"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0116",
+   "text": "아빠가 서대인 용돈 줬다는데 들었어?",
+   "gold": "서대인",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "서대인"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.586,
+     "서대"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0143",
+   "text": "차보이이 송상소랑 신성소 다 데리고 놀이터 갔어",
+   "gold": "차보이",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "차보이"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "송상소"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "신성소"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "송상소"
+    ],
+    [
+     "PERSON",
+     0.633,
+     "신성소"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0147",
+   "text": "노가준이 장건레랑 고해인 다 데리고 놀이터 갔어",
+   "gold": "고해인",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "노가준"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "장건레"
+    ],
+    [
+     "PERSON",
+     0.685,
+     "고해인"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "노가준"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "장건레"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0148",
+   "text": "송서라이 하종형랑 민혜음 다 데리고 놀이터 갔어",
+   "gold": "민혜음",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "송서라이"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "하종형"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "민혜음"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.624,
+     "송서라이"
+    ],
+    [
+     "PERSON",
+     0.562,
+     "하종형"
+    ],
+    [
+     "PERSON",
+     0.681,
+     "민혜"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0161",
+   "text": "고모가 고가철 선물 사왔다고 전해달래",
+   "gold": "고가철",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "고가철"
+    ]
+   ],
+   "B_spans": []
+  },
+  {
+   "id": "fam-0186",
+   "text": "서도민이랑 윤하인 둘이 또 투닥거리네 ㅋㅋㅋ",
+   "gold": "윤하인",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "서도민"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "윤하인"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "서도민"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "윤하"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0187",
+   "text": "윤이인이랑 진기호 둘이 또 투닥거리네 ㅋㅋㅋ",
+   "gold": "윤이인",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "윤이인"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "진기호"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "진기호"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0188",
+   "text": "안소준이랑 배송우 둘이 또 투닥거리네 ㅋㅋㅋ",
+   "gold": "배송우",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "안소준"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "배송우"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "안소준"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0200",
+   "text": "황명음 어린이집 발표회 몇시더라",
+   "gold": "황명음",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "황명음"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "황명"
+    ]
+   ]
+  }
+ ],
+ "improved_examples": [
+  {
+   "id": "fam-0015",
+   "text": "서명소가 오늘 학원 안 간다고 쌤이 문자왔어",
+   "gold": "서명소",
+   "A": "none",
+   "B": "full"
+  },
+  {
+   "id": "fam-0149",
+   "text": "백명나이 이태철랑 고가소 다 데리고 놀이터 갔어",
+   "gold": "백명나",
+   "A": "partial",
+   "B": "full"
+  }
+ ]
+}

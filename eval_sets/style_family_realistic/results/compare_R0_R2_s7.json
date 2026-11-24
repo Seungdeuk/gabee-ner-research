@@ -1,0 +1,303 @@
+{
+ "model_a": "v5-koelectra-small-klue10msg-s7",
+ "model_b": "r2pilot-koelectra-small-klue10msg-s7",
+ "n_gold_spans": 260,
+ "transition_matrix": {
+  "full->full": 230,
+  "full->none": 4,
+  "full->partial": 4,
+  "none->full": 2,
+  "none->none": 8,
+  "partial->full": 3,
+  "partial->none": 2,
+  "partial->partial": 7
+ },
+ "worsened_count": 10,
+ "improved_count": 5,
+ "worsened_examples": [
+  {
+   "id": "fam-0044",
+   "text": "할머니 생신에 진원지이랑 임해라 같이 가기로 했어",
+   "gold": "진원지",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "진원지"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "임해"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "임해라"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0049",
+   "text": "할머니 생신에 문시나이랑 허초지 같이 가기로 했어",
+   "gold": "문시나",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "문시나이"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "허초지"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "허초지"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0090",
+   "text": "주말에 남대나 축구 경기 있어서 다같이 응원가자",
+   "gold": "남대나",
+   "A": "partial",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "남대"
+    ]
+   ],
+   "B_spans": []
+  },
+  {
+   "id": "fam-0102",
+   "text": "차호율이랑 강한소 둘다 감기 걸렸나봐 콜록콜록",
+   "gold": "강한소",
+   "A": "partial",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "차호율"
+    ],
+    [
+     "PERSON",
+     0.57,
+     "강한"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "차호율"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0138",
+   "text": "삼촌이 나보은 보고싶다고 영상통화 하재",
+   "gold": "나보은",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "나보은"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "하재"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.683,
+     "나보"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "하재"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0148",
+   "text": "송서라이 하종형랑 민혜음 다 데리고 놀이터 갔어",
+   "gold": "송서라",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "송서라이"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "하종형"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "민혜"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.672,
+     "송서"
+    ],
+    [
+     "PERSON",
+     0.565,
+     "하종형"
+    ],
+    [
+     "PERSON",
+     0.657,
+     "민혜"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0149",
+   "text": "백명나이 이태철랑 고가소 다 데리고 놀이터 갔어",
+   "gold": "백명나",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "백명나이"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "이태철"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "백명"
+    ],
+    [
+     "PERSON",
+     0.69,
+     "이태철"
+    ]
+   ]
+  },
+  {
+   "id": "fam-0170",
+   "text": "고모가 조유인 선물 사왔다고 전해달래",
+   "gold": "조유인",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "조유인"
+    ]
+   ],
+   "B_spans": []
+  },
+  {
+   "id": "fam-0198",
+   "text": "유다성 어린이집 발표회 몇시더라",
+   "gold": "유다성",
+   "A": "full",
+   "B": "none",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "유다성"
+    ]
+   ],
+   "B_spans": []
+  },
+  {
+   "id": "fam-0200",
+   "text": "황명음 어린이집 발표회 몇시더라",
+   "gold": "황명음",
+   "A": "full",
+   "B": "partial",
+   "A_spans": [
+    [
+     "PERSON",
+     0.69,
+     "황명음"
+    ]
+   ],
+   "B_spans": [
+    [
+     "PERSON",
+     0.69,
+     "황명"
+    ]
+   ]
+  }
+ ],
+ "improved_examples": [
+  {
+   "id": "fam-0025",
+   "text": "엄마가 고한라 간식 사놨대 ㅎㅎ",
+   "gold": "고한라",
+   "A": "none",
+   "B": "full"
+  },
+  {
+   "id": "fam-0044",
+   "text": "할머니 생신에 진원지이랑 임해라 같이 가기로 했어",
+   "gold": "임해라",
+   "A": "partial",
+   "B": "full"
+  },
+  {
+   "id": "fam-0111",
+   "text": "아빠가 장윤음 용돈 줬다는데 들었어?",
+   "gold": "장윤음",
+   "A": "partial",
+   "B": "full"
+  },
+  {
+   "id": "fam-0116",
+   "text": "아빠가 서대인 용돈 줬다는데 들었어?",
+   "gold": "서대인",
+   "A": "partial",
+   "B": "full"
+  },
+  {
+   "id": "fam-0140",
+   "text": "삼촌이 문건환 보고싶다고 영상통화 하재",
+   "gold": "문건환",
+   "A": "none",
+   "B": "full"
+  }
+ ]
+}

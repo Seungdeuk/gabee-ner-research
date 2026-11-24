@@ -1,0 +1,9 @@
+neg rows: 90
+
+=== R6 ===
+  amb-보라-nonperson-3 word=보라 group=일상추상 text='보라색을 가장 좋아한다' flagged=[(0, 3, '보라색')] raw=[('PERSON', 0, 3, 0.604, '보라색')]
+
+=== R7 ===
+  amb-미래-nonperson-2 word=미래 group=일상추상 text='미래에는 어떤 일이 생길까' flagged=[(0, 2, '미래')] raw=[('PERSON', 0, 2, 0.594, '미래')]
+  amb-보라-nonperson-3 word=보라 group=일상추상 text='보라색을 가장 좋아한다' flagged=[(0, 3, '보라색')] raw=[('PERSON', 0, 3, 0.926, '보라색')]
+  amb-지성-nonperson-3 word=지성 group=일상추상 text='지성미가 느껴졌다' flagged=[(0, 3, '지성미')] raw=[('PERSON_ALIAS', 0, 3, 0.553, '지성미')]

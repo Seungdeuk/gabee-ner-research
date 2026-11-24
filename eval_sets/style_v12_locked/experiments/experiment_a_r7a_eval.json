@@ -1,0 +1,832 @@
+{
+ "fingerprint12": "38a93e174acd",
+ "v12_overall": {
+  "pos_sentences": 200,
+  "neg_sentences": 60,
+  "raw_prf": {
+   "tp": 176,
+   "fp": 31,
+   "fn": 24,
+   "precision": 0.8502415458937198,
+   "recall": 0.88,
+   "f1": 0.8648648648648648
+  },
+  "final_prf": {
+   "tp": 159,
+   "fp": 14,
+   "fn": 41,
+   "precision": 0.9190751445086706,
+   "recall": 0.795,
+   "f1": 0.8525469168900806
+  },
+  "exposure": {
+   "full_exposure": 27,
+   "partial_exposure": 3,
+   "fully_masked": 170,
+   "full_exposure_rate": 0.135,
+   "partial_exposure_rate": 0.015,
+   "fully_masked_rate": 0.85,
+   "total_exposure_rate": 0.15
+  },
+  "nonperson_fpr": 0.0333,
+  "cause_counts": {
+   "신뢰도 부족": 3,
+   "1자 길이필터 탈락": 21,
+   "후보 미생성": 3
+  },
+  "full_exposure_cases": [
+   {
+    "id": "v12-0005",
+    "word": "책꽂이",
+    "category": "목적격",
+    "style": "중의성문맥",
+    "text": "할머니가 책꽂이를 아주 예뻐하셨대",
+    "cause": "신뢰도 부족"
+   },
+   {
+    "id": "v12-0016",
+    "word": "삽",
+    "category": "목적격",
+    "style": "중의성문맥",
+    "text": "할머니가 삽을 아주 예뻐하셨대",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0021",
+    "word": "부뚜막",
+    "category": "비교서술",
+    "style": "중의성문맥",
+    "text": "부뚜막이 모임에서 유난히 눈에 띄어",
+    "cause": "신뢰도 부족"
+   },
+   {
+    "id": "v12-0029",
+    "word": "뒷간",
+    "category": "비교서술",
+    "style": "중의성문맥",
+    "text": "뒷간이 모임에서 유난히 눈에 띄어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0036",
+    "word": "삽",
+    "category": "비교서술",
+    "style": "중의성문맥",
+    "text": "삽이 모임에서 유난히 눈에 띄어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0040",
+    "word": "키",
+    "category": "비교서술",
+    "style": "중의성문맥",
+    "text": "키가 모임에서 유난히 눈에 띄어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0049",
+    "word": "뒷간",
+    "category": "기본",
+    "style": "중의성문맥",
+    "text": "뒷간 안부가 궁금해졌어",
+    "cause": "후보 미생성"
+   },
+   {
+    "id": "v12-0056",
+    "word": "삽",
+    "category": "기본",
+    "style": "중의성문맥",
+    "text": "삽 안부가 궁금해졌어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0060",
+    "word": "키",
+    "category": "기본",
+    "style": "중의성문맥",
+    "text": "키 안부가 궁금해졌어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0061",
+    "word": "부뚜막",
+    "category": "여격",
+    "style": "중의성문맥",
+    "text": "부뚜막한테 잘 지내는지 물어봤어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0076",
+    "word": "삽",
+    "category": "여격",
+    "style": "중의성문맥",
+    "text": "삽한테 잘 지내는지 물어봤어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0080",
+    "word": "키",
+    "category": "여격",
+    "style": "중의성문맥",
+    "text": "키한테 잘 지내는지 물어봤어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0088",
+    "word": "토방",
+    "category": "호격",
+    "style": "중의성문맥",
+    "text": "토방아, 조심히 가",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0096",
+    "word": "삽",
+    "category": "호격",
+    "style": "중의성문맥",
+    "text": "삽아, 조심히 가",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0100",
+    "word": "키",
+    "category": "호격",
+    "style": "중의성문맥",
+    "text": "키야, 조심히 가",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0105",
+    "word": "책꽂이",
+    "category": "목적격",
+    "style": "가족채팅체",
+    "text": "아빠가 책꽂이를 챙겨서 나갔어",
+    "cause": "신뢰도 부족"
+   },
+   {
+    "id": "v12-0109",
+    "word": "뒷간",
+    "category": "목적격",
+    "style": "가족채팅체",
+    "text": "아빠가 뒷간을 챙겨서 나갔어",
+    "cause": "후보 미생성"
+   },
+   {
+    "id": "v12-0116",
+    "word": "삽",
+    "category": "목적격",
+    "style": "가족채팅체",
+    "text": "아빠가 삽을 챙겨서 나갔어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0120",
+    "word": "키",
+    "category": "목적격",
+    "style": "가족채팅체",
+    "text": "아빠가 키를 챙겨서 나갔어",
+    "cause": "후보 미생성"
+   },
+   {
+    "id": "v12-0136",
+    "word": "삽",
+    "category": "비교서술",
+    "style": "가족채팅체",
+    "text": "삽이 요즘 제일 바빠 보여",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0140",
+    "word": "키",
+    "category": "비교서술",
+    "style": "가족채팅체",
+    "text": "키가 요즘 제일 바빠 보여",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0156",
+    "word": "삽",
+    "category": "기본",
+    "style": "가족채팅체",
+    "text": "삽이 요즘 통 소식이 없네",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0160",
+    "word": "키",
+    "category": "기본",
+    "style": "가족채팅체",
+    "text": "키가 요즘 통 소식이 없네",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0176",
+    "word": "삽",
+    "category": "여격",
+    "style": "가족채팅체",
+    "text": "삽한테 도착했는지 물어봤어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0180",
+    "word": "키",
+    "category": "여격",
+    "style": "가족채팅체",
+    "text": "키한테 도착했는지 물어봤어",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0181",
+    "word": "부뚜막",
+    "category": "호격",
+    "style": "가족채팅체",
+    "text": "부뚜막아 왔어?",
+    "cause": "1자 길이필터 탈락"
+   },
+   {
+    "id": "v12-0200",
+    "word": "키",
+    "category": "호격",
+    "style": "가족채팅체",
+    "text": "키야 왔어?",
+    "cause": "1자 길이필터 탈락"
+   }
+  ]
+ },
+ "v12_by_category": {
+  "기본": {
+   "pos_sentences": 40,
+   "neg_sentences": 0,
+   "raw_prf": {
+    "tp": 36,
+    "fp": 3,
+    "fn": 4,
+    "precision": 0.9230769230769231,
+    "recall": 0.9,
+    "f1": 0.9113924050632911
+   },
+   "final_prf": {
+    "tp": 32,
+    "fp": 3,
+    "fn": 8,
+    "precision": 0.9142857142857143,
+    "recall": 0.8,
+    "f1": 0.8533333333333333
+   },
+   "exposure": {
+    "full_exposure": 5,
+    "partial_exposure": 1,
+    "fully_masked": 34,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.025,
+    "fully_masked_rate": 0.85,
+    "total_exposure_rate": 0.15
+   },
+   "nonperson_fpr": null
+  },
+  "목적격": {
+   "pos_sentences": 40,
+   "neg_sentences": 0,
+   "raw_prf": {
+    "tp": 35,
+    "fp": 5,
+    "fn": 5,
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1": 0.875
+   },
+   "final_prf": {
+    "tp": 33,
+    "fp": 1,
+    "fn": 7,
+    "precision": 0.9705882352941176,
+    "recall": 0.825,
+    "f1": 0.8918918918918919
+   },
+   "exposure": {
+    "full_exposure": 6,
+    "partial_exposure": 0,
+    "fully_masked": 34,
+    "full_exposure_rate": 0.15,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.85,
+    "total_exposure_rate": 0.15
+   },
+   "nonperson_fpr": null
+  },
+  "비교서술": {
+   "pos_sentences": 40,
+   "neg_sentences": 0,
+   "raw_prf": {
+    "tp": 34,
+    "fp": 10,
+    "fn": 6,
+    "precision": 0.7727272727272727,
+    "recall": 0.85,
+    "f1": 0.8095238095238095
+   },
+   "final_prf": {
+    "tp": 30,
+    "fp": 4,
+    "fn": 10,
+    "precision": 0.8823529411764706,
+    "recall": 0.75,
+    "f1": 0.8108108108108107
+   },
+   "exposure": {
+    "full_exposure": 6,
+    "partial_exposure": 0,
+    "fully_masked": 34,
+    "full_exposure_rate": 0.15,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.85,
+    "total_exposure_rate": 0.15
+   },
+   "nonperson_fpr": null
+  },
+  "여격": {
+   "pos_sentences": 40,
+   "neg_sentences": 0,
+   "raw_prf": {
+    "tp": 39,
+    "fp": 3,
+    "fn": 1,
+    "precision": 0.9285714285714286,
+    "recall": 0.975,
+    "f1": 0.951219512195122
+   },
+   "final_prf": {
+    "tp": 35,
+    "fp": 0,
+    "fn": 5,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "exposure": {
+    "full_exposure": 5,
+    "partial_exposure": 0,
+    "fully_masked": 35,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": null
+  },
+  "호격": {
+   "pos_sentences": 40,
+   "neg_sentences": 0,
+   "raw_prf": {
+    "tp": 32,
+    "fp": 10,
+    "fn": 8,
+    "precision": 0.7619047619047619,
+    "recall": 0.8,
+    "f1": 0.7804878048780488
+   },
+   "final_prf": {
+    "tp": 29,
+    "fp": 6,
+    "fn": 11,
+    "precision": 0.8285714285714286,
+    "recall": 0.725,
+    "f1": 0.7733333333333333
+   },
+   "exposure": {
+    "full_exposure": 5,
+    "partial_exposure": 2,
+    "fully_masked": 33,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.05,
+    "fully_masked_rate": 0.825,
+    "total_exposure_rate": 0.175
+   },
+   "nonperson_fpr": null
+  }
+ },
+ "v12_by_word_type": {
+  "단일형": {
+   "pos_sentences": 100,
+   "neg_sentences": 20,
+   "raw_prf": {
+    "tp": 93,
+    "fp": 8,
+    "fn": 7,
+    "precision": 0.9207920792079208,
+    "recall": 0.93,
+    "f1": 0.9253731343283582
+   },
+   "final_prf": {
+    "tp": 76,
+    "fp": 6,
+    "fn": 24,
+    "precision": 0.926829268292683,
+    "recall": 0.76,
+    "f1": 0.8351648351648352
+   },
+   "exposure": {
+    "full_exposure": 18,
+    "partial_exposure": 0,
+    "fully_masked": 82,
+    "full_exposure_rate": 0.18,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.82,
+    "total_exposure_rate": 0.18
+   },
+   "nonperson_fpr": 0.05
+  },
+  "복합명사형": {
+   "pos_sentences": 100,
+   "neg_sentences": 20,
+   "raw_prf": {
+    "tp": 83,
+    "fp": 23,
+    "fn": 17,
+    "precision": 0.7830188679245284,
+    "recall": 0.83,
+    "f1": 0.8058252427184467
+   },
+   "final_prf": {
+    "tp": 83,
+    "fp": 8,
+    "fn": 17,
+    "precision": 0.9120879120879121,
+    "recall": 0.83,
+    "f1": 0.869109947643979
+   },
+   "exposure": {
+    "full_exposure": 9,
+    "partial_exposure": 3,
+    "fully_masked": 88,
+    "full_exposure_rate": 0.09,
+    "partial_exposure_rate": 0.03,
+    "fully_masked_rate": 0.88,
+    "total_exposure_rate": 0.12
+   },
+   "nonperson_fpr": 0.05
+  }
+ },
+ "v12_by_style": {
+  "가족채팅체": {
+   "pos_sentences": 100,
+   "neg_sentences": 0,
+   "raw_prf": {
+    "tp": 87,
+    "fp": 16,
+    "fn": 13,
+    "precision": 0.8446601941747572,
+    "recall": 0.87,
+    "f1": 0.8571428571428571
+   },
+   "final_prf": {
+    "tp": 79,
+    "fp": 9,
+    "fn": 21,
+    "precision": 0.8977272727272727,
+    "recall": 0.79,
+    "f1": 0.8404255319148937
+   },
+   "exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 1,
+    "fully_masked": 87,
+    "full_exposure_rate": 0.12,
+    "partial_exposure_rate": 0.01,
+    "fully_masked_rate": 0.87,
+    "total_exposure_rate": 0.13
+   },
+   "nonperson_fpr": null
+  },
+  "중의성문맥": {
+   "pos_sentences": 100,
+   "neg_sentences": 0,
+   "raw_prf": {
+    "tp": 89,
+    "fp": 15,
+    "fn": 11,
+    "precision": 0.8557692307692307,
+    "recall": 0.89,
+    "f1": 0.8725490196078431
+   },
+   "final_prf": {
+    "tp": 80,
+    "fp": 5,
+    "fn": 20,
+    "precision": 0.9411764705882353,
+    "recall": 0.8,
+    "f1": 0.8648648648648648
+   },
+   "exposure": {
+    "full_exposure": 15,
+    "partial_exposure": 2,
+    "fully_masked": 83,
+    "full_exposure_rate": 0.15,
+    "partial_exposure_rate": 0.02,
+    "fully_masked_rate": 0.83,
+    "total_exposure_rate": 0.17
+   },
+   "nonperson_fpr": null
+  }
+ },
+ "r3_heldout": {
+  "pos_sentences": 16,
+  "neg_sentences": 8,
+  "raw_prf": {
+   "tp": 16,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "final_prf": {
+   "tp": 15,
+   "fp": 4,
+   "fn": 1,
+   "precision": 0.7894736842105263,
+   "recall": 0.9375,
+   "f1": 0.8571428571428572
+  },
+  "exposure": {
+   "full_exposure": 1,
+   "partial_exposure": 0,
+   "fully_masked": 15,
+   "full_exposure_rate": 0.0625,
+   "partial_exposure_rate": 0.0,
+   "fully_masked_rate": 0.9375,
+   "total_exposure_rate": 0.0625
+  },
+  "nonperson_fpr": 0.125
+ },
+ "r4_heldout": {
+  "pos_sentences": 8,
+  "neg_sentences": 8,
+  "raw_prf": {
+   "tp": 8,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "final_prf": {
+   "tp": 8,
+   "fp": 0,
+   "fn": 0,
+   "precision": 1.0,
+   "recall": 1.0,
+   "f1": 1.0
+  },
+  "exposure": {
+   "full_exposure": 0,
+   "partial_exposure": 0,
+   "fully_masked": 8,
+   "full_exposure_rate": 0.0,
+   "partial_exposure_rate": 0.0,
+   "fully_masked_rate": 1.0,
+   "total_exposure_rate": 0.0
+  },
+  "nonperson_fpr": 0.0
+ },
+ "r5_heldout": {
+  "pos_sentences": 8,
+  "neg_sentences": 8,
+  "raw_prf": {
+   "tp": 7,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.875,
+   "recall": 0.875,
+   "f1": 0.875
+  },
+  "final_prf": {
+   "tp": 7,
+   "fp": 1,
+   "fn": 1,
+   "precision": 0.875,
+   "recall": 0.875,
+   "f1": 0.875
+  },
+  "exposure": {
+   "full_exposure": 0,
+   "partial_exposure": 0,
+   "fully_masked": 8,
+   "full_exposure_rate": 0.0,
+   "partial_exposure_rate": 0.0,
+   "fully_masked_rate": 1.0,
+   "total_exposure_rate": 0.0
+  },
+  "nonperson_fpr": 0.0
+ },
+ "r6_heldout": {
+  "pos_sentences": 8,
+  "neg_sentences": 8,
+  "raw_prf": {
+   "tp": 6,
+   "fp": 0,
+   "fn": 2,
+   "precision": 1.0,
+   "recall": 0.75,
+   "f1": 0.8571428571428571
+  },
+  "final_prf": {
+   "tp": 6,
+   "fp": 0,
+   "fn": 2,
+   "precision": 1.0,
+   "recall": 0.75,
+   "f1": 0.8571428571428571
+  },
+  "exposure": {
+   "full_exposure": 2,
+   "partial_exposure": 0,
+   "fully_masked": 6,
+   "full_exposure_rate": 0.25,
+   "partial_exposure_rate": 0.0,
+   "fully_masked_rate": 0.75,
+   "total_exposure_rate": 0.25
+  },
+  "nonperson_fpr": 0.125
+ },
+ "ambiguity_probe_48": {
+  "pos_sentences": 90,
+  "neg_sentences": 90,
+  "raw_prf": {
+   "tp": 81,
+   "fp": 10,
+   "fn": 9,
+   "precision": 0.8901098901098901,
+   "recall": 0.9,
+   "f1": 0.8950276243093923
+  },
+  "final_prf": {
+   "tp": 77,
+   "fp": 6,
+   "fn": 13,
+   "precision": 0.927710843373494,
+   "recall": 0.8555555555555555,
+   "f1": 0.8901734104046242
+  },
+  "exposure": {
+   "full_exposure": 7,
+   "partial_exposure": 0,
+   "fully_masked": 83,
+   "full_exposure_rate": 0.0778,
+   "partial_exposure_rate": 0.0,
+   "fully_masked_rate": 0.9222,
+   "total_exposure_rate": 0.0778
+  },
+  "nonperson_fpr": 0.0667
+ },
+ "draft56": {
+  "pos_sentences": 35,
+  "neg_sentences": 21,
+  "raw_prf": {
+   "tp": 33,
+   "fp": 0,
+   "fn": 2,
+   "precision": 1.0,
+   "recall": 0.9428571428571428,
+   "f1": 0.9705882352941176
+  },
+  "final_prf": {
+   "tp": 33,
+   "fp": 0,
+   "fn": 2,
+   "precision": 1.0,
+   "recall": 0.9428571428571428,
+   "f1": 0.9705882352941176
+  },
+  "exposure": {
+   "full_exposure": 2,
+   "partial_exposure": 0,
+   "fully_masked": 33,
+   "full_exposure_rate": 0.0571,
+   "partial_exposure_rate": 0.0,
+   "fully_masked_rate": 0.9429,
+   "total_exposure_rate": 0.0571
+  },
+  "nonperson_fpr": 0.0
+ },
+ "v8_independent": {
+  "pos_sentences": 690,
+  "neg_sentences": 63,
+  "raw_prf": {
+   "tp": 657,
+   "fp": 20,
+   "fn": 33,
+   "precision": 0.9704579025110783,
+   "recall": 0.9521739130434783,
+   "f1": 0.9612289685442575
+  },
+  "final_prf": {
+   "tp": 646,
+   "fp": 13,
+   "fn": 44,
+   "precision": 0.9802731411229135,
+   "recall": 0.936231884057971,
+   "f1": 0.9577464788732394
+  },
+  "exposure": {
+   "full_exposure": 31,
+   "partial_exposure": 0,
+   "fully_masked": 659,
+   "full_exposure_rate": 0.0449,
+   "partial_exposure_rate": 0.0,
+   "fully_masked_rate": 0.9551,
+   "total_exposure_rate": 0.0449
+  },
+  "nonperson_fpr": 0.2222
+ },
+ "v9_locked": {
+  "pos_sentences": 60,
+  "neg_sentences": 40,
+  "raw_prf": {
+   "tp": 55,
+   "fp": 5,
+   "fn": 5,
+   "precision": 0.9166666666666666,
+   "recall": 0.9166666666666666,
+   "f1": 0.9166666666666666
+  },
+  "final_prf": {
+   "tp": 55,
+   "fp": 5,
+   "fn": 5,
+   "precision": 0.9166666666666666,
+   "recall": 0.9166666666666666,
+   "f1": 0.9166666666666666
+  },
+  "exposure": {
+   "full_exposure": 0,
+   "partial_exposure": 0,
+   "fully_masked": 60,
+   "full_exposure_rate": 0.0,
+   "partial_exposure_rate": 0.0,
+   "fully_masked_rate": 1.0,
+   "total_exposure_rate": 0.0
+  },
+  "nonperson_fpr": 0.025
+ },
+ "v10_locked": {
+  "pos_sentences": 112,
+  "neg_sentences": 52,
+  "raw_prf": {
+   "tp": 96,
+   "fp": 15,
+   "fn": 16,
+   "precision": 0.8648648648648649,
+   "recall": 0.8571428571428571,
+   "f1": 0.8609865470852017
+  },
+  "final_prf": {
+   "tp": 96,
+   "fp": 15,
+   "fn": 16,
+   "precision": 0.8648648648648649,
+   "recall": 0.8571428571428571,
+   "f1": 0.8609865470852017
+  },
+  "exposure": {
+   "full_exposure": 1,
+   "partial_exposure": 8,
+   "fully_masked": 103,
+   "full_exposure_rate": 0.0089,
+   "partial_exposure_rate": 0.0714,
+   "fully_masked_rate": 0.9196,
+   "total_exposure_rate": 0.0804
+  },
+  "nonperson_fpr": 0.0192
+ },
+ "v11_locked": {
+  "pos_sentences": 200,
+  "neg_sentences": 60,
+  "raw_prf": {
+   "tp": 184,
+   "fp": 14,
+   "fn": 16,
+   "precision": 0.9292929292929293,
+   "recall": 0.92,
+   "f1": 0.9246231155778895
+  },
+  "final_prf": {
+   "tp": 183,
+   "fp": 3,
+   "fn": 17,
+   "precision": 0.9838709677419355,
+   "recall": 0.915,
+   "f1": 0.9481865284974094
+  },
+  "exposure": {
+   "full_exposure": 14,
+   "partial_exposure": 1,
+   "fully_masked": 185,
+   "full_exposure_rate": 0.07,
+   "partial_exposure_rate": 0.005,
+   "fully_masked_rate": 0.925,
+   "total_exposure_rate": 0.075
+  },
+  "nonperson_fpr": 0.0667
+ }
+}

@@ -1,0 +1,195 @@
+{
+ "seed": 20261124,
+ "policy": "r9-1.1",
+ "sealed_access": "없음(R9 봉인 평가셋을 읽지 않음)",
+ "words": {
+  "raw": {
+   "train": 790,
+   "val": 540,
+   "dev": 734
+  },
+  "format_ok": {
+   "train": 445,
+   "val": 336,
+   "dev": 378
+  },
+  "after_seen_filter": {
+   "train": 445,
+   "val": 286,
+   "dev": 323
+  },
+  "final": {
+   "dev": 323,
+   "val": 261,
+   "train": 365
+  }
+ },
+ "name_pool_sizes": {
+  "given2": {
+   "train": 2198,
+   "val": 317,
+   "dev": 320
+  },
+  "full3": {
+   "train": 3554,
+   "val": 521,
+   "dev": 512
+  },
+  "rare3": {
+   "train": 1262,
+   "val": 192,
+   "dev": 181
+  },
+  "full3risky": {
+   "train": 249,
+   "val": 41,
+   "dev": 39
+  },
+  "place2": {
+   "train": 32,
+   "val": 6,
+   "dev": 1
+  },
+  "place3": {
+   "train": 59,
+   "val": 9,
+   "dev": 4
+  },
+  "full4": {
+   "train": 287,
+   "val": 45,
+   "dev": 43
+  },
+  "wordish": {
+   "train": 5,
+   "val": 0,
+   "dev": 0
+  },
+  "nickname": {
+   "train": 230,
+   "val": 14,
+   "dev": 19
+  },
+  "nameword": {
+   "train": 0,
+   "val": 0,
+   "dev": 0
+  }
+ },
+ "train": {
+  "frames": 836,
+  "frame_problems": {
+   "unparsed_brace": 4
+  },
+  "pairs_made": 400,
+  "pairs_target": 400,
+  "frames_pairs_available": 418,
+  "distinct_words": 363,
+  "max_word_pairs": 2
+ },
+ "val": {
+  "frames": 660,
+  "frame_problems": {},
+  "pairs_made": 300,
+  "pairs_target": 300,
+  "frames_pairs_available": 330,
+  "distinct_words": 258,
+  "max_word_pairs": 2
+ },
+ "dev": {
+  "frames": 2073,
+  "frame_problems": {
+   "bare_to_lit": 6,
+   "dup_text": 23,
+   "length": 9
+  },
+  "pairs_made": 400,
+  "pairs_target": 400,
+  "frames_pairs_available": 420,
+  "distinct_words": 318,
+  "max_word_pairs": 2,
+  "singles": {
+   "b1": {
+    "frames": 170,
+    "made": 150,
+    "target": 150
+   },
+   "c2": {
+    "frames": 135,
+    "made": 120,
+    "target": 120
+   },
+   "msg_new": {
+    "frames": 152,
+    "made": 150,
+    "target": 150
+   },
+   "longname": {
+    "frames": 130,
+    "made": 120,
+    "target": 120
+   },
+   "existing": {
+    "frames": 115,
+    "made": 100,
+    "target": 100
+   },
+   "neg_orgloc": {
+    "frames": 135,
+    "made": 120,
+    "target": 120
+   },
+   "neg_family": {
+    "frames": 134,
+    "made": 120,
+    "target": 120
+   },
+   "neg_d2": {
+    "frames": 135,
+    "made": 120,
+    "target": 120
+   },
+   "neg_general": {
+    "frames": 127,
+    "made": 120,
+    "target": 120
+   }
+  }
+ },
+ "rows": {
+  "r11_Dprime_train": 800,
+  "r11_val": 600,
+  "r11_dev": 1920
+ },
+ "problems": {
+  "r11_Dprime_train": 0,
+  "r11_val": 0,
+  "r11_dev": 0
+ },
+ "problem_examples": {},
+ "dev_by_type": {
+  "D1P": 400,
+  "D1": 400,
+  "B1": 150,
+  "C2": 120,
+  "NEWNAME": 150,
+  "LONGNAME": 120,
+  "EXISTING": 100,
+  "NEG_ORGLOC": 120,
+  "NEG_FAMILY": 120,
+  "NEG_D2": 120,
+  "NEG_GENERAL": 120
+ },
+ "rejected(counts)": {
+  "near_dup_4gram": 9,
+  "spec_example_string": 5,
+  "pair_identical_text": 6,
+  "dup_skeleton_cross": 1
+ },
+ "name_pool_fallbacks": {
+  "wordish/val": 11,
+  "place2/val": 6,
+  "wordish/dev": 18,
+  "place2/dev": 19
+ }
+}

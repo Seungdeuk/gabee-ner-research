@@ -1,0 +1,2432 @@
+[
+ {
+  "id": "r10db-001",
+  "scenario": "일정·약속",
+  "text": "내일 모임 총무는 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-002",
+  "scenario": "학교·학원",
+  "text": "학원 상담 전화했던 사람 {N1:bare}.",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-003",
+  "scenario": "안부·심부름",
+  "text": "전언) 오늘 저녁 밥 당번 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-004",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 회비 걷는 담당은 결국 {N1:bare}!",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-005",
+  "scenario": "사진·영상 공유",
+  "text": "방금 올린 영상 찍은 사람이 바로 {N1:bare}ㅋㅋ",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-006",
+  "scenario": "병원·건강",
+  "text": "진료 예약 잡아 둔 건 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-007",
+  "scenario": "이동·방문",
+  "text": "공항에 마중 나가는 사람은 {N1:bare}?",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-008",
+  "scenario": "음식·집안일",
+  "text": "오늘 설거지 당번 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-009",
+  "scenario": "잡담",
+  "text": "아까부터 말없이 웃고만 있던 게 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-010",
+  "scenario": "일정·약속",
+  "text": "운동회 달리기 마지막 주자로 뽑힌 아이는 우리 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-011",
+  "scenario": "학교·학원",
+  "text": "알림장 확인 안 한 사람 손 들어 봐, 어제도 안 본 건 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-012",
+  "scenario": "안부·심부름",
+  "text": "메모: 열쇠 맡겨 둔 곳, 옆집 아는 분 말고 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-013",
+  "scenario": "정산·돈·구매",
+  "text": "이번 주 장보기 영수증은 전부 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-014",
+  "scenario": "사진·영상 공유",
+  "text": "제일 마지막 사진 가운데 서 있는 사람 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-015",
+  "scenario": "병원·건강",
+  "text": "감기 옮긴 범인은 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-016",
+  "scenario": "이동·방문",
+  "text": "터미널까지 데려다준 고마운 사람은 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-017",
+  "scenario": "음식·집안일",
+  "text": "냉장고 반찬 몰래 먹은 사람 누구야? 혹시 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-018",
+  "scenario": "잡담",
+  "text": "우리 집에서 제일 늦게 일어나는 사람 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-019",
+  "scenario": "일정·약속",
+  "text": "다음 주 토요일 대청소 반장은 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-020",
+  "scenario": "학교·학원",
+  "text": "선생님 심부름은 다른 애가 한다더니 결국 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-021",
+  "scenario": "안부·심부름",
+  "text": "집에 먼저 들어간 사람 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-022",
+  "scenario": "정산·돈·구매",
+  "text": "용돈 제일 많이 모은 건 역시 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-023",
+  "scenario": "사진·영상 공유",
+  "text": "단체 사진 찍어 준 사람 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-024",
+  "scenario": "병원·건강",
+  "text": "병문안은 이번에도 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-025",
+  "scenario": "이동·방문",
+  "text": "오늘 막차 타고 오는 건 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-026",
+  "scenario": "음식·집안일",
+  "text": "김장 끝나면 수육 삶아 올 사람 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-027",
+  "scenario": "잡담",
+  "text": "잠깐, 방금 말한 사람이 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-028",
+  "scenario": "일정·약속",
+  "text": "생일 케이크 픽업 담당 {N1:bare}~",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-029",
+  "scenario": "학교·학원",
+  "text": "오늘 숙제 검사에서 칭찬받은 학생이 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-030",
+  "scenario": "안부·심부름",
+  "text": "아침에 문 잠그고 나간 사람, {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-031",
+  "scenario": "정산·돈·구매",
+  "text": "택배비 먼저 낸 사람은 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-032",
+  "scenario": "사진·영상 공유",
+  "text": "영상 속 노래 부르는 아이는 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-033",
+  "scenario": "병원·건강",
+  "text": "약 챙겨 줄 사람은 오늘 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-034",
+  "scenario": "이동·방문",
+  "text": "이삿짐 도와주러 온 사람 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-035",
+  "scenario": "음식·집안일",
+  "text": "계란말이 제일 잘 만드는 사람 {N1:bare}",
+  "tags": [
+   "B1",
+   "end"
+  ]
+ },
+ {
+  "id": "r10db-036",
+  "scenario": "일정·약속",
+  "text": "{N1:bare}, 이따 저녁에 시간 돼?",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-037",
+  "scenario": "학교·학원",
+  "text": "저기 {N1:bare}, 학원 끝나면 바로 집으로 와야 한다.",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-038",
+  "scenario": "안부·심부름",
+  "text": "있잖아 {N1:bare}, 우유 하나만 사다 줄래",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-039",
+  "scenario": "정산·돈·구매",
+  "text": "어제 빌린 만 원은 {N1:bare}, 월요일까지 갚을게",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-040",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진 속 {N1:bare}, 표정이 너무 웃기지 않아?",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-041",
+  "scenario": "병원·건강",
+  "text": "오늘은 {N1:bare}, 병원부터 들렀다가 출근하세요.",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-042",
+  "scenario": "이동·방문",
+  "text": "전언합니다. {N1:bare}, 도착하면 문자 바람.",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-043",
+  "scenario": "음식·집안일",
+  "text": "오늘 반찬은 {N1:bare}, 네가 좋아하는 걸로 했어",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-044",
+  "scenario": "잡담",
+  "text": "야, {N1:bare}, 방금 그 얘기 진짜야?",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-045",
+  "scenario": "일정·약속",
+  "text": "근데 {N1:bare}, 다음 주 일정은 아직 안 정해졌나요?",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-046",
+  "scenario": "학교·학원",
+  "text": "어제 선생님이 {N1:bare}, 숙제 안 해 왔다고 하시던데",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-047",
+  "scenario": "이동·방문",
+  "text": "먼저 출발한 {N1:bare}, 지금 어디쯤인지 아는 사람?",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-048",
+  "scenario": "정산·돈·구매",
+  "text": "메모) 정산 담당 {N1:bare}, 영수증 모아서 이번 주 안에 제출",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-049",
+  "scenario": "안부·심부름",
+  "text": "그래서 {N1:bare}, 열쇠는 찾았어?",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-050",
+  "scenario": "사진·영상 공유",
+  "text": "영상 편집은 {N1:bare}, 자막은 다른 사람이 맡는 걸로.",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-051",
+  "scenario": "병원·건강",
+  "text": "아프다던 {N1:bare}, 열은 좀 내렸는지 궁금하네요",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-052",
+  "scenario": "음식·집안일",
+  "text": "이따 올 {N1:bare}, 밥 먹었는지 물어봐 줘",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-053",
+  "scenario": "잡담",
+  "text": "와, 대박, {N1:bare}, 이번에도 일등이래",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-054",
+  "scenario": "일정·약속",
+  "text": "약속 장소는 {N1:bare}, 알고 있으니까 걱정 마세요",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-055",
+  "scenario": "학교·학원",
+  "text": "방학 특강은 {N1:bare}, 신청 마감 오늘까지라고 했어",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-056",
+  "scenario": "정산·돈·구매",
+  "text": "혹시 {N1:bare}, 어제 계좌로 보낸 돈 받았어?",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-057",
+  "scenario": "이동·방문",
+  "text": "마트 갔다 오는 {N1:bare}, 비 오니까 우산 챙기라고 해",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-058",
+  "scenario": "안부·심부름",
+  "text": "아무튼 {N1:bare}, 고마워. 진짜로.",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-059",
+  "scenario": "음식·집안일",
+  "text": "이번 주말 요리 당번 {N1:bare}, 장 볼 목록은 냉장고 앞에 붙여 놨음",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-060",
+  "scenario": "잡담",
+  "text": "우리 막내 {N1:bare}, 요즘 왜 이렇게 컸냐",
+  "tags": [
+   "B1",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10db-061",
+  "scenario": "일정·약속",
+  "text": "이번 모임 참석자 확정 ({N1:bare}) 나머지는 답 대기 중",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-062",
+  "scenario": "학교·학원",
+  "text": "오늘 발표 순서 1번 ({N1:bare}), 2번은 아직 미정",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-063",
+  "scenario": "안부·심부름",
+  "text": "심부름 목록: 우유, 두부, 파 (담당: {N1:bare})",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-064",
+  "scenario": "정산·돈·구매",
+  "text": "영수증 첨부 완료 (\"{N1:bare}\"라고 적혀 있던데 맞나요?)",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-065",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진 찍은 사람 ({N1:bare}...) 맞지?",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-066",
+  "scenario": "병원·건강",
+  "text": "보호자 이름란에는 \"{N1:bare}\"라고 적으면 된대",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-067",
+  "scenario": "이동·방문",
+  "text": "차량 운전자 ({N1:bare}) 도착 시간은 오후 세 시경입니다.",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-068",
+  "scenario": "음식·집안일",
+  "text": "설거지 (당번 {N1:bare}) 끝나면 쓰레기도 부탁",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-069",
+  "scenario": "잡담",
+  "text": "아까 걔 있잖아 ({N1:bare}) 갑자기 이사 간다네",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-070",
+  "scenario": "일정·약속",
+  "text": "일정표 맨 윗줄 (총무 {N1:bare})에는 연락처가 적혀 있어요",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-071",
+  "scenario": "학교·학원",
+  "text": "준비물 확인 서명란에 ({N1:bare}) 쓰고 내일 가져오래",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-072",
+  "scenario": "정산·돈·구매",
+  "text": "카드 명의자 ({N1:bare}) 말고 그냥 현금으로 냈어",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-073",
+  "scenario": "안부·심부름",
+  "text": "열쇠 보관 (관리인 {N1:bare}) 외출 중이니 내일 다시 연락",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-074",
+  "scenario": "사진·영상 공유",
+  "text": "영상 제목: 〈우리 집 봄 소풍〉 (촬영 {N1:bare}) 이어서 올립니다",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-075",
+  "scenario": "병원·건강",
+  "text": "응급 연락처 ({N1:bare}) 번호 저장했는지 다시 확인해 줘",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-076",
+  "scenario": "이동·방문",
+  "text": "내일 마중 나올 사람 [{N1:bare}] 빼고 전부 기차로 이동",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-077",
+  "scenario": "음식·집안일",
+  "text": "오늘 요리 후기 (\"{N1:bare}\" 요리사가 직접 간 보는 중)",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-078",
+  "scenario": "잡담",
+  "text": "단톡에서 제일 조용한 사람 ({N1:bare}) 오늘따라 말이 많네",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-079",
+  "scenario": "학교·학원",
+  "text": "담임 면담 신청자 명단 ({N1:bare}, 다음 칸 비어 있음)",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-080",
+  "scenario": "일정·약속",
+  "text": "취소됨!!! (예약자 {N1:bare}) 시간 변경 필요",
+  "tags": [
+   "B1",
+   "paren"
+  ]
+ },
+ {
+  "id": "r10db-081",
+  "scenario": "일정·약속",
+  "text": "{N1:bare} 왔어? 모임 시작한대",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-082",
+  "scenario": "학교·학원",
+  "text": "{N1:bare} 학원 갔다 오면 간식 챙겨 줘야 해요",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-083",
+  "scenario": "안부·심부름",
+  "text": "어제 {N1:bare} 말 들어 보니 열쇠는 우체통에 있대",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-084",
+  "scenario": "정산·돈·구매",
+  "text": "방금 {N1:bare} 돈 보냈다고 전화 왔어",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-085",
+  "scenario": "사진·영상 공유",
+  "text": "같이 간 {N1:bare} 사진 엄청 잘 찍더라",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-086",
+  "scenario": "병원·건강",
+  "text": "요즘 {N1:bare} 계속 기침해서 걱정이야",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-087",
+  "scenario": "이동·방문",
+  "text": "{N1:bare} 지금 출발했다는데 길 막힌다네요",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-088",
+  "scenario": "음식·집안일",
+  "text": "식탁에 앉은 {N1:bare} 벌써 세 그릇째 먹는 중",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-089",
+  "scenario": "잡담",
+  "text": "아까 {N1:bare} 하는 말 들었어? 완전 웃겼음",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-090",
+  "scenario": "일정·약속",
+  "text": "내일 {N1:bare} 데리러 가야 해서 오후 약속은 어려워요",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-091",
+  "scenario": "학교·학원",
+  "text": "우리 반 {N1:bare} 전학 간대, 오늘 인사하더라",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-092",
+  "scenario": "안부·심부름",
+  "text": "마트 가기 전에 {N1:bare} 필요한 거 있나 물어봐",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-093",
+  "scenario": "정산·돈·구매",
+  "text": "이번에 {N1:bare} 생일 선물 사려고 모으는 중인데 같이 낼 사람",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-094",
+  "scenario": "사진·영상 공유",
+  "text": "가족 영상 올려 준 {N1:bare} 덕분에 오랜만에 다 같이 봤어요.",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-095",
+  "scenario": "병원·건강",
+  "text": "며칠째 {N1:bare} 열이 안 내려서 내일 병원 같이 가 보려고",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-096",
+  "scenario": "이동·방문",
+  "text": "터미널에서 {N1:bare} 기다리다가 한참 늦었음",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-097",
+  "scenario": "음식·집안일",
+  "text": "오늘 {N1:bare} 만든 김치찌개가 의외로 맛있다",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-098",
+  "scenario": "잡담",
+  "text": "설마 {N1:bare} 또 늦잠 잤어?",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-099",
+  "scenario": "일정·약속",
+  "text": "언제 {N1:bare} 만나서 날짜 같이 정할까 해",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-100",
+  "scenario": "학교·학원",
+  "text": "내일 {N1:bare} 시험이라 일찍 재워야지",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-101",
+  "scenario": "정산·돈·구매",
+  "text": "지난달 {N1:bare} 내준 돈 아직 정산 안 했다",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-102",
+  "scenario": "병원·건강",
+  "text": "방금 {N1:bare} 약 먹었다고 문자 왔어요",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-103",
+  "scenario": "이동·방문",
+  "text": "어제 {N1:bare} 데려다주고 왔더니 하루가 다 갔네",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-104",
+  "scenario": "안부·심부름",
+  "text": "현관 앞에서 {N1:bare} 기다리고 있대 빨리 나가 봐",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-105",
+  "scenario": "음식·집안일",
+  "text": "{N1:bare} 빨래 널어 놨으니까 걷기만 하면 돼",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-106",
+  "scenario": "사진·영상 공유",
+  "text": "요 며칠 {N1:bare} 찍은 영상만 백 개는 되겠다",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-107",
+  "scenario": "잡담",
+  "text": "근데 {N1:bare} 진짜 어디 갔대?",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-108",
+  "scenario": "일정·약속",
+  "text": "이번 주말에 {N1:bare} 오는 거 맞죠?",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-109",
+  "scenario": "학교·학원",
+  "text": "어제 {N1:bare} 선생님한테 칭찬 들었다네",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-110",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:bare} 지금 계산 중이니까 잠깐 기다려",
+  "tags": [
+   "B1",
+   "space_verb"
+  ]
+ },
+ {
+  "id": "r10db-111",
+  "scenario": "일정·약속",
+  "text": "{N1:lit}씨 일정은 목요일로 잡으면 될까요",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-112",
+  "scenario": "학교·학원",
+  "text": "오늘 면담은 {N1:lit}님 어머니께서 오신다고 합니다.",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-113",
+  "scenario": "안부·심부름",
+  "text": "{N1:lit}씨한테 열쇠 맡겼으니 받아 가세요",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-114",
+  "scenario": "정산·돈·구매",
+  "text": "정산은 {N1:lit}님이 맡아 주셨어요~",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-115",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속 {N1:lit}씨 모습이 너무 좋아서 저장했어요",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-116",
+  "scenario": "병원·건강",
+  "text": "담당 선생님께서 {N1:lit}님 먼저 들어오시래",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-117",
+  "scenario": "이동·방문",
+  "text": "마중 나온 {N1:lit}씨 차를 타고 가면 된대",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-118",
+  "scenario": "음식·집안일",
+  "text": "{N1:lit}님이 보내 주신 반찬 잘 먹고 있어요",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-119",
+  "scenario": "잡담",
+  "text": "어제 {N1:lit}군 얘기가 단톡에서 난리였잖아",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-120",
+  "scenario": "일정·약속",
+  "text": "다음 주 회식은 {N1:lit}사장님께 물어보고 정하자",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-121",
+  "scenario": "학교·학원",
+  "text": "우리 반 {N1:lit}양은 수학을 정말 잘해요",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-122",
+  "scenario": "안부·심부름",
+  "text": "{N1:lit}선생님 전화 왔었어, 다시 걸어 달래",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-123",
+  "scenario": "정산·돈·구매",
+  "text": "이달 월세는 {N1:lit}아저씨 계좌로 넣으면 됩니다",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-124",
+  "scenario": "병원·건강",
+  "text": "{N1:lit}원장님 말씀으론 이틀만 더 쉬면 낫는대",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-125",
+  "scenario": "이동·방문",
+  "text": "내일 {N1:lit}씨 만나러 갈 거라 늦을 것 같아",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-126",
+  "scenario": "사진·영상 공유",
+  "text": "영상 찍어 준 {N1:lit}님께 따로 감사 인사 드렸습니다",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-127",
+  "scenario": "음식·집안일",
+  "text": "이웃집 {N1:lit}씨가 김치 한 통을 놓고 가셨네",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-128",
+  "scenario": "잡담",
+  "text": "{N1:lit}님 소식 들었어? 드디어 결혼한대",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-129",
+  "scenario": "학교·학원",
+  "text": "{N1:lit}학생 어머님이 오늘 상담 오시기로 했어요",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-130",
+  "scenario": "일정·약속",
+  "text": "접수는 {N1:lit}씨가 받아 준다니까 믿고 맡기자",
+  "tags": [
+   "B1",
+   "honor"
+  ]
+ },
+ {
+  "id": "r10db-131",
+  "scenario": "일정·약속",
+  "text": "이번 주말에는 {NK1:bare}, 우리 집에서 모이는 걸로",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-132",
+  "scenario": "안부·심부름",
+  "text": "{NK1:bare} 밥 먹었는지 전화해 봐",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-133",
+  "scenario": "정산·돈·구매",
+  "text": "오늘 계산은 {NK1:bare} 말고 우리가 한다",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-134",
+  "scenario": "이동·방문",
+  "text": "터미널로 마중 가는 사람은 {NK1:bare}",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-135",
+  "scenario": "병원·건강",
+  "text": "어제 쓰러졌던 건 {NK1:bare}, 지금은 괜찮대",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-136",
+  "scenario": "사진·영상 공유",
+  "text": "고향집 앞에서 찍은 사진 속 {NK1:bare} 웃는 모습이 최고",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-137",
+  "scenario": "음식·집안일",
+  "text": "반찬은 {NK1:bare} 오시면 같이 먹자",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-138",
+  "scenario": "잡담",
+  "text": "갑자기 {NK1:bare}, 보고 싶다",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-139",
+  "scenario": "학교·학원",
+  "text": "학교 끝나고 곧장 {NK1:bare} 집으로 가래",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-140",
+  "scenario": "일정·약속",
+  "text": "약속 전에 {NK1:bare} 한 번 만나고 와",
+  "tags": [
+   "B1",
+   "kin"
+  ]
+ },
+ {
+  "id": "r10db-141",
+  "scenario": "일정·약속",
+  "text": "참석자: {N1:bare}, {N2:bare}, {N3:bare} 세 명 확정",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10db-142",
+  "scenario": "학교·학원",
+  "text": "오늘 청소 당번은 {N1:bare}, {N2:bare}, 그리고 {N3:bare}",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10db-143",
+  "scenario": "정산·돈·구매",
+  "text": "정산 대상 {N1:bare} {N2:bare} {N3:bare} 각 오천 원씩",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10db-144",
+  "scenario": "이동·방문",
+  "text": "차에 탈 사람 {N1:bare}, {N2:bare} 이상",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10db-145",
+  "scenario": "사진·영상 공유",
+  "text": "영상에 나온 사람들 순서대로 {N1:bare}, {N2:bare}, {N3:bare}!",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10db-146",
+  "scenario": "병원·건강",
+  "text": "감기 걸린 사람 명단 ({N1:bare}, {N2:bare})",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10db-147",
+  "scenario": "안부·심부름",
+  "text": "열쇠 있는 사람 {N1:bare}, {N2:bare} 둘뿐",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10db-148",
+  "scenario": "음식·집안일",
+  "text": "설거지 순서는 월요일 {N1:bare}, 화요일 {N2:bare}, 수요일 {N3:bare}",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10db-149",
+  "scenario": "잡담",
+  "text": "제일 웃긴 사람 투표 결과 {N1:bare}, {N2:bare}, {N3:bare} 순",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10db-150",
+  "scenario": "일정·약속",
+  "text": "내일 오는 손님은 {N1:bare}, {N2:bare}",
+  "tags": [
+   "B1",
+   "list"
+  ]
+ },
+ {
+  "id": "r10dc-001",
+  "scenario": "일정·약속",
+  "text": "{N1:lit}{N2:sub} 내일 같이 오기로 했대",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-002",
+  "scenario": "학교·학원",
+  "text": "학원 끝나고 {N1:lit}{N2:top} 도서관 간다더라",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-003",
+  "scenario": "안부·심부름",
+  "text": "오늘 심부름은 {N1:lit}{N2:obj} 시키면 돼",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-004",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 회비는 {N1:lit}{N2:dat} 내면 된다고 해요",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-005",
+  "scenario": "사진·영상 공유",
+  "text": "단체 사진 중앙에 {N1:lit}{N2:sub} 나란히 서 있음",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-006",
+  "scenario": "병원·건강",
+  "text": "병원에서 {N1:lit}{N2:com} 같이 진료받았어",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-007",
+  "scenario": "이동·방문",
+  "text": "마중은 {N1:lit}{N2:sub} 나가기로 했으니 걱정 마세요.",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-008",
+  "scenario": "음식·집안일",
+  "text": "설거지는 {N1:lit}{N2:top} 번갈아 하는 걸로",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-009",
+  "scenario": "잡담",
+  "text": "어제 {N1:lit}{N2:obj} 만났다는 얘기 들었어?",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-010",
+  "scenario": "일정·약속",
+  "text": "전언: {N1:lit}{N2:sub} 약속 시간 바꾸자고 함",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-011",
+  "scenario": "학교·학원",
+  "text": "쉬는 시간마다 {N1:lit}{N2:com} 붙어 다니는 애들이 우리 반이야",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-012",
+  "scenario": "정산·돈·구매",
+  "text": "계산서에 {N1:lit}{N2:pos} 이름이 둘 다 적혀 있었어",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-013",
+  "scenario": "사진·영상 공유",
+  "text": "영상 마지막에 나온 {N1:lit}{N2:sub} 진짜 귀엽다",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-014",
+  "scenario": "이동·방문",
+  "text": "우리 집 가는 길에 {N1:lit}{N2:dat} 전해 줄 것이 있어서 들렀다",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-015",
+  "scenario": "병원·건강",
+  "text": "오늘 아침 {N1:lit}{N2:top} 열이 있어서 쉬기로 했어요",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-016",
+  "scenario": "안부·심부름",
+  "text": "열쇠 건네준 {N1:lit}{N2:sub} 방금 도착했대",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-017",
+  "scenario": "음식·집안일",
+  "text": "간식은 {N1:lit}{N2:com} 먹어 버렸으니 없어",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-018",
+  "scenario": "잡담",
+  "text": "{N1:lit}{N2:sub} 싸웠다고? 언제부터?",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-019",
+  "scenario": "일정·약속",
+  "text": "메모) 내일 오전 열 시 {N1:lit}{N2:com} 만남",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-020",
+  "scenario": "학교·학원",
+  "text": "시험 끝나면 {N1:lit}{N2:obj} 불러서 같이 놀아야지",
+  "tags": [
+   "C2",
+   "nospace"
+  ]
+ },
+ {
+  "id": "r10dc-021",
+  "scenario": "일정·약속",
+  "text": "{N1:bare}, {N2:bare} 둘 다 내일 올 수 있어?",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-022",
+  "scenario": "학교·학원",
+  "text": "숙제 확인은 {N1:bare}, {N2:bare} 순서로 할게",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-023",
+  "scenario": "안부·심부름",
+  "text": "이번 심부름 맡은 건 {N1:bare}, {N2:bare}!",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-024",
+  "scenario": "정산·돈·구매",
+  "text": "정산 끝난 사람: {N1:bare}, {N2:bare}",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-025",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속 두 사람, {N1:bare}, {N2:bare} 맞죠?",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-026",
+  "scenario": "병원·건강",
+  "text": "접수할 때 {N1:bare}, {N2:bare} 먼저 불러 달래",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-027",
+  "scenario": "이동·방문",
+  "text": "출발 전에 {N1:bare}, {N2:bare} 데리러 가야 해요",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-028",
+  "scenario": "음식·집안일",
+  "text": "오늘 요리 도운 사람은 {N1:bare}, {N2:bare}였다",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-029",
+  "scenario": "잡담",
+  "text": "걔네 둘, {N1:bare}, {N2:bare} 또 같이 있더라",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-030",
+  "scenario": "일정·약속",
+  "text": "일정 확인 부탁: {N1:bare}, {N2:bare}, 둘 중 한 명만 답해 줘",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-031",
+  "scenario": "학교·학원",
+  "text": "오늘 발표한 {N1:bare}, {N2:bare} 모두 잘했다고 하시더라",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-032",
+  "scenario": "정산·돈·구매",
+  "text": "회비 낸 사람 {N1:bare}, {N2:bare} 제외하고 나머지 명단 올려 줘",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-033",
+  "scenario": "사진·영상 공유",
+  "text": "이거 보고 {N1:bare}, {N2:bare} 웃음 터짐ㅋㅋ",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-034",
+  "scenario": "이동·방문",
+  "text": "도착하면 {N1:bare}, {N2:bare} 순서대로 전화 줘.",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-035",
+  "scenario": "음식·집안일",
+  "text": "반찬 가져간 {N1:bare}, {N2:bare} 설거지도 부탁해",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-036",
+  "scenario": "병원·건강",
+  "text": "어제 병원에 {N1:bare}, {N2:bare} 같이 다녀왔다네",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-037",
+  "scenario": "안부·심부름",
+  "text": "열쇠는 {N1:bare}, {N2:dat} 물어보면 알 거야",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-038",
+  "scenario": "잡담",
+  "text": "와, {N1:bare}, {N2:bare} 진짜 닮았다",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-039",
+  "scenario": "일정·약속",
+  "text": "내일 모일 사람은 {N1:bare}, {N2:bare} 그리고 나",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-040",
+  "scenario": "학교·학원",
+  "text": "선생님 말씀: {N1:bare}, {N2:bare} 교무실로 오라고",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-041",
+  "scenario": "정산·돈·구매",
+  "text": "영수증 {N1:bare}, {N2:bare} 것까지 합쳐서 낼게요",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-042",
+  "scenario": "사진·영상 공유",
+  "text": "영상 제목 〈{N1:bare}, {N2:pos} 첫 여행〉 어때?",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-043",
+  "scenario": "이동·방문",
+  "text": "{N1:bare}, {N2:bare} 어디 갔는지 본 사람?",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-044",
+  "scenario": "음식·집안일",
+  "text": "설거지 당번 {N1:bare}, {N2:bare}, 이번 주는 둘이서",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-045",
+  "scenario": "잡담",
+  "text": "둘 다 뭐 해, {N1:bare}, {N2:bare}?",
+  "tags": [
+   "C2",
+   "comma"
+  ]
+ },
+ {
+  "id": "r10dc-046",
+  "scenario": "일정·약속",
+  "text": "{N1:com} {N2:sub} 일정 맞춰 보겠대",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-047",
+  "scenario": "학교·학원",
+  "text": "{N1:com} {N2:com} 같은 반이 되었으면 좋겠다",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-048",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:com} {N2:top} 반반씩 내기로 했습니다",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-049",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속 {N1:com} {N2:sub} 손잡고 있는 게 너무 귀엽다",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-050",
+  "scenario": "병원·건강",
+  "text": "{N1:com} {N2:dat} 먼저 예방접종 안내가 갔다네",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-051",
+  "scenario": "이동·방문",
+  "text": "오늘 {N1:com} {N2:sub} 같이 올 거야",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-052",
+  "scenario": "음식·집안일",
+  "text": "반찬 만들 때 {N1:com} {N2:obj} 불러서 도와 달라고 할까",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-053",
+  "scenario": "잡담",
+  "text": "{N1:com} 그리고 {N2:sub} 얘기할 때마다 서로 놀려",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-054",
+  "scenario": "안부·심부름",
+  "text": "방금 {N1:com} {N2:top} 심부름 간다고 나갔어",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-055",
+  "scenario": "일정·약속",
+  "text": "모임 참석: {N1:sub} 및 {N2:sub} 확정",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-056",
+  "scenario": "학교·학원",
+  "text": "{N1:sub} 또는 {N2:sub} 둘 중 하나만 발표하면 돼",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-057",
+  "scenario": "정산·돈·구매",
+  "text": "이번 정산은 {N1:obj} 비롯해서 {N2:sub} 모두 마친 상태",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-058",
+  "scenario": "이동·방문",
+  "text": "{N1:sub} 아니면 {N2:sub} 마중 나올 거야",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-059",
+  "scenario": "사진·영상 공유",
+  "text": "이 영상은 {N1:com} {N2:dat} 먼저 보내 줬어요",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-060",
+  "scenario": "병원·건강",
+  "text": "진료실 앞에서 {N1:com} 그리고 {N2:com} 기다리다가 같이 들어갔다",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-061",
+  "scenario": "음식·집안일",
+  "text": "설거지는 {N1:com} 그리고 {N2:pos} 몫이니까 건드리지 마",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-062",
+  "scenario": "잡담",
+  "text": "걔랑 쟤 중에 누가 더 웃겨? {N1:sub} 아님 {N2:sub}?",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-063",
+  "scenario": "일정·약속",
+  "text": "{N1:com} {N2:com} 약속 잡은 날이 겹쳤어요",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-064",
+  "scenario": "학교·학원",
+  "text": "오늘 {N1:top} 물론이고 {N2:top} 학원에 안 갔더라",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-065",
+  "scenario": "안부·심부름",
+  "text": "어제 {N1:dat} 그리고 {N2:dat} 연락해 놨으니 걱정 마",
+  "tags": [
+   "C2",
+   "conj"
+  ]
+ },
+ {
+  "id": "r10dc-066",
+  "scenario": "일정·약속",
+  "text": "{AL1:bare} {N1:sub} 내일 모임에 온대",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-067",
+  "scenario": "학교·학원",
+  "text": "반에서 {AL1:bare}(이)라 불리는 {N1:sub} 지각했어",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-068",
+  "scenario": "안부·심부름",
+  "text": "우리 {AL1:bare}, {N1:dat} 열쇠 좀 받아 와 줘",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-069",
+  "scenario": "정산·돈·구매",
+  "text": "계좌 주인은 {N1:bare}, 별명은 {AL1:bare}",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-070",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속 {AL1:bare} 말고 {N1:sub} 찍은 거야",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-071",
+  "scenario": "병원·건강",
+  "text": "병원에서 {N1:bare}(일명 {AL1:bare}) 호출 중",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-072",
+  "scenario": "이동·방문",
+  "text": "{AL1:voc} {N1:sub} 어디쯤 왔는지 알아?",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-073",
+  "scenario": "음식·집안일",
+  "text": "요리 담당은 {AL1:bare}, 설거지 담당은 {N1:bare}",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-074",
+  "scenario": "잡담",
+  "text": "{N1:bare}, 아니 {AL1:bare}, 방금 뭐라 했어?",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-075",
+  "scenario": "일정·약속",
+  "text": "가족 모임 메모 {AL1:bare} ({N1:bare}) 도착 예정 오후 세 시",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-076",
+  "scenario": "학교·학원",
+  "text": "담임이 {N1:bare} 대신 {AL1:bare}(이)라고 부르시더라",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-077",
+  "scenario": "사진·영상 공유",
+  "text": "영상 속 꼬맹이 {AL1:bare} 본명은 {N1:bare}",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-078",
+  "scenario": "정산·돈·구매",
+  "text": "용돈 정산표에 \"{AL1:bare}\" 칸이 {N1:pos} 거라던데",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-079",
+  "scenario": "이동·방문",
+  "text": "우리 {AL1:bare}, 진짜 이름 {N1:bare} 데려다줘야 해",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-080",
+  "scenario": "안부·심부름",
+  "text": "별명 \"{AL1:bare}\"으로 저장된 번호가 사실 {N1:bare}였어",
+  "tags": [
+   "C2",
+   "alias_name"
+  ]
+ },
+ {
+  "id": "r10dc-081",
+  "scenario": "일정·약속",
+  "text": "{N1:bare}, {N2:bare}, {N3:bare} 모두 토요일 가능한지 답해 줘",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-082",
+  "scenario": "학교·학원",
+  "text": "이번 조 편성: {N1:bare} {N2:bare} {N3:bare}",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-083",
+  "scenario": "안부·심부름",
+  "text": "{N1:sub} 장 보고 {N2:sub} 짐 들고 {N3:sub} 운전한대",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-084",
+  "scenario": "정산·돈·구매",
+  "text": "회비 체납자는 {N1:bare}, {N2:bare}, {N3:bare}이다",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-085",
+  "scenario": "사진·영상 공유",
+  "text": "사진에 {N1:com} {N2:com} {N3:sub} 나란히 앉아 있어요",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-086",
+  "scenario": "병원·건강",
+  "text": "오늘 진료 순서는 {N1:bare} 다음에 {N2:bare} 그다음에 {N3:bare}",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-087",
+  "scenario": "이동·방문",
+  "text": "{N1:sub} 먼저 가고 나서 {N2:com} {N3:sub} 뒤따라올 거래",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-088",
+  "scenario": "음식·집안일",
+  "text": "설거지 {N1:bare}, 빨래 {N2:bare}, 청소 {N3:bare} 배정 끝",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-089",
+  "scenario": "잡담",
+  "text": "{N1:top} 웃고 {N2:top} 울고 {N3:top} 화내고 난리 났었어",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-090",
+  "scenario": "일정·약속",
+  "text": "일정 공유) {N1:bare}/{N2:bare}/{N3:bare} 월요일 오후 참석",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-091",
+  "scenario": "학교·학원",
+  "text": "오늘 선생님께 불려 간 아이들이 {N1:sub}, {N2:sub}, 그리고 {N3:sub}래",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-092",
+  "scenario": "정산·돈·구매",
+  "text": "지난번에 {N1:dat} {N2:dat} {N3:dat} 각각 삼천 원씩 돌려줬어",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-093",
+  "scenario": "이동·방문",
+  "text": "오는 길에 {N1:obj} 만나고 {N2:obj} 태우고 {N3:obj} 내려 줘야 해",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-094",
+  "scenario": "사진·영상 공유",
+  "text": "영상 보낸 순서가 {N1:bare} → {N2:bare} → {N3:bare}",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-095",
+  "scenario": "안부·심부름",
+  "text": "문 앞에 {N1:com} {N2:com} 그리고 {N3:sub} 서 있더라",
+  "tags": [
+   "C2",
+   "triple"
+  ]
+ },
+ {
+  "id": "r10dc-096",
+  "scenario": "일정·약속",
+  "text": "이번 주 모임엔 {NK1:bare}, 그리고 {N1:bare} 같이 갈게",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-097",
+  "scenario": "정산·돈·구매",
+  "text": "{NK1:dat} 받은 돈을 {N1:dat} 전해 줘",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-098",
+  "scenario": "이동·방문",
+  "text": "{NK1:bare} 모시고 가는 건 {N1:sub} 맡아 줘",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-099",
+  "scenario": "병원·건강",
+  "text": "병원 같이 간 {NK1:com} {N1:com} 오늘 저녁에 온대",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-100",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속에서 {N1:com} 나란히 선 {NK1:bare} 정말 멋지다",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-101",
+  "scenario": "안부·심부름",
+  "text": "{NK1:bare} 대신 {N1:sub} 심부름 다녀왔어",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-102",
+  "scenario": "음식·집안일",
+  "text": "반찬은 {NK1:bare}, {N1:bare} 둘이서 다 만든 거야",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-103",
+  "scenario": "잡담",
+  "text": "{NK1:bare} 앞에서 {N1:sub} 농담했다가 혼났대",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-104",
+  "scenario": "학교·학원",
+  "text": "학교 행사 때 {N1:com} {NK1:bare} 온다고 하셨어",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-105",
+  "scenario": "일정·약속",
+  "text": "{N1:top} {NK1:bare} 모임 날짜 알고 있을 거야",
+  "tags": [
+   "C2",
+   "kin_pair"
+  ]
+ },
+ {
+  "id": "r10dc-106",
+  "scenario": "일정·약속",
+  "text": "{N1:voc} {N2:voc} 내일 약속 잊지 마",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-107",
+  "scenario": "학교·학원",
+  "text": "{N1:voc}, {N2:voc}! 학원 버스 온다",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-108",
+  "scenario": "안부·심부름",
+  "text": "얘들아 {N1:voc} {N2:voc} 가서 우유 좀 사 와라",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-109",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:voc} {N2:voc} 용돈 정산하자",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-110",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:voc} {N2:voc} 이 영상 좀 봐 봐",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-111",
+  "scenario": "병원·건강",
+  "text": "{N1:voc}, {N2:voc}, 약 먹었니?",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-112",
+  "scenario": "이동·방문",
+  "text": "{N1:voc} {N2:voc} 어디 있어? 곧 도착한대",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-113",
+  "scenario": "음식·집안일",
+  "text": "{N1:voc} {N2:voc} 나와서 밥 먹어요~",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-114",
+  "scenario": "잡담",
+  "text": "어이 {N1:voc} {N2:voc} 둘이 뭐 하고 있어",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-115",
+  "scenario": "일정·약속",
+  "text": "저기 {N1:voc} 그리고 {N2:voc} 내일 몇 시에 올 수 있는지만 알려 줘 부탁해",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-116",
+  "scenario": "학교·학원",
+  "text": "내일 시험이니까 {N1:voc} {N2:voc} 일찍 자라 알겠지",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-117",
+  "scenario": "이동·방문",
+  "text": "얘, {N1:voc} {N2:voc} 신호등 건널 때 조심하고",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-118",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:voc} {N2:voc} 이거 계산은 누가 해",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-119",
+  "scenario": "음식·집안일",
+  "text": "주말이라 {N1:voc} {N2:voc} 청소 같이 하자",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ },
+ {
+  "id": "r10dc-120",
+  "scenario": "사진·영상 공유",
+  "text": "와 {N1:voc} {N2:voc} 사진 올렸다 확인해",
+  "tags": [
+   "C2",
+   "voc_chain"
+  ]
+ }
+]

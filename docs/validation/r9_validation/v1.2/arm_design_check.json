@@ -1,0 +1,220 @@
+{
+ "checks": {
+  "c1_vs_cp_file_diff": {
+   "baseline_train.jsonl": {
+    "identical_sha": false,
+    "rows": 540,
+    "same_ids_and_texts_in_order": true,
+    "changed_spans": {
+     "PERSON_ALIAS->PERSON": 12
+    },
+    "unexpected_extra_fields": 0
+   },
+   "baseline_val.jsonl": {
+    "identical_sha": false,
+    "rows": 180,
+    "same_ids_and_texts_in_order": true,
+    "changed_spans": {
+     "PERSON_ALIAS->PERSON": 4
+    },
+    "unexpected_extra_fields": 0
+   },
+   "klue_train.jsonl": {
+    "identical_sha": true
+   },
+   "klue_val.jsonl": {
+    "identical_sha": true
+   },
+   "r8_train_extra.jsonl": {
+    "identical_sha": true
+   },
+   "r8_val_extra.jsonl": {
+    "identical_sha": true
+   },
+   "synth_train.jsonl": {
+    "identical_sha": false,
+    "rows": 3680,
+    "same_ids_and_texts_in_order": true,
+    "changed_spans": {
+     "PERSON_ALIAS->PERSON": 280
+    },
+    "unexpected_extra_fields": 0
+   },
+   "synth_val.jsonl": {
+    "identical_sha": false,
+    "rows": 1069,
+    "same_ids_and_texts_in_order": true,
+    "changed_spans": {
+     "PERSON_ALIAS->PERSON": 120
+    },
+    "unexpected_extra_fields": 0
+   },
+   "synth_val_aug.jsonl": {
+    "identical_sha": true
+   },
+   "synth_val_core.jsonl": {
+    "identical_sha": false,
+    "rows": 1069,
+    "same_ids_and_texts_in_order": true,
+    "changed_spans": {
+     "PERSON_ALIAS->PERSON": 120
+    },
+    "unexpected_extra_fields": 0
+   }
+  },
+  "existing_non_klue_rows": {
+   "old": 4220,
+   "new": 4220,
+   "equal": true
+  },
+  "val_files_same_rows": {
+   "baseline_val": true,
+   "synth_val": true
+  },
+  "klue_sample": {
+   "7": {
+    "rows": 469,
+    "same_in_old_and_new_dir": true,
+    "ids_sha": "f486ad5e6fbf",
+    "ratio_formula_gives_n_for_R8_control": 469
+   },
+   "13": {
+    "rows": 469,
+    "same_in_old_and_new_dir": true,
+    "ids_sha": "a94b3ead27f3",
+    "ratio_formula_gives_n_for_R8_control": 469
+   },
+   "21": {
+    "rows": 469,
+    "same_in_old_and_new_dir": true,
+    "ids_sha": "897e4ace8e99",
+    "ratio_formula_gives_n_for_R8_control": 469
+   },
+   "42": {
+    "rows": 469,
+    "same_in_old_and_new_dir": true,
+    "ids_sha": "6fc93a56d6c1",
+    "ratio_formula_gives_n_for_R8_control": 469
+   },
+   "99": {
+    "rows": 469,
+    "same_in_old_and_new_dir": true,
+    "ids_sha": "dad3f4788a7d",
+    "ratio_formula_gives_n_for_R8_control": 469
+   }
+  },
+  "klue_ratio_pitfall": {
+   "R8_control_non_klue": 4220,
+   "ratio_0.1_klue_for_control": 469,
+   "ratio_0.1_klue_for_F-full_if_ratio_used": 816,
+   "note": "R9 는 --klue-ratio 0 과 klue_train:469 로 KLUE 행 수를 고정한다(비율 산식을 쓰면 신규 데이터가 있는 군만 KLUE 가 늘어난다)"
+  },
+  "arm_equalities": {
+   "C1_vs_CP_same_rows_and_steps": true,
+   "F-full_vs_C0_same_rows_steps_klue_share": true,
+   "E_vs_C0s_same_rows_steps_klue_share": true,
+   "F-full_vs_C0_same_label_policy": true
+  },
+  "c0_construction_seed7": {
+   "rows": 7346,
+   "unique_existing_rows": 4220,
+   "max_copies_of_a_row": 2,
+   "rows_present_twice": 3126,
+   "all_existing_present": true,
+   "policy_changed_rows_in_c0": 508
+  },
+  "early_stopping_note": "에폭당 스텝 수·LR 스케줄(총 스텝, 워밍업)은 군 사이에서 같게 맞춘다. 조기 종료(patience 2, baseline_val 겹침 F1)로 실제 학습 스텝은 시드·군마다 다를 수 있어 실제 종료 에폭과 스텝을 기록·보고한다."
+ },
+ "arms": {
+  "C1": {
+   "label_policy": "r9-1.0(구)",
+   "non_klue_rows": 4220,
+   "klue_rows": 469,
+   "total_rows": 4689,
+   "klue_share_pct": 10.0,
+   "steps_per_epoch": 147,
+   "max_total_steps": 1176,
+   "warmup_steps": 117
+  },
+  "CP": {
+   "label_policy": "r9-1.1",
+   "non_klue_rows": 4220,
+   "klue_rows": 469,
+   "total_rows": 4689,
+   "klue_share_pct": 10.0,
+   "steps_per_epoch": 147,
+   "max_total_steps": 1176,
+   "warmup_steps": 117
+  },
+  "C0": {
+   "label_policy": "r9-1.1",
+   "non_klue_rows": 7346,
+   "klue_rows": 469,
+   "total_rows": 7815,
+   "klue_share_pct": 6.0,
+   "steps_per_epoch": 245,
+   "max_total_steps": 1960,
+   "warmup_steps": 196
+  },
+  "F-full": {
+   "label_policy": "r9-1.1",
+   "non_klue_rows": 7346,
+   "klue_rows": 469,
+   "total_rows": 7815,
+   "klue_share_pct": 6.0,
+   "steps_per_epoch": 245,
+   "max_total_steps": 1960,
+   "warmup_steps": 196
+  },
+  "C0s": {
+   "label_policy": "r9-1.1",
+   "non_klue_rows": 5002,
+   "klue_rows": 469,
+   "total_rows": 5471,
+   "klue_share_pct": 8.6,
+   "steps_per_epoch": 171,
+   "max_total_steps": 1368,
+   "warmup_steps": 136
+  },
+  "E1": {
+   "label_policy": "r9-1.1",
+   "non_klue_rows": 5002,
+   "klue_rows": 469,
+   "total_rows": 5471,
+   "klue_share_pct": 8.6,
+   "steps_per_epoch": 171,
+   "max_total_steps": 1368,
+   "warmup_steps": 136
+  },
+  "E2": {
+   "label_policy": "r9-1.1",
+   "non_klue_rows": 5002,
+   "klue_rows": 469,
+   "total_rows": 5471,
+   "klue_share_pct": 8.6,
+   "steps_per_epoch": 171,
+   "max_total_steps": 1368,
+   "warmup_steps": 136
+  },
+  "E3": {
+   "label_policy": "r9-1.1",
+   "non_klue_rows": 5002,
+   "klue_rows": 469,
+   "total_rows": 5471,
+   "klue_share_pct": 8.6,
+   "steps_per_epoch": 171,
+   "max_total_steps": 1368,
+   "warmup_steps": 136
+  },
+  "E4": {
+   "label_policy": "r9-1.1",
+   "non_klue_rows": 5002,
+   "klue_rows": 469,
+   "total_rows": 5471,
+   "klue_share_pct": 8.6,
+   "steps_per_epoch": 171,
+   "max_total_steps": 1368,
+   "warmup_steps": 136
+  }
+ }
+}

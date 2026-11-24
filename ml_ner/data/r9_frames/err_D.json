@@ -1,0 +1,1842 @@
+[
+ {
+  "id": "errd-001",
+  "scenario": "일정·약속",
+  "text": "주말 나들이는 {W1:bare} 구경하러 가는 걸로 정하자",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-002",
+  "scenario": "일정·약속",
+  "text": "약속 장소 앞에 {W1:sub} 엄청 크게 보여서 찾기 쉬울 거야",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-003",
+  "scenario": "일정·약속",
+  "text": "오후 약속 전에 {W1:obj} 보고 올 시간 있을까",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-004",
+  "scenario": "일정·약속",
+  "text": "소풍 가는 날 {W1:sub} 예쁘면 좋겠다",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-005",
+  "scenario": "일정·약속",
+  "text": "내일 날씨 보니까 {W1:bare} 구경하기 딱 좋겠어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-006",
+  "scenario": "일정·약속",
+  "text": "이번 일정은 {W1:bare} 보고 점심 먹고 돌아오는 코스야",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-007",
+  "scenario": "일정·약속",
+  "text": "{W1:obj} 보러 가기엔 오늘 시간이 좀 늦었지?",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-008",
+  "scenario": "학교·학원",
+  "text": "학교 앞 풍경에 {W1:sub} 잘 어울려서 그림 그리기 좋대",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-009",
+  "scenario": "학교·학원",
+  "text": "미술 숙제로 {W1:obj} 그려 가야 해서 색연필 챙겼어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-010",
+  "scenario": "학교·학원",
+  "text": "과학 시간에 {W1:pos} 특징을 배웠는데 신기했어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-011",
+  "scenario": "학교·학원",
+  "text": "교실 창문 너머로 {W1:sub} 보여서 수업에 집중이 안 돼",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-012",
+  "scenario": "학교·학원",
+  "text": "학원 가는 골목에 {W1:sub} 새로 생겼더라",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-013",
+  "scenario": "학교·학원",
+  "text": "시험 끝나면 {W1:bare} 구경하러 가고 싶다",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-014",
+  "scenario": "학교·학원",
+  "text": "숙제 발표 주제로 {W1:bare} 정했어 자료 찾는 중이야",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-015",
+  "scenario": "안부·심부름",
+  "text": "오늘 {W1:top} 유난히 눈에 띄네 구경하면서 천천히 와",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-016",
+  "scenario": "안부·심부름",
+  "text": "퇴근길에 {W1:sub} 보이길래 생각나서 연락했어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-017",
+  "scenario": "안부·심부름",
+  "text": "거기는 {W1:sub} 어때? 여기는 보기 좋더라",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-018",
+  "scenario": "안부·심부름",
+  "text": "가는 길에 {W1:obj} 하나 사다 줄까?",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-019",
+  "scenario": "안부·심부름",
+  "text": "아침에 일어나서 보니까 {W1:sub} 참 맑더라",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-020",
+  "scenario": "안부·심부름",
+  "text": "저녁 먹기 전에 {W1:obj} 잠깐 보러 나갔다 올게",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-021",
+  "scenario": "정산·돈·구매",
+  "text": "마트에서 {W1:obj} 샀는데 생각보다 비싸더라",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-022",
+  "scenario": "정산·돈·구매",
+  "text": "인터넷에서 {W1:bare} 주문했고 내일 도착한대",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-023",
+  "scenario": "정산·돈·구매",
+  "text": "{W1:pos} 가격이 많이 올라서 이번 달 지출이 늘었어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-024",
+  "scenario": "정산·돈·구매",
+  "text": "선물로 {W1:bare} 어때? 예산은 오만 원 정도로 생각 중이야",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-025",
+  "scenario": "정산·돈·구매",
+  "text": "장 본 거 중에 {W1:sub} 제일 비쌌어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-026",
+  "scenario": "정산·돈·구매",
+  "text": "이 {W1:bare} 얼마였더라 영수증 좀 찾아봐",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-027",
+  "scenario": "정산·돈·구매",
+  "text": "방 꾸미려고 {W1:bare} 하나 주문했어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-028",
+  "scenario": "정산·돈·구매",
+  "text": "이 {W1:bare} 어디서 샀어? 마음에 든다",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-029",
+  "scenario": "사진·영상 공유",
+  "text": "방금 찍은 {W1:bare} 사진 보내줄게 배경화면 해도 될 만큼 잘 나왔어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-030",
+  "scenario": "사진·영상 공유",
+  "text": "영상에 {W1:sub} 가득 담겼어 한번 봐봐",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-031",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진은 {W1:sub} 주인공이야 구도가 좋지?",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-032",
+  "scenario": "사진·영상 공유",
+  "text": "오늘 찍은 영상 속 {W1:sub} 너무 근사해",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-033",
+  "scenario": "사진·영상 공유",
+  "text": "앨범 첫 장은 {W1:bare} 사진으로 하자",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-034",
+  "scenario": "사진·영상 공유",
+  "text": "이번 여행 사진 중에 {W1:sub} 제일 잘 나왔어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-035",
+  "scenario": "사진·영상 공유",
+  "text": "집에 오는 길에 {W1:bare} 사진 몇 장 찍었어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-036",
+  "scenario": "사진·영상 공유",
+  "text": "{W1:com} 같이 찍힌 풍경 사진이 제일 마음에 들어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-037",
+  "scenario": "병원·건강",
+  "text": "병원 가는 길에 {W1:sub} 눈에 들어와서 마음이 조금 편해졌어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-038",
+  "scenario": "병원·건강",
+  "text": "대기실 창밖의 {W1:bare} 보면서 기다리는 중이야",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-039",
+  "scenario": "병원·건강",
+  "text": "진료실 벽 색깔이 {W1:bare} 같아서 좀 덜 무서웠어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-040",
+  "scenario": "병원·건강",
+  "text": "약 먹고 나서 {W1:obj} 바라보며 좀 쉬었어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-041",
+  "scenario": "병원·건강",
+  "text": "아픈 동안 창가의 {W1:obj} 한참 바라봤어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-042",
+  "scenario": "병원·건강",
+  "text": "운동 삼아 걷다가 {W1:obj} 발견했어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-043",
+  "scenario": "병원·건강",
+  "text": "약국 옆 화단에 {W1:sub} 놓여 있더라",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-044",
+  "scenario": "이동·방문",
+  "text": "가는 길 내내 {W1:sub} 따라와서 지루하지 않았어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-045",
+  "scenario": "이동·방문",
+  "text": "고속도로에서 {W1:sub} 보이니까 다 온 것 같아",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-046",
+  "scenario": "이동·방문",
+  "text": "도착하면 {W1:bare} 앞에서 만나자",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-047",
+  "scenario": "이동·방문",
+  "text": "산책로에 {W1:sub} 많아서 걷기 좋더라",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-048",
+  "scenario": "이동·방문",
+  "text": "지나가다 {W1:sub} 눈에 띄어서 잠깐 멈췄어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-049",
+  "scenario": "이동·방문",
+  "text": "할머니 댁 마당에도 {W1:sub} 있었던 것 같아",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-050",
+  "scenario": "이동·방문",
+  "text": "우리 동네 {W1:bare} 구경 명소로 소문났대",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-051",
+  "scenario": "이동·방문",
+  "text": "버스 창밖으로 {W1:obj} 구경하다 보니 금방 왔어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-052",
+  "scenario": "잡담",
+  "text": "요즘은 {W1:sub} 제일 좋아 보이는 계절이야",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-053",
+  "scenario": "잡담",
+  "text": "{W1:top} 볼 때마다 마음이 편해지는 것 같아",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-054",
+  "scenario": "잡담",
+  "text": "어릴 때 {W1:obj} 모으던 기억이 나네",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-055",
+  "scenario": "잡담",
+  "text": "집 베란다에서 보는 {W1:bare} 풍경이 최고야",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-056",
+  "scenario": "잡담",
+  "text": "거실에 둔 {W1:sub} 분위기를 확 바꿔줬어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-057",
+  "scenario": "잡담",
+  "text": "이사한 집 창문으로 {W1:sub} 훤히 보여",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-058",
+  "scenario": "잡담",
+  "text": "{W1:sub} 이렇게 예쁜 줄 몰랐어 올해 처음 알았어",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-059",
+  "scenario": "잡담",
+  "text": "어제 본 {W1:pos} 모양이 계속 생각나",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-060",
+  "scenario": "잡담",
+  "text": "가을엔 {W1:bare} 구경하는 맛으로 산책해",
+  "tags": [
+   "D1n"
+  ]
+ },
+ {
+  "id": "errd-061",
+  "scenario": "일정·약속",
+  "text": "{NW1:com} 내일 세 시에 만나기로 했어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-062",
+  "scenario": "일정·약속",
+  "text": "{NW1:sub} 약속 시간에 늦는다고 전화했어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-063",
+  "scenario": "일정·약속",
+  "text": "토요일에 {NW1:dat} 연락해서 시간 맞춰 볼게",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-064",
+  "scenario": "일정·약속",
+  "text": "{NW1:voc} 내일 약속 잊지 마",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-065",
+  "scenario": "일정·약속",
+  "text": "{NW1:pos} 생일 파티 준비는 어디까지 했어?",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-066",
+  "scenario": "학교·학원",
+  "text": "{NW1:sub} 학원 끝나면 같이 숙제한다고 했어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-067",
+  "scenario": "학교·학원",
+  "text": "선생님이 {NW1:obj} 교무실로 부르셨대",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-068",
+  "scenario": "학교·학원",
+  "text": "{NW1:top} 오늘 시험 잘 봤다고 자랑하더라",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-069",
+  "scenario": "학교·학원",
+  "text": "{NW1:pos} 숙제 노트를 내가 대신 챙겨 갈게",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-070",
+  "scenario": "학교·학원",
+  "text": "{NW1:dat} 모르는 문제 좀 물어봐야겠다",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-071",
+  "scenario": "안부·심부름",
+  "text": "{NW1:sub} 밥은 먹었는지 전화 한번 해봐",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-072",
+  "scenario": "안부·심부름",
+  "text": "{NW1:voc} 어디야? 엄마가 찾으셔",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-073",
+  "scenario": "안부·심부름",
+  "text": "{NW1:obj} 데리러 가야 해서 조금 늦을 것 같아",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-074",
+  "scenario": "안부·심부름",
+  "text": "{NW1:top} 잘 도착했대 걱정 마",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-075",
+  "scenario": "안부·심부름",
+  "text": "{NW1:com} 통화했는데 목소리가 밝더라",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-076",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:sub} 먼저 계산했대 나중에 송금해 주자",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-077",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:dat} 용돈 이만 원 보내줬어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-078",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:top} 이번 달 회비를 아직 못 냈다고 하네",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-079",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:obj} 생각해서 선물 하나 샀어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-080",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:pos} 몫은 내가 대신 냈으니까 걱정 마",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-081",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:sub} 웃는 사진 한 장 보내줘",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-082",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:com} 같이 찍은 영상 아직 안 봤지?",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-083",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:top} 사진 찍는 걸 싫어해서 몰래 찍었어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-084",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:dat} 이 영상 좀 전달해 줄래?",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-085",
+  "scenario": "병원·건강",
+  "text": "{NW1:sub} 열이 나서 병원에 데려갔어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-086",
+  "scenario": "병원·건강",
+  "text": "{NW1:obj} 병원에 데려다주고 올게",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-087",
+  "scenario": "병원·건강",
+  "text": "{NW1:top} 감기가 다 나았대 다행이야",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-088",
+  "scenario": "병원·건강",
+  "text": "{NW1:com} 같이 진료받고 약도 타 왔어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-089",
+  "scenario": "병원·건강",
+  "text": "{NW1:sub} 요새 살이 빠졌다던데 맞아?",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-090",
+  "scenario": "이동·방문",
+  "text": "{NW1:sub} 지금 버스 탔다고 연락 왔어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-091",
+  "scenario": "이동·방문",
+  "text": "{NW1:obj} 역에서 태워서 같이 갈게",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-092",
+  "scenario": "이동·방문",
+  "text": "{NW1:dat} 도착하면 전화하라고 해줘",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-093",
+  "scenario": "잡담",
+  "text": "{NW1:top} 요즘 노래 연습에 푹 빠졌더라",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-094",
+  "scenario": "잡담",
+  "text": "어제 꿈에 {NW1:sub} 나와서 깜짝 놀랐어",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-095",
+  "scenario": "잡담",
+  "text": "{NW1:com} 오랜만에 수다 떨었더니 속이 시원하다",
+  "tags": [
+   "D1p"
+  ]
+ },
+ {
+  "id": "errd-096",
+  "scenario": "일정·약속",
+  "text": "주말 일정은 {WN1:bare} 보러 가는 코스로 짰어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-097",
+  "scenario": "일정·약속",
+  "text": "{WN1:sub} 잘 보이는 곳에서 사진 찍기로 약속했잖아",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-098",
+  "scenario": "일정·약속",
+  "text": "다음 모임 장소는 {WN1:pos} 풍경이 보이는 카페야",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-099",
+  "scenario": "학교·학원",
+  "text": "학교 앞 문구점에서 {WN1:obj} 하나 사 갈게",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-100",
+  "scenario": "학교·학원",
+  "text": "미술 시간에 {WN1:pos} 모양을 따라 그렸어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-101",
+  "scenario": "학교·학원",
+  "text": "수업 중에 창밖 {WN1:bare} 보다가 선생님께 들켰어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-102",
+  "scenario": "학교·학원",
+  "text": "학원 가방에 {WN1:sub} 들어 있는데 무겁더라",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-103",
+  "scenario": "학교·학원",
+  "text": "공책 표지에 {WN1:obj} 그려 넣었더니 훨씬 예쁘다",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-104",
+  "scenario": "학교·학원",
+  "text": "시험 기간이라 {WN1:bare} 볼 여유도 없었어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-105",
+  "scenario": "안부·심부름",
+  "text": "오늘 {WN1:sub} 정말 보기 좋네 산책하고 올게",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-106",
+  "scenario": "안부·심부름",
+  "text": "거기 {WN1:sub} 어떤지 알려줘 여긴 평소랑 비슷해",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-107",
+  "scenario": "안부·심부름",
+  "text": "어젯밤엔 {WN1:sub} 하도 선명해서 잠이 안 왔어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-108",
+  "scenario": "정산·돈·구매",
+  "text": "마트 세일하길래 {WN1:obj} 두 개 샀어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-109",
+  "scenario": "정산·돈·구매",
+  "text": "{WN1:pos} 값이 올라서 장바구니가 가벼워졌네",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-110",
+  "scenario": "정산·돈·구매",
+  "text": "택배로 {WN1:bare} 도착했는데 영수증은 상자 안에 있어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-111",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 가계부에 {WN1:bare} 구입비를 따로 적어 뒀어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-112",
+  "scenario": "정산·돈·구매",
+  "text": "용돈으로 {WN1:bare} 사려고 모으는 중이야",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-113",
+  "scenario": "사진·영상 공유",
+  "text": "영상 배경에 {WN1:sub} 크게 나왔는데 멋지더라",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-114",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:bare} 사진만 모아서 앨범 하나 만들었어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-115",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속 {WN1:pos} 색이 정말 예쁘게 나왔어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-116",
+  "scenario": "사진·영상 공유",
+  "text": "내가 찍어 둔 {WN1:bare} 사진이 하나 있는데 보낼까",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-117",
+  "scenario": "병원·건강",
+  "text": "병원 창문 너머로 {WN1:sub} 보여서 기다리기 덜 지루했어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-118",
+  "scenario": "병원·건강",
+  "text": "진료 끝나고 {WN1:bare} 구경하며 천천히 걸었어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-119",
+  "scenario": "병원·건강",
+  "text": "약 먹는 시간 알람 옆에 {WN1:sub} 놓여 있어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-120",
+  "scenario": "병원·건강",
+  "text": "응급실 앞 화단의 {WN1:sub} 생각보다 크더라",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-121",
+  "scenario": "이동·방문",
+  "text": "차 안에서 {WN1:obj} 구경하느라 멀미도 잊었어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-122",
+  "scenario": "이동·방문",
+  "text": "길가에 {WN1:sub} 줄지어 서 있어서 풍경이 좋더라",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-123",
+  "scenario": "이동·방문",
+  "text": "도착해서 {WN1:bare} 구경부터 하고 짐 풀자",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-124",
+  "scenario": "이동·방문",
+  "text": "오는 길에 {WN1:obj} 지나쳤는데 사진 못 찍어서 아쉬워",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-125",
+  "scenario": "잡담",
+  "text": "요즘 {WN1:sub} 눈에 자꾸 들어와서 한참 쳐다봤어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-126",
+  "scenario": "잡담",
+  "text": "집에 {WN1:bare} 하나 들여놓으니 분위기가 달라졌어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-127",
+  "scenario": "잡담",
+  "text": "어릴 때 살던 동네엔 {WN1:sub} 정말 많았어",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-128",
+  "scenario": "잡담",
+  "text": "{WN1:top} 볼 때마다 기분이 좋아지는 물건이야",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-129",
+  "scenario": "잡담",
+  "text": "베란다에서 {WN1:obj} 키워 볼까 생각 중이야",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-130",
+  "scenario": "잡담",
+  "text": "이번 가을엔 {WN1:bare} 보러 멀리 한번 가보자",
+  "tags": [
+   "D1w"
+  ]
+ },
+ {
+  "id": "errd-131",
+  "scenario": "일정·약속",
+  "text": "{K1:sub} 내일 저녁에 다 같이 외식하재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-132",
+  "scenario": "이동·방문",
+  "text": "주말에 할머니 댁에 가래 일찍 일어나야 해",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-133",
+  "scenario": "일정·약속",
+  "text": "이따 시간 되면 잠깐 들르래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-134",
+  "scenario": "학교·학원",
+  "text": "내일 아침엔 일찍 학원 가래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-135",
+  "scenario": "학교·학원",
+  "text": "숙제 끝나고 간식 먹재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-136",
+  "scenario": "학교·학원",
+  "text": "선생님이 내일까지 준비물 챙겨 오래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-137",
+  "scenario": "학교·학원",
+  "text": "동생이 같이 문제집 풀재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-138",
+  "scenario": "학교·학원",
+  "text": "학교 끝나면 바로 집에 오래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-139",
+  "scenario": "안부·심부름",
+  "text": "밥은 먹었냐고 빨리 전화하래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-140",
+  "scenario": "안부·심부름",
+  "text": "장 보러 가는 김에 두부 좀 사 오래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-141",
+  "scenario": "정산·돈·구매",
+  "text": "마트 가는 길에 우유도 사 오재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-142",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:sub} 용돈 보내 줬으니 확인해 보래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-143",
+  "scenario": "정산·돈·구매",
+  "text": "카드값은 이번 주에 정산하재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-144",
+  "scenario": "정산·돈·구매",
+  "text": "같이 선물 사자고 돈 모으재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-145",
+  "scenario": "사진·영상 공유",
+  "text": "사진 잘 나왔으니까 가족방에 올리래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-146",
+  "scenario": "사진·영상 공유",
+  "text": "영상 다 찍었으면 같이 보재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-147",
+  "scenario": "사진·영상 공유",
+  "text": "오늘 찍은 사진 한번 보내 보래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-148",
+  "scenario": "병원·건강",
+  "text": "병원 갔다 오면 바로 약 먹재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-149",
+  "scenario": "병원·건강",
+  "text": "감기 걸렸으니까 따뜻하게 입고 나가래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-150",
+  "scenario": "병원·건강",
+  "text": "내일 진료 예약했으니 늦지 말고 오래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-151",
+  "scenario": "이동·방문",
+  "text": "지금 출발하면 저녁 전에 도착하재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-152",
+  "scenario": "이동·방문",
+  "text": "역 앞에서 만나서 같이 가재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-153",
+  "scenario": "이동·방문",
+  "text": "버스 타고 오지 말고 택시 타고 오래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-154",
+  "scenario": "이동·방문",
+  "text": "이번 주말엔 시골집 한번 내려가재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-155",
+  "scenario": "잡담",
+  "text": "요즘 날씨 좋으니까 산책이나 가재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-156",
+  "scenario": "잡담",
+  "text": "주말에 영화나 보러 가재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-157",
+  "scenario": "잡담",
+  "text": "라면 말고 밥 먹으래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-158",
+  "scenario": "잡담",
+  "text": "오랜만에 다 같이 수다나 떨재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-159",
+  "scenario": "안부·심부름",
+  "text": "이따 집에가서 밥먹고 숙제하재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-160",
+  "scenario": "안부·심부름",
+  "text": "방청소부터하고 놀러가래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-161",
+  "scenario": "안부·심부름",
+  "text": "설거지다하고 거실에서 쉬재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-162",
+  "scenario": "안부·심부름",
+  "text": "다녀와서 손씻고 간식먹으래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-163",
+  "scenario": "잡담",
+  "text": "오늘은 일찍 자재 내일 일찍 일어나야 하니까",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-164",
+  "scenario": "잡담",
+  "text": "저녁엔 뭐 먹을지 {K1:top} 아직 안 정했재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-165",
+  "scenario": "일정·약속",
+  "text": "약속 시간에 늦지 말고 오재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-166",
+  "scenario": "이동·방문",
+  "text": "비 올 것 같으니 우산 챙겨 가래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-167",
+  "scenario": "일정·약속",
+  "text": "이번 주 일정은 내일 다시 정하재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-168",
+  "scenario": "병원·건강",
+  "text": "다음 주에 같이 병원 가보재",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-169",
+  "scenario": "학교·학원",
+  "text": "수업 끝나면 전화부터 하래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-170",
+  "scenario": "정산·돈·구매",
+  "text": "용돈은 내일 줄 테니 오늘은 참으래",
+  "tags": [
+   "D2"
+  ]
+ },
+ {
+  "id": "errd-171",
+  "scenario": "일정·약속",
+  "text": "{AL1:sub} 내일 몇 시에 오는지 물어봐 줘",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-172",
+  "scenario": "일정·약속",
+  "text": "{AL1:voc} 주말에 같이 놀러 갈래?",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-173",
+  "scenario": "학교·학원",
+  "text": "우리 {AL1:top} 오늘 시험이라 긴장했겠다",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-174",
+  "scenario": "학교·학원",
+  "text": "{AL1:dat} 학원 끝나면 전화하라고 전해 줘",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-175",
+  "scenario": "학교·학원",
+  "text": "{AL1:obj} 데리러 가야 하는데 몇 시에 끝나?",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-176",
+  "scenario": "학교·학원",
+  "text": "학교 갔다 온 {AL1:sub} 간식부터 찾더라",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-177",
+  "scenario": "학교·학원",
+  "text": "{AL1:com} 숙제하다가 졸았어",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-178",
+  "scenario": "학교·학원",
+  "text": "{AL1:pos} 준비물 내가 챙겨 놨어",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-179",
+  "scenario": "안부·심부름",
+  "text": "{AL1:sub} 심부름 다녀오느라 고생했어",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-180",
+  "scenario": "안부·심부름",
+  "text": "{AL1:voc} 간 김에 빵 좀 사다 줄래?",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-181",
+  "scenario": "안부·심부름",
+  "text": "{AL1:top} 밥 잘 먹고 있는지 모르겠네",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-182",
+  "scenario": "정산·돈·구매",
+  "text": "{AL1:sub} 용돈 모아서 선물 샀대",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-183",
+  "scenario": "정산·돈·구매",
+  "text": "{AL1:dat} 오천 원 보내 줬으니 확인하라고 해",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-184",
+  "scenario": "정산·돈·구매",
+  "text": "이번 계산은 {AL1:com} 나눠서 하자",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-185",
+  "scenario": "사진·영상 공유",
+  "text": "{AL1:pos} 사진 보니까 많이 컸더라",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-186",
+  "scenario": "사진·영상 공유",
+  "text": "{AL1:sub} 웃는 영상 보고 하루 종일 기분 좋았어",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-187",
+  "scenario": "사진·영상 공유",
+  "text": "{AL1:obj} 찍은 영상 가족방에 올려도 될까?",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-188",
+  "scenario": "병원·건강",
+  "text": "{AL1:sub} 열이 좀 있는 것 같아서 병원 가려고 해",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-189",
+  "scenario": "병원·건강",
+  "text": "{AL1:top} 약 먹고 푹 자는 중이야",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-190",
+  "scenario": "병원·건강",
+  "text": "{AL1:voc} 아프면 참지 말고 바로 말해",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-191",
+  "scenario": "병원·건강",
+  "text": "{AL1:obj} 병원에 데려다주고 올게",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-192",
+  "scenario": "이동·방문",
+  "text": "{AL1:sub} 지금 지하철 탔대",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-193",
+  "scenario": "이동·방문",
+  "text": "{AL1:com} 같이 역 앞에서 기다릴게",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-194",
+  "scenario": "이동·방문",
+  "text": "{AL1:dat} 도착하면 문자 하라고 해 줘",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-195",
+  "scenario": "잡담",
+  "text": "{AL1:top} 오늘 하루 종일 방에서 안 나오네",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-196",
+  "scenario": "잡담",
+  "text": "요즘 {AL1:sub} 노래에 푹 빠졌더라",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-197",
+  "scenario": "잡담",
+  "text": "{AL1:pos} 웃음소리가 들려서 집이 환해",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-198",
+  "scenario": "잡담",
+  "text": "어제 {AL1:com} 한참 수다 떨었어",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-199",
+  "scenario": "학교·학원",
+  "text": "{AL1:sub} 오늘 소풍 가는 날이라 새벽부터 들떠 있어",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-200",
+  "scenario": "안부·심부름",
+  "text": "저녁에 {AL1:obj} 불러서 같이 먹을까?",
+  "tags": [
+   "ALn"
+  ]
+ },
+ {
+  "id": "errd-201",
+  "scenario": "일정·약속",
+  "text": "{K1:sub} 오늘 저녁에 늦으신다고 연락 왔어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-202",
+  "scenario": "일정·약속",
+  "text": "{K1:bare}, 내일 몇 시에 데리러 와?",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-203",
+  "scenario": "일정·약속",
+  "text": "{K1:top} 이번 주말에 시간 괜찮으시대",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-204",
+  "scenario": "학교·학원",
+  "text": "{K1:dat} 시험 결과 말씀드렸더니 좋아하셨어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-205",
+  "scenario": "병원·건강",
+  "text": "방금 {K1:obj} 모시고 병원 다녀왔어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-206",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:com} 같이 장 보러 가기로 했어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-207",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:pos} 생신 선물 뭐가 좋을까?",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-208",
+  "scenario": "안부·심부름",
+  "text": "{K1:bare}! 숙제 다 했어요 간식 줘요",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-209",
+  "scenario": "안부·심부름",
+  "text": "저녁은 {K1:sub} 차려 주신대 일찍 와",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-210",
+  "scenario": "학교·학원",
+  "text": "{K1:top} 내일 학교 앞에서 기다리신대",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-211",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:dat} 용돈 받았다고 전해 줘",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-212",
+  "scenario": "정산·돈·구매",
+  "text": "내가 {K1:obj} 대신해서 계산했어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-213",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:bare}, 사진 보내 드릴게요 확인해 보세요",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-214",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:sub} 보내 주신 영상 잘 봤어요",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-215",
+  "scenario": "병원·건강",
+  "text": "오늘 {K1:sub} 약 드시는 거 잊지 않게 알려 줘",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-216",
+  "scenario": "잡담",
+  "text": "{K1:com} 통화하다 보니 한 시간이 훌쩍 갔어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-217",
+  "scenario": "이동·방문",
+  "text": "{K1:top} 지금 버스 타고 오시는 중이래",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-218",
+  "scenario": "이동·방문",
+  "text": "{K1:obj} 역에서 모시고 올게 걱정 마",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-219",
+  "scenario": "일정·약속",
+  "text": "이번 명절엔 {K1:sub} 집으로 가기로 했어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-220",
+  "scenario": "병원·건강",
+  "text": "{K1:bare}, 감기는 좀 괜찮아지셨어요?",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-221",
+  "scenario": "안부·심부름",
+  "text": "{K1:pos} 안경 어디 뒀는지 아는 사람?",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-222",
+  "scenario": "안부·심부름",
+  "text": "{K1:dat} 전화 한 통만 드려 줄래?",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-223",
+  "scenario": "잡담",
+  "text": "주말엔 {K1:com} 같이 산책하러 나가자",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-224",
+  "scenario": "잡담",
+  "text": "{K1:top} 요즘 노래 교실에 열심히 다니셔",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-225",
+  "scenario": "잡담",
+  "text": "{K1:sub} 해 주신 반찬이 제일 맛있어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-226",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:obj} 위해서 케이크 하나 주문했어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-227",
+  "scenario": "학교·학원",
+  "text": "학교 끝나면 {K1:dat} 먼저 들렀다 갈게요",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-228",
+  "scenario": "안부·심부름",
+  "text": "{K1:bare}, 오늘 저녁 메뉴 뭐예요?",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-229",
+  "scenario": "병원·건강",
+  "text": "{K1:sub} 병원 예약 시간 알려 달라고 하셨어",
+  "tags": [
+   "kin"
+  ]
+ },
+ {
+  "id": "errd-230",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:top} 어제 사 주신 옷이 마음에 쏙 들어",
+  "tags": [
+   "kin"
+  ]
+ }
+]

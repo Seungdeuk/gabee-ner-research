@@ -1,0 +1,74 @@
+{
+ "mode": "v5-koelectra-small-klue10msg-s7",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "c09df531418f"
+ },
+ "ner_only": false,
+ "categories": {
+  "collision_holdout": {
+   "spans": 50,
+   "full": 34,
+   "partial": 0,
+   "none": 16,
+   "extra": 0,
+   "sentences": 50,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "조회민이 어제부터 기침을 하더라",
+     "조회민"
+    ],
+    [
+     "none",
+     "조회호가 어제부터 기침을 하더라",
+     "조회호"
+    ],
+    [
+     "none",
+     "조회민한테 저녁에 안부전화 좀 넣어줄래",
+     "조회민"
+    ],
+    [
+     "none",
+     "조회호한테 저녁에 안부전화 좀 넣어줄래",
+     "조회호"
+    ],
+    [
+     "none",
+     "강좌영한테 저녁에 안부전화 좀 넣어줄래",
+     "강좌영"
+    ],
+    [
+     "none",
+     "강좌아한테 저녁에 안부전화 좀 넣어줄래",
+     "강좌아"
+    ]
+   ]
+  },
+  "collision_holdout_neg": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 5,
+   "flagged": 0,
+   "miss_examples": []
+  }
+ },
+ "person_total": {
+  "spans": 50,
+  "full": 34,
+  "partial": 0,
+  "none": 16,
+  "extra": 0
+ },
+ "latency_100chars": {
+  "median_ms": 3.963,
+  "p95_ms": 11.054,
+  "n": 100
+ }
+}

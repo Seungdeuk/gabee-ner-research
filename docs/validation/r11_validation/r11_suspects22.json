@@ -1,0 +1,243 @@
+{
+ "suspect_rows": 22,
+ "distinct_units(pair counted once)": 14,
+ "by_set": {
+  "dev": 12,
+  "val": 10
+ },
+ "by_type": {
+  "dev/D1P": 3,
+  "dev/D1": 3,
+  "dev/C2": 5,
+  "dev/NEWNAME": 1,
+  "val/TRAIN_PAIR": 10
+ },
+ "by_reason": {
+  "M:pair_word_loanword_suspect_by_ending": 14,
+  "M:C2_names_separated_by_connector_gap_over_3(structure ok)": 1,
+  "F:josa_batchim_mismatch": 3,
+  "M:alias_equals_a_person_name_or_kinship_term": 2
+ },
+ "rows_without_any_current_reason": [
+  "r11_val-00519",
+  "r11_val-00520"
+ ],
+ "rows": [
+  {
+   "id": "r11_dev-00285",
+   "set": "dev",
+   "type": "D1P",
+   "pair_id": "dev-dpa-114",
+   "pair_role": "person",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_dev-00286",
+   "set": "dev",
+   "type": "D1",
+   "pair_id": "dev-dpa-114",
+   "pair_role": "noun",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_dev-00313",
+   "set": "dev",
+   "type": "D1P",
+   "pair_id": "dev-dpc-140",
+   "pair_role": "person",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_dev-00314",
+   "set": "dev",
+   "type": "D1",
+   "pair_id": "dev-dpc-140",
+   "pair_role": "noun",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_dev-00591",
+   "set": "dev",
+   "type": "D1P",
+   "pair_id": "dev-dpb-075",
+   "pair_role": "person",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_dev-00592",
+   "set": "dev",
+   "type": "D1",
+   "pair_id": "dev-dpb-075",
+   "pair_role": "noun",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_dev-00958",
+   "set": "dev",
+   "type": "C2",
+   "pair_id": null,
+   "pair_role": null,
+   "reasons": [
+    "M:C2_names_separated_by_connector_gap_over_3(structure ok)"
+   ]
+  },
+  {
+   "id": "r11_dev-00985",
+   "set": "dev",
+   "type": "C2",
+   "pair_id": null,
+   "pair_role": null,
+   "reasons": [
+    "F:josa_batchim_mismatch"
+   ]
+  },
+  {
+   "id": "r11_dev-01017",
+   "set": "dev",
+   "type": "C2",
+   "pair_id": null,
+   "pair_role": null,
+   "reasons": [
+    "M:alias_equals_a_person_name_or_kinship_term"
+   ]
+  },
+  {
+   "id": "r11_dev-01025",
+   "set": "dev",
+   "type": "C2",
+   "pair_id": null,
+   "pair_role": null,
+   "reasons": [
+    "F:josa_batchim_mismatch"
+   ]
+  },
+  {
+   "id": "r11_dev-01064",
+   "set": "dev",
+   "type": "C2",
+   "pair_id": null,
+   "pair_role": null,
+   "reasons": [
+    "F:josa_batchim_mismatch"
+   ]
+  },
+  {
+   "id": "r11_dev-01210",
+   "set": "dev",
+   "type": "NEWNAME",
+   "pair_id": null,
+   "pair_role": null,
+   "reasons": [
+    "M:alias_equals_a_person_name_or_kinship_term"
+   ]
+  },
+  {
+   "id": "r11_val-00071",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpb-106",
+   "pair_role": "person",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_val-00072",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpb-106",
+   "pair_role": "noun",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_val-00125",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpa-126",
+   "pair_role": "person",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_val-00126",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpa-126",
+   "pair_role": "noun",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_val-00207",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpa-109",
+   "pair_role": "person",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_val-00208",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpa-109",
+   "pair_role": "noun",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_val-00519",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpb-011",
+   "pair_role": "person",
+   "reasons": []
+  },
+  {
+   "id": "r11_val-00520",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpb-011",
+   "pair_role": "noun",
+   "reasons": []
+  },
+  {
+   "id": "r11_val-00581",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpa-081",
+   "pair_role": "person",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  },
+  {
+   "id": "r11_val-00582",
+   "set": "val",
+   "type": "TRAIN_PAIR",
+   "pair_id": "val-vpa-081",
+   "pair_role": "noun",
+   "reasons": [
+    "M:pair_word_loanword_suspect_by_ending"
+   ]
+  }
+ ]
+}

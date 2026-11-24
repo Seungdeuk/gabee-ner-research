@@ -1,0 +1,58 @@
+{
+ "version": "ops-1.0",
+ "tag": "r11-ops-prereg-1.0",
+ "files_sha256_lf": {
+  "docs/security/NER_R11_OPS_REPLACEMENT_PROTOCOL.md": "5b89eb7042c9cad58f28496c772bf3f6d90d7ebbef3bad18b37e7ed16d5308d4",
+  "docs/security/NER_R11_OPS_DEPLOYMENT_CHECKLIST.md": "64aabb54a8ca38680b676c1aa73c287ae4fd4797fdcc7df9d382d1fb31f6a5ab",
+  "docs/security/NER_R11_EVALSET_SPEC.md": "8a24f2f380383fd557a95c005163bb57944c6ef4c62bc3fab7a647680941a93c",
+  "docs/security/NER_R11_EVALSET_PRODUCER_INSTRUCTIONS.md": "dc515f849a33588aafe00fb42ceb1c4f0c6230dbb0bdf3e97d8bb5f256280bf4",
+  "docs/security/NER_R11_EVALSET_PRODUCER_ADDENDUM_OPS.md": "cbb40b34c5ffb61c4f2b8201bdd699280ba9025ca7600f0c08fc0d852b21d3f0",
+  "docs/security/NER_R11_EVALSET_SEAL_PROCEDURE.md": "dc6bcb24b88258c927b5e7f55732435e6936f21aba8c5a8cdcdc1cc8e55217f0",
+  "docs/security/r11_validation/ops_replacement/ops_decision_criteria.json": "ffc48cf2f74d92e36525bffc0fbe262453398569623d46127b9d4a0c78be30c7",
+  "docs/security/r11_validation/ops_replacement/ops_model_lock.json": "c363f424ad2dabeda69e4611ad14fe1fb2f3d6cd5aca292ab4259039216c5dcf",
+  "docs/security/r11_validation/r11_reference_baselines.json": "255032fe13dcd499127964747a30ac5cb429046ad732c0611fc842cfbd9ecf1d",
+  "docs/security/r11_validation/r11_recall_gate_fixed.json": "283cd3153fddaf5ace98067cff6ee477c335533895454923b88c80579ca35e21",
+  "docs/security/r11_validation/r11_code_pin.json": "4580c3a824e1015952b77815e10067abfd942e6fb093ec53cbf2f8bf44b14c3e",
+  "docs/security/r11_validation/r11_B_results/selection_final.json": "f4277d8613f7a1f881c8cd743094338cf6ce813603a280b090307bc8d292aa52",
+  "docs/security/r11_validation/r11_B_results/r11_B_summary.json": "93d45404b72baca68ab3e790de5d37a3801d238b2cab7d0546e1a57198c7bf29",
+  "apps/api/scripts/evaluate_ops_final.py": "ba9fa9ffdb2e031204b7a297229135c100c78d396baf88630e1494c419a29eeb",
+  "apps/api/scripts/seal_r11_evalset.py": "c969ce677c5a2010bdc8b9af6c1a8564c68eb80855e1cd8f9025c63f387652f0",
+  "apps/api/scripts/verify_r11_seal.py": "1273deb0e424602dd5dad58c603a0e080bcd302405a3fd1d8f94b8efe0cb5d1d",
+  "apps/api/scripts/validate_r11_evalset.py": "7f8dbce1fb139422990fb5e1f83676c176fc5cbd0409b1b06ab969d3fa5fa883",
+  "apps/api/scripts/tag_to_r11_jsonl.py": "31efa9b441fed7d168ae8ef3c199d7be45263e5df180808075dff10d2715ae5f",
+  "apps/api/scripts/r11_eval_lib.py": "554f7967dee11e6ade5a4c7dcb318c09df3c15752bfe9d9402a306572ba0965e",
+  "apps/api/scripts/r8_eval_lib.py": "db7eb3877b56567b85f7abeaf4ad0af23382365468803130cf19a10e74284c17",
+  "apps/api/scripts/test_evaluate_ops_final.py": "c7170cbb15d16b23f47109cf63230aa49a1b7ed9a17ad678525488653526ae00",
+  "apps/api/scripts/test_ops_criteria_frozen.py": "05d267c8d4af1191d1913be92fcebb251f2f900804bd34c9ab87ca8b72e77d61"
+ },
+ "models": {
+  "A": {
+   "model.onnx": {
+    "sha256": "46210943c45f01b6a9fa500894fb9821b1c130be63de8d8f7ef603d2d87ccf8e"
+   },
+   "tokenizer.json": {
+    "sha256": "d5c7a9a8996aca4fee55a3664381b012bd7dbb3e190061b2591c02502b7171b6"
+   },
+   "labels.json": {
+    "sha256": "f5cf8bd55bf4c31df0da444131a7b68ff0ace3e482ca7dad6e2f55f3fd216fe4"
+   },
+   "model_card.json": {
+    "sha256": "0a008641205e6248c3e1b870ae1efcd317865e8c795e1c9401bb84df9ab647b2"
+   }
+  },
+  "B": {
+   "model.onnx": {
+    "sha256": "3831601b7ffb6093a8d1b8c832e46ad140712c6e402f17b3054c3ec0f9ae4c94"
+   },
+   "tokenizer.json": {
+    "sha256": "d5c7a9a8996aca4fee55a3664381b012bd7dbb3e190061b2591c02502b7171b6"
+   },
+   "labels.json": {
+    "sha256": "f5cf8bd55bf4c31df0da444131a7b68ff0ace3e482ca7dad6e2f55f3fd216fe4"
+   },
+   "model_card.json": {
+    "sha256": "0157e8bf854e3b492adead91332526ff09c4f2381208d711f9d7c3429ac2cc74"
+   }
+  }
+ }
+}

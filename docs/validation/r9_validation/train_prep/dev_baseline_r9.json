@@ -1,0 +1,341 @@
+{
+ "service": {
+  "label": "service",
+  "model_dir": "C:\\Users\\<user>\\Documents\\gabee-model-delivery\\ner-koelectra-small-v2b",
+  "fingerprint12": "46210943c45f",
+  "main5": {
+   "v7_namefreq": {
+    "n_sentences": 2454,
+    "n_gold_spans": 2376,
+    "n_neg_sentences": 78,
+    "prf": {
+     "tp": 2097,
+     "fp": 173,
+     "fn": 279,
+     "precision": 0.9237885462555067,
+     "recall": 0.8825757575757576,
+     "f1": 0.902712010331468
+    },
+    "fp_boundary": 173,
+    "fp_pure": 0,
+    "full": 107,
+    "partial": 38,
+    "masked": 2231,
+    "full_rate": 0.04503367003367004,
+    "partial_rate": 0.015993265993265993,
+    "total_exposure_rate": 0.06102693602693603,
+    "total_exposure_ci": [
+     0.0521,
+     0.0714
+    ],
+    "neg_flagged": 34,
+    "nonperson_fpr": 0.4358974358974359,
+    "nonperson_fpr_ci": [
+     0.3314,
+     0.5464
+    ]
+   },
+   "realistic_family": {
+    "n_sentences": 222,
+    "n_gold_spans": 260,
+    "n_neg_sentences": 22,
+    "prf": {
+     "tp": 217,
+     "fp": 40,
+     "fn": 43,
+     "precision": 0.8443579766536965,
+     "recall": 0.8346153846153846,
+     "f1": 0.8394584139264991
+    },
+    "fp_boundary": 30,
+    "fp_pure": 10,
+    "full": 13,
+    "partial": 21,
+    "masked": 226,
+    "full_rate": 0.05,
+    "partial_rate": 0.08076923076923077,
+    "total_exposure_rate": 0.13076923076923078,
+    "total_exposure_ci": [
+     0.0951,
+     0.1772
+    ],
+    "neg_flagged": 4,
+    "nonperson_fpr": 0.18181818181818182,
+    "nonperson_fpr_ci": [
+     0.0731,
+     0.3852
+    ]
+   },
+   "v14_realistic": {
+    "n_sentences": 111,
+    "n_gold_spans": 97,
+    "n_neg_sentences": 20,
+    "prf": {
+     "tp": 81,
+     "fp": 10,
+     "fn": 16,
+     "precision": 0.8901098901098901,
+     "recall": 0.8350515463917526,
+     "f1": 0.8617021276595744
+    },
+    "fp_boundary": 10,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 1,
+    "masked": 96,
+    "full_rate": 0.0,
+    "partial_rate": 0.010309278350515464,
+    "total_exposure_rate": 0.010309278350515464,
+    "total_exposure_ci": [
+     0.0018,
+     0.0561
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": 0.0,
+    "nonperson_fpr_ci": [
+     0.0,
+     0.1611
+    ]
+   },
+   "nemotron_full": {
+    "n_sentences": 2500,
+    "n_gold_spans": 2500,
+    "n_neg_sentences": 0,
+    "prf": {
+     "tp": 2299,
+     "fp": 159,
+     "fn": 201,
+     "precision": 0.935313262815297,
+     "recall": 0.9196,
+     "f1": 0.927390076643808
+    },
+    "fp_boundary": 159,
+    "fp_pure": 0,
+    "full": 43,
+    "partial": 65,
+    "masked": 2392,
+    "full_rate": 0.0172,
+    "partial_rate": 0.026,
+    "total_exposure_rate": 0.0432,
+    "total_exposure_ci": [
+     0.0359,
+     0.0519
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": null,
+    "nonperson_fpr_ci": null
+   },
+   "nemotron_given": {
+    "n_sentences": 2474,
+    "n_gold_spans": 2474,
+    "n_neg_sentences": 0,
+    "prf": {
+     "tp": 2230,
+     "fp": 82,
+     "fn": 244,
+     "precision": 0.9645328719723183,
+     "recall": 0.9013742926434923,
+     "f1": 0.931884663602173
+    },
+    "fp_boundary": 82,
+    "fp_pure": 0,
+    "full": 162,
+    "partial": 0,
+    "masked": 2312,
+    "full_rate": 0.06548100242522231,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.06548100242522231,
+    "total_exposure_ci": [
+     0.0564,
+     0.0759
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": null,
+    "nonperson_fpr_ci": null
+   }
+  },
+  "safety": {
+   "ambiguity_probe": {
+    "n_sentences": 177,
+    "n_gold_spans": 87,
+    "n_neg_sentences": 90,
+    "prf": {
+     "tp": 69,
+     "fp": 9,
+     "fn": 18,
+     "precision": 0.8846153846153846,
+     "recall": 0.7931034482758621,
+     "f1": 0.8363636363636363
+    },
+    "fp_boundary": 9,
+    "fp_pure": 0,
+    "full": 9,
+    "partial": 0,
+    "masked": 78,
+    "full_rate": 0.10344827586206896,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.10344827586206896,
+    "total_exposure_ci": [
+     0.0554,
+     0.1851
+    ],
+    "neg_flagged": 16,
+    "nonperson_fpr": 0.17777777777777778,
+    "nonperson_fpr_ci": [
+     0.1125,
+     0.2694
+    ]
+   }
+  },
+  "ref": {
+   "v12_locked": {
+    "n_sentences": 240,
+    "n_gold_spans": 180,
+    "n_neg_sentences": 60,
+    "prf": {
+     "tp": 49,
+     "fp": 17,
+     "fn": 131,
+     "precision": 0.7424242424242424,
+     "recall": 0.2722222222222222,
+     "f1": 0.3983739837398374
+    },
+    "fp_boundary": 17,
+    "fp_pure": 0,
+    "full": 114,
+    "partial": 3,
+    "masked": 63,
+    "full_rate": 0.6333333333333333,
+    "partial_rate": 0.016666666666666666,
+    "total_exposure_rate": 0.65,
+    "total_exposure_ci": [
+     0.5778,
+     0.7159
+    ],
+    "neg_flagged": 6,
+    "nonperson_fpr": 0.1,
+    "nonperson_fpr_ci": [
+     0.0466,
+     0.2015
+    ]
+   },
+   "v13_locked": {
+    "n_sentences": 260,
+    "n_gold_spans": 200,
+    "n_neg_sentences": 60,
+    "prf": {
+     "tp": 58,
+     "fp": 20,
+     "fn": 142,
+     "precision": 0.7435897435897436,
+     "recall": 0.29,
+     "f1": 0.41726618705035967
+    },
+    "fp_boundary": 20,
+    "fp_pure": 0,
+    "full": 122,
+    "partial": 6,
+    "masked": 72,
+    "full_rate": 0.61,
+    "partial_rate": 0.03,
+    "total_exposure_rate": 0.64,
+    "total_exposure_ci": [
+     0.5714,
+     0.7033
+    ],
+    "neg_flagged": 5,
+    "nonperson_fpr": 0.08333333333333333,
+    "nonperson_fpr_ci": [
+     0.0361,
+     0.1807
+    ]
+   },
+   "v8_independent": {
+    "n_sentences": 744,
+    "n_gold_spans": 681,
+    "n_neg_sentences": 63,
+    "prf": {
+     "tp": 611,
+     "fp": 14,
+     "fn": 70,
+     "precision": 0.9776,
+     "recall": 0.8972099853157122,
+     "f1": 0.9356814701378255
+    },
+    "fp_boundary": 14,
+    "fp_pure": 0,
+    "full": 56,
+    "partial": 0,
+    "masked": 625,
+    "full_rate": 0.08223201174743025,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.08223201174743025,
+    "total_exposure_ci": [
+     0.0639,
+     0.1053
+    ],
+    "neg_flagged": 10,
+    "nonperson_fpr": 0.15873015873015872,
+    "nonperson_fpr_ci": [
+     0.0886,
+     0.2681
+    ]
+   },
+   "r7b_realistic": {
+    "n_sentences": 90,
+    "n_gold_spans": 85,
+    "n_neg_sentences": 5,
+    "prf": {
+     "tp": 82,
+     "fp": 3,
+     "fn": 3,
+     "precision": 0.9647058823529412,
+     "recall": 0.9647058823529412,
+     "f1": 0.9647058823529412
+    },
+    "fp_boundary": 3,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 0,
+    "masked": 85,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.0,
+    "total_exposure_ci": [
+     0.0,
+     0.0432
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": 0.0,
+    "nonperson_fpr_ci": [
+     0.0,
+     0.4345
+    ]
+   }
+  },
+  "overmerge": {
+   "count": 9,
+   "total_items": 28,
+   "texts": [
+    "로운가온가 같이 숙제했대",
+    "하진도겸한테 숙제 다 했냐고 물어봤어",
+    "병철몽글이가 같이 숙제했대",
+    "가온형세민누나가 같이 왔대",
+    "민준서윤이가 같이 왔어",
+    "지호민준이가 같이 놀았어",
+    "오늘 민준서윤이를 만났어",
+    "콩이민준이가 같이 놀았어",
+    "민준서윤지호가 같이 놀았어"
+   ]
+  },
+  "macro": {
+   "total_exposure": 0.06215728951438092,
+   "full_exposure": 0.03554293449177847,
+   "partial_exposure": 0.026614355022602447,
+   "exact_f1": 0.8926294584327046,
+   "precision": 0.9116205095613417,
+   "recall": 0.8746433962452775,
+   "nonperson_fpr": 0.19887334887334887
+  }
+ }
+}

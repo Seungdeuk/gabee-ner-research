@@ -1,0 +1,27 @@
+=== gabee-api:r11b-s21-nonprod
+PRIVACY_NER_MODEL_DIR=/srv/data/models/ner-koelectra-small-r11b-s21
+PRIVACY_NER_MODE=required
+doc-classifier
+e5-small-ft
+ner-koelectra-small-r11b-s21
+3831601b7ffb6093a8d1b8c832e46ad140712c6e402f17b3054c3ec0f9ae4c94  /srv/data/models/ner-koelectra-small-r11b-s21/model.onnx
+d5c7a9a8996aca4fee55a3664381b012bd7dbb3e190061b2591c02502b7171b6  /srv/data/models/ner-koelectra-small-r11b-s21/tokenizer.json
+f5cf8bd55bf4c31df0da444131a7b68ff0ace3e482ca7dad6e2f55f3fd216fe4  /srv/data/models/ner-koelectra-small-r11b-s21/labels.json
+6.7M	/srv/data/models/doc-classifier
+129M	/srv/data/models/e5-small-ft
+55M	/srv/data/models/ner-koelectra-small-r11b-s21
+ort 1.32.0
+{"mode": "required", "active": true, "fingerprint": "3831601b7ffb"}
+=== gabee-api:s0-rollback-nonprod
+PRIVACY_NER_MODEL_DIR=/srv/data/models/ner-koelectra-small-v2b
+doc-classifier
+e5-small-ft
+ner-koelectra-small-v2b
+46210943c45f01b6a9fa500894fb9821b1c130be63de8d8f7ef603d2d87ccf8e  /srv/data/models/ner-koelectra-small-v2b/model.onnx
+d5c7a9a8996aca4fee55a3664381b012bd7dbb3e190061b2591c02502b7171b6  /srv/data/models/ner-koelectra-small-v2b/tokenizer.json
+f5cf8bd55bf4c31df0da444131a7b68ff0ace3e482ca7dad6e2f55f3fd216fe4  /srv/data/models/ner-koelectra-small-v2b/labels.json
+6.7M	/srv/data/models/doc-classifier
+129M	/srv/data/models/e5-small-ft
+55M	/srv/data/models/ner-koelectra-small-v2b
+ort 1.32.0
+{"mode": "auto", "active": true, "fingerprint": "46210943c45f"}

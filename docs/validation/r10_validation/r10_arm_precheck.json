@@ -1,0 +1,154 @@
+{
+ "seeds": [
+  7,
+  13,
+  21,
+  42,
+  99
+ ],
+ "checks": {
+  "C10_equals_R10full_rows_steps_klue_relabeled": true,
+  "C10s_equals_attr_arms": true,
+  "klue_share_equal_across_C10_R10full": true,
+  "c10_extra_contains_r10_rows": 0,
+  "attrD_groups_intact(2 rows: 1 person + 1 noun, same word)": true,
+  "attrD_person_noun_rows": [
+   200,
+   200
+  ],
+  "r10_full_pair_person_noun_rows": [
+   400,
+   400
+  ],
+  "pool_size": 7054,
+  "pool_rows_with_relabel_excluded": 292,
+  "r10_full_rows": 2100,
+  "attr_rows": {
+   "r10_attrD_train": 400,
+   "r10_attrBC_train": 400,
+   "r10_attrN_train": 400
+  }
+ },
+ "copied_identical_to_r9": {
+  "baseline_train": true,
+  "baseline_val": true,
+  "synth_train": true,
+  "synth_val": true,
+  "klue_train": true,
+  "klue_val": true,
+  "r9_Ffull_train": true
+ },
+ "arms_seed7": {
+  "R9F": {
+   "rows": 7815,
+   "klue_rows": 469,
+   "klue_share_pct": 6.0,
+   "steps_per_epoch": 245,
+   "total_steps_max": 1960,
+   "warmup_steps": 196,
+   "relabeled_rows(r9p)": 292,
+   "r10_new_rows": 0,
+   "r9_new_rows": 3126
+  },
+  "C10": {
+   "rows": 9915,
+   "klue_rows": 469,
+   "klue_share_pct": 4.73,
+   "steps_per_epoch": 310,
+   "total_steps_max": 2480,
+   "warmup_steps": 248,
+   "relabeled_rows(r9p)": 292,
+   "r10_new_rows": 0,
+   "r9_new_rows": 4073
+  },
+  "R10-full": {
+   "rows": 9915,
+   "klue_rows": 469,
+   "klue_share_pct": 4.73,
+   "steps_per_epoch": 310,
+   "total_steps_max": 2480,
+   "warmup_steps": 248,
+   "relabeled_rows(r9p)": 292,
+   "r10_new_rows": 2100,
+   "r9_new_rows": 3126
+  },
+  "C10s": {
+   "rows": 8215,
+   "klue_rows": 469,
+   "klue_share_pct": 5.71,
+   "steps_per_epoch": 257,
+   "total_steps_max": 2056,
+   "warmup_steps": 206,
+   "relabeled_rows(r9p)": 292,
+   "r10_new_rows": 0,
+   "r9_new_rows": 3312
+  },
+  "R10-D": {
+   "rows": 8215,
+   "klue_rows": 469,
+   "klue_share_pct": 5.71,
+   "steps_per_epoch": 257,
+   "total_steps_max": 2056,
+   "warmup_steps": 206,
+   "relabeled_rows(r9p)": 292,
+   "r10_new_rows": 400,
+   "r9_new_rows": 3126
+  },
+  "R10-BC": {
+   "rows": 8215,
+   "klue_rows": 469,
+   "klue_share_pct": 5.71,
+   "steps_per_epoch": 257,
+   "total_steps_max": 2056,
+   "warmup_steps": 206,
+   "relabeled_rows(r9p)": 292,
+   "r10_new_rows": 400,
+   "r9_new_rows": 3126
+  },
+  "R10-N": {
+   "rows": 8215,
+   "klue_rows": 469,
+   "klue_share_pct": 5.71,
+   "steps_per_epoch": 257,
+   "total_steps_max": 2056,
+   "warmup_steps": 206,
+   "relabeled_rows(r9p)": 292,
+   "r10_new_rows": 400,
+   "r9_new_rows": 3126
+  }
+ },
+ "labels_seed7": {
+  "R9F": {
+   "LOCATION": 789,
+   "ADDRESS": 716,
+   "PERSON": 4233,
+   "PERSON_ALIAS": 478,
+   "ORGANIZATION": 997
+  },
+  "C10": {
+   "LOCATION": 1000,
+   "ADDRESS": 922,
+   "PERSON": 5397,
+   "PERSON_ALIAS": 622,
+   "ORGANIZATION": 1275
+  },
+  "R10-full": {
+   "LOCATION": 819,
+   "ADDRESS": 716,
+   "PERSON": 6217,
+   "PERSON_ALIAS": 572,
+   "ORGANIZATION": 1027
+  }
+ },
+ "training_runs": {
+  "R10-full": 5,
+  "C10": 5,
+  "attribution(D,BC,N)": 15,
+  "C10s": 5,
+  "total": 30,
+  "reused_without_training": [
+   "R9F (5 seeds from R9)",
+   "S0 service v2b"
+  ]
+ }
+}

@@ -1,0 +1,462 @@
+{"id": "v6-0001", "category": "일반_메신저", "text": "강태오가 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0002", "category": "일반_메신저", "text": "강태오 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0003", "category": "일반_메신저", "text": "엄마가 강태오 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0004", "category": "일반_메신저", "text": "강태오 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0005", "category": "일반_메신저", "text": "강태오가 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0006", "category": "일반_메신저", "text": "강태오 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0007", "category": "일반_메신저", "text": "할머니가 강태오 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0008", "category": "일반_메신저", "text": "강태오가 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0009", "category": "일반_메신저", "text": "강태오 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0010", "category": "일반_메신저", "text": "강태오랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0011", "category": "일반_메신저", "text": "노은찬이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0012", "category": "일반_메신저", "text": "노은찬 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0013", "category": "일반_메신저", "text": "엄마가 노은찬 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0014", "category": "일반_메신저", "text": "노은찬 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0015", "category": "일반_메신저", "text": "노은찬이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0016", "category": "일반_메신저", "text": "노은찬 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0017", "category": "일반_메신저", "text": "할머니가 노은찬 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0018", "category": "일반_메신저", "text": "노은찬이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0019", "category": "일반_메신저", "text": "노은찬 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0020", "category": "일반_메신저", "text": "노은찬이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0021", "category": "일반_메신저", "text": "문서윤이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0022", "category": "일반_메신저", "text": "문서윤 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0023", "category": "일반_메신저", "text": "엄마가 문서윤 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0024", "category": "일반_메신저", "text": "문서윤 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0025", "category": "일반_메신저", "text": "문서윤이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0026", "category": "일반_메신저", "text": "문서윤 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0027", "category": "일반_메신저", "text": "할머니가 문서윤 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0028", "category": "일반_메신저", "text": "문서윤이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0029", "category": "일반_메신저", "text": "문서윤 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0030", "category": "일반_메신저", "text": "문서윤이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0031", "category": "일반_메신저", "text": "배하림이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0032", "category": "일반_메신저", "text": "배하림 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0033", "category": "일반_메신저", "text": "엄마가 배하림 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0034", "category": "일반_메신저", "text": "배하림 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0035", "category": "일반_메신저", "text": "배하림이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0036", "category": "일반_메신저", "text": "배하림 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0037", "category": "일반_메신저", "text": "할머니가 배하림 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0038", "category": "일반_메신저", "text": "배하림이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0039", "category": "일반_메신저", "text": "배하림 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0040", "category": "일반_메신저", "text": "배하림이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0041", "category": "일반_메신저", "text": "신가은이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0042", "category": "일반_메신저", "text": "신가은 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0043", "category": "일반_메신저", "text": "엄마가 신가은 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0044", "category": "일반_메신저", "text": "신가은 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0045", "category": "일반_메신저", "text": "신가은이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0046", "category": "일반_메신저", "text": "신가은 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0047", "category": "일반_메신저", "text": "할머니가 신가은 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0048", "category": "일반_메신저", "text": "신가은이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0049", "category": "일반_메신저", "text": "신가은 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0050", "category": "일반_메신저", "text": "신가은이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0051", "category": "일반_메신저", "text": "오지후가 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0052", "category": "일반_메신저", "text": "오지후 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0053", "category": "일반_메신저", "text": "엄마가 오지후 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0054", "category": "일반_메신저", "text": "오지후 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0055", "category": "일반_메신저", "text": "오지후가 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0056", "category": "일반_메신저", "text": "오지후 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0057", "category": "일반_메신저", "text": "할머니가 오지후 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0058", "category": "일반_메신저", "text": "오지후가 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0059", "category": "일반_메신저", "text": "오지후 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0060", "category": "일반_메신저", "text": "오지후랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0061", "category": "일반_메신저", "text": "임도윤이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0062", "category": "일반_메신저", "text": "임도윤 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0063", "category": "일반_메신저", "text": "엄마가 임도윤 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0064", "category": "일반_메신저", "text": "임도윤 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0065", "category": "일반_메신저", "text": "임도윤이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0066", "category": "일반_메신저", "text": "임도윤 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0067", "category": "일반_메신저", "text": "할머니가 임도윤 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0068", "category": "일반_메신저", "text": "임도윤이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0069", "category": "일반_메신저", "text": "임도윤 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0070", "category": "일반_메신저", "text": "임도윤이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0071", "category": "일반_메신저", "text": "조은서가 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0072", "category": "일반_메신저", "text": "조은서 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0073", "category": "일반_메신저", "text": "엄마가 조은서 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0074", "category": "일반_메신저", "text": "조은서 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0075", "category": "일반_메신저", "text": "조은서가 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0076", "category": "일반_메신저", "text": "조은서 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0077", "category": "일반_메신저", "text": "할머니가 조은서 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0078", "category": "일반_메신저", "text": "조은서가 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0079", "category": "일반_메신저", "text": "조은서 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0080", "category": "일반_메신저", "text": "조은서랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0081", "category": "일반_메신저", "text": "최하람이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0082", "category": "일반_메신저", "text": "최하람 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0083", "category": "일반_메신저", "text": "엄마가 최하람 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0084", "category": "일반_메신저", "text": "최하람 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0085", "category": "일반_메신저", "text": "최하람이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0086", "category": "일반_메신저", "text": "최하람 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0087", "category": "일반_메신저", "text": "할머니가 최하람 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0088", "category": "일반_메신저", "text": "최하람이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0089", "category": "일반_메신저", "text": "최하람 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0090", "category": "일반_메신저", "text": "최하람이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0091", "category": "일반_메신저", "text": "한유준이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0092", "category": "일반_메신저", "text": "한유준 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0093", "category": "일반_메신저", "text": "엄마가 한유준 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0094", "category": "일반_메신저", "text": "한유준 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0095", "category": "일반_메신저", "text": "한유준이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0096", "category": "일반_메신저", "text": "한유준 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0097", "category": "일반_메신저", "text": "할머니가 한유준 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0098", "category": "일반_메신저", "text": "한유준이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0099", "category": "일반_메신저", "text": "한유준 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0100", "category": "일반_메신저", "text": "한유준이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0101", "category": "일반_메신저", "text": "황나윤이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0102", "category": "일반_메신저", "text": "황나윤 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0103", "category": "일반_메신저", "text": "엄마가 황나윤 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0104", "category": "일반_메신저", "text": "황나윤 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0105", "category": "일반_메신저", "text": "황나윤이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0106", "category": "일반_메신저", "text": "황나윤 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0107", "category": "일반_메신저", "text": "할머니가 황나윤 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0108", "category": "일반_메신저", "text": "황나윤이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0109", "category": "일반_메신저", "text": "황나윤 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0110", "category": "일반_메신저", "text": "황나윤이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0111", "category": "일반_메신저", "text": "구시윤이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0112", "category": "일반_메신저", "text": "구시윤 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0113", "category": "일반_메신저", "text": "엄마가 구시윤 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0114", "category": "일반_메신저", "text": "구시윤 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0115", "category": "일반_메신저", "text": "구시윤이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0116", "category": "일반_메신저", "text": "구시윤 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0117", "category": "일반_메신저", "text": "할머니가 구시윤 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0118", "category": "일반_메신저", "text": "구시윤이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0119", "category": "일반_메신저", "text": "구시윤 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0120", "category": "일반_메신저", "text": "구시윤이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0121", "category": "일반_메신저", "text": "류채은이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0122", "category": "일반_메신저", "text": "류채은 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0123", "category": "일반_메신저", "text": "엄마가 류채은 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0124", "category": "일반_메신저", "text": "류채은 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0125", "category": "일반_메신저", "text": "류채은이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0126", "category": "일반_메신저", "text": "류채은 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0127", "category": "일반_메신저", "text": "할머니가 류채은 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0128", "category": "일반_메신저", "text": "류채은이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0129", "category": "일반_메신저", "text": "류채은 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0130", "category": "일반_메신저", "text": "류채은이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0131", "category": "일반_메신저", "text": "백서진이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0132", "category": "일반_메신저", "text": "백서진 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0133", "category": "일반_메신저", "text": "엄마가 백서진 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0134", "category": "일반_메신저", "text": "백서진 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0135", "category": "일반_메신저", "text": "백서진이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0136", "category": "일반_메신저", "text": "백서진 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0137", "category": "일반_메신저", "text": "할머니가 백서진 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0138", "category": "일반_메신저", "text": "백서진이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0139", "category": "일반_메신저", "text": "백서진 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0140", "category": "일반_메신저", "text": "백서진이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0141", "category": "일반_메신저", "text": "심민재가 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0142", "category": "일반_메신저", "text": "심민재 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0143", "category": "일반_메신저", "text": "엄마가 심민재 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0144", "category": "일반_메신저", "text": "심민재 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0145", "category": "일반_메신저", "text": "심민재가 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0146", "category": "일반_메신저", "text": "심민재 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0147", "category": "일반_메신저", "text": "할머니가 심민재 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0148", "category": "일반_메신저", "text": "심민재가 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0149", "category": "일반_메신저", "text": "심민재 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0150", "category": "일반_메신저", "text": "심민재랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0151", "category": "일반_메신저", "text": "양하은이 오늘 학원 끝나고 바로 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0152", "category": "일반_메신저", "text": "양하은 치과 예약 몇시로 했어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0153", "category": "일반_메신저", "text": "엄마가 양하은 간식 냉장고에 넣어놨대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0154", "category": "일반_메신저", "text": "양하은 오늘따라 기분 좋아보이던데", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0155", "category": "일반_메신저", "text": "양하은이 숙제 다 했다고 자랑하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0156", "category": "일반_메신저", "text": "양하은 사진 가족방에 좀 올려줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0157", "category": "일반_메신저", "text": "할머니가 양하은 이번 주말에 온다고 좋아하셔", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0158", "category": "일반_메신저", "text": "양하은이 축구화 새로 사달래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0159", "category": "일반_메신저", "text": "양하은 열 좀 내렸는지 확인해볼래", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0160", "category": "일반_메신저", "text": "양하은이랑 같이 도서관 가기로 했어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "일반_메신저"}
+{"id": "v6-0161", "category": "낯선_이름", "text": "노현소 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0162", "category": "낯선_이름", "text": "노현소가 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0163", "category": "낯선_이름", "text": "할머니가 노현소 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0164", "category": "낯선_이름", "text": "노현소 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0165", "category": "낯선_이름", "text": "노현소가 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0166", "category": "낯선_이름", "text": "단우리 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0167", "category": "낯선_이름", "text": "단우리가 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0168", "category": "낯선_이름", "text": "할머니가 단우리 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0169", "category": "낯선_이름", "text": "단우리 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0170", "category": "낯선_이름", "text": "단우리가 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0171", "category": "낯선_이름", "text": "매소안 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0172", "category": "낯선_이름", "text": "매소안이 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0173", "category": "낯선_이름", "text": "할머니가 매소안 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0174", "category": "낯선_이름", "text": "매소안 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0175", "category": "낯선_이름", "text": "매소안이 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0176", "category": "낯선_이름", "text": "번가율 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0177", "category": "낯선_이름", "text": "번가율이 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0178", "category": "낯선_이름", "text": "할머니가 번가율 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0179", "category": "낯선_이름", "text": "번가율 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0180", "category": "낯선_이름", "text": "번가율이 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0181", "category": "낯선_이름", "text": "삼우진 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0182", "category": "낯선_이름", "text": "삼우진이 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0183", "category": "낯선_이름", "text": "할머니가 삼우진 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0184", "category": "낯선_이름", "text": "삼우진 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0185", "category": "낯선_이름", "text": "삼우진이 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0186", "category": "낯선_이름", "text": "안전호 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0187", "category": "낯선_이름", "text": "안전호가 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0188", "category": "낯선_이름", "text": "할머니가 안전호 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0189", "category": "낯선_이름", "text": "안전호 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0190", "category": "낯선_이름", "text": "안전호가 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0191", "category": "낯선_이름", "text": "오래민 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0192", "category": "낯선_이름", "text": "오래민이 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0193", "category": "낯선_이름", "text": "할머니가 오래민 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0194", "category": "낯선_이름", "text": "오래민 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0195", "category": "낯선_이름", "text": "오래민이 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0196", "category": "낯선_이름", "text": "자유현 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0197", "category": "낯선_이름", "text": "자유현이 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0198", "category": "낯선_이름", "text": "할머니가 자유현 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0199", "category": "낯선_이름", "text": "자유현 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0200", "category": "낯선_이름", "text": "자유현이 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0201", "category": "낯선_이름", "text": "창해나 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0202", "category": "낯선_이름", "text": "창해나가 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0203", "category": "낯선_이름", "text": "할머니가 창해나 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0204", "category": "낯선_이름", "text": "창해나 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0205", "category": "낯선_이름", "text": "창해나가 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0206", "category": "낯선_이름", "text": "파도윤 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0207", "category": "낯선_이름", "text": "파도윤이 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0208", "category": "낯선_이름", "text": "할머니가 파도윤 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0209", "category": "낯선_이름", "text": "파도윤 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0210", "category": "낯선_이름", "text": "파도윤이 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0211", "category": "낯선_이름", "text": "하모건 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0212", "category": "낯선_이름", "text": "하모건이 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0213", "category": "낯선_이름", "text": "할머니가 하모건 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0214", "category": "낯선_이름", "text": "하모건 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0215", "category": "낯선_이름", "text": "하모건이 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0216", "category": "낯선_이름", "text": "극지온 오늘 저녁엔 뭐 먹고 싶대?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0217", "category": "낯선_이름", "text": "극지온이 어제 늦게까지 안 자더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0218", "category": "낯선_이름", "text": "할머니가 극지온 용돈 주셨대", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0219", "category": "낯선_이름", "text": "극지온 머리 자른 거 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0220", "category": "낯선_이름", "text": "극지온이 줄넘기 대회 나간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "낯선_이름"}
+{"id": "v6-0221", "category": "애칭_줄임말", "text": "강이 오늘 유치원에서 노래 배웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0222", "category": "애칭_줄임말", "text": "강이가 밥 잘 먹었는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0223", "category": "애칭_줄임말", "text": "삼촌이 강이 사진 보내달래", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0224", "category": "애칭_줄임말", "text": "강이 요즘 부쩍 말이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0225", "category": "애칭_줄임말", "text": "강이가 어제 넘어져서 무릎 다쳤대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0226", "category": "애칭_줄임말", "text": "할머니가 강이 보고싶다고 전화하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0227", "category": "애칭_줄임말", "text": "강이 데리러 몇시에 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0228", "category": "애칭_줄임말", "text": "강이가 숙제 다 했다고 그러더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0229", "category": "애칭_줄임말", "text": "강이 사진 가족방에 올라왔던데 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0230", "category": "애칭_줄임말", "text": "강이가 오늘 발표 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0231", "category": "애칭_줄임말", "text": "연이 오늘 유치원에서 노래 배웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0232", "category": "애칭_줄임말", "text": "연이가 밥 잘 먹었는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0233", "category": "애칭_줄임말", "text": "삼촌이 연이 사진 보내달래", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0234", "category": "애칭_줄임말", "text": "연이 요즘 부쩍 말이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0235", "category": "애칭_줄임말", "text": "연이가 어제 넘어져서 무릎 다쳤대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0236", "category": "애칭_줄임말", "text": "할머니가 연이 보고싶다고 전화하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0237", "category": "애칭_줄임말", "text": "연이 데리러 몇시에 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0238", "category": "애칭_줄임말", "text": "연이가 숙제 다 했다고 그러더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0239", "category": "애칭_줄임말", "text": "연이 사진 가족방에 올라왔던데 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0240", "category": "애칭_줄임말", "text": "연이가 오늘 발표 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0241", "category": "애칭_줄임말", "text": "담이 오늘 유치원에서 노래 배웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0242", "category": "애칭_줄임말", "text": "담이가 밥 잘 먹었는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0243", "category": "애칭_줄임말", "text": "삼촌이 담이 사진 보내달래", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0244", "category": "애칭_줄임말", "text": "담이 요즘 부쩍 말이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0245", "category": "애칭_줄임말", "text": "담이가 어제 넘어져서 무릎 다쳤대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0246", "category": "애칭_줄임말", "text": "할머니가 담이 보고싶다고 전화하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0247", "category": "애칭_줄임말", "text": "담이 데리러 몇시에 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0248", "category": "애칭_줄임말", "text": "담이가 숙제 다 했다고 그러더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0249", "category": "애칭_줄임말", "text": "담이 사진 가족방에 올라왔던데 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0250", "category": "애칭_줄임말", "text": "담이가 오늘 발표 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0251", "category": "애칭_줄임말", "text": "신이 오늘 유치원에서 노래 배웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0252", "category": "애칭_줄임말", "text": "신이가 밥 잘 먹었는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0253", "category": "애칭_줄임말", "text": "삼촌이 신이 사진 보내달래", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0254", "category": "애칭_줄임말", "text": "신이 요즘 부쩍 말이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0255", "category": "애칭_줄임말", "text": "신이가 어제 넘어져서 무릎 다쳤대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0256", "category": "애칭_줄임말", "text": "할머니가 신이 보고싶다고 전화하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0257", "category": "애칭_줄임말", "text": "신이 데리러 몇시에 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0258", "category": "애칭_줄임말", "text": "신이가 숙제 다 했다고 그러더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0259", "category": "애칭_줄임말", "text": "신이 사진 가족방에 올라왔던데 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0260", "category": "애칭_줄임말", "text": "신이가 오늘 발표 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0261", "category": "애칭_줄임말", "text": "찬이 오늘 유치원에서 노래 배웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0262", "category": "애칭_줄임말", "text": "찬이가 밥 잘 먹었는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0263", "category": "애칭_줄임말", "text": "삼촌이 찬이 사진 보내달래", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0264", "category": "애칭_줄임말", "text": "찬이 요즘 부쩍 말이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0265", "category": "애칭_줄임말", "text": "찬이가 어제 넘어져서 무릎 다쳤대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0266", "category": "애칭_줄임말", "text": "할머니가 찬이 보고싶다고 전화하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0267", "category": "애칭_줄임말", "text": "찬이 데리러 몇시에 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0268", "category": "애칭_줄임말", "text": "찬이가 숙제 다 했다고 그러더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0269", "category": "애칭_줄임말", "text": "찬이 사진 가족방에 올라왔던데 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0270", "category": "애칭_줄임말", "text": "찬이가 오늘 발표 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0271", "category": "애칭_줄임말", "text": "곤이 오늘 유치원에서 노래 배웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0272", "category": "애칭_줄임말", "text": "곤이가 밥 잘 먹었는지 물어봐줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0273", "category": "애칭_줄임말", "text": "삼촌이 곤이 사진 보내달래", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0274", "category": "애칭_줄임말", "text": "곤이 요즘 부쩍 말이 늘었어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0275", "category": "애칭_줄임말", "text": "곤이가 어제 넘어져서 무릎 다쳤대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0276", "category": "애칭_줄임말", "text": "할머니가 곤이 보고싶다고 전화하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0277", "category": "애칭_줄임말", "text": "곤이 데리러 몇시에 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0278", "category": "애칭_줄임말", "text": "곤이가 숙제 다 했다고 그러더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0279", "category": "애칭_줄임말", "text": "곤이 사진 가족방에 올라왔던데 봤어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0280", "category": "애칭_줄임말", "text": "곤이가 오늘 발표 잘했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭_줄임말"}
+{"id": "v6-0281", "category": "ORGLOC_표면형", "text": "할인소 오늘 늦게 끝난대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0282", "category": "ORGLOC_표면형", "text": "할인소가 숙제 검사받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0283", "category": "ORGLOC_표면형", "text": "할인소 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0284", "category": "ORGLOC_표면형", "text": "삼촌이 할인소 데리러 간대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0285", "category": "ORGLOC_표면형", "text": "할인소가 오늘 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0286", "category": "ORGLOC_표면형", "text": "예약관 오늘 늦게 끝난대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0287", "category": "ORGLOC_표면형", "text": "예약관이 숙제 검사받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0288", "category": "ORGLOC_표면형", "text": "예약관 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0289", "category": "ORGLOC_표면형", "text": "삼촌이 예약관 데리러 간대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0290", "category": "ORGLOC_표면형", "text": "예약관이 오늘 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0291", "category": "ORGLOC_표면형", "text": "문의실 오늘 늦게 끝난대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0292", "category": "ORGLOC_표면형", "text": "문의실이 숙제 검사받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0293", "category": "ORGLOC_표면형", "text": "문의실 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0294", "category": "ORGLOC_표면형", "text": "삼촌이 문의실 데리러 간대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0295", "category": "ORGLOC_표면형", "text": "문의실이 오늘 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0296", "category": "ORGLOC_표면형", "text": "안내장 오늘 늦게 끝난대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0297", "category": "ORGLOC_표면형", "text": "안내장이 숙제 검사받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0298", "category": "ORGLOC_표면형", "text": "안내장 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0299", "category": "ORGLOC_표면형", "text": "삼촌이 안내장 데리러 간대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0300", "category": "ORGLOC_표면형", "text": "안내장이 오늘 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0301", "category": "ORGLOC_표면형", "text": "상환관 오늘 늦게 끝난대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0302", "category": "ORGLOC_표면형", "text": "상환관이 숙제 검사받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0303", "category": "ORGLOC_표면형", "text": "상환관 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0304", "category": "ORGLOC_표면형", "text": "삼촌이 상환관 데리러 간대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0305", "category": "ORGLOC_표면형", "text": "상환관이 오늘 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0306", "category": "ORGLOC_표면형", "text": "대출원 오늘 늦게 끝난대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0307", "category": "ORGLOC_표면형", "text": "대출원이 숙제 검사받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0308", "category": "ORGLOC_표면형", "text": "대출원 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0309", "category": "ORGLOC_표면형", "text": "삼촌이 대출원 데리러 간대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0310", "category": "ORGLOC_표면형", "text": "대출원이 오늘 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0311", "category": "ORGLOC_표면형", "text": "등록관 오늘 늦게 끝난대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0312", "category": "ORGLOC_표면형", "text": "등록관이 숙제 검사받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0313", "category": "ORGLOC_표면형", "text": "등록관 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0314", "category": "ORGLOC_표면형", "text": "삼촌이 등록관 데리러 간대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0315", "category": "ORGLOC_표면형", "text": "등록관이 오늘 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0316", "category": "ORGLOC_표면형", "text": "면접소 오늘 늦게 끝난대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0317", "category": "ORGLOC_표면형", "text": "면접소가 숙제 검사받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0318", "category": "ORGLOC_표면형", "text": "면접소 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0319", "category": "ORGLOC_표면형", "text": "삼촌이 면접소 데리러 간대", "spans": [{"kind": "PERSON", "start": 4, "end": 7}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0320", "category": "ORGLOC_표면형", "text": "면접소가 오늘 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_표면형"}
+{"id": "v6-0321", "category": "ORGLOC_문맥형", "text": "하도연 어린이집 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0322", "category": "ORGLOC_문맥형", "text": "하도연 어린이집 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0323", "category": "ORGLOC_문맥형", "text": "하도연 어린이집 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0324", "category": "ORGLOC_문맥형", "text": "하도연 유치원 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0325", "category": "ORGLOC_문맥형", "text": "하도연 유치원 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0326", "category": "ORGLOC_문맥형", "text": "하도연 유치원 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0327", "category": "ORGLOC_문맥형", "text": "하도연 학원 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0328", "category": "ORGLOC_문맥형", "text": "하도연 학원 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0329", "category": "ORGLOC_문맥형", "text": "하도연 학원 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0330", "category": "ORGLOC_문맥형", "text": "하도연 학교 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0331", "category": "ORGLOC_문맥형", "text": "하도연 학교 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0332", "category": "ORGLOC_문맥형", "text": "하도연 학교 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0333", "category": "ORGLOC_문맥형", "text": "서나율 어린이집 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0334", "category": "ORGLOC_문맥형", "text": "서나율 어린이집 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0335", "category": "ORGLOC_문맥형", "text": "서나율 어린이집 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0336", "category": "ORGLOC_문맥형", "text": "서나율 유치원 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0337", "category": "ORGLOC_문맥형", "text": "서나율 유치원 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0338", "category": "ORGLOC_문맥형", "text": "서나율 유치원 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0339", "category": "ORGLOC_문맥형", "text": "서나율 학원 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0340", "category": "ORGLOC_문맥형", "text": "서나율 학원 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0341", "category": "ORGLOC_문맥형", "text": "서나율 학원 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0342", "category": "ORGLOC_문맥형", "text": "서나율 학교 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0343", "category": "ORGLOC_문맥형", "text": "서나율 학교 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0344", "category": "ORGLOC_문맥형", "text": "서나율 학교 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0345", "category": "ORGLOC_문맥형", "text": "고은결 어린이집 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0346", "category": "ORGLOC_문맥형", "text": "고은결 어린이집 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0347", "category": "ORGLOC_문맥형", "text": "고은결 어린이집 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0348", "category": "ORGLOC_문맥형", "text": "고은결 유치원 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0349", "category": "ORGLOC_문맥형", "text": "고은결 유치원 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0350", "category": "ORGLOC_문맥형", "text": "고은결 유치원 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0351", "category": "ORGLOC_문맥형", "text": "고은결 학원 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0352", "category": "ORGLOC_문맥형", "text": "고은결 학원 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0353", "category": "ORGLOC_문맥형", "text": "고은결 학원 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0354", "category": "ORGLOC_문맥형", "text": "고은결 학교 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0355", "category": "ORGLOC_문맥형", "text": "고은결 학교 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0356", "category": "ORGLOC_문맥형", "text": "고은결 학교 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0357", "category": "ORGLOC_문맥형", "text": "배시후 어린이집 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0358", "category": "ORGLOC_문맥형", "text": "배시후 어린이집 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0359", "category": "ORGLOC_문맥형", "text": "배시후 어린이집 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0360", "category": "ORGLOC_문맥형", "text": "배시후 유치원 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0361", "category": "ORGLOC_문맥형", "text": "배시후 유치원 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0362", "category": "ORGLOC_문맥형", "text": "배시후 유치원 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0363", "category": "ORGLOC_문맥형", "text": "배시후 학원 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0364", "category": "ORGLOC_문맥형", "text": "배시후 학원 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0365", "category": "ORGLOC_문맥형", "text": "배시후 학원 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0366", "category": "ORGLOC_문맥형", "text": "배시후 학교 행사가 몇시래?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0367", "category": "ORGLOC_문맥형", "text": "배시후 학교 선생님이 전화하셨어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0368", "category": "ORGLOC_문맥형", "text": "배시후 학교 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "ORGLOC_문맥형"}
+{"id": "v6-0369", "category": "조사_경계건강검진", "text": "강이준은 오늘 늦게 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0370", "category": "조사_경계건강검진", "text": "강이준이 숙제 다 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0371", "category": "조사_경계건강검진", "text": "강이준을 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0372", "category": "조사_경계건강검진", "text": "강이준아 밥 먹어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0373", "category": "조사_경계건강검진", "text": "강이준이랑 같이 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0374", "category": "조사_경계건강검진", "text": "강이준한테 급하게 전화 좀 넣어줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0375", "category": "조사_경계건강검진", "text": "강이준네 옆집으로 이사왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0376", "category": "조사_경계건강검진", "text": "강이준이랑 노을하 둘이 싸웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0377", "category": "조사_경계건강검진", "text": "노을하는 오늘 늦게 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0378", "category": "조사_경계건강검진", "text": "노을하가 숙제 다 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0379", "category": "조사_경계건강검진", "text": "노을하를 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0380", "category": "조사_경계건강검진", "text": "노을하야 밥 먹어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0381", "category": "조사_경계건강검진", "text": "노을하랑 같이 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0382", "category": "조사_경계건강검진", "text": "노을하한테 급하게 전화 좀 넣어줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0383", "category": "조사_경계건강검진", "text": "노을하네 옆집으로 이사왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0384", "category": "조사_경계건강검진", "text": "노을하랑 민서온 둘이 싸웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0385", "category": "조사_경계건강검진", "text": "민서온은 오늘 늦게 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0386", "category": "조사_경계건강검진", "text": "민서온이 숙제 다 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0387", "category": "조사_경계건강검진", "text": "민서온을 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0388", "category": "조사_경계건강검진", "text": "민서온아 밥 먹어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0389", "category": "조사_경계건강검진", "text": "민서온이랑 같이 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0390", "category": "조사_경계건강검진", "text": "민서온한테 급하게 전화 좀 넣어줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0391", "category": "조사_경계건강검진", "text": "민서온네 옆집으로 이사왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0392", "category": "조사_경계건강검진", "text": "민서온이랑 백하늘 둘이 싸웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0393", "category": "조사_경계건강검진", "text": "백하늘은 오늘 늦게 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0394", "category": "조사_경계건강검진", "text": "백하늘이 숙제 다 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0395", "category": "조사_경계건강검진", "text": "백하늘을 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0396", "category": "조사_경계건강검진", "text": "백하늘아 밥 먹어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0397", "category": "조사_경계건강검진", "text": "백하늘이랑 같이 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0398", "category": "조사_경계건강검진", "text": "백하늘한테 급하게 전화 좀 넣어줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0399", "category": "조사_경계건강검진", "text": "백하늘네 옆집으로 이사왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0400", "category": "조사_경계건강검진", "text": "백하늘이랑 오지연 둘이 싸웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0401", "category": "조사_경계건강검진", "text": "오지연은 오늘 늦게 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0402", "category": "조사_경계건강검진", "text": "오지연이 숙제 다 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0403", "category": "조사_경계건강검진", "text": "오지연을 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0404", "category": "조사_경계건강검진", "text": "오지연아 밥 먹어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0405", "category": "조사_경계건강검진", "text": "오지연이랑 같이 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0406", "category": "조사_경계건강검진", "text": "오지연한테 급하게 전화 좀 넣어줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0407", "category": "조사_경계건강검진", "text": "오지연네 옆집으로 이사왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0408", "category": "조사_경계건강검진", "text": "오지연이랑 장우빈 둘이 싸웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0409", "category": "조사_경계건강검진", "text": "장우빈은 오늘 늦게 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0410", "category": "조사_경계건강검진", "text": "장우빈이 숙제 다 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0411", "category": "조사_경계건강검진", "text": "장우빈을 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0412", "category": "조사_경계건강검진", "text": "장우빈아 밥 먹어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0413", "category": "조사_경계건강검진", "text": "장우빈이랑 같이 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0414", "category": "조사_경계건강검진", "text": "장우빈한테 급하게 전화 좀 넣어줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0415", "category": "조사_경계건강검진", "text": "장우빈네 옆집으로 이사왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0416", "category": "조사_경계건강검진", "text": "장우빈이랑 조하늘 둘이 싸웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0417", "category": "조사_경계건강검진", "text": "조하늘은 오늘 늦게 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0418", "category": "조사_경계건강검진", "text": "조하늘이 숙제 다 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0419", "category": "조사_경계건강검진", "text": "조하늘을 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0420", "category": "조사_경계건강검진", "text": "조하늘아 밥 먹어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0421", "category": "조사_경계건강검진", "text": "조하늘이랑 같이 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0422", "category": "조사_경계건강검진", "text": "조하늘한테 급하게 전화 좀 넣어줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0423", "category": "조사_경계건강검진", "text": "조하늘네 옆집으로 이사왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0424", "category": "조사_경계건강검진", "text": "조하늘이랑 최은우 둘이 싸웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 6, "end": 9}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0425", "category": "조사_경계건강검진", "text": "최은우는 오늘 늦게 온대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0426", "category": "조사_경계건강검진", "text": "최은우가 숙제 다 했대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0427", "category": "조사_경계건강검진", "text": "최은우를 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0428", "category": "조사_경계건강검진", "text": "최은우야 밥 먹어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0429", "category": "조사_경계건강검진", "text": "최은우랑 같이 놀이터 갔어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0430", "category": "조사_경계건강검진", "text": "최은우한테 급하게 전화 좀 넣어줘", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0431", "category": "조사_경계건강검진", "text": "최은우네 옆집으로 이사왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0432", "category": "조사_경계건강검진", "text": "최은우랑 강이준 둘이 싸웠대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}], "known_names": [], "template_id": "조사_경계건강검진"}
+{"id": "v6-0433", "category": "비인명", "text": "오늘 하늘 색깔이 완전 예쁘더라", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0434", "category": "비인명", "text": "바다 보러 주말에 갈까 생각 중이야", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0435", "category": "비인명", "text": "노을 지는 거 사진 찍었어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0436", "category": "비인명", "text": "달빛이 너무 밝아서 산책 나갔어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0437", "category": "비인명", "text": "보람을 느끼는 하루였어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0438", "category": "비인명", "text": "초원 풍경이 그림 같더라", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0439", "category": "비인명", "text": "소망을 적어서 벽에 붙여놨어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0440", "category": "비인명", "text": "인연이라는 게 참 신기해", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0441", "category": "비인명", "text": "주유소에 들러서 기름 넣었어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0442", "category": "비인명", "text": "도서관에서 책 두 권 빌렸어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0443", "category": "비인명", "text": "체육관 바닥 공사 중이래", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0444", "category": "비인명", "text": "교실에 에어컨 새로 달았대", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0445", "category": "비인명", "text": "사무실 이전한다고 하더라", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0446", "category": "비인명", "text": "시장에서 떡볶이 사왔어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0447", "category": "비인명", "text": "운동장 조명이 꺼졌더라", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0448", "category": "비인명", "text": "방이 또 엉망이야 치워야겠어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0449", "category": "비인명", "text": "밥이 너무 빨리 식었어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0450", "category": "비인명", "text": "눈이 펑펑 오고 있어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0451", "category": "비인명", "text": "꿈이 너무 생생해서 깼어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0452", "category": "비인명", "text": "길이 막혀서 늦을 것 같아", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0453", "category": "비인명", "text": "잠이 안 와서 뒤척였어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0454", "category": "비인명", "text": "짐이 생각보다 많더라", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0455", "category": "비인명", "text": "힘이 다 빠졌어 좀 쉴래", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0456", "category": "비인명", "text": "대기실에 사람이 너무 많더라", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0457", "category": "비인명", "text": "세차장 다녀왔더니 차가 반짝여", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0458", "category": "비인명", "text": "매표소 앞이 줄이 길더라", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0459", "category": "비인명", "text": "박물관 전시가 꽤 괜찮았어", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0460", "category": "비인명", "text": "수영장 물이 좀 차갑더라", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0461", "category": "비인명", "text": "할인 행사 끝났대 아쉽다", "spans": [], "known_names": [], "template_id": "비인명"}
+{"id": "v6-0462", "category": "비인명", "text": "예약 시간 바뀌었다고 문자왔어", "spans": [], "known_names": [], "template_id": "비인명"}

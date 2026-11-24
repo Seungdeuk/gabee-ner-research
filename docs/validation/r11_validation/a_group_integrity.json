@@ -1,0 +1,112 @@
+{
+ "arm": "C10",
+ "n_runs": 5,
+ "all_match": true,
+ "runs": [
+  {
+   "run_id": "r10-C10-s7",
+   "seed": 7,
+   "steps_total": 1550,
+   "stopped_epoch": 5,
+   "best_epoch": 3,
+   "model_files": {
+    "best/model.safetensors": "match",
+    "export/model.onnx": "match",
+    "train_log.json": "match",
+    "dev_result.json": "match"
+   },
+   "train_data": {
+    "baseline_train": "match",
+    "synth_train": "match",
+    "klue_train": "match",
+    "r9_Ffull_train": "match",
+    "c10_extra_s7": "match"
+   },
+   "all_match": true
+  },
+  {
+   "run_id": "r10-C10-s13",
+   "seed": 13,
+   "steps_total": 1240,
+   "stopped_epoch": 4,
+   "best_epoch": 2,
+   "model_files": {
+    "best/model.safetensors": "match",
+    "export/model.onnx": "match",
+    "train_log.json": "match",
+    "dev_result.json": "match"
+   },
+   "train_data": {
+    "baseline_train": "match",
+    "synth_train": "match",
+    "klue_train": "match",
+    "r9_Ffull_train": "match",
+    "c10_extra_s13": "match"
+   },
+   "all_match": true
+  },
+  {
+   "run_id": "r10-C10-s21",
+   "seed": 21,
+   "steps_total": 1550,
+   "stopped_epoch": 5,
+   "best_epoch": 3,
+   "model_files": {
+    "best/model.safetensors": "match",
+    "export/model.onnx": "match",
+    "train_log.json": "match",
+    "dev_result.json": "match"
+   },
+   "train_data": {
+    "baseline_train": "match",
+    "synth_train": "match",
+    "klue_train": "match",
+    "r9_Ffull_train": "match",
+    "c10_extra_s21": "match"
+   },
+   "all_match": true
+  },
+  {
+   "run_id": "r10-C10-s42",
+   "seed": 42,
+   "steps_total": 1860,
+   "stopped_epoch": 6,
+   "best_epoch": 4,
+   "model_files": {
+    "best/model.safetensors": "match",
+    "export/model.onnx": "match",
+    "train_log.json": "match",
+    "dev_result.json": "match"
+   },
+   "train_data": {
+    "baseline_train": "match",
+    "synth_train": "match",
+    "klue_train": "match",
+    "r9_Ffull_train": "match",
+    "c10_extra_s42": "match"
+   },
+   "all_match": true
+  },
+  {
+   "run_id": "r10-C10-s99",
+   "seed": 99,
+   "steps_total": 1860,
+   "stopped_epoch": 6,
+   "best_epoch": 4,
+   "model_files": {
+    "best/model.safetensors": "match",
+    "export/model.onnx": "match",
+    "train_log.json": "match",
+    "dev_result.json": "match"
+   },
+   "train_data": {
+    "baseline_train": "match",
+    "synth_train": "match",
+    "klue_train": "match",
+    "r9_Ffull_train": "match",
+    "c10_extra_s99": "match"
+   },
+   "all_match": true
+  }
+ ]
+}

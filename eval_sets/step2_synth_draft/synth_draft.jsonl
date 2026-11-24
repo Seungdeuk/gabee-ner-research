@@ -1,0 +1,56 @@
+{"id": "draft-가을-person-1", "word": "가을", "context_type": "PERSON", "gold_label": "PERSON", "text": "가을한테 생일 선물로 뭘 줄지 아직 못 정했어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-가을-person-2", "word": "가을", "context_type": "PERSON", "gold_label": "PERSON", "text": "가을이 이번 학기 반장 선거에서 뽑혔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-가을-person-3", "word": "가을", "context_type": "PERSON", "gold_label": "PERSON", "text": "선생님이 가을을 칭찬하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}]}
+{"id": "draft-가을-person-4", "word": "가을", "context_type": "PERSON", "gold_label": "PERSON", "text": "가을이 요즘 유치원에서 제일 인기 많아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-가을-person-5", "word": "가을", "context_type": "PERSON", "gold_label": "PERSON", "text": "가을아, 저녁에 떡볶이 먹으러 갈래?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-가을-nonperson-1", "word": "가을", "context_type": "NONPERSON", "gold_label": "O", "text": "다음 주부터 가을 학기가 시작된다", "spans": []}
+{"id": "draft-가을-nonperson-2", "word": "가을", "context_type": "NONPERSON", "gold_label": "O", "text": "가을걷이가 한창이다", "spans": []}
+{"id": "draft-가을-nonperson-3", "word": "가을", "context_type": "NONPERSON", "gold_label": "O", "text": "올해는 가을이 유난히 짧았다", "spans": []}
+{"id": "draft-미소-person-1", "word": "미소", "context_type": "PERSON", "gold_label": "PERSON", "text": "미소한테 생일 선물로 뭘 줄지 아직 못 정했어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-미소-person-2", "word": "미소", "context_type": "PERSON", "gold_label": "PERSON", "text": "미소가 이번 학기 반장 선거에서 뽑혔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-미소-person-3", "word": "미소", "context_type": "PERSON", "gold_label": "PERSON", "text": "선생님이 미소를 칭찬하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}]}
+{"id": "draft-미소-person-4", "word": "미소", "context_type": "PERSON", "gold_label": "PERSON", "text": "미소가 요즘 유치원에서 제일 인기 많아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-미소-person-5", "word": "미소", "context_type": "PERSON", "gold_label": "PERSON", "text": "미소야, 저녁에 떡볶이 먹으러 갈래?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-미소-nonperson-1", "word": "미소", "context_type": "NONPERSON", "gold_label": "O", "text": "사진 속 그녀는 은은한 미소를 띠고 있었다", "spans": []}
+{"id": "draft-미소-nonperson-2", "word": "미소", "context_type": "NONPERSON", "gold_label": "O", "text": "면접관이 미소로 긴장을 풀어줬다", "spans": []}
+{"id": "draft-미소-nonperson-3", "word": "미소", "context_type": "NONPERSON", "gold_label": "O", "text": "미소 하나로 분위기가 밝아졌다", "spans": []}
+{"id": "draft-사랑-person-1", "word": "사랑", "context_type": "PERSON", "gold_label": "PERSON", "text": "사랑한테 생일 선물로 뭘 줄지 아직 못 정했어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-사랑-person-2", "word": "사랑", "context_type": "PERSON", "gold_label": "PERSON", "text": "사랑이 이번 학기 반장 선거에서 뽑혔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-사랑-person-3", "word": "사랑", "context_type": "PERSON", "gold_label": "PERSON", "text": "선생님이 사랑을 칭찬하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}]}
+{"id": "draft-사랑-person-4", "word": "사랑", "context_type": "PERSON", "gold_label": "PERSON", "text": "사랑이 요즘 유치원에서 제일 인기 많아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-사랑-person-5", "word": "사랑", "context_type": "PERSON", "gold_label": "PERSON", "text": "사랑아, 저녁에 떡볶이 먹으러 갈래?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-사랑-nonperson-1", "word": "사랑", "context_type": "NONPERSON", "gold_label": "O", "text": "두 사람의 사랑은 변함이 없었다", "spans": []}
+{"id": "draft-사랑-nonperson-2", "word": "사랑", "context_type": "NONPERSON", "gold_label": "O", "text": "사랑이란 말로 다 표현할 수 없었다", "spans": []}
+{"id": "draft-사랑-nonperson-3", "word": "사랑", "context_type": "NONPERSON", "gold_label": "O", "text": "책에서 사랑에 대한 구절을 읽었다", "spans": []}
+{"id": "draft-새벽-person-1", "word": "새벽", "context_type": "PERSON", "gold_label": "PERSON", "text": "새벽한테 생일 선물로 뭘 줄지 아직 못 정했어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-새벽-person-2", "word": "새벽", "context_type": "PERSON", "gold_label": "PERSON", "text": "새벽이 이번 학기 반장 선거에서 뽑혔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-새벽-person-3", "word": "새벽", "context_type": "PERSON", "gold_label": "PERSON", "text": "선생님이 새벽을 칭찬하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}]}
+{"id": "draft-새벽-person-4", "word": "새벽", "context_type": "PERSON", "gold_label": "PERSON", "text": "새벽이 요즘 유치원에서 제일 인기 많아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-새벽-person-5", "word": "새벽", "context_type": "PERSON", "gold_label": "PERSON", "text": "새벽아, 저녁에 떡볶이 먹으러 갈래?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-새벽-nonperson-1", "word": "새벽", "context_type": "NONPERSON", "gold_label": "O", "text": "새벽 기차를 타고 출발했다", "spans": []}
+{"id": "draft-새벽-nonperson-2", "word": "새벽", "context_type": "NONPERSON", "gold_label": "O", "text": "그는 새벽마다 운동을 한다", "spans": []}
+{"id": "draft-새벽-nonperson-3", "word": "새벽", "context_type": "NONPERSON", "gold_label": "O", "text": "새벽부터 줄을 서서 기다렸다", "spans": []}
+{"id": "draft-수정-person-1", "word": "수정", "context_type": "PERSON", "gold_label": "PERSON", "text": "수정한테 생일 선물로 뭘 줄지 아직 못 정했어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-수정-person-2", "word": "수정", "context_type": "PERSON", "gold_label": "PERSON", "text": "수정이 이번 학기 반장 선거에서 뽑혔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-수정-person-3", "word": "수정", "context_type": "PERSON", "gold_label": "PERSON", "text": "선생님이 수정을 칭찬하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}]}
+{"id": "draft-수정-person-4", "word": "수정", "context_type": "PERSON", "gold_label": "PERSON", "text": "수정이 요즘 유치원에서 제일 인기 많아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-수정-person-5", "word": "수정", "context_type": "PERSON", "gold_label": "PERSON", "text": "수정아, 저녁에 떡볶이 먹으러 갈래?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-수정-nonperson-1", "word": "수정", "context_type": "NONPERSON", "gold_label": "O", "text": "문서의 오타를 수정했다", "spans": []}
+{"id": "draft-수정-nonperson-2", "word": "수정", "context_type": "NONPERSON", "gold_label": "O", "text": "일정을 조금 수정해야겠다", "spans": []}
+{"id": "draft-수정-nonperson-3", "word": "수정", "context_type": "NONPERSON", "gold_label": "O", "text": "수정이 끝난 뒤 다시 보냈다", "spans": []}
+{"id": "draft-여름-person-1", "word": "여름", "context_type": "PERSON", "gold_label": "PERSON", "text": "여름한테 생일 선물로 뭘 줄지 아직 못 정했어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-여름-person-2", "word": "여름", "context_type": "PERSON", "gold_label": "PERSON", "text": "여름이 이번 학기 반장 선거에서 뽑혔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-여름-person-3", "word": "여름", "context_type": "PERSON", "gold_label": "PERSON", "text": "선생님이 여름을 칭찬하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}]}
+{"id": "draft-여름-person-4", "word": "여름", "context_type": "PERSON", "gold_label": "PERSON", "text": "여름이 요즘 유치원에서 제일 인기 많아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-여름-person-5", "word": "여름", "context_type": "PERSON", "gold_label": "PERSON", "text": "여름아, 저녁에 떡볶이 먹으러 갈래?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-여름-nonperson-1", "word": "여름", "context_type": "NONPERSON", "gold_label": "O", "text": "매년 여름이면 바다에 간다", "spans": []}
+{"id": "draft-여름-nonperson-2", "word": "여름", "context_type": "NONPERSON", "gold_label": "O", "text": "올여름은 유난히 더웠다", "spans": []}
+{"id": "draft-여름-nonperson-3", "word": "여름", "context_type": "NONPERSON", "gold_label": "O", "text": "여름휴가 계획을 세웠다", "spans": []}
+{"id": "draft-이슬-person-1", "word": "이슬", "context_type": "PERSON", "gold_label": "PERSON", "text": "이슬한테 생일 선물로 뭘 줄지 아직 못 정했어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-이슬-person-2", "word": "이슬", "context_type": "PERSON", "gold_label": "PERSON", "text": "이슬이 이번 학기 반장 선거에서 뽑혔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-이슬-person-3", "word": "이슬", "context_type": "PERSON", "gold_label": "PERSON", "text": "선생님이 이슬을 칭찬하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}]}
+{"id": "draft-이슬-person-4", "word": "이슬", "context_type": "PERSON", "gold_label": "PERSON", "text": "이슬이 요즘 유치원에서 제일 인기 많아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-이슬-person-5", "word": "이슬", "context_type": "PERSON", "gold_label": "PERSON", "text": "이슬아, 저녁에 떡볶이 먹으러 갈래?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}]}
+{"id": "draft-이슬-nonperson-1", "word": "이슬", "context_type": "NONPERSON", "gold_label": "O", "text": "새벽 산길에 이슬이 가득했다", "spans": []}
+{"id": "draft-이슬-nonperson-2", "word": "이슬", "context_type": "NONPERSON", "gold_label": "O", "text": "풀잎 위 이슬방울이 반짝였다", "spans": []}
+{"id": "draft-이슬-nonperson-3", "word": "이슬", "context_type": "NONPERSON", "gold_label": "O", "text": "이슬에 바지가 다 젖었다", "spans": []}

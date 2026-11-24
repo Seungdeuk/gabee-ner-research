@@ -1,0 +1,52 @@
+[
+ {
+  "seed": 7,
+  "exact_f1": 0.9182389937106917,
+  "overlap_f1": 0.9433962264150944,
+  "fpr": 0.06481481481481481,
+  "max_vram_mb": 784.3,
+  "train_time_s": 49.5,
+  "best_epoch": 3,
+  "stopped_epoch": 5
+ },
+ {
+  "seed": 13,
+  "exact_f1": 0.8969696969696971,
+  "overlap_f1": 0.9212121212121213,
+  "fpr": 0.06481481481481481,
+  "max_vram_mb": 784.3,
+  "train_time_s": 55.7,
+  "best_epoch": 4,
+  "stopped_epoch": 6
+ },
+ {
+  "seed": 21,
+  "exact_f1": 0.9290322580645162,
+  "overlap_f1": 0.9419354838709677,
+  "fpr": 0.05555555555555555,
+  "max_vram_mb": 785.0,
+  "train_time_s": 54.4,
+  "best_epoch": 4,
+  "stopped_epoch": 6
+ },
+ {
+  "seed": 42,
+  "exact_f1": 0.9202453987730062,
+  "overlap_f1": 0.9325153374233129,
+  "fpr": 0.08333333333333333,
+  "max_vram_mb": 784.3,
+  "train_time_s": 55.0,
+  "best_epoch": 4,
+  "stopped_epoch": 6
+ },
+ {
+  "seed": 99,
+  "exact_f1": 0.875,
+  "overlap_f1": 0.9500000000000001,
+  "fpr": 0.046296296296296294,
+  "max_vram_mb": 784.9,
+  "train_time_s": 37.2,
+  "best_epoch": 2,
+  "stopped_epoch": 4
+ }
+]

@@ -1,0 +1,248 @@
+{
+ "rows": {
+  "train": 800,
+  "val": 600,
+  "dev": 1920
+ },
+ "dup_within": {
+  "train": 0,
+  "val": 0,
+  "dev": 0
+ },
+ "skeleton_reuse_within(max count)": {
+  "train": 1,
+  "val": 1,
+  "dev": 1
+ },
+ "dup_between_roles(sentences)": {
+  "train-val": 0,
+  "train-dev": 0,
+  "val-dev": 0
+ },
+ "skeleton_overlap_between_roles": {
+  "train-val": 0,
+  "train-dev": 0,
+  "val-dev": 0
+ },
+ "sentence_in_existing(R9,R10)": {
+  "train": 0,
+  "val": 0,
+  "dev": 0
+ },
+ "skeleton_in_existing(R9,R10)": {
+  "train": 0,
+  "val": 0,
+  "dev": 0
+ },
+ "near_dup_rows_vs_R9R10_train(count,>=0.7)": {
+  "train": 0,
+  "val": 0,
+  "dev": 0
+ },
+ "near_dup_rows_between_roles(count,>=0.7)": {
+  "val->train": 0,
+  "dev->train": 0,
+  "dev->val": 0,
+  "train->val": 0
+ },
+ "name_role_violations(wrong hash role)": {
+  "train": 0,
+  "val": 0,
+  "dev": 0
+ },
+ "given_part_overlap_between_roles": {
+  "train-val": 0,
+  "train-dev": 0,
+  "val-dev": 0
+ },
+ "dev_new_name_spans(unseen vs R9,R10 names)": {
+  "unseen": 959,
+  "seen": 0
+ },
+ "dev_name_seen_by_type": {
+  "NEWNAME": {
+   "spans": 179,
+   "seen_in_reference": 0
+  },
+  "LONGNAME": {
+   "spans": 130,
+   "seen_in_reference": 0
+  },
+  "B1": {
+   "spans": 150,
+   "seen_in_reference": 0
+  },
+  "C2": {
+   "spans": 251,
+   "seen_in_reference": 0
+  },
+  "D1P": {
+   "spans": 540,
+   "seen_in_reference": 32
+  }
+ },
+ "train_names_in_R9R10(exact values)": 0,
+ "person_value_reuse_max(names only, label separate)": {
+  "train": 2,
+  "val": 1,
+  "dev": 6
+ },
+ "alias_distinct_and_spans": {
+  "train": [
+   0,
+   0
+  ],
+  "val": [
+   0,
+   0
+  ],
+  "dev": [
+   19,
+   28
+  ]
+ },
+ "person_spans": {
+  "train": 910,
+  "val": 514,
+  "dev": 1497
+ },
+ "distinct_person_values": {
+  "train": 866,
+  "val": 472,
+  "dev": 1144
+ },
+ "one_char_person": {
+  "train": 0,
+  "val": 0,
+  "dev": 0
+ },
+ "family_term_inside_person": {
+  "train": 4,
+  "val": 1,
+  "dev": 10
+ },
+ "pair_words": {
+  "train": {
+   "pairs": 400,
+   "distinct": 363,
+   "max_pairs_per_word": 2
+  },
+  "val": {
+   "pairs": 300,
+   "distinct": 258,
+   "max_pairs_per_word": 2
+  },
+  "dev": {
+   "pairs": 400,
+   "distinct": 318,
+   "max_pairs_per_word": 2
+  }
+ },
+ "pair_word_overlap_between_roles(exact)": {
+  "train-val": 0,
+  "train-dev": 0,
+  "val-dev": 0
+ },
+ "pair_word_containment_between_roles": {
+  "train-val": 0,
+  "train-dev": 0,
+  "val-dev": 0
+ },
+ "pair_words_seen_in_R9R10_training(val,dev must be 0)": {
+  "train": 100,
+  "val": 0,
+  "dev": 0
+ },
+ "pair_integrity": {
+  "train": {
+   "pairs": 400,
+   "invalid": 0,
+   "pairs_with_regular_name_in_noun_sentence": 255
+  },
+  "val": {
+   "pairs": 300,
+   "invalid": 0,
+   "pairs_with_regular_name_in_noun_sentence": 107
+  },
+  "dev": {
+   "pairs": 400,
+   "invalid": 0,
+   "pairs_with_regular_name_in_noun_sentence": 137
+  }
+ },
+ "length_chars": {
+  "train": {
+   "min": 9,
+   "mean": 27.6,
+   "max": 47
+  },
+  "val": {
+   "min": 11,
+   "mean": 28.2,
+   "max": 54
+  },
+  "dev": {
+   "min": 10,
+   "mean": 25.4,
+   "max": 64
+  }
+ },
+ "dev_by_type": {
+  "D1P": 400,
+  "D1": 400,
+  "B1": 150,
+  "C2": 120,
+  "NEWNAME": 150,
+  "LONGNAME": 120,
+  "EXISTING": 100,
+  "NEG_ORGLOC": 120,
+  "NEG_FAMILY": 120,
+  "NEG_D2": 120,
+  "NEG_GENERAL": 120
+ },
+ "dev_person_spans_by_type": {
+  "D1P": 540,
+  "D1": 137,
+  "B1": 150,
+  "C2": 251,
+  "NEWNAME": 179,
+  "LONGNAME": 130,
+  "EXISTING": 110
+ },
+ "frame_authors": {
+  "train": {
+   "train/pairs_b": 268,
+   "train/pairs_c": 264,
+   "train/pairs_a": 268
+  },
+  "val": {
+   "val/pairs_b": 294,
+   "val/pairs_a": 306
+  },
+  "dev": {
+   "dev/pairs_b": 268,
+   "dev/pairs_c": 266,
+   "dev/pairs_a": 266,
+   "dev/b1": 150,
+   "dev/c2": 120,
+   "dev/msg_new": 150,
+   "dev/longname": 120,
+   "dev/existing": 100,
+   "dev/neg_orgloc": 120,
+   "dev/neg_family": 120,
+   "dev/neg_d2": 120,
+   "dev/neg_general": 120
+  }
+ },
+ "author_overlap_between_roles": [],
+ "frame_reuse_max": {
+  "train": 1,
+  "val": 1,
+  "dev": 1
+ },
+ "pii_pattern_rows(digits>=7 or @)": {
+  "train": 0,
+  "val": 0,
+  "dev": 0
+ }
+}

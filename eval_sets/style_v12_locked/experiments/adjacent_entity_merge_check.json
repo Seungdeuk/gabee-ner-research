@@ -1,0 +1,834 @@
+{
+ "R6_normal": [
+  {
+   "case": "control_space",
+   "text": "민준이랑 서윤이가 같이 놀았어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     5,
+     8,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "control_space2",
+   "text": "민준이가 서윤이 손을 잡았어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     5,
+     7,
+     "서윤"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "comma_nospace",
+   "text": "민준,서윤이가 같이 왔어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     3,
+     6,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "concat_nospace",
+   "text": "민준서윤이가 같이 왔어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     5,
+     "민준서윤이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "concat_nospace2",
+   "text": "지호민준이가 같이 놀았어",
+   "entities": [
+    "지호",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     5,
+     "지호민준이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "alias_concat",
+   "text": "민준이형서윤이가 같이 왔어",
+   "entities": [
+    "민준이형",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형서윤이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "alias_space_ctrl",
+   "text": "민준이형 서윤이가 같이 왔어",
+   "entities": [
+    "민준이형",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "민준이"
+    ],
+    [
+     "PERSON",
+     5,
+     8,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "nick_concat",
+   "text": "콩이민준이가 같이 놀았어",
+   "entities": [
+    "콩이",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     5,
+     "콩이민준이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "nick_space_ctrl",
+   "text": "콩이 민준이가 같이 놀았어",
+   "entities": [
+    "콩이",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "콩이"
+    ],
+    [
+     "PERSON",
+     3,
+     6,
+     "민준이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "alias_alias_concat",
+   "text": "민준이형지호형이 같이 왔어",
+   "entities": [
+    "민준이형",
+    "지호형"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "민준이"
+    ],
+    [
+     "PERSON",
+     4,
+     7,
+     "지호형"
+    ]
+   ],
+   "over_merged_guess": false
+  }
+ ],
+ "R6_B": [
+  {
+   "case": "control_space",
+   "text": "민준이랑 서윤이가 같이 놀았어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     5,
+     8,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "control_space2",
+   "text": "민준이가 서윤이 손을 잡았어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     5,
+     7,
+     "서윤"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "comma_nospace",
+   "text": "민준,서윤이가 같이 왔어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     3,
+     6,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "concat_nospace",
+   "text": "민준서윤이가 같이 왔어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     5,
+     "민준서윤이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "concat_nospace2",
+   "text": "지호민준이가 같이 놀았어",
+   "entities": [
+    "지호",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     5,
+     "지호민준이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "alias_concat",
+   "text": "민준이형서윤이가 같이 왔어",
+   "entities": [
+    "민준이형",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형서윤이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "alias_space_ctrl",
+   "text": "민준이형 서윤이가 같이 왔어",
+   "entities": [
+    "민준이형",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "민준이"
+    ],
+    [
+     "PERSON",
+     5,
+     8,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "nick_concat",
+   "text": "콩이민준이가 같이 놀았어",
+   "entities": [
+    "콩이",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     5,
+     "콩이민준이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "nick_space_ctrl",
+   "text": "콩이 민준이가 같이 놀았어",
+   "entities": [
+    "콩이",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "콩이"
+    ],
+    [
+     "PERSON",
+     3,
+     6,
+     "민준이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "alias_alias_concat",
+   "text": "민준이형지호형이 같이 왔어",
+   "entities": [
+    "민준이형",
+    "지호형"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "민준이"
+    ],
+    [
+     "PERSON",
+     4,
+     7,
+     "지호형"
+    ]
+   ],
+   "over_merged_guess": false
+  }
+ ],
+ "A_normal": [
+  {
+   "case": "control_space",
+   "text": "민준이랑 서윤이가 같이 놀았어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     5,
+     8,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "control_space2",
+   "text": "민준이가 서윤이 손을 잡았어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     5,
+     7,
+     "서윤"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "comma_nospace",
+   "text": "민준,서윤이가 같이 왔어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     3,
+     6,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "concat_nospace",
+   "text": "민준서윤이가 같이 왔어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "민준서"
+    ],
+    [
+     "PERSON",
+     3,
+     5,
+     "윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "concat_nospace2",
+   "text": "지호민준이가 같이 놀았어",
+   "entities": [
+    "지호",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     4,
+     "지호민준"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "alias_concat",
+   "text": "민준이형서윤이가 같이 왔어",
+   "entities": [
+    "민준이형",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형서윤이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "alias_space_ctrl",
+   "text": "민준이형 서윤이가 같이 왔어",
+   "entities": [
+    "민준이형",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "민준이"
+    ],
+    [
+     "PERSON",
+     5,
+     8,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "nick_concat",
+   "text": "콩이민준이가 같이 놀았어",
+   "entities": [
+    "콩이",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "콩이민"
+    ],
+    [
+     "PERSON",
+     3,
+     5,
+     "준이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "nick_space_ctrl",
+   "text": "콩이 민준이가 같이 놀았어",
+   "entities": [
+    "콩이",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "콩이"
+    ],
+    [
+     "PERSON",
+     3,
+     6,
+     "민준이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "alias_alias_concat",
+   "text": "민준이형지호형이 같이 왔어",
+   "entities": [
+    "민준이형",
+    "지호형"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형지호형"
+    ]
+   ],
+   "over_merged_guess": true
+  }
+ ],
+ "A_B": [
+  {
+   "case": "control_space",
+   "text": "민준이랑 서윤이가 같이 놀았어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     5,
+     8,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "control_space2",
+   "text": "민준이가 서윤이 손을 잡았어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     5,
+     7,
+     "서윤"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "comma_nospace",
+   "text": "민준,서윤이가 같이 왔어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     3,
+     6,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "concat_nospace",
+   "text": "민준서윤이가 같이 왔어",
+   "entities": [
+    "민준",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     5,
+     "민준서윤이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "concat_nospace2",
+   "text": "지호민준이가 같이 놀았어",
+   "entities": [
+    "지호",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     4,
+     "지호민준"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "alias_concat",
+   "text": "민준이형서윤이가 같이 왔어",
+   "entities": [
+    "민준이형",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형서윤이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "alias_space_ctrl",
+   "text": "민준이형 서윤이가 같이 왔어",
+   "entities": [
+    "민준이형",
+    "서윤"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "민준이"
+    ],
+    [
+     "PERSON",
+     5,
+     8,
+     "서윤이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "nick_concat",
+   "text": "콩이민준이가 같이 놀았어",
+   "entities": [
+    "콩이",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     5,
+     "콩이민준이"
+    ]
+   ],
+   "over_merged_guess": true
+  },
+  {
+   "case": "nick_space_ctrl",
+   "text": "콩이 민준이가 같이 놀았어",
+   "entities": [
+    "콩이",
+    "민준"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "콩이"
+    ],
+    [
+     "PERSON",
+     3,
+     6,
+     "민준이"
+    ]
+   ],
+   "over_merged_guess": false
+  },
+  {
+   "case": "alias_alias_concat",
+   "text": "민준이형지호형이 같이 왔어",
+   "entities": [
+    "민준이형",
+    "지호형"
+   ],
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형지호형"
+    ]
+   ],
+   "over_merged_guess": true
+  }
+ ]
+}

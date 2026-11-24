@@ -1,0 +1,135 @@
+{
+ "dataset_rows": 2400,
+ "ledger_provided": true,
+ "required_min_total": 240,
+ "target_total": 300,
+ "ledger_records": 706,
+ "reviewed_unique_valid": 706,
+ "reviewed_share_pct": 29.4,
+ "invalid_ids_not_in_dataset": [],
+ "duplicate_ids": [],
+ "unknown_verdict_ids": [],
+ "verdicts": {
+  "ok": 706
+ },
+ "by_set": {
+  "representative": 477,
+  "stress": 229
+ },
+ "stress_by_type": {
+  "A3": 30,
+  "D3": 21,
+  "D2": 20,
+  "B1": 13,
+  "C2": 20,
+  "D1P": 21,
+  "B2": 6,
+  "D1": 22,
+  "OTHER": 22,
+  "A3N": 23,
+  "A1": 19,
+  "C1": 9,
+  "GENERIC": 3
+ },
+ "representative_by_category": {
+  "정산·돈·구매": 60,
+  "학교·학원": 83,
+  "가족 안부·심부름": 77,
+  "잡담·감정": 67,
+  "병원·건강": 38,
+  "여행·이동·집 방문": 36,
+  "일정·약속": 79,
+  "사진·영상 공유": 37
+ },
+ "meets_min_total": true,
+ "meets_target_total": true,
+ "unreviewed_rows": 1694,
+ "high_risk_coverage": {
+  "alias_sentences": {
+   "size": 95,
+   "reviewed": 95,
+   "reviewed_pct": 100.0
+  },
+  "context_entities_loc_org": {
+   "size": 53,
+   "reviewed": 25,
+   "reviewed_pct": 47.2
+  },
+  "kin_adjacent_rep": {
+   "size": 95,
+   "reviewed": 95,
+   "reviewed_pct": 100.0
+  },
+  "kin_only_negatives_rep": {
+   "size": 40,
+   "reviewed": 40,
+   "reviewed_pct": 100.0
+  },
+  "kin_only_negatives_stress": {
+   "size": 2,
+   "reviewed": 1,
+   "reviewed_pct": 50.0
+  },
+  "multi_person": {
+   "size": 248,
+   "reviewed": 102,
+   "reviewed_pct": 41.1
+  },
+  "one_char_name_suspect_rep": {
+   "size": 4,
+   "reviewed": 4,
+   "reviewed_pct": 100.0
+  },
+  "one_char_name_suspect_stress": {
+   "size": 1,
+   "reviewed": 1,
+   "reviewed_pct": 100.0
+  },
+  "stress_A3": {
+   "size": 90,
+   "reviewed": 30,
+   "reviewed_pct": 33.3
+  },
+  "stress_A3N": {
+   "size": 40,
+   "reviewed": 23,
+   "reviewed_pct": 57.5
+  },
+  "stress_C2": {
+   "size": 40,
+   "reviewed": 20,
+   "reviewed_pct": 50.0
+  },
+  "stress_D1": {
+   "size": 90,
+   "reviewed": 22,
+   "reviewed_pct": 24.4
+  },
+  "stress_D1P": {
+   "size": 50,
+   "reviewed": 21,
+   "reviewed_pct": 42.0
+  },
+  "stress_D2": {
+   "size": 50,
+   "reviewed": 20,
+   "reviewed_pct": 40.0
+  },
+  "stress_D3": {
+   "size": 60,
+   "reviewed": 21,
+   "reviewed_pct": 35.0
+  },
+  "unlabeled_name_suspect_rep": {
+   "size": 53,
+   "reviewed": 53,
+   "reviewed_pct": 100.0
+  },
+  "unlabeled_name_suspect_stress": {
+   "size": 57,
+   "reviewed": 57,
+   "reviewed_pct": 100.0
+  }
+ },
+ "note": "집계는 검수 기록에 있는 id 만이다. 기록이 없는 문장은 정상으로 간주하지 않는다. verdict 가 unspecified 면 '검수함'으로만 센다."
+}

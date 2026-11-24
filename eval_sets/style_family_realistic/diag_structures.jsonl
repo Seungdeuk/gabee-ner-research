@@ -1,0 +1,48 @@
+{"id": "diag-0001", "category": "이름만호칭", "text": "지호야 밥 먹었어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0002", "category": "이름만호칭", "text": "지호야! 빨리 나와봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0003", "category": "이름만호칭", "text": "서아야 밥 먹었어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0004", "category": "이름만호칭", "text": "서아야! 빨리 나와봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0005", "category": "이름만호칭", "text": "민준아 밥 먹었어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0006", "category": "이름만호칭", "text": "민준아! 빨리 나와봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0007", "category": "이름만호칭", "text": "하윤아 밥 먹었어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0008", "category": "이름만호칭", "text": "하윤아! 빨리 나와봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0009", "category": "이름만호칭", "text": "윤서야 밥 먹었어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0010", "category": "이름만호칭", "text": "윤서야! 빨리 나와봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0011", "category": "이름만호칭", "text": "가온아 밥 먹었어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0012", "category": "이름만호칭", "text": "가온아! 빨리 나와봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "이름만호칭"}
+{"id": "diag-0013", "category": "애칭", "text": "준이 오늘 기분 좋아보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭"}
+{"id": "diag-0014", "category": "애칭", "text": "준이한테 전화 좀 해줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭"}
+{"id": "diag-0015", "category": "애칭", "text": "아아 오늘 기분 좋아보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭"}
+{"id": "diag-0016", "category": "애칭", "text": "아아한테 전화 좀 해줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭"}
+{"id": "diag-0017", "category": "애칭", "text": "호야 오늘 기분 좋아보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭"}
+{"id": "diag-0018", "category": "애칭", "text": "호야한테 전화 좀 해줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭"}
+{"id": "diag-0019", "category": "애칭", "text": "윤이 오늘 기분 좋아보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭"}
+{"id": "diag-0020", "category": "애칭", "text": "윤이한테 전화 좀 해줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "애칭"}
+{"id": "diag-0021", "category": "OO엄마", "text": "지호엄마 혹시 그거 받았어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0022", "category": "OO엄마", "text": "지호아빠가 먼저 간대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0023", "category": "OO엄마", "text": "서아엄마 혹시 그거 받았어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0024", "category": "OO엄마", "text": "서아아빠가 먼저 간대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0025", "category": "OO엄마", "text": "민준엄마 혹시 그거 받았어?", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0026", "category": "OO엄마", "text": "민준아빠가 먼저 간대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0027", "category": "OO엄마", "text": "성경안엄마 혹시 그거 받았어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0028", "category": "OO엄마", "text": "성경안아빠가 먼저 간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0029", "category": "OO엄마", "text": "전송유엄마 혹시 그거 받았어?", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0030", "category": "OO엄마", "text": "전송유아빠가 먼저 간대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "OO엄마"}
+{"id": "diag-0031", "category": "짧은호칭", "text": "지호!!", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "짧은호칭"}
+{"id": "diag-0032", "category": "짧은호칭", "text": "야 지호!", "spans": [{"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "짧은호칭"}
+{"id": "diag-0033", "category": "짧은호칭", "text": "서아!!", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "짧은호칭"}
+{"id": "diag-0034", "category": "짧은호칭", "text": "야 서아!", "spans": [{"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "짧은호칭"}
+{"id": "diag-0035", "category": "짧은호칭", "text": "강한소!!", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "짧은호칭"}
+{"id": "diag-0036", "category": "짧은호칭", "text": "야 강한소!", "spans": [{"kind": "PERSON", "start": 2, "end": 5}], "known_names": [], "template_id": "짧은호칭"}
+{"id": "diag-0037", "category": "짧은호칭", "text": "고가소!!", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "짧은호칭"}
+{"id": "diag-0038", "category": "짧은호칭", "text": "야 고가소!", "spans": [{"kind": "PERSON", "start": 2, "end": 5}], "known_names": [], "template_id": "짧은호칭"}
+{"id": "diag-0039", "category": "조사다양화", "text": "민준은 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "조사다양화"}
+{"id": "diag-0040", "category": "조사다양화", "text": "가온도 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "조사다양화"}
+{"id": "diag-0041", "category": "조사다양화", "text": "윤서만 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "조사다양화"}
+{"id": "diag-0042", "category": "조사다양화", "text": "하윤까지 데리러 가야 돼", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "조사다양화"}
+{"id": "diag-0043", "category": "구조이상", "text": "민준이병원갔대빨리와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "구조이상"}
+{"id": "diag-0044", "category": "구조이상", "text": "서아👍이따봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "구조이상"}
+{"id": "diag-0045", "category": "구조이상", "text": "지호... 괜찮대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "구조이상"}
+{"id": "diag-0046", "category": "구조이상", "text": "하윤이ㅠㅠ속상해하더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "구조이상"}
+{"id": "diag-0047", "category": "구조이상", "text": "성경안뭐해지금", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "구조이상"}
+{"id": "diag-0048", "category": "구조이상", "text": "전송유야뭐하니", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": [], "template_id": "구조이상"}

@@ -1,0 +1,25 @@
+{
+ "seal_id": "R11-ops-independent-evalset",
+ "status": "SEALED",
+ "sealed_at_utc": "2026-11-23T04:55:31.895741+00:00",
+ "spec": "NER_R11_EVALSET_SPEC.md r11-1.0",
+ "preregistration": {
+  "ops_criteria": "ops_decision_criteria.json",
+  "git_commit": "55305fe72e95a206efc56a06d3da59c5b358e67b"
+ },
+ "datasets": [
+  {
+   "name": "r11_stress_v1.jsonl",
+   "rows": 2350,
+   "sha256": "4b952460ad58521b4990369c6439fa939b5aed5160fe1b76b6afd91269f7b531",
+   "strict_validation_errors": 0
+  }
+ ],
+ "human_review": "미완료 — 의미 품질은 자동 검증으로 대체할 수 없다(사양 §9 한계 기록 참조)",
+ "usage_restrictions": [
+  "학습·튜닝·후보 선정·개발 평가에 쓰지 않는다",
+  "원본·라벨·id·순서를 수정하지 않는다",
+  "S0 와 B-new seed 21 을 한 번씩만 평가(EVALUATED.lock)",
+  "결과를 본 뒤 임계값·모델을 바꾸지 않는다"
+ ]
+}

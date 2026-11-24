@@ -1,0 +1,15 @@
+{
+ "service": {
+  "후보 미생성": 40,
+  "신뢰도 부족": 5,
+  "후처리 제거(merge_ner)": 1,
+  "ORG/LOC 오분류(ORGANIZATION)": 2,
+  "ORG/LOC 오분류(LOCATION)": 1
+ },
+ "r3_candidate": {
+  "신뢰도 부족": 6,
+  "후보 미생성": 23,
+  "ORG/LOC 오분류(ORGANIZATION)": 3,
+  "후처리 제거(merge_ner)": 4
+ }
+}

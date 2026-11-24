@@ -1,0 +1,50 @@
+{
+ "onnx_dir": "C:\\Users\\<user>\\venvs\\ner-runs\\r11\\export\\r11-B-s21-ep5",
+ "model_size_mb": 53.839,
+ "rss_mb_after": 148.3,
+ "p50_ms": 4.633950011339039,
+ "p95_ms": 6.663339980877936,
+ "mean_ms": 4.8306959999414785,
+ "passes": [
+  {
+   "p50_ms": 4.5342500088736415,
+   "p95_ms": 6.256789996405133,
+   "mean_ms": 4.6698649995960295
+  },
+  {
+   "p50_ms": 4.854250029893592,
+   "p95_ms": 7.214870033203625,
+   "mean_ms": 5.084190332757619
+  },
+  {
+   "p50_ms": 4.593849997036159,
+   "p95_ms": 6.334989977767691,
+   "mean_ms": 4.697929665950748
+  },
+  {
+   "p50_ms": 4.633950011339039,
+   "p95_ms": 6.663339980877936,
+   "mean_ms": 4.8306959999414785
+  },
+  {
+   "p50_ms": 4.875399987213314,
+   "p95_ms": 7.327760010957719,
+   "mean_ms": 5.130763670701223
+  }
+ ],
+ "conditions": {
+  "threads": 2,
+  "warmup_sentences": 30,
+  "measured_sentences": 300,
+  "repeats": 5,
+  "batch": 1,
+  "seed": 20261127,
+  "cache_cleared_each_sentence": true,
+  "cpu_percent_before": 27.6,
+  "avail_ram_mb_before": 6548,
+  "onnxruntime": "1.31.0",
+  "python": "3.14.8",
+  "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "cpu_count": 12
+ }
+}

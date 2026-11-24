@@ -1,0 +1,6370 @@
+{
+ "service": {
+  "fingerprint12": "46210943c45f",
+  "v11_overall": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 56,
+    "fp": 26,
+    "fn": 144,
+    "precision": 0.6829268292682927,
+    "recall": 0.28,
+    "f1": 0.3971631205673759
+   },
+   "final_prf": {
+    "tp": 52,
+    "fp": 9,
+    "fn": 148,
+    "precision": 0.8524590163934426,
+    "recall": 0.26,
+    "f1": 0.3984674329501916
+   },
+   "exposure": {
+    "full_exposure": 140,
+    "partial_exposure": 3,
+    "fully_masked": 57,
+    "full_exposure_rate": 0.7,
+    "partial_exposure_rate": 0.015,
+    "fully_masked_rate": 0.285,
+    "total_exposure_rate": 0.715
+   },
+   "nonperson_fpr": 0.0667,
+   "cause_counts": {
+    "후처리 제거(merge_ner)": 2,
+    "후보 미생성": 108,
+    "ORG/LOC 오분류(ORGANIZATION)": 10,
+    "ORG/LOC 오분류(LOCATION)": 7,
+    "신뢰도 부족": 13
+   },
+   "full_exposure_cases": [
+    {
+     "id": "v11-0001",
+     "word": "산그늘",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 산그늘을 유독 귀여워했어",
+     "raw_hit": [
+      "PERSON",
+      0.721
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0002",
+     "word": "길섶",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 길섶을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0003",
+     "word": "나무그늘",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 나무그늘을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0004",
+     "word": "돌계단",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 돌계단을 유독 귀여워했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.513
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0007",
+     "word": "마룻바닥",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 마룻바닥을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0008",
+     "word": "다락방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 다락방을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0009",
+     "word": "빨랫줄",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 빨랫줄을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0010",
+     "word": "지붕끝",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 지붕끝을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0011",
+     "word": "모래알",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 모래알을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0012",
+     "word": "빗장",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 빗장을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0013",
+     "word": "창틀",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 창틀을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0014",
+     "word": "문턱",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 문턱을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0015",
+     "word": "굴뚝",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 굴뚝을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0017",
+     "word": "놋그릇",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 놋그릇을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0018",
+     "word": "질그릇",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 질그릇을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0019",
+     "word": "숯덩이",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 숯덩이를 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0022",
+     "word": "길섶",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0023",
+     "word": "나무그늘",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "나무그늘이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0024",
+     "word": "돌계단",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단이 동네에서 제일 눈에 띄어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.548
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0027",
+     "word": "마룻바닥",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0028",
+     "word": "다락방",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0029",
+     "word": "빨랫줄",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0030",
+     "word": "지붕끝",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0031",
+     "word": "모래알",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "모래알이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0032",
+     "word": "빗장",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0035",
+     "word": "굴뚝",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "굴뚝이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0037",
+     "word": "놋그릇",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0038",
+     "word": "질그릇",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0039",
+     "word": "숯덩이",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이가 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0042",
+     "word": "길섶",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "LOCATION",
+      0.575
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0043",
+     "word": "나무그늘",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "나무그늘 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0044",
+     "word": "돌계단",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.875
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0046",
+     "word": "장독대",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "장독대 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.877
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0047",
+     "word": "마룻바닥",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "LOCATION",
+      0.649
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0048",
+     "word": "다락방",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0049",
+     "word": "빨랫줄",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0050",
+     "word": "지붕끝",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0051",
+     "word": "모래알",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "모래알 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0052",
+     "word": "빗장",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0053",
+     "word": "창틀",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "창틀 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0054",
+     "word": "문턱",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "문턱 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0055",
+     "word": "굴뚝",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "굴뚝 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0057",
+     "word": "놋그릇",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0058",
+     "word": "질그릇",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0059",
+     "word": "숯덩이",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0062",
+     "word": "길섶",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.299
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0063",
+     "word": "나무그늘",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "나무그늘한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.326
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0064",
+     "word": "돌계단",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.653
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0067",
+     "word": "마룻바닥",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0068",
+     "word": "다락방",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.482
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0069",
+     "word": "빨랫줄",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0070",
+     "word": "지붕끝",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0071",
+     "word": "모래알",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "모래알한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "PERSON",
+      0.473
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0072",
+     "word": "빗장",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0077",
+     "word": "놋그릇",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0078",
+     "word": "질그릇",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0079",
+     "word": "숯덩이",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0081",
+     "word": "산그늘",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "산그늘아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0082",
+     "word": "길섶",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0083",
+     "word": "나무그늘",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "나무그늘아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0084",
+     "word": "돌계단",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단아, 얼른 씻고 나와",
+     "raw_hit": [
+      "PERSON",
+      0.476
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0087",
+     "word": "마룻바닥",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0088",
+     "word": "다락방",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방아, 얼른 씻고 나와",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.507
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0089",
+     "word": "빨랫줄",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0090",
+     "word": "지붕끝",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0091",
+     "word": "모래알",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "모래알아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0092",
+     "word": "빗장",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0093",
+     "word": "창틀",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "창틀아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0097",
+     "word": "놋그릇",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0098",
+     "word": "질그릇",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0099",
+     "word": "숯덩이",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이야, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0102",
+     "word": "길섶",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 길섶을 데리러 간다고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.482
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0103",
+     "word": "나무그늘",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 나무그늘을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0104",
+     "word": "돌계단",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 돌계단을 데리러 간다고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.874
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0107",
+     "word": "마룻바닥",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 마룻바닥을 데리러 간다고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.604
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0108",
+     "word": "다락방",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 다락방을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0109",
+     "word": "빨랫줄",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 빨랫줄을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0110",
+     "word": "지붕끝",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 지붕끝을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0111",
+     "word": "모래알",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 모래알을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0112",
+     "word": "빗장",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 빗장을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0113",
+     "word": "창틀",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 창틀을 데리러 간다고 했어",
+     "raw_hit": [
+      "PERSON",
+      0.376
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0114",
+     "word": "문턱",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 문턱을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0115",
+     "word": "굴뚝",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 굴뚝을 데리러 간다고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.567
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0117",
+     "word": "놋그릇",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 놋그릇을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0118",
+     "word": "질그릇",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 질그릇을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0119",
+     "word": "숯덩이",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 숯덩이를 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0122",
+     "word": "길섶",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0123",
+     "word": "나무그늘",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "나무그늘이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0124",
+     "word": "돌계단",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "돌계단이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": [
+      "PERSON",
+      0.47
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0127",
+     "word": "마룻바닥",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0128",
+     "word": "다락방",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "다락방이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0129",
+     "word": "빨랫줄",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0130",
+     "word": "지붕끝",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0131",
+     "word": "모래알",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "모래알이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0132",
+     "word": "빗장",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0133",
+     "word": "창틀",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "창틀이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.406
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0135",
+     "word": "굴뚝",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "굴뚝이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0137",
+     "word": "놋그릇",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0138",
+     "word": "질그릇",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0139",
+     "word": "숯덩이",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이가 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0142",
+     "word": "길섶",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0143",
+     "word": "나무그늘",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "나무그늘이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0144",
+     "word": "돌계단",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "돌계단이 오늘 기분 좋아 보이더라",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.582
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0147",
+     "word": "마룻바닥",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0148",
+     "word": "다락방",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "다락방이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0149",
+     "word": "빨랫줄",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0150",
+     "word": "지붕끝",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0151",
+     "word": "모래알",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "모래알이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0152",
+     "word": "빗장",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0153",
+     "word": "창틀",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "창틀이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0155",
+     "word": "굴뚝",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "굴뚝이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0157",
+     "word": "놋그릇",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0158",
+     "word": "질그릇",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0159",
+     "word": "숯덩이",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이가 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0162",
+     "word": "길섶",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.37
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0163",
+     "word": "나무그늘",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "나무그늘한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0164",
+     "word": "돌계단",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "돌계단한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.786
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0167",
+     "word": "마룻바닥",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.499
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0168",
+     "word": "다락방",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "다락방한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.489
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0169",
+     "word": "빨랫줄",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0170",
+     "word": "지붕끝",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0171",
+     "word": "모래알",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "모래알한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.463
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0172",
+     "word": "빗장",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0177",
+     "word": "놋그릇",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0178",
+     "word": "질그릇",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0179",
+     "word": "숯덩이",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0181",
+     "word": "산그늘",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "산그늘아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0182",
+     "word": "길섶",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶아 밥 먹었어?",
+     "raw_hit": [
+      "LOCATION",
+      0.489
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0183",
+     "word": "나무그늘",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "나무그늘아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0184",
+     "word": "돌계단",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "돌계단아 밥 먹었어?",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.564
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0187",
+     "word": "마룻바닥",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0188",
+     "word": "다락방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "다락방아 밥 먹었어?",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.636
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0189",
+     "word": "빨랫줄",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0190",
+     "word": "지붕끝",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0191",
+     "word": "모래알",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "모래알아 밥 먹었어?",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.545
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0192",
+     "word": "빗장",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0193",
+     "word": "창틀",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "창틀아 밥 먹었어?",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.44
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0197",
+     "word": "놋그릇",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0198",
+     "word": "질그릇",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0199",
+     "word": "숯덩이",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이야 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    }
+   ]
+  },
+  "v11_by_category": {
+   "기본": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 8,
+     "fp": 2,
+     "fn": 32,
+     "precision": 0.8,
+     "recall": 0.2,
+     "f1": 0.32000000000000006
+    },
+    "final_prf": {
+     "tp": 8,
+     "fp": 2,
+     "fn": 32,
+     "precision": 0.8,
+     "recall": 0.2,
+     "f1": 0.32000000000000006
+    },
+    "exposure": {
+     "full_exposure": 30,
+     "partial_exposure": 1,
+     "fully_masked": 9,
+     "full_exposure_rate": 0.75,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.225,
+     "total_exposure_rate": 0.775
+    },
+    "nonperson_fpr": null
+   },
+   "목적격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 9,
+     "fp": 2,
+     "fn": 31,
+     "precision": 0.8181818181818182,
+     "recall": 0.225,
+     "f1": 0.35294117647058826
+    },
+    "final_prf": {
+     "tp": 9,
+     "fp": 0,
+     "fn": 31,
+     "precision": 1.0,
+     "recall": 0.225,
+     "f1": 0.36734693877551017
+    },
+    "exposure": {
+     "full_exposure": 31,
+     "partial_exposure": 0,
+     "fully_masked": 9,
+     "full_exposure_rate": 0.775,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.225,
+     "total_exposure_rate": 0.775
+    },
+    "nonperson_fpr": null
+   },
+   "비교서술": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 13,
+     "fp": 4,
+     "fn": 27,
+     "precision": 0.7647058823529411,
+     "recall": 0.325,
+     "f1": 0.456140350877193
+    },
+    "final_prf": {
+     "tp": 12,
+     "fp": 1,
+     "fn": 28,
+     "precision": 0.9230769230769231,
+     "recall": 0.3,
+     "f1": 0.4528301886792453
+    },
+    "exposure": {
+     "full_exposure": 27,
+     "partial_exposure": 1,
+     "fully_masked": 12,
+     "full_exposure_rate": 0.675,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.3,
+     "total_exposure_rate": 0.7
+    },
+    "nonperson_fpr": null
+   },
+   "여격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 18,
+     "fp": 6,
+     "fn": 22,
+     "precision": 0.75,
+     "recall": 0.45,
+     "f1": 0.5625000000000001
+    },
+    "final_prf": {
+     "tp": 16,
+     "fp": 0,
+     "fn": 24,
+     "precision": 1.0,
+     "recall": 0.4,
+     "f1": 0.5714285714285715
+    },
+    "exposure": {
+     "full_exposure": 24,
+     "partial_exposure": 0,
+     "fully_masked": 16,
+     "full_exposure_rate": 0.6,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.4,
+     "total_exposure_rate": 0.6
+    },
+    "nonperson_fpr": null
+   },
+   "호격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 8,
+     "fp": 12,
+     "fn": 32,
+     "precision": 0.4,
+     "recall": 0.2,
+     "f1": 0.26666666666666666
+    },
+    "final_prf": {
+     "tp": 7,
+     "fp": 6,
+     "fn": 33,
+     "precision": 0.5384615384615384,
+     "recall": 0.175,
+     "f1": 0.2641509433962264
+    },
+    "exposure": {
+     "full_exposure": 28,
+     "partial_exposure": 1,
+     "fully_masked": 11,
+     "full_exposure_rate": 0.7,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.275,
+     "total_exposure_rate": 0.725
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "v11_by_word_type": {
+   "단일형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 34,
+     "fp": 8,
+     "fn": 66,
+     "precision": 0.8095238095238095,
+     "recall": 0.34,
+     "f1": 0.47887323943661975
+    },
+    "final_prf": {
+     "tp": 31,
+     "fp": 3,
+     "fn": 69,
+     "precision": 0.9117647058823529,
+     "recall": 0.31,
+     "f1": 0.46268656716417916
+    },
+    "exposure": {
+     "full_exposure": 66,
+     "partial_exposure": 0,
+     "fully_masked": 34,
+     "full_exposure_rate": 0.66,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.34,
+     "total_exposure_rate": 0.66
+    },
+    "nonperson_fpr": 0.1
+   },
+   "복합명사형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 22,
+     "fp": 18,
+     "fn": 78,
+     "precision": 0.55,
+     "recall": 0.22,
+     "f1": 0.3142857142857143
+    },
+    "final_prf": {
+     "tp": 21,
+     "fp": 6,
+     "fn": 79,
+     "precision": 0.7777777777777778,
+     "recall": 0.21,
+     "f1": 0.33070866141732286
+    },
+    "exposure": {
+     "full_exposure": 74,
+     "partial_exposure": 3,
+     "fully_masked": 23,
+     "full_exposure_rate": 0.74,
+     "partial_exposure_rate": 0.03,
+     "fully_masked_rate": 0.23,
+     "total_exposure_rate": 0.77
+    },
+    "nonperson_fpr": 0.1
+   }
+  },
+  "v11_by_style": {
+   "가족채팅체": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 34,
+     "fp": 6,
+     "fn": 66,
+     "precision": 0.85,
+     "recall": 0.34,
+     "f1": 0.4857142857142858
+    },
+    "final_prf": {
+     "tp": 30,
+     "fp": 1,
+     "fn": 70,
+     "precision": 0.967741935483871,
+     "recall": 0.3,
+     "f1": 0.4580152671755725
+    },
+    "exposure": {
+     "full_exposure": 69,
+     "partial_exposure": 0,
+     "fully_masked": 31,
+     "full_exposure_rate": 0.69,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.31,
+     "total_exposure_rate": 0.69
+    },
+    "nonperson_fpr": null
+   },
+   "중의성문맥": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 22,
+     "fp": 20,
+     "fn": 78,
+     "precision": 0.5238095238095238,
+     "recall": 0.22,
+     "f1": 0.3098591549295775
+    },
+    "final_prf": {
+     "tp": 22,
+     "fp": 8,
+     "fn": 78,
+     "precision": 0.7333333333333333,
+     "recall": 0.22,
+     "f1": 0.3384615384615385
+    },
+    "exposure": {
+     "full_exposure": 71,
+     "partial_exposure": 3,
+     "fully_masked": 26,
+     "full_exposure_rate": 0.71,
+     "partial_exposure_rate": 0.03,
+     "fully_masked_rate": 0.26,
+     "total_exposure_rate": 0.74
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "r3_heldout": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 12,
+    "fp": 3,
+    "fn": 4,
+    "precision": 0.8,
+    "recall": 0.75,
+    "f1": 0.7741935483870969
+   },
+   "final_prf": {
+    "tp": 12,
+    "fp": 7,
+    "fn": 4,
+    "precision": 0.631578947368421,
+    "recall": 0.75,
+    "f1": 0.6857142857142857
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 15,
+    "full_exposure_rate": 0.0625,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9375,
+    "total_exposure_rate": 0.0625
+   },
+   "nonperson_fpr": 0.375
+  },
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "final_prf": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "exposure": {
+    "full_exposure": 8,
+    "partial_exposure": 0,
+    "fully_masked": 0,
+    "full_exposure_rate": 1.0,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.0,
+    "total_exposure_rate": 1.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r5_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 4,
+    "fp": 2,
+    "fn": 4,
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1": 0.5714285714285715
+   },
+   "final_prf": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 4,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1": 0.6666666666666666
+   },
+   "exposure": {
+    "full_exposure": 4,
+    "partial_exposure": 0,
+    "fully_masked": 4,
+    "full_exposure_rate": 0.5,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.5,
+    "total_exposure_rate": 0.5
+   },
+   "nonperson_fpr": 0.0
+  },
+  "ambiguity_probe_48": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "raw_prf": {
+    "tp": 71,
+    "fp": 13,
+    "fn": 19,
+    "precision": 0.8452380952380952,
+    "recall": 0.7888888888888889,
+    "f1": 0.8160919540229884
+   },
+   "final_prf": {
+    "tp": 69,
+    "fp": 10,
+    "fn": 21,
+    "precision": 0.8734177215189873,
+    "recall": 0.7666666666666667,
+    "f1": 0.8165680473372781
+   },
+   "exposure": {
+    "full_exposure": 11,
+    "partial_exposure": 0,
+    "fully_masked": 79,
+    "full_exposure_rate": 0.1222,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.8778,
+    "total_exposure_rate": 0.1222
+   },
+   "nonperson_fpr": 0.1778
+  },
+  "draft56": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "raw_prf": {
+    "tp": 13,
+    "fp": 12,
+    "fn": 22,
+    "precision": 0.52,
+    "recall": 0.37142857142857144,
+    "f1": 0.43333333333333335
+   },
+   "final_prf": {
+    "tp": 13,
+    "fp": 10,
+    "fn": 22,
+    "precision": 0.5652173913043478,
+    "recall": 0.37142857142857144,
+    "f1": 0.4482758620689655
+   },
+   "exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 0,
+    "fully_masked": 23,
+    "full_exposure_rate": 0.3429,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.6571,
+    "total_exposure_rate": 0.3429
+   },
+   "nonperson_fpr": 0.0952
+  },
+  "v8_independent": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "raw_prf": {
+    "tp": 620,
+    "fp": 25,
+    "fn": 70,
+    "precision": 0.9612403100775194,
+    "recall": 0.8985507246376812,
+    "f1": 0.9288389513108615
+   },
+   "final_prf": {
+    "tp": 611,
+    "fp": 15,
+    "fn": 79,
+    "precision": 0.9760383386581469,
+    "recall": 0.8855072463768116,
+    "f1": 0.9285714285714285
+   },
+   "exposure": {
+    "full_exposure": 64,
+    "partial_exposure": 0,
+    "fully_masked": 626,
+    "full_exposure_rate": 0.0928,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9072,
+    "total_exposure_rate": 0.0928
+   },
+   "nonperson_fpr": 0.1587
+  },
+  "v9_locked": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "raw_prf": {
+    "tp": 38,
+    "fp": 16,
+    "fn": 22,
+    "precision": 0.7037037037037037,
+    "recall": 0.6333333333333333,
+    "f1": 0.6666666666666667
+   },
+   "final_prf": {
+    "tp": 38,
+    "fp": 9,
+    "fn": 22,
+    "precision": 0.8085106382978723,
+    "recall": 0.6333333333333333,
+    "f1": 0.7102803738317757
+   },
+   "exposure": {
+    "full_exposure": 13,
+    "partial_exposure": 0,
+    "fully_masked": 47,
+    "full_exposure_rate": 0.2167,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.7833,
+    "total_exposure_rate": 0.2167
+   },
+   "nonperson_fpr": 0.15
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "raw_prf": {
+    "tp": 41,
+    "fp": 33,
+    "fn": 71,
+    "precision": 0.5540540540540541,
+    "recall": 0.36607142857142855,
+    "f1": 0.44086021505376344
+   },
+   "final_prf": {
+    "tp": 41,
+    "fp": 22,
+    "fn": 71,
+    "precision": 0.6507936507936508,
+    "recall": 0.36607142857142855,
+    "f1": 0.4685714285714286
+   },
+   "exposure": {
+    "full_exposure": 49,
+    "partial_exposure": 4,
+    "fully_masked": 59,
+    "full_exposure_rate": 0.4375,
+    "partial_exposure_rate": 0.0357,
+    "fully_masked_rate": 0.5268,
+    "total_exposure_rate": 0.4732
+   },
+   "nonperson_fpr": 0.1154
+  }
+ },
+ "r3_candidate": {
+  "fingerprint12": "14f297c7d5f5",
+  "v11_overall": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 96,
+    "fp": 12,
+    "fn": 104,
+    "precision": 0.8888888888888888,
+    "recall": 0.48,
+    "f1": 0.6233766233766234
+   },
+   "final_prf": {
+    "tp": 94,
+    "fp": 2,
+    "fn": 106,
+    "precision": 0.9791666666666666,
+    "recall": 0.47,
+    "f1": 0.6351351351351351
+   },
+   "exposure": {
+    "full_exposure": 104,
+    "partial_exposure": 2,
+    "fully_masked": 94,
+    "full_exposure_rate": 0.52,
+    "partial_exposure_rate": 0.01,
+    "fully_masked_rate": 0.47,
+    "total_exposure_rate": 0.53
+   },
+   "nonperson_fpr": 0.1,
+   "cause_counts": {
+    "ORG/LOC 오분류(LOCATION)": 18,
+    "후보 미생성": 68,
+    "신뢰도 부족": 6,
+    "ORG/LOC 오분류(ORGANIZATION)": 8,
+    "후처리 제거(merge_ner)": 4
+   },
+   "full_exposure_cases": [
+    {
+     "id": "v11-0002",
+     "word": "길섶",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 길섶을 유독 귀여워했어",
+     "raw_hit": [
+      "LOCATION",
+      0.817
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0003",
+     "word": "나무그늘",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 나무그늘을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0007",
+     "word": "마룻바닥",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 마룻바닥을 유독 귀여워했어",
+     "raw_hit": [
+      "LOCATION",
+      0.739
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0008",
+     "word": "다락방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 다락방을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0009",
+     "word": "빨랫줄",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 빨랫줄을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0010",
+     "word": "지붕끝",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 지붕끝을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0011",
+     "word": "모래알",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 모래알을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0012",
+     "word": "빗장",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 빗장을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0014",
+     "word": "문턱",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 문턱을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0015",
+     "word": "굴뚝",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 굴뚝을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0017",
+     "word": "놋그릇",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 놋그릇을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0018",
+     "word": "질그릇",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 질그릇을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0019",
+     "word": "숯덩이",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 숯덩이를 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0022",
+     "word": "길섶",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶이 동네에서 제일 눈에 띄어",
+     "raw_hit": [
+      "LOCATION",
+      0.78
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0027",
+     "word": "마룻바닥",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 동네에서 제일 눈에 띄어",
+     "raw_hit": [
+      "LOCATION",
+      0.801
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0028",
+     "word": "다락방",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방이 동네에서 제일 눈에 띄어",
+     "raw_hit": [
+      "PERSON",
+      0.472
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0029",
+     "word": "빨랫줄",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0030",
+     "word": "지붕끝",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0031",
+     "word": "모래알",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "모래알이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0032",
+     "word": "빗장",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장이 동네에서 제일 눈에 띄어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.434
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0035",
+     "word": "굴뚝",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "굴뚝이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0037",
+     "word": "놋그릇",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0038",
+     "word": "질그릇",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0039",
+     "word": "숯덩이",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이가 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0041",
+     "word": "산그늘",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "산그늘 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "PERSON",
+      0.567
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0042",
+     "word": "길섶",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "LOCATION",
+      0.84
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0043",
+     "word": "나무그늘",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "나무그늘 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0044",
+     "word": "돌계단",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.901
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0046",
+     "word": "장독대",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "장독대 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.901
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0047",
+     "word": "마룻바닥",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "LOCATION",
+      0.827
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0048",
+     "word": "다락방",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0049",
+     "word": "빨랫줄",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0050",
+     "word": "지붕끝",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0051",
+     "word": "모래알",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "모래알 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0052",
+     "word": "빗장",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0053",
+     "word": "창틀",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "창틀 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0054",
+     "word": "문턱",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "문턱 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0055",
+     "word": "굴뚝",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "굴뚝 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0057",
+     "word": "놋그릇",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0058",
+     "word": "질그릇",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0059",
+     "word": "숯덩이",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0067",
+     "word": "마룻바닥",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "LOCATION",
+      0.737
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0070",
+     "word": "지붕끝",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.489
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0072",
+     "word": "빗장",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0077",
+     "word": "놋그릇",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "PERSON",
+      0.501
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0078",
+     "word": "질그릇",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0081",
+     "word": "산그늘",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "산그늘아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0082",
+     "word": "길섶",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶아, 얼른 씻고 나와",
+     "raw_hit": [
+      "LOCATION",
+      0.69
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0083",
+     "word": "나무그늘",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "나무그늘아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0087",
+     "word": "마룻바닥",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥아, 얼른 씻고 나와",
+     "raw_hit": [
+      "LOCATION",
+      0.724
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0088",
+     "word": "다락방",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방아, 얼른 씻고 나와",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.652
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0089",
+     "word": "빨랫줄",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0090",
+     "word": "지붕끝",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0092",
+     "word": "빗장",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0097",
+     "word": "놋그릇",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0098",
+     "word": "질그릇",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0099",
+     "word": "숯덩이",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이야, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0102",
+     "word": "길섶",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 길섶을 데리러 간다고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.828
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0103",
+     "word": "나무그늘",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 나무그늘을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0104",
+     "word": "돌계단",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 돌계단을 데리러 간다고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.876
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0106",
+     "word": "장독대",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 장독대를 데리러 간다고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.825
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0107",
+     "word": "마룻바닥",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 마룻바닥을 데리러 간다고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.824
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0108",
+     "word": "다락방",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 다락방을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0109",
+     "word": "빨랫줄",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 빨랫줄을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0110",
+     "word": "지붕끝",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 지붕끝을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0111",
+     "word": "모래알",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 모래알을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0112",
+     "word": "빗장",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 빗장을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0114",
+     "word": "문턱",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 문턱을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0115",
+     "word": "굴뚝",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 굴뚝을 데리러 간다고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.265
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0117",
+     "word": "놋그릇",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 놋그릇을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0118",
+     "word": "질그릇",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 질그릇을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0119",
+     "word": "숯덩이",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 숯덩이를 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0122",
+     "word": "길섶",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": [
+      "LOCATION",
+      0.624
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0127",
+     "word": "마룻바닥",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": [
+      "LOCATION",
+      0.644
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0129",
+     "word": "빨랫줄",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0130",
+     "word": "지붕끝",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0131",
+     "word": "모래알",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "모래알이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.548
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0132",
+     "word": "빗장",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0137",
+     "word": "놋그릇",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0138",
+     "word": "질그릇",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0139",
+     "word": "숯덩이",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이가 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0142",
+     "word": "길섶",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶이 오늘 기분 좋아 보이더라",
+     "raw_hit": [
+      "LOCATION",
+      0.549
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0144",
+     "word": "돌계단",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "돌계단이 오늘 기분 좋아 보이더라",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.456
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0147",
+     "word": "마룻바닥",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 오늘 기분 좋아 보이더라",
+     "raw_hit": [
+      "LOCATION",
+      0.808
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0150",
+     "word": "지붕끝",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0152",
+     "word": "빗장",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0157",
+     "word": "놋그릇",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0158",
+     "word": "질그릇",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0159",
+     "word": "숯덩이",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이가 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0162",
+     "word": "길섶",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.705
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0167",
+     "word": "마룻바닥",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.798
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0170",
+     "word": "지붕끝",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.494
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0172",
+     "word": "빗장",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "PERSON",
+      0.409
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0177",
+     "word": "놋그릇",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0178",
+     "word": "질그릇",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "PERSON",
+      0.45
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0179",
+     "word": "숯덩이",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0182",
+     "word": "길섶",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶아 밥 먹었어?",
+     "raw_hit": [
+      "LOCATION",
+      0.675
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0187",
+     "word": "마룻바닥",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥아 밥 먹었어?",
+     "raw_hit": [
+      "LOCATION",
+      0.77
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0188",
+     "word": "다락방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "다락방아 밥 먹었어?",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.709
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0189",
+     "word": "빨랫줄",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0190",
+     "word": "지붕끝",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0197",
+     "word": "놋그릇",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0198",
+     "word": "질그릇",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0199",
+     "word": "숯덩이",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이야 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    }
+   ]
+  },
+  "v11_by_category": {
+   "기본": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 15,
+     "fp": 3,
+     "fn": 25,
+     "precision": 0.8333333333333334,
+     "recall": 0.375,
+     "f1": 0.5172413793103448
+    },
+    "final_prf": {
+     "tp": 15,
+     "fp": 0,
+     "fn": 25,
+     "precision": 1.0,
+     "recall": 0.375,
+     "f1": 0.5454545454545454
+    },
+    "exposure": {
+     "full_exposure": 25,
+     "partial_exposure": 0,
+     "fully_masked": 15,
+     "full_exposure_rate": 0.625,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.375,
+     "total_exposure_rate": 0.625
+    },
+    "nonperson_fpr": null
+   },
+   "목적격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 28,
+     "precision": 1.0,
+     "recall": 0.3,
+     "f1": 0.4615384615384615
+    },
+    "final_prf": {
+     "tp": 12,
+     "fp": 0,
+     "fn": 28,
+     "precision": 1.0,
+     "recall": 0.3,
+     "f1": 0.4615384615384615
+    },
+    "exposure": {
+     "full_exposure": 28,
+     "partial_exposure": 0,
+     "fully_masked": 12,
+     "full_exposure_rate": 0.7,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.3,
+     "total_exposure_rate": 0.7
+    },
+    "nonperson_fpr": null
+   },
+   "비교서술": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 19,
+     "fp": 4,
+     "fn": 21,
+     "precision": 0.8260869565217391,
+     "recall": 0.475,
+     "f1": 0.6031746031746033
+    },
+    "final_prf": {
+     "tp": 19,
+     "fp": 1,
+     "fn": 21,
+     "precision": 0.95,
+     "recall": 0.475,
+     "f1": 0.6333333333333334
+    },
+    "exposure": {
+     "full_exposure": 20,
+     "partial_exposure": 1,
+     "fully_masked": 19,
+     "full_exposure_rate": 0.5,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.475,
+     "total_exposure_rate": 0.525
+    },
+    "nonperson_fpr": null
+   },
+   "여격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 30,
+     "fp": 4,
+     "fn": 10,
+     "precision": 0.8823529411764706,
+     "recall": 0.75,
+     "f1": 0.8108108108108107
+    },
+    "final_prf": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 12,
+     "precision": 1.0,
+     "recall": 0.7,
+     "f1": 0.8235294117647058
+    },
+    "exposure": {
+     "full_exposure": 12,
+     "partial_exposure": 0,
+     "fully_masked": 28,
+     "full_exposure_rate": 0.3,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.7,
+     "total_exposure_rate": 0.3
+    },
+    "nonperson_fpr": null
+   },
+   "호격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 20,
+     "fp": 1,
+     "fn": 20,
+     "precision": 0.9523809523809523,
+     "recall": 0.5,
+     "f1": 0.6557377049180327
+    },
+    "final_prf": {
+     "tp": 20,
+     "fp": 1,
+     "fn": 20,
+     "precision": 0.9523809523809523,
+     "recall": 0.5,
+     "f1": 0.6557377049180327
+    },
+    "exposure": {
+     "full_exposure": 19,
+     "partial_exposure": 1,
+     "fully_masked": 20,
+     "full_exposure_rate": 0.475,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.5,
+     "total_exposure_rate": 0.5
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "v11_by_word_type": {
+   "단일형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 48,
+     "fp": 5,
+     "fn": 52,
+     "precision": 0.9056603773584906,
+     "recall": 0.48,
+     "f1": 0.6274509803921569
+    },
+    "final_prf": {
+     "tp": 48,
+     "fp": 1,
+     "fn": 52,
+     "precision": 0.9795918367346939,
+     "recall": 0.48,
+     "f1": 0.6442953020134228
+    },
+    "exposure": {
+     "full_exposure": 51,
+     "partial_exposure": 1,
+     "fully_masked": 48,
+     "full_exposure_rate": 0.51,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.48,
+     "total_exposure_rate": 0.52
+    },
+    "nonperson_fpr": 0.1
+   },
+   "복합명사형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 48,
+     "fp": 7,
+     "fn": 52,
+     "precision": 0.8727272727272727,
+     "recall": 0.48,
+     "f1": 0.6193548387096774
+    },
+    "final_prf": {
+     "tp": 46,
+     "fp": 1,
+     "fn": 54,
+     "precision": 0.9787234042553191,
+     "recall": 0.46,
+     "f1": 0.6258503401360545
+    },
+    "exposure": {
+     "full_exposure": 53,
+     "partial_exposure": 1,
+     "fully_masked": 46,
+     "full_exposure_rate": 0.53,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.46,
+     "total_exposure_rate": 0.54
+    },
+    "nonperson_fpr": 0.2
+   }
+  },
+  "v11_by_style": {
+   "가족채팅체": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 53,
+     "fp": 7,
+     "fn": 47,
+     "precision": 0.8833333333333333,
+     "recall": 0.53,
+     "f1": 0.6625
+    },
+    "final_prf": {
+     "tp": 52,
+     "fp": 1,
+     "fn": 48,
+     "precision": 0.9811320754716981,
+     "recall": 0.52,
+     "f1": 0.6797385620915032
+    },
+    "exposure": {
+     "full_exposure": 47,
+     "partial_exposure": 1,
+     "fully_masked": 52,
+     "full_exposure_rate": 0.47,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.52,
+     "total_exposure_rate": 0.48
+    },
+    "nonperson_fpr": null
+   },
+   "중의성문맥": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 43,
+     "fp": 5,
+     "fn": 57,
+     "precision": 0.8958333333333334,
+     "recall": 0.43,
+     "f1": 0.581081081081081
+    },
+    "final_prf": {
+     "tp": 42,
+     "fp": 1,
+     "fn": 58,
+     "precision": 0.9767441860465116,
+     "recall": 0.42,
+     "f1": 0.5874125874125874
+    },
+    "exposure": {
+     "full_exposure": 57,
+     "partial_exposure": 1,
+     "fully_masked": 42,
+     "full_exposure_rate": 0.57,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.42,
+     "total_exposure_rate": 0.58
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "r3_heldout": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 14,
+    "fp": 0,
+    "fn": 2,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "final_prf": {
+    "tp": 14,
+    "fp": 4,
+    "fn": 2,
+    "precision": 0.7777777777777778,
+    "recall": 0.875,
+    "f1": 0.823529411764706
+   },
+   "exposure": {
+    "full_exposure": 2,
+    "partial_exposure": 0,
+    "fully_masked": 14,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.375
+  },
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "final_prf": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "exposure": {
+    "full_exposure": 8,
+    "partial_exposure": 0,
+    "fully_masked": 0,
+    "full_exposure_rate": 1.0,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.0,
+    "total_exposure_rate": 1.0
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r5_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1": 0.7999999999999999
+   },
+   "final_prf": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1": 0.7999999999999999
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 7,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.0
+  },
+  "ambiguity_probe_48": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "raw_prf": {
+    "tp": 78,
+    "fp": 2,
+    "fn": 12,
+    "precision": 0.975,
+    "recall": 0.8666666666666667,
+    "f1": 0.9176470588235294
+   },
+   "final_prf": {
+    "tp": 76,
+    "fp": 2,
+    "fn": 14,
+    "precision": 0.9743589743589743,
+    "recall": 0.8444444444444444,
+    "f1": 0.9047619047619048
+   },
+   "exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 0,
+    "fully_masked": 78,
+    "full_exposure_rate": 0.1333,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.8667,
+    "total_exposure_rate": 0.1333
+   },
+   "nonperson_fpr": 0.0444
+  },
+  "draft56": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "raw_prf": {
+    "tp": 23,
+    "fp": 0,
+    "fn": 12,
+    "precision": 1.0,
+    "recall": 0.6571428571428571,
+    "f1": 0.7931034482758621
+   },
+   "final_prf": {
+    "tp": 22,
+    "fp": 0,
+    "fn": 13,
+    "precision": 1.0,
+    "recall": 0.6285714285714286,
+    "f1": 0.7719298245614035
+   },
+   "exposure": {
+    "full_exposure": 13,
+    "partial_exposure": 0,
+    "fully_masked": 22,
+    "full_exposure_rate": 0.3714,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.6286,
+    "total_exposure_rate": 0.3714
+   },
+   "nonperson_fpr": 0.0476
+  },
+  "v8_independent": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "raw_prf": {
+    "tp": 645,
+    "fp": 18,
+    "fn": 45,
+    "precision": 0.9728506787330317,
+    "recall": 0.9347826086956522,
+    "f1": 0.9534368070953437
+   },
+   "final_prf": {
+    "tp": 636,
+    "fp": 14,
+    "fn": 54,
+    "precision": 0.9784615384615385,
+    "recall": 0.9217391304347826,
+    "f1": 0.9492537313432836
+   },
+   "exposure": {
+    "full_exposure": 40,
+    "partial_exposure": 0,
+    "fully_masked": 650,
+    "full_exposure_rate": 0.058,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.942,
+    "total_exposure_rate": 0.058
+   },
+   "nonperson_fpr": 0.1587
+  },
+  "v9_locked": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "raw_prf": {
+    "tp": 45,
+    "fp": 8,
+    "fn": 15,
+    "precision": 0.8490566037735849,
+    "recall": 0.75,
+    "f1": 0.7964601769911505
+   },
+   "final_prf": {
+    "tp": 45,
+    "fp": 3,
+    "fn": 15,
+    "precision": 0.9375,
+    "recall": 0.75,
+    "f1": 0.8333333333333334
+   },
+   "exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 1,
+    "fully_masked": 47,
+    "full_exposure_rate": 0.2,
+    "partial_exposure_rate": 0.0167,
+    "fully_masked_rate": 0.7833,
+    "total_exposure_rate": 0.2167
+   },
+   "nonperson_fpr": 0.025
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "raw_prf": {
+    "tp": 68,
+    "fp": 24,
+    "fn": 44,
+    "precision": 0.7391304347826086,
+    "recall": 0.6071428571428571,
+    "f1": 0.6666666666666666
+   },
+   "final_prf": {
+    "tp": 67,
+    "fp": 9,
+    "fn": 45,
+    "precision": 0.881578947368421,
+    "recall": 0.5982142857142857,
+    "f1": 0.7127659574468085
+   },
+   "exposure": {
+    "full_exposure": 36,
+    "partial_exposure": 1,
+    "fully_masked": 75,
+    "full_exposure_rate": 0.3214,
+    "partial_exposure_rate": 0.0089,
+    "fully_masked_rate": 0.6696,
+    "total_exposure_rate": 0.3304
+   },
+   "nonperson_fpr": 0.0962
+  }
+ },
+ "r4_candidate": {
+  "fingerprint12": "56249473d8d9",
+  "v11_overall": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 93,
+    "fp": 17,
+    "fn": 107,
+    "precision": 0.8454545454545455,
+    "recall": 0.465,
+    "f1": 0.6
+   },
+   "final_prf": {
+    "tp": 91,
+    "fp": 6,
+    "fn": 109,
+    "precision": 0.9381443298969072,
+    "recall": 0.455,
+    "f1": 0.6127946127946128
+   },
+   "exposure": {
+    "full_exposure": 103,
+    "partial_exposure": 6,
+    "fully_masked": 91,
+    "full_exposure_rate": 0.515,
+    "partial_exposure_rate": 0.03,
+    "fully_masked_rate": 0.455,
+    "total_exposure_rate": 0.545
+   },
+   "nonperson_fpr": 0.05,
+   "cause_counts": {
+    "후보 미생성": 70,
+    "ORG/LOC 오분류(ORGANIZATION)": 20,
+    "ORG/LOC 오분류(LOCATION)": 4,
+    "ORG/LOC 오분류(LOCATION/ORGANIZATION)": 1,
+    "신뢰도 부족": 6,
+    "후처리 제거(merge_ner)": 2
+   },
+   "full_exposure_cases": [
+    {
+     "id": "v11-0002",
+     "word": "길섶",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 길섶을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0004",
+     "word": "돌계단",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 돌계단을 유독 귀여워했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.861
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0007",
+     "word": "마룻바닥",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 마룻바닥을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0008",
+     "word": "다락방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 다락방을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0009",
+     "word": "빨랫줄",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 빨랫줄을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0010",
+     "word": "지붕끝",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 지붕끝을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0011",
+     "word": "모래알",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 모래알을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0012",
+     "word": "빗장",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 빗장을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0017",
+     "word": "놋그릇",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 놋그릇을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0018",
+     "word": "질그릇",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 질그릇을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0019",
+     "word": "숯덩이",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 숯덩이를 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0022",
+     "word": "길섶",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0024",
+     "word": "돌계단",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단이 동네에서 제일 눈에 띄어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.878
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0027",
+     "word": "마룻바닥",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0028",
+     "word": "다락방",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0029",
+     "word": "빨랫줄",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0030",
+     "word": "지붕끝",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0031",
+     "word": "모래알",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "모래알이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0032",
+     "word": "빗장",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0035",
+     "word": "굴뚝",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "굴뚝이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0037",
+     "word": "놋그릇",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0038",
+     "word": "질그릇",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0039",
+     "word": "숯덩이",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이가 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0042",
+     "word": "길섶",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "LOCATION",
+      0.383
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0043",
+     "word": "나무그늘",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "나무그늘 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.726
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0044",
+     "word": "돌계단",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.878
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0046",
+     "word": "장독대",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "장독대 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.874
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0047",
+     "word": "마룻바닥",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "LOCATION",
+      0.678
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION/ORGANIZATION)"
+    },
+    {
+     "id": "v11-0048",
+     "word": "다락방",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0049",
+     "word": "빨랫줄",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0050",
+     "word": "지붕끝",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0051",
+     "word": "모래알",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "모래알 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0052",
+     "word": "빗장",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0055",
+     "word": "굴뚝",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "굴뚝 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0057",
+     "word": "놋그릇",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0058",
+     "word": "질그릇",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0059",
+     "word": "숯덩이",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0064",
+     "word": "돌계단",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.843
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0067",
+     "word": "마룻바닥",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.658
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0072",
+     "word": "빗장",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0078",
+     "word": "질그릇",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0081",
+     "word": "산그늘",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "산그늘아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0082",
+     "word": "길섶",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0084",
+     "word": "돌계단",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단아, 얼른 씻고 나와",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.608
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0087",
+     "word": "마룻바닥",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0088",
+     "word": "다락방",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "다락방아, 얼른 씻고 나와",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.33
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0089",
+     "word": "빨랫줄",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0090",
+     "word": "지붕끝",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "지붕끝아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0092",
+     "word": "빗장",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0093",
+     "word": "창틀",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "창틀아, 얼른 씻고 나와",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.438
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0097",
+     "word": "놋그릇",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0098",
+     "word": "질그릇",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "질그릇아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0099",
+     "word": "숯덩이",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이야, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0102",
+     "word": "길섶",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 길섶을 데리러 간다고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.754
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0104",
+     "word": "돌계단",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 돌계단을 데리러 간다고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.886
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0107",
+     "word": "마룻바닥",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 마룻바닥을 데리러 간다고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.444
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0108",
+     "word": "다락방",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 다락방을 데리러 간다고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.512
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0109",
+     "word": "빨랫줄",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 빨랫줄을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0110",
+     "word": "지붕끝",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 지붕끝을 데리러 간다고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.439
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0112",
+     "word": "빗장",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 빗장을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0117",
+     "word": "놋그릇",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 놋그릇을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0118",
+     "word": "질그릇",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 질그릇을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0119",
+     "word": "숯덩이",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 숯덩이를 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0122",
+     "word": "길섶",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0124",
+     "word": "돌계단",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "돌계단이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.878
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0127",
+     "word": "마룻바닥",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0128",
+     "word": "다락방",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "다락방이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": [
+      "PERSON",
+      0.489
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0129",
+     "word": "빨랫줄",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0130",
+     "word": "지붕끝",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0131",
+     "word": "모래알",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "모래알이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": [
+      "PERSON",
+      0.459
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0132",
+     "word": "빗장",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0137",
+     "word": "놋그릇",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0138",
+     "word": "질그릇",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇이 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0139",
+     "word": "숯덩이",
+     "category": "비교서술",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이가 우리 가족 중에서 제일 부지런해",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0142",
+     "word": "길섶",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0144",
+     "word": "돌계단",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "돌계단이 오늘 기분 좋아 보이더라",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.88
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0147",
+     "word": "마룻바닥",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0148",
+     "word": "다락방",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "다락방이 오늘 기분 좋아 보이더라",
+     "raw_hit": [
+      "PERSON",
+      0.364
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0149",
+     "word": "빨랫줄",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0150",
+     "word": "지붕끝",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0151",
+     "word": "모래알",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "모래알이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0152",
+     "word": "빗장",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0153",
+     "word": "창틀",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "창틀이 오늘 기분 좋아 보이더라",
+     "raw_hit": [
+      "PERSON",
+      0.497
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0157",
+     "word": "놋그릇",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0158",
+     "word": "질그릇",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0159",
+     "word": "숯덩이",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이가 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0162",
+     "word": "길섶",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.523
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0164",
+     "word": "돌계단",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "돌계단한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.865
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0167",
+     "word": "마룻바닥",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.449
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0169",
+     "word": "빨랫줄",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.624
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0171",
+     "word": "모래알",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "모래알한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "PERSON_ALIAS",
+      0.58
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0172",
+     "word": "빗장",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "PERSON",
+      0.332
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0177",
+     "word": "놋그릇",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0178",
+     "word": "질그릇",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇한테 사진 좀 보내달라고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0182",
+     "word": "길섶",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "길섶아 밥 먹었어?",
+     "raw_hit": [
+      "LOCATION",
+      0.424
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0184",
+     "word": "돌계단",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "돌계단아 밥 먹었어?",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.809
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0187",
+     "word": "마룻바닥",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥아 밥 먹었어?",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.523
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0188",
+     "word": "다락방",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "다락방아 밥 먹었어?",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.866
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0189",
+     "word": "빨랫줄",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "빨랫줄아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0190",
+     "word": "지붕끝",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "지붕끝아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0197",
+     "word": "놋그릇",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "놋그릇아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0198",
+     "word": "질그릇",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "질그릇아 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0199",
+     "word": "숯덩이",
+     "category": "호격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이야 밥 먹었어?",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    }
+   ]
+  },
+  "v11_by_category": {
+   "기본": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 15,
+     "fp": 1,
+     "fn": 25,
+     "precision": 0.9375,
+     "recall": 0.375,
+     "f1": 0.5357142857142857
+    },
+    "final_prf": {
+     "tp": 14,
+     "fp": 0,
+     "fn": 26,
+     "precision": 1.0,
+     "recall": 0.35,
+     "f1": 0.5185185185185185
+    },
+    "exposure": {
+     "full_exposure": 26,
+     "partial_exposure": 0,
+     "fully_masked": 14,
+     "full_exposure_rate": 0.65,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.35,
+     "total_exposure_rate": 0.65
+    },
+    "nonperson_fpr": null
+   },
+   "목적격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 18,
+     "fp": 1,
+     "fn": 22,
+     "precision": 0.9473684210526315,
+     "recall": 0.45,
+     "f1": 0.6101694915254237
+    },
+    "final_prf": {
+     "tp": 18,
+     "fp": 1,
+     "fn": 22,
+     "precision": 0.9473684210526315,
+     "recall": 0.45,
+     "f1": 0.6101694915254237
+    },
+    "exposure": {
+     "full_exposure": 21,
+     "partial_exposure": 1,
+     "fully_masked": 18,
+     "full_exposure_rate": 0.525,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.45,
+     "total_exposure_rate": 0.55
+    },
+    "nonperson_fpr": null
+   },
+   "비교서술": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 16,
+     "fp": 5,
+     "fn": 24,
+     "precision": 0.7619047619047619,
+     "recall": 0.4,
+     "f1": 0.5245901639344264
+    },
+    "final_prf": {
+     "tp": 16,
+     "fp": 1,
+     "fn": 24,
+     "precision": 0.9411764705882353,
+     "recall": 0.4,
+     "f1": 0.5614035087719298
+    },
+    "exposure": {
+     "full_exposure": 23,
+     "partial_exposure": 1,
+     "fully_masked": 16,
+     "full_exposure_rate": 0.575,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.4,
+     "total_exposure_rate": 0.6
+    },
+    "nonperson_fpr": null
+   },
+   "여격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 28,
+     "fp": 5,
+     "fn": 12,
+     "precision": 0.8484848484848485,
+     "recall": 0.7,
+     "f1": 0.7671232876712328
+    },
+    "final_prf": {
+     "tp": 28,
+     "fp": 0,
+     "fn": 12,
+     "precision": 1.0,
+     "recall": 0.7,
+     "f1": 0.8235294117647058
+    },
+    "exposure": {
+     "full_exposure": 12,
+     "partial_exposure": 0,
+     "fully_masked": 28,
+     "full_exposure_rate": 0.3,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.7,
+     "total_exposure_rate": 0.3
+    },
+    "nonperson_fpr": null
+   },
+   "호격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 16,
+     "fp": 5,
+     "fn": 24,
+     "precision": 0.7619047619047619,
+     "recall": 0.4,
+     "f1": 0.5245901639344264
+    },
+    "final_prf": {
+     "tp": 15,
+     "fp": 4,
+     "fn": 25,
+     "precision": 0.7894736842105263,
+     "recall": 0.375,
+     "f1": 0.5084745762711864
+    },
+    "exposure": {
+     "full_exposure": 21,
+     "partial_exposure": 4,
+     "fully_masked": 15,
+     "full_exposure_rate": 0.525,
+     "partial_exposure_rate": 0.1,
+     "fully_masked_rate": 0.375,
+     "total_exposure_rate": 0.625
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "v11_by_word_type": {
+   "단일형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 54,
+     "fp": 7,
+     "fn": 46,
+     "precision": 0.8852459016393442,
+     "recall": 0.54,
+     "f1": 0.670807453416149
+    },
+    "final_prf": {
+     "tp": 52,
+     "fp": 2,
+     "fn": 48,
+     "precision": 0.9629629629629629,
+     "recall": 0.52,
+     "f1": 0.6753246753246753
+    },
+    "exposure": {
+     "full_exposure": 46,
+     "partial_exposure": 2,
+     "fully_masked": 52,
+     "full_exposure_rate": 0.46,
+     "partial_exposure_rate": 0.02,
+     "fully_masked_rate": 0.52,
+     "total_exposure_rate": 0.48
+    },
+    "nonperson_fpr": 0.05
+   },
+   "복합명사형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 39,
+     "fp": 10,
+     "fn": 61,
+     "precision": 0.7959183673469388,
+     "recall": 0.39,
+     "f1": 0.5234899328859061
+    },
+    "final_prf": {
+     "tp": 39,
+     "fp": 4,
+     "fn": 61,
+     "precision": 0.9069767441860465,
+     "recall": 0.39,
+     "f1": 0.5454545454545454
+    },
+    "exposure": {
+     "full_exposure": 57,
+     "partial_exposure": 4,
+     "fully_masked": 39,
+     "full_exposure_rate": 0.57,
+     "partial_exposure_rate": 0.04,
+     "fully_masked_rate": 0.39,
+     "total_exposure_rate": 0.61
+    },
+    "nonperson_fpr": 0.05
+   }
+  },
+  "v11_by_style": {
+   "가족채팅체": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 49,
+     "fp": 12,
+     "fn": 51,
+     "precision": 0.8032786885245902,
+     "recall": 0.49,
+     "f1": 0.6086956521739131
+    },
+    "final_prf": {
+     "tp": 48,
+     "fp": 2,
+     "fn": 52,
+     "precision": 0.96,
+     "recall": 0.48,
+     "f1": 0.64
+    },
+    "exposure": {
+     "full_exposure": 50,
+     "partial_exposure": 2,
+     "fully_masked": 48,
+     "full_exposure_rate": 0.5,
+     "partial_exposure_rate": 0.02,
+     "fully_masked_rate": 0.48,
+     "total_exposure_rate": 0.52
+    },
+    "nonperson_fpr": null
+   },
+   "중의성문맥": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 44,
+     "fp": 5,
+     "fn": 56,
+     "precision": 0.8979591836734694,
+     "recall": 0.44,
+     "f1": 0.5906040268456376
+    },
+    "final_prf": {
+     "tp": 43,
+     "fp": 4,
+     "fn": 57,
+     "precision": 0.9148936170212766,
+     "recall": 0.43,
+     "f1": 0.5850340136054422
+    },
+    "exposure": {
+     "full_exposure": 53,
+     "partial_exposure": 4,
+     "fully_masked": 43,
+     "full_exposure_rate": 0.53,
+     "partial_exposure_rate": 0.04,
+     "fully_masked_rate": 0.43,
+     "total_exposure_rate": 0.57
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "r3_heldout": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 15,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1": 0.967741935483871
+   },
+   "final_prf": {
+    "tp": 15,
+    "fp": 4,
+    "fn": 1,
+    "precision": 0.7894736842105263,
+    "recall": 0.9375,
+    "f1": 0.8571428571428572
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 15,
+    "full_exposure_rate": 0.0625,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9375,
+    "total_exposure_rate": 0.0625
+   },
+   "nonperson_fpr": 0.375
+  },
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 2,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "final_prf": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 2,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "exposure": {
+    "full_exposure": 2,
+    "partial_exposure": 0,
+    "fully_masked": 6,
+    "full_exposure_rate": 0.25,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.75,
+    "total_exposure_rate": 0.25
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r5_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 6,
+    "fp": 3,
+    "fn": 2,
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1": 0.7058823529411765
+   },
+   "final_prf": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1": 0.7999999999999999
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 1,
+    "fully_masked": 6,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.125,
+    "fully_masked_rate": 0.75,
+    "total_exposure_rate": 0.25
+   },
+   "nonperson_fpr": 0.0
+  },
+  "ambiguity_probe_48": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "raw_prf": {
+    "tp": 82,
+    "fp": 5,
+    "fn": 8,
+    "precision": 0.9425287356321839,
+    "recall": 0.9111111111111111,
+    "f1": 0.9265536723163842
+   },
+   "final_prf": {
+    "tp": 80,
+    "fp": 1,
+    "fn": 10,
+    "precision": 0.9876543209876543,
+    "recall": 0.8888888888888888,
+    "f1": 0.935672514619883
+   },
+   "exposure": {
+    "full_exposure": 9,
+    "partial_exposure": 0,
+    "fully_masked": 81,
+    "full_exposure_rate": 0.1,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9,
+    "total_exposure_rate": 0.1
+   },
+   "nonperson_fpr": 0.1
+  },
+  "draft56": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "raw_prf": {
+    "tp": 25,
+    "fp": 0,
+    "fn": 10,
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1": 0.8333333333333333
+   },
+   "final_prf": {
+    "tp": 25,
+    "fp": 0,
+    "fn": 10,
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1": 0.8333333333333333
+   },
+   "exposure": {
+    "full_exposure": 10,
+    "partial_exposure": 0,
+    "fully_masked": 25,
+    "full_exposure_rate": 0.2857,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.7143,
+    "total_exposure_rate": 0.2857
+   },
+   "nonperson_fpr": 0.0476
+  },
+  "v8_independent": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "raw_prf": {
+    "tp": 639,
+    "fp": 21,
+    "fn": 51,
+    "precision": 0.9681818181818181,
+    "recall": 0.9260869565217391,
+    "f1": 0.9466666666666667
+   },
+   "final_prf": {
+    "tp": 631,
+    "fp": 12,
+    "fn": 59,
+    "precision": 0.9813374805598756,
+    "recall": 0.9144927536231884,
+    "f1": 0.9467366841710427
+   },
+   "exposure": {
+    "full_exposure": 47,
+    "partial_exposure": 0,
+    "fully_masked": 643,
+    "full_exposure_rate": 0.0681,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9319,
+    "total_exposure_rate": 0.0681
+   },
+   "nonperson_fpr": 0.1429
+  },
+  "v9_locked": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "raw_prf": {
+    "tp": 53,
+    "fp": 4,
+    "fn": 7,
+    "precision": 0.9298245614035088,
+    "recall": 0.8833333333333333,
+    "f1": 0.905982905982906
+   },
+   "final_prf": {
+    "tp": 53,
+    "fp": 3,
+    "fn": 7,
+    "precision": 0.9464285714285714,
+    "recall": 0.8833333333333333,
+    "f1": 0.9137931034482758
+   },
+   "exposure": {
+    "full_exposure": 4,
+    "partial_exposure": 0,
+    "fully_masked": 56,
+    "full_exposure_rate": 0.0667,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9333,
+    "total_exposure_rate": 0.0667
+   },
+   "nonperson_fpr": 0.025
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "raw_prf": {
+    "tp": 76,
+    "fp": 18,
+    "fn": 36,
+    "precision": 0.8085106382978723,
+    "recall": 0.6785714285714286,
+    "f1": 0.737864077669903
+   },
+   "final_prf": {
+    "tp": 75,
+    "fp": 10,
+    "fn": 37,
+    "precision": 0.8823529411764706,
+    "recall": 0.6696428571428571,
+    "f1": 0.7614213197969542
+   },
+   "exposure": {
+    "full_exposure": 27,
+    "partial_exposure": 2,
+    "fully_masked": 83,
+    "full_exposure_rate": 0.2411,
+    "partial_exposure_rate": 0.0179,
+    "fully_masked_rate": 0.7411,
+    "total_exposure_rate": 0.2589
+   },
+   "nonperson_fpr": 0.0192
+  }
+ },
+ "r5_candidate": {
+  "fingerprint12": "a270ea570419",
+  "v11_overall": {
+   "pos_sentences": 200,
+   "neg_sentences": 60,
+   "raw_prf": {
+    "tp": 165,
+    "fp": 13,
+    "fn": 35,
+    "precision": 0.9269662921348315,
+    "recall": 0.825,
+    "f1": 0.8730158730158731
+   },
+   "final_prf": {
+    "tp": 163,
+    "fp": 6,
+    "fn": 37,
+    "precision": 0.9644970414201184,
+    "recall": 0.815,
+    "f1": 0.8834688346883469
+   },
+   "exposure": {
+    "full_exposure": 31,
+    "partial_exposure": 4,
+    "fully_masked": 165,
+    "full_exposure_rate": 0.155,
+    "partial_exposure_rate": 0.02,
+    "fully_masked_rate": 0.825,
+    "total_exposure_rate": 0.175
+   },
+   "nonperson_fpr": 0.0167,
+   "cause_counts": {
+    "후보 미생성": 14,
+    "신뢰도 부족": 5,
+    "ORG/LOC 오분류(ORGANIZATION)": 5,
+    "ORG/LOC 오분류(LOCATION)": 4,
+    "ORG/LOC 오분류(LOCATION/ORGANIZATION)": 1,
+    "후처리 제거(merge_ner)": 2
+   },
+   "full_exposure_cases": [
+    {
+     "id": "v11-0007",
+     "word": "마룻바닥",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 마룻바닥을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0008",
+     "word": "다락방",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "삼촌이 다락방을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0011",
+     "word": "모래알",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 모래알을 유독 귀여워했어",
+     "raw_hit": [
+      "PERSON",
+      0.428
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0012",
+     "word": "빗장",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 빗장을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0017",
+     "word": "놋그릇",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 놋그릇을 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0018",
+     "word": "질그릇",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 질그릇을 유독 귀여워했어",
+     "raw_hit": [
+      "PERSON",
+      0.449
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0019",
+     "word": "숯덩이",
+     "category": "목적격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "삼촌이 숯덩이를 유독 귀여워했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0027",
+     "word": "마룻바닥",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0032",
+     "word": "빗장",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장이 동네에서 제일 눈에 띄어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.446
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0037",
+     "word": "놋그릇",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇이 동네에서 제일 눈에 띄어",
+     "raw_hit": [
+      "PERSON",
+      0.463
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0039",
+     "word": "숯덩이",
+     "category": "비교서술",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이가 동네에서 제일 눈에 띄어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0042",
+     "word": "길섶",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "길섶 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "LOCATION",
+      0.432
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0044",
+     "word": "돌계단",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "돌계단 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.795
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0046",
+     "word": "장독대",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "장독대 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.388
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0047",
+     "word": "마룻바닥",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "LOCATION",
+      0.571
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION/ORGANIZATION)"
+    },
+    {
+     "id": "v11-0049",
+     "word": "빨랫줄",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0051",
+     "word": "모래알",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "모래알 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.265
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0052",
+     "word": "빗장",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "빗장 소식을 오랜만에 들었어",
+     "raw_hit": [
+      "PERSON",
+      0.557
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0057",
+     "word": "놋그릇",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "놋그릇 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0059",
+     "word": "숯덩이",
+     "category": "기본",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이 소식을 오랜만에 들었어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0067",
+     "word": "마룻바닥",
+     "category": "여격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥한테 숙제 다 했는지 확인해봤어",
+     "raw_hit": [
+      "LOCATION",
+      0.466
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0087",
+     "word": "마룻바닥",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "마룻바닥아, 얼른 씻고 나와",
+     "raw_hit": [
+      "PERSON",
+      0.494
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0089",
+     "word": "빨랫줄",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "복합명사형",
+     "text": "빨랫줄아, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0099",
+     "word": "숯덩이",
+     "category": "호격",
+     "style": "중의성문맥",
+     "word_type": "단일형",
+     "text": "숯덩이야, 얼른 씻고 나와",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0104",
+     "word": "돌계단",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 돌계단을 데리러 간다고 했어",
+     "raw_hit": [
+      "ORGANIZATION",
+      0.758
+     ],
+     "cause": "ORG/LOC 오분류(ORGANIZATION)"
+    },
+    {
+     "id": "v11-0107",
+     "word": "마룻바닥",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "엄마가 마룻바닥을 데리러 간다고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.607
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    },
+    {
+     "id": "v11-0117",
+     "word": "놋그릇",
+     "category": "목적격",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "엄마가 놋그릇을 데리러 간다고 했어",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0147",
+     "word": "마룻바닥",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥이 오늘 기분 좋아 보이더라",
+     "raw_hit": null,
+     "cause": "후보 미생성"
+    },
+    {
+     "id": "v11-0152",
+     "word": "빗장",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "빗장이 오늘 기분 좋아 보이더라",
+     "raw_hit": [
+      "PERSON",
+      0.677
+     ],
+     "cause": "후처리 제거(merge_ner)"
+    },
+    {
+     "id": "v11-0159",
+     "word": "숯덩이",
+     "category": "기본",
+     "style": "가족채팅체",
+     "word_type": "단일형",
+     "text": "숯덩이가 오늘 기분 좋아 보이더라",
+     "raw_hit": [
+      "PERSON",
+      0.445
+     ],
+     "cause": "신뢰도 부족"
+    },
+    {
+     "id": "v11-0167",
+     "word": "마룻바닥",
+     "category": "여격",
+     "style": "가족채팅체",
+     "word_type": "복합명사형",
+     "text": "마룻바닥한테 사진 좀 보내달라고 했어",
+     "raw_hit": [
+      "LOCATION",
+      0.655
+     ],
+     "cause": "ORG/LOC 오분류(LOCATION)"
+    }
+   ]
+  },
+  "v11_by_category": {
+   "기본": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 28,
+     "fp": 4,
+     "fn": 12,
+     "precision": 0.875,
+     "recall": 0.7,
+     "f1": 0.7777777777777777
+    },
+    "final_prf": {
+     "tp": 27,
+     "fp": 1,
+     "fn": 13,
+     "precision": 0.9642857142857143,
+     "recall": 0.675,
+     "f1": 0.7941176470588236
+    },
+    "exposure": {
+     "full_exposure": 12,
+     "partial_exposure": 1,
+     "fully_masked": 27,
+     "full_exposure_rate": 0.3,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.675,
+     "total_exposure_rate": 0.325
+    },
+    "nonperson_fpr": null
+   },
+   "목적격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 30,
+     "fp": 2,
+     "fn": 10,
+     "precision": 0.9375,
+     "recall": 0.75,
+     "f1": 0.8333333333333334
+    },
+    "final_prf": {
+     "tp": 30,
+     "fp": 0,
+     "fn": 10,
+     "precision": 1.0,
+     "recall": 0.75,
+     "f1": 0.8571428571428571
+    },
+    "exposure": {
+     "full_exposure": 10,
+     "partial_exposure": 0,
+     "fully_masked": 30,
+     "full_exposure_rate": 0.25,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.75,
+     "total_exposure_rate": 0.25
+    },
+    "nonperson_fpr": null
+   },
+   "비교서술": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 35,
+     "fp": 3,
+     "fn": 5,
+     "precision": 0.9210526315789473,
+     "recall": 0.875,
+     "f1": 0.8974358974358975
+    },
+    "final_prf": {
+     "tp": 34,
+     "fp": 2,
+     "fn": 6,
+     "precision": 0.9444444444444444,
+     "recall": 0.85,
+     "f1": 0.8947368421052632
+    },
+    "exposure": {
+     "full_exposure": 4,
+     "partial_exposure": 1,
+     "fully_masked": 35,
+     "full_exposure_rate": 0.1,
+     "partial_exposure_rate": 0.025,
+     "fully_masked_rate": 0.875,
+     "total_exposure_rate": 0.125
+    },
+    "nonperson_fpr": null
+   },
+   "여격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 38,
+     "fp": 0,
+     "fn": 2,
+     "precision": 1.0,
+     "recall": 0.95,
+     "f1": 0.9743589743589743
+    },
+    "final_prf": {
+     "tp": 38,
+     "fp": 0,
+     "fn": 2,
+     "precision": 1.0,
+     "recall": 0.95,
+     "f1": 0.9743589743589743
+    },
+    "exposure": {
+     "full_exposure": 2,
+     "partial_exposure": 0,
+     "fully_masked": 38,
+     "full_exposure_rate": 0.05,
+     "partial_exposure_rate": 0.0,
+     "fully_masked_rate": 0.95,
+     "total_exposure_rate": 0.05
+    },
+    "nonperson_fpr": null
+   },
+   "호격": {
+    "pos_sentences": 40,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 34,
+     "fp": 4,
+     "fn": 6,
+     "precision": 0.8947368421052632,
+     "recall": 0.85,
+     "f1": 0.8717948717948718
+    },
+    "final_prf": {
+     "tp": 34,
+     "fp": 3,
+     "fn": 6,
+     "precision": 0.918918918918919,
+     "recall": 0.85,
+     "f1": 0.8831168831168831
+    },
+    "exposure": {
+     "full_exposure": 3,
+     "partial_exposure": 2,
+     "fully_masked": 35,
+     "full_exposure_rate": 0.075,
+     "partial_exposure_rate": 0.05,
+     "fully_masked_rate": 0.875,
+     "total_exposure_rate": 0.125
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "v11_by_word_type": {
+   "단일형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 84,
+     "fp": 7,
+     "fn": 16,
+     "precision": 0.9230769230769231,
+     "recall": 0.84,
+     "f1": 0.8795811518324608
+    },
+    "final_prf": {
+     "tp": 82,
+     "fp": 2,
+     "fn": 18,
+     "precision": 0.9761904761904762,
+     "recall": 0.82,
+     "f1": 0.8913043478260869
+    },
+    "exposure": {
+     "full_exposure": 16,
+     "partial_exposure": 1,
+     "fully_masked": 83,
+     "full_exposure_rate": 0.16,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.83,
+     "total_exposure_rate": 0.17
+    },
+    "nonperson_fpr": 0.0
+   },
+   "복합명사형": {
+    "pos_sentences": 100,
+    "neg_sentences": 20,
+    "raw_prf": {
+     "tp": 81,
+     "fp": 6,
+     "fn": 19,
+     "precision": 0.9310344827586207,
+     "recall": 0.81,
+     "f1": 0.8663101604278076
+    },
+    "final_prf": {
+     "tp": 81,
+     "fp": 4,
+     "fn": 19,
+     "precision": 0.9529411764705882,
+     "recall": 0.81,
+     "f1": 0.8756756756756757
+    },
+    "exposure": {
+     "full_exposure": 15,
+     "partial_exposure": 3,
+     "fully_masked": 82,
+     "full_exposure_rate": 0.15,
+     "partial_exposure_rate": 0.03,
+     "fully_masked_rate": 0.82,
+     "total_exposure_rate": 0.18
+    },
+    "nonperson_fpr": 0.0
+   }
+  },
+  "v11_by_style": {
+   "가족채팅체": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 90,
+     "fp": 7,
+     "fn": 10,
+     "precision": 0.9278350515463918,
+     "recall": 0.9,
+     "f1": 0.9137055837563451
+    },
+    "final_prf": {
+     "tp": 89,
+     "fp": 4,
+     "fn": 11,
+     "precision": 0.956989247311828,
+     "recall": 0.89,
+     "f1": 0.922279792746114
+    },
+    "exposure": {
+     "full_exposure": 7,
+     "partial_exposure": 3,
+     "fully_masked": 90,
+     "full_exposure_rate": 0.07,
+     "partial_exposure_rate": 0.03,
+     "fully_masked_rate": 0.9,
+     "total_exposure_rate": 0.1
+    },
+    "nonperson_fpr": null
+   },
+   "중의성문맥": {
+    "pos_sentences": 100,
+    "neg_sentences": 0,
+    "raw_prf": {
+     "tp": 75,
+     "fp": 6,
+     "fn": 25,
+     "precision": 0.9259259259259259,
+     "recall": 0.75,
+     "f1": 0.8287292817679557
+    },
+    "final_prf": {
+     "tp": 74,
+     "fp": 2,
+     "fn": 26,
+     "precision": 0.9736842105263158,
+     "recall": 0.74,
+     "f1": 0.8409090909090909
+    },
+    "exposure": {
+     "full_exposure": 24,
+     "partial_exposure": 1,
+     "fully_masked": 75,
+     "full_exposure_rate": 0.24,
+     "partial_exposure_rate": 0.01,
+     "fully_masked_rate": 0.75,
+     "total_exposure_rate": 0.25
+    },
+    "nonperson_fpr": null
+   }
+  },
+  "r3_heldout": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 16,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+   },
+   "final_prf": {
+    "tp": 16,
+    "fp": 4,
+    "fn": 0,
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1": 0.888888888888889
+   },
+   "exposure": {
+    "full_exposure": 0,
+    "partial_exposure": 0,
+    "fully_masked": 16,
+    "full_exposure_rate": 0.0,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 1.0,
+    "total_exposure_rate": 0.0
+   },
+   "nonperson_fpr": 0.125
+  },
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "final_prf": {
+    "tp": 7,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1": 0.9333333333333333
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 7,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.0
+  },
+  "r5_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "raw_prf": {
+    "tp": 6,
+    "fp": 2,
+    "fn": 2,
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1": 0.75
+   },
+   "final_prf": {
+    "tp": 6,
+    "fp": 1,
+    "fn": 2,
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1": 0.7999999999999999
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 7,
+    "full_exposure_rate": 0.125,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.875,
+    "total_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.0
+  },
+  "ambiguity_probe_48": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "raw_prf": {
+    "tp": 84,
+    "fp": 3,
+    "fn": 6,
+    "precision": 0.9655172413793104,
+    "recall": 0.9333333333333333,
+    "f1": 0.9491525423728815
+   },
+   "final_prf": {
+    "tp": 82,
+    "fp": 3,
+    "fn": 8,
+    "precision": 0.9647058823529412,
+    "recall": 0.9111111111111111,
+    "f1": 0.9371428571428572
+   },
+   "exposure": {
+    "full_exposure": 5,
+    "partial_exposure": 0,
+    "fully_masked": 85,
+    "full_exposure_rate": 0.0556,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9444,
+    "total_exposure_rate": 0.0556
+   },
+   "nonperson_fpr": 0.0444
+  },
+  "draft56": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "raw_prf": {
+    "tp": 34,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9714285714285714,
+    "f1": 0.9855072463768115
+   },
+   "final_prf": {
+    "tp": 34,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9714285714285714,
+    "f1": 0.9855072463768115
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 34,
+    "full_exposure_rate": 0.0286,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9714,
+    "total_exposure_rate": 0.0286
+   },
+   "nonperson_fpr": 0.0
+  },
+  "v8_independent": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "raw_prf": {
+    "tp": 637,
+    "fp": 20,
+    "fn": 53,
+    "precision": 0.969558599695586,
+    "recall": 0.9231884057971015,
+    "f1": 0.9458054936896808
+   },
+   "final_prf": {
+    "tp": 626,
+    "fp": 11,
+    "fn": 64,
+    "precision": 0.9827315541601256,
+    "recall": 0.9072463768115943,
+    "f1": 0.9434815373021855
+   },
+   "exposure": {
+    "full_exposure": 53,
+    "partial_exposure": 0,
+    "fully_masked": 637,
+    "full_exposure_rate": 0.0768,
+    "partial_exposure_rate": 0.0,
+    "fully_masked_rate": 0.9232,
+    "total_exposure_rate": 0.0768
+   },
+   "nonperson_fpr": 0.1429
+  },
+  "v9_locked": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "raw_prf": {
+    "tp": 56,
+    "fp": 5,
+    "fn": 4,
+    "precision": 0.9180327868852459,
+    "recall": 0.9333333333333333,
+    "f1": 0.9256198347107439
+   },
+   "final_prf": {
+    "tp": 56,
+    "fp": 3,
+    "fn": 4,
+    "precision": 0.9491525423728814,
+    "recall": 0.9333333333333333,
+    "f1": 0.9411764705882353
+   },
+   "exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 1,
+    "fully_masked": 58,
+    "full_exposure_rate": 0.0167,
+    "partial_exposure_rate": 0.0167,
+    "fully_masked_rate": 0.9667,
+    "total_exposure_rate": 0.0333
+   },
+   "nonperson_fpr": 0.025
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "raw_prf": {
+    "tp": 94,
+    "fp": 14,
+    "fn": 18,
+    "precision": 0.8703703703703703,
+    "recall": 0.8392857142857143,
+    "f1": 0.8545454545454546
+   },
+   "final_prf": {
+    "tp": 93,
+    "fp": 8,
+    "fn": 19,
+    "precision": 0.9207920792079208,
+    "recall": 0.8303571428571429,
+    "f1": 0.8732394366197184
+   },
+   "exposure": {
+    "full_exposure": 11,
+    "partial_exposure": 1,
+    "fully_masked": 100,
+    "full_exposure_rate": 0.0982,
+    "partial_exposure_rate": 0.0089,
+    "fully_masked_rate": 0.8929,
+    "total_exposure_rate": 0.1071
+   },
+   "nonperson_fpr": 0.0192
+  }
+ }
+}

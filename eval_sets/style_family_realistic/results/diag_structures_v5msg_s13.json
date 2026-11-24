@@ -1,0 +1,137 @@
+{
+ "mode": "v5-koelectra-small-klue10msg-s13",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "d7cdb2f0a4cc"
+ },
+ "ner_only": false,
+ "categories": {
+  "이름만호칭": {
+   "spans": 12,
+   "full": 12,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 12,
+   "flagged": 0,
+   "miss_examples": []
+  },
+  "애칭": {
+   "spans": 8,
+   "full": 5,
+   "partial": 0,
+   "none": 3,
+   "extra": 0,
+   "sentences": 8,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "아아 오늘 기분 좋아보이더라",
+     "아아"
+    ],
+    [
+     "none",
+     "아아한테 전화 좀 해줄래",
+     "아아"
+    ],
+    [
+     "none",
+     "윤이 오늘 기분 좋아보이더라",
+     "윤이"
+    ]
+   ]
+  },
+  "OO엄마": {
+   "spans": 10,
+   "full": 9,
+   "partial": 0,
+   "none": 1,
+   "extra": 0,
+   "sentences": 10,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "전송유엄마 혹시 그거 받았어?",
+     "전송유"
+    ]
+   ]
+  },
+  "짧은호칭": {
+   "spans": 8,
+   "full": 4,
+   "partial": 0,
+   "none": 4,
+   "extra": 0,
+   "sentences": 8,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "강한소!!",
+     "강한소"
+    ],
+    [
+     "none",
+     "야 강한소!",
+     "강한소"
+    ],
+    [
+     "none",
+     "고가소!!",
+     "고가소"
+    ],
+    [
+     "none",
+     "야 고가소!",
+     "고가소"
+    ]
+   ]
+  },
+  "조사다양화": {
+   "spans": 4,
+   "full": 4,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 4,
+   "flagged": 0,
+   "miss_examples": []
+  },
+  "구조이상": {
+   "spans": 6,
+   "full": 4,
+   "partial": 0,
+   "none": 2,
+   "extra": 0,
+   "sentences": 6,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "성경안뭐해지금",
+     "성경안"
+    ],
+    [
+     "none",
+     "전송유야뭐하니",
+     "전송유"
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 48,
+  "full": 38,
+  "partial": 0,
+  "none": 10,
+  "extra": 0
+ },
+ "latency_100chars": {
+  "median_ms": 0.108,
+  "p95_ms": 11.001,
+  "n": 100
+ }
+}

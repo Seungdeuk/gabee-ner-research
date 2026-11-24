@@ -1,0 +1,2202 @@
+[
+ {
+  "id": "r10pc-001",
+  "scenario": "잡담",
+  "text": "우리 반 새 친구는 \"{NW1:bare}\"래",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-001",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-002",
+  "scenario": "잡담",
+  "text": "우리 반 새 구호는 \"{WN1:bare}\"래",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-001",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-003",
+  "scenario": "안부·심부름",
+  "text": "내 단짝 소개할게 ({NW1:bare})",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-002",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-004",
+  "scenario": "안부·심부름",
+  "text": "내 취미 소개할게 ({WN1:bare})",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-002",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-005",
+  "scenario": "잡담",
+  "text": "오늘 같이 놀던 건... {NW1:bare}",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-003",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-006",
+  "scenario": "잡담",
+  "text": "오늘 같이 먹던 건... {WN1:bare}",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-003",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-007",
+  "scenario": "학교·학원",
+  "text": "우리 반 반장 이름은 \"{NW1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-004",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-008",
+  "scenario": "학교·학원",
+  "text": "우리 반 반장 공약은 \"{WN1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-004",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-009",
+  "scenario": "잡담",
+  "text": "정답 공개한다, 누구게? ... {NW1:bare}!",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-005",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-010",
+  "scenario": "잡담",
+  "text": "정답 공개한다, 뭐게? ... {WN1:bare}!",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-005",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-011",
+  "scenario": "정산·돈·구매",
+  "text": "택배 보낸 사람 \"{NW1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-006",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-012",
+  "scenario": "정산·돈·구매",
+  "text": "택배 보낸 물건 \"{WN1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-006",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-013",
+  "scenario": "잡담",
+  "text": "아까 말한 그 애, {NW1:lit}야",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-007",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-014",
+  "scenario": "잡담",
+  "text": "아까 말한 그 꽃, {WN1:lit}야",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-007",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-015",
+  "scenario": "학교·학원",
+  "text": "방명록에 적힌 이름: {NW1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-008",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-016",
+  "scenario": "학교·학원",
+  "text": "방명록에 적힌 단어: {WN1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-008",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-017",
+  "scenario": "일정·약속",
+  "text": "오늘 정할 이름은 ({NW1:bare})",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-009",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-018",
+  "scenario": "일정·약속",
+  "text": "오늘 정할 주제는 ({WN1:bare})",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-009",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-019",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속 아이 이름 \"{NW1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-010",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-020",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속 장면 이름 \"{WN1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-010",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-021",
+  "scenario": "안부·심부름",
+  "text": "내가 부른 건 바로... {NW1:bare}",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-011",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-022",
+  "scenario": "안부·심부름",
+  "text": "내가 쓴 건 바로... {WN1:bare}",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-011",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-023",
+  "scenario": "잡담",
+  "text": "강아지 이름 뭐게? \"{NW1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-012",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-024",
+  "scenario": "잡담",
+  "text": "강아지 간식 뭐게? \"{WN1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-012",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-025",
+  "scenario": "학교·학원",
+  "text": "발표 순서 마지막은 {NW1:bare}",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-013",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-026",
+  "scenario": "학교·학원",
+  "text": "발표 주제 마지막은 {WN1:bare}",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-013",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-027",
+  "scenario": "잡담",
+  "text": "내 별명은 ({NW1:bare}) 라고 불러",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-014",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-028",
+  "scenario": "잡담",
+  "text": "내 취향은 ({WN1:bare}) 라고 불러",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-014",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-029",
+  "scenario": "일정·약속",
+  "text": "오늘 참석자 명단 맨 끝에 {NW1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-015",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-030",
+  "scenario": "일정·약속",
+  "text": "오늘 준비물 명단 맨 끝에 {WN1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-015",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-031",
+  "scenario": "음식·집안일",
+  "text": "이번 모임에 새로 온 애는 \"{NW1:bare}\" 맞지",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-016",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-032",
+  "scenario": "음식·집안일",
+  "text": "이번 모임에 새로 쓴 건 \"{WN1:bare}\" 맞지",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-016",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-033",
+  "scenario": "학교·학원",
+  "text": "새 담임 선생님은 {NW1:bare} 쌤",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-017",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-034",
+  "scenario": "학교·학원",
+  "text": "새 담임 선생님은 {WN1:bare} 쌤",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-017",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-035",
+  "scenario": "병원·건강",
+  "text": "접수할 때 불러 줄 이름은 ({NW1:bare})",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-018",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-036",
+  "scenario": "병원·건강",
+  "text": "접수할 때 적어 줄 증상은 ({WN1:bare})",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-018",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-037",
+  "scenario": "사진·영상 공유",
+  "text": "앨범 주인공 정했어, \"{NW1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-019",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-038",
+  "scenario": "사진·영상 공유",
+  "text": "앨범 제목 정했어, \"{WN1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-019",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-039",
+  "scenario": "안부·심부름",
+  "text": "전화 건 사람이 {NW1:bare}였어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-020",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-040",
+  "scenario": "안부·심부름",
+  "text": "전화 건 이유가 {WN1:bare}였어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-020",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-041",
+  "scenario": "잡담",
+  "text": "그 얘기 들었어? 걔 이름이 {NW1:bare}...",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-021",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-042",
+  "scenario": "잡담",
+  "text": "그 얘기 들었어? 그 말이 {WN1:bare}...",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-021",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-043",
+  "scenario": "학교·학원",
+  "text": "우리 조 조장은 \"{NW1:bare}\"야",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-022",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-044",
+  "scenario": "학교·학원",
+  "text": "우리 조 조명은 \"{WN1:bare}\"야",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-022",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-045",
+  "scenario": "이동·방문",
+  "text": "마중 나온 분은 ({NW1:bare})",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-023",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-046",
+  "scenario": "이동·방문",
+  "text": "마중 나온 차는 ({WN1:bare})",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-023",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-047",
+  "scenario": "정산·돈·구매",
+  "text": "입금 내역 맨 위에 이름이 \"{NW1:bare}\"라고 떴어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-024",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-048",
+  "scenario": "정산·돈·구매",
+  "text": "입금 내역 맨 위에 메모가 \"{WN1:bare}\"라고 떴어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-024",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-049",
+  "scenario": "잡담",
+  "text": "혹시 그 애... {NW1:bare}야?",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-025",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-050",
+  "scenario": "잡담",
+  "text": "혹시 그 색... {WN1:bare}야?",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-025",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-051",
+  "scenario": "일정·약속",
+  "text": "생일 파티 주인공 ({NW1:bare})",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-026",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-052",
+  "scenario": "일정·약속",
+  "text": "생일 파티 주제 ({WN1:bare})",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-026",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-053",
+  "scenario": "음식·집안일",
+  "text": "키우는 강아지 이름 \"{NW1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-027",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-054",
+  "scenario": "음식·집안일",
+  "text": "키우는 화분 이름 \"{WN1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-027",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-055",
+  "scenario": "잡담",
+  "text": "다들 한 번씩 크게 불러 줘, {NW1:bare}!",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-028",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-056",
+  "scenario": "잡담",
+  "text": "다들 한 번씩 크게 맞혀 줘, {WN1:bare}!",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-028",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-057",
+  "scenario": "학교·학원",
+  "text": "전학 온 아이 이름 {NW1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-029",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-058",
+  "scenario": "학교·학원",
+  "text": "전학 온 학교 이름 {WN1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-029",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-059",
+  "scenario": "안부·심부름",
+  "text": "엄마가 찾던 건 {NW1:bare}...",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-030",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-060",
+  "scenario": "안부·심부름",
+  "text": "엄마가 찾던 건 {WN1:bare}...",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-030",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-061",
+  "scenario": "사진·영상 공유",
+  "text": "영상 속 아기 이름이 \"{NW1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-031",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-062",
+  "scenario": "사진·영상 공유",
+  "text": "영상 속 노래 이름이 \"{WN1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-031",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-063",
+  "scenario": "잡담",
+  "text": "요새 새로 사귄 친구 ({NW1:bare}) 알지?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-032",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-064",
+  "scenario": "잡담",
+  "text": "요새 새로 산 신발 ({WN1:bare}) 알지?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-032",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-065",
+  "scenario": "일정·약속",
+  "text": "다음 주 당번 이름 \"{NW1:bare}\" 적어 줘",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-033",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-066",
+  "scenario": "일정·약속",
+  "text": "다음 주 당번 구역 \"{WN1:bare}\" 적어 줘",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-033",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-067",
+  "scenario": "이동·방문",
+  "text": "역에서 기다리는 사람 {NW1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-034",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-068",
+  "scenario": "이동·방문",
+  "text": "역에서 기다리는 버스 {WN1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-034",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-069",
+  "scenario": "잡담",
+  "text": "그래서 걔가 \"{NW1:bare}\"라고 했어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-035",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-070",
+  "scenario": "잡담",
+  "text": "그래서 내가 \"{WN1:bare}\"라고 했어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-035",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-071",
+  "scenario": "병원·건강",
+  "text": "진료 대기 칸 옆에 이름 {NW1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-036",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-072",
+  "scenario": "병원·건강",
+  "text": "진료 대기 칸 옆에 증상 {WN1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-036",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-073",
+  "scenario": "정산·돈·구매",
+  "text": "영수증 맨 아래 서명 ({NW1:bare})",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-037",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-074",
+  "scenario": "정산·돈·구매",
+  "text": "영수증 맨 아래 상품 ({WN1:bare})",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-037",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-075",
+  "scenario": "음식·집안일",
+  "text": "오늘 설거지 당번은 \"{NW1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-038",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-076",
+  "scenario": "음식·집안일",
+  "text": "오늘 설거지 도구는 \"{WN1:bare}\"",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-038",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-077",
+  "scenario": "잡담",
+  "text": "아니 그건 {NW1:bare}가 아니라...",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-039",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-078",
+  "scenario": "잡담",
+  "text": "아니 그건 {WN1:bare}가 아니라...",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-039",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-079",
+  "scenario": "학교·학원",
+  "text": "우리 반 같은 이름 하나 더, {NW1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-040",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-080",
+  "scenario": "학교·학원",
+  "text": "우리 반 같은 그림 하나 더, {WN1:bare}",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-040",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-081",
+  "scenario": "잡담",
+  "text": "어제 {N2:sub} 소개해 준 {NW1:top} 성격이 참 좋더라",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-041",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-082",
+  "scenario": "잡담",
+  "text": "어제 {N2:sub} 사다 준 {WN1:top} 향이 참 좋더라",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-041",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-083",
+  "scenario": "잡담",
+  "text": "{N2:sub} 어제 {NW1:dat} 놀이터에서 말 걸었다던데 맞아?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-042",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-084",
+  "scenario": "잡담",
+  "text": "{N2:sub} 어제 {WN1:obj} 놀이터에서 잃어버렸다던데 맞아?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-042",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-085",
+  "scenario": "안부·심부름",
+  "text": "{NW1:sub} {N2:dat} 부탁해서 오늘 장 보는 거 도와주기로 했어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-043",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-086",
+  "scenario": "안부·심부름",
+  "text": "{WN1:sub} {N2:dat} 있어서 오늘 장 보는 거 도와주기로 했어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-043",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-087",
+  "scenario": "안부·심부름",
+  "text": "{N2:voc}, 어제 {NW1:com} 통화한 거 엄마한테 말했어?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-044",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-088",
+  "scenario": "안부·심부름",
+  "text": "{N2:voc}, 어제 {WN1:obj} 주문한 거 엄마한테 말했어?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-044",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-089",
+  "scenario": "학교·학원",
+  "text": "수업 끝나고 {NW1:com} {N2:com} 셋이 분식집 가기로 했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-045",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-090",
+  "scenario": "학교·학원",
+  "text": "수업 끝나고 {N2:com} 둘이 {WN1:bare} 사러 가기로 했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-045",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-091",
+  "scenario": "일정·약속",
+  "text": "모임 장소는 {N2:pos} 집으로 하고 {NW1:obj} 먼저 부르자",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-046",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-092",
+  "scenario": "일정·약속",
+  "text": "모임 장소는 {N2:pos} 집으로 하고 {WN1:obj} 먼저 꺼내자",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-046",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-093",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진 찍은 사람은 {N2:top} 아니고 {NW1:sub} 맞아",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-047",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-094",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진 속 물건은 {N2:top} 아니고 {WN1:sub} 맞아",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-047",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-095",
+  "scenario": "정산·돈·구매",
+  "text": "지난번 밥값은 {N2:sub} 냈으니까 이번엔 {NW1:sub} 내",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-048",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-096",
+  "scenario": "정산·돈·구매",
+  "text": "지난번 밥값은 {N2:sub} 냈으니까 이번엔 {WN1:obj} 사",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-048",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-097",
+  "scenario": "음식·집안일",
+  "text": "설거지는 {NW1:top} 하고 빨래는 {N2:sub} 널기로 정했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-049",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-098",
+  "scenario": "음식·집안일",
+  "text": "설거지는 {WN1:top} 쓰고 빨래는 {N2:sub} 널기로 정했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-049",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-099",
+  "scenario": "이동·방문",
+  "text": "공항에 {N2:sub} 마중 나가니까 {NW1:obj} 만나면 인사해",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-050",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-100",
+  "scenario": "이동·방문",
+  "text": "공항에 {N2:sub} 마중 나가니까 {WN1:obj} 챙기면 말해",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-050",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-101",
+  "scenario": "잡담",
+  "text": "{N2:top} 동생이 {NW1:lit}라고 부르는 애 알아?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-051",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-102",
+  "scenario": "잡담",
+  "text": "{N2:top} 동생이 {WN1:lit}라고 부르는 걸 알아?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-051",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-103",
+  "scenario": "학교·학원",
+  "text": "선생님이 {NW1:obj} 부르시고 나서 {N2:dat} 숙제를 주셨어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-052",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-104",
+  "scenario": "학교·학원",
+  "text": "선생님이 {WN1:obj} 보이시고 나서 {N2:dat} 숙제를 주셨어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-052",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-105",
+  "scenario": "일정·약속",
+  "text": "토요일엔 {N2:com} 약속 있어서 {NW1:dat} 먼저 연락했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-053",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-106",
+  "scenario": "일정·약속",
+  "text": "토요일엔 {N2:com} 약속 있어서 {WN1:obj} 먼저 예약했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-053",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-107",
+  "scenario": "사진·영상 공유",
+  "text": "영상 마지막에 {N2:sub} 웃고 있고 뒤에 {NW1:sub} 보여",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-054",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-108",
+  "scenario": "사진·영상 공유",
+  "text": "영상 마지막에 {N2:sub} 웃고 있고 뒤에 {WN1:sub} 보여",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-054",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-109",
+  "scenario": "안부·심부름",
+  "text": "할머니가 {N2:dat} 전화하셨는데 {NW1:sub} 안부를 물으셨대",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-055",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-110",
+  "scenario": "안부·심부름",
+  "text": "할머니가 {N2:dat} 전화하셨는데 {WN1:sub} 값을 물으셨대",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-055",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-111",
+  "scenario": "정산·돈·구매",
+  "text": "{NW1:sub} 보낸 돈은 {N2:sub} 받았다고 하니까 확인만 해 줘",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-056",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-112",
+  "scenario": "정산·돈·구매",
+  "text": "{WN1:sub} 보낸 돈은 {N2:sub} 받았다고 하니까 확인만 해 줘",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-056",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-113",
+  "scenario": "병원·건강",
+  "text": "오늘 진료는 {N2:sub} 받고 {NW1:sub} 내일 받을 거야",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-057",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-114",
+  "scenario": "병원·건강",
+  "text": "오늘 진료는 {N2:sub} 받고 {WN1:sub} 내일 나올 거야",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-057",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-115",
+  "scenario": "음식·집안일",
+  "text": "간식은 {N2:sub} 만들고 포장은 {NW1:sub} 도와줬어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-058",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-116",
+  "scenario": "음식·집안일",
+  "text": "간식은 {N2:sub} 만들고 포장은 {WN1:sub} 덮어줬어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-058",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-117",
+  "scenario": "이동·방문",
+  "text": "터미널에서 {NW1:com} {N2:com} 만나서 같이 버스 탔어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-059",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-118",
+  "scenario": "이동·방문",
+  "text": "터미널에서 {N2:com} 만나서 같이 {WN1:obj} 구경했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-059",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-119",
+  "scenario": "학교·학원",
+  "text": "발표는 {N2:sub} 하기로 했고 질문은 {NW1:dat} 받을게",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-060",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-120",
+  "scenario": "학교·학원",
+  "text": "발표는 {N2:sub} 하기로 했고 질문은 {WN1:bare} 중심으로 받을게",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-060",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-121",
+  "scenario": "일정·약속",
+  "text": "내일 {N2:com} 영화 보기로 했는데 {NW1:sub} 온대",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-061",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-122",
+  "scenario": "일정·약속",
+  "text": "내일 {N2:com} 영화 보기로 했는데 {WN1:sub} 개봉한대",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-061",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-123",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 정산은 {N2:sub} 맡고 {NW1:sub} 도와주기로 했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-062",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-124",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 정산은 {N2:sub} 맡고 {WN1:sub} 줄어들었어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-062",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-125",
+  "scenario": "사진·영상 공유",
+  "text": "앨범 첫 장은 {N2:sub} 고르고 둘째 장은 {NW1:sub} 골랐어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-063",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-126",
+  "scenario": "사진·영상 공유",
+  "text": "앨범 첫 장은 {N2:sub} 고르고 둘째 장은 {WN1:sub} 담았어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-063",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-127",
+  "scenario": "잡담",
+  "text": "혹시 {N2:com} {NW1:com} 어제 같이 있었어?",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-064",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-128",
+  "scenario": "잡담",
+  "text": "혹시 {N2:com} 어제 {WN1:obj} 같이 샀어?",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-064",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-129",
+  "scenario": "음식·집안일",
+  "text": "집들이 때 {N2:sub} 요리하면 {NW1:sub} 청소하기로 했잖아",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-065",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-130",
+  "scenario": "음식·집안일",
+  "text": "집들이 때 {N2:sub} 요리하면 {WN1:sub} 필요하다고 했잖아",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-065",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-131",
+  "scenario": "이동·방문",
+  "text": "할머니 댁 가는 길에 {L1}에 잠깐 들러서 {NW1:obj} 만나 점심 같이 먹고 왔는데 생각보다 오래 걸려서 저녁 전에 도착하기는 어려울 것 같아",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-066",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-132",
+  "scenario": "이동·방문",
+  "text": "할머니 댁 가는 길에 {L1}에 잠깐 들러서 {WN1:obj} 구경하다 점심 먹고 왔는데 생각보다 오래 걸려서 저녁 전에 도착하기는 어려울 것 같아",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-066",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-133",
+  "scenario": "이동·방문",
+  "text": "이모 집에 도착하면 먼저 거실에 앉아서 {NW1:top} 어디 있는지 물어보고 그다음에 짐 정리를 시작하자 다들 피곤할 테니까 서두르지 말고",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-067",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-134",
+  "scenario": "이동·방문",
+  "text": "이모 집에 도착하면 먼저 거실에 앉아서 {WN1:top} 어디 있는지 찾아보고 그다음에 짐 정리를 시작하자 다들 피곤할 테니까 서두르지 말고",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-067",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-135",
+  "scenario": "잡담",
+  "text": "어제 학교 끝나고 집에 오는 길에 갑자기 비가 와서 {NW1:com} 한참 이야기하다가 결국 우산도 없이 뛰어서 왔는데 옷이 다 젖었지 뭐야 진짜 힘들었다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-068",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-136",
+  "scenario": "잡담",
+  "text": "어제 학교 끝나고 집에 오는 길에 갑자기 비가 와서 {WN1:obj} 한참 쳐다보다가 결국 우산도 없이 뛰어서 왔는데 옷이 다 젖었지 뭐야 진짜 힘들었다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-068",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-137",
+  "scenario": "이동·방문",
+  "text": "내일 아침 일찍 {L1}으로 출발할 거라 지금부터 준비하는데 {NW1:top} 집에 들러서 데려가야 하니까 알람 맞춰 놓고 일찍 자자 늦으면 길이 막히니까",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-069",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-138",
+  "scenario": "이동·방문",
+  "text": "내일 아침 일찍 {L1}으로 출발할 거라 지금부터 준비하는데 {WN1:top} 트렁크에 실어야 하니까 알람 맞춰 놓고 일찍 자자 늦으면 길이 막히니까",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-069",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-139",
+  "scenario": "잡담",
+  "text": "요즘 우리 동네에 새로 생긴 카페에 가 봤는데 분위기가 정말 좋아서 {NW1:top} 거기서 만났던 얘기를 한참 했어 다음 주에 같이 가자 꼭 가 보면 좋아할 거야",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-070",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-140",
+  "scenario": "잡담",
+  "text": "요즘 우리 동네에 새로 생긴 카페에 가 봤는데 분위기가 정말 좋아서 {WN1:top} 거기서 먹었던 얘기를 한참 했어 다음 주에 같이 가자 꼭 가 보면 좋아할 거야",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-070",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-141",
+  "scenario": "이동·방문",
+  "text": "기차가 한 시간 늦게 도착한다고 해서 역 근처 식당에서 기다리는데 {NW1:sub} 마중 나온다고 하니 마음이 놓이긴 하는데 짐이 많아서 걱정이야 도착하면 연락할게",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-071",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-142",
+  "scenario": "이동·방문",
+  "text": "기차가 한 시간 늦게 도착한다고 해서 역 근처 식당에서 기다리는데 {WN1:sub} 무겁다고 하니 마음이 놓이긴 하는데 짐이 많아서 걱정이야 도착하면 연락할게",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-071",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-143",
+  "scenario": "잡담",
+  "text": "오늘 점심시간에 친구들이랑 운동장에서 놀다가 {NW1:dat} 장난으로 말을 걸었는데 선생님이 보시고 웃으셔서 다행히 혼나지는 않았어 완전 아찔했다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-072",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-144",
+  "scenario": "잡담",
+  "text": "오늘 점심시간에 친구들이랑 운동장에서 놀다가 {WN1:obj} 장난으로 던졌는데 선생님이 보시고 웃으셔서 다행히 혼나지는 않았어 완전 아찔했다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-072",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-145",
+  "scenario": "이동·방문",
+  "text": "주말에 외갓집에 내려가는 길인데 휴게소에 잠깐 들러서 {NW1:bare}을 기다리며 커피 한 잔 마시고 있어 아빠가 운전을 오래 해서 좀 쉬어 가기로 했어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-073",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-146",
+  "scenario": "이동·방문",
+  "text": "주말에 외갓집에 내려가는 길인데 휴게소에 잠깐 들러서 {WN1:bare}을 고르며 커피 한 잔 마시고 있어 아빠가 운전을 오래 해서 좀 쉬어 가기로 했어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-073",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-147",
+  "scenario": "잡담",
+  "text": "엄마 오늘 낮에 시장에서 우연히 만난 분이 있는데 {NW1:bare}라고 하시더라 예전에 우리 동네에 살던 분이라는데 기억 나는 사람 있어?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-074",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-148",
+  "scenario": "잡담",
+  "text": "엄마 오늘 낮에 시장에서 우연히 만난 분이 있는데 {WN1:bare}라고 하더라 예전에 우리 동네에 살던 분이라는데 기억 나는 사람 있어?",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-074",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-149",
+  "scenario": "이동·방문",
+  "text": "방학이라 사촌 집에 며칠 머물기로 해서 가방을 챙겼고 {NW1:dat} 줄 선물도 같이 챙겼는데 무거워서 어깨가 아파 터미널까지 아빠가 태워다 주신다고 했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-075",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-150",
+  "scenario": "이동·방문",
+  "text": "방학이라 사촌 집에 며칠 머물기로 해서 가방을 챙겼고 {WN1:obj} 닦을 수건도 같이 챙겼는데 무거워서 어깨가 아파 터미널까지 아빠가 태워다 주신다고 했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-075",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-151",
+  "scenario": "잡담",
+  "text": "아까 단톡에서 다들 웃던 이야기 있잖아 그거 사실은 {NW1:top} 먼저 꺼낸 말이래 나중에 알고 보니까 오해였대 그래서 아무도 화내지 않고 넘어갔어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-076",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-152",
+  "scenario": "잡담",
+  "text": "아까 단톡에서 다들 웃던 이야기 있잖아 그거 사실은 {WN1:top} 먼저 나온 말이래 나중에 알고 보니까 오해였대 그래서 아무도 화내지 않고 넘어갔어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-076",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-153",
+  "scenario": "이동·방문",
+  "text": "병원 갔다가 집에 오는 길에 약국에 들러야 하는데 {NW1:com} 같이 가기로 했어 그러니까 저녁은 먼저 먹고 있어 우리는 조금 늦을 것 같아",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-077",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-154",
+  "scenario": "이동·방문",
+  "text": "병원 갔다가 집에 오는 길에 약국에 들러야 하는데 {WN1:obj} 사 오기로 했어 그러니까 저녁은 먼저 먹고 있어 우리는 조금 늦을 것 같아",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-077",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-155",
+  "scenario": "잡담",
+  "text": "우리 반에 새로 온 짝꿍이 정말 재밌는 애인데 오늘 쉬는 시간에 {NW1:obj} 소개받았거든 처음엔 낯설었는데 이야기해 보니까 취미가 비슷해서 금방 친해졌어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-078",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-156",
+  "scenario": "잡담",
+  "text": "우리 반에 새로 온 짝꿍이 정말 재밌는 애인데 오늘 쉬는 시간에 {WN1:obj} 소개받았거든 처음엔 낯설었는데 이야기해 보니까 취미가 비슷해서 금방 친해졌어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-078",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-157",
+  "scenario": "이동·방문",
+  "text": "삼촌네 집에서 하룻밤 자고 올라오는 길에 고속도로가 막혀서 {NW1:sub} 운전하는 동안 나는 뒷자리에서 졸았어 도착하면 깨워 줘 오늘 정말 피곤하다",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-079",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-158",
+  "scenario": "이동·방문",
+  "text": "삼촌네 집에서 하룻밤 자고 올라오는 길에 고속도로가 막혀서 {WN1:sub} 흔들리는 동안 나는 뒷자리에서 졸았어 도착하면 깨워 줘 오늘 정말 피곤하다",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-079",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-159",
+  "scenario": "잡담",
+  "text": "오늘 저녁 메뉴 때문에 한참 고민했는데 결국 {NW1:sub} 좋아하는 걸로 정했어 다들 먹고 싶은 게 달라서 투표까지 했는데 결과가 딱 나뉘더라",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-080",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-160",
+  "scenario": "잡담",
+  "text": "오늘 저녁 메뉴 때문에 한참 고민했는데 결국 {WN1:sub} 들어간 걸로 정했어 다들 먹고 싶은 게 달라서 투표까지 했는데 결과가 딱 나뉘더라",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-080",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-161",
+  "scenario": "이동·방문",
+  "text": "학원 끝나고 버스 타고 집에 가는 중인데 창밖을 보다가 {NW1:obj} 봤어 너무 반가워서 창문 열고 손 흔들까 했는데 버스가 지나가 버려서 못 했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-081",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-162",
+  "scenario": "이동·방문",
+  "text": "학원 끝나고 버스 타고 집에 가는 중인데 창밖을 보다가 {WN1:obj} 봤어 너무 반가워서 창문 열고 손 흔들까 했는데 버스가 지나가 버려서 못 했어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-081",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-163",
+  "scenario": "잡담",
+  "text": "있잖아 이건 비밀인데 지난주 가족 모임 때 있었던 일 말야 {NW1:sub} 먼저 사과했대 다들 모르는 척하고 있었는데 오늘 아침에 이모가 말해 줘서 알게 됐어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-082",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-164",
+  "scenario": "잡담",
+  "text": "있잖아 이건 비밀인데 지난주 가족 모임 때 있었던 일 말야 {WN1:sub} 먼저 깨졌대 다들 모르는 척하고 있었는데 오늘 아침에 이모가 말해 줘서 알게 됐어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-082",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-165",
+  "scenario": "이동·방문",
+  "text": "내일 아침 아홉 시에 {L1}에서 만나자 가는 길에 {NW1:dat} 먼저 연락해 두고 차 번호는 이따 보내 줄게 늦지 않게 나와 줘 부탁해",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-083",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-166",
+  "scenario": "이동·방문",
+  "text": "내일 아침 아홉 시에 {L1}에서 만나자 가는 길에 {WN1:obj} 먼저 챙겨 두고 차 번호는 이따 보내 줄게 늦지 않게 나와 줘 부탁해",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-083",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-167",
+  "scenario": "잡담",
+  "text": "요즘 학교 앞 문구점에 갈 때마다 눈에 띄는 게 있어서 {NW1:bare}이 떠오르는데 너도 그런 적 있어? 나만 그런가 싶어서 물어봐 괜히 궁금해졌어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-084",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-168",
+  "scenario": "잡담",
+  "text": "요즘 학교 앞 문구점에 갈 때마다 눈에 띄는 게 있어서 {WN1:bare}이 눈에 띄는데 너도 그런 적 있어? 나만 그런가 싶어서 물어봐 괜히 궁금해졌어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-084",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-169",
+  "scenario": "이동·방문",
+  "text": "이사한 집에 처음 놀러 간 날 현관에서 신발을 벗다 보니 {NW1:sub} 먼저 나와 있었고 우리는 인사를 하고 안으로 들어가서 한참 구경하다가 저녁까지 먹고 왔어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-085",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-170",
+  "scenario": "이동·방문",
+  "text": "이사한 집에 처음 놀러 간 날 현관에서 신발을 벗다 보니 {WN1:sub} 먼저 놓여 있었고 우리는 인사를 하고 안으로 들어가서 한참 구경하다가 저녁까지 먹고 왔어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-085",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-171",
+  "scenario": "잡담",
+  "text": "엄마 아빠 몰래 준비한 깜짝 파티인데 비밀 지켜야 해 {NW1:dat} 절대 말하면 안 돼 알았지? 케이크는 내가 사 올 테니까 풍선만 불어 놓고 기다려 줘",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-086",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-172",
+  "scenario": "잡담",
+  "text": "엄마 아빠 몰래 준비한 깜짝 파티인데 비밀 지켜야 해 {WN1:obj} 절대 만지면 안 돼 알았지? 케이크는 내가 사 올 테니까 풍선만 불어 놓고 기다려 줘",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-086",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-173",
+  "scenario": "이동·방문",
+  "text": "놀이공원 갔다 오는 지하철에서 졸다가 내릴 역을 놓쳤는데 {NW1:sub} 깨워 줘서 겨우 환승하고 집에 도착했어 오늘 하루 정말 길었다 이제 씻고 쉬어야지",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-087",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-174",
+  "scenario": "이동·방문",
+  "text": "놀이공원 갔다 오는 지하철에서 졸다가 내릴 역을 놓쳤는데 {WN1:sub} 울려 줘서 겨우 환승하고 집에 도착했어 오늘 하루 정말 길었다 이제 씻고 쉬어야지",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-087",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-175",
+  "scenario": "잡담",
+  "text": "오늘 낮에 들은 얘긴데 우리 동네 아이들 사이에서 유행인 말이 있대 {NW1:bare}라고 부른다던데 다들 알고 있었어? 나만 몰랐나 싶어서 좀 놀랐어 내일 학교에서 물어봐야지",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-088",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-176",
+  "scenario": "잡담",
+  "text": "오늘 낮에 들은 얘긴데 우리 동네 아이들 사이에서 유행인 말이 있대 {WN1:bare}라고 한다던데 다들 알고 있었어? 나만 몰랐나 싶어서 좀 놀랐어 내일 학교에서 물어봐야지",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-088",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-177",
+  "scenario": "이동·방문",
+  "text": "제주도 가는 비행기 시간이 아침 일찍이라 공항에 새벽에 도착해서 {NW1:top} 먼저 도착해 기다리고 있었고 우리는 수속을 마친 뒤 게이트 앞에서 간식을 먹으며 탑승을 기다렸어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-089",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-178",
+  "scenario": "이동·방문",
+  "text": "제주도 가는 비행기 시간이 아침 일찍이라 공항에 새벽에 도착해서 {WN1:top} 먼저 도착해 놓여 있었고 우리는 수속을 마친 뒤 게이트 앞에서 간식을 먹으며 탑승을 기다렸어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-089",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-179",
+  "scenario": "잡담",
+  "text": "아까 학원에서 쉬는 시간에 갑자기 옆 반 친구가 와서 {NW1:obj} 찾길래 같이 찾아 줬는데 한참 걸려서 다음 수업에 늦을 뻔했어 휴 겨우 앉았다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-090",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-180",
+  "scenario": "잡담",
+  "text": "아까 학원에서 쉬는 시간에 갑자기 옆 반 친구가 와서 {WN1:obj} 찾길래 같이 찾아 줬는데 한참 걸려서 다음 수업에 늦을 뻔했어 휴 겨우 앉았다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-090",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-181",
+  "scenario": "이동·방문",
+  "text": "친구네 집에 놀러 가려고 지도 앱을 켰는데 길이 헷갈려서 {NW1:dat} 전화로 길을 물어봤어 그랬더니 바로 알려 줘서 금방 찾았어 역시 물어보는 게 제일 빠르네",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-091",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-182",
+  "scenario": "이동·방문",
+  "text": "친구네 집에 놀러 가려고 지도 앱을 켰는데 길이 헷갈려서 {WN1:obj} 전화로 검색해 봤어 그랬더니 바로 알려 줘서 금방 찾았어 역시 물어보는 게 제일 빠르네",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-091",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-183",
+  "scenario": "잡담",
+  "text": "우리 가족 단톡방 이름을 바꾸자는 얘기가 나왔는데 {NW1:sub} 제안한 이름이 제일 마음에 들어서 내가 찬성했어 다들 투표 마감 전에 한 표씩 눌러 줘",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-092",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-184",
+  "scenario": "잡담",
+  "text": "우리 가족 단톡방 이름을 바꾸자는 얘기가 나왔는데 {WN1:sub} 들어간 이름이 제일 마음에 들어서 내가 찬성했어 다들 투표 마감 전에 한 표씩 눌러 줘",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-092",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-185",
+  "scenario": "이동·방문",
+  "text": "할아버지 생신이라 시골에 내려가려고 아침부터 분주한데 {NW1:com} 같이 간다고 해서 차가 좁아졌어 어쩔 수 없이 짐은 뒤 칸에 눌러 담아서 출발해야겠다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-093",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-186",
+  "scenario": "이동·방문",
+  "text": "할아버지 생신이라 시골에 내려가려고 아침부터 분주한데 {WN1:obj} 같이 싣는다고 해서 차가 좁아졌어 어쩔 수 없이 짐은 뒤 칸에 눌러 담아서 출발해야겠다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-093",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-187",
+  "scenario": "잡담",
+  "text": "오늘 하루 종일 신경 쓰이던 게 있는데 아침에 현관 앞에서 {NW1:bare}라고 적힌 쪽지를 봤거든 누가 두고 갔는지 모르겠어 혹시 다들 무슨 뜻인지 알겠어? 궁금해",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-094",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-188",
+  "scenario": "잡담",
+  "text": "오늘 하루 종일 신경 쓰이던 게 있는데 아침에 현관 앞에서 {WN1:bare}라고 적힌 쪽지를 봤거든 누가 두고 갔는지 모르겠어 혹시 다들 무슨 뜻인지 알겠어? 궁금해",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-094",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-189",
+  "scenario": "이동·방문",
+  "text": "캠핑장에 도착하자마자 텐트부터 쳐야 하는데 바람이 세서 {NW1:dat} 도와 달라고 불렀고 겨우 쳤어 저녁에는 불 피우고 고기 구워 먹자 별도 보이면 좋겠다 그치",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-095",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-190",
+  "scenario": "이동·방문",
+  "text": "캠핑장에 도착하자마자 텐트부터 쳐야 하는데 바람이 세서 {WN1:obj} 먼저 꽉 잡았고 겨우 쳤어 저녁에는 불 피우고 고기 구워 먹자 별도 보이면 좋겠다 그치",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-095",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-191",
+  "scenario": "잡담",
+  "text": "방금 전에 거실에서 숙제하다가 문득 생각났는데 {NW1:sub} 아까 했던 말이 자꾸 떠올라서 집중이 안 돼 이런 적 있지 않아? 어쩌면 좋을까",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-096",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-192",
+  "scenario": "잡담",
+  "text": "방금 전에 거실에서 숙제하다가 문득 생각났는데 {WN1:sub} 아까 본 모양이 자꾸 떠올라서 집중이 안 돼 이런 적 있지 않아? 어쩌면 좋을까",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-096",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-193",
+  "scenario": "이동·방문",
+  "text": "친척 결혼식에 가는 길에 예식장 근처에서 점심을 먹고 있는데 {NW1:sub} 뒤늦게 합류해서 자리를 다시 정리하느라 시간이 좀 걸렸어 식전 행사 시작 전에는 도착할 거야",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-097",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-194",
+  "scenario": "이동·방문",
+  "text": "친척 결혼식에 가는 길에 예식장 근처에서 점심을 먹고 있는데 {WN1:sub} 뒤늦게 나와서 자리를 다시 정리하느라 시간이 좀 걸렸어 식전 행사 시작 전에는 도착할 거야",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-097",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-195",
+  "scenario": "잡담",
+  "text": "동생이 오늘 자랑스럽게 말하더라 새로 사귄 친구한테서 {NW1:obj} 선물 받았다고 엄청 좋아하길래 같이 기뻐해 줬어 우리 막내도 이제 다 컸나 봐 신기해",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-098",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-196",
+  "scenario": "잡담",
+  "text": "동생이 오늘 자랑스럽게 말하더라 새로 사귄 친구한테서 {WN1:obj} 선물 받았다고 엄청 좋아하길래 같이 기뻐해 줬어 우리 막내도 이제 다 컸나 봐 신기해",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-098",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-197",
+  "scenario": "이동·방문",
+  "text": "퇴근길에 마트에 들러서 장을 보다가 우연히 {NW1:dat} 인사했는데 계산대 줄이 길어서 결국 십 분 넘게 기다렸어 집에 가면 바로 밥할게",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-099",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-198",
+  "scenario": "이동·방문",
+  "text": "퇴근길에 마트에 들러서 장을 보다가 우연히 {WN1:obj} 집어 들었는데 계산대 줄이 길어서 결국 십 분 넘게 기다렸어 집에 가면 바로 밥할게",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-099",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-199",
+  "scenario": "잡담",
+  "text": "어제 밤에 잠이 안 와서 거실에 나왔다가 우연히 들었는데 {NW1:bare}라는 말이 자꾸 귀에 맴돌아서 새벽까지 뒤척였어 다들 푹 잤길 바라 굿모닝이야",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-100",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-200",
+  "scenario": "잡담",
+  "text": "어제 밤에 잠이 안 와서 거실에 나왔다가 우연히 들었는데 {WN1:bare}라는 말이 자꾸 귀에 맴돌아서 새벽까지 뒤척였어 다들 푹 잤길 바라 굿모닝이야",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-100",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-201",
+  "scenario": "이동·방문",
+  "text": "방학 때 사촌 동생을 데리고 동네 공원에 놀러 갔는데 {NW1:sub} 그네를 타더니 한참을 놀다가 해가 질 때쯤 집에 돌아왔고 엄마가 만들어 둔 간식을 먹었어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-101",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-202",
+  "scenario": "이동·방문",
+  "text": "방학 때 사촌 동생을 데리고 동네 공원에 놀러 갔는데 {WN1:sub} 그네 옆에 있더니 한참을 놀다가 해가 질 때쯤 집에 돌아왔고 엄마가 만들어 둔 간식을 먹었어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-101",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-203",
+  "scenario": "잡담",
+  "text": "할머니 말씀이 요즘 시장에서 많이 들린다고 하시던데 {NW1:bare}이 인기라더라 가격도 그렇게 비싸지 않다니까 다음에 같이 가서 한번 구경해 보자",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-102",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-204",
+  "scenario": "잡담",
+  "text": "할머니 말씀이 요즘 시장에서 많이 들린다고 하시던데 {WN1:bare}이 인기라더라 가격도 그렇게 비싸지 않다니까 다음에 같이 가서 한번 구경해 보자",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-102",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-205",
+  "scenario": "이동·방문",
+  "text": "엄마가 데리러 오기로 한 시간이 지났는데 아직 안 보여서 정문에서 {NW1:obj} 기다리다 춥기도 하고 심심해서 전화를 걸어 봤더니 근처라고 하셔서 조금만 더 기다렸어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-103",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-206",
+  "scenario": "이동·방문",
+  "text": "엄마가 데리러 오기로 한 시간이 지났는데 아직 안 보여서 정문에서 {WN1:obj} 기다리다 춥기도 하고 심심해서 전화를 걸어 봤더니 근처라고 하셔서 조금만 더 기다렸어",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-103",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-207",
+  "scenario": "잡담",
+  "text": "오늘 숙제 하다가 우연히 발견한 건데 책 귀퉁이에 {NW1:bare}이라는 낙서가 있었어 누가 썼는지 모르겠지만 되게 웃기더라 같이 보면 좋을 텐데 내일 가져갈게",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-104",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-208",
+  "scenario": "잡담",
+  "text": "오늘 숙제 하다가 우연히 발견한 건데 책 귀퉁이에 {WN1:bare}이라는 낙서가 있었어 누가 썼는지 모르겠지만 되게 웃기더라 같이 보면 좋을 텐데 내일 가져갈게",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-104",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-209",
+  "scenario": "이동·방문",
+  "text": "학교 끝나고 학원 가는 길에 버스를 놓쳐서 정류장에서 {NW1:com} 한참 걷다가 결국 택시를 탔는데 기사님이 친절하셔서 제시간에 도착할 수 있었어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-105",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-210",
+  "scenario": "이동·방문",
+  "text": "학교 끝나고 학원 가는 길에 버스를 놓쳐서 정류장에서 {WN1:obj} 한참 보다가 결국 택시를 탔는데 기사님이 친절하셔서 제시간에 도착할 수 있었어",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-105",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-211",
+  "scenario": "잡담",
+  "text": "이번 설날에 친척들이 다 모이면 사진을 찍을 건데 {NW1:sub} 가운데 서기로 했대 다들 옷은 단정하게 입고 오라고 하셨어 아침 일찍 모여야 해서 준비 잘하자",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-106",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-212",
+  "scenario": "잡담",
+  "text": "이번 설날에 친척들이 다 모이면 사진을 찍을 건데 {WN1:sub} 가운데 놓기로 했대 다들 옷은 단정하게 입고 오라고 하셨어 아침 일찍 모여야 해서 준비 잘하자",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-106",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-213",
+  "scenario": "이동·방문",
+  "text": "공항 가는 리무진 안에서 문득 생각이 났는데 {NW1:dat} 여권 챙겨 줬는지 확인하려고 가방을 뒤졌는데 다행히 다 있었어 휴 놀랐네 이제 안심하고 간다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-107",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-214",
+  "scenario": "이동·방문",
+  "text": "공항 가는 리무진 안에서 문득 생각이 났는데 {WN1:obj} 가방에 넣었는지 확인하려고 가방을 뒤졌는데 다행히 다 있었어 휴 놀랐네 이제 안심하고 간다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-107",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-215",
+  "scenario": "이동·방문",
+  "text": "비 오는 날 우산을 들고 버스 정류장까지 걸어가는 길에 마침 {NW1:dat} 전화가 와서 잠깐 처마 밑에 서 있었어 조금 늦을 것 같으니까 먼저 밥 먹고 있어도 돼",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-108",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-216",
+  "scenario": "이동·방문",
+  "text": "비 오는 날 우산을 들고 버스 정류장까지 걸어가는 길에 마침 {WN1:obj} 접어야 해서 잠깐 처마 밑에 서 있었어 조금 늦을 것 같으니까 먼저 밥 먹고 있어도 돼",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-108",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-217",
+  "scenario": "잡담",
+  "text": "어젯밤 늦게까지 가족 단톡을 보다가 피식 웃음이 났는데 {NW1:sub} 보낸 말투가 너무 웃겨서 혼자 캡처해 뒀어 나중에 모이면 다 같이 보면서 한바탕 웃자",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-109",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-218",
+  "scenario": "잡담",
+  "text": "어젯밤 늦게까지 가족 단톡을 보다가 피식 웃음이 났는데 {WN1:sub} 붙은 말투가 너무 웃겨서 혼자 캡처해 뒀어 나중에 모이면 다 같이 보면서 한바탕 웃자",
+  "tags": [
+   "hard"
+  ],
+  "pair_id": "pc-109",
+  "role": "noun"
+ },
+ {
+  "id": "r10pc-219",
+  "scenario": "이동·방문",
+  "text": "친구 집들이에 가려고 아파트 단지 입구에 서 있는데 {NW1:obj} 부르는 소리가 나서 뒤돌아봤더니 반가운 얼굴이 손을 흔들고 있었어 같이 올라가면 되겠다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-110",
+  "role": "person"
+ },
+ {
+  "id": "r10pc-220",
+  "scenario": "이동·방문",
+  "text": "친구 집들이에 가려고 아파트 단지 입구에 서 있는데 {WN1:obj} 건네는 소리가 나서 뒤돌아봤더니 반가운 얼굴이 손을 흔들고 있었어 같이 올라가면 되겠다",
+  "tags": [
+   "easy"
+  ],
+  "pair_id": "pc-110",
+  "role": "noun"
+ }
+]

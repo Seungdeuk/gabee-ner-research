@@ -1,0 +1,2387 @@
+{
+ "r6_1char_count": 22,
+ "r5_1char_count": 20,
+ "new_in_r6": [
+  "v12-0045",
+  "v12-0060",
+  "v12-0081",
+  "v12-0116",
+  "v12-0161"
+ ],
+ "fixed_from_r5": [
+  "v12-0029",
+  "v12-0061",
+  "v12-0110"
+ ],
+ "persisted": [
+  "v12-0016",
+  "v12-0036",
+  "v12-0040",
+  "v12-0048",
+  "v12-0056",
+  "v12-0076",
+  "v12-0080",
+  "v12-0096",
+  "v12-0100",
+  "v12-0136",
+  "v12-0140",
+  "v12-0156",
+  "v12-0160",
+  "v12-0176",
+  "v12-0180",
+  "v12-0196",
+  "v12-0200"
+ ],
+ "cases": [
+  {
+   "id": "v12-0016",
+   "word": "삽",
+   "category": "목적격",
+   "style": "중의성문맥",
+   "word_type": "단일형",
+   "text": "할머니가 삽을 아주 예뻐하셨대",
+   "gold": "삽",
+   "gold_span": [
+    5,
+    6
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     5,
+     6,
+     "삽",
+     0.9131
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 5,
+     "char_end": 6,
+     "tag": "B-PERSON",
+     "prob": 0.9131
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 5,
+     "char_end": 6,
+     "tag": "B-PERSON",
+     "prob": 0.8335
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "할머니",
+     "char_start": 0,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "##가",
+     "char_start": 3,
+     "char_end": 4,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "삽",
+     "char_start": 5,
+     "char_end": 6,
+     "tag": "B-PERSON",
+     "prob": 0.9131
+    },
+    {
+     "token": "##을",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.9877
+    },
+    {
+     "token": "아주",
+     "char_start": 8,
+     "char_end": 10,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "예뻐",
+     "char_start": 11,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##하",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##셨",
+     "char_start": 14,
+     "char_end": 15,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##대",
+     "char_start": 15,
+     "char_end": 16,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0036",
+   "word": "삽",
+   "category": "비교서술",
+   "style": "중의성문맥",
+   "word_type": "단일형",
+   "text": "삽이 모임에서 유난히 눈에 띄어",
+   "gold": "삽",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "삽",
+     0.9117
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9117
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8386
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9117
+    },
+    {
+     "token": "##이",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9878
+    },
+    {
+     "token": "모임",
+     "char_start": 3,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9877
+    },
+    {
+     "token": "##에",
+     "char_start": 5,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "##서",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "유난히",
+     "char_start": 8,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "눈",
+     "char_start": 12,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##에",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "띄",
+     "char_start": 15,
+     "char_end": 16,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##어",
+     "char_start": 16,
+     "char_end": 17,
+     "tag": "O",
+     "prob": 0.988
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0040",
+   "word": "키",
+   "category": "비교서술",
+   "style": "중의성문맥",
+   "word_type": "단일형",
+   "text": "키가 모임에서 유난히 눈에 띄어",
+   "gold": "키",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "키",
+     0.9096
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9096
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8254
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9096
+    },
+    {
+     "token": "##가",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9877
+    },
+    {
+     "token": "모임",
+     "char_start": 3,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9877
+    },
+    {
+     "token": "##에",
+     "char_start": 5,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "##서",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "유난히",
+     "char_start": 8,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "눈",
+     "char_start": 12,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "##에",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "띄",
+     "char_start": 15,
+     "char_end": 16,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##어",
+     "char_start": 16,
+     "char_end": 17,
+     "tag": "O",
+     "prob": 0.988
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0045",
+   "word": "책꽂이",
+   "category": "기본",
+   "style": "중의성문맥",
+   "word_type": "복합명사형",
+   "text": "책꽂이 안부가 궁금해졌어",
+   "gold": "책꽂이",
+   "gold_span": [
+    0,
+    3
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON_ALIAS",
+     1,
+     2,
+     "꽂",
+     0.5194
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "책",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "O",
+     "prob": 0.5628
+    },
+    {
+     "token": "##꽂",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON_ALIAS",
+     "prob": 0.5194
+    },
+    {
+     "token": "##이",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.9745
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "책",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.7705
+    },
+    {
+     "token": "##꽂",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON",
+     "prob": 0.7673
+    },
+    {
+     "token": "##이",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.9787
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "책",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "O",
+     "prob": 0.5628
+    },
+    {
+     "token": "##꽂",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON_ALIAS",
+     "prob": 0.5194
+    },
+    {
+     "token": "##이",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.9745
+    },
+    {
+     "token": "안부",
+     "char_start": 4,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.9844
+    },
+    {
+     "token": "##가",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.9876
+    },
+    {
+     "token": "궁금",
+     "char_start": 8,
+     "char_end": 10,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "##해졌",
+     "char_start": 10,
+     "char_end": 12,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "##어",
+     "char_start": 12,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.988
+    }
+   ],
+   "in_r5_too": false
+  },
+  {
+   "id": "v12-0048",
+   "word": "토방",
+   "category": "기본",
+   "style": "중의성문맥",
+   "word_type": "복합명사형",
+   "text": "토방 안부가 궁금해졌어",
+   "gold": "토방",
+   "gold_span": [
+    0,
+    2
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON_ALIAS",
+     0,
+     1,
+     "토",
+     0.5957
+    ],
+    [
+     "PERSON",
+     1,
+     2,
+     "방",
+     0.5473
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "토",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON_ALIAS",
+     "prob": 0.5957
+    },
+    {
+     "token": "##방",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON",
+     "prob": 0.5473
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "토",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.4045
+    },
+    {
+     "token": "##방",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON_ALIAS",
+     "prob": 0.5147
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "토",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON_ALIAS",
+     "prob": 0.5957
+    },
+    {
+     "token": "##방",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON",
+     "prob": 0.5473
+    },
+    {
+     "token": "안부",
+     "char_start": 3,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##가",
+     "char_start": 5,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "궁금",
+     "char_start": 7,
+     "char_end": 9,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##해졌",
+     "char_start": 9,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##어",
+     "char_start": 11,
+     "char_end": 12,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0056",
+   "word": "삽",
+   "category": "기본",
+   "style": "중의성문맥",
+   "word_type": "단일형",
+   "text": "삽 안부가 궁금해졌어",
+   "gold": "삽",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "삽",
+     0.9154
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9154
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.5619
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9154
+    },
+    {
+     "token": "안부",
+     "char_start": 2,
+     "char_end": 4,
+     "tag": "O",
+     "prob": 0.9776
+    },
+    {
+     "token": "##가",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9878
+    },
+    {
+     "token": "궁금",
+     "char_start": 6,
+     "char_end": 8,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##해졌",
+     "char_start": 8,
+     "char_end": 10,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "##어",
+     "char_start": 10,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0060",
+   "word": "키",
+   "category": "기본",
+   "style": "중의성문맥",
+   "word_type": "단일형",
+   "text": "키 안부가 궁금해졌어",
+   "gold": "키",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "키",
+     0.8899
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8899
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.7626
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8899
+    },
+    {
+     "token": "안부",
+     "char_start": 2,
+     "char_end": 4,
+     "tag": "O",
+     "prob": 0.9746
+    },
+    {
+     "token": "##가",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9877
+    },
+    {
+     "token": "궁금",
+     "char_start": 6,
+     "char_end": 8,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##해졌",
+     "char_start": 8,
+     "char_end": 10,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "##어",
+     "char_start": 10,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": false
+  },
+  {
+   "id": "v12-0076",
+   "word": "삽",
+   "category": "여격",
+   "style": "중의성문맥",
+   "word_type": "단일형",
+   "text": "삽한테 잘 지내는지 물어봤어",
+   "gold": "삽",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "삽",
+     0.9123
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9123
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8398
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9123
+    },
+    {
+     "token": "##한",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9867
+    },
+    {
+     "token": "##테",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.9878
+    },
+    {
+     "token": "잘",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "지내",
+     "char_start": 6,
+     "char_end": 8,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##는지",
+     "char_start": 8,
+     "char_end": 10,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "물어",
+     "char_start": 11,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##봤",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##어",
+     "char_start": 14,
+     "char_end": 15,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0080",
+   "word": "키",
+   "category": "여격",
+   "style": "중의성문맥",
+   "word_type": "단일형",
+   "text": "키한테 잘 지내는지 물어봤어",
+   "gold": "키",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "키",
+     0.9105
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9105
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8329
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9105
+    },
+    {
+     "token": "##한",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9866
+    },
+    {
+     "token": "##테",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.9878
+    },
+    {
+     "token": "잘",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "지내",
+     "char_start": 6,
+     "char_end": 8,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##는지",
+     "char_start": 8,
+     "char_end": 10,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "물어",
+     "char_start": 11,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##봤",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##어",
+     "char_start": 14,
+     "char_end": 15,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0081",
+   "word": "부뚜막",
+   "category": "호격",
+   "style": "중의성문맥",
+   "word_type": "복합명사형",
+   "text": "부뚜막아, 조심히 가",
+   "gold": "부뚜막",
+   "gold_span": [
+    0,
+    3
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "부",
+     0.7617
+    ],
+    [
+     "PERSON_ALIAS",
+     1,
+     2,
+     "뚜",
+     0.4915
+    ],
+    [
+     "PERSON",
+     2,
+     3,
+     "막",
+     0.7866
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "부",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.7617
+    },
+    {
+     "token": "##뚜",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON_ALIAS",
+     "prob": 0.4915
+    },
+    {
+     "token": "##막",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "I-PERSON",
+     "prob": 0.7866
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "부",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.401
+    },
+    {
+     "token": "##뚜",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON",
+     "prob": 0.4773
+    },
+    {
+     "token": "##막",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "I-PERSON",
+     "prob": 0.4445
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "부",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.7617
+    },
+    {
+     "token": "##뚜",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON_ALIAS",
+     "prob": 0.4915
+    },
+    {
+     "token": "##막",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "I-PERSON",
+     "prob": 0.7866
+    },
+    {
+     "token": "##아",
+     "char_start": 3,
+     "char_end": 4,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": ",",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "조심",
+     "char_start": 6,
+     "char_end": 8,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##히",
+     "char_start": 8,
+     "char_end": 9,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "가",
+     "char_start": 10,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": false
+  },
+  {
+   "id": "v12-0096",
+   "word": "삽",
+   "category": "호격",
+   "style": "중의성문맥",
+   "word_type": "단일형",
+   "text": "삽아, 조심히 가",
+   "gold": "삽",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "삽",
+     0.9112
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9112
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8349
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9112
+    },
+    {
+     "token": "##아",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9875
+    },
+    {
+     "token": ",",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "조심",
+     "char_start": 4,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.9877
+    },
+    {
+     "token": "##히",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "가",
+     "char_start": 8,
+     "char_end": 9,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0100",
+   "word": "키",
+   "category": "호격",
+   "style": "중의성문맥",
+   "word_type": "단일형",
+   "text": "키야, 조심히 가",
+   "gold": "키",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "키",
+     0.8936
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8936
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8082
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8936
+    },
+    {
+     "token": "##야",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9875
+    },
+    {
+     "token": ",",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "조심",
+     "char_start": 4,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.9878
+    },
+    {
+     "token": "##히",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "가",
+     "char_start": 8,
+     "char_end": 9,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0116",
+   "word": "삽",
+   "category": "목적격",
+   "style": "가족채팅체",
+   "word_type": "단일형",
+   "text": "아빠가 삽을 챙겨서 나갔어",
+   "gold": "삽",
+   "gold_span": [
+    4,
+    5
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     4,
+     5,
+     "삽",
+     0.885
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "B-PERSON",
+     "prob": 0.885
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9777
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "아빠",
+     "char_start": 0,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9878
+    },
+    {
+     "token": "##가",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "삽",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "B-PERSON",
+     "prob": 0.885
+    },
+    {
+     "token": "##을",
+     "char_start": 5,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.9877
+    },
+    {
+     "token": "챙겨",
+     "char_start": 7,
+     "char_end": 9,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##서",
+     "char_start": 9,
+     "char_end": 10,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "나갔",
+     "char_start": 11,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##어",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": false
+  },
+  {
+   "id": "v12-0136",
+   "word": "삽",
+   "category": "비교서술",
+   "style": "가족채팅체",
+   "word_type": "단일형",
+   "text": "삽이 요즘 제일 바빠 보여",
+   "gold": "삽",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "삽",
+     0.9124
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9124
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8158
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9124
+    },
+    {
+     "token": "##이",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.987
+    },
+    {
+     "token": "요즘",
+     "char_start": 3,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9876
+    },
+    {
+     "token": "제일",
+     "char_start": 6,
+     "char_end": 8,
+     "tag": "O",
+     "prob": 0.9877
+    },
+    {
+     "token": "바빠",
+     "char_start": 9,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.9878
+    },
+    {
+     "token": "보여",
+     "char_start": 12,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.988
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0140",
+   "word": "키",
+   "category": "비교서술",
+   "style": "가족채팅체",
+   "word_type": "단일형",
+   "text": "키가 요즘 제일 바빠 보여",
+   "gold": "키",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "키",
+     0.8571
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8571
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8029
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8571
+    },
+    {
+     "token": "##가",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9876
+    },
+    {
+     "token": "요즘",
+     "char_start": 3,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9876
+    },
+    {
+     "token": "제일",
+     "char_start": 6,
+     "char_end": 8,
+     "tag": "O",
+     "prob": 0.9876
+    },
+    {
+     "token": "바빠",
+     "char_start": 9,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.9877
+    },
+    {
+     "token": "보여",
+     "char_start": 12,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.988
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0156",
+   "word": "삽",
+   "category": "기본",
+   "style": "가족채팅체",
+   "word_type": "단일형",
+   "text": "삽이 요즘 통 소식이 없네",
+   "gold": "삽",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "삽",
+     0.9136
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9136
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8379
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9136
+    },
+    {
+     "token": "##이",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "요즘",
+     "char_start": 3,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "통",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "소식",
+     "char_start": 8,
+     "char_end": 10,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##이",
+     "char_start": 10,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "없",
+     "char_start": 12,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##네",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0160",
+   "word": "키",
+   "category": "기본",
+   "style": "가족채팅체",
+   "word_type": "단일형",
+   "text": "키가 요즘 통 소식이 없네",
+   "gold": "키",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "키",
+     0.6978
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.6978
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.7954
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.6978
+    },
+    {
+     "token": "##가",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "요즘",
+     "char_start": 3,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "통",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.9872
+    },
+    {
+     "token": "소식",
+     "char_start": 8,
+     "char_end": 10,
+     "tag": "O",
+     "prob": 0.9878
+    },
+    {
+     "token": "##이",
+     "char_start": 10,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "없",
+     "char_start": 12,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##네",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.988
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0161",
+   "word": "부뚜막",
+   "category": "여격",
+   "style": "가족채팅체",
+   "word_type": "복합명사형",
+   "text": "부뚜막한테 도착했는지 물어봤어",
+   "gold": "부뚜막",
+   "gold_span": [
+    0,
+    3
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "부",
+     0.5026
+    ],
+    [
+     "PERSON_ALIAS",
+     1,
+     2,
+     "뚜",
+     0.7217
+    ],
+    [
+     "PERSON",
+     2,
+     3,
+     "막",
+     0.497
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "부",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.5026
+    },
+    {
+     "token": "##뚜",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON_ALIAS",
+     "prob": 0.7217
+    },
+    {
+     "token": "##막",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "I-PERSON",
+     "prob": 0.497
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "부",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.7325
+    },
+    {
+     "token": "##뚜",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON",
+     "prob": 0.7431
+    },
+    {
+     "token": "##막",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "I-PERSON",
+     "prob": 0.7413
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "부",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.5026
+    },
+    {
+     "token": "##뚜",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "I-PERSON_ALIAS",
+     "prob": 0.7217
+    },
+    {
+     "token": "##막",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "I-PERSON",
+     "prob": 0.497
+    },
+    {
+     "token": "##한",
+     "char_start": 3,
+     "char_end": 4,
+     "tag": "O",
+     "prob": 0.9878
+    },
+    {
+     "token": "##테",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "도착",
+     "char_start": 6,
+     "char_end": 8,
+     "tag": "O",
+     "prob": 0.9882
+    },
+    {
+     "token": "##했",
+     "char_start": 8,
+     "char_end": 9,
+     "tag": "O",
+     "prob": 0.9882
+    },
+    {
+     "token": "##는지",
+     "char_start": 9,
+     "char_end": 11,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "물어",
+     "char_start": 12,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##봤",
+     "char_start": 14,
+     "char_end": 15,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##어",
+     "char_start": 15,
+     "char_end": 16,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": false
+  },
+  {
+   "id": "v12-0176",
+   "word": "삽",
+   "category": "여격",
+   "style": "가족채팅체",
+   "word_type": "단일형",
+   "text": "삽한테 도착했는지 물어봤어",
+   "gold": "삽",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "삽",
+     0.9122
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9122
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8399
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9122
+    },
+    {
+     "token": "##한",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9871
+    },
+    {
+     "token": "##테",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "도착",
+     "char_start": 4,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##했",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##는지",
+     "char_start": 7,
+     "char_end": 9,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "물어",
+     "char_start": 10,
+     "char_end": 12,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##봤",
+     "char_start": 12,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##어",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0180",
+   "word": "키",
+   "category": "여격",
+   "style": "가족채팅체",
+   "word_type": "단일형",
+   "text": "키한테 도착했는지 물어봤어",
+   "gold": "키",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "키",
+     0.9109
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9109
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8332
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9109
+    },
+    {
+     "token": "##한",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9869
+    },
+    {
+     "token": "##테",
+     "char_start": 2,
+     "char_end": 3,
+     "tag": "O",
+     "prob": 0.9879
+    },
+    {
+     "token": "도착",
+     "char_start": 4,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##했",
+     "char_start": 6,
+     "char_end": 7,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##는지",
+     "char_start": 7,
+     "char_end": 9,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "물어",
+     "char_start": 10,
+     "char_end": 12,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##봤",
+     "char_start": 12,
+     "char_end": 13,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##어",
+     "char_start": 13,
+     "char_end": 14,
+     "tag": "O",
+     "prob": 0.9881
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0196",
+   "word": "삽",
+   "category": "호격",
+   "style": "가족채팅체",
+   "word_type": "단일형",
+   "text": "삽아 왔어?",
+   "gold": "삽",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "삽",
+     0.9057
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9057
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8201
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "삽",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.9057
+    },
+    {
+     "token": "##아",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.5196
+    },
+    {
+     "token": "왔",
+     "char_start": 3,
+     "char_end": 4,
+     "tag": "O",
+     "prob": 0.988
+    },
+    {
+     "token": "##어",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "?",
+     "char_start": 5,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.988
+    }
+   ],
+   "in_r5_too": true
+  },
+  {
+   "id": "v12-0200",
+   "word": "키",
+   "category": "호격",
+   "style": "가족채팅체",
+   "word_type": "단일형",
+   "text": "키야 왔어?",
+   "gold": "키",
+   "gold_span": [
+    0,
+    1
+   ],
+   "exact": false,
+   "full_exposure": true,
+   "cause": "1자 길이필터 탈락",
+   "raw_spans": [
+    [
+     "PERSON",
+     0,
+     1,
+     "키",
+     0.8715
+    ]
+   ],
+   "final_person_spans": [],
+   "r6_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8715
+    }
+   ],
+   "r5_tokens_overlapping_gold": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.7993
+    }
+   ],
+   "r6_all_tokens": [
+    {
+     "token": "키",
+     "char_start": 0,
+     "char_end": 1,
+     "tag": "B-PERSON",
+     "prob": 0.8715
+    },
+    {
+     "token": "##야",
+     "char_start": 1,
+     "char_end": 2,
+     "tag": "O",
+     "prob": 0.9868
+    },
+    {
+     "token": "왔",
+     "char_start": 3,
+     "char_end": 4,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "##어",
+     "char_start": 4,
+     "char_end": 5,
+     "tag": "O",
+     "prob": 0.9881
+    },
+    {
+     "token": "?",
+     "char_start": 5,
+     "char_end": 6,
+     "tag": "O",
+     "prob": 0.988
+    }
+   ],
+   "in_r5_too": true
+  }
+ ]
+}

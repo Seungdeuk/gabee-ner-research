@@ -1,0 +1,36 @@
+{
+ "seed": 20261121,
+ "policy": "r9-1.1",
+ "sealed_access": "없음(R9 봉인 평가셋·new180 을 읽지 않음)",
+ "frames": {
+  "count": 1489,
+  "problems": {
+   "bare_to_lit": 31,
+   "length": 1
+  },
+  "by_file": {
+   "b1": 260,
+   "c2": 200,
+   "msg_new": 259,
+   "neg_guard": 110,
+   "pairs_a": 220,
+   "pairs_b": 220,
+   "pairs_c": 220
+  }
+ },
+ "rows": {
+  "r10_D_train": 800,
+  "r10_B_train": 420,
+  "r10_C_train": 320,
+  "r10_N_train": 400,
+  "r10_G_train": 160,
+  "r10_full_train": 2100,
+  "r10_val_extra": 379
+ },
+ "problems": 0,
+ "problem_examples": [],
+ "rejected_by_reason(counts only)": {
+  "spec_example_string": 13
+ },
+ "reserved_rule": "이름 해시 mod 5 == 0 은 R10 개발셋 전용(학습 제외)"
+}

@@ -1,0 +1,59 @@
+{
+ "mode": "v5-koelectra-small-klue10msg-s7",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "c09df531418f"
+ },
+ "ner_only": false,
+ "categories": {
+  "nickname_val_check": {
+   "spans": 12,
+   "full": 7,
+   "partial": 0,
+   "none": 5,
+   "extra": 0,
+   "sentences": 12,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "람이 데리러 누가 갈까",
+     "람이"
+    ],
+    [
+     "none",
+     "율이 데리러 누가 갈까",
+     "율이"
+    ],
+    [
+     "none",
+     "민이 데리러 누가 갈까",
+     "민이"
+    ],
+    [
+     "none",
+     "현이 데리러 누가 갈까",
+     "현이"
+    ],
+    [
+     "none",
+     "완이 데리러 누가 갈까",
+     "완이"
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 12,
+  "full": 7,
+  "partial": 0,
+  "none": 5,
+  "extra": 0
+ },
+ "latency_100chars": {
+  "median_ms": 0.187,
+  "p95_ms": 8.976,
+  "n": 100
+ }
+}

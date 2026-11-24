@@ -1,0 +1,64 @@
+{
+ "mode": "r2pilot-koelectra-small-klue10msg-s7",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "1a799f7c1417"
+ },
+ "ner_only": false,
+ "categories": {
+  "nickname_train_check": {
+   "spans": 36,
+   "full": 25,
+   "partial": 0,
+   "none": 11,
+   "extra": 0,
+   "sentences": 36,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "완이가 오늘 유치원에서 상 받았대",
+     "완이"
+    ],
+    [
+     "none",
+     "율이 사진 좀 보내줘",
+     "율이"
+    ],
+    [
+     "none",
+     "완이가 밥 잘 먹었는지 물어봐줄래",
+     "완이"
+    ],
+    [
+     "none",
+     "할머니가 람이 많이 보고싶어하셨어",
+     "람이"
+    ],
+    [
+     "none",
+     "할머니가 율이 많이 보고싶어하셨어",
+     "율이"
+    ],
+    [
+     "none",
+     "할머니가 민이 많이 보고싶어하셨어",
+     "민이"
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 36,
+  "full": 25,
+  "partial": 0,
+  "none": 11,
+  "extra": 0
+ },
+ "latency_100chars": {
+  "median_ms": 0.095,
+  "p95_ms": 15.272,
+  "n": 100
+ }
+}

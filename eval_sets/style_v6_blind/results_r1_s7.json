@@ -1,0 +1,189 @@
+{
+ "mode": "r1pilot-koelectra-small-klue10msg-s7",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "c536eadeb5a1"
+ },
+ "ner_only": false,
+ "categories": {
+  "일반_메신저": {
+   "spans": 160,
+   "full": 160,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 160,
+   "flagged": 0,
+   "miss_examples": []
+  },
+  "낯선_이름": {
+   "spans": 60,
+   "full": 59,
+   "partial": 0,
+   "none": 1,
+   "extra": 0,
+   "sentences": 60,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "단우리 오늘 저녁엔 뭐 먹고 싶대?",
+     "단우리"
+    ]
+   ]
+  },
+  "애칭_줄임말": {
+   "spans": 60,
+   "full": 49,
+   "partial": 0,
+   "none": 11,
+   "extra": 0,
+   "sentences": 60,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "강이 오늘 유치원에서 노래 배웠대",
+     "강이"
+    ],
+    [
+     "none",
+     "강이 요즘 부쩍 말이 늘었어",
+     "강이"
+    ],
+    [
+     "none",
+     "할머니가 강이 보고싶다고 전화하셨어",
+     "강이"
+    ],
+    [
+     "none",
+     "강이 데리러 몇시에 갈까",
+     "강이"
+    ],
+    [
+     "none",
+     "할머니가 담이 보고싶다고 전화하셨어",
+     "담이"
+    ],
+    [
+     "none",
+     "찬이 오늘 유치원에서 노래 배웠대",
+     "찬이"
+    ]
+   ]
+  },
+  "ORGLOC_표면형": {
+   "spans": 40,
+   "full": 9,
+   "partial": 3,
+   "none": 28,
+   "extra": 0,
+   "sentences": 40,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "할인소 오늘 늦게 끝난대",
+     "할인소"
+    ],
+    [
+     "none",
+     "할인소가 숙제 검사받았대",
+     "할인소"
+    ],
+    [
+     "none",
+     "할인소 사진 좀 보내줘",
+     "할인소"
+    ],
+    [
+     "none",
+     "삼촌이 할인소 데리러 간대",
+     "할인소"
+    ],
+    [
+     "none",
+     "할인소가 오늘 상 받았대",
+     "할인소"
+    ],
+    [
+     "none",
+     "예약관 오늘 늦게 끝난대",
+     "예약관"
+    ]
+   ]
+  },
+  "ORGLOC_문맥형": {
+   "spans": 48,
+   "full": 48,
+   "partial": 0,
+   "none": 0,
+   "extra": 4,
+   "sentences": 48,
+   "flagged": 0,
+   "miss_examples": []
+  },
+  "조사_경계건강검진": {
+   "spans": 72,
+   "full": 71,
+   "partial": 1,
+   "none": 0,
+   "extra": 0,
+   "sentences": 64,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "민서온네 옆집으로 이사왔대",
+     "민서온"
+    ]
+   ]
+  },
+  "비인명": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 30,
+   "flagged": 3,
+   "miss_examples": [
+    [
+     "과마스킹",
+     "바다 보러 주말에 갈까 생각 중이야",
+     [
+      "바다"
+     ]
+    ],
+    [
+     "과마스킹",
+     "노을 지는 거 사진 찍었어",
+     [
+      "노을"
+     ]
+    ],
+    [
+     "과마스킹",
+     "달빛이 너무 밝아서 산책 나갔어",
+     [
+      "달빛"
+     ]
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 440,
+  "full": 396,
+  "partial": 4,
+  "none": 40,
+  "extra": 4
+ },
+ "latency_100chars": {
+  "median_ms": 8.596,
+  "p95_ms": 10.829,
+  "n": 100
+ }
+}

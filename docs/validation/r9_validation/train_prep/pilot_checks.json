@@ -1,0 +1,12 @@
+{
+ "checkpoint_reload_identical_predictions": true,
+ "checkpoint_sentences": 180,
+ "onnx_vs_torch_token_agreement_pct": 100.0,
+ "onnx_vs_torch_identical_sentences": "180/180",
+ "batch64_one_step": {
+  "ok": true,
+  "peak_vram_mb": 1241,
+  "step_s": 0.363
+ },
+ "gpu_total_mb": 6144
+}

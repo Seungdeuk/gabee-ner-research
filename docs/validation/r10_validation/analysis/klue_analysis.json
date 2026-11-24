@@ -1,0 +1,406 @@
+{
+ "dist": [
+  {
+   "name": "C10 추가분(5시드 합, 중복 포함)",
+   "rows": 10500,
+   "mean_chars": 25.5,
+   "person_spans": 6584,
+   "person_per_row": 0.627,
+   "person_len_share(1,2,3,4,5+)": {
+    "2": 0.416,
+    "3": 0.501,
+    "4": 0.082
+   },
+   "person_followed_by": {
+    "particle": 0.736,
+    "end/punct/space": 0.219,
+    "other": 0.045
+   },
+   "rows_with_person": 0.529,
+   "rows_with_ORG_LOC": 0.316,
+   "rows_no_entity": 0.245,
+   "rows_person_lookalike_noun": 0.0
+  },
+  {
+   "name": "R10 신규 추가분",
+   "rows": 2100,
+   "mean_chars": 27.5,
+   "person_spans": 2078,
+   "person_per_row": 0.99,
+   "person_len_share(1,2,3,4,5+)": {
+    "2": 0.399,
+    "3": 0.496,
+    "4": 0.104
+   },
+   "person_followed_by": {
+    "particle": 0.533,
+    "end/punct/space": 0.381,
+    "other": 0.087
+   },
+   "rows_with_person": 0.743,
+   "rows_with_ORG_LOC": 0.027,
+   "rows_no_entity": 0.236,
+   "rows_person_lookalike_noun": 0.19
+  },
+  {
+   "name": "KLUE 학습(앞 469행 근사)",
+   "rows": 469,
+   "mean_chars": 55.4,
+   "person_spans": 338,
+   "person_per_row": 0.721,
+   "person_len_share(1,2,3,4,5+)": {
+    "1": 0.21,
+    "2": 0.151,
+    "3": 0.45,
+    "4": 0.068,
+    "5": 0.121
+   },
+   "person_followed_by": {
+    "particle": 0.308,
+    "end/punct/space": 0.497,
+    "other": 0.195
+   },
+   "rows_with_person": 0.48,
+   "rows_with_ORG_LOC": 0.414,
+   "rows_no_entity": 0.247,
+   "rows_person_lookalike_noun": 0.0
+  },
+  {
+   "name": "KLUE 검증 5000행",
+   "rows": 5000,
+   "mean_chars": 57.2,
+   "person_spans": 4418,
+   "person_per_row": 0.884,
+   "person_len_share(1,2,3,4,5+)": {
+    "1": 0.132,
+    "2": 0.149,
+    "3": 0.478,
+    "4": 0.071,
+    "5": 0.17
+   },
+   "person_followed_by": {
+    "other": 0.156,
+    "end/punct/space": 0.47,
+    "particle": 0.375
+   },
+   "rows_with_person": 0.565,
+   "rows_with_ORG_LOC": 0.405,
+   "rows_no_entity": 0.212,
+   "rows_person_lookalike_noun": 0.0
+  }
+ ],
+ "errors": {
+  "R9F": {
+   "tp": {
+    "mean": 2943.6,
+    "sd": 92.7245
+   },
+   "fn": {
+    "mean": 1474.4,
+    "sd": 92.7245
+   },
+   "fn_boundary": {
+    "mean": 569.6,
+    "sd": 53.1436
+   },
+   "fn_miss": {
+    "mean": 904.8,
+    "sd": 77.8342
+   },
+   "fp": {
+    "mean": 1106.2,
+    "sd": 172.0388
+   },
+   "fp_in_no_gold_rows": {
+    "mean": 256.4,
+    "sd": 55.3953
+   },
+   "fp_boundary": {
+    "mean": 766.2,
+    "sd": 127.0974
+   },
+   "fp_ORG_LOC_confusion": {
+    "mean": 185.2,
+    "sd": 40.7696
+   },
+   "fp_pure": {
+    "mean": 411.2,
+    "sd": 75.9747
+   },
+   "f1": {
+    "mean": 0.6954,
+    "sd": 0.0198
+   },
+   "precision": {
+    "mean": 0.728,
+    "sd": 0.0313
+   },
+   "recall": {
+    "mean": 0.6663,
+    "sd": 0.021
+   },
+   "neg_fpr": {
+    "mean": 0.0982,
+    "sd": 0.0178
+   },
+   "fn_by_len_mean": {
+    "1": 585.0,
+    "2": 139.4,
+    "3": 253.2,
+    "4": 109.2,
+    "5": 387.6
+   },
+   "gold_by_len": {
+    "1": 585,
+    "2": 660,
+    "3": 2112,
+    "4": 312,
+    "5": 749
+   },
+   "fn_followed_mean": {
+    "end/punct/space": 648.4,
+    "other": 425.6,
+    "particle": 400.4
+   }
+  },
+  "C10": {
+   "tp": {
+    "mean": 2933.6,
+    "sd": 57.9089
+   },
+   "fn": {
+    "mean": 1484.4,
+    "sd": 57.9089
+   },
+   "fn_boundary": {
+    "mean": 491.6,
+    "sd": 44.6838
+   },
+   "fn_miss": {
+    "mean": 992.8,
+    "sd": 68.2624
+   },
+   "fp": {
+    "mean": 871.2,
+    "sd": 95.7944
+   },
+   "fp_in_no_gold_rows": {
+    "mean": 204.4,
+    "sd": 38.401
+   },
+   "fp_boundary": {
+    "mean": 601.4,
+    "sd": 41.898
+   },
+   "fp_ORG_LOC_confusion": {
+    "mean": 148.4,
+    "sd": 32.9764
+   },
+   "fp_pure": {
+    "mean": 325.8,
+    "sd": 64.9474
+   },
+   "f1": {
+    "mean": 0.7136,
+    "sd": 0.0113
+   },
+   "precision": {
+    "mean": 0.7715,
+    "sd": 0.0197
+   },
+   "recall": {
+    "mean": 0.664,
+    "sd": 0.0131
+   },
+   "neg_fpr": {
+    "mean": 0.0803,
+    "sd": 0.0152
+   },
+   "fn_by_len_mean": {
+    "1": 585.0,
+    "2": 160.4,
+    "3": 302.6,
+    "4": 116.4,
+    "5": 320.0
+   },
+   "gold_by_len": {
+    "1": 585,
+    "2": 660,
+    "3": 2112,
+    "4": 312,
+    "5": 749
+   },
+   "fn_followed_mean": {
+    "end/punct/space": 659.6,
+    "other": 432.6,
+    "particle": 392.2
+   }
+  },
+  "R10full": {
+   "tp": {
+    "mean": 2801.6,
+    "sd": 158.5567
+   },
+   "fn": {
+    "mean": 1616.4,
+    "sd": 158.5567
+   },
+   "fn_boundary": {
+    "mean": 549.2,
+    "sd": 54.3485
+   },
+   "fn_miss": {
+    "mean": 1067.2,
+    "sd": 142.7129
+   },
+   "fp": {
+    "mean": 983.2,
+    "sd": 142.1273
+   },
+   "fp_in_no_gold_rows": {
+    "mean": 191.4,
+    "sd": 54.2756
+   },
+   "fp_boundary": {
+    "mean": 724.2,
+    "sd": 89.4727
+   },
+   "fp_ORG_LOC_confusion": {
+    "mean": 123.2,
+    "sd": 27.4911
+   },
+   "fp_pure": {
+    "mean": 327.2,
+    "sd": 103.0871
+   },
+   "f1": {
+    "mean": 0.6827,
+    "sd": 0.0261
+   },
+   "precision": {
+    "mean": 0.7409,
+    "sd": 0.0273
+   },
+   "recall": {
+    "mean": 0.6341,
+    "sd": 0.0359
+   },
+   "neg_fpr": {
+    "mean": 0.0758,
+    "sd": 0.0189
+   },
+   "fn_by_len_mean": {
+    "1": 585.0,
+    "2": 170.2,
+    "3": 317.0,
+    "4": 131.6,
+    "5": 412.6
+   },
+   "gold_by_len": {
+    "1": 585,
+    "2": 660,
+    "3": 2112,
+    "4": 312,
+    "5": 749
+   },
+   "fn_followed_mean": {
+    "end/punct/space": 719.8,
+    "other": 426.8,
+    "particle": 469.8
+   }
+  },
+  "S0": {
+   "tp": {
+    "mean": 3043.0,
+    "sd": 0.0
+   },
+   "fn": {
+    "mean": 1375.0,
+    "sd": 0.0
+   },
+   "fn_boundary": {
+    "mean": 474.0,
+    "sd": 0.0
+   },
+   "fn_miss": {
+    "mean": 901.0,
+    "sd": 0.0
+   },
+   "fp": {
+    "mean": 750.0,
+    "sd": 0.0
+   },
+   "fp_in_no_gold_rows": {
+    "mean": 185.0,
+    "sd": 0.0
+   },
+   "fp_boundary": {
+    "mean": 502.0,
+    "sd": 0.0
+   },
+   "fp_ORG_LOC_confusion": {
+    "mean": 129.0,
+    "sd": 0.0
+   },
+   "fp_pure": {
+    "mean": 304.0,
+    "sd": 0.0
+   },
+   "f1": {
+    "mean": 0.7412,
+    "sd": 0.0
+   },
+   "precision": {
+    "mean": 0.8023,
+    "sd": 0.0
+   },
+   "recall": {
+    "mean": 0.6888,
+    "sd": 0.0
+   },
+   "neg_fpr": {
+    "mean": 0.0726,
+    "sd": 0.0
+   },
+   "fn_by_len_mean": {
+    "1": 585.0,
+    "2": 183.0,
+    "3": 292.0,
+    "4": 100.0,
+    "5": 215.0
+   },
+   "gold_by_len": {
+    "1": 585,
+    "2": 660,
+    "3": 2112,
+    "4": 312,
+    "5": 749
+   },
+   "fn_followed_mean": {
+    "end/punct/space": 627.0,
+    "other": 440.0,
+    "particle": 308.0
+   }
+  }
+ },
+ "flip": {
+  "n_gold": 4418,
+  "lost": {
+   "C10>=0.8 & R10<=0.2": 44
+  },
+  "gained": {
+   "R10>=0.8 & C10<=0.2": 15
+  },
+  "lost_len": {
+   "2": 6,
+   "3": 10,
+   "4": 1,
+   "5": 27
+  },
+  "lost_followed": {
+   "end/punct/space": 14,
+   "particle": 24,
+   "other": 6
+  }
+ }
+}

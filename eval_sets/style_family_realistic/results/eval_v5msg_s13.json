@@ -1,0 +1,96 @@
+{
+ "mode": "v5-koelectra-small-klue10msg-s13",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "d7cdb2f0a4cc"
+ },
+ "ner_only": false,
+ "categories": {
+  "메신저": {
+   "spans": 260,
+   "full": 241,
+   "partial": 11,
+   "none": 8,
+   "extra": 10,
+   "sentences": 200,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "partial",
+     "서명소가 오늘 학원 안 간다고 쌤이 문자왔어",
+     "서명소"
+    ],
+    [
+     "partial",
+     "곽용이 열나서 조퇴시켰어요 ㅠㅠ 데리러 가주실 분",
+     "곽용이"
+    ],
+    [
+     "none",
+     "오늘 저녁엔 우송소 좋아하는 거 해줄까",
+     "우송소"
+    ],
+    [
+     "none",
+     "오늘 저녁엔 성경안 좋아하는 거 해줄까",
+     "성경안"
+    ],
+    [
+     "partial",
+     "오늘 저녁엔 남근이 좋아하는 거 해줄까",
+     "남근이"
+    ],
+    [
+     "partial",
+     "주말에 오용이 축구 경기 있어서 다같이 응원가자",
+     "오용이"
+    ]
+   ]
+  },
+  "비인명": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 22,
+   "flagged": 3,
+   "miss_examples": [
+    [
+     "과마스킹",
+     "오늘 하늘 완전 예쁘더라 ㅋㅋ",
+     [
+      "하늘"
+     ]
+    ],
+    [
+     "과마스킹",
+     "장보고 올게 뭐 필요한거 있어?",
+     [
+      "장보고"
+     ]
+    ],
+    [
+     "과마스킹",
+     "초원이 나오는 그 노래 또 나왔어",
+     [
+      "초원"
+     ]
+    ]
+   ]
+  }
+ },
+ "person_total": {
+  "spans": 260,
+  "full": 241,
+  "partial": 11,
+  "none": 8,
+  "extra": 10
+ },
+ "latency_100chars": {
+  "median_ms": 11.027,
+  "p95_ms": 16.509,
+  "n": 100
+ }
+}

@@ -1,0 +1,363 @@
+{
+ "seed": 20261121,
+ "policy": "r9-1.1",
+ "frames": {
+  "count": 1219,
+  "problems": {
+   "dup_text": 1
+  },
+  "by_file": {
+   "err_A": 200,
+   "err_B": 199,
+   "err_D": 230,
+   "mixed": 170,
+   "msg_neg": 160,
+   "msg_person": 260
+  }
+ },
+ "files": {
+  "r9_msg_train": {
+   "rows": 1876,
+   "labels": {
+    "PERSON": 1947,
+    "LOCATION": 129,
+    "PERSON_ALIAS": 138,
+    "ORGANIZATION": 108,
+    "ADDRESS": 68
+   },
+   "negative_rows(no NER span)": 329,
+   "rows_with_person_family": 1457,
+   "multi_entity_rows": 712,
+   "rule_span_rows": 131,
+   "person_len_dist": {
+    "2": 894,
+    "3": 1013,
+    "4": 178
+   },
+   "distinct_person_values": 1990,
+   "max_person_value_reuse": 28,
+   "distinct_skeletons": 1637,
+   "top_skeleton_share_pct": 0.32,
+   "distinct_frames": 365,
+   "kin_adjacent_rows": 147,
+   "rows_with_kin_term_no_person": 156
+  },
+  "r9_errA_train": {
+   "rows": 782,
+   "labels": {
+    "PERSON": 643,
+    "LOCATION": 77,
+    "ORGANIZATION": 139
+   },
+   "negative_rows(no NER span)": 0,
+   "rows_with_person_family": 643,
+   "multi_entity_rows": 73,
+   "rule_span_rows": 0,
+   "person_len_dist": {
+    "2": 434,
+    "3": 194,
+    "4": 15
+   },
+   "distinct_person_values": 596,
+   "max_person_value_reuse": 16,
+   "distinct_skeletons": 603,
+   "top_skeleton_share_pct": 0.64,
+   "distinct_frames": 169,
+   "kin_adjacent_rows": 0,
+   "rows_with_kin_term_no_person": 0
+  },
+  "r9_errB_train": {
+   "rows": 782,
+   "labels": {
+    "PERSON": 910,
+    "PERSON_ALIAS": 36
+   },
+   "negative_rows(no NER span)": 0,
+   "rows_with_person_family": 782,
+   "multi_entity_rows": 160,
+   "rule_span_rows": 0,
+   "person_len_dist": {
+    "2": 278,
+    "3": 555,
+    "4": 113
+   },
+   "distinct_person_values": 943,
+   "max_person_value_reuse": 2,
+   "distinct_skeletons": 517,
+   "top_skeleton_share_pct": 0.64,
+   "distinct_frames": 171,
+   "kin_adjacent_rows": 0,
+   "rows_with_kin_term_no_person": 0
+  },
+  "r9_errD_train": {
+   "rows": 782,
+   "labels": {
+    "PERSON": 120,
+    "PERSON_ALIAS": 100
+   },
+   "negative_rows(no NER span)": 562,
+   "rows_with_person_family": 220,
+   "multi_entity_rows": 0,
+   "rule_span_rows": 0,
+   "person_len_dist": {
+    "2": 134,
+    "3": 73,
+    "4": 13
+   },
+   "distinct_person_values": 123,
+   "max_person_value_reuse": 6,
+   "distinct_skeletons": 729,
+   "top_skeleton_share_pct": 0.51,
+   "distinct_frames": 196,
+   "kin_adjacent_rows": 0,
+   "rows_with_kin_term_no_person": 123
+  },
+  "r9_mixed_train": {
+   "rows": 468,
+   "labels": {
+    "PERSON": 260,
+    "ORGANIZATION": 68,
+    "LOCATION": 48,
+    "ADDRESS": 36
+   },
+   "negative_rows(no NER span)": 128,
+   "rows_with_person_family": 248,
+   "multi_entity_rows": 68,
+   "rule_span_rows": 112,
+   "person_len_dist": {
+    "2": 45,
+    "3": 178,
+    "4": 37
+   },
+   "distinct_person_values": 260,
+   "max_person_value_reuse": 1,
+   "distinct_skeletons": 319,
+   "top_skeleton_share_pct": 0.85,
+   "distinct_frames": 142,
+   "kin_adjacent_rows": 14,
+   "rows_with_kin_term_no_person": 0
+  },
+  "r9_E1_train": {
+   "rows": 782,
+   "labels": {
+    "PERSON": 813,
+    "LOCATION": 57,
+    "PERSON_ALIAS": 50,
+    "ORGANIZATION": 45,
+    "ADDRESS": 30
+   },
+   "negative_rows(no NER span)": 141,
+   "rows_with_person_family": 611,
+   "multi_entity_rows": 292,
+   "rule_span_rows": 63,
+   "person_len_dist": {
+    "2": 352,
+    "3": 434,
+    "4": 77
+   },
+   "distinct_person_values": 836,
+   "max_person_value_reuse": 12,
+   "distinct_skeletons": 725,
+   "top_skeleton_share_pct": 0.51,
+   "distinct_frames": 329,
+   "kin_adjacent_rows": 57,
+   "rows_with_kin_term_no_person": 72
+  },
+  "r9_E2_train": {
+   "rows": 782,
+   "labels": {
+    "PERSON": 643,
+    "LOCATION": 77,
+    "ORGANIZATION": 139
+   },
+   "negative_rows(no NER span)": 0,
+   "rows_with_person_family": 643,
+   "multi_entity_rows": 73,
+   "rule_span_rows": 0,
+   "person_len_dist": {
+    "2": 434,
+    "3": 194,
+    "4": 15
+   },
+   "distinct_person_values": 596,
+   "max_person_value_reuse": 16,
+   "distinct_skeletons": 603,
+   "top_skeleton_share_pct": 0.64,
+   "distinct_frames": 169,
+   "kin_adjacent_rows": 0,
+   "rows_with_kin_term_no_person": 0
+  },
+  "r9_E3_train": {
+   "rows": 782,
+   "labels": {
+    "PERSON": 910,
+    "PERSON_ALIAS": 36
+   },
+   "negative_rows(no NER span)": 0,
+   "rows_with_person_family": 782,
+   "multi_entity_rows": 160,
+   "rule_span_rows": 0,
+   "person_len_dist": {
+    "2": 278,
+    "3": 555,
+    "4": 113
+   },
+   "distinct_person_values": 943,
+   "max_person_value_reuse": 2,
+   "distinct_skeletons": 517,
+   "top_skeleton_share_pct": 0.64,
+   "distinct_frames": 171,
+   "kin_adjacent_rows": 0,
+   "rows_with_kin_term_no_person": 0
+  },
+  "r9_E4_train": {
+   "rows": 782,
+   "labels": {
+    "PERSON": 120,
+    "PERSON_ALIAS": 100
+   },
+   "negative_rows(no NER span)": 562,
+   "rows_with_person_family": 220,
+   "multi_entity_rows": 0,
+   "rule_span_rows": 0,
+   "person_len_dist": {
+    "2": 134,
+    "3": 73,
+    "4": 13
+   },
+   "distinct_person_values": 123,
+   "max_person_value_reuse": 6,
+   "distinct_skeletons": 729,
+   "top_skeleton_share_pct": 0.51,
+   "distinct_frames": 196,
+   "kin_adjacent_rows": 0,
+   "rows_with_kin_term_no_person": 123
+  },
+  "r9_Ffull_train": {
+   "rows": 3126,
+   "labels": {
+    "PERSON": 2737,
+    "LOCATION": 209,
+    "PERSON_ALIAS": 186,
+    "ORGANIZATION": 225,
+    "ADDRESS": 104
+   },
+   "negative_rows(no NER span)": 657,
+   "rows_with_person_family": 2237,
+   "multi_entity_rows": 854,
+   "rule_span_rows": 243,
+   "person_len_dist": {
+    "2": 1208,
+    "3": 1457,
+    "4": 258
+   },
+   "distinct_person_values": 2602,
+   "max_person_value_reuse": 34,
+   "distinct_skeletons": 2665,
+   "top_skeleton_share_pct": 0.19,
+   "distinct_frames": 940,
+   "kin_adjacent_rows": 161,
+   "rows_with_kin_term_no_person": 200
+  },
+  "r9_val_extra": {
+   "rows": 844,
+   "labels": {
+    "ORGANIZATION": 47,
+    "PERSON": 621,
+    "PERSON_ALIAS": 66,
+    "LOCATION": 53,
+    "ADDRESS": 11
+   },
+   "negative_rows(no NER span)": 188,
+   "rows_with_person_family": 589,
+   "multi_entity_rows": 135,
+   "rule_span_rows": 54,
+   "person_len_dist": {
+    "2": 276,
+    "3": 343,
+    "4": 65,
+    "5": 3
+   },
+   "distinct_person_values": 614,
+   "max_person_value_reuse": 5,
+   "distinct_skeletons": 679,
+   "top_skeleton_share_pct": 0.83,
+   "distinct_frames": 176,
+   "kin_adjacent_rows": 45,
+   "rows_with_kin_term_no_person": 50
+  }
+ },
+ "f_full_ratio": {
+  "total": 3126,
+  "by_bucket": {
+   "msg": 1876,
+   "err_A": 274,
+   "err_B": 235,
+   "err_D": 273,
+   "mixed": 468
+  },
+  "internal_pct": {
+   "msg": 60.0,
+   "err_A": 8.8,
+   "err_B": 7.5,
+   "err_D": 8.7,
+   "mixed": 15.0
+  },
+  "msg_pct": 60.0,
+  "err_pct": 25.0,
+  "mixed_pct": 15.0,
+  "new_share_of_all_training_pct": 40.0
+ },
+ "duplicates_within_new": 0,
+ "train_val_name_overlap": 0,
+ "problems": 0,
+ "problem_examples": [],
+ "rejected_candidates_by_reason(counts only)": {
+  "spec_example_string": 9,
+  "dev_skeleton": 1
+ },
+ "spec_examples_blocked": 11,
+ "sealed_access": "프로그램 안에서 겹침 거르기 용도로만 읽음(내용 출력·참고 생성 없음)",
+ "name_pools": {
+  "given2": {
+   "train": 919,
+   "val": 171
+  },
+  "full3": {
+   "train": 1860,
+   "val": 344
+  },
+  "rare3": {
+   "train": 651,
+   "val": 123
+  },
+  "full3risky": {
+   "train": 297,
+   "val": 70
+  },
+  "place2": {
+   "train": 160,
+   "val": 27
+  },
+  "place3": {
+   "train": 318,
+   "val": 54
+  },
+  "full4": {
+   "train": 259,
+   "val": 43
+  },
+  "wordish": {
+   "train": 3,
+   "val": 3
+  },
+  "nameword": {
+   "train": 23,
+   "val": 5
+  },
+  "nickname": {
+   "train": 387,
+   "val": 75
+  }
+ }
+}

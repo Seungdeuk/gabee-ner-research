@@ -1,0 +1,47 @@
+{
+  "backend": "onnx",
+  "model_file": "model.onnx",
+  "threads": 2,
+  "load_s": 0.756,
+  "rss_before_mb": 19.8,
+  "rss_after_load_mb": 121.0,
+  "first_call_ms": 14.08,
+  "second_third_call_ms": [
+    13.39,
+    12.0
+  ],
+  "e2e_30chars": {
+    "median_ms": 5.782,
+    "p95_ms": 15.518,
+    "n": 100
+  },
+  "model_only_30chars": {
+    "median_ms": 5.06,
+    "p95_ms": 12.404,
+    "n": 100
+  },
+  "e2e_100chars": {
+    "median_ms": 12.022,
+    "p95_ms": 25.128,
+    "n": 100
+  },
+  "model_only_100chars": {
+    "median_ms": 11.283,
+    "p95_ms": 21.908,
+    "n": 100
+  },
+  "e2e_300chars": {
+    "median_ms": 44.532,
+    "p95_ms": 72.142,
+    "n": 100
+  },
+  "model_only_300chars": {
+    "median_ms": 32.735,
+    "p95_ms": 56.055,
+    "n": 100
+  },
+  "batch8_sent_per_s": 93.2,
+  "batch32_sent_per_s": 80.2,
+  "rss_after_bench_mb": 153.0,
+  "rss_increase_mb": 133.2
+}

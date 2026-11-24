@@ -1,0 +1,1128 @@
+{
+ "service": {
+  "fingerprint12": "46210943c45f",
+  "cause_counter": {
+   "ORG/LOC 오분류(LOCATION)": 2,
+   "후보 미생성": 25,
+   "ORG/LOC 오분류(ORGANIZATION)": 3,
+   "경계 불일치/병합 충돌(원시는 2자+ 충분한 점수)": 2
+  },
+  "cases": [
+   {
+    "id": "v11-0042",
+    "word": "길섶",
+    "style": "중의성문맥",
+    "text": "길섶 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(LOCATION)",
+    "raw_overlap_detail": [
+     [
+      "LOCATION",
+      0,
+      2,
+      "길섶",
+      0.5754
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0043",
+    "word": "나무그늘",
+    "style": "중의성문맥",
+    "text": "나무그늘 소식을 오랜만에 들었어",
+    "leaked": 4,
+    "n": 4,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0044",
+    "word": "돌계단",
+    "style": "중의성문맥",
+    "text": "돌계단 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      3,
+      "돌계단",
+      0.8749
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0045",
+    "word": "벽돌담",
+    "style": "중의성문맥",
+    "text": "벽돌담 소식을 오랜만에 들었어",
+    "leaked": 1,
+    "n": 3,
+    "full_exposure": false,
+    "cause": "경계 불일치/병합 충돌(원시는 2자+ 충분한 점수)",
+    "raw_overlap_detail": [
+     [
+      "PERSON",
+      0,
+      2,
+      "벽돌",
+      0.5912
+     ]
+    ],
+    "final_person_spans": [
+     [
+      0,
+      2,
+      0.591
+     ]
+    ]
+   },
+   {
+    "id": "v11-0046",
+    "word": "장독대",
+    "style": "중의성문맥",
+    "text": "장독대 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      3,
+      "장독대",
+      0.877
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0047",
+    "word": "마룻바닥",
+    "style": "중의성문맥",
+    "text": "마룻바닥 소식을 오랜만에 들었어",
+    "leaked": 4,
+    "n": 4,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(LOCATION)",
+    "raw_overlap_detail": [
+     [
+      "LOCATION",
+      0,
+      4,
+      "마룻바닥",
+      0.6487
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0048",
+    "word": "다락방",
+    "style": "중의성문맥",
+    "text": "다락방 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0049",
+    "word": "빨랫줄",
+    "style": "중의성문맥",
+    "text": "빨랫줄 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0050",
+    "word": "지붕끝",
+    "style": "중의성문맥",
+    "text": "지붕끝 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0051",
+    "word": "모래알",
+    "style": "중의성문맥",
+    "text": "모래알 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0052",
+    "word": "빗장",
+    "style": "중의성문맥",
+    "text": "빗장 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0053",
+    "word": "창틀",
+    "style": "중의성문맥",
+    "text": "창틀 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0054",
+    "word": "문턱",
+    "style": "중의성문맥",
+    "text": "문턱 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0055",
+    "word": "굴뚝",
+    "style": "중의성문맥",
+    "text": "굴뚝 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0057",
+    "word": "놋그릇",
+    "style": "중의성문맥",
+    "text": "놋그릇 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0058",
+    "word": "질그릇",
+    "style": "중의성문맥",
+    "text": "질그릇 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0059",
+    "word": "숯덩이",
+    "style": "중의성문맥",
+    "text": "숯덩이 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0142",
+    "word": "길섶",
+    "style": "가족채팅체",
+    "text": "길섶이 오늘 기분 좋아 보이더라",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0143",
+    "word": "나무그늘",
+    "style": "가족채팅체",
+    "text": "나무그늘이 오늘 기분 좋아 보이더라",
+    "leaked": 4,
+    "n": 4,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0144",
+    "word": "돌계단",
+    "style": "가족채팅체",
+    "text": "돌계단이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      3,
+      "돌계단",
+      0.5816
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0145",
+    "word": "벽돌담",
+    "style": "가족채팅체",
+    "text": "벽돌담이 오늘 기분 좋아 보이더라",
+    "leaked": 0,
+    "n": 3,
+    "full_exposure": false,
+    "cause": "경계 불일치/병합 충돌(원시는 2자+ 충분한 점수)",
+    "raw_overlap_detail": [
+     [
+      "PERSON_ALIAS",
+      0,
+      4,
+      "벽돌담이",
+      0.729
+     ]
+    ],
+    "final_person_spans": [
+     [
+      0,
+      4,
+      0.69
+     ]
+    ]
+   },
+   {
+    "id": "v11-0147",
+    "word": "마룻바닥",
+    "style": "가족채팅체",
+    "text": "마룻바닥이 오늘 기분 좋아 보이더라",
+    "leaked": 4,
+    "n": 4,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0148",
+    "word": "다락방",
+    "style": "가족채팅체",
+    "text": "다락방이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0149",
+    "word": "빨랫줄",
+    "style": "가족채팅체",
+    "text": "빨랫줄이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0150",
+    "word": "지붕끝",
+    "style": "가족채팅체",
+    "text": "지붕끝이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0151",
+    "word": "모래알",
+    "style": "가족채팅체",
+    "text": "모래알이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0152",
+    "word": "빗장",
+    "style": "가족채팅체",
+    "text": "빗장이 오늘 기분 좋아 보이더라",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0153",
+    "word": "창틀",
+    "style": "가족채팅체",
+    "text": "창틀이 오늘 기분 좋아 보이더라",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0155",
+    "word": "굴뚝",
+    "style": "가족채팅체",
+    "text": "굴뚝이 오늘 기분 좋아 보이더라",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0157",
+    "word": "놋그릇",
+    "style": "가족채팅체",
+    "text": "놋그릇이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0158",
+    "word": "질그릇",
+    "style": "가족채팅체",
+    "text": "질그릇이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0159",
+    "word": "숯덩이",
+    "style": "가족채팅체",
+    "text": "숯덩이가 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   }
+  ],
+  "n_not_exact": 32,
+  "n_full_exposure": 30
+ },
+ "r4_candidate": {
+  "fingerprint12": "56249473d8d9",
+  "cause_counter": {
+   "ORG/LOC 오분류(LOCATION)": 1,
+   "ORG/LOC 오분류(ORGANIZATION)": 4,
+   "ORG/LOC 오분류(LOCATION/ORGANIZATION)": 1,
+   "후보 미생성": 18,
+   "신뢰도 부족(2자+이지만 점수<0.5)": 2
+  },
+  "cases": [
+   {
+    "id": "v11-0042",
+    "word": "길섶",
+    "style": "중의성문맥",
+    "text": "길섶 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(LOCATION)",
+    "raw_overlap_detail": [
+     [
+      "LOCATION",
+      0,
+      2,
+      "길섶",
+      0.3829
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0043",
+    "word": "나무그늘",
+    "style": "중의성문맥",
+    "text": "나무그늘 소식을 오랜만에 들었어",
+    "leaked": 4,
+    "n": 4,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      4,
+      "나무그늘",
+      0.7259
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0044",
+    "word": "돌계단",
+    "style": "중의성문맥",
+    "text": "돌계단 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      3,
+      "돌계단",
+      0.8778
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0046",
+    "word": "장독대",
+    "style": "중의성문맥",
+    "text": "장독대 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      3,
+      "장독대",
+      0.8743
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0047",
+    "word": "마룻바닥",
+    "style": "중의성문맥",
+    "text": "마룻바닥 소식을 오랜만에 들었어",
+    "leaked": 4,
+    "n": 4,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(LOCATION/ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      1,
+      "마",
+      0.3524
+     ],
+     [
+      "LOCATION",
+      1,
+      4,
+      "룻바닥",
+      0.6781
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0048",
+    "word": "다락방",
+    "style": "중의성문맥",
+    "text": "다락방 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0049",
+    "word": "빨랫줄",
+    "style": "중의성문맥",
+    "text": "빨랫줄 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0050",
+    "word": "지붕끝",
+    "style": "중의성문맥",
+    "text": "지붕끝 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0051",
+    "word": "모래알",
+    "style": "중의성문맥",
+    "text": "모래알 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0052",
+    "word": "빗장",
+    "style": "중의성문맥",
+    "text": "빗장 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0055",
+    "word": "굴뚝",
+    "style": "중의성문맥",
+    "text": "굴뚝 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0057",
+    "word": "놋그릇",
+    "style": "중의성문맥",
+    "text": "놋그릇 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0058",
+    "word": "질그릇",
+    "style": "중의성문맥",
+    "text": "질그릇 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0059",
+    "word": "숯덩이",
+    "style": "중의성문맥",
+    "text": "숯덩이 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0142",
+    "word": "길섶",
+    "style": "가족채팅체",
+    "text": "길섶이 오늘 기분 좋아 보이더라",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0144",
+    "word": "돌계단",
+    "style": "가족채팅체",
+    "text": "돌계단이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      3,
+      "돌계단",
+      0.8805
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0147",
+    "word": "마룻바닥",
+    "style": "가족채팅체",
+    "text": "마룻바닥이 오늘 기분 좋아 보이더라",
+    "leaked": 4,
+    "n": 4,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0148",
+    "word": "다락방",
+    "style": "가족채팅체",
+    "text": "다락방이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "신뢰도 부족(2자+이지만 점수<0.5)",
+    "raw_overlap_detail": [
+     [
+      "PERSON",
+      0,
+      2,
+      "다락",
+      0.3638
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0149",
+    "word": "빨랫줄",
+    "style": "가족채팅체",
+    "text": "빨랫줄이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0150",
+    "word": "지붕끝",
+    "style": "가족채팅체",
+    "text": "지붕끝이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0151",
+    "word": "모래알",
+    "style": "가족채팅체",
+    "text": "모래알이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0152",
+    "word": "빗장",
+    "style": "가족채팅체",
+    "text": "빗장이 오늘 기분 좋아 보이더라",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0153",
+    "word": "창틀",
+    "style": "가족채팅체",
+    "text": "창틀이 오늘 기분 좋아 보이더라",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "신뢰도 부족(2자+이지만 점수<0.5)",
+    "raw_overlap_detail": [
+     [
+      "PERSON",
+      0,
+      2,
+      "창틀",
+      0.4972
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0157",
+    "word": "놋그릇",
+    "style": "가족채팅체",
+    "text": "놋그릇이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0158",
+    "word": "질그릇",
+    "style": "가족채팅체",
+    "text": "질그릇이 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0159",
+    "word": "숯덩이",
+    "style": "가족채팅체",
+    "text": "숯덩이가 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   }
+  ],
+  "n_not_exact": 26,
+  "n_full_exposure": 26
+ },
+ "r5_candidate": {
+  "fingerprint12": "a270ea570419",
+  "cause_counter": {
+   "ORG/LOC 오분류(LOCATION)": 1,
+   "ORG/LOC 오분류(ORGANIZATION)": 3,
+   "ORG/LOC 오분류(LOCATION/ORGANIZATION)": 1,
+   "후보 미생성": 4,
+   "1자 길이필터 탈락(원시 span이 1글자뿐)": 2,
+   "경계 불일치/병합 충돌(원시는 2자+ 충분한 점수)": 1,
+   "신뢰도 부족(2자+이지만 점수<0.5)": 1
+  },
+  "cases": [
+   {
+    "id": "v11-0042",
+    "word": "길섶",
+    "style": "중의성문맥",
+    "text": "길섶 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(LOCATION)",
+    "raw_overlap_detail": [
+     [
+      "LOCATION",
+      0,
+      2,
+      "길섶",
+      0.4315
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0044",
+    "word": "돌계단",
+    "style": "중의성문맥",
+    "text": "돌계단 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      3,
+      "돌계단",
+      0.795
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0046",
+    "word": "장독대",
+    "style": "중의성문맥",
+    "text": "장독대 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      3,
+      "장독대",
+      0.3882
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0047",
+    "word": "마룻바닥",
+    "style": "중의성문맥",
+    "text": "마룻바닥 소식을 오랜만에 들었어",
+    "leaked": 4,
+    "n": 4,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(LOCATION/ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      1,
+      "마",
+      0.4622
+     ],
+     [
+      "LOCATION",
+      1,
+      4,
+      "룻바닥",
+      0.5711
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0049",
+    "word": "빨랫줄",
+    "style": "중의성문맥",
+    "text": "빨랫줄 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0051",
+    "word": "모래알",
+    "style": "중의성문맥",
+    "text": "모래알 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "raw_overlap_detail": [
+     [
+      "ORGANIZATION",
+      0,
+      2,
+      "모래",
+      0.2651
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0052",
+    "word": "빗장",
+    "style": "중의성문맥",
+    "text": "빗장 소식을 오랜만에 들었어",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "1자 길이필터 탈락(원시 span이 1글자뿐)",
+    "raw_overlap_detail": [
+     [
+      "PERSON",
+      0,
+      1,
+      "빗",
+      0.5566
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0057",
+    "word": "놋그릇",
+    "style": "중의성문맥",
+    "text": "놋그릇 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0059",
+    "word": "숯덩이",
+    "style": "중의성문맥",
+    "text": "숯덩이 소식을 오랜만에 들었어",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0147",
+    "word": "마룻바닥",
+    "style": "가족채팅체",
+    "text": "마룻바닥이 오늘 기분 좋아 보이더라",
+    "leaked": 4,
+    "n": 4,
+    "full_exposure": true,
+    "cause": "후보 미생성",
+    "raw_overlap_detail": null,
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0149",
+    "word": "빨랫줄",
+    "style": "가족채팅체",
+    "text": "빨랫줄이 오늘 기분 좋아 보이더라",
+    "leaked": 1,
+    "n": 3,
+    "full_exposure": false,
+    "cause": "경계 불일치/병합 충돌(원시는 2자+ 충분한 점수)",
+    "raw_overlap_detail": [
+     [
+      "PERSON",
+      0,
+      1,
+      "빨",
+      0.505
+     ],
+     [
+      "PERSON_ALIAS",
+      1,
+      3,
+      "랫줄",
+      0.5463
+     ]
+    ],
+    "final_person_spans": [
+     [
+      1,
+      3,
+      0.546
+     ]
+    ]
+   },
+   {
+    "id": "v11-0152",
+    "word": "빗장",
+    "style": "가족채팅체",
+    "text": "빗장이 오늘 기분 좋아 보이더라",
+    "leaked": 2,
+    "n": 2,
+    "full_exposure": true,
+    "cause": "1자 길이필터 탈락(원시 span이 1글자뿐)",
+    "raw_overlap_detail": [
+     [
+      "PERSON",
+      0,
+      1,
+      "빗",
+      0.6771
+     ]
+    ],
+    "final_person_spans": []
+   },
+   {
+    "id": "v11-0159",
+    "word": "숯덩이",
+    "style": "가족채팅체",
+    "text": "숯덩이가 오늘 기분 좋아 보이더라",
+    "leaked": 3,
+    "n": 3,
+    "full_exposure": true,
+    "cause": "신뢰도 부족(2자+이지만 점수<0.5)",
+    "raw_overlap_detail": [
+     [
+      "PERSON",
+      0,
+      3,
+      "숯덩이",
+      0.4449
+     ]
+    ],
+    "final_person_spans": []
+   }
+  ],
+  "n_not_exact": 13,
+  "n_full_exposure": 12
+ }
+}

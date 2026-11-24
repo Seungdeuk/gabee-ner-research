@@ -1,0 +1,100 @@
+{
+ "version": "ops-1.0",
+ "locked_on": "2026-11-23",
+ "criteria_sha256": "ffc48cf2f74d92e36525bffc0fbe262453398569623d46127b9d4a0c78be30c7",
+ "criteria_hash_note": "줄바꿈을 LF 로 정규화한 SHA256(CRLF 체크아웃에서도 재현)",
+ "models": {
+  "A": {
+   "name": "S0 koelectra-small-v2b (현재 서비스)",
+   "onnx_dir": "C:\\Users\\<user>\\venvs\\ner-runs\\service_v2b",
+   "run_id": "v2b-koelectra-small-klue10-s7",
+   "base_model": "monologg/koelectra-small-v3-discriminator",
+   "seed": 7,
+   "sha256": {
+    "model.onnx": "46210943c45f01b6a9fa500894fb9821b1c130be63de8d8f7ef603d2d87ccf8e",
+    "tokenizer.json": "d5c7a9a8996aca4fee55a3664381b012bd7dbb3e190061b2591c02502b7171b6",
+    "labels.json": "f5cf8bd55bf4c31df0da444131a7b68ff0ace3e482ca7dad6e2f55f3fd216fe4",
+    "model_card.json": "0a008641205e6248c3e1b870ae1efcd317865e8c795e1c9401bb84df9ab647b2"
+   },
+   "checkpoint": "원 체크포인트 폴더(v2b-koelectra-small-klue10-s7/best)가 보관돼 있지 않음 — 식별은 서비스 ONNX 해시로 한다",
+   "deployed_copy_matches": "C:\\Users\\<user>\\Documents\\gabee\\apps\\api\\data\\models\\ner\\model.onnx 가 같은 해시(2026-11-23 확인); 운영 서버 사본은 DB·배포 담당자가 별도 확인 필요"
+  },
+  "B": {
+   "name": "R11 B-new seed 21 (에폭 5)",
+   "onnx_dir": "C:\\Users\\<user>\\venvs\\ner-runs\\r11\\export\\r11-B-s21-ep5",
+   "run_id": "r11-B-s21",
+   "base_model": "monologg/koelectra-small-v3-discriminator",
+   "seed": 21,
+   "epoch": 5,
+   "sha256": {
+    "model.onnx": "3831601b7ffb6093a8d1b8c832e46ad140712c6e402f17b3054c3ec0f9ae4c94",
+    "tokenizer.json": "d5c7a9a8996aca4fee55a3664381b012bd7dbb3e190061b2591c02502b7171b6",
+    "labels.json": "f5cf8bd55bf4c31df0da444131a7b68ff0ace3e482ca7dad6e2f55f3fd216fe4",
+    "model_card.json": "0157e8bf854e3b492adead91332526ff09c4f2381208d711f9d7c3429ac2cc74"
+   },
+   "checkpoint": {
+    "epoch_5/model.safetensors": "b0b8145e3538bcee22eb61599d10e65735d9daf270f9f24d21f21fb61bc87b51",
+    "train_log.json": "4a0523a3ad732226d388d7af207d6db762c554adc79cef6123a094251041a70c",
+    "recorded_checkpoint_sha256": "b0b8145e3538bcee22eb61599d10e65735d9daf270f9f24d21f21fb61bc87b51"
+   },
+   "code": "r11-freeze-2(커밋 c61a7396)",
+   "training_data_rows": 9915,
+   "stopped_epoch": 6,
+   "best_epoch_B_old": 4
+  }
+ },
+ "label_mapping_identical": true,
+ "tokenizer_identical": true,
+ "development_r11_dev_pct": {
+  "S0": {
+   "exact_recall": 50.9,
+   "precision_official": 62.31,
+   "f1_official": 56.03,
+   "precision_all": 55.99,
+   "total_exposure": 27.39,
+   "partial_rate": 5.74,
+   "full_rate": 21.64,
+   "neg_fpr_macro": 2.71,
+   "pair_context_accuracy": 12.0,
+   "klue_f1": 74.12
+  },
+  "B-new_seed21_alone": {
+   "exact_recall": 83.5,
+   "precision_official": 88.65,
+   "f1_official": 86.0,
+   "precision_all": 83.72,
+   "total_exposure": 8.62,
+   "partial_rate": 2.2,
+   "full_rate": 6.41,
+   "neg_fpr_macro": 3.33,
+   "pair_context_accuracy": 39.5,
+   "klue_f1": 73.78
+  },
+  "B-new_5seed_mean": {
+   "exact_recall": 83.05,
+   "precision_official": 86.94,
+   "f1_official": 84.94,
+   "precision_all": 80.93,
+   "total_exposure": 9.18,
+   "partial_rate": 2.58,
+   "full_rate": 6.6,
+   "neg_fpr_macro": 4.17,
+   "pair_context_accuracy": 34.9,
+   "klue_f1": 71.84
+  },
+  "B-new_5seed_sd_pp": {
+   "exact_recall": 1.43,
+   "precision_official": 1.34,
+   "f1_official": 1.05,
+   "precision_all": 2.43,
+   "total_exposure": 1.06,
+   "partial_rate": 0.32,
+   "full_rate": 0.92,
+   "neg_fpr_macro": 1.32,
+   "pair_context_accuracy": 4.09,
+   "klue_f1": 1.34
+  },
+  "note": "평가셋 r11_dev(Development). seed 21 은 5시드 중 G1~G11·R1~R4·G12 를 모두 통과한 유일한 시드로, 결과를 본 뒤 고른 것이다(승자의 저주 위험)."
+ },
+ "research_gate_status_preserved": "B-new 모델군 R11-S 미충족(적격 시드 1/5, 4개 이상 필요). 사람 의미 검수 519건 미완료. 공식 연구 게이트를 통과했다고 표현하지 않는다."
+}

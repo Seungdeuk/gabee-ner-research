@@ -1,0 +1,3007 @@
+[
+ {
+  "run_id": "r9-C0-s13",
+  "arm": "C0",
+  "seed": 13,
+  "stopped_epoch": 4,
+  "best_epoch": 2,
+  "best_val_baseline_overlap_f1": 1.0,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8711656441717791,
+    "elapsed_s": 16.4
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 1.0,
+    "elapsed_s": 31.6
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9440993788819877,
+    "elapsed_s": 46.0
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9681528662420382,
+    "elapsed_s": 60.6
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 980,
+  "step_time_ms": {
+   "mean": 52.5,
+   "median": 50.7,
+   "p95": 69.0
+  },
+  "train_time_s": 60.7,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 71.8,
+   "train_peak_rss_mb": 1446,
+   "train_peak_gpu_used_mb(system)": 1804,
+   "evalfull_s": 11.7,
+   "export_s": 10.4,
+   "parity_s": 10.2,
+   "devEval_s": 35.1
+  },
+  "total_pipeline_s": 139.3,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "737dcd9df822e1a2ecdff252d0b1da48188008652c4c7c53b2e1ecdb5a79a7ee",
+   "export/model.onnx": "22db9c4e461f047d6cae2e964e3253ba1502044947d3b4ec982ff78fdd06b781",
+   "train_log.json": "ad7c0a4cb7017d564af7bc0e0647130aac51c296179bf4ec4616b48c650d5c16",
+   "dev_result.json": "f14c61bb033f719fe422ff163adbc56ebb096df6bbaa051846e5e72dc8f9c9ff",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0_extra_s13": "eea9268363470e4f56d8633c064c6aac131bb20827724c54db3575d7535f8330"
+   }
+  }
+ },
+ {
+  "run_id": "r9-C0-s21",
+  "arm": "C0",
+  "seed": 21,
+  "stopped_epoch": 6,
+  "best_epoch": 4,
+  "best_val_baseline_overlap_f1": 0.9440993788819877,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8072289156626506,
+    "elapsed_s": 16.8
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9024390243902439,
+    "elapsed_s": 31.9
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9146341463414636,
+    "elapsed_s": 47.2
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9440993788819877,
+    "elapsed_s": 62.5
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.925925925925926,
+    "elapsed_s": 77.6
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.925925925925926,
+    "elapsed_s": 93.1
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1470,
+  "step_time_ms": {
+   "mean": 53.5,
+   "median": 52.1,
+   "p95": 70.5
+  },
+  "train_time_s": 93.1,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 104.7,
+   "train_peak_rss_mb": 1461,
+   "train_peak_gpu_used_mb(system)": 1805,
+   "evalfull_s": 11.2,
+   "export_s": 11.8,
+   "parity_s": 10.3,
+   "devEval_s": 37.7
+  },
+  "total_pipeline_s": 175.7,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "44f14aaa01c2a7629b34bd3806beb55cb6f3989d95e7522c74366a4d47f60089",
+   "export/model.onnx": "b0ab1e237cf513bbe7d54c4072f611f2fceb06ef88a7a9ec30a523e360b8fad6",
+   "train_log.json": "b45348322f57bf5c5d4e271bd49b4711633c0300ebcbfdf43e9a6d2d011e9f95",
+   "dev_result.json": "82c16d44bef4c918090a96a335b36f83d019f82d4f75870f2200826a1b3335ad",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0_extra_s21": "1cf5b9320187c600d41a766d82aff7c840b8cf4429170f0b4b9619daffb779f2"
+   }
+  }
+ },
+ {
+  "run_id": "r9-C0-s42",
+  "arm": "C0",
+  "seed": 42,
+  "stopped_epoch": 8,
+  "best_epoch": 6,
+  "best_val_baseline_overlap_f1": 0.9933774834437086,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8930817610062893,
+    "elapsed_s": 16.8
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 33.5
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9554140127388535,
+    "elapsed_s": 48.6
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9382716049382717,
+    "elapsed_s": 63.4
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9559748427672956,
+    "elapsed_s": 78.5
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9933774834437086,
+    "elapsed_s": 94.3
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9868421052631579,
+    "elapsed_s": 109.5
+   },
+   {
+    "epoch": 8,
+    "baseline_val_overlap_f1": 0.9806451612903226,
+    "elapsed_s": 124.6
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1960,
+  "step_time_ms": {
+   "mean": 53.8,
+   "median": 52.6,
+   "p95": 72.0
+  },
+  "train_time_s": 124.6,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 137.8,
+   "train_peak_rss_mb": 1451,
+   "train_peak_gpu_used_mb(system)": 1808,
+   "evalfull_s": 12.4,
+   "export_s": 10.3,
+   "parity_s": 10.6,
+   "devEval_s": 37.1
+  },
+  "total_pipeline_s": 208.2,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "919a8cd76ec98bfa4c0b7c21b782dd3c8abba11120becc248b9c203ccaf0f3fb",
+   "export/model.onnx": "65b5a7b204ebaac1844467602ab4ae97fc6a5c980854281dacf5b6e45b12217b",
+   "train_log.json": "03abb9422540ff9725501c8928c0fadfaca252ac7a7b5e25d7b6b2f8016fadb3",
+   "dev_result.json": "95d301f6b00d921e00ccd06009c57fbe1392bb0cc8fd3677f1d112e168980560",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0_extra_s42": "914dbf41c66ac0f7c17465783444bd10706ec4606cf5e9e14c698a6f396d88c5"
+   }
+  }
+ },
+ {
+  "run_id": "r9-C0-s7",
+  "arm": "C0",
+  "seed": 7,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9868421052631579,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8502994011976048,
+    "elapsed_s": 18.9
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9316770186335402,
+    "elapsed_s": 34.0
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9868421052631579,
+    "elapsed_s": 48.5
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 63.2
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9806451612903226,
+    "elapsed_s": 77.7
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1225,
+  "step_time_ms": {
+   "mean": 53.5,
+   "median": 51.4,
+   "p95": 70.3
+  },
+  "train_time_s": 77.7,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 92.4,
+   "train_peak_rss_mb": 1448,
+   "train_peak_gpu_used_mb(system)": 1761,
+   "evalfull_s": 11.6,
+   "export_s": 10.0,
+   "parity_s": 10.0,
+   "devEval_s": 35.5
+  },
+  "total_pipeline_s": 159.6,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "b256ac1a6666f2cf2ebbf30e1cf3c4a760c2df3fa88162b18b799db09186ec5c",
+   "export/model.onnx": "e8d1639b6c896034c0336d239a81067cd3094484d9a0d53c4f95eac60aa1455e",
+   "train_log.json": "663d63084470785cae758c2b59e53a48e97a6cd4963d438bddd46709a830f997",
+   "dev_result.json": "f729e2a3b677d0cc007a05ac2a985660ead958227c311ebb639021986d3a30db",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0_extra_s7": "8aaf145ea061878b870e27b63b3db3b621dec3a811783a9a8c85ed57d84fc22e"
+   }
+  }
+ },
+ {
+  "run_id": "r9-C0-s99",
+  "arm": "C0",
+  "seed": 99,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9615384615384615,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8903225806451613,
+    "elapsed_s": 16.6
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9382716049382717,
+    "elapsed_s": 31.7
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9615384615384615,
+    "elapsed_s": 47.6
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9440993788819877,
+    "elapsed_s": 62.9
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9615384615384615,
+    "elapsed_s": 78.0
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1225,
+  "step_time_ms": {
+   "mean": 53.5,
+   "median": 51.8,
+   "p95": 70.1
+  },
+  "train_time_s": 78.0,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 90.3,
+   "train_peak_rss_mb": 1450,
+   "train_peak_gpu_used_mb(system)": 1804,
+   "evalfull_s": 11.7,
+   "export_s": 13.2,
+   "parity_s": 10.9,
+   "devEval_s": 36.5
+  },
+  "total_pipeline_s": 162.6,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "f928f337e86bb19828c72c539ee7518d8197534eb89a9b1a3e2f888f910b031b",
+   "export/model.onnx": "3bdf5efcfd8753f077ff70dade091ce3ce623873681c8f1a6b98066f197b3e09",
+   "train_log.json": "8991080ad1bdec5ba4ac249b4449ce8cce273e680f748ebd0aa65aa705e4c786",
+   "dev_result.json": "86acacecdd6013372fbd9ec27c16883d037377b370242e6448c005c67e2ad4f2",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0_extra_s99": "b0f30c59ede38b34cfba54041d505e06693f332210f758ddb7de1fe2f6b1bd9b"
+   }
+  }
+ },
+ {
+  "run_id": "r9-C0s-s13",
+  "arm": "C0s",
+  "seed": 13,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7564102564102564,
+    "elapsed_s": 12.3
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 23.0
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 34.2
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9440993788819877,
+    "elapsed_s": 46.1
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9681528662420382,
+    "elapsed_s": 56.9
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 855,
+  "step_time_ms": {
+   "mean": 52.5,
+   "median": 50.9,
+   "p95": 69.3
+  },
+  "train_time_s": 57.0,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 67.7,
+   "train_peak_rss_mb": 1440,
+   "train_peak_gpu_used_mb(system)": 1807,
+   "evalfull_s": 12.7,
+   "export_s": 10.2,
+   "parity_s": 10.8,
+   "devEval_s": 37.8
+  },
+  "total_pipeline_s": 139.2,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "a93a78ce84600503aa49cd6eb8edfbafbedec58324b4963afc3ddc517812333e",
+   "export/model.onnx": "4927f6aa082121a6663ba6b7716f8fa8cdded5ede2ca107eddceb23be7d08c03",
+   "train_log.json": "7aa9c789156cd2a2d3557b5aa3db27cb5b77b1a725ecab53cc1bfc1f6023a4e1",
+   "dev_result.json": "b7be4e703ab2f5887ff91e4b8c7b3cc7a57503cae9d8327aba41bf01cf753968",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0s_extra_s13": "18ee4ef2078a2bd94a4500678fe79ec322d1f5db6e4d87bcc88605a55527317b"
+   }
+  }
+ },
+ {
+  "run_id": "r9-C0s-s21",
+  "arm": "C0s",
+  "seed": 21,
+  "stopped_epoch": 7,
+  "best_epoch": 5,
+  "best_val_baseline_overlap_f1": 0.9554140127388535,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7852760736196318,
+    "elapsed_s": 12.7
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9171974522292994,
+    "elapsed_s": 24.8
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9316770186335402,
+    "elapsed_s": 36.2
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9426751592356688,
+    "elapsed_s": 46.8
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9554140127388535,
+    "elapsed_s": 58.5
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9375,
+    "elapsed_s": 69.6
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9316770186335402,
+    "elapsed_s": 80.5
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1197,
+  "step_time_ms": {
+   "mean": 53.5,
+   "median": 52.1,
+   "p95": 68.8
+  },
+  "train_time_s": 80.5,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 92.3,
+   "train_peak_rss_mb": 1439,
+   "train_peak_gpu_used_mb(system)": 1806,
+   "evalfull_s": 11.3,
+   "export_s": 11.7,
+   "parity_s": 10.9,
+   "devEval_s": 36.7
+  },
+  "total_pipeline_s": 162.9,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "fbfa827b08456c51afc8b564f2271083ff09dba92d3cb5f08173efa21db94382",
+   "export/model.onnx": "36372d42e487f7b12638b7ac6d66c663e099eb464fca662098c3129cc8e35592",
+   "train_log.json": "3429c58730c7f687bc85db5f4b02b3134ff3fde8a46f78dbc4c882b3de2292ff",
+   "dev_result.json": "e4ae9aae06a60f03138ea54cddf1f1ac78fa945869809a875827eb5e065f3b07",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0s_extra_s21": "89f6082d81bdae5cbad3d9736536e82e093678dff0d7b16ba77644442e27dbbf"
+   }
+  }
+ },
+ {
+  "run_id": "r9-C0s-s42",
+  "arm": "C0s",
+  "seed": 42,
+  "stopped_epoch": 7,
+  "best_epoch": 5,
+  "best_val_baseline_overlap_f1": 0.9620253164556963,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8280254777070064,
+    "elapsed_s": 12.2
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9171974522292994,
+    "elapsed_s": 24.7
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9047619047619047,
+    "elapsed_s": 35.9
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 46.5
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 57.5
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 68.9
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 79.9
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1197,
+  "step_time_ms": {
+   "mean": 53.5,
+   "median": 51.9,
+   "p95": 70.2
+  },
+  "train_time_s": 79.9,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 92.4,
+   "train_peak_rss_mb": 1439,
+   "train_peak_gpu_used_mb(system)": 1800,
+   "evalfull_s": 11.5,
+   "export_s": 12.3,
+   "parity_s": 10.9,
+   "devEval_s": 37.5
+  },
+  "total_pipeline_s": 164.7,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "d38332bd35fd6ff4d481461626bb8d146b9b9ce99bb8d29b1e0b1d043ebcc80f",
+   "export/model.onnx": "97c7f5b1f8a2e5f52c5aacdffe2d7653060817649042236600e2063c5b5448c1",
+   "train_log.json": "6349325cd1622b4db7d7f310b23d28e962761f67283b32ab05e66d64f8f15b10",
+   "dev_result.json": "b11a1ac3bf84c794942a51c2837755db114e8ce648272482ed2678d809b5c20b",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0s_extra_s42": "72ee0c5f82a00846f8196acf5ebcc39f08b359802a94682a6668cae575efec83"
+   }
+  }
+ },
+ {
+  "run_id": "r9-C0s-s7",
+  "arm": "C0s",
+  "seed": 7,
+  "stopped_epoch": 8,
+  "best_epoch": 6,
+  "best_val_baseline_overlap_f1": 0.9620253164556963,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8363636363636364,
+    "elapsed_s": 12.3
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9268292682926829,
+    "elapsed_s": 23.8
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9382716049382717,
+    "elapsed_s": 34.7
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 45.4
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 56.3
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 67.0
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 80.1
+   },
+   {
+    "epoch": 8,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 90.6
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1368,
+  "step_time_ms": {
+   "mean": 53.0,
+   "median": 51.8,
+   "p95": 70.6
+  },
+  "train_time_s": 90.6,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 102.7,
+   "train_peak_rss_mb": 1441,
+   "train_peak_gpu_used_mb(system)": 1761,
+   "evalfull_s": 11.7,
+   "export_s": 9.9,
+   "parity_s": 10.5,
+   "devEval_s": 37.9
+  },
+  "total_pipeline_s": 172.7,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "5cdbbe5828014042f10887a9c6e7da4d4ae578d05de7be65a7018b6be6d1f732",
+   "export/model.onnx": "b8447017072eff9c3af575eab48a1f1f3a4e741241a330fd578df229dc8270ab",
+   "train_log.json": "03e75ad961360aaf41befee6c3e2754e128e123a4740c9fa891425c59cc45322",
+   "dev_result.json": "6b95222675820102cbdb3fde0d14a1ce4334e59c75ca5de813a4dd5cb2c74cf1",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0s_extra_s7": "c9ad314df9febeba7b4b8bdc822e91d256096bc9bedb443d2dc75f89fa66c579"
+   }
+  }
+ },
+ {
+  "run_id": "r9-C0s-s99",
+  "arm": "C0s",
+  "seed": 99,
+  "stopped_epoch": 7,
+  "best_epoch": 5,
+  "best_val_baseline_overlap_f1": 0.9500000000000001,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7444444444444444,
+    "elapsed_s": 12.9
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.925,
+    "elapsed_s": 24.2
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9375,
+    "elapsed_s": 34.8
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 47.5
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 58.7
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 69.8
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 80.8
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1197,
+  "step_time_ms": {
+   "mean": 53.5,
+   "median": 51.6,
+   "p95": 72.7
+  },
+  "train_time_s": 80.8,
+  "max_vram_mb": 785,
+  "timing": {
+   "train_s": 92.4,
+   "train_peak_rss_mb": 1440,
+   "train_peak_gpu_used_mb(system)": 1800,
+   "evalfull_s": 11.9,
+   "export_s": 11.8,
+   "parity_s": 10.8,
+   "devEval_s": 39.4
+  },
+  "total_pipeline_s": 166.2,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "5712e1824882e2ba24424827b407160dd7a3d9f436a187c6b0fcd124a3fa833d",
+   "export/model.onnx": "70065b2478b9766feaf4c6f3ea3adfebb3d1ebf8e73004adf4900f3874c56e4e",
+   "train_log.json": "6690ae5b4282f2a223f76fae0fe92ae97457e47feb12fffb3f8a51ba715f24c4",
+   "dev_result.json": "81328599409f15ce60a6a5146d7a12683f093a8aff37a9f606b8cceba711f11f",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "c0s_extra_s99": "49b3a6c5c07d2e2655e9c791513be1bc649429c76ea2ae9b47fdd0724f489312"
+   }
+  }
+ },
+ {
+  "run_id": "r9-CP-s13",
+  "arm": "CP",
+  "seed": 13,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.6624203821656051,
+    "elapsed_s": 11.0
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9171974522292994,
+    "elapsed_s": 20.5
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 31.2
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 40.9
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 50.1
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 735,
+  "step_time_ms": {
+   "mean": 52.2,
+   "median": 50.6,
+   "p95": 68.6
+  },
+  "train_time_s": 50.1,
+  "max_vram_mb": 785,
+  "timing": {
+   "train_s": 61.7,
+   "train_peak_rss_mb": 1444,
+   "train_peak_gpu_used_mb(system)": 1796,
+   "evalfull_s": 11.8,
+   "export_s": 10.3,
+   "parity_s": 10.0,
+   "devEval_s": 34.3
+  },
+  "total_pipeline_s": 128.1,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "3dac336f0e573ecc4c8a620ba318e8a83e4ac074b83d4f330db73838a32ee1fb",
+   "export/model.onnx": "bc66aff03da150a77dc559231b8feeac240df695a96720d0c2060061477291bf",
+   "train_log.json": "2567b9799748775ed1d60ff8f9c3f0a216a3d27dedc9aef78ef646905416c2a9",
+   "dev_result.json": "be71eac3922b79cb89d1b20a44d536c12900416e654684932abfd2a61ca2f007",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-CP-s21",
+  "arm": "CP",
+  "seed": 21,
+  "stopped_epoch": 8,
+  "best_epoch": 6,
+  "best_val_baseline_overlap_f1": 0.9610389610389611,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7195121951219512,
+    "elapsed_s": 11.5
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8606060606060606,
+    "elapsed_s": 21.2
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9019607843137255,
+    "elapsed_s": 30.7
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9542483660130718,
+    "elapsed_s": 40.7
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9487179487179489,
+    "elapsed_s": 50.1
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9610389610389611,
+    "elapsed_s": 60.0
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9487179487179489,
+    "elapsed_s": 70.1
+   },
+   {
+    "epoch": 8,
+    "baseline_val_overlap_f1": 0.9548387096774194,
+    "elapsed_s": 79.4
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1176,
+  "step_time_ms": {
+   "mean": 53.8,
+   "median": 52.1,
+   "p95": 70.9
+  },
+  "train_time_s": 79.7,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 92.4,
+   "train_peak_rss_mb": 1445,
+   "train_peak_gpu_used_mb(system)": 1802,
+   "evalfull_s": 12.0,
+   "export_s": 10.6,
+   "parity_s": 10.8,
+   "devEval_s": 37.0
+  },
+  "total_pipeline_s": 162.8,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "46f3c22140dee3fc78c509445741942e2714d059e40f2894d9a52b35f48685ce",
+   "export/model.onnx": "981607ded63c22ef24f96e47367a9f2cb5241bb837dfc4138cfeb841f9d44722",
+   "train_log.json": "b792ff397446a5ec3f90c5f9d5ffcf730d2ef2dae9351d4a2928610af5ebe124",
+   "dev_result.json": "7941a0e93d2372f501b7c5fdbe832ba10b779db8e7295f2b14dccee9488b8264",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-CP-s42",
+  "arm": "CP",
+  "seed": 42,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7544910179640718,
+    "elapsed_s": 11.4
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9171974522292994,
+    "elapsed_s": 21.3
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 31.6
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 41.0
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9559748427672956,
+    "elapsed_s": 51.0
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 735,
+  "step_time_ms": {
+   "mean": 54.6,
+   "median": 52.9,
+   "p95": 70.1
+  },
+  "train_time_s": 51.0,
+  "max_vram_mb": 786,
+  "timing": {
+   "train_s": 63.7,
+   "train_peak_rss_mb": 1437,
+   "train_peak_gpu_used_mb(system)": 1808,
+   "evalfull_s": 12.0,
+   "export_s": 14.9,
+   "parity_s": 10.7,
+   "devEval_s": 36.7
+  },
+  "total_pipeline_s": 138.1,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "61558e2943399c0cda070e642aa322ed36b4ce54fac4e2ba33db47b0494c99f5",
+   "export/model.onnx": "5ca1ababd00403218317506c525d0aa8c7bbe10e0f53c2f872c03c5620204107",
+   "train_log.json": "b62df3d24facc9258d7496bfd28eb860d349758f05589031314e240850c4af18",
+   "dev_result.json": "35108078b189651a09896e29540450e48ae18bea5be4216cf756fc3a3fffc7b3",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-CP-s7",
+  "arm": "CP",
+  "seed": 7,
+  "stopped_epoch": 6,
+  "best_epoch": 4,
+  "best_val_baseline_overlap_f1": 0.9681528662420382,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.689655172413793,
+    "elapsed_s": 10.9
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8622754491017963,
+    "elapsed_s": 20.2
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9316770186335402,
+    "elapsed_s": 29.5
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9681528662420382,
+    "elapsed_s": 39.4
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9681528662420382,
+    "elapsed_s": 49.7
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9681528662420382,
+    "elapsed_s": 59.7
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 882,
+  "step_time_ms": {
+   "mean": 53.3,
+   "median": 51.3,
+   "p95": 67.5
+  },
+  "train_time_s": 59.9,
+  "max_vram_mb": 785,
+  "timing": {
+   "train_s": 71.8,
+   "train_peak_rss_mb": 1436,
+   "train_peak_gpu_used_mb(system)": 1751,
+   "evalfull_s": 11.9,
+   "export_s": 9.7,
+   "parity_s": 11.1,
+   "devEval_s": 43.5
+  },
+  "total_pipeline_s": 148.0,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "66c1a96b5b2ef667ed5525417efceb1f3c5665148dda36a11656bf867ee471e5",
+   "export/model.onnx": "b54bb42b74b9cc2f6a39f2a6f089318127dbe7ce173512e9a6fb228610c6ddab",
+   "train_log.json": "6d871469cd114cfe8b3b7b8e999761eb0cc08a6620b45d5ba05b37eb5e6058e9",
+   "dev_result.json": "dae539457d5f7e09ed6b68f4ec0d2a59c590faafd47a94669e01d5958e5cb987",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-CP-s99",
+  "arm": "CP",
+  "seed": 99,
+  "stopped_epoch": 7,
+  "best_epoch": 5,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.735483870967742,
+    "elapsed_s": 11.5
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9125000000000001,
+    "elapsed_s": 21.4
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9615384615384615,
+    "elapsed_s": 31.1
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9681528662420382,
+    "elapsed_s": 42.2
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 52.2
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9681528662420382,
+    "elapsed_s": 61.8
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9554140127388535,
+    "elapsed_s": 71.7
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1029,
+  "step_time_ms": {
+   "mean": 53.4,
+   "median": 51.7,
+   "p95": 71.7
+  },
+  "train_time_s": 71.7,
+  "max_vram_mb": 785,
+  "timing": {
+   "train_s": 82.1,
+   "train_peak_rss_mb": 1436,
+   "train_peak_gpu_used_mb(system)": 1805,
+   "evalfull_s": 12.4,
+   "export_s": 18.9,
+   "parity_s": 10.9,
+   "devEval_s": 37.9
+  },
+  "total_pipeline_s": 162.2,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "dae0a855acc9633d1fc10d3b77d03faffc4b41c32ddcc9dbc12ca6927d8e3f18",
+   "export/model.onnx": "3c3b05d2ad8dc7a133db15b12295f2cc4dcb169abc4f8b2bf421062adab72812",
+   "train_log.json": "61cb0c1c3e64d42efcb3fd410e646e89ce4eb0191be76bd36b2e47d6a3304691",
+   "dev_result.json": "fa53507b8dcb4286f14a3e69e9da358844e086004f45acad3042a8efa8f23969",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E1-s13",
+  "arm": "E1",
+  "seed": 13,
+  "stopped_epoch": 6,
+  "best_epoch": 4,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7080745341614908,
+    "elapsed_s": 13.1
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9171974522292994,
+    "elapsed_s": 24.4
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9610389610389611,
+    "elapsed_s": 35.3
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 47.3
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 64.7
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 75.2
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1026,
+  "step_time_ms": {
+   "mean": 54.1,
+   "median": 51.9,
+   "p95": 72.6
+  },
+  "train_time_s": 75.2,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 86.8,
+   "train_peak_rss_mb": 1438,
+   "train_peak_gpu_used_mb(system)": 2632,
+   "evalfull_s": 51.2,
+   "export_s": 12.4,
+   "parity_s": 19.8,
+   "devEval_s": 42.0
+  },
+  "total_pipeline_s": 212.1,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "38db496cad1ae0cf49f5634ea4f8961993566b49804aa42848c71d1b12dd6bba",
+   "export/model.onnx": "5af32f12c917af257a722918e1523f890d826848cd8b44b29c916090acf8b432",
+   "train_log.json": "70fd819bbe12f5cd8ba217b47001d0f4594c1f84be9238ee8d103c25e3ecc3ae",
+   "dev_result.json": "f065902d942b204b3f075fc1ef2dc4e434c34018e9e155ffd4e524660480545b",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E1_train": "2391bd81822e816a98dfe310d926ee80b0cd6760db7b7c2fb9fe6e6d5b174f16"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E1-s21",
+  "arm": "E1",
+  "seed": 21,
+  "stopped_epoch": 7,
+  "best_epoch": 5,
+  "best_val_baseline_overlap_f1": 0.967741935483871,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7439024390243902,
+    "elapsed_s": 13.0
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.89171974522293,
+    "elapsed_s": 23.8
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.925,
+    "elapsed_s": 35.8
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9610389610389611,
+    "elapsed_s": 46.8
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 57.7
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9615384615384615,
+    "elapsed_s": 71.0
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 82.4
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1197,
+  "step_time_ms": {
+   "mean": 53.7,
+   "median": 51.9,
+   "p95": 71.2
+  },
+  "train_time_s": 82.4,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 95.3,
+   "train_peak_rss_mb": 1376,
+   "train_peak_gpu_used_mb(system)": 1806,
+   "evalfull_s": 11.6,
+   "export_s": 18.0,
+   "parity_s": 10.6,
+   "devEval_s": 37.4
+  },
+  "total_pipeline_s": 172.8,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "9e1d688623187ccf65cdbc30b0f711143f7050874baa745315c7b131a1f7acae",
+   "export/model.onnx": "651943d20798f083f27f101bffc73c17313dead76397f06bdc99d0535988cc9c",
+   "train_log.json": "fd478a598dbe22dd6f53ebd392a99cb7aa66d8e0a5618d5dc43bda4f5fa6a546",
+   "dev_result.json": "c8b0cb75de30f7bb78b72f6a2ff1001c6dbc94eb731e753c5effdbad5bf95dc5",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E1_train": "2391bd81822e816a98dfe310d926ee80b0cd6760db7b7c2fb9fe6e6d5b174f16"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E1-s42",
+  "arm": "E1",
+  "seed": 42,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7407407407407408,
+    "elapsed_s": 12.7
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9102564102564101,
+    "elapsed_s": 23.8
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 34.5
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 46.1
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 56.5
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 855,
+  "step_time_ms": {
+   "mean": 53.4,
+   "median": 51.6,
+   "p95": 69.6
+  },
+  "train_time_s": 57.0,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 69.8,
+   "train_peak_rss_mb": 1442,
+   "train_peak_gpu_used_mb(system)": 1800,
+   "evalfull_s": 11.9,
+   "export_s": 11.6,
+   "parity_s": 11.1,
+   "devEval_s": 37.4
+  },
+  "total_pipeline_s": 141.7,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "c01c58b0e89158c7390a5a393fbca2498ddaa5091119311e94e3d944f9edada9",
+   "export/model.onnx": "9e503f9a4f14ac1baf9eb0d70903f68d44b9e127b837601fcd1f1e9f4f1819ed",
+   "train_log.json": "10af248fb4c9c3ccec799479546dc1d611c7df2aaeaf133cccd35298f5f15516",
+   "dev_result.json": "d324c277b30397c9cbfe366f000f112ac77e6afe7a46d9d633d0f6705e5587b7",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E1_train": "2391bd81822e816a98dfe310d926ee80b0cd6760db7b7c2fb9fe6e6d5b174f16"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E1-s7",
+  "arm": "E1",
+  "seed": 7,
+  "stopped_epoch": 7,
+  "best_epoch": 5,
+  "best_val_baseline_overlap_f1": 0.9934640522875817,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7625,
+    "elapsed_s": 12.2
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.949367088607595,
+    "elapsed_s": 23.0
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9681528662420382,
+    "elapsed_s": 34.1
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 44.6
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9934640522875817,
+    "elapsed_s": 55.5
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 66.5
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 77.1
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1197,
+  "step_time_ms": {
+   "mean": 52.4,
+   "median": 51.1,
+   "p95": 67.3
+  },
+  "train_time_s": 77.2,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 88.2,
+   "train_peak_rss_mb": 1441,
+   "train_peak_gpu_used_mb(system)": 1763,
+   "evalfull_s": 11.7,
+   "export_s": 9.7,
+   "parity_s": 10.3,
+   "devEval_s": 36.5
+  },
+  "total_pipeline_s": 156.5,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "4dc3c138ad7414efc2efe2c2f28a8396d60c8b1721b51eb322ac8f93653b702f",
+   "export/model.onnx": "581c09267e8c5a39be6a9b6144ef2916c1fdab78488d7783c641bd6ba291d3ad",
+   "train_log.json": "0ed974bcac5712571082276e94366f0478ff7e67e8aa10918900880aaf18c777",
+   "dev_result.json": "2b5a74f0eaae62c62a3fa2d6dfefd9b968af631d5ba67854faa6d595d6f7e51d",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E1_train": "2391bd81822e816a98dfe310d926ee80b0cd6760db7b7c2fb9fe6e6d5b174f16"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E1-s99",
+  "arm": "E1",
+  "seed": 99,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7133757961783439,
+    "elapsed_s": 12.5
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9554140127388535,
+    "elapsed_s": 24.3
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 35.0
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 46.1
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 56.9
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 855,
+  "step_time_ms": {
+   "mean": 52.5,
+   "median": 51.3,
+   "p95": 68.5
+  },
+  "train_time_s": 56.9,
+  "max_vram_mb": 785,
+  "timing": {
+   "train_s": 67.8,
+   "train_peak_rss_mb": 1439,
+   "train_peak_gpu_used_mb(system)": 1799,
+   "evalfull_s": 11.9,
+   "export_s": 11.5,
+   "parity_s": 10.6,
+   "devEval_s": 36.9
+  },
+  "total_pipeline_s": 138.8,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "f0a524d39240c453e2bdd17388c00f031a47d814890d867014241ebc37bb1f3e",
+   "export/model.onnx": "0cfbbba10ffa1396384e19efd8aa48f1ea5614ffbcf5825262a24dcdc8d68215",
+   "train_log.json": "9128fd5d8477f5670a6254f7afc3bdeb3b454cd9442c60baccfe04d5aa3ec749",
+   "dev_result.json": "7e44d7fbe3aa70b8e75551298d94981b1b63902a5d4e47b09ab6d9381f73f56b",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E1_train": "2391bd81822e816a98dfe310d926ee80b0cd6760db7b7c2fb9fe6e6d5b174f16"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E2-s13",
+  "arm": "E2",
+  "seed": 13,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9440993788819877,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.6709677419354839,
+    "elapsed_s": 28.6
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8780487804878049,
+    "elapsed_s": 39.7
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9440993788819877,
+    "elapsed_s": 50.9
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9382716049382717,
+    "elapsed_s": 62.2
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9440993788819877,
+    "elapsed_s": 73.1
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 855,
+  "step_time_ms": {
+   "mean": 56.8,
+   "median": 53.1,
+   "p95": 71.3
+  },
+  "train_time_s": 73.1,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 92.4,
+   "train_peak_rss_mb": 1437,
+   "train_peak_gpu_used_mb(system)": 1801,
+   "evalfull_s": 12.6,
+   "export_s": 14.4,
+   "parity_s": 10.8,
+   "devEval_s": 38.2
+  },
+  "total_pipeline_s": 168.5,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "7ac42d801f7550d8fc4402516fb4a73003720fd0627983beb1420eaf1349d359",
+   "export/model.onnx": "c93a0b19a52b9333bc9a3e6314c1c7e70a8078982ebefeca6469a5a183fb79d0",
+   "train_log.json": "666566765cd47e99292a2f1ddfdc59c6726dd20da84d0f01321840ae0c06cd5a",
+   "dev_result.json": "b748359f1ea4ed915b9d3aca81886ecec1558a5906f2a2b04b8deb0f1064dd64",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E2_train": "8bf4d7c5fff259e7db3b59e612f27718deab95a0ee9d55749f7355e5d671d95b"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E2-s21",
+  "arm": "E2",
+  "seed": 21,
+  "stopped_epoch": 7,
+  "best_epoch": 5,
+  "best_val_baseline_overlap_f1": 0.9325153374233129,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.746987951807229,
+    "elapsed_s": 13.1
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8834355828220859,
+    "elapsed_s": 24.0
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.8711656441717791,
+    "elapsed_s": 37.9
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.930817610062893,
+    "elapsed_s": 48.5
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 59.4
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9316770186335402,
+    "elapsed_s": 71.3
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9316770186335402,
+    "elapsed_s": 81.8
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1197,
+  "step_time_ms": {
+   "mean": 53.5,
+   "median": 51.6,
+   "p95": 71.2
+  },
+  "train_time_s": 82.3,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 94.7,
+   "train_peak_rss_mb": 1438,
+   "train_peak_gpu_used_mb(system)": 1810,
+   "evalfull_s": 11.4,
+   "export_s": 12.6,
+   "parity_s": 10.9,
+   "devEval_s": 36.8
+  },
+  "total_pipeline_s": 166.5,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "1d1c6e7da93270ae53733e05cbae51a35dab79ed100f5c8152304d50b1d6dad5",
+   "export/model.onnx": "c41371dbf3f5ea516a93735dce95b6fb713925acd142414f4dbb55282a035782",
+   "train_log.json": "671745d500ccd2f509115012ce9ae0c76c8e43c74fb71a2b7ab96035f80388b5",
+   "dev_result.json": "55c7cd8bc2ac392821d90514fd639828ad89a57ef3ffc51efe01118f7c5e7177",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E2_train": "8bf4d7c5fff259e7db3b59e612f27718deab95a0ee9d55749f7355e5d671d95b"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E2-s42",
+  "arm": "E2",
+  "seed": 42,
+  "stopped_epoch": 8,
+  "best_epoch": 7,
+  "best_val_baseline_overlap_f1": 0.9620253164556963,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7544910179640718,
+    "elapsed_s": 12.8
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8819875776397516,
+    "elapsed_s": 23.5
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9090909090909091,
+    "elapsed_s": 35.1
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9382716049382717,
+    "elapsed_s": 46.3
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9615384615384615,
+    "elapsed_s": 57.8
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9554140127388535,
+    "elapsed_s": 69.1
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 79.8
+   },
+   {
+    "epoch": 8,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 91.8
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1368,
+  "step_time_ms": {
+   "mean": 53.7,
+   "median": 51.9,
+   "p95": 71.8
+  },
+  "train_time_s": 91.8,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 102.6,
+   "train_peak_rss_mb": 1437,
+   "train_peak_gpu_used_mb(system)": 1798,
+   "evalfull_s": 11.8,
+   "export_s": 15.1,
+   "parity_s": 10.8,
+   "devEval_s": 37.6
+  },
+  "total_pipeline_s": 177.9,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "35d6636dc0a9802f83be40427008dcab7f01c3dad960a105e15042e2bc03f9bd",
+   "export/model.onnx": "71851a177505ab69a3d3e1534fb746221c38ea01a87ec00ac724287e4faab316",
+   "train_log.json": "5870d26397d3a737ce567ec36f517d98468d883a43c641e68f2246e94b0fb9d5",
+   "dev_result.json": "2f8fa8265072fba46f2fe63b8a26d9b340f8a28905d4e7d8121403ea9da56551",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E2_train": "8bf4d7c5fff259e7db3b59e612f27718deab95a0ee9d55749f7355e5d671d95b"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E2-s7",
+  "arm": "E2",
+  "seed": 7,
+  "stopped_epoch": 8,
+  "best_epoch": 8,
+  "best_val_baseline_overlap_f1": 0.9500000000000001,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7515151515151515,
+    "elapsed_s": 12.2
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8944099378881987,
+    "elapsed_s": 23.2
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9375,
+    "elapsed_s": 33.8
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9375,
+    "elapsed_s": 45.2
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9433962264150944,
+    "elapsed_s": 56.0
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9440993788819877,
+    "elapsed_s": 66.7
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9440993788819877,
+    "elapsed_s": 79.1
+   },
+   {
+    "epoch": 8,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 90.0
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1368,
+  "step_time_ms": {
+   "mean": 52.8,
+   "median": 51.6,
+   "p95": 68.1
+  },
+  "train_time_s": 90.2,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 100.5,
+   "train_peak_rss_mb": 1442,
+   "train_peak_gpu_used_mb(system)": 1763,
+   "evalfull_s": 12.7,
+   "export_s": 10.2,
+   "parity_s": 10.3,
+   "devEval_s": 36.1
+  },
+  "total_pipeline_s": 169.9,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "14b44098ad162aa1b5c7c802626b11cd5a954cee0e229f0d7db618096c39a785",
+   "export/model.onnx": "8ec7f3c3e745d8792bfb5af993b8310cceae20dd7a7ed9f12eb1862d60058d9f",
+   "train_log.json": "ad206fec2cfa900af584c7d8f44df277a3067205b0527ede20b0dee7521b1aed",
+   "dev_result.json": "ee569fe203036597025f1b40ab5b5bf9acd7b50350cd4a8e1f53ba20a0a5a509",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E2_train": "8bf4d7c5fff259e7db3b59e612f27718deab95a0ee9d55749f7355e5d671d95b"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E2-s99",
+  "arm": "E2",
+  "seed": 99,
+  "stopped_epoch": 6,
+  "best_epoch": 4,
+  "best_val_baseline_overlap_f1": 0.9500000000000001,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7530864197530864,
+    "elapsed_s": 12.3
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9146341463414636,
+    "elapsed_s": 24.8
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.925925925925926,
+    "elapsed_s": 36.0
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 46.6
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 59.3
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9433962264150944,
+    "elapsed_s": 69.9
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1026,
+  "step_time_ms": {
+   "mean": 53.0,
+   "median": 51.3,
+   "p95": 69.2
+  },
+  "train_time_s": 69.9,
+  "max_vram_mb": 785,
+  "timing": {
+   "train_s": 82.2,
+   "train_peak_rss_mb": 1440,
+   "train_peak_gpu_used_mb(system)": 1800,
+   "evalfull_s": 11.6,
+   "export_s": 10.3,
+   "parity_s": 10.9,
+   "devEval_s": 36.3
+  },
+  "total_pipeline_s": 151.3,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "2056e8662c6c98841d4842be612513f1aee6483c033373f07bd32f7daf70d93c",
+   "export/model.onnx": "bea9b1a0a462dc6c3c953c6e49136ccb24ce7a6e0efbe63e0af6fbae5cbe5451",
+   "train_log.json": "3facd8bb3d5114aa60fb7a9114f8f727895d4b5fb6681d307827b0bc9547a045",
+   "dev_result.json": "3cc8ec6f3fe5a28fbed738ddec6388621ed9c6b310d0ebf759e18421cd6490df",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E2_train": "8bf4d7c5fff259e7db3b59e612f27718deab95a0ee9d55749f7355e5d671d95b"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E3-s13",
+  "arm": "E3",
+  "seed": 13,
+  "stopped_epoch": 6,
+  "best_epoch": 4,
+  "best_val_baseline_overlap_f1": 0.9559748427672956,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7044025157232704,
+    "elapsed_s": 14.7
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8888888888888888,
+    "elapsed_s": 25.6
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9375,
+    "elapsed_s": 36.4
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9559748427672956,
+    "elapsed_s": 48.2
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9559748427672956,
+    "elapsed_s": 58.9
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 69.9
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1026,
+  "step_time_ms": {
+   "mean": 54.9,
+   "median": 51.7,
+   "p95": 71.4
+  },
+  "train_time_s": 69.9,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 82.0,
+   "train_peak_rss_mb": 1441,
+   "train_peak_gpu_used_mb(system)": 1802,
+   "evalfull_s": 11.9,
+   "export_s": 15.3,
+   "parity_s": 10.5,
+   "devEval_s": 38.4
+  },
+  "total_pipeline_s": 158.0,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "1066b0bc28dd140ee546af6a51d8abc694cec8944290e72ed5e807084b7e53f4",
+   "export/model.onnx": "a95bfd0f77aa40240ce4995eb322dc6f8380a74273121904e1f2a22b11f454bc",
+   "train_log.json": "f38ff5836c50cd34b743ac759fcb632fc4a8b122a389571b0369e52dc6e4a547",
+   "dev_result.json": "3670f3aa0f5ca39e537adda0394d443959db88deaf6bb4e57f801671494899f5",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E3_train": "f0ab82e1716d7e1af468d39cfb5b6e1f9d756bc38ed10c6bc91d2d32eda77c6f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E3-s21",
+  "arm": "E3",
+  "seed": 21,
+  "stopped_epoch": 6,
+  "best_epoch": 4,
+  "best_val_baseline_overlap_f1": 0.9325153374233129,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7560975609756098,
+    "elapsed_s": 12.9
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8711656441717791,
+    "elapsed_s": 24.3
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9079754601226995,
+    "elapsed_s": 35.5
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 47.2
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.925925925925926,
+    "elapsed_s": 59.5
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.925925925925926,
+    "elapsed_s": 70.4
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1026,
+  "step_time_ms": {
+   "mean": 54.2,
+   "median": 52.1,
+   "p95": 75.2
+  },
+  "train_time_s": 70.4,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 82.2,
+   "train_peak_rss_mb": 1440,
+   "train_peak_gpu_used_mb(system)": 1808,
+   "evalfull_s": 11.6,
+   "export_s": 12.3,
+   "parity_s": 10.9,
+   "devEval_s": 38.7
+  },
+  "total_pipeline_s": 155.8,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "2fd822bcdee09b931463b2a80f6e99387dd53a4a04c5bef19769f630bbf49920",
+   "export/model.onnx": "e09105fc10aca6ca02c3141df9019b91323eae62bdeed49c4ab19c4741f6590f",
+   "train_log.json": "8709b8973b85aa5170709b497fd79812be4bc7ebc0edd8b4197c181247a28412",
+   "dev_result.json": "f9ff034e2e710f5f051b94912bc1d143f9531da5f0cf64c589e7f0200f8d4024",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E3_train": "f0ab82e1716d7e1af468d39cfb5b6e1f9d756bc38ed10c6bc91d2d32eda77c6f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E3-s42",
+  "arm": "E3",
+  "seed": 42,
+  "stopped_epoch": 6,
+  "best_epoch": 4,
+  "best_val_baseline_overlap_f1": 0.9382716049382717,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7325581395348838,
+    "elapsed_s": 13.1
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8765432098765432,
+    "elapsed_s": 23.8
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 35.4
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9382716049382717,
+    "elapsed_s": 46.0
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9375,
+    "elapsed_s": 57.1
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9375,
+    "elapsed_s": 68.1
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1026,
+  "step_time_ms": {
+   "mean": 53.3,
+   "median": 51.3,
+   "p95": 72.0
+  },
+  "train_time_s": 68.1,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 80.1,
+   "train_peak_rss_mb": 1440,
+   "train_peak_gpu_used_mb(system)": 1799,
+   "evalfull_s": 11.9,
+   "export_s": 11.2,
+   "parity_s": 10.8,
+   "devEval_s": 37.4
+  },
+  "total_pipeline_s": 151.4,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "553434bbf71d5de9022fdb0e3133bb3c6b7aacc5c4c1888c4e77ae2d46e23475",
+   "export/model.onnx": "4d00ea8b198fcb7c5df4ef8661d6203224d9c18eb3261547dbca956d520e97b0",
+   "train_log.json": "1ebc693acd65bbe62ad68ebd6d39023d1297a68f5d5a38d138da2939d0b30009",
+   "dev_result.json": "00bac2a82e4f5f9191b1fe42ef6eb951f60c30db497502495d8368988f4376fa",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E3_train": "f0ab82e1716d7e1af468d39cfb5b6e1f9d756bc38ed10c6bc91d2d32eda77c6f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E3-s7",
+  "arm": "E3",
+  "seed": 7,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9325153374233129,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7453416149068324,
+    "elapsed_s": 12.7
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.869047619047619,
+    "elapsed_s": 23.6
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 34.2
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 45.2
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 56.0
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 855,
+  "step_time_ms": {
+   "mean": 52.6,
+   "median": 50.8,
+   "p95": 67.5
+  },
+  "train_time_s": 56.0,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 67.7,
+   "train_peak_rss_mb": 1436,
+   "train_peak_gpu_used_mb(system)": 1763,
+   "evalfull_s": 11.6,
+   "export_s": 10.8,
+   "parity_s": 11.0,
+   "devEval_s": 39.3
+  },
+  "total_pipeline_s": 140.4,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "0fcd5c53898b911bd0685203ac01fa5f3b3ab3d901f5ca575d528d852df19a39",
+   "export/model.onnx": "707df39afba6085e92774d8a6269e32c4db2e8d8333997a45e285d51b4df0095",
+   "train_log.json": "0d7666011d40757d1b434bac805c31129b78eb42c810fe1e35e2bbc5373a04bc",
+   "dev_result.json": "3933afd7e4afed149ad76d2bb5ce5daf7ae5469f334c5c6ff1b7487948a33902",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E3_train": "f0ab82e1716d7e1af468d39cfb5b6e1f9d756bc38ed10c6bc91d2d32eda77c6f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E3-s99",
+  "arm": "E3",
+  "seed": 99,
+  "stopped_epoch": 7,
+  "best_epoch": 5,
+  "best_val_baseline_overlap_f1": 0.9382716049382717,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.6666666666666666,
+    "elapsed_s": 12.2
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8834355828220859,
+    "elapsed_s": 24.1
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9316770186335402,
+    "elapsed_s": 35.3
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9325153374233129,
+    "elapsed_s": 46.1
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9382716049382717,
+    "elapsed_s": 58.8
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9382716049382717,
+    "elapsed_s": 70.7
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.9382716049382717,
+    "elapsed_s": 81.3
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1197,
+  "step_time_ms": {
+   "mean": 53.8,
+   "median": 51.9,
+   "p95": 71.8
+  },
+  "train_time_s": 81.3,
+  "max_vram_mb": 785,
+  "timing": {
+   "train_s": 92.4,
+   "train_peak_rss_mb": 1439,
+   "train_peak_gpu_used_mb(system)": 1799,
+   "evalfull_s": 12.1,
+   "export_s": 13.5,
+   "parity_s": 10.7,
+   "devEval_s": 37.7
+  },
+  "total_pipeline_s": 166.5,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "aff80df70abed98f81a6521f48ad632d3a39365bfae7666fd51debc02f06d8d6",
+   "export/model.onnx": "985d6612dee27e8e257300bad3ed1545c0192b0a930e7a4cfacbc4081fddf9ac",
+   "train_log.json": "1f50882960a17029b37b6cc0334fcf410f23ec13280474034a739915d6281ad6",
+   "dev_result.json": "61397ff6bb1937be3fe8e14ba00e5b7526f5f2cce8e34aadf14e675f380837a6",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E3_train": "f0ab82e1716d7e1af468d39cfb5b6e1f9d756bc38ed10c6bc91d2d32eda77c6f"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E4-s13",
+  "arm": "E4",
+  "seed": 13,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9806451612903226,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.6797385620915033,
+    "elapsed_s": 12.6
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9375,
+    "elapsed_s": 23.8
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9806451612903226,
+    "elapsed_s": 35.0
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 46.3
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 57.1
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 855,
+  "step_time_ms": {
+   "mean": 52.9,
+   "median": 51.4,
+   "p95": 69.6
+  },
+  "train_time_s": 57.5,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 69.8,
+   "train_peak_rss_mb": 1436,
+   "train_peak_gpu_used_mb(system)": 1809,
+   "evalfull_s": 12.2,
+   "export_s": 10.6,
+   "parity_s": 10.9,
+   "devEval_s": 38.3
+  },
+  "total_pipeline_s": 141.8,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "c753f1bb1b450cdc45face5fc002c6296c555343f786e7d0cc01bb876c066416",
+   "export/model.onnx": "6fc9f452871c0ef0b60c3477c6f7d9fe1a9b8de1c3263e994d36a25fb970a906",
+   "train_log.json": "165fe8e67d89d668cc29b5c28bc888c6d05100113647a60f6ab53e6b03c87635",
+   "dev_result.json": "9798d7728baa0a2ae1808f774cc4325cad87d69e663578804bab392aa21622b6",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E4_train": "b771d236bd00aa557de6407e2e1ac8bade6b673c8bd4700abfa1f95572d8565a"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E4-s21",
+  "arm": "E4",
+  "seed": 21,
+  "stopped_epoch": 8,
+  "best_epoch": 6,
+  "best_val_baseline_overlap_f1": 0.967741935483871,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7770700636942676,
+    "elapsed_s": 12.7
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.8727272727272727,
+    "elapsed_s": 24.6
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9146341463414636,
+    "elapsed_s": 35.6
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9668874172185431,
+    "elapsed_s": 46.3
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9554140127388535,
+    "elapsed_s": 58.3
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 69.3
+   },
+   {
+    "epoch": 7,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 80.5
+   },
+   {
+    "epoch": 8,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 91.5
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1368,
+  "step_time_ms": {
+   "mean": 53.5,
+   "median": 51.7,
+   "p95": 70.8
+  },
+  "train_time_s": 91.5,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 104.7,
+   "train_peak_rss_mb": 1439,
+   "train_peak_gpu_used_mb(system)": 1806,
+   "evalfull_s": 11.8,
+   "export_s": 12.1,
+   "parity_s": 11.1,
+   "devEval_s": 37.2
+  },
+  "total_pipeline_s": 176.9,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "94d16fe2e871fe7fb575777bc83f323c4b833b7a8ed0d88bd95de5bc2cd51164",
+   "export/model.onnx": "120cdf14fa3f23bd870baa8abf1d92410cec4004c7a9a23300b5d40f5d2aecad",
+   "train_log.json": "df0860f28cbf85aa4651d02254fa10ef3c8ac0bd5faf0a9a85ccca8ac942de62",
+   "dev_result.json": "30866901608b4af561cbad8ebaece8517e49a075b499a8b19e8c076a00dd0812",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E4_train": "b771d236bd00aa557de6407e2e1ac8bade6b673c8bd4700abfa1f95572d8565a"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E4-s42",
+  "arm": "E4",
+  "seed": 42,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7455621301775148,
+    "elapsed_s": 12.6
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9171974522292994,
+    "elapsed_s": 24.0
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 34.7
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 46.4
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 57.1
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 855,
+  "step_time_ms": {
+   "mean": 53.1,
+   "median": 51.8,
+   "p95": 69.4
+  },
+  "train_time_s": 57.1,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 69.8,
+   "train_peak_rss_mb": 1395,
+   "train_peak_gpu_used_mb(system)": 1799,
+   "evalfull_s": 11.3,
+   "export_s": 11.8,
+   "parity_s": 10.7,
+   "devEval_s": 39.7
+  },
+  "total_pipeline_s": 143.2,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "36e8325015bdefe82e3438f9d7c64264cde065a77afd3eca61bed82c1be7354c",
+   "export/model.onnx": "3a6209fd7459158c18bc6e1fda22a80f9a9fcb3f85e94ba8e53c668835d2b0f7",
+   "train_log.json": "f5060518fe75ed326f3f8285e2af65cc66dafd64f06577f73cb49acfec28811b",
+   "dev_result.json": "9e89aa24db5d8e64540bac42ebb66b647bbd78808e7942672e1c9a456db0da8a",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E4_train": "b771d236bd00aa557de6407e2e1ac8bade6b673c8bd4700abfa1f95572d8565a"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E4-s7",
+  "arm": "E4",
+  "seed": 7,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.75,
+    "elapsed_s": 12.6
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 23.6
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 34.2
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 46.5
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 57.4
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 855,
+  "step_time_ms": {
+   "mean": 52.7,
+   "median": 51.2,
+   "p95": 67.9
+  },
+  "train_time_s": 57.4,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 68.0,
+   "train_peak_rss_mb": 1441,
+   "train_peak_gpu_used_mb(system)": 1801,
+   "evalfull_s": 11.2,
+   "export_s": 9.8,
+   "parity_s": 10.3,
+   "devEval_s": 36.0
+  },
+  "total_pipeline_s": 135.3,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "5dfc46fb0515a96101718931fde18139332419647994bf8cbd8b189435e73105",
+   "export/model.onnx": "f0854465f3fd1976582455482d45f0c5c0c468b8d17a4641098f512cea317df2",
+   "train_log.json": "560c0cc4bf5d76373b5929cadf9c8fe9fa15714194039944c4ef0c9ff1816474",
+   "dev_result.json": "642bd47c3bf11cde80327292fd37ec57b103022623a724295401b27bf5528023",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E4_train": "b771d236bd00aa557de6407e2e1ac8bade6b673c8bd4700abfa1f95572d8565a"
+   }
+  }
+ },
+ {
+  "run_id": "r9-E4-s99",
+  "arm": "E4",
+  "seed": 99,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.967741935483871,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7770700636942676,
+    "elapsed_s": 12.6
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9230769230769231,
+    "elapsed_s": 23.8
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 34.6
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 46.7
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 57.1
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 855,
+  "step_time_ms": {
+   "mean": 52.7,
+   "median": 51.1,
+   "p95": 68.1
+  },
+  "train_time_s": 57.6,
+  "max_vram_mb": 785,
+  "timing": {
+   "train_s": 70.2,
+   "train_peak_rss_mb": 1439,
+   "train_peak_gpu_used_mb(system)": 1794,
+   "evalfull_s": 12.2,
+   "export_s": 13.6,
+   "parity_s": 10.5,
+   "devEval_s": 36.9
+  },
+  "total_pipeline_s": 143.3,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "c6b387f8bc471c6a45d7bcc6ab04b3afbce64a857b072b51d6183978ad94dd7b",
+   "export/model.onnx": "d2df9f1be3f297168427176b1fd90c93429076d180a29a94906c57f14513ab4e",
+   "train_log.json": "a904bf0145dcc5c659e560940ee7ed3b726d63879f6f6203684f23a9d00c0652",
+   "dev_result.json": "de93752d7a584bab36d6ed62300e8e32161b907f74b7b55d34d071e27e26db3e",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_E4_train": "b771d236bd00aa557de6407e2e1ac8bade6b673c8bd4700abfa1f95572d8565a"
+   }
+  }
+ },
+ {
+  "run_id": "r9-F-full-s13",
+  "arm": "F-full",
+  "seed": 13,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 1.0,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.84472049689441,
+    "elapsed_s": 17.4
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 35.0
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 1.0,
+    "elapsed_s": 51.0
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9933774834437086,
+    "elapsed_s": 68.6
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 1.0,
+    "elapsed_s": 83.7
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1225,
+  "step_time_ms": {
+   "mean": 55.0,
+   "median": 53.5,
+   "p95": 73.5
+  },
+  "train_time_s": 83.7,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 96.6,
+   "train_peak_rss_mb": 1456,
+   "train_peak_gpu_used_mb(system)": 1801,
+   "evalfull_s": 14.8,
+   "export_s": 12.8,
+   "parity_s": 10.5,
+   "devEval_s": 38.5
+  },
+  "total_pipeline_s": 173.4,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "aeb7ad50076786df4c6f97eb9fd01aff7b5ab74b8955f784dbd7eb82719d7f96",
+   "export/model.onnx": "997191d7874ca3d71e3030e232d566daafa2cd8c7f36d9cceb2cadb2447a9bdf",
+   "train_log.json": "1c2d283947d61a6ee19bc5c64aedcdf4a02cf0bdd27f77abdb941d23d847b461",
+   "dev_result.json": "520f7b4172373ecf338240bf8cb3ecd30edf53513c1908502e7508b4661a4985",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_Ffull_train": "3182dfbbef296cc66235668ccb1f5ad1ad58c59e9125459911e074ad17a2e0a5"
+   }
+  }
+ },
+ {
+  "run_id": "r9-F-full-s21",
+  "arm": "F-full",
+  "seed": 21,
+  "stopped_epoch": 6,
+  "best_epoch": 4,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8292682926829269,
+    "elapsed_s": 19.0
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9113924050632912,
+    "elapsed_s": 33.8
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 49.6
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 65.4
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 80.9
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 96.0
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1470,
+  "step_time_ms": {
+   "mean": 54.6,
+   "median": 51.6,
+   "p95": 70.3
+  },
+  "train_time_s": 96.0,
+  "max_vram_mb": 785,
+  "timing": {
+   "train_s": 108.9,
+   "train_peak_rss_mb": 1456,
+   "train_peak_gpu_used_mb(system)": 1808,
+   "evalfull_s": 13.0,
+   "export_s": 10.2,
+   "parity_s": 11.1,
+   "devEval_s": 37.7
+  },
+  "total_pipeline_s": 181.0,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "dcd69c88443f40c4321748eeb445e3821a5242d3b70330314333ec3f24730f20",
+   "export/model.onnx": "1ff0197f21901f680394ecccad037743396d02a6b7dce988e4efb853dd941710",
+   "train_log.json": "5ff8a45eb99a98ba009c5882d203cb59e61af63cc4da8cd4bd8a63376908f1ee",
+   "dev_result.json": "40342fd5bd0e953e302e0051f10fc743f8109105d7ebfbc40b973a59c5c64688",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_Ffull_train": "3182dfbbef296cc66235668ccb1f5ad1ad58c59e9125459911e074ad17a2e0a5"
+   }
+  }
+ },
+ {
+  "run_id": "r9-F-full-s42",
+  "arm": "F-full",
+  "seed": 42,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.7804878048780488,
+    "elapsed_s": 16.2
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9500000000000001,
+    "elapsed_s": 32.2
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 47.0
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 61.8
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 76.9
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1225,
+  "step_time_ms": {
+   "mean": 52.7,
+   "median": 51.8,
+   "p95": 68.6
+  },
+  "train_time_s": 76.9,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 88.3,
+   "train_peak_rss_mb": 1458,
+   "train_peak_gpu_used_mb(system)": 1808,
+   "evalfull_s": 11.9,
+   "export_s": 11.8,
+   "parity_s": 10.9,
+   "devEval_s": 37.2
+  },
+  "total_pipeline_s": 160.2,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "8e10cf3b16342687c74a780e64f54d63a3e8a80546febe5c55904ce4fd277bce",
+   "export/model.onnx": "4a8776e7979e0ae56f08213d3c94b9459b1ec611b754d7ce1eea6bd4917f66aa",
+   "train_log.json": "12df84c3f2c9480b6524e57e6a344a9a5fe7e5d44c1e8741b1d1d4777c7de6be",
+   "dev_result.json": "83c3135bb88d9a48a2978c7021623ccee3f6c75065af84e478de903b6c5cb43e",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_Ffull_train": "3182dfbbef296cc66235668ccb1f5ad1ad58c59e9125459911e074ad17a2e0a5"
+   }
+  }
+ },
+ {
+  "run_id": "r9-F-full-s7",
+  "arm": "F-full",
+  "seed": 7,
+  "stopped_epoch": 5,
+  "best_epoch": 3,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8,
+    "elapsed_s": 16.5
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.9620253164556963,
+    "elapsed_s": 31.3
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 47.9
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 63.5
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 78.3
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1225,
+  "step_time_ms": {
+   "mean": 52.8,
+   "median": 51.5,
+   "p95": 68.0
+  },
+  "train_time_s": 78.3,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 90.4,
+   "train_peak_rss_mb": 1401,
+   "train_peak_gpu_used_mb(system)": 1761,
+   "evalfull_s": 11.7,
+   "export_s": 11.4,
+   "parity_s": 10.1,
+   "devEval_s": 37.5
+  },
+  "total_pipeline_s": 161.2,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "88f7a1390bba285f54dcd4572d882a7363124f54fa9efdbfc2f28ec30ecfd39c",
+   "export/model.onnx": "14dca9225cb20dc6e37f3fb86800a7904b026f90aad77571c69cab29a11e7970",
+   "train_log.json": "90f8a30215c13b0d349f17c5fda3797b6cb4c81454d4618ac0df4b70df500f0f",
+   "dev_result.json": "249dad75204a8f57541b716c81f35d662f028abc14850b41e3336bf5074c500e",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_Ffull_train": "3182dfbbef296cc66235668ccb1f5ad1ad58c59e9125459911e074ad17a2e0a5"
+   }
+  }
+ },
+ {
+  "run_id": "r9-F-full-s99",
+  "arm": "F-full",
+  "seed": 99,
+  "stopped_epoch": 6,
+  "best_epoch": 4,
+  "best_val_baseline_overlap_f1": 0.9743589743589743,
+  "epochs": [
+   {
+    "epoch": 1,
+    "baseline_val_overlap_f1": 0.8383233532934132,
+    "elapsed_s": 17.6
+   },
+   {
+    "epoch": 2,
+    "baseline_val_overlap_f1": 0.949367088607595,
+    "elapsed_s": 32.5
+   },
+   {
+    "epoch": 3,
+    "baseline_val_overlap_f1": 0.967741935483871,
+    "elapsed_s": 47.4
+   },
+   {
+    "epoch": 4,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 61.7
+   },
+   {
+    "epoch": 5,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 77.5
+   },
+   {
+    "epoch": 6,
+    "baseline_val_overlap_f1": 0.9743589743589743,
+    "elapsed_s": 92.6
+   }
+  ],
+  "steps_per_epoch_x_epochs_run": 1470,
+  "step_time_ms": {
+   "mean": 52.8,
+   "median": 50.4,
+   "p95": 69.3
+  },
+  "train_time_s": 92.6,
+  "max_vram_mb": 784,
+  "timing": {
+   "train_s": 106.9,
+   "train_peak_rss_mb": 1467,
+   "train_peak_gpu_used_mb(system)": 1804,
+   "evalfull_s": 13.1,
+   "export_s": 21.8,
+   "parity_s": 11.1,
+   "devEval_s": 37.0
+  },
+  "total_pipeline_s": 189.9,
+  "parity": {
+   "onnx_vs_torch_token_agreement_pct": 100.0,
+   "identical_sentences": "180/180",
+   "checkpoint_reload_identical": true
+  },
+  "sha256": {
+   "best/model.safetensors": "135c8f270870784ef23e24916c55cb5e64aea60169de544560c7ae90b6963db8",
+   "export/model.onnx": "51a18849512e2c1f5fbad33026e72999b71a4355f05130d7cd876b2eacf75209",
+   "train_log.json": "f93d3b6d58c587a8b714deec9ed0494c5692dcb43f606de04c9bb9847ed77d2c",
+   "dev_result.json": "1e9dd5a5c7288114c32af4041dfa1ac12047d099f7a665d4ab92a829ba9aa9f4",
+   "train_data_files": {
+    "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+    "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+    "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+    "r9_Ffull_train": "3182dfbbef296cc66235668ccb1f5ad1ad58c59e9125459911e074ad17a2e0a5"
+   }
+  }
+ }
+]

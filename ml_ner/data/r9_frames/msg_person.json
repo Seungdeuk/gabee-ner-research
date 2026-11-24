@@ -1,0 +1,2282 @@
+[
+ {
+  "id": "msgp-001",
+  "scenario": "일정·약속",
+  "text": "{N1:sub} 내일 학원 끝나고 곧장 온대 그건 {N2:dat} 말해 둘게",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-002",
+  "scenario": "일정·약속",
+  "text": "이번 토요일 점심에 {N1:com} 같이 보기로 했어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-003",
+  "scenario": "일정·약속",
+  "text": "{N1:voc}, 모레 저녁 약속 안 잊었지? {N2:sub} 대신 챙겨 준대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-004",
+  "scenario": "일정·약속",
+  "text": "할머니 생신 모임은 일요일 낮 열두 시로 잡았고 {N1:top} 늦게 온다더라",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-005",
+  "scenario": "일정·약속",
+  "text": "오늘 회의 때문에 {N1:dat} 전화 못 했어요. 이따 연락드릴게요",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-006",
+  "scenario": "일정·약속",
+  "text": "다음 주 화요일에 {N1:pos} 상담 일정 있는 거 캘린더에 넣어놨어 아, {N2:obj} 깜빡할 뻔했네",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-007",
+  "scenario": "일정·약속",
+  "text": "{N1:obj} 데리러 가는 시간이 여섯 시 반이라 그 전에 끝내야 해",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-008",
+  "scenario": "일정·약속",
+  "text": "내일 {O1}에서 {N1:com} 만나기로 했으니까 아침 일찍 일어나자",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-009",
+  "scenario": "일정·약속",
+  "text": "{N1:top} 이번 주 금요일은 안 된대. 날짜 다시 잡자",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-010",
+  "scenario": "일정·약속",
+  "text": "저녁 약속은 {L1}에서 하는 걸로 {N1:dat} 말해 뒀어",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-011",
+  "scenario": "일정·약속",
+  "text": "가족 모임 날짜 정하자. 언제가 편해, {N1:bare}? {N2:com} 얘기해 보고 알려 줄게",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-012",
+  "scenario": "일정·약속",
+  "text": "다음 달 첫째 주에 {N1:pos} 졸업식이 있대요",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-013",
+  "scenario": "일정·약속",
+  "text": "약속 시간 바꿔도 될까요? {N1:lit}씨 일정이 갑자기 달라졌대서요 참고로 {N2:pos} 의견도 들어 봤어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-014",
+  "scenario": "일정·약속",
+  "text": "{N1:sub} {N2:com} 일요일에 같이 장 보러 간다고 했어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-015",
+  "scenario": "일정·약속",
+  "text": "이번 주말 가족사진 찍는 날, {N1:top} {N2:dat} 시간 알려줬대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-016",
+  "scenario": "일정·약속",
+  "text": "내일 아침 아홉 시에 {N1:obj} 먼저 태우고 {N2:obj} 데리러 갈게",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-017",
+  "scenario": "일정·약속",
+  "text": "{N1:com} {N2:com} 셋이서 다음 주 목요일 저녁 어때?",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-018",
+  "scenario": "일정·약속",
+  "text": "다 같이 모일 수 있는 날이 언제야? {N1:sub} 수요일, {N2:sub} 금요일, {N3:sub} 아무 날이나 된대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-019",
+  "scenario": "일정·약속",
+  "text": "토요일 일정 정리할게. {N1:top} 오전, {N2:top} 오후, {N3:top} 저녁 담당이야",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-020",
+  "scenario": "일정·약속",
+  "text": "{NK1:top} 다음 주에 휴가라서 그날은 비워 둬도 된대",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-021",
+  "scenario": "일정·약속",
+  "text": "{NK1:dat} 일정 물어봤더니 목요일은 안 된다고 하시네",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-022",
+  "scenario": "일정·약속",
+  "text": "우리 {AL1:top} 이번 주말에 소풍 간다고 신났어",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-023",
+  "scenario": "일정·약속",
+  "text": "{AL1:voc}, 내일 일정표 확인해 봐. 학교 끝나는 시간이 바뀌었어",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-024",
+  "scenario": "일정·약속",
+  "text": "{K1:sub} 일정이 있어서 모임은 {N1:dat} 맡기기로 했어",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-025",
+  "scenario": "일정·약속",
+  "text": "연락처 {PH1} 로 확정 문자 보내 놨으니까 {N1:sub} 확인해 줘",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-026",
+  "scenario": "일정·약속",
+  "text": "예약은 {O1}에 {N1:pos} 이름으로 해 놨어. 주소는 {AD1} 이야",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-027",
+  "scenario": "일정·약속",
+  "text": "다음 주 월요일 저녁 {N1:com} {AL1:com} 같이 외식할까?",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-028",
+  "scenario": "일정·약속",
+  "text": "{N1:sub} 일정 공유 달력에 추가했으니 {N2:sub} 한번 확인해",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-029",
+  "scenario": "일정·약속",
+  "text": "내일 {N1:top} 못 오면 {K1:obj} 모시고 가는 걸로 하자",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-030",
+  "scenario": "일정·약속",
+  "text": "일정 확인 메일은 {EM1} 로 보냈어요. {N1:obj} 참조에 넣었고요",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-031",
+  "scenario": "일정·약속",
+  "text": "출발 시간 늦추자고 {N1:dat} 한마디만 전해 줘",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-032",
+  "scenario": "일정·약속",
+  "text": "내일 약속 장소 {L1} 맞지? {N1:sub} 헷갈린대",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-033",
+  "scenario": "학교·학원",
+  "text": "{N1:sub} 오늘 학교에서 상 받았대!",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-034",
+  "scenario": "학교·학원",
+  "text": "{N1:dat} 준비물 챙겨 줬어? 내일 미술 시간 있다고 했는데 {N2:top} 이미 알고 있더라",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-035",
+  "scenario": "학교·학원",
+  "text": "학원 끝나면 {N1:com} 같이 버스 타고 와",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-036",
+  "scenario": "학교·학원",
+  "text": "선생님이 {N1:obj} 칭찬하셨다고 전화 왔어요",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-037",
+  "scenario": "학교·학원",
+  "text": "내일 {O1} 학부모 상담 시간이 세 시래. {N1:pos} 담임 선생님 만나러 가야 해",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-038",
+  "scenario": "학교·학원",
+  "text": "{N1:voc}, 숙제 다 했어? 학원 가기 전에 끝내 놔 그럼 {N2:voc}, 네가 정해 줘",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-039",
+  "scenario": "학교·학원",
+  "text": "{N1:top} 수학 시험이 어려웠다고 시무룩해 있더라",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-040",
+  "scenario": "학교·학원",
+  "text": "오늘 {O1} 앞에서 {N1:obj} 기다릴게",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-041",
+  "scenario": "학교·학원",
+  "text": "방과후 수업 신청서에 {N1:pos} 이름이랑 연락처 {PH1} 적어서 냈어",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-042",
+  "scenario": "학교·학원",
+  "text": "{N1:sub} 반장 선거에 나간다는데 응원해 줘야지",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-043",
+  "scenario": "학교·학원",
+  "text": "{N1:lit}네 반은 내일 현장학습이라 도시락 싸 간대 그리고 {N2:sub} 안 온다더라",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-044",
+  "scenario": "학교·학원",
+  "text": "우리 반 단톡에서 {N1:dat} 급식 메뉴 물어봤더니 돈가스래",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-045",
+  "scenario": "학교·학원",
+  "text": "{N1:sub} {N2:com} 같은 반이 됐다고 기뻐서 난리야",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-046",
+  "scenario": "학교·학원",
+  "text": "이번 학기 짝꿍은 {N1:top} {N2:pos} 옆자리래요",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-047",
+  "scenario": "학교·학원",
+  "text": "학원 숙제 {N1:dat} 먼저 물어보고 {N2:dat} 보여 줘",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-048",
+  "scenario": "학교·학원",
+  "text": "선생님이 {N1:obj} 부르시더니 {N2:obj} 도와주라고 하셨대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-049",
+  "scenario": "학교·학원",
+  "text": "{N1:voc} {N2:voc} {N3:voc} 셋 다 내일 체육복 가져오는 거 잊지 마",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-050",
+  "scenario": "학교·학원",
+  "text": "조별 과제는 {N1:sub} 발표, {N2:sub} 자료 조사, {N3:sub} 정리를 맡았대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-051",
+  "scenario": "학교·학원",
+  "text": "{NK1:top} 학교 운동회에 와 주신다고 하셨어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-052",
+  "scenario": "학교·학원",
+  "text": "{NK1:obj} 모시고 가려면 상담 시간 바꿔야 할 것 같아",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-053",
+  "scenario": "학교·학원",
+  "text": "{NK1:dat} 학원비 이야기는 내가 따로 해 둘게요",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-054",
+  "scenario": "학교·학원",
+  "text": "{AL1:top} 오늘 받아쓰기 백 점 맞았대",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-055",
+  "scenario": "학교·학원",
+  "text": "우리 {AL1:sub} 학교 가기 싫다고 투정이라 달래느라 늦었어",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-056",
+  "scenario": "학교·학원",
+  "text": "{AL1:com} 같이 다니는 학원은 {L1} 쪽에 있어",
+  "tags": [
+   "person",
+   "alias",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-057",
+  "scenario": "학교·학원",
+  "text": "{K1:top} 학교에서 {N1:obj} 만나서 같이 오기로 했어",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-058",
+  "scenario": "학교·학원",
+  "text": "{O1}에서 {N1:pos} 성적표가 나왔대. 메일은 {EM1} 로 온다고 했어",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-059",
+  "scenario": "학교·학원",
+  "text": "준비물 목록 사진 찍어서 보냈어. {N1:sub} 필통도 새로 사야 한대 {N2:dat} 먼저 연락해 볼게",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-060",
+  "scenario": "학교·학원",
+  "text": "{N1:dat} 영어 학원 어디가 좋은지 물어볼까요?",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-061",
+  "scenario": "학교·학원",
+  "text": "오늘 학교 끝나고 {AL1:com} {N1:com} 놀이터에서 논대",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-062",
+  "scenario": "학교·학원",
+  "text": "{N1:sub} 졸업 앨범 사진 보내 달래. 주소는 {AD1} 로 부치고",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-063",
+  "scenario": "학교·학원",
+  "text": "아이 담임이 {N1:top} 발표를 잘해서 칭찬하셨다는데 기분 좋다",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-064",
+  "scenario": "안부·심부름",
+  "text": "{N1:voc}, 밥은 먹었어? 내가 {N2:obj} 불러 올게",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-065",
+  "scenario": "안부·심부름",
+  "text": "퇴근길에 우유랑 계란 사 와 줄 수 있어, {N1:bare}?",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-066",
+  "scenario": "안부·심부름",
+  "text": "오랜만에 {N1:dat} 안부 전화 드렸더니 목소리가 건강하시더라",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-067",
+  "scenario": "안부·심부름",
+  "text": "{N1:top} 감기 걸렸다던데 괜찮은지 좀 물어봐 줘 {K1:sub} 기다리고 계시니까 서두르자",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-068",
+  "scenario": "안부·심부름",
+  "text": "집에 도착하면 {N1:dat} 잘 왔다고 문자 하나만 보내",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-069",
+  "scenario": "안부·심부름",
+  "text": "저번에 {N1:obj} 만났는데 얼굴이 많이 좋아졌더라 {K1:dat} 말씀드려야겠다",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-070",
+  "scenario": "안부·심부름",
+  "text": "세탁소에 맡긴 옷은 {N1:sub} 찾아오기로 했어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-071",
+  "scenario": "안부·심부름",
+  "text": "내가 지금 {N1:pos} 집 근처라서 반찬 전해 주고 올게",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-072",
+  "scenario": "안부·심부름",
+  "text": "{N1:sub} 잘 지내냐고 자꾸 물어보네. 한번 연락해 봐 그건 {K1:com} 상의해 봐",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-073",
+  "scenario": "안부·심부름",
+  "text": "날씨 추우니까 {N1:com} 같이 따뜻하게 입고 나가",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-074",
+  "scenario": "안부·심부름",
+  "text": "우편함에 {N1:lit}씨 앞으로 온 택배 안내문이 있더라",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-075",
+  "scenario": "안부·심부름",
+  "text": "{N1:sub} {N2:dat} 밥은 먹었냐고 계속 묻는다",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-076",
+  "scenario": "안부·심부름",
+  "text": "{N1:com} {N2:com} 어제 통화했는데 둘 다 잘 지낸대요",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-077",
+  "scenario": "안부·심부름",
+  "text": "마트 가는 김에 {N1:pos} 간식도 사고 {N2:pos} 약도 챙겨 올게",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-078",
+  "scenario": "안부·심부름",
+  "text": "심부름은 {N1:top} 빵집, {N2:top} 약국으로 나눠서 다녀오자",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-079",
+  "scenario": "안부·심부름",
+  "text": "{N1:voc} {N2:voc}, 우산 챙겨. 오후에 비 온대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-080",
+  "scenario": "안부·심부름",
+  "text": "{N1:sub} {N2:com} {N3:com} 다 같이 안부 인사 나눴다네",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-081",
+  "scenario": "안부·심부름",
+  "text": "명절 전에 {N1:dat}, {N2:dat}, {N3:dat} 차례로 전화드리자",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-082",
+  "scenario": "안부·심부름",
+  "text": "{NK1:top} 요즘 허리가 안 좋다고 하셔서 걱정이야",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-083",
+  "scenario": "안부·심부름",
+  "text": "{NK1:dat} 안부 여쭤보고 필요한 거 없는지 알려 줘",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-084",
+  "scenario": "안부·심부름",
+  "text": "{NK1:sub} 보내 주신 김치 잘 받았다고 전해 드려",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-085",
+  "scenario": "안부·심부름",
+  "text": "우리 {AL1:top} 감기 다 나았대, 걱정 마",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-086",
+  "scenario": "안부·심부름",
+  "text": "{AL1:voc}, 엄마가 장 봐 오래. 목록은 문자로 보냈어",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-087",
+  "scenario": "안부·심부름",
+  "text": "{K1:top} {N1:dat} 용돈 챙겨 주고 가셨어",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-088",
+  "scenario": "안부·심부름",
+  "text": "{N1:sub} 이사한 집 주소가 {AD1} 맞지? 선물 보내려고",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-089",
+  "scenario": "안부·심부름",
+  "text": "급하면 {PH1} 로 전화해. {N1:top} 항상 받을 거야",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-090",
+  "scenario": "안부·심부름",
+  "text": "{N1:obj} 만나면 {EM1} 로 사진 좀 보내 달라고 말해 줘요",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-091",
+  "scenario": "안부·심부름",
+  "text": "{L1}에 가는 길에 {N1:dat} 들러서 안부 전하고 올게",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-092",
+  "scenario": "안부·심부름",
+  "text": "걱정돼서 전화했어. {N1:sub} 요즘 힘들어 보여서 {K1:obj} 모시고 갈게",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-093",
+  "scenario": "안부·심부름",
+  "text": "{AL1:com} {N1:com} 같이 놀러 간다니까 마음이 놓이네",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-094",
+  "scenario": "안부·심부름",
+  "text": "오늘 {N1:top} 어디 아픈 데는 없는지 물어봐 주세요",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-095",
+  "scenario": "안부·심부름",
+  "text": "{N1:obj} 보면 저녁 먹으러 오라고 전해",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-096",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:dat} 어제 낸 저녁값 보내 줘야 해 {K1:top} 이미 알고 계셔",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-097",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:sub} 먼저 계산했으니까 나중에 나눠서 정산하자",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-098",
+  "scenario": "정산·돈·구매",
+  "text": "이번 달 생활비는 {N1:com} 반반 내기로 했어 아 참, {K1:pos} 약도 챙겨",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-099",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:obj} 위해서 생일 선물 하나 사 놨어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-100",
+  "scenario": "정산·돈·구매",
+  "text": "택배 보낼 때 받는 사람 이름에 {N1:pos} 이름 적는 거 맞지?",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-101",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:top} 용돈 올려 달라고 조르는 중이야 이따 {K1:sub} 전화하실 거야",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-102",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:voc}, 이 돈으로 학용품 사고 영수증은 꼭 챙겨 와",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-103",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:sub} 보낸 오만 원 받았다고 알려 줘",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-104",
+  "scenario": "정산·돈·구매",
+  "text": "{AC1} 로 삼만 원 입금했어요. 받는 분은 {N1:lit}씨예요",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-105",
+  "scenario": "정산·돈·구매",
+  "text": "오늘 장 본 거 영수증 사진 올릴게. {N1:top} 확인만 해 줘 {K1:dat} 안부 전해 줘",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-106",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:dat} 빌려준 돈은 이번 주 안에 받기로 했어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-107",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:sub} {N2:dat} 보낸 송금 내역 캡처해서 올렸어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-108",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:com} {N2:com} 셋이 나눠 내면 일인당 만 원씩이야",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-109",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:obj} 위한 선물은 {N2:sub} 사고 포장은 내가 할게",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-110",
+  "scenario": "정산·돈·구매",
+  "text": "외식비 정산표 보면 {N1:top} 이만 원, {N2:top} 삼만 원 낸 거야",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-111",
+  "scenario": "정산·돈·구매",
+  "text": "이번 모임 회비는 {N1:sub}, {N2:sub}, {N3:sub} 모두 냈어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-112",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:voc} {N2:voc} {N3:voc} 이번 달 회비 이체했는지 확인해 봐",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-113",
+  "scenario": "정산·돈·구매",
+  "text": "{NK1:top} 카드 쓰신 내역은 따로 모아 놨어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-114",
+  "scenario": "정산·돈·구매",
+  "text": "{NK1:dat} 드릴 용돈은 봉투에 넣어서 준비했어요",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-115",
+  "scenario": "정산·돈·구매",
+  "text": "{NK1:obj} 대신해서 병원비 먼저 계산했어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-116",
+  "scenario": "정산·돈·구매",
+  "text": "{AL1:top} 장난감 사 달라고 마트에서 떼쓰더라",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-117",
+  "scenario": "정산·돈·구매",
+  "text": "{AL1:voc}, 용돈 이체했으니까 간식 사 먹어",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-118",
+  "scenario": "정산·돈·구매",
+  "text": "{K1:sub} 보내 주신 돈으로 {N1:pos} 겨울 외투를 샀어",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-119",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:sub} 인터넷으로 시킨 물건이 {AD1} 로 배송됐대",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-120",
+  "scenario": "정산·돈·구매",
+  "text": "전화번호 {PH1} 로 가게에서 연락 올 거야. {N1:dat} 받으라고 해",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-121",
+  "scenario": "정산·돈·구매",
+  "text": "{O1}에서 {N1:obj} 대신해서 등록비 결제했어",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-122",
+  "scenario": "정산·돈·구매",
+  "text": "여행 경비 정산할게. {N1:top} 숙소비, 내가 식비, {L1} 입장료는 나눠서",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-123",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:sub} 계좌번호 {AC1} 맞으면 지금 바로 보낼게요",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-124",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:dat} 선물한다고 {AL1:dat} 물어봤는데 인형을 좋아한대",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-125",
+  "scenario": "정산·돈·구매",
+  "text": "영수증은 {EM1} 로 받았고, 정산은 {N1:sub} 맡기로 했어",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-126",
+  "scenario": "정산·돈·구매",
+  "text": "오늘 세일이래. {N1:pos} 신발부터 보러 갈까? {K1:top} 괜찮다고 하셨어",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-127",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:sub} 찍어 준 사진 진짜 잘 나왔다",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-128",
+  "scenario": "사진·영상 공유",
+  "text": "어제 {N1:com} 놀러 갔던 영상 올릴게",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-129",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진 속에서 웃고 있는 애가 {N1:sub} 맞지? 그럼 {K1:obj} 먼저 보내 드릴게",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-130",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:dat} 졸업 사진 파일 보내 달라고 부탁했어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-131",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:obj} 찍은 영상이 너무 웃겨서 몇 번을 돌려 봤어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-132",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:top} 사진 찍히는 거 싫어하는데 이건 웃고 있네 {K1:com} 통화했어",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-133",
+  "scenario": "사진·영상 공유",
+  "text": "단체 사진 맨 오른쪽에 {N1:pos} 얼굴이 반쯤 가려졌어요",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-134",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:voc}, 어제 찍은 거 앨범에 올려 놨으니까 확인해",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-135",
+  "scenario": "사진·영상 공유",
+  "text": "이 영상 {N1:lit}씨한테도 보내 줘야 할 것 같아 {K1:pos} 의견도 물어보자",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-136",
+  "scenario": "사진·영상 공유",
+  "text": "{O1} 입학식 날 사진 모아서 폴더 만들었어. 거기에 {N1:sub} 사진도 있어",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-137",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:sub} {N2:com} 같이 찍은 셀카 귀엽다",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-138",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:top} 영상 편집을 맡고 {N2:top} 음악을 골라 보기로 했어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-139",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:dat}, {N2:dat} 이 사진 나눠서 보내 줘",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-140",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진엔 {N1:obj} 가운데 두고 {N2:obj} 옆에 세웠어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-141",
+  "scenario": "사진·영상 공유",
+  "text": "가족 단체 사진 찾았다. {N1:sub}, {N2:sub}, {N3:sub} 다 나왔어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-142",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:com} {N2:com} {N3:com} 같이 찍은 영상 올렸으니 다들 봐",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-143",
+  "scenario": "사진·영상 공유",
+  "text": "{NK1:top} 어릴 때 사진 스캔해서 보내 주셨어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-144",
+  "scenario": "사진·영상 공유",
+  "text": "{NK1:obj} 찍은 사진 중에 제일 잘 나온 거 골라 줘",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-145",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진 {NK1:dat} 보여 드렸더니 한참 웃으셨어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-146",
+  "scenario": "사진·영상 공유",
+  "text": "{AL1:sub} 자는 모습 몰래 찍었는데 너무 귀엽지?",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-147",
+  "scenario": "사진·영상 공유",
+  "text": "{AL1:voc}, 이 영상 같이 보자. 네가 주인공이야",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-148",
+  "scenario": "사진·영상 공유",
+  "text": "우리 {AL1:com} {N1:com} 해변에서 찍은 사진이야",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-149",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:sub} 보내 주신 사진 속에 {N1:sub} 어릴 때 모습이 있더라",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-150",
+  "scenario": "사진·영상 공유",
+  "text": "사진 뒷면에 {N1:pos} 이름과 {AD1} 이 적혀 있었어",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-151",
+  "scenario": "사진·영상 공유",
+  "text": "{L1}에서 찍은 풍경 사진인데 맨 앞에 {N1:sub} 보이지?",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-152",
+  "scenario": "사진·영상 공유",
+  "text": "사진 원본은 {EM1} 로 보낼게요. {N1:dat} 전달해 주세요",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-153",
+  "scenario": "사진·영상 공유",
+  "text": "영상 속 {N1:top} 마이크를 잡고 노래하는 중이야",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-154",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:obj} 닮은 아이 사진이 {O1}에서 올라왔더라",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-155",
+  "scenario": "사진·영상 공유",
+  "text": "앨범 이름은 {N1:pos} 돌잔치로 정했어요 {K1:top} 오늘 일찍 오신대",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-156",
+  "scenario": "사진·영상 공유",
+  "text": "{K1:com} {N1:com} 함께 찍은 건 이 한 장뿐이야",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-157",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:sub} 바람에 머리 날리는 사진, 저장해 둬야겠다",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-158",
+  "scenario": "병원·건강",
+  "text": "{N1:sub} 오늘 병원 갔다 왔는데 감기래",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-159",
+  "scenario": "병원·건강",
+  "text": "{N1:dat} 약 먹었냐고 물어봐 줘 {K1:dat} 부탁드릴게",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-160",
+  "scenario": "병원·건강",
+  "text": "{N1:com} 같이 건강검진 받으러 가기로 했어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-161",
+  "scenario": "병원·건강",
+  "text": "내일 {O1}에서 {N1:pos} 진료 예약이 있어요",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-162",
+  "scenario": "병원·건강",
+  "text": "{N1:top} 열이 아직 안 떨어져서 걱정이야",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-163",
+  "scenario": "병원·건강",
+  "text": "{N1:obj} 데리고 소아과에 다녀왔어. 주사는 안 맞았대 {NK1:top} 먼저 가 계신대",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-164",
+  "scenario": "병원·건강",
+  "text": "{N1:voc}, 약 먹을 시간이야. 물이랑 같이 먹어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-165",
+  "scenario": "병원·건강",
+  "text": "{N1:sub} 치과에서 충치 치료를 받는다고 긴장하더라 {NK1:dat} 말씀드렸어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-166",
+  "scenario": "병원·건강",
+  "text": "진료 접수할 때 {N1:lit}씨 이름으로 해 달라고 했어요",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-167",
+  "scenario": "병원·건강",
+  "text": "혈압약은 {N1:dat} 챙겨 드렸어? 아침마다 잊어버리셔서",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-168",
+  "scenario": "병원·건강",
+  "text": "{N1:sub} {N2:com} 같이 독감 예방주사 맞고 왔대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-169",
+  "scenario": "병원·건강",
+  "text": "{N1:top} 정형외과, {N2:top} 안과 예약해 놨어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-170",
+  "scenario": "병원·건강",
+  "text": "{N1:obj} 먼저 진료실에 들여보내고 {N2:obj} 기다리게 했어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-171",
+  "scenario": "병원·건강",
+  "text": "의사 선생님이 {N1:dat}, {N2:dat} 푹 쉬라고 하셨어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-172",
+  "scenario": "병원·건강",
+  "text": "오늘은 {N1:sub} 배탈, {N2:sub} 두통, {N3:sub} 기침으로 병원 세 군데 다녀왔어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-173",
+  "scenario": "병원·건강",
+  "text": "{N1:com} {N2:com} {N3:com} 모두 검사 결과 정상이래서 안심했어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-174",
+  "scenario": "병원·건강",
+  "text": "{NK1:top} 무릎 수술 후에 경과가 좋으시대",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-175",
+  "scenario": "병원·건강",
+  "text": "{NK1:dat} 병원에 모시고 가려는데 몇 시가 좋을까요?",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-176",
+  "scenario": "병원·건강",
+  "text": "{NK1:obj} 위한 영양제 알아보는 중이야",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-177",
+  "scenario": "병원·건강",
+  "text": "{AL1:top} 예방접종 맞고 의젓하게 안 울었대",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-178",
+  "scenario": "병원·건강",
+  "text": "{AL1:voc}, 쓴 약이지만 한 번에 먹자. 먹고 나면 사탕 줄게",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-179",
+  "scenario": "병원·건강",
+  "text": "{K1:top} 저혈압이라 {N1:sub} 옆에서 챙겨 드려야 해",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-180",
+  "scenario": "병원·건강",
+  "text": "진료 안내 문자가 {PH1} 로 왔는데 {N1:pos} 예약이 맞는지 봐 줘",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-181",
+  "scenario": "병원·건강",
+  "text": "{O1} 주소는 {AD1} 이야. {N1:com} 같이 가면 돼",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-182",
+  "scenario": "병원·건강",
+  "text": "{N1:sub} 입원한 {O1}은 {L1} 쪽에 있어요",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-183",
+  "scenario": "병원·건강",
+  "text": "건강검진 결과는 {EM1} 로 받기로 했어. {N1:dat} 전달할게",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-184",
+  "scenario": "병원·건강",
+  "text": "{N1:top} 요즘 운동을 시작해서 몸이 가벼워졌대 {NK1:obj} 만나면 인사드려",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-185",
+  "scenario": "병원·건강",
+  "text": "{AL1:com} {N1:com} 같이 소아과 대기실에서 기다리는 중이야",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-186",
+  "scenario": "병원·건강",
+  "text": "{N1:sub} 알레르기가 있으니 음식 주의하라고 선생님께 말씀드렸어요",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-187",
+  "scenario": "병원·건강",
+  "text": "어제 밤새 기침하더니 {N1:obj} 오늘 아침에 병원 데려갔어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-188",
+  "scenario": "병원·건강",
+  "text": "{N1:dat} 약국에서 받은 약 설명서 사진으로 보내 줄게 {NK1:sub} 오시면 바로 알려 줘",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-189",
+  "scenario": "이동·방문",
+  "text": "{N1:sub} 지금 {L1}에 도착했대",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-190",
+  "scenario": "이동·방문",
+  "text": "{N1:dat} 마중 나가려고 지금 출발할게",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-191",
+  "scenario": "이동·방문",
+  "text": "공항에서 {N1:com} 만나서 같이 택시 타고 갈 거야",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-192",
+  "scenario": "이동·방문",
+  "text": "{N1:obj} 태우고 가야 해서 조금 늦을 것 같아 그건 {NK1:com} 이야기해 보고",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-193",
+  "scenario": "이동·방문",
+  "text": "{N1:top} 기차 시간이 한 시간이나 남았대",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-194",
+  "scenario": "이동·방문",
+  "text": "내일 {N1:pos} 집에 놀러 가기로 했는데 선물은 뭐가 좋을까? {NK1:pos} 연락도 기다리는 중이야",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-195",
+  "scenario": "이동·방문",
+  "text": "{N1:voc}, 어디쯤이야? 우리 벌써 주차장에 와 있어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-196",
+  "scenario": "이동·방문",
+  "text": "{N1:sub} 길을 헷갈렸는지 전화가 왔어요",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-197",
+  "scenario": "이동·방문",
+  "text": "고속도로가 막혀서 {N1:lit}네 도착이 늦어진다고 전해 줘 아 참, {NK1:top} 괜찮으시대",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-198",
+  "scenario": "이동·방문",
+  "text": "{L1}에서 {O1}까지 가는 버스 번호 아는 사람?",
+  "tags": [
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-199",
+  "scenario": "이동·방문",
+  "text": "{N1:sub} {N2:com} 먼저 출발해서 {L1}에서 기다린대",
+  "tags": [
+   "person",
+   "multi",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-200",
+  "scenario": "이동·방문",
+  "text": "{N1:top} 운전하고 {N2:top} 길 안내를 맡기로 했어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-201",
+  "scenario": "이동·방문",
+  "text": "도착하면 {N1:dat}, {N2:dat} 각각 전화해서 알려 줘",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-202",
+  "scenario": "이동·방문",
+  "text": "{N1:obj} 먼저 내려 주고 {N2:obj} 집 앞까지 데려다줄게",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-203",
+  "scenario": "이동·방문",
+  "text": "{N1:sub} 내리면 {N2:sub} 받고 {N3:sub} 짐을 맡아 주면 돼",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-204",
+  "scenario": "이동·방문",
+  "text": "지금 {N1:com} {N2:com} {N3:com} 다 같이 {L1}으로 가는 중이야",
+  "tags": [
+   "person",
+   "multi",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-205",
+  "scenario": "이동·방문",
+  "text": "{NK1:top} 내일 아침에 우리 집에 오신다고 하셨어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-206",
+  "scenario": "이동·방문",
+  "text": "{NK1:obj} 모시러 역으로 나갈게요",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-207",
+  "scenario": "이동·방문",
+  "text": "{NK1:dat} 가는 길에 {L1}에 들르시라고 말씀드려",
+  "tags": [
+   "person",
+   "namekin",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-208",
+  "scenario": "이동·방문",
+  "text": "{AL1:sub} 차멀미한다고 해서 휴게소에서 쉬어 가는 중이야",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-209",
+  "scenario": "이동·방문",
+  "text": "{AL1:voc}, 내리기 전에 가방 꼭 챙겨",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-210",
+  "scenario": "이동·방문",
+  "text": "{K1:com} {N1:com} 같이 가려면 차가 한 대 더 필요해",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-211",
+  "scenario": "이동·방문",
+  "text": "도착 주소는 {AD1} 이야. {N1:sub} 내비에 찍어 놨대",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-212",
+  "scenario": "이동·방문",
+  "text": "{N1:dat} 연락해 보니 {PH1} 로 전화하면 된대요",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-213",
+  "scenario": "이동·방문",
+  "text": "{O1} 앞에서 {N1:obj} 내려 주고 올게",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-214",
+  "scenario": "이동·방문",
+  "text": "{N1:sub} 말한 대로 {L1}은 주차가 힘들더라",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-215",
+  "scenario": "이동·방문",
+  "text": "오는 길에 {N1:com} 편의점 들렀다가 바로 갈게",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-216",
+  "scenario": "이동·방문",
+  "text": "{AL1:sub} {N1:com} 먼저 도착해서 놀고 있대",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-217",
+  "scenario": "이동·방문",
+  "text": "내일 아침 일곱 시에 {N1:top} 집 앞에서 기다려 줘. 늦으면 안 돼",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-218",
+  "scenario": "이동·방문",
+  "text": "{N1:pos} 차가 고장 나서 렌터카 빌렸다더라 {NK1:dat} 전해 드릴게",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-219",
+  "scenario": "잡담",
+  "text": "{N1:sub} 요즘 새로운 드라마에 푹 빠졌어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-220",
+  "scenario": "잡담",
+  "text": "오늘 날씨 좋다. {N1:com} 산책이나 갈까? {AL1:top} 먼저 가 있대",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-221",
+  "scenario": "잡담",
+  "text": "{N1:top} 어릴 때부터 노래를 참 잘했지",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-222",
+  "scenario": "잡담",
+  "text": "방금 {N1:dat} 웃긴 이야기를 들었는데 너무 재밌었어",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-223",
+  "scenario": "잡담",
+  "text": "{N1:voc}, 주말에 뭐 하고 놀지 생각해 봤어? {AL1:dat} 말해 줄게",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-224",
+  "scenario": "잡담",
+  "text": "{N1:obj} 보면 어릴 때 내 모습이 떠올라",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-225",
+  "scenario": "잡담",
+  "text": "오늘 저녁 메뉴 뭐 할지 {N1:dat} 물어봤더니 김치찌개래",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-226",
+  "scenario": "잡담",
+  "text": "{N1:lit}씨 생각하니까 갑자기 옛날 이야기가 하고 싶어지네 근데 {AL1:sub} 안 보이네",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-227",
+  "scenario": "잡담",
+  "text": "요즘 {N1:pos} 취미가 뜨개질이라는 거 알아?",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-228",
+  "scenario": "잡담",
+  "text": "퇴근하고 쉬는 중인데 {N1:sub} 연락 왔네요",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-229",
+  "scenario": "잡담",
+  "text": "{N1:sub} {N2:com} 같이 게임하는 소리가 거실까지 들려",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-230",
+  "scenario": "잡담",
+  "text": "{N1:top} 축구를 좋아하고 {N2:top} 야구를 좋아해서 맨날 다퉈",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-231",
+  "scenario": "잡담",
+  "text": "{N1:dat} 들었는데 {N2:sub} 이사 간다며? 진짜야?",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-232",
+  "scenario": "잡담",
+  "text": "{N1:obj} 놀리는 건 좋은데 {N2:obj} 울리진 마",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-233",
+  "scenario": "잡담",
+  "text": "아까 {N1:sub}, {N2:sub}, {N3:sub} 셋이 같이 웃고 떠들더라",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-234",
+  "scenario": "잡담",
+  "text": "{N1:com} {N2:com} {N3:com} 다 같이 보드게임 하면 재밌겠다",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-235",
+  "scenario": "잡담",
+  "text": "{NK1:top} 요즘 텃밭 가꾸는 재미에 푹 빠지셨대",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-236",
+  "scenario": "잡담",
+  "text": "{NK1:sub} 해 주신 반찬이 제일 맛있어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-237",
+  "scenario": "잡담",
+  "text": "{NK1:obj} 닮았다는 말을 오늘도 들었어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-238",
+  "scenario": "잡담",
+  "text": "{AL1:top} 별명 때문에 매번 놀림받는다고 투덜대",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-239",
+  "scenario": "잡담",
+  "text": "{AL1:voc}, 오늘 하루 어땠어? 이야기해 줘",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-240",
+  "scenario": "잡담",
+  "text": "{AL1:com} {N1:com} 나란히 앉아 있으니 너무 귀엽다",
+  "tags": [
+   "person",
+   "alias"
+  ]
+ },
+ {
+  "id": "msgp-241",
+  "scenario": "잡담",
+  "text": "{K1:top} 요즘 {N1:pos} 이야기를 자주 하셔",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-242",
+  "scenario": "잡담",
+  "text": "{K1:sub} 오늘 {N1:obj} 보고 싶다고 하시네",
+  "tags": [
+   "person",
+   "kin"
+  ]
+ },
+ {
+  "id": "msgp-243",
+  "scenario": "잡담",
+  "text": "{N1:sub} 새로 산 가방 자랑하고 다니더라. 가격이 {W1:sub} 믿기지 않아",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-244",
+  "scenario": "잡담",
+  "text": "오늘 {W1:top} 정말 예쁘다. {N1:com} 같이 봤으면 좋았을 텐데",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-245",
+  "scenario": "잡담",
+  "text": "{N1:sub} 이름 지을 때 {W1:com} 고민했다고 하더라",
+  "tags": [
+   "person"
+  ]
+ },
+ {
+  "id": "msgp-246",
+  "scenario": "잡담",
+  "text": "{L1}에 새로 생긴 카페 가 봤어? {N1:top} 벌써 다녀왔대",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-247",
+  "scenario": "잡담",
+  "text": "주소 {AD1} 근처에 {N1:pos} 단골 가게가 있어",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-248",
+  "scenario": "잡담",
+  "text": "{EM1} 로 온 메일 때문에 {N1:sub} 웃었다는 이야기",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-249",
+  "scenario": "잡담",
+  "text": "전화번호 {PH1} 가 {N1:pos} 번호랑 비슷해서 헷갈렸어",
+  "tags": [
+   "person",
+   "pii"
+  ]
+ },
+ {
+  "id": "msgp-250",
+  "scenario": "잡담",
+  "text": "{NK1:com} {N1:com} 오늘 텔레비전 앞에서 한참 수다 떨었어",
+  "tags": [
+   "person",
+   "namekin"
+  ]
+ },
+ {
+  "id": "msgp-251",
+  "scenario": "일정·약속",
+  "text": "{N1:sub} 데리러 오면 {N2:sub} 먼저 내려 줘, 나머지는 내가 챙길게",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-252",
+  "scenario": "학교·학원",
+  "text": "{N1:top} 반장, {N2:top} 부반장이라 이번 행사 준비로 바쁘대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-253",
+  "scenario": "안부·심부름",
+  "text": "{N1:dat} 전화해서 {N2:pos} 소식 좀 들었는지 물어봐 줘",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-254",
+  "scenario": "정산·돈·구매",
+  "text": "{N1:com} {N2:com} 반씩 나눠서 이번 달 공과금 낼게요",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-255",
+  "scenario": "사진·영상 공유",
+  "text": "{N1:sub} 찍은 영상에 {N2:sub} 우연히 같이 찍혀서 웃겼어",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-256",
+  "scenario": "병원·건강",
+  "text": "{N1:obj} 진료받게 하고 {N2:dat} 연락드렸어. 곧 오신대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-257",
+  "scenario": "이동·방문",
+  "text": "오늘 {N1:sub} 운전하면 {N2:com} 나는 뒷좌석에 앉을래",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-258",
+  "scenario": "잡담",
+  "text": "{N1:top} 요즘 {N2:pos} 흉내 내기에 푹 빠져서 집이 시끄러워",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-259",
+  "scenario": "일정·약속",
+  "text": "다음 주 월요일 {N1:dat} 한 번 더 확인하고 {N2:obj} 불러 줘",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ },
+ {
+  "id": "msgp-260",
+  "scenario": "이동·방문",
+  "text": "{N1:com} 같이 가려던 {N2:top} 갑자기 일이 생겨서 못 간대",
+  "tags": [
+   "person",
+   "multi"
+  ]
+ }
+]

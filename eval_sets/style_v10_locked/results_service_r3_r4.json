@@ -1,0 +1,1148 @@
+{
+ "service": {
+  "fingerprint12": "46210943c45f",
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "exact": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "char_exposure": {
+    "full_exposure": 8,
+    "partial_exposure": 0,
+    "fully_masked": 0,
+    "full_exposure_rate": 1.0
+   },
+   "nonperson_fpr": 0.0,
+   "by_group": {
+    "compound_obj_holdout": {
+     "total": 8,
+     "exact": 0,
+     "full_exposure": 8
+    },
+    "compound_obj_holdout_neg": {
+     "total": 8,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {}
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "exact": {
+    "tp": 41,
+    "fp": 22,
+    "fn": 71,
+    "precision": 0.6507936507936508,
+    "recall": 0.36607142857142855,
+    "f1": 0.4685714285714286
+   },
+   "char_exposure": {
+    "full_exposure": 49,
+    "partial_exposure": 4,
+    "fully_masked": 59,
+    "full_exposure_rate": 0.4375
+   },
+   "nonperson_fpr": 0.1154,
+   "by_group": {
+    "목적격": {
+     "total": 32,
+     "exact": 10,
+     "full_exposure": 21
+    },
+    "비교서술": {
+     "total": 32,
+     "exact": 11,
+     "full_exposure": 13
+    },
+    "여격": {
+     "total": 16,
+     "exact": 12,
+     "full_exposure": 4
+    },
+    "호격": {
+     "total": 16,
+     "exact": 4,
+     "full_exposure": 4
+    },
+    "기본": {
+     "total": 16,
+     "exact": 4,
+     "full_exposure": 7
+    },
+    "nonperson": {
+     "total": 32,
+     "flagged": 6
+    },
+    "background": {
+     "total": 20,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {
+    "복합명사형": {
+     "total": 72,
+     "exact": 18,
+     "full_exposure": 33,
+     "flagged": 0
+    },
+    "단일형": {
+     "total": 72,
+     "exact": 23,
+     "full_exposure": 16,
+     "flagged": 6
+    }
+   }
+  },
+  "r3_heldout_REGRESSION": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "exact": {
+    "tp": 12,
+    "fp": 7,
+    "fn": 4,
+    "precision": 0.631578947368421,
+    "recall": 0.75,
+    "f1": 0.6857142857142857
+   },
+   "char_exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 15,
+    "full_exposure_rate": 0.0625
+   },
+   "nonperson_fpr": 0.375,
+   "by_group": {
+    "collision_holdout": {
+     "total": 16,
+     "exact": 12,
+     "full_exposure": 1
+    },
+    "collision_holdout_neg": {
+     "total": 8,
+     "flagged": 3
+    }
+   },
+   "by_word_type": {}
+  },
+  "v9_locked_REGRESSION": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "exact": {
+    "tp": 38,
+    "fp": 9,
+    "fn": 22,
+    "precision": 0.8085106382978723,
+    "recall": 0.6333333333333333,
+    "f1": 0.7102803738317757
+   },
+   "char_exposure": {
+    "full_exposure": 13,
+    "partial_exposure": 0,
+    "fully_masked": 47,
+    "full_exposure_rate": 0.2167
+   },
+   "nonperson_fpr": 0.15,
+   "by_group": {
+    "목적격": {
+     "total": 10,
+     "exact": 6,
+     "full_exposure": 4
+    },
+    "여격": {
+     "total": 10,
+     "exact": 8,
+     "full_exposure": 2
+    },
+    "호격": {
+     "total": 10,
+     "exact": 5,
+     "full_exposure": 0
+    },
+    "비교서술": {
+     "total": 10,
+     "exact": 8,
+     "full_exposure": 1
+    },
+    "nonperson": {
+     "total": 20,
+     "flagged": 6
+    },
+    "기본_주어서술": {
+     "total": 10,
+     "exact": 6,
+     "full_exposure": 1
+    },
+    "기본_단순언급": {
+     "total": 10,
+     "exact": 5,
+     "full_exposure": 5
+    },
+    "background": {
+     "total": 20,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {}
+  },
+  "ambiguity_probe_REGRESSION": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "exact": {
+    "tp": 69,
+    "fp": 10,
+    "fn": 21,
+    "precision": 0.8734177215189873,
+    "recall": 0.7666666666666667,
+    "f1": 0.8165680473372781
+   },
+   "char_exposure": {
+    "full_exposure": 11,
+    "partial_exposure": 0,
+    "fully_masked": 79,
+    "full_exposure_rate": 0.1222
+   },
+   "nonperson_fpr": 0.1778,
+   "by_group": {
+    "기관지역": {
+     "total": 24,
+     "exact": 11,
+     "full_exposure": 1,
+     "flagged": 1
+    },
+    "자연계절": {
+     "total": 78,
+     "exact": 25,
+     "full_exposure": 7,
+     "flagged": 12
+    },
+    "일상추상": {
+     "total": 78,
+     "exact": 33,
+     "full_exposure": 3,
+     "flagged": 3
+    }
+   },
+   "by_word_type": {}
+  },
+  "draft56_REGRESSION": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "exact": {
+    "tp": 13,
+    "fp": 10,
+    "fn": 22,
+    "precision": 0.5652173913043478,
+    "recall": 0.37142857142857144,
+    "f1": 0.4482758620689655
+   },
+   "char_exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 0,
+    "fully_masked": 23,
+    "full_exposure_rate": 0.3429
+   },
+   "nonperson_fpr": 0.0952,
+   "by_group": {
+    "_all": {
+     "total": 56,
+     "exact": 13,
+     "full_exposure": 12,
+     "flagged": 2
+    }
+   },
+   "by_word_type": {}
+  },
+  "v8_independent_GENERAL": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "exact": {
+    "tp": 611,
+    "fp": 15,
+    "fn": 79,
+    "precision": 0.9760383386581469,
+    "recall": 0.8855072463768116,
+    "f1": 0.9285714285714285
+   },
+   "char_exposure": {
+    "full_exposure": 64,
+    "partial_exposure": 0,
+    "fully_masked": 626,
+    "full_exposure_rate": 0.0928
+   },
+   "nonperson_fpr": 0.1587,
+   "by_group": {
+    "신규고빈도_시작": {
+     "total": 100,
+     "exact": 89,
+     "full_exposure": 5
+    },
+    "신규고빈도_중간": {
+     "total": 100,
+     "exact": 96,
+     "full_exposure": 4
+    },
+    "신규고빈도_끝": {
+     "total": 100,
+     "exact": 90,
+     "full_exposure": 6
+    },
+    "신규저빈도_시작": {
+     "total": 100,
+     "exact": 87,
+     "full_exposure": 9
+    },
+    "신규저빈도_중간": {
+     "total": 100,
+     "exact": 90,
+     "full_exposure": 10
+    },
+    "신규저빈도_끝": {
+     "total": 100,
+     "exact": 81,
+     "full_exposure": 18
+    },
+    "이가로끝남_시작": {
+     "total": 15,
+     "exact": 15,
+     "full_exposure": 0
+    },
+    "이가로끝남_중간": {
+     "total": 15,
+     "exact": 14,
+     "full_exposure": 1
+    },
+    "이가로끝남_끝": {
+     "total": 15,
+     "exact": 13,
+     "full_exposure": 2
+    },
+    "신규애칭_시작": {
+     "total": 9,
+     "exact": 9,
+     "full_exposure": 0
+    },
+    "신규애칭_중간": {
+     "total": 9,
+     "exact": 9,
+     "full_exposure": 0
+    },
+    "신규애칭_끝": {
+     "total": 9,
+     "exact": 8,
+     "full_exposure": 1
+    },
+    "이름문맥_일반단어_시작": {
+     "total": 6,
+     "exact": 4,
+     "full_exposure": 2
+    },
+    "이름문맥_일반단어_중간": {
+     "total": 6,
+     "exact": 4,
+     "full_exposure": 2
+    },
+    "이름문맥_일반단어_끝": {
+     "total": 6,
+     "exact": 2,
+     "full_exposure": 4
+    },
+    "사물문맥_일반단어_시작": {
+     "total": 6,
+     "flagged": 4
+    },
+    "사물문맥_일반단어_중간": {
+     "total": 6,
+     "flagged": 4
+    },
+    "사물문맥_일반단어_끝": {
+     "total": 6,
+     "flagged": 2
+    },
+    "순수비인명_시작": {
+     "total": 15,
+     "flagged": 0
+    },
+    "순수비인명_중간": {
+     "total": 15,
+     "flagged": 0
+    },
+    "순수비인명_끝": {
+     "total": 15,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {}
+  }
+ },
+ "r3_candidate": {
+  "fingerprint12": "14f297c7d5f5",
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "exact": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 8,
+    "precision": null,
+    "recall": 0.0,
+    "f1": null
+   },
+   "char_exposure": {
+    "full_exposure": 8,
+    "partial_exposure": 0,
+    "fully_masked": 0,
+    "full_exposure_rate": 1.0
+   },
+   "nonperson_fpr": 0.0,
+   "by_group": {
+    "compound_obj_holdout": {
+     "total": 8,
+     "exact": 0,
+     "full_exposure": 8
+    },
+    "compound_obj_holdout_neg": {
+     "total": 8,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {}
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "exact": {
+    "tp": 67,
+    "fp": 9,
+    "fn": 45,
+    "precision": 0.881578947368421,
+    "recall": 0.5982142857142857,
+    "f1": 0.7127659574468085
+   },
+   "char_exposure": {
+    "full_exposure": 36,
+    "partial_exposure": 1,
+    "fully_masked": 75,
+    "full_exposure_rate": 0.3214
+   },
+   "nonperson_fpr": 0.0962,
+   "by_group": {
+    "목적격": {
+     "total": 32,
+     "exact": 9,
+     "full_exposure": 23
+    },
+    "비교서술": {
+     "total": 32,
+     "exact": 18,
+     "full_exposure": 8
+    },
+    "여격": {
+     "total": 16,
+     "exact": 16,
+     "full_exposure": 0
+    },
+    "호격": {
+     "total": 16,
+     "exact": 16,
+     "full_exposure": 0
+    },
+    "기본": {
+     "total": 16,
+     "exact": 8,
+     "full_exposure": 5
+    },
+    "nonperson": {
+     "total": 32,
+     "flagged": 5
+    },
+    "background": {
+     "total": 20,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {
+    "복합명사형": {
+     "total": 72,
+     "exact": 28,
+     "full_exposure": 25,
+     "flagged": 1
+    },
+    "단일형": {
+     "total": 72,
+     "exact": 39,
+     "full_exposure": 11,
+     "flagged": 4
+    }
+   }
+  },
+  "r3_heldout_REGRESSION": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "exact": {
+    "tp": 14,
+    "fp": 4,
+    "fn": 2,
+    "precision": 0.7777777777777778,
+    "recall": 0.875,
+    "f1": 0.823529411764706
+   },
+   "char_exposure": {
+    "full_exposure": 2,
+    "partial_exposure": 0,
+    "fully_masked": 14,
+    "full_exposure_rate": 0.125
+   },
+   "nonperson_fpr": 0.375,
+   "by_group": {
+    "collision_holdout": {
+     "total": 16,
+     "exact": 14,
+     "full_exposure": 2
+    },
+    "collision_holdout_neg": {
+     "total": 8,
+     "flagged": 3
+    }
+   },
+   "by_word_type": {}
+  },
+  "v9_locked_REGRESSION": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "exact": {
+    "tp": 45,
+    "fp": 3,
+    "fn": 15,
+    "precision": 0.9375,
+    "recall": 0.75,
+    "f1": 0.8333333333333334
+   },
+   "char_exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 1,
+    "fully_masked": 47,
+    "full_exposure_rate": 0.2
+   },
+   "nonperson_fpr": 0.025,
+   "by_group": {
+    "목적격": {
+     "total": 10,
+     "exact": 4,
+     "full_exposure": 6
+    },
+    "여격": {
+     "total": 10,
+     "exact": 10,
+     "full_exposure": 0
+    },
+    "호격": {
+     "total": 10,
+     "exact": 10,
+     "full_exposure": 0
+    },
+    "비교서술": {
+     "total": 10,
+     "exact": 8,
+     "full_exposure": 2
+    },
+    "nonperson": {
+     "total": 20,
+     "flagged": 1
+    },
+    "기본_주어서술": {
+     "total": 10,
+     "exact": 8,
+     "full_exposure": 0
+    },
+    "기본_단순언급": {
+     "total": 10,
+     "exact": 5,
+     "full_exposure": 4
+    },
+    "background": {
+     "total": 20,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {}
+  },
+  "ambiguity_probe_REGRESSION": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "exact": {
+    "tp": 76,
+    "fp": 2,
+    "fn": 14,
+    "precision": 0.9743589743589743,
+    "recall": 0.8444444444444444,
+    "f1": 0.9047619047619048
+   },
+   "char_exposure": {
+    "full_exposure": 12,
+    "partial_exposure": 0,
+    "fully_masked": 78,
+    "full_exposure_rate": 0.1333
+   },
+   "nonperson_fpr": 0.0444,
+   "by_group": {
+    "기관지역": {
+     "total": 24,
+     "exact": 9,
+     "full_exposure": 3,
+     "flagged": 0
+    },
+    "자연계절": {
+     "total": 78,
+     "exact": 31,
+     "full_exposure": 6,
+     "flagged": 2
+    },
+    "일상추상": {
+     "total": 78,
+     "exact": 36,
+     "full_exposure": 3,
+     "flagged": 2
+    }
+   },
+   "by_word_type": {}
+  },
+  "draft56_REGRESSION": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "exact": {
+    "tp": 22,
+    "fp": 0,
+    "fn": 13,
+    "precision": 1.0,
+    "recall": 0.6285714285714286,
+    "f1": 0.7719298245614035
+   },
+   "char_exposure": {
+    "full_exposure": 13,
+    "partial_exposure": 0,
+    "fully_masked": 22,
+    "full_exposure_rate": 0.3714
+   },
+   "nonperson_fpr": 0.0476,
+   "by_group": {
+    "_all": {
+     "total": 56,
+     "exact": 22,
+     "full_exposure": 13,
+     "flagged": 1
+    }
+   },
+   "by_word_type": {}
+  },
+  "v8_independent_GENERAL": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "exact": {
+    "tp": 636,
+    "fp": 14,
+    "fn": 54,
+    "precision": 0.9784615384615385,
+    "recall": 0.9217391304347826,
+    "f1": 0.9492537313432836
+   },
+   "char_exposure": {
+    "full_exposure": 40,
+    "partial_exposure": 0,
+    "fully_masked": 650,
+    "full_exposure_rate": 0.058
+   },
+   "nonperson_fpr": 0.1587,
+   "by_group": {
+    "신규고빈도_시작": {
+     "total": 100,
+     "exact": 92,
+     "full_exposure": 3
+    },
+    "신규고빈도_중간": {
+     "total": 100,
+     "exact": 100,
+     "full_exposure": 0
+    },
+    "신규고빈도_끝": {
+     "total": 100,
+     "exact": 90,
+     "full_exposure": 6
+    },
+    "신규저빈도_시작": {
+     "total": 100,
+     "exact": 92,
+     "full_exposure": 5
+    },
+    "신규저빈도_중간": {
+     "total": 100,
+     "exact": 97,
+     "full_exposure": 3
+    },
+    "신규저빈도_끝": {
+     "total": 100,
+     "exact": 85,
+     "full_exposure": 13
+    },
+    "이가로끝남_시작": {
+     "total": 15,
+     "exact": 15,
+     "full_exposure": 0
+    },
+    "이가로끝남_중간": {
+     "total": 15,
+     "exact": 14,
+     "full_exposure": 1
+    },
+    "이가로끝남_끝": {
+     "total": 15,
+     "exact": 14,
+     "full_exposure": 1
+    },
+    "신규애칭_시작": {
+     "total": 9,
+     "exact": 9,
+     "full_exposure": 0
+    },
+    "신규애칭_중간": {
+     "total": 9,
+     "exact": 9,
+     "full_exposure": 0
+    },
+    "신규애칭_끝": {
+     "total": 9,
+     "exact": 7,
+     "full_exposure": 2
+    },
+    "이름문맥_일반단어_시작": {
+     "total": 6,
+     "exact": 5,
+     "full_exposure": 1
+    },
+    "이름문맥_일반단어_중간": {
+     "total": 6,
+     "exact": 5,
+     "full_exposure": 1
+    },
+    "이름문맥_일반단어_끝": {
+     "total": 6,
+     "exact": 2,
+     "full_exposure": 4
+    },
+    "사물문맥_일반단어_시작": {
+     "total": 6,
+     "flagged": 4
+    },
+    "사물문맥_일반단어_중간": {
+     "total": 6,
+     "flagged": 4
+    },
+    "사물문맥_일반단어_끝": {
+     "total": 6,
+     "flagged": 2
+    },
+    "순수비인명_시작": {
+     "total": 15,
+     "flagged": 0
+    },
+    "순수비인명_중간": {
+     "total": 15,
+     "flagged": 0
+    },
+    "순수비인명_끝": {
+     "total": 15,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {}
+  }
+ },
+ "r4_candidate": {
+  "fingerprint12": "56249473d8d9",
+  "r4_heldout": {
+   "pos_sentences": 8,
+   "neg_sentences": 8,
+   "exact": {
+    "tp": 6,
+    "fp": 0,
+    "fn": 2,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "char_exposure": {
+    "full_exposure": 2,
+    "partial_exposure": 0,
+    "fully_masked": 6,
+    "full_exposure_rate": 0.25
+   },
+   "nonperson_fpr": 0.0,
+   "by_group": {
+    "compound_obj_holdout": {
+     "total": 8,
+     "exact": 6,
+     "full_exposure": 2
+    },
+    "compound_obj_holdout_neg": {
+     "total": 8,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {}
+  },
+  "v10_locked": {
+   "pos_sentences": 112,
+   "neg_sentences": 52,
+   "exact": {
+    "tp": 75,
+    "fp": 10,
+    "fn": 37,
+    "precision": 0.8823529411764706,
+    "recall": 0.6696428571428571,
+    "f1": 0.7614213197969542
+   },
+   "char_exposure": {
+    "full_exposure": 27,
+    "partial_exposure": 2,
+    "fully_masked": 83,
+    "full_exposure_rate": 0.2411
+   },
+   "nonperson_fpr": 0.0192,
+   "by_group": {
+    "목적격": {
+     "total": 32,
+     "exact": 20,
+     "full_exposure": 12
+    },
+    "비교서술": {
+     "total": 32,
+     "exact": 18,
+     "full_exposure": 9
+    },
+    "여격": {
+     "total": 16,
+     "exact": 16,
+     "full_exposure": 0
+    },
+    "호격": {
+     "total": 16,
+     "exact": 14,
+     "full_exposure": 1
+    },
+    "기본": {
+     "total": 16,
+     "exact": 7,
+     "full_exposure": 5
+    },
+    "nonperson": {
+     "total": 32,
+     "flagged": 1
+    },
+    "background": {
+     "total": 20,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {
+    "복합명사형": {
+     "total": 72,
+     "exact": 32,
+     "full_exposure": 21,
+     "flagged": 0
+    },
+    "단일형": {
+     "total": 72,
+     "exact": 43,
+     "full_exposure": 6,
+     "flagged": 1
+    }
+   }
+  },
+  "r3_heldout_REGRESSION": {
+   "pos_sentences": 16,
+   "neg_sentences": 8,
+   "exact": {
+    "tp": 15,
+    "fp": 4,
+    "fn": 1,
+    "precision": 0.7894736842105263,
+    "recall": 0.9375,
+    "f1": 0.8571428571428572
+   },
+   "char_exposure": {
+    "full_exposure": 1,
+    "partial_exposure": 0,
+    "fully_masked": 15,
+    "full_exposure_rate": 0.0625
+   },
+   "nonperson_fpr": 0.375,
+   "by_group": {
+    "collision_holdout": {
+     "total": 16,
+     "exact": 15,
+     "full_exposure": 1
+    },
+    "collision_holdout_neg": {
+     "total": 8,
+     "flagged": 3
+    }
+   },
+   "by_word_type": {}
+  },
+  "v9_locked_REGRESSION": {
+   "pos_sentences": 60,
+   "neg_sentences": 40,
+   "exact": {
+    "tp": 53,
+    "fp": 3,
+    "fn": 7,
+    "precision": 0.9464285714285714,
+    "recall": 0.8833333333333333,
+    "f1": 0.9137931034482758
+   },
+   "char_exposure": {
+    "full_exposure": 4,
+    "partial_exposure": 0,
+    "fully_masked": 56,
+    "full_exposure_rate": 0.0667
+   },
+   "nonperson_fpr": 0.025,
+   "by_group": {
+    "목적격": {
+     "total": 10,
+     "exact": 10,
+     "full_exposure": 0
+    },
+    "여격": {
+     "total": 10,
+     "exact": 10,
+     "full_exposure": 0
+    },
+    "호격": {
+     "total": 10,
+     "exact": 10,
+     "full_exposure": 0
+    },
+    "비교서술": {
+     "total": 10,
+     "exact": 10,
+     "full_exposure": 0
+    },
+    "nonperson": {
+     "total": 20,
+     "flagged": 1
+    },
+    "기본_주어서술": {
+     "total": 10,
+     "exact": 7,
+     "full_exposure": 0
+    },
+    "기본_단순언급": {
+     "total": 10,
+     "exact": 6,
+     "full_exposure": 4
+    },
+    "background": {
+     "total": 20,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {}
+  },
+  "ambiguity_probe_REGRESSION": {
+   "pos_sentences": 90,
+   "neg_sentences": 90,
+   "exact": {
+    "tp": 80,
+    "fp": 1,
+    "fn": 10,
+    "precision": 0.9876543209876543,
+    "recall": 0.8888888888888888,
+    "f1": 0.935672514619883
+   },
+   "char_exposure": {
+    "full_exposure": 9,
+    "partial_exposure": 0,
+    "fully_masked": 81,
+    "full_exposure_rate": 0.1
+   },
+   "nonperson_fpr": 0.1,
+   "by_group": {
+    "기관지역": {
+     "total": 24,
+     "exact": 12,
+     "full_exposure": 0,
+     "flagged": 1
+    },
+    "자연계절": {
+     "total": 78,
+     "exact": 33,
+     "full_exposure": 5,
+     "flagged": 6
+    },
+    "일상추상": {
+     "total": 78,
+     "exact": 35,
+     "full_exposure": 4,
+     "flagged": 2
+    }
+   },
+   "by_word_type": {}
+  },
+  "draft56_REGRESSION": {
+   "pos_sentences": 35,
+   "neg_sentences": 21,
+   "exact": {
+    "tp": 25,
+    "fp": 0,
+    "fn": 10,
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1": 0.8333333333333333
+   },
+   "char_exposure": {
+    "full_exposure": 10,
+    "partial_exposure": 0,
+    "fully_masked": 25,
+    "full_exposure_rate": 0.2857
+   },
+   "nonperson_fpr": 0.0476,
+   "by_group": {
+    "_all": {
+     "total": 56,
+     "exact": 25,
+     "full_exposure": 10,
+     "flagged": 1
+    }
+   },
+   "by_word_type": {}
+  },
+  "v8_independent_GENERAL": {
+   "pos_sentences": 690,
+   "neg_sentences": 63,
+   "exact": {
+    "tp": 631,
+    "fp": 12,
+    "fn": 59,
+    "precision": 0.9813374805598756,
+    "recall": 0.9144927536231884,
+    "f1": 0.9467366841710427
+   },
+   "char_exposure": {
+    "full_exposure": 47,
+    "partial_exposure": 0,
+    "fully_masked": 643,
+    "full_exposure_rate": 0.0681
+   },
+   "nonperson_fpr": 0.1429,
+   "by_group": {
+    "신규고빈도_시작": {
+     "total": 100,
+     "exact": 90,
+     "full_exposure": 5
+    },
+    "신규고빈도_중간": {
+     "total": 100,
+     "exact": 99,
+     "full_exposure": 1
+    },
+    "신규고빈도_끝": {
+     "total": 100,
+     "exact": 93,
+     "full_exposure": 4
+    },
+    "신규저빈도_시작": {
+     "total": 100,
+     "exact": 92,
+     "full_exposure": 5
+    },
+    "신규저빈도_중간": {
+     "total": 100,
+     "exact": 95,
+     "full_exposure": 5
+    },
+    "신규저빈도_끝": {
+     "total": 100,
+     "exact": 84,
+     "full_exposure": 15
+    },
+    "이가로끝남_시작": {
+     "total": 15,
+     "exact": 15,
+     "full_exposure": 0
+    },
+    "이가로끝남_중간": {
+     "total": 15,
+     "exact": 15,
+     "full_exposure": 0
+    },
+    "이가로끝남_끝": {
+     "total": 15,
+     "exact": 12,
+     "full_exposure": 3
+    },
+    "신규애칭_시작": {
+     "total": 9,
+     "exact": 9,
+     "full_exposure": 0
+    },
+    "신규애칭_중간": {
+     "total": 9,
+     "exact": 9,
+     "full_exposure": 0
+    },
+    "신규애칭_끝": {
+     "total": 9,
+     "exact": 7,
+     "full_exposure": 2
+    },
+    "이름문맥_일반단어_시작": {
+     "total": 6,
+     "exact": 4,
+     "full_exposure": 2
+    },
+    "이름문맥_일반단어_중간": {
+     "total": 6,
+     "exact": 5,
+     "full_exposure": 1
+    },
+    "이름문맥_일반단어_끝": {
+     "total": 6,
+     "exact": 2,
+     "full_exposure": 4
+    },
+    "사물문맥_일반단어_시작": {
+     "total": 6,
+     "flagged": 3
+    },
+    "사물문맥_일반단어_중간": {
+     "total": 6,
+     "flagged": 4
+    },
+    "사물문맥_일반단어_끝": {
+     "total": 6,
+     "flagged": 2
+    },
+    "순수비인명_시작": {
+     "total": 15,
+     "flagged": 0
+    },
+    "순수비인명_중간": {
+     "total": 15,
+     "flagged": 0
+    },
+    "순수비인명_끝": {
+     "total": 15,
+     "flagged": 0
+    }
+   },
+   "by_word_type": {}
+  }
+ }
+}

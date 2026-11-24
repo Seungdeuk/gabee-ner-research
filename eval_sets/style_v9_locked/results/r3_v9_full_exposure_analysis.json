@@ -1,0 +1,601 @@
+{
+ "full_exposure_cases": [
+  {
+   "id": "v9-0004",
+   "word": "솔잎",
+   "category": "목적격",
+   "text": "할머니가 솔잎을 많이 예뻐하셨어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0005",
+   "word": "눈송이",
+   "category": "목적격",
+   "text": "할머니가 눈송이를 많이 예뻐하셨어",
+   "service": {
+    "full_exposure": false,
+    "exact": true,
+    "raw_hit": [
+     "PERSON_ALIAS",
+     0.591
+    ],
+    "cause": null,
+    "final_person_spans": [
+     [
+      5,
+      8,
+      0.591
+     ]
+    ]
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0006",
+   "word": "빗방울",
+   "category": "목적격",
+   "text": "할머니가 빗방울을 많이 예뻐하셨어",
+   "service": {
+    "full_exposure": false,
+    "exact": true,
+    "raw_hit": [
+     "PERSON",
+     0.878
+    ],
+    "cause": null,
+    "final_person_spans": [
+     [
+      5,
+      8,
+      0.69
+     ]
+    ]
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0007",
+   "word": "들꽃",
+   "category": "목적격",
+   "text": "할머니가 들꽃을 많이 예뻐하셨어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": [
+     "ORGANIZATION",
+     0.335
+    ],
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0009",
+   "word": "솔바람",
+   "category": "목적격",
+   "text": "할머니가 솔바람을 많이 예뻐하셨어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0010",
+   "word": "꽃잎",
+   "category": "목적격",
+   "text": "할머니가 꽃잎을 많이 예뻐하셨어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0015",
+   "word": "눈송이",
+   "category": "여격",
+   "text": "눈송이한테 급식 맛있었는지 물어봤어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": [
+     "PERSON",
+     0.627
+    ],
+    "cause": "후처리 제거(merge_ner)",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": false,
+    "exact": true,
+    "raw_hit": [
+     "PERSON",
+     0.917
+    ],
+    "cause": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.69
+     ]
+    ]
+   }
+  },
+  {
+   "id": "v9-0017",
+   "word": "들꽃",
+   "category": "여격",
+   "text": "들꽃한테 급식 맛있었는지 물어봤어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": [
+     "PERSON_ALIAS",
+     0.5
+    ],
+    "cause": "신뢰도 부족",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": false,
+    "exact": true,
+    "raw_hit": [
+     "PERSON",
+     0.828
+    ],
+    "cause": null,
+    "final_person_spans": [
+     [
+      0,
+      2,
+      0.69
+     ]
+    ]
+   }
+  },
+  {
+   "id": "v9-0036",
+   "word": "빗방울",
+   "category": "비교서술",
+   "text": "빗방울이 우리 학원에서 제일 성실해",
+   "service": {
+    "full_exposure": false,
+    "exact": true,
+    "raw_hit": [
+     "PERSON",
+     0.901
+    ],
+    "cause": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.69
+     ]
+    ]
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0037",
+   "word": "들꽃",
+   "category": "비교서술",
+   "text": "들꽃이 우리 학원에서 제일 성실해",
+   "service": {
+    "full_exposure": false,
+    "exact": false,
+    "raw_hit": [
+     "PERSON_ALIAS",
+     0.843
+    ],
+    "cause": "후처리 제거(merge_ner)",
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.69
+     ]
+    ]
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": [
+     "PERSON",
+     0.449
+    ],
+    "cause": "신뢰도 부족",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0039",
+   "word": "솔바람",
+   "category": "비교서술",
+   "text": "솔바람이 우리 학원에서 제일 성실해",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": false,
+    "exact": true,
+    "raw_hit": [
+     "PERSON_ALIAS",
+     0.674
+    ],
+    "cause": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.674
+     ]
+    ]
+   }
+  },
+  {
+   "id": "v9-0069",
+   "word": "솔바람",
+   "category": "기본_주어서술",
+   "text": "솔바람이 오늘 친구 생일파티 다녀왔대",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": false,
+    "exact": true,
+    "raw_hit": [
+     "PERSON_ALIAS",
+     0.72
+    ],
+    "cause": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.69
+     ]
+    ]
+   }
+  },
+  {
+   "id": "v9-0074",
+   "word": "솔잎",
+   "category": "기본_단순언급",
+   "text": "솔잎 사진을 가족방에 올렸어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": [
+     "PERSON_ALIAS",
+     0.472
+    ],
+    "cause": "신뢰도 부족",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0076",
+   "word": "빗방울",
+   "category": "기본_단순언급",
+   "text": "빗방울 사진을 가족방에 올렸어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0077",
+   "word": "들꽃",
+   "category": "기본_단순언급",
+   "text": "들꽃 사진을 가족방에 올렸어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": [
+     "ORGANIZATION",
+     0.333
+    ],
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": [
+     "ORGANIZATION",
+     0.502
+    ],
+    "cause": "ORG/LOC 오분류(ORGANIZATION)",
+    "final_person_spans": []
+   }
+  },
+  {
+   "id": "v9-0079",
+   "word": "솔바람",
+   "category": "기본_단순언급",
+   "text": "솔바람 사진을 가족방에 올렸어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": false,
+    "exact": true,
+    "raw_hit": [
+     "PERSON_ALIAS",
+     0.525
+    ],
+    "cause": null,
+    "final_person_spans": [
+     [
+      0,
+      3,
+      0.525
+     ]
+    ]
+   }
+  },
+  {
+   "id": "v9-0080",
+   "word": "꽃잎",
+   "category": "기본_단순언급",
+   "text": "꽃잎 사진을 가족방에 올렸어",
+   "service": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   },
+   "r3": {
+    "full_exposure": true,
+    "exact": false,
+    "raw_hit": null,
+    "cause": "후보 미생성",
+    "final_person_spans": []
+   }
+  }
+ ],
+ "cross_table": {
+  "service_full=False_r3_full=False": 43,
+  "service_full=True_r3_full=True": 8,
+  "service_full=False_r3_full=True": 4,
+  "service_full=True_r3_full=False": 5
+ },
+ "improved_ids": [
+  "v9-0015",
+  "v9-0017",
+  "v9-0039",
+  "v9-0069",
+  "v9-0079"
+ ],
+ "regressed_ids": [
+  "v9-0005",
+  "v9-0006",
+  "v9-0036",
+  "v9-0037"
+ ],
+ "both_still_full_ids": [
+  "v9-0004",
+  "v9-0007",
+  "v9-0009",
+  "v9-0010",
+  "v9-0074",
+  "v9-0076",
+  "v9-0077",
+  "v9-0080"
+ ],
+ "r3_full_exposure_cause_counts": {
+  "후보 미생성": 8,
+  "ORG/LOC 오분류(ORGANIZATION)": 2,
+  "신뢰도 부족": 2
+ },
+ "service_full_exposure_cause_counts": {
+  "후보 미생성": 10,
+  "후처리 제거(merge_ner)": 1,
+  "신뢰도 부족": 1,
+  "ORG/LOC 오분류(ORGANIZATION)": 1
+ },
+ "r3_full_exposure_by_word": {
+  "솔잎": 2,
+  "눈송이": 1,
+  "빗방울": 3,
+  "들꽃": 3,
+  "솔바람": 1,
+  "꽃잎": 2
+ },
+ "r3_pos_total_by_word": {
+  "진달래": 6,
+  "민들레": 6,
+  "억새": 6,
+  "솔잎": 6,
+  "눈송이": 6,
+  "빗방울": 6,
+  "들꽃": 6,
+  "메아리": 6,
+  "솔바람": 6,
+  "꽃잎": 6
+ },
+ "r3_full_exposure_by_category": {
+  "목적격": 6,
+  "비교서술": 2,
+  "기본_단순언급": 4
+ },
+ "r3_pos_total_by_category": {
+  "목적격": 10,
+  "여격": 10,
+  "호격": 10,
+  "비교서술": 10,
+  "기본_주어서술": 10,
+  "기본_단순언급": 10
+ },
+ "nonperson_flag_changes": [
+  {
+   "id": "v9-0041",
+   "word": "진달래",
+   "text": "산기슭에 진달래가 활짝 피었다",
+   "service_flagged": true,
+   "service_raw": [
+    [
+     5,
+     8,
+     0.838
+    ]
+   ],
+   "r3_flagged": false,
+   "r3_raw": []
+  },
+  {
+   "id": "v9-0043",
+   "word": "민들레",
+   "text": "길가에 민들레가 피어 있었다",
+   "service_flagged": true,
+   "service_raw": [
+    [
+     4,
+     7,
+     0.897
+    ]
+   ],
+   "r3_flagged": false,
+   "r3_raw": []
+  },
+  {
+   "id": "v9-0050",
+   "word": "눈송이",
+   "text": "눈송이가 소복이 쌓였다",
+   "service_flagged": true,
+   "service_raw": [
+    [
+     0,
+     1,
+     0.419
+    ],
+    [
+     1,
+     3,
+     0.703
+    ]
+   ],
+   "r3_flagged": false,
+   "r3_raw": []
+  },
+  {
+   "id": "v9-0055",
+   "word": "메아리",
+   "text": "산에서 메아리가 울려 퍼졌다",
+   "service_flagged": true,
+   "service_raw": [
+    [
+     4,
+     7,
+     0.897
+    ]
+   ],
+   "r3_flagged": false,
+   "r3_raw": []
+  },
+  {
+   "id": "v9-0056",
+   "word": "메아리",
+   "text": "메아리 소리가 점점 작아졌다",
+   "service_flagged": true,
+   "service_raw": [
+    [
+     0,
+     3,
+     0.816
+    ]
+   ],
+   "r3_flagged": false,
+   "r3_raw": []
+  }
+ ]
+}

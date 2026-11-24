@@ -1,0 +1,288 @@
+{
+ "ledger": {
+  "records": 706,
+  "unique_ids": 706,
+  "invalid_ids": [],
+  "verdicts": {
+   "ok": 706
+  },
+  "total_reviewed": 706,
+  "meets_min_240": true,
+  "meets_target_300": true,
+  "representative_category_coverage_pct": {
+   "가족 안부·심부름": 32.1,
+   "병원·건강": 29.7,
+   "사진·영상 공유": 28.9,
+   "여행·이동·집 방문": 28.1,
+   "일정·약속": 32.9,
+   "잡담·감정": 29.9,
+   "정산·돈·구매": 31.2,
+   "학교·학원": 25.9
+  },
+  "stress_type_coverage_pct": {
+   "A1": 17.3,
+   "A3": 33.3,
+   "A3N": 57.5,
+   "B1": 14.4,
+   "B2": 12.0,
+   "C1": 15.0,
+   "C2": 50.0,
+   "D1": 24.4,
+   "D1P": 42.0,
+   "D2": 40.0,
+   "D3": 35.0,
+   "GENERIC": 15.0,
+   "OTHER": 44.0
+  },
+  "min_stratum_coverage_pct": 12.0,
+  "overlap_with_proposed_sample": {
+   "representative": {
+    "proposed_random_ids": 200,
+    "in_ledger": 68,
+    "share_pct": 34.0,
+    "proposed_high_risk_extra_ids": 100,
+    "high_risk_in_ledger": 65
+   },
+   "stress": {
+    "proposed_random_ids": 100,
+    "in_ledger": 25,
+    "share_pct": 25.0,
+    "proposed_high_risk_extra_ids": 100,
+    "high_risk_in_ledger": 39
+   }
+  },
+  "high_risk": {
+   "groups": {
+    "kin_only_negatives_rep": {
+     "size": 40,
+     "reviewed": 40
+    },
+    "kin_only_negatives_stress": {
+     "size": 2,
+     "reviewed": 1
+    },
+    "alias_sentences": {
+     "size": 95,
+     "reviewed": 95
+    },
+    "multi_person": {
+     "size": 248,
+     "reviewed": 102
+    },
+    "context_entities_loc_org": {
+     "size": 53,
+     "reviewed": 25
+    },
+    "stress_D1": {
+     "size": 90,
+     "reviewed": 22
+    },
+    "stress_A3": {
+     "size": 90,
+     "reviewed": 30
+    },
+    "stress_D1P": {
+     "size": 50,
+     "reviewed": 21
+    },
+    "stress_D3": {
+     "size": 60,
+     "reviewed": 21
+    },
+    "stress_D2": {
+     "size": 50,
+     "reviewed": 20
+    },
+    "stress_C2": {
+     "size": 40,
+     "reviewed": 20
+    },
+    "stress_A3N": {
+     "size": 40,
+     "reviewed": 23
+    },
+    "unlabeled_name_suspect_rep": {
+     "size": 53,
+     "reviewed": 53
+    },
+    "unlabeled_name_suspect_stress": {
+     "size": 57,
+     "reviewed": 57
+    },
+    "one_char_name_suspect_rep": {
+     "size": 4,
+     "reviewed": 4
+    },
+    "one_char_name_suspect_stress": {
+     "size": 1,
+     "reviewed": 1
+    },
+    "kin_adjacent_rep": {
+     "size": 95,
+     "reviewed": 95
+    }
+   },
+   "requirements": {
+    "unlabeled_name_suspect_all(110)": true,
+    "one_char_suspect_all(5)": true,
+    "alias>=48of95": true,
+    "kin_only_negatives_rep>=20of40": true,
+    "stress_A3>=20": true,
+    "stress_A3N>=20": true,
+    "stress_D1>=20": true,
+    "stress_D1P>=20": true,
+    "stress_D2>=20": true,
+    "stress_C2>=20": true,
+    "stress_D3>=20": true
+   },
+   "all_met": true
+  },
+  "error_rate": {
+   "reviewed_sentences": 706,
+   "reviewed_spans": 661,
+   "sentences_fix_or_exclude": 0,
+   "span_error_upper95_pct_if_zero_errors": 0.58,
+   "sentence_error_upper95_pct_if_zero_errors": 0.54,
+   "meets_2pct_threshold_on_point_estimate": true,
+   "note": "수정 0건이고 오류는 구간이 아니라 문장 단위로 판정됐다. 상한은 오류 0건 가정의 Wilson 95% 상한이다."
+  },
+  "changed_vs_v1.1": {
+   "changed_rows": 48,
+   "changed_not_in_ledger": []
+  },
+  "v1_1_carry_over": {
+   "ids_with_carry_over_basis": 215,
+   "carry_over_but_changed_in_v1_2": [],
+   "carry_over_only_basis_ids": 175,
+   "carry_over_only_basis_changed_in_v1_2": []
+  },
+  "unreviewed_rows": 1694
+ },
+ "c1_reuse": {
+  "seeds": {
+   "7": {
+    "train_sentences": [
+     4689,
+     4220,
+     469
+    ],
+    "config_diffs_vs_planned_C1": {},
+    "data_file_hashes_unchanged": {
+     "baseline_train": true,
+     "synth_train": true,
+     "baseline_val": true,
+     "synth_val": true
+    },
+    "klue_ids_same_ratio_vs_fixed": true,
+    "training_order_hash_ratio_vs_fixed": [
+     "3d847cfeb41c",
+     "3d847cfeb41c"
+    ],
+    "best_epoch": 6,
+    "stopped_epoch": 8,
+    "onnx_exists": true,
+    "onnx_sha12": "ea70592fc9d1"
+   },
+   "13": {
+    "train_sentences": [
+     4689,
+     4220,
+     469
+    ],
+    "config_diffs_vs_planned_C1": {},
+    "data_file_hashes_unchanged": {
+     "baseline_train": true,
+     "synth_train": true,
+     "baseline_val": true,
+     "synth_val": true
+    },
+    "klue_ids_same_ratio_vs_fixed": true,
+    "training_order_hash_ratio_vs_fixed": [
+     "afe6613c8629",
+     "afe6613c8629"
+    ],
+    "best_epoch": 3,
+    "stopped_epoch": 5,
+    "onnx_exists": true,
+    "onnx_sha12": "acc3b2588250"
+   },
+   "21": {
+    "train_sentences": [
+     4689,
+     4220,
+     469
+    ],
+    "config_diffs_vs_planned_C1": {},
+    "data_file_hashes_unchanged": {
+     "baseline_train": true,
+     "synth_train": true,
+     "baseline_val": true,
+     "synth_val": true
+    },
+    "klue_ids_same_ratio_vs_fixed": true,
+    "training_order_hash_ratio_vs_fixed": [
+     "ccaa8ac384d2",
+     "ccaa8ac384d2"
+    ],
+    "best_epoch": 4,
+    "stopped_epoch": 6,
+    "onnx_exists": true,
+    "onnx_sha12": "2fe3d1f30ee1"
+   },
+   "42": {
+    "train_sentences": [
+     4689,
+     4220,
+     469
+    ],
+    "config_diffs_vs_planned_C1": {},
+    "data_file_hashes_unchanged": {
+     "baseline_train": true,
+     "synth_train": true,
+     "baseline_val": true,
+     "synth_val": true
+    },
+    "klue_ids_same_ratio_vs_fixed": true,
+    "training_order_hash_ratio_vs_fixed": [
+     "fd7d25e9ac45",
+     "fd7d25e9ac45"
+    ],
+    "best_epoch": 3,
+    "stopped_epoch": 5,
+    "onnx_exists": true,
+    "onnx_sha12": "e5387ce50939"
+   },
+   "99": {
+    "train_sentences": [
+     4689,
+     4220,
+     469
+    ],
+    "config_diffs_vs_planned_C1": {},
+    "data_file_hashes_unchanged": {
+     "baseline_train": true,
+     "synth_train": true,
+     "baseline_val": true,
+     "synth_val": true
+    },
+    "klue_ids_same_ratio_vs_fixed": true,
+    "training_order_hash_ratio_vs_fixed": [
+     "8920199b5c6e",
+     "8920199b5c6e"
+    ],
+    "best_epoch": 5,
+    "stopped_epoch": 7,
+    "onnx_exists": true,
+    "onnx_sha12": "bb8f089707ca"
+   }
+  },
+  "problems": [],
+  "train_git_heads": [
+   "39599bef"
+  ],
+  "training_code_diff_since_run": {
+   "39599bef": "(변경 없음)"
+  },
+  "equivalent": true
+ }
+}

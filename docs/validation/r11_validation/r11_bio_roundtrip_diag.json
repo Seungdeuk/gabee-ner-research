@@ -1,0 +1,86 @@
+{
+ "r11_Dprime_train": {
+  "rows": 800,
+  "mismatch": 32,
+  "causes": {
+   "boundary_inside_token": 32,
+   "len_diff_gold_vs_decoded": 0
+  },
+  "rate_pct": 4.0,
+  "ids_head": [
+   "r11_Dprime_train-00033",
+   "r11_Dprime_train-00045",
+   "r11_Dprime_train-00102",
+   "r11_Dprime_train-00106",
+   "r11_Dprime_train-00150"
+  ]
+ },
+ "r11_val": {
+  "rows": 600,
+  "mismatch": 16,
+  "causes": {
+   "boundary_inside_token": 16,
+   "len_diff_gold_vs_decoded": 0
+  },
+  "rate_pct": 2.67,
+  "ids_head": [
+   "r11_val-00009",
+   "r11_val-00135",
+   "r11_val-00141",
+   "r11_val-00177",
+   "r11_val-00195"
+  ]
+ },
+ "r11_dev": {
+  "rows": 1920,
+  "mismatch": 46,
+  "causes": {
+   "boundary_inside_token": 46,
+   "len_diff_gold_vs_decoded": 0
+  },
+  "rate_pct": 2.4,
+  "ids_head": [
+   "r11_dev-00037",
+   "r11_dev-00067",
+   "r11_dev-00081",
+   "r11_dev-00087",
+   "r11_dev-00125"
+  ]
+ },
+ "ref:r10_full_train": {
+  "rows": 2100,
+  "mismatch": 53,
+  "causes": {
+   "boundary_inside_token": 53,
+   "len_diff_gold_vs_decoded": 0
+  },
+  "rate_pct": 2.52
+ },
+ "ref:r9_Ffull_train": {
+  "rows": 3126,
+  "mismatch": 95,
+  "causes": {
+   "boundary_inside_token": 95,
+   "len_diff_gold_vs_decoded": 0
+  },
+  "rate_pct": 3.04
+ },
+ "ref:synth_train": {
+  "rows": 3680,
+  "mismatch": 37,
+  "causes": {
+   "boundary_inside_token": 37,
+   "len_diff_gold_vs_decoded": 0
+  },
+  "rate_pct": 1.01
+ },
+ "ref:r10_dev": {
+  "rows": 819,
+  "mismatch": 18,
+  "causes": {
+   "boundary_inside_token": 18,
+   "len_diff_gold_vs_decoded": 0
+  },
+  "rate_pct": 2.2
+ }
+}

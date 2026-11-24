@@ -1,0 +1,36 @@
+{"id": "r2-0001", "category": "nickname_train_check", "text": "람이가 오늘 유치원에서 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0002", "category": "nickname_train_check", "text": "율이가 오늘 유치원에서 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0003", "category": "nickname_train_check", "text": "민이가 오늘 유치원에서 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0004", "category": "nickname_train_check", "text": "현이가 오늘 유치원에서 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0005", "category": "nickname_train_check", "text": "솔이가 오늘 유치원에서 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0006", "category": "nickname_train_check", "text": "완이가 오늘 유치원에서 상 받았대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0007", "category": "nickname_train_check", "text": "람이 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0008", "category": "nickname_train_check", "text": "율이 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0009", "category": "nickname_train_check", "text": "민이 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0010", "category": "nickname_train_check", "text": "현이 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0011", "category": "nickname_train_check", "text": "솔이 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0012", "category": "nickname_train_check", "text": "완이 사진 좀 보내줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0013", "category": "nickname_train_check", "text": "람이가 밥 잘 먹었는지 물어봐줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0014", "category": "nickname_train_check", "text": "율이가 밥 잘 먹었는지 물어봐줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0015", "category": "nickname_train_check", "text": "민이가 밥 잘 먹었는지 물어봐줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0016", "category": "nickname_train_check", "text": "현이가 밥 잘 먹었는지 물어봐줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0017", "category": "nickname_train_check", "text": "솔이가 밥 잘 먹었는지 물어봐줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0018", "category": "nickname_train_check", "text": "완이가 밥 잘 먹었는지 물어봐줄래", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0019", "category": "nickname_train_check", "text": "할머니가 람이 많이 보고싶어하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0020", "category": "nickname_train_check", "text": "할머니가 율이 많이 보고싶어하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0021", "category": "nickname_train_check", "text": "할머니가 민이 많이 보고싶어하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0022", "category": "nickname_train_check", "text": "할머니가 현이 많이 보고싶어하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0023", "category": "nickname_train_check", "text": "할머니가 솔이 많이 보고싶어하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0024", "category": "nickname_train_check", "text": "할머니가 완이 많이 보고싶어하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0025", "category": "nickname_train_check", "text": "람이 요즘 부쩍 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0026", "category": "nickname_train_check", "text": "율이 요즘 부쩍 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0027", "category": "nickname_train_check", "text": "민이 요즘 부쩍 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0028", "category": "nickname_train_check", "text": "현이 요즘 부쩍 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0029", "category": "nickname_train_check", "text": "솔이 요즘 부쩍 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0030", "category": "nickname_train_check", "text": "완이 요즘 부쩍 컸더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0031", "category": "nickname_train_check", "text": "람이가 어제 열이 좀 있었대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0032", "category": "nickname_train_check", "text": "율이가 어제 열이 좀 있었대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0033", "category": "nickname_train_check", "text": "민이가 어제 열이 좀 있었대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0034", "category": "nickname_train_check", "text": "현이가 어제 열이 좀 있었대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0035", "category": "nickname_train_check", "text": "솔이가 어제 열이 좀 있었대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}
+{"id": "r2-0036", "category": "nickname_train_check", "text": "완이가 어제 열이 좀 있었대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_train_check"}

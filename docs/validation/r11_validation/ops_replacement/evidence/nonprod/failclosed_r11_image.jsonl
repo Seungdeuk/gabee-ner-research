@@ -1,0 +1,6 @@
+{"label": "control-ok", "mode": "required", "status": {"mode": "required", "active": true, "fingerprint": "3831601b7ffb"}, "blocked": false, "note": "가명화 통과(모델 정상)", "pseudonymized_has_raw_name": false, "socket_connect_attempts": 0}
+NER 엔진을 불러오지 못했다(종류=FileNotFoundError). mode=required 라 가명화 요청은 503 으로 거부된다
+{"label": "tampered-required", "mode": "required", "status": {"mode": "required", "active": false, "fingerprint": ""}, "blocked": true, "exception": "PrivacyUnavailable", "status_code": null, "code": "privacy_unavailable", "socket_connect_attempts": 0}
+{"label": "missing-with-AUTO-override", "mode": "auto", "status": {"mode": "auto", "active": false, "fingerprint": ""}, "blocked": false, "note": "가명화 통과(모델 정상)", "pseudonymized_has_raw_name": false, "socket_connect_attempts": 0}
+{"label": "missing-with-typo-requird", "mode": "required", "status": {"mode": "required", "active": false, "fingerprint": ""}, "blocked": true, "exception": "PrivacyUnavailable", "status_code": null, "code": "privacy_unavailable", "socket_connect_attempts": 0}
+{"label": "missing-required", "mode": "required", "status": {"mode": "required", "active": false, "fingerprint": ""}, "blocked": true, "exception": "PrivacyUnavailable", "status_code": null, "code": "privacy_unavailable", "socket_connect_attempts": 0}

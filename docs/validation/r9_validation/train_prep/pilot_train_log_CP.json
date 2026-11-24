@@ -1,0 +1,1155 @@
+{
+  "run_id": "pilot-r9-CP-s7",
+  "started": "2026-11-19T18:26:09",
+  "git_head": "5842652f",
+  "config": {
+    "model": "monologg/koelectra-small-v3-discriminator",
+    "train_files": [
+      "baseline_train",
+      "synth_train",
+      "klue_train:469"
+    ],
+    "val_files": [
+      "baseline_val",
+      "synth_val",
+      "r9_val_extra"
+    ],
+    "klue_ratio": 0.0,
+    "klue_file": "klue_train",
+    "select_on": "baseline_val",
+    "select_metric": "overlap",
+    "max_len": 128,
+    "batch_size": 32,
+    "lr": 5e-05,
+    "epochs": 2,
+    "seed": 7,
+    "patience": 2,
+    "class_weights": "none",
+    "weight_clip": 10.0,
+    "policy": "all",
+    "no_fp16": false,
+    "warmup": 0.1,
+    "weight_decay": 0.01,
+    "run_id": "pilot-r9-CP-s7",
+    "out_root": "C:\\Users\\<user>\\venvs\\ner-runs\\r9\\runs",
+    "data_dir": "C:\\Users\\<user>\\venvs\\ner-runs\\data_r9",
+    "no_save_model": false
+  },
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050",
+  "data_files": {
+    "baseline_train": {
+      "sha256_12": "61fdc12a6d2a",
+      "rows": 540
+    },
+    "synth_train": {
+      "sha256_12": "2cfaca150bb8",
+      "rows": 3680
+    },
+    "klue_train:469": {
+      "sha256_12": "8e0753d632b7",
+      "rows": 21008
+    },
+    "baseline_val": {
+      "sha256_12": "07c0c4074337",
+      "rows": 180
+    },
+    "synth_val": {
+      "sha256_12": "9d05760819bd",
+      "rows": 1069
+    },
+    "r9_val_extra": {
+      "sha256_12": "b1c502446e42",
+      "rows": 844
+    }
+  },
+  "train_sentences": 4689,
+  "train_sentences_non_klue": 4689,
+  "train_sentences_klue": 0,
+  "klue_share_actual": 0.0,
+  "data_build": null,
+  "tag_token_counts": {
+    "O": 46070,
+    "B-PERSON": 1830,
+    "I-PERSON": 2133,
+    "B-PERSON_ALIAS": 292,
+    "I-PERSON_ALIAS": 361,
+    "B-ADDRESS": 610,
+    "I-ADDRESS": 3971,
+    "B-LOCATION": 730,
+    "I-LOCATION": 1026,
+    "B-ORGANIZATION": 944,
+    "I-ORGANIZATION": 2190
+  },
+  "class_weights": null,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1791576021382597,
+      "val_score": 0.782608695652174,
+      "val": {
+        "baseline_val": {
+          "seqeval": {
+            "ADDRESS": {
+              "precision": 0.8,
+              "recall": 1.0,
+              "f1-score": 0.888888888888889,
+              "support": 16.0
+            },
+            "LOCATION": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 8.0
+            },
+            "ORGANIZATION": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 8.0
+            },
+            "PERSON": {
+              "precision": 0.6140350877192983,
+              "recall": 0.875,
+              "f1-score": 0.7216494845360825,
+              "support": 40.0
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 4.0
+            },
+            "micro avg": {
+              "precision": 0.6,
+              "recall": 0.6710526315789473,
+              "f1-score": 0.6335403726708074,
+              "support": 76.0
+            },
+            "macro avg": {
+              "precision": 0.2828070175438596,
+              "recall": 0.375,
+              "f1-score": 0.3221076746849943,
+              "support": 76.0
+            },
+            "weighted avg": {
+              "precision": 0.49159741458910433,
+              "recall": 0.6710526315789473,
+              "f1-score": 0.5669500211008621,
+              "support": 76.0
+            },
+            "overall": {
+              "precision": 0.6,
+              "recall": 0.6710526315789473,
+              "f1": 0.6335403726708074
+            }
+          },
+          "char_exact": {
+            "micro": {
+              "tp": 50,
+              "fp": 35,
+              "fn": 26,
+              "precision": 0.5882352941176471,
+              "recall": 0.6578947368421053,
+              "f1": 0.6211180124223602,
+              "fnr": 0.3421052631578947
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 34,
+                "fp": 23,
+                "fn": 6,
+                "precision": 0.5964912280701754,
+                "recall": 0.85,
+                "f1": 0.7010309278350515,
+                "fnr": 0.15000000000000002
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 4,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 16,
+                "fp": 4,
+                "fn": 0,
+                "precision": 0.8,
+                "recall": 1.0,
+                "f1": 0.888888888888889,
+                "fnr": 0.0
+              },
+              "LOCATION": {
+                "tp": 0,
+                "fp": 1,
+                "fn": 8,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ORGANIZATION": {
+                "tp": 0,
+                "fp": 7,
+                "fn": 8,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              }
+            }
+          },
+          "char_overlap": {
+            "micro": {
+              "tp": 63,
+              "fp": 22,
+              "fn": 13,
+              "precision": 0.7411764705882353,
+              "recall": 0.8289473684210527,
+              "f1": 0.782608695652174,
+              "fnr": 0.17105263157894735
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 39,
+                "fp": 18,
+                "fn": 1,
+                "precision": 0.6842105263157895,
+                "recall": 0.975,
+                "f1": 0.8041237113402062,
+                "fnr": 0.025000000000000022
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 4,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 16,
+                "fp": 4,
+                "fn": 0,
+                "precision": 0.8,
+                "recall": 1.0,
+                "f1": 0.888888888888889,
+                "fnr": 0.0
+              },
+              "LOCATION": {
+                "tp": 1,
+                "fp": 0,
+                "fn": 7,
+                "precision": 1.0,
+                "recall": 0.125,
+                "f1": 0.2222222222222222,
+                "fnr": 0.875
+              },
+              "ORGANIZATION": {
+                "tp": 7,
+                "fp": 0,
+                "fn": 1,
+                "precision": 1.0,
+                "recall": 0.875,
+                "f1": 0.9333333333333333,
+                "fnr": 0.125
+              }
+            }
+          }
+        },
+        "synth_val": {
+          "seqeval": {
+            "ADDRESS": {
+              "precision": 0.5865384615384616,
+              "recall": 0.915,
+              "f1-score": 0.71484375,
+              "support": 200.0
+            },
+            "LOCATION": {
+              "precision": 0.6296296296296297,
+              "recall": 0.255,
+              "f1-score": 0.36298932384341637,
+              "support": 200.0
+            },
+            "ORGANIZATION": {
+              "precision": 0.12941176470588237,
+              "recall": 0.1375,
+              "f1-score": 0.13333333333333333,
+              "support": 160.0
+            },
+            "PERSON": {
+              "precision": 0.5565862708719852,
+              "recall": 0.8333333333333334,
+              "f1-score": 0.6674082313681868,
+              "support": 360.0
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 80.0
+            },
+            "micro avg": {
+              "precision": 0.5045372050816697,
+              "recall": 0.556,
+              "f1-score": 0.5290199809705043,
+              "support": 1000.0
+            },
+            "macro avg": {
+              "precision": 0.3804332253491918,
+              "recall": 0.42816666666666664,
+              "f1-score": 0.3757149277089873,
+              "support": 1000.0
+            },
+            "weighted avg": {
+              "precision": 0.46431055810047406,
+              "recall": 0.556,
+              "f1-score": 0.47716691139456385,
+              "support": 1000.0
+            },
+            "overall": {
+              "precision": 0.5045372050816697,
+              "recall": 0.556,
+              "f1": 0.5290199809705043
+            }
+          },
+          "char_exact": {
+            "micro": {
+              "tp": 556,
+              "fp": 546,
+              "fn": 444,
+              "precision": 0.5045372050816697,
+              "recall": 0.556,
+              "f1": 0.5290199809705043,
+              "fnr": 0.44399999999999995
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 300,
+                "fp": 239,
+                "fn": 60,
+                "precision": 0.5565862708719852,
+                "recall": 0.8333333333333334,
+                "f1": 0.6674082313681868,
+                "fnr": 0.16666666666666663
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 183,
+                "fp": 129,
+                "fn": 17,
+                "precision": 0.5865384615384616,
+                "recall": 0.915,
+                "f1": 0.71484375,
+                "fnr": 0.08499999999999996
+              },
+              "LOCATION": {
+                "tp": 51,
+                "fp": 30,
+                "fn": 149,
+                "precision": 0.6296296296296297,
+                "recall": 0.255,
+                "f1": 0.36298932384341637,
+                "fnr": 0.745
+              },
+              "ORGANIZATION": {
+                "tp": 22,
+                "fp": 148,
+                "fn": 138,
+                "precision": 0.12941176470588237,
+                "recall": 0.1375,
+                "f1": 0.13333333333333333,
+                "fnr": 0.8625
+              }
+            }
+          },
+          "char_overlap": {
+            "micro": {
+              "tp": 744,
+              "fp": 358,
+              "fn": 256,
+              "precision": 0.6751361161524501,
+              "recall": 0.744,
+              "f1": 0.7078972407231209,
+              "fnr": 0.256
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 333,
+                "fp": 206,
+                "fn": 27,
+                "precision": 0.6178107606679035,
+                "recall": 0.925,
+                "f1": 0.7408231368186874,
+                "fnr": 0.07499999999999996
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 199,
+                "fp": 113,
+                "fn": 1,
+                "precision": 0.6378205128205128,
+                "recall": 0.995,
+                "f1": 0.7773437499999999,
+                "fnr": 0.0050000000000000044
+              },
+              "LOCATION": {
+                "tp": 79,
+                "fp": 2,
+                "fn": 121,
+                "precision": 0.9753086419753086,
+                "recall": 0.395,
+                "f1": 0.5622775800711745,
+                "fnr": 0.605
+              },
+              "ORGANIZATION": {
+                "tp": 133,
+                "fp": 37,
+                "fn": 27,
+                "precision": 0.7823529411764706,
+                "recall": 0.83125,
+                "f1": 0.806060606060606,
+                "fnr": 0.16874999999999996
+              }
+            }
+          }
+        },
+        "r9_val_extra": {
+          "seqeval": {
+            "ADDRESS": {
+              "precision": 0.18421052631578946,
+              "recall": 0.6363636363636364,
+              "f1-score": 0.2857142857142857,
+              "support": 11.0
+            },
+            "LOCATION": {
+              "precision": 0.5333333333333333,
+              "recall": 0.1509433962264151,
+              "f1-score": 0.23529411764705882,
+              "support": 53.0
+            },
+            "ORGANIZATION": {
+              "precision": 0.30864197530864196,
+              "recall": 0.5319148936170213,
+              "f1-score": 0.39062499999999994,
+              "support": 47.0
+            },
+            "PERSON": {
+              "precision": 0.6803840877914952,
+              "recall": 0.7987117552334944,
+              "f1-score": 0.7348148148148148,
+              "support": 621.0
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 66.0
+            },
+            "micro avg": {
+              "precision": 0.6210892236384704,
+              "recall": 0.6716791979949874,
+              "f1-score": 0.6453943407585792,
+              "support": 798.0
+            },
+            "macro avg": {
+              "precision": 0.341313984549852,
+              "recall": 0.4235867362881134,
+              "f1-score": 0.32928964363523183,
+              "support": 798.0
+            },
+            "weighted avg": {
+              "precision": 0.585611120067876,
+              "recall": 0.6716791979949874,
+              "f1-score": 0.6144020305490617,
+              "support": 798.0
+            },
+            "overall": {
+              "precision": 0.6210892236384704,
+              "recall": 0.6716791979949874,
+              "f1": 0.6453943407585792
+            }
+          },
+          "char_exact": {
+            "micro": {
+              "tp": 521,
+              "fp": 342,
+              "fn": 277,
+              "precision": 0.6037079953650057,
+              "recall": 0.6528822055137845,
+              "f1": 0.6273329319686937,
+              "fnr": 0.3471177944862155
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 481,
+                "fp": 248,
+                "fn": 140,
+                "precision": 0.6598079561042524,
+                "recall": 0.7745571658615137,
+                "f1": 0.7125925925925926,
+                "fnr": 0.22544283413848631
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 66,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 7,
+                "fp": 31,
+                "fn": 4,
+                "precision": 0.18421052631578946,
+                "recall": 0.6363636363636364,
+                "f1": 0.2857142857142857,
+                "fnr": 0.36363636363636365
+              },
+              "LOCATION": {
+                "tp": 8,
+                "fp": 7,
+                "fn": 45,
+                "precision": 0.5333333333333333,
+                "recall": 0.1509433962264151,
+                "f1": 0.23529411764705882,
+                "fnr": 0.8490566037735849
+              },
+              "ORGANIZATION": {
+                "tp": 25,
+                "fp": 56,
+                "fn": 22,
+                "precision": 0.30864197530864196,
+                "recall": 0.5319148936170213,
+                "f1": 0.39062499999999994,
+                "fnr": 0.46808510638297873
+              }
+            }
+          },
+          "char_overlap": {
+            "micro": {
+              "tp": 651,
+              "fp": 212,
+              "fn": 147,
+              "precision": 0.7543453070683661,
+              "recall": 0.8157894736842105,
+              "f1": 0.7838651414810355,
+              "fnr": 0.1842105263157895
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 586,
+                "fp": 143,
+                "fn": 35,
+                "precision": 0.803840877914952,
+                "recall": 0.9436392914653784,
+                "f1": 0.8681481481481481,
+                "fnr": 0.056360708534621606
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 66,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 11,
+                "fp": 27,
+                "fn": 0,
+                "precision": 0.2894736842105263,
+                "recall": 1.0,
+                "f1": 0.4489795918367347,
+                "fnr": 0.0
+              },
+              "LOCATION": {
+                "tp": 15,
+                "fp": 0,
+                "fn": 38,
+                "precision": 1.0,
+                "recall": 0.2830188679245283,
+                "f1": 0.4411764705882353,
+                "fnr": 0.7169811320754718
+              },
+              "ORGANIZATION": {
+                "tp": 39,
+                "fp": 42,
+                "fn": 8,
+                "precision": 0.48148148148148145,
+                "recall": 0.8297872340425532,
+                "f1": 0.609375,
+                "fnr": 0.17021276595744683
+              }
+            }
+          }
+        }
+      },
+      "elapsed_s": 28.048375606536865
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5026551949329117,
+      "val_score": 0.8606060606060606,
+      "val": {
+        "baseline_val": {
+          "seqeval": {
+            "ADDRESS": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 16.0
+            },
+            "LOCATION": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1-score": 1.0,
+              "support": 8.0
+            },
+            "ORGANIZATION": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 8.0
+            },
+            "PERSON": {
+              "precision": 0.631578947368421,
+              "recall": 0.9,
+              "f1-score": 0.7422680412371133,
+              "support": 40.0
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 4.0
+            },
+            "micro avg": {
+              "precision": 0.6741573033707865,
+              "recall": 0.7894736842105263,
+              "f1-score": 0.7272727272727273,
+              "support": 76.0
+            },
+            "macro avg": {
+              "precision": 0.5263157894736843,
+              "recall": 0.58,
+              "f1-score": 0.5484536082474227,
+              "support": 76.0
+            },
+            "weighted avg": {
+              "precision": 0.6481994459833795,
+              "recall": 0.7894736842105263,
+              "f1-score": 0.706456863809007,
+              "support": 76.0
+            },
+            "overall": {
+              "precision": 0.6741573033707865,
+              "recall": 0.7894736842105263,
+              "f1": 0.7272727272727273
+            }
+          },
+          "char_exact": {
+            "micro": {
+              "tp": 59,
+              "fp": 30,
+              "fn": 17,
+              "precision": 0.6629213483146067,
+              "recall": 0.7763157894736842,
+              "f1": 0.7151515151515152,
+              "fnr": 0.22368421052631582
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 35,
+                "fp": 22,
+                "fn": 5,
+                "precision": 0.6140350877192983,
+                "recall": 0.875,
+                "f1": 0.7216494845360825,
+                "fnr": 0.125
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 4,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 16,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "fnr": 0.0
+              },
+              "LOCATION": {
+                "tp": 8,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "fnr": 0.0
+              },
+              "ORGANIZATION": {
+                "tp": 0,
+                "fp": 8,
+                "fn": 8,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              }
+            }
+          },
+          "char_overlap": {
+            "micro": {
+              "tp": 71,
+              "fp": 18,
+              "fn": 5,
+              "precision": 0.797752808988764,
+              "recall": 0.9342105263157895,
+              "f1": 0.8606060606060606,
+              "fnr": 0.06578947368421051
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 39,
+                "fp": 18,
+                "fn": 1,
+                "precision": 0.6842105263157895,
+                "recall": 0.975,
+                "f1": 0.8041237113402062,
+                "fnr": 0.025000000000000022
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 4,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 16,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "fnr": 0.0
+              },
+              "LOCATION": {
+                "tp": 8,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "fnr": 0.0
+              },
+              "ORGANIZATION": {
+                "tp": 8,
+                "fp": 0,
+                "fn": 0,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "fnr": 0.0
+              }
+            }
+          }
+        },
+        "synth_val": {
+          "seqeval": {
+            "ADDRESS": {
+              "precision": 0.935,
+              "recall": 0.935,
+              "f1-score": 0.935,
+              "support": 200.0
+            },
+            "LOCATION": {
+              "precision": 0.9411764705882353,
+              "recall": 0.96,
+              "f1-score": 0.9504950495049505,
+              "support": 200.0
+            },
+            "ORGANIZATION": {
+              "precision": 0.23958333333333334,
+              "recall": 0.2875,
+              "f1-score": 0.26136363636363635,
+              "support": 160.0
+            },
+            "PERSON": {
+              "precision": 0.5908256880733945,
+              "recall": 0.8944444444444445,
+              "f1-score": 0.7116022099447514,
+              "support": 360.0
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 80.0
+            },
+            "micro avg": {
+              "precision": 0.6546888694127958,
+              "recall": 0.747,
+              "f1-score": 0.6978047641289118,
+              "support": 1000.0
+            },
+            "macro avg": {
+              "precision": 0.5413170983989926,
+              "recall": 0.6153888888888889,
+              "f1-score": 0.5716921791626677,
+              "support": 1000.0
+            },
+            "weighted avg": {
+              "precision": 0.6262658751574024,
+              "recall": 0.747,
+              "f1-score": 0.6750939872992824,
+              "support": 1000.0
+            },
+            "overall": {
+              "precision": 0.6546888694127958,
+              "recall": 0.747,
+              "f1": 0.6978047641289118
+            }
+          },
+          "char_exact": {
+            "micro": {
+              "tp": 746,
+              "fp": 395,
+              "fn": 254,
+              "precision": 0.6538124452234881,
+              "recall": 0.746,
+              "f1": 0.6968706212050444,
+              "fnr": 0.254
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 321,
+                "fp": 224,
+                "fn": 39,
+                "precision": 0.5889908256880734,
+                "recall": 0.8916666666666667,
+                "f1": 0.7093922651933703,
+                "fnr": 0.10833333333333328
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 187,
+                "fp": 13,
+                "fn": 13,
+                "precision": 0.935,
+                "recall": 0.935,
+                "f1": 0.935,
+                "fnr": 0.06499999999999995
+              },
+              "LOCATION": {
+                "tp": 192,
+                "fp": 12,
+                "fn": 8,
+                "precision": 0.9411764705882353,
+                "recall": 0.96,
+                "f1": 0.9504950495049505,
+                "fnr": 0.040000000000000036
+              },
+              "ORGANIZATION": {
+                "tp": 46,
+                "fp": 146,
+                "fn": 114,
+                "precision": 0.23958333333333334,
+                "recall": 0.2875,
+                "f1": 0.26136363636363635,
+                "fnr": 0.7125
+              }
+            }
+          },
+          "char_overlap": {
+            "micro": {
+              "tp": 897,
+              "fp": 244,
+              "fn": 103,
+              "precision": 0.7861524978089395,
+              "recall": 0.897,
+              "f1": 0.8379262027090144,
+              "fnr": 0.10299999999999998
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 345,
+                "fp": 200,
+                "fn": 15,
+                "precision": 0.6330275229357798,
+                "recall": 0.9583333333333334,
+                "f1": 0.7624309392265193,
+                "fnr": 0.04166666666666663
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 80,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 199,
+                "fp": 1,
+                "fn": 1,
+                "precision": 0.995,
+                "recall": 0.995,
+                "f1": 0.995,
+                "fnr": 0.0050000000000000044
+              },
+              "LOCATION": {
+                "tp": 195,
+                "fp": 9,
+                "fn": 5,
+                "precision": 0.9558823529411765,
+                "recall": 0.975,
+                "f1": 0.9653465346534653,
+                "fnr": 0.025000000000000022
+              },
+              "ORGANIZATION": {
+                "tp": 158,
+                "fp": 34,
+                "fn": 2,
+                "precision": 0.8229166666666666,
+                "recall": 0.9875,
+                "f1": 0.8977272727272727,
+                "fnr": 0.012499999999999956
+              }
+            }
+          }
+        },
+        "r9_val_extra": {
+          "seqeval": {
+            "ADDRESS": {
+              "precision": 0.3157894736842105,
+              "recall": 0.5454545454545454,
+              "f1-score": 0.39999999999999997,
+              "support": 11.0
+            },
+            "LOCATION": {
+              "precision": 0.6363636363636364,
+              "recall": 0.660377358490566,
+              "f1-score": 0.6481481481481481,
+              "support": 53.0
+            },
+            "ORGANIZATION": {
+              "precision": 0.1619047619047619,
+              "recall": 0.3617021276595745,
+              "f1-score": 0.2236842105263158,
+              "support": 47.0
+            },
+            "PERSON": {
+              "precision": 0.649867374005305,
+              "recall": 0.789049919484702,
+              "f1-score": 0.7127272727272729,
+              "support": 621.0
+            },
+            "PERSON_ALIAS": {
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1-score": 0.0,
+              "support": 66.0
+            },
+            "micro avg": {
+              "precision": 0.587352625937835,
+              "recall": 0.6867167919799498,
+              "f1-score": 0.6331600231080301,
+              "support": 798.0
+            },
+            "macro avg": {
+              "precision": 0.3527850491915828,
+              "recall": 0.47131679021787765,
+              "f1-score": 0.3969119262803473,
+              "support": 798.0
+            },
+            "weighted avg": {
+              "precision": 0.561877343364182,
+              "recall": 0.6867167919799498,
+              "f1-score": 0.6163767495115603,
+              "support": 798.0
+            },
+            "overall": {
+              "precision": 0.587352625937835,
+              "recall": 0.6867167919799498,
+              "f1": 0.6331600231080301
+            }
+          },
+          "char_exact": {
+            "micro": {
+              "tp": 531,
+              "fp": 402,
+              "fn": 267,
+              "precision": 0.5691318327974276,
+              "recall": 0.6654135338345865,
+              "f1": 0.6135181975736569,
+              "fnr": 0.33458646616541354
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 473,
+                "fp": 281,
+                "fn": 148,
+                "precision": 0.6273209549071618,
+                "recall": 0.7616747181964574,
+                "f1": 0.6880000000000001,
+                "fnr": 0.23832528180354262
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 66,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 6,
+                "fp": 13,
+                "fn": 5,
+                "precision": 0.3157894736842105,
+                "recall": 0.5454545454545454,
+                "f1": 0.39999999999999997,
+                "fnr": 0.4545454545454546
+              },
+              "LOCATION": {
+                "tp": 35,
+                "fp": 20,
+                "fn": 18,
+                "precision": 0.6363636363636364,
+                "recall": 0.660377358490566,
+                "f1": 0.6481481481481481,
+                "fnr": 0.339622641509434
+              },
+              "ORGANIZATION": {
+                "tp": 17,
+                "fp": 88,
+                "fn": 30,
+                "precision": 0.1619047619047619,
+                "recall": 0.3617021276595745,
+                "f1": 0.2236842105263158,
+                "fnr": 0.6382978723404256
+              }
+            }
+          },
+          "char_overlap": {
+            "micro": {
+              "tp": 691,
+              "fp": 242,
+              "fn": 107,
+              "precision": 0.7406216505894962,
+              "recall": 0.8659147869674185,
+              "f1": 0.7983824378971691,
+              "fnr": 0.13408521303258147
+            },
+            "per_label": {
+              "PERSON": {
+                "tp": 595,
+                "fp": 159,
+                "fn": 26,
+                "precision": 0.7891246684350133,
+                "recall": 0.9581320450885669,
+                "f1": 0.8654545454545455,
+                "fnr": 0.041867954911433136
+              },
+              "PERSON_ALIAS": {
+                "tp": 0,
+                "fp": 0,
+                "fn": 66,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0.0,
+                "fnr": 1.0
+              },
+              "ADDRESS": {
+                "tp": 11,
+                "fp": 8,
+                "fn": 0,
+                "precision": 0.5789473684210527,
+                "recall": 1.0,
+                "f1": 0.7333333333333334,
+                "fnr": 0.0
+              },
+              "LOCATION": {
+                "tp": 40,
+                "fp": 15,
+                "fn": 13,
+                "precision": 0.7272727272727273,
+                "recall": 0.7547169811320755,
+                "f1": 0.7407407407407407,
+                "fnr": 0.24528301886792447
+              },
+              "ORGANIZATION": {
+                "tp": 45,
+                "fp": 60,
+                "fn": 2,
+                "precision": 0.42857142857142855,
+                "recall": 0.9574468085106383,
+                "f1": 0.5921052631578947,
+                "fnr": 0.04255319148936165
+              }
+            }
+          }
+        }
+      },
+      "elapsed_s": 37.32939553260803
+    }
+  ],
+  "best_val_score": 0.8606060606060606,
+  "best_epoch": 2,
+  "stopped_epoch": 2,
+  "checkpoint_mb": 54.43235206604004,
+  "weights_mb": 53.65354537963867,
+  "step_time_s": {
+    "mean": 0.05997700918288458,
+    "median": 0.04944491386413574,
+    "p95": 0.06780145168304444,
+    "steps": 294
+  },
+  "max_vram_mb": 785.0654296875,
+  "total_train_time_s": 37.43037724494934,
+  "finished": "2026-11-19T18:26:47"
+}

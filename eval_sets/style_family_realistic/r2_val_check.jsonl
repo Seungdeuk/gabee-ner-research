@@ -1,0 +1,12 @@
+{"id": "r2-0037", "category": "nickname_val_check", "text": "람이 데리러 누가 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0038", "category": "nickname_val_check", "text": "율이 데리러 누가 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0039", "category": "nickname_val_check", "text": "민이 데리러 누가 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0040", "category": "nickname_val_check", "text": "현이 데리러 누가 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0041", "category": "nickname_val_check", "text": "솔이 데리러 누가 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0042", "category": "nickname_val_check", "text": "완이 데리러 누가 갈까", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0043", "category": "nickname_val_check", "text": "람이가 숙제 다 했는지 확인해줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0044", "category": "nickname_val_check", "text": "율이가 숙제 다 했는지 확인해줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0045", "category": "nickname_val_check", "text": "민이가 숙제 다 했는지 확인해줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0046", "category": "nickname_val_check", "text": "현이가 숙제 다 했는지 확인해줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0047", "category": "nickname_val_check", "text": "솔이가 숙제 다 했는지 확인해줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}
+{"id": "r2-0048", "category": "nickname_val_check", "text": "완이가 숙제 다 했는지 확인해줘", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "nickname_val_check"}

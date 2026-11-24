@@ -1,0 +1,242 @@
+﻿method,id,error_type,kind,gold_text,pred_kind,pred_text,tags,template_id
+A_rule,v2-test-0005,FN,ADDRESS,방배동 래미안아파트 103동,,,addr_abbrev,addr_abbrev-07
+A_rule,v2-test-0006,FN,ADDRESS,방배동 푸르지오아파트 102동,,,addr_abbrev,addr_abbrev-07
+A_rule,v2-test-0007,FN,ADDRESS,상도동 푸르지오아파트 105동,,,addr_abbrev,addr_abbrev-07
+A_rule,v2-test-0008,FN,ADDRESS,성수동 푸르지오아파트 116동,,,addr_abbrev,addr_abbrev-07
+A_rule,v2-test-0009,FN,PERSON_ALIAS,나유 삼촌,,,alias_title,alias_title-04
+A_rule,v2-test-0010,FN,PERSON_ALIAS,도아 오빠,,,alias_title,alias_title-04
+A_rule,v2-test-0011,FN,PERSON_ALIAS,시아 오빠,,,alias_title,alias_title-04
+A_rule,v2-test-0012,FN,PERSON_ALIAS,예나 삼촌,,,alias_title,alias_title-04
+A_rule,v2-test-0021,FN,PHONE_PERSONAL,010 공공공공 사사오공,,,hangul_num,hangul_num-03
+A_rule,v2-test-0022,FN,PHONE_PERSONAL,010 공공공공 오오삼칠,,,hangul_num,hangul_num-03
+A_rule,v2-test-0023,FN,PHONE_PERSONAL,공일공공공공공구공공사,,,hangul_num,hangul_num-03
+A_rule,v2-test-0024,FN,PHONE_PERSONAL,010 공공공공 오칠삼공,,,hangul_num,hangul_num-03
+A_rule,v2-test-0025,FN,RRN,오이공육일일-사육삼삼일칠공,,,hangul_num,hangul_num-07
+A_rule,v2-test-0026,FN,RRN,육칠공오공팔-삼구오구구이육,,,hangul_num,hangul_num-07
+A_rule,v2-test-0027,FN,RRN,칠일공육공구-사사육오팔공오,,,hangul_num,hangul_num-07
+A_rule,v2-test-0028,FN,RRN,칠칠일일공삼-사칠오삼칠공이,,,hangul_num,hangul_num-07
+A_rule,v2-test-0029,FN,PERSON,나유,,,kin_nickname|name_given_only,kin_nickname-05
+A_rule,v2-test-0030,FN,PERSON,시아,,,kin_nickname|name_given_only,kin_nickname-05
+A_rule,v2-test-0031,FN,PERSON,시아,,,kin_nickname|name_given_only,kin_nickname-05
+A_rule,v2-test-0032,FN,PERSON,시아,,,kin_nickname|name_given_only,kin_nickname-05
+A_rule,v2-test-0033,FN,PERSON_ALIAS,다솜이,,,kin_nickname_name,kin_nickname_name-05
+A_rule,v2-test-0034,FN,PERSON_ALIAS,몽실이,,,kin_nickname_name,kin_nickname_name-05
+A_rule,v2-test-0035,FN,PERSON_ALIAS,새롬이,,,kin_nickname_name,kin_nickname_name-05
+A_rule,v2-test-0036,FN,PERSON_ALIAS,쫑이,,,kin_nickname_name,kin_nickname_name-05
+A_rule,v2-test-0037,FN,LOCATION,대전,,,location_general,location_general-02
+A_rule,v2-test-0038,FN,LOCATION,부산,,,location_general,location_general-02
+A_rule,v2-test-0039,FN,LOCATION,서울,,,location_general,location_general-02
+A_rule,v2-test-0040,FN,LOCATION,제주,,,location_general,location_general-02
+A_rule,v2-test-0053,FN,PERSON,나유,,,name_given_only,name_given_only-04
+A_rule,v2-test-0054,FN,PERSON,도아,,,name_given_only,name_given_only-04
+A_rule,v2-test-0055,FN,PERSON,시아,,,name_given_only,name_given_only-04
+A_rule,v2-test-0056,FN,PERSON,예나,,,name_given_only,name_given_only-04
+A_rule,v2-test-0057,FN,PERSON,서다,,,name_len_2,name_len_2-05
+A_rule,v2-test-0058,FN,PERSON,서유,,,name_len_2,name_len_2-05
+A_rule,v2-test-0059,FN,PERSON,송다,,,name_len_2,name_len_2-05
+A_rule,v2-test-0060,FN,PERSON,신예,,,name_len_2,name_len_2-05
+A_rule,v2-test-0061,FN,PERSON,서시우,,,name_len_3,name_len_3-02
+A_rule,v2-test-0062,FN,PERSON,송다온,,,name_len_3,name_len_3-02
+A_rule,v2-test-0063,FN,PERSON,신승현,,,name_len_3,name_len_3-02
+A_rule,v2-test-0064,FN,PERSON,황주원,,,name_len_3,name_len_3-02
+A_rule,v2-test-0065,FN,PERSON,독고다온,,,name_len_4,name_len_4-02
+A_rule,v2-test-0066,FN,PERSON,독고시우,,,name_len_4,name_len_4-02
+A_rule,v2-test-0067,FN,PERSON,독고예린,,,name_len_4,name_len_4-02
+A_rule,v2-test-0068,FN,PERSON,선우주원,,,name_len_4,name_len_4-02
+A_rule,v2-test-0069,FN,PERSON,서다온,,,name_len_3|name_no_title,name_no_title-07
+A_rule,v2-test-0070,FN,PERSON,서주원,,,name_len_3|name_no_title,name_no_title-07
+A_rule,v2-test-0071,FN,PERSON,신다온,,,name_len_3|name_no_title,name_no_title-07
+A_rule,v2-test-0072,FN,PERSON,황유진,,,name_len_3|name_no_title,name_no_title-07
+A_rule,v2-test-0073,FN,PERSON,권유진,,,name_len_3|name_no_title,name_no_title-09
+A_rule,v2-test-0074,FN,PERSON,송승현,,,name_len_3|name_no_title,name_no_title-09
+A_rule,v2-test-0075,FN,PERSON,송주원,,,name_len_3|name_no_title,name_no_title-09
+A_rule,v2-test-0076,FN,PERSON,신주원,,,name_len_3|name_no_title,name_no_title-09
+A_rule,v2-test-0141,FN,ADDRESS,대구광역시수성구대학로111,,,nospace,nospace-10
+A_rule,v2-test-0142,FN,ADDRESS,부산광역시해운대구대학로88,,,nospace,nospace-10
+A_rule,v2-test-0143,FN,ADDRESS,서울특별시강남구대학로32,,,nospace,nospace-10
+A_rule,v2-test-0144,FN,ADDRESS,서울특별시마포구대학로117,,,nospace,nospace-10
+A_rule,v2-test-0145,FN,CARD,3530-lll3-3330-00O0,,,ocr_noise,ocr_noise-05
+A_rule,v2-test-0146,FN,CARD,3566-002O-2O36-0SO5,,,ocr_noise,ocr_noise-05
+A_rule,v2-test-0147,FN,CARD,520O-B282-8282-821O,,,ocr_noise,ocr_noise-05
+A_rule,v2-test-0148,FN,CARD,55SS-5555-555S-4444,,,ocr_noise,ocr_noise-05
+A_rule,v2-test-0149,FN,RRN,45l209-323B623,,,ocr_noise,ocr_noise-07
+A_rule,v2-test-0150,FN,RRN,98l0l3-469l3S3,,,ocr_noise,ocr_noise-07
+A_rule,v2-test-0151,FN,RRN,S50l26-4872460,,,ocr_noise,ocr_noise-07
+A_rule,v2-test-0152,FN,RRN,S5O216-438O327,,,ocr_noise,ocr_noise-07
+A_rule,v2-test-0153,FN,CARD,2223 00312200 3222,,,odd_space,odd_space-05
+A_rule,v2-test-0154,FN,CARD,3 5 6 6 0 0 2 0 2 0 3 6 0 5 0 5,,,odd_space,odd_space-05
+A_rule,v2-test-0155,FN,CARD,40128888 88881881,,,odd_space,odd_space-05
+A_rule,v2-test-0156,FN,CARD,5 1 0 5 1 0 5 1 0 5 1 0 5 1 0 0,,,odd_space,odd_space-05
+A_rule,v2-test-0157,FN,PHONE_PERSONAL,0 1 0 0 0 0 0 6 9 7 1,,,odd_space,odd_space-07
+A_rule,v2-test-0158,FN,PHONE_PERSONAL,0 10 0000 5349,,,odd_space,odd_space-07
+A_rule,v2-test-0159,FN,PHONE_PERSONAL,010 0000 71 91,,,odd_space,odd_space-07
+A_rule,v2-test-0160,FN,PHONE_PERSONAL,010-00 00-3649,,,odd_space,odd_space-07
+A_rule,v2-test-0161,FN,ORGANIZATION,보람병원,,,org_name,org_name-04
+A_rule,v2-test-0162,FN,ORGANIZATION,보람어린이집,,,org_name,org_name-04
+A_rule,v2-test-0163,FN,ORGANIZATION,해오름어린이집,,,org_name,org_name-04
+A_rule,v2-test-0164,FN,ORGANIZATION,해오름전자,,,org_name,org_name-04
+A_rule,v2-test-0166,FN,PHONE_PUBLIC,1577-3321,,,phone_public,phone_public-02
+A_rule,v2-test-0167,FN,PHONE_PUBLIC,1588-1234,,,phone_public,phone_public-02
+A_rule,v2-test-0168,FN,PHONE_PUBLIC,1644-9876,,,phone_public,phone_public-02
+A_rule,v2-test-0173,FN,RRN,300332-4560920,,,rrn_invalid_date,rrn_invalid_date-05
+A_rule,v2-test-0174,FN,RRN,360300-4671678,,,rrn_invalid_date,rrn_invalid_date-05
+A_rule,v2-test-0175,FN,RRN,431000-4344725,,,rrn_invalid_date,rrn_invalid_date-05
+A_rule,v2-test-0176,FN,RRN,451327-3324422,,,rrn_invalid_date,rrn_invalid_date-05
+B_ner,v2-test-0013,FN,CARD,3530-1113-3330-0002,,,card_luhn_fail,card_luhn_fail-05
+B_ner,v2-test-0014,FN,CARD,3530-1113-3330-0004,,,card_luhn_fail,card_luhn_fail-05
+B_ner,v2-test-0015,FN,CARD,3566-0020-2036-0504,,,card_luhn_fail,card_luhn_fail-05
+B_ner,v2-test-0016,FN,CARD,5555-5555-5555-4445,,,card_luhn_fail,card_luhn_fail-05
+B_ner,v2-test-0017,FN,CARD,4242-4424-2424-242,,,card_typo,card_typo-03
+B_ner,v2-test-0018,FN,CARD,6011-1111-1111-1171,,,card_typo,card_typo-03
+B_ner,v2-test-0019,FN,CARD,5105-1051-5010-5100,,,card_typo,card_typo-03
+B_ner,v2-test-0020,FN,CARD,5555-5555-5554-5444,,,card_typo,card_typo-03
+B_ner,v2-test-0021,FN,PHONE_PERSONAL,010 공공공공 사사오공,,,hangul_num,hangul_num-03
+B_ner,v2-test-0022,FN,PHONE_PERSONAL,010 공공공공 오오삼칠,,,hangul_num,hangul_num-03
+B_ner,v2-test-0023,FN,PHONE_PERSONAL,공일공공공공공구공공사,,,hangul_num,hangul_num-03
+B_ner,v2-test-0024,FN,PHONE_PERSONAL,010 공공공공 오칠삼공,,,hangul_num,hangul_num-03
+B_ner,v2-test-0025,FN,RRN,오이공육일일-사육삼삼일칠공,,,hangul_num,hangul_num-07
+B_ner,v2-test-0026,FN,RRN,육칠공오공팔-삼구오구구이육,,,hangul_num,hangul_num-07
+B_ner,v2-test-0027,FN,RRN,칠일공육공구-사사육오팔공오,,,hangul_num,hangul_num-07
+B_ner,v2-test-0028,FN,RRN,칠칠일일공삼-사칠오삼칠공이,,,hangul_num,hangul_num-07
+B_ner,v2-test-0041,FN,PHONE_PERSONAL,010 0000 7040,,,long_text|name_len_3,long_text-04
+B_ner,v2-test-0042,FN,PHONE_PERSONAL,010 0000 6898,,,long_text|name_len_3,long_text-04
+B_ner,v2-test-0043,FN,PHONE_PERSONAL,010 0000 2595,,,long_text|name_len_3,long_text-04
+B_ner,v2-test-0044,FN,PHONE_PERSONAL,010 0000 7860,,,long_text|name_len_3,long_text-04
+B_ner,v2-test-0045,FN,PHONE_PERSONAL,01000007323,,,multi_pii,multi_pii-05
+B_ner,v2-test-0046,FN,PHONE_PERSONAL,01000004980,,,multi_pii,multi_pii-05
+B_ner,v2-test-0047,FN,PHONE_PERSONAL,01000007000,,,multi_pii,multi_pii-05
+B_ner,v2-test-0048,FN,PHONE_PERSONAL,01000007689,,,multi_pii,multi_pii-05
+B_ner,v2-test-0049,FN,PHONE_PERSONAL,010-0000-1496,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0049,FN,RRN,421006-3398914,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0049,FN,ACCOUNT,8943-73-100450,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0050,FN,PHONE_PERSONAL,010-0000-3394,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0050,FN,RRN,530401-4609220,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0050,FN,ACCOUNT,3051-93-634959,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0051,FN,PHONE_PERSONAL,010-0000-3810,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0051,FN,RRN,321105-4871265,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0051,FN,ACCOUNT,1002-178-395399,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0052,FN,PHONE_PERSONAL,010-0000-7569,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0052,FN,RRN,730322-4366566,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0052,FN,ACCOUNT,4955-94-309438,,,multi_pii|name_len_3,multi_pii-07
+B_ner,v2-test-0103,FP,PERSON,,PERSON,박수,neg_word|negative,neg_word-04
+B_ner,v2-test-0105,FN,ACCOUNT,199-790290-95-846,,,normal_account,normal_account-04
+B_ner,v2-test-0106,FN,ACCOUNT,3762-33-807722,,,normal_account,normal_account-04
+B_ner,v2-test-0107,FN,ACCOUNT,6335-37-793083,,,normal_account,normal_account-04
+B_ner,v2-test-0108,FN,ACCOUNT,6698-50-759497,,,normal_account,normal_account-04
+B_ner,v2-test-0117,FN,CARD,2223003122003222,,,normal_card,normal_card-04
+B_ner,v2-test-0118,FN,CARD,4012888888881881,,,normal_card,normal_card-04
+B_ner,v2-test-0119,FN,CARD,5105105105105100,,,normal_card,normal_card-04
+B_ner,v2-test-0120,FN,CARD,5555555555554444,,,normal_card,normal_card-04
+B_ner,v2-test-0121,FN,EMAIL,a.cprke21@example.com,,,normal_email,normal_email-01
+B_ner,v2-test-0122,FN,EMAIL,gmedkp68@example.com,,,normal_email,normal_email-01
+B_ner,v2-test-0123,FN,EMAIL,pffpnb88@example.org,,,normal_email,normal_email-01
+B_ner,v2-test-0124,FN,EMAIL,phusjn70@example.org,,,normal_email,normal_email-01
+B_ner,v2-test-0129,FN,PHONE_PERSONAL,+82-10-0000-1546,,,normal_phone,normal_phone-04
+B_ner,v2-test-0130,FN,PHONE_PERSONAL,+82-10-0000-6507,,,normal_phone,normal_phone-04
+B_ner,v2-test-0131,FN,PHONE_PERSONAL,+82-10-0000-7438,,,normal_phone,normal_phone-04
+B_ner,v2-test-0132,FN,PHONE_PERSONAL,+82-10-0000-8136,,,normal_phone,normal_phone-04
+B_ner,v2-test-0133,FN,RRN,370216-4380122,,,normal_rrn,normal_rrn-05
+B_ner,v2-test-0134,FN,RRN,691006-3099495,,,normal_rrn,normal_rrn-05
+B_ner,v2-test-0135,FN,RRN,830519-4064070,,,normal_rrn,normal_rrn-05
+B_ner,v2-test-0136,FN,RRN,930428-4834325,,,normal_rrn,normal_rrn-05
+B_ner,v2-test-0137,FN,RRN,3107113175268,,,nospace,nospace-05
+B_ner,v2-test-0138,FN,RRN,5302064016056,,,nospace,nospace-05
+B_ner,v2-test-0139,FN,RRN,5603243885858,,,nospace,nospace-05
+B_ner,v2-test-0140,FN,RRN,9211193491190,,,nospace,nospace-05
+B_ner,v2-test-0141,FN,PHONE_PERSONAL,01000004868,,,nospace,nospace-10
+B_ner,v2-test-0141,BOUNDARY,ADDRESS,대구광역시수성구대학로111,ADDRESS,광역시수성구대학로111,nospace,nospace-10
+B_ner,v2-test-0142,FN,PHONE_PERSONAL,01000007458,,,nospace,nospace-10
+B_ner,v2-test-0142,FN,ADDRESS,부산광역시해운대구대학로88,LOCATION,부산광역시해운대구대학로88,nospace,nospace-10
+B_ner,v2-test-0142,FP,LOCATION,,LOCATION,부산광역시해운대구대학로88,nospace,nospace-10
+B_ner,v2-test-0143,FN,PHONE_PERSONAL,01000005515,,,nospace,nospace-10
+B_ner,v2-test-0144,FN,PHONE_PERSONAL,01000009080,,,nospace,nospace-10
+B_ner,v2-test-0145,FN,CARD,3530-lll3-3330-00O0,,,ocr_noise,ocr_noise-05
+B_ner,v2-test-0146,FN,CARD,3566-002O-2O36-0SO5,,,ocr_noise,ocr_noise-05
+B_ner,v2-test-0147,FN,CARD,520O-B282-8282-821O,,,ocr_noise,ocr_noise-05
+B_ner,v2-test-0148,FN,CARD,55SS-5555-555S-4444,,,ocr_noise,ocr_noise-05
+B_ner,v2-test-0149,FN,RRN,45l209-323B623,,,ocr_noise,ocr_noise-07
+B_ner,v2-test-0150,FN,RRN,98l0l3-469l3S3,,,ocr_noise,ocr_noise-07
+B_ner,v2-test-0151,FN,RRN,S50l26-4872460,,,ocr_noise,ocr_noise-07
+B_ner,v2-test-0152,FN,RRN,S5O216-438O327,,,ocr_noise,ocr_noise-07
+B_ner,v2-test-0153,FN,CARD,2223 00312200 3222,,,odd_space,odd_space-05
+B_ner,v2-test-0154,FN,CARD,3 5 6 6 0 0 2 0 2 0 3 6 0 5 0 5,,,odd_space,odd_space-05
+B_ner,v2-test-0155,FN,CARD,40128888 88881881,,,odd_space,odd_space-05
+B_ner,v2-test-0156,FN,CARD,5 1 0 5 1 0 5 1 0 5 1 0 5 1 0 0,,,odd_space,odd_space-05
+B_ner,v2-test-0157,FN,PHONE_PERSONAL,0 1 0 0 0 0 0 6 9 7 1,,,odd_space,odd_space-07
+B_ner,v2-test-0158,FN,PHONE_PERSONAL,0 10 0000 5349,,,odd_space,odd_space-07
+B_ner,v2-test-0159,FN,PHONE_PERSONAL,010 0000 71 91,,,odd_space,odd_space-07
+B_ner,v2-test-0160,FN,PHONE_PERSONAL,010-00 00-3649,,,odd_space,odd_space-07
+B_ner,v2-test-0165,FN,PHONE_PUBLIC,080-123-4567,,,phone_public,phone_public-02
+B_ner,v2-test-0166,FN,PHONE_PUBLIC,1577-3321,,,phone_public,phone_public-02
+B_ner,v2-test-0167,FN,PHONE_PUBLIC,1588-1234,,,phone_public,phone_public-02
+B_ner,v2-test-0168,FN,PHONE_PUBLIC,1644-9876,,,phone_public,phone_public-02
+B_ner,v2-test-0169,FN,RRN,501203-4213534,,,rrn_checksum_fail,rrn_checksum_fail-02
+B_ner,v2-test-0170,FN,RRN,5501273898284,,,rrn_checksum_fail,rrn_checksum_fail-02
+B_ner,v2-test-0171,FN,RRN,3803033942989,,,rrn_checksum_fail,rrn_checksum_fail-02
+B_ner,v2-test-0172,FN,RRN,3708204893200,,,rrn_checksum_fail,rrn_checksum_fail-02
+B_ner,v2-test-0173,FN,RRN,300332-4560920,,,rrn_invalid_date,rrn_invalid_date-05
+B_ner,v2-test-0174,FN,RRN,360300-4671678,,,rrn_invalid_date,rrn_invalid_date-05
+B_ner,v2-test-0175,FN,RRN,431000-4344725,,,rrn_invalid_date,rrn_invalid_date-05
+B_ner,v2-test-0176,FN,RRN,451327-3324422,,,rrn_invalid_date,rrn_invalid_date-05
+B_ner,v2-test-0177,FN,SECRET,dX1844@,,,secret,secret-04
+B_ner,v2-test-0178,FN,SECRET,eZ9115!,,,secret,secret-04
+B_ner,v2-test-0179,FN,SECRET,hX8637@,,,secret,secret-04
+B_ner,v2-test-0180,FN,SECRET,kX3716@,,,secret,secret-04
+C_rule_ner,v2-test-0009,FP,PERSON,,PERSON,나유 삼촌,alias_title,alias_title-04
+C_rule_ner,v2-test-0009,FN,PERSON_ALIAS,나유 삼촌,PERSON,나유 삼촌,alias_title,alias_title-04
+C_rule_ner,v2-test-0010,FP,PERSON,,PERSON,도아 오빠,alias_title,alias_title-04
+C_rule_ner,v2-test-0010,FN,PERSON_ALIAS,도아 오빠,PERSON,도아 오빠,alias_title,alias_title-04
+C_rule_ner,v2-test-0011,FP,PERSON,,PERSON,시아 오빠,alias_title,alias_title-04
+C_rule_ner,v2-test-0011,FN,PERSON_ALIAS,시아 오빠,PERSON,시아 오빠,alias_title,alias_title-04
+C_rule_ner,v2-test-0012,FP,PERSON,,PERSON,예나 삼촌,alias_title,alias_title-04
+C_rule_ner,v2-test-0012,FN,PERSON_ALIAS,예나 삼촌,PERSON,예나 삼촌,alias_title,alias_title-04
+C_rule_ner,v2-test-0021,FN,PHONE_PERSONAL,010 공공공공 사사오공,,,hangul_num,hangul_num-03
+C_rule_ner,v2-test-0022,FN,PHONE_PERSONAL,010 공공공공 오오삼칠,,,hangul_num,hangul_num-03
+C_rule_ner,v2-test-0023,FN,PHONE_PERSONAL,공일공공공공공구공공사,,,hangul_num,hangul_num-03
+C_rule_ner,v2-test-0024,FN,PHONE_PERSONAL,010 공공공공 오칠삼공,,,hangul_num,hangul_num-03
+C_rule_ner,v2-test-0025,FN,RRN,오이공육일일-사육삼삼일칠공,,,hangul_num,hangul_num-07
+C_rule_ner,v2-test-0026,FN,RRN,육칠공오공팔-삼구오구구이육,,,hangul_num,hangul_num-07
+C_rule_ner,v2-test-0027,FN,RRN,칠일공육공구-사사육오팔공오,,,hangul_num,hangul_num-07
+C_rule_ner,v2-test-0028,FN,RRN,칠칠일일공삼-사칠오삼칠공이,,,hangul_num,hangul_num-07
+C_rule_ner,v2-test-0033,FP,PERSON,,PERSON,다솜이,kin_nickname_name,kin_nickname_name-05
+C_rule_ner,v2-test-0033,FN,PERSON_ALIAS,다솜이,PERSON,다솜이,kin_nickname_name,kin_nickname_name-05
+C_rule_ner,v2-test-0034,FP,PERSON,,PERSON,몽실이,kin_nickname_name,kin_nickname_name-05
+C_rule_ner,v2-test-0034,FN,PERSON_ALIAS,몽실이,PERSON,몽실이,kin_nickname_name,kin_nickname_name-05
+C_rule_ner,v2-test-0035,FP,PERSON,,PERSON,새롬이,kin_nickname_name,kin_nickname_name-05
+C_rule_ner,v2-test-0035,FN,PERSON_ALIAS,새롬이,PERSON,새롬이,kin_nickname_name,kin_nickname_name-05
+C_rule_ner,v2-test-0036,FP,PERSON,,PERSON,쫑이,kin_nickname_name,kin_nickname_name-05
+C_rule_ner,v2-test-0036,FN,PERSON_ALIAS,쫑이,PERSON,쫑이,kin_nickname_name,kin_nickname_name-05
+C_rule_ner,v2-test-0037,FN,LOCATION,대전,,,location_general,location_general-02
+C_rule_ner,v2-test-0038,FN,LOCATION,부산,,,location_general,location_general-02
+C_rule_ner,v2-test-0039,FN,LOCATION,서울,,,location_general,location_general-02
+C_rule_ner,v2-test-0040,FN,LOCATION,제주,,,location_general,location_general-02
+C_rule_ner,v2-test-0103,FP,PERSON,,PERSON,박수,neg_word|negative,neg_word-04
+C_rule_ner,v2-test-0141,BOUNDARY,ADDRESS,대구광역시수성구대학로111,ADDRESS,광역시수성구대학로111,nospace,nospace-10
+C_rule_ner,v2-test-0142,FN,ADDRESS,부산광역시해운대구대학로88,,,nospace,nospace-10
+C_rule_ner,v2-test-0145,FN,CARD,3530-lll3-3330-00O0,,,ocr_noise,ocr_noise-05
+C_rule_ner,v2-test-0146,FN,CARD,3566-002O-2O36-0SO5,,,ocr_noise,ocr_noise-05
+C_rule_ner,v2-test-0147,FN,CARD,520O-B282-8282-821O,,,ocr_noise,ocr_noise-05
+C_rule_ner,v2-test-0148,FN,CARD,55SS-5555-555S-4444,,,ocr_noise,ocr_noise-05
+C_rule_ner,v2-test-0149,FN,RRN,45l209-323B623,,,ocr_noise,ocr_noise-07
+C_rule_ner,v2-test-0150,FN,RRN,98l0l3-469l3S3,,,ocr_noise,ocr_noise-07
+C_rule_ner,v2-test-0151,FN,RRN,S50l26-4872460,,,ocr_noise,ocr_noise-07
+C_rule_ner,v2-test-0152,FN,RRN,S5O216-438O327,,,ocr_noise,ocr_noise-07
+C_rule_ner,v2-test-0153,FN,CARD,2223 00312200 3222,,,odd_space,odd_space-05
+C_rule_ner,v2-test-0154,FN,CARD,3 5 6 6 0 0 2 0 2 0 3 6 0 5 0 5,,,odd_space,odd_space-05
+C_rule_ner,v2-test-0155,FN,CARD,40128888 88881881,,,odd_space,odd_space-05
+C_rule_ner,v2-test-0156,FN,CARD,5 1 0 5 1 0 5 1 0 5 1 0 5 1 0 0,,,odd_space,odd_space-05
+C_rule_ner,v2-test-0157,FN,PHONE_PERSONAL,0 1 0 0 0 0 0 6 9 7 1,,,odd_space,odd_space-07
+C_rule_ner,v2-test-0158,FN,PHONE_PERSONAL,0 10 0000 5349,,,odd_space,odd_space-07
+C_rule_ner,v2-test-0159,FN,PHONE_PERSONAL,010 0000 71 91,,,odd_space,odd_space-07
+C_rule_ner,v2-test-0160,FN,PHONE_PERSONAL,010-00 00-3649,,,odd_space,odd_space-07
+C_rule_ner,v2-test-0161,FN,ORGANIZATION,보람병원,,,org_name,org_name-04
+C_rule_ner,v2-test-0162,FN,ORGANIZATION,보람어린이집,,,org_name,org_name-04
+C_rule_ner,v2-test-0163,FN,ORGANIZATION,해오름어린이집,,,org_name,org_name-04
+C_rule_ner,v2-test-0164,FN,ORGANIZATION,해오름전자,,,org_name,org_name-04
+C_rule_ner,v2-test-0166,FN,PHONE_PUBLIC,1577-3321,,,phone_public,phone_public-02
+C_rule_ner,v2-test-0167,FN,PHONE_PUBLIC,1588-1234,,,phone_public,phone_public-02
+C_rule_ner,v2-test-0168,FN,PHONE_PUBLIC,1644-9876,,,phone_public,phone_public-02
+C_rule_ner,v2-test-0173,FN,RRN,300332-4560920,,,rrn_invalid_date,rrn_invalid_date-05
+C_rule_ner,v2-test-0174,FN,RRN,360300-4671678,,,rrn_invalid_date,rrn_invalid_date-05
+C_rule_ner,v2-test-0175,FN,RRN,431000-4344725,,,rrn_invalid_date,rrn_invalid_date-05
+C_rule_ner,v2-test-0176,FN,RRN,451327-3324422,,,rrn_invalid_date,rrn_invalid_date-05

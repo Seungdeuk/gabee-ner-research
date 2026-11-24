@@ -1,0 +1,122 @@
+{
+ "c0_extra_s7": {
+  "rows": 3126,
+  "relabeled": 216,
+  "labels": {
+   "LOCATION": 425,
+   "ADDRESS": 457,
+   "PERSON": 1075,
+   "PERSON_ALIAS": 223,
+   "ORGANIZATION": 570
+  },
+  "ids_sha16": "28c9fcda04571b92"
+ },
+ "c0s_extra_s7": {
+  "rows": 782,
+  "relabeled": 62,
+  "labels": {
+   "ADDRESS": 100,
+   "LOCATION": 111,
+   "PERSON": 269,
+   "PERSON_ALIAS": 52,
+   "ORGANIZATION": 147
+  },
+  "ids_sha16": "8c055d66ffe7d008"
+ },
+ "c0_extra_s13": {
+  "rows": 3126,
+  "relabeled": 214,
+  "labels": {
+   "LOCATION": 430,
+   "ADDRESS": 477,
+   "PERSON": 1082,
+   "PERSON_ALIAS": 222,
+   "ORGANIZATION": 587
+  },
+  "ids_sha16": "17c4201eae5de8e4"
+ },
+ "c0s_extra_s13": {
+  "rows": 782,
+  "relabeled": 56,
+  "labels": {
+   "LOCATION": 100,
+   "ADDRESS": 122,
+   "PERSON": 275,
+   "PERSON_ALIAS": 45,
+   "ORGANIZATION": 161
+  },
+  "ids_sha16": "996ab71f5ca5a943"
+ },
+ "c0_extra_s21": {
+  "rows": 3126,
+  "relabeled": 207,
+  "labels": {
+   "LOCATION": 444,
+   "ADDRESS": 462,
+   "PERSON": 1099,
+   "PERSON_ALIAS": 205,
+   "ORGANIZATION": 541
+  },
+  "ids_sha16": "1bd95e6601caaf02"
+ },
+ "c0s_extra_s21": {
+  "rows": 782,
+  "relabeled": 52,
+  "labels": {
+   "ADDRESS": 103,
+   "PERSON": 265,
+   "PERSON_ALIAS": 61,
+   "LOCATION": 111,
+   "ORGANIZATION": 152
+  },
+  "ids_sha16": "6a8f7280358c98a3"
+ },
+ "c0_extra_s42": {
+  "rows": 3126,
+  "relabeled": 221,
+  "labels": {
+   "LOCATION": 418,
+   "ADDRESS": 451,
+   "PERSON": 1095,
+   "PERSON_ALIAS": 209,
+   "ORGANIZATION": 551
+  },
+  "ids_sha16": "eb8338aff1c45054"
+ },
+ "c0s_extra_s42": {
+  "rows": 782,
+  "relabeled": 45,
+  "labels": {
+   "ADDRESS": 105,
+   "PERSON": 254,
+   "PERSON_ALIAS": 58,
+   "ORGANIZATION": 142,
+   "LOCATION": 110
+  },
+  "ids_sha16": "41a79088ab3f4433"
+ },
+ "c0_extra_s99": {
+  "rows": 3126,
+  "relabeled": 223,
+  "labels": {
+   "LOCATION": 419,
+   "ADDRESS": 457,
+   "PERSON": 1122,
+   "PERSON_ALIAS": 215,
+   "ORGANIZATION": 568
+  },
+  "ids_sha16": "f2536056e914e2c2"
+ },
+ "c0s_extra_s99": {
+  "rows": 782,
+  "relabeled": 56,
+  "labels": {
+   "ADDRESS": 134,
+   "PERSON": 281,
+   "PERSON_ALIAS": 51,
+   "LOCATION": 108,
+   "ORGANIZATION": 148
+  },
+  "ids_sha16": "353e9ddfcb538776"
+ }
+}

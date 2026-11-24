@@ -1,0 +1,14 @@
+R6+기존병합: exp=0.1298 fpr=0.0 adj=4/9 cae=6/19 total=10/28 alias_alias_concat=False
+R6+B: exp=0.1298 fpr=0.0 adj=4/9 cae=6/19 total=10/28 alias_alias_concat=False
+R7+기존병합(참고): exp=0.1467 fpr=0.0 adj=3/9 cae=6/19 total=9/28 alias_alias_concat=True
+R7+B(참고): exp=0.1042 fpr=0.0 adj=3/9 cae=7/19 total=10/28 alias_alias_concat=True
+P+Amb-s7+기존병합: exp=0.0972 fpr=0.0 adj=4/9 cae=3/19 total=7/28 alias_alias_concat=False
+P+Amb-s7+B: exp=0.0903 fpr=0.0 adj=5/9 cae=6/19 total=11/28 alias_alias_concat=False
+P+Amb-s13+기존병합: exp=0.1389 fpr=0.0 adj=4/9 cae=4/19 total=8/28 alias_alias_concat=True
+P+Amb-s13+B: exp=0.1389 fpr=0.0 adj=4/9 cae=6/19 total=10/28 alias_alias_concat=True
+P+Amb-s21+기존병합: exp=0.1248 fpr=0.0 adj=3/9 cae=3/19 total=6/28 alias_alias_concat=False
+P+Amb-s21+B: exp=0.0972 fpr=0.0 adj=3/9 cae=7/19 total=10/28 alias_alias_concat=True
+P+Amb-s42+기존병합: exp=0.2207 fpr=0.0139 adj=3/9 cae=7/19 total=10/28 alias_alias_concat=True
+P+Amb-s42+B: exp=0.186 fpr=0.0139 adj=5/9 cae=7/19 total=12/28 alias_alias_concat=True
+P+Amb-s99+기존병합: exp=0.1269 fpr=0.0 adj=4/9 cae=6/19 total=10/28 alias_alias_concat=False
+P+Amb-s99+B: exp=0.1239 fpr=0.0 adj=4/9 cae=6/19 total=10/28 alias_alias_concat=False

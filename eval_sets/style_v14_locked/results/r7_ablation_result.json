@@ -1,0 +1,1978 @@
+{
+ "R6(기준)": {
+  "fingerprint12": "c59b174ba126",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.9230769230769231,
+    "recall": 0.865979381443299,
+    "f1": 0.8936170212765957
+   },
+   "final_prf": {
+    "precision": 0.9230769230769231,
+    "recall": 0.865979381443299,
+    "f1": 0.8936170212765957
+   },
+   "exposure": {
+    "full": 1,
+    "partial": 0,
+    "masked": 96,
+    "full_rate": 0.0103,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9897,
+    "total_rate": 0.0103
+   },
+   "nonperson_fpr": 0.05
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "exposure": {
+    "full": 9,
+    "partial": 0,
+    "masked": 27,
+    "full_rate": 0.25,
+    "partial_rate": 0.0,
+    "masked_rate": 0.75,
+    "total_rate": 0.25
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.717948717948718,
+    "recall": 0.7777777777777778,
+    "f1": 0.7466666666666666
+   },
+   "final_prf": {
+    "precision": 0.875,
+    "recall": 0.7777777777777778,
+    "f1": 0.823529411764706
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 3,
+    "masked": 29,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0833,
+    "masked_rate": 0.8056,
+    "total_rate": 0.1944
+   },
+   "nonperson_fpr": 0.0833
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.9327,
+    "recall": 0.7979,
+    "f1": 0.8581
+   },
+   "exposure": {
+    "full_rate": 0.1238,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8484,
+    "total_rate": 0.1516
+   },
+   "nonperson_fpr_macro": 0.0444
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": false,
+    "spans": []
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": false,
+    "spans": []
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "민준이"
+    ],
+    [
+     "PERSON",
+     4,
+     7,
+     "지호형"
+    ]
+   ],
+   "over_merged": false
+  }
+ },
+ "R7(전체, 기준)": {
+  "fingerprint12": "098cb439c7e4",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.9120879120879121,
+    "recall": 0.8556701030927835,
+    "f1": 0.8829787234042552
+   },
+   "final_prf": {
+    "precision": 0.9120879120879121,
+    "recall": 0.8556701030927835,
+    "f1": 0.8829787234042552
+   },
+   "exposure": {
+    "full": 0,
+    "partial": 0,
+    "masked": 97,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "masked_rate": 1.0,
+    "total_rate": 0.0
+   },
+   "nonperson_fpr": 0.1
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8611111111111112,
+    "f1": 0.9253731343283582
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8611111111111112,
+    "f1": 0.9253731343283582
+   },
+   "exposure": {
+    "full": 5,
+    "partial": 0,
+    "masked": 31,
+    "full_rate": 0.1389,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8611,
+    "total_rate": 0.1389
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.5918367346938775,
+    "recall": 0.8055555555555556,
+    "f1": 0.6823529411764706
+   },
+   "final_prf": {
+    "precision": 0.6444444444444445,
+    "recall": 0.8055555555555556,
+    "f1": 0.7160493827160493
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 3,
+    "masked": 30,
+    "full_rate": 0.0833,
+    "partial_rate": 0.0833,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.1667
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8522,
+    "recall": 0.8408,
+    "f1": 0.8415
+   },
+   "exposure": {
+    "full_rate": 0.0741,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8981,
+    "total_rate": 0.1019
+   },
+   "nonperson_fpr_macro": 0.0889
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      2,
+      "미래"
+     ]
+    ]
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형지호형"
+    ]
+   ],
+   "over_merged": true
+  }
+ },
+ "P-s42": {
+  "fingerprint12": "8ac33d04eab6",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.9120879120879121,
+    "recall": 0.8556701030927835,
+    "f1": 0.8829787234042552
+   },
+   "final_prf": {
+    "precision": 0.9120879120879121,
+    "recall": 0.8556701030927835,
+    "f1": 0.8829787234042552
+   },
+   "exposure": {
+    "full": 0,
+    "partial": 0,
+    "masked": 97,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "masked_rate": 1.0,
+    "total_rate": 0.0
+   },
+   "nonperson_fpr": 0.2
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.9444444444444444,
+    "f1": 0.9714285714285714
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.9444444444444444,
+    "f1": 0.9714285714285714
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 0,
+    "masked": 34,
+    "full_rate": 0.0556,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9444,
+    "total_rate": 0.0556
+   },
+   "nonperson_fpr": 0.0417
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.7021276595744681,
+    "recall": 0.9166666666666666,
+    "f1": 0.7951807228915662
+   },
+   "final_prf": {
+    "precision": 0.717391304347826,
+    "recall": 0.9166666666666666,
+    "f1": 0.8048780487804877
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 0,
+    "masked": 34,
+    "full_rate": 0.0556,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9444,
+    "total_rate": 0.0556
+   },
+   "nonperson_fpr": 0.1667
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8765,
+    "recall": 0.9056,
+    "f1": 0.8864
+   },
+   "exposure": {
+    "full_rate": 0.0371,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9629,
+    "total_rate": 0.0371
+   },
+   "nonperson_fpr_macro": 0.1361
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": false,
+    "spans": []
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     3,
+     "민준이"
+    ],
+    [
+     "PERSON",
+     3,
+     7,
+     "형지호형"
+    ]
+   ],
+   "over_merged": false
+  }
+ },
+ "P-s7": {
+  "fingerprint12": "505e86fd732c",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.9010989010989011,
+    "recall": 0.845360824742268,
+    "f1": 0.8723404255319148
+   },
+   "final_prf": {
+    "precision": 0.9101123595505618,
+    "recall": 0.8350515463917526,
+    "f1": 0.870967741935484
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 1,
+    "masked": 94,
+    "full_rate": 0.0206,
+    "partial_rate": 0.0103,
+    "masked_rate": 0.9691,
+    "total_rate": 0.0309
+   },
+   "nonperson_fpr": 0.05
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "exposure": {
+    "full": 9,
+    "partial": 0,
+    "masked": 27,
+    "full_rate": 0.25,
+    "partial_rate": 0.0,
+    "masked_rate": 0.75,
+    "total_rate": 0.25
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6222222222222222,
+    "recall": 0.7777777777777778,
+    "f1": 0.6913580246913581
+   },
+   "final_prf": {
+    "precision": 0.6511627906976745,
+    "recall": 0.7777777777777778,
+    "f1": 0.7088607594936709
+   },
+   "exposure": {
+    "full": 5,
+    "partial": 1,
+    "masked": 30,
+    "full_rate": 0.1389,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0833
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8538,
+    "recall": 0.7876,
+    "f1": 0.8123
+   },
+   "exposure": {
+    "full_rate": 0.1365,
+    "partial_rate": 0.0127,
+    "masked_rate": 0.8508,
+    "total_rate": 0.1492
+   },
+   "nonperson_fpr_macro": 0.0444
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      2,
+      "미래"
+     ]
+    ]
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     4,
+     "민준이형"
+    ],
+    [
+     "PERSON",
+     4,
+     7,
+     "지호형"
+    ]
+   ],
+   "over_merged": false
+  }
+ },
+ "P-s21": {
+  "fingerprint12": "fb722c081379",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.9120879120879121,
+    "recall": 0.8556701030927835,
+    "f1": 0.8829787234042552
+   },
+   "final_prf": {
+    "precision": 0.9120879120879121,
+    "recall": 0.8556701030927835,
+    "f1": 0.8829787234042552
+   },
+   "exposure": {
+    "full": 0,
+    "partial": 0,
+    "masked": 97,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "masked_rate": 1.0,
+    "total_rate": 0.0
+   },
+   "nonperson_fpr": 0.1
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 0,
+    "masked": 32,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6595744680851063,
+    "recall": 0.8611111111111112,
+    "f1": 0.7469879518072289
+   },
+   "final_prf": {
+    "precision": 0.9117647058823529,
+    "recall": 0.8611111111111112,
+    "f1": 0.8857142857142858
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 2,
+    "masked": 32,
+    "full_rate": 0.0556,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.1667
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.9413,
+    "recall": 0.8686,
+    "f1": 0.9033
+   },
+   "exposure": {
+    "full_rate": 0.0556,
+    "partial_rate": 0.0185,
+    "masked_rate": 0.9259,
+    "total_rate": 0.0741
+   },
+   "nonperson_fpr_macro": 0.0889
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      2,
+      "미래"
+     ]
+    ]
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     4,
+     "민준이형"
+    ],
+    [
+     "PERSON",
+     4,
+     7,
+     "지호형"
+    ]
+   ],
+   "over_merged": false
+  }
+ },
+ "R-s42": {
+  "fingerprint12": "983f754c3ddf",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.8913043478260869,
+    "recall": 0.845360824742268,
+    "f1": 0.8677248677248677
+   },
+   "final_prf": {
+    "precision": 0.9213483146067416,
+    "recall": 0.845360824742268,
+    "f1": 0.8817204301075268
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 93,
+    "full_rate": 0.0309,
+    "partial_rate": 0.0103,
+    "masked_rate": 0.9588,
+    "total_rate": 0.0412
+   },
+   "nonperson_fpr": 0.05
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1": 0.9411764705882353
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 0,
+    "masked": 32,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.0417
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.5686274509803921,
+    "recall": 0.8055555555555556,
+    "f1": 0.6666666666666667
+   },
+   "final_prf": {
+    "precision": 0.7631578947368421,
+    "recall": 0.8055555555555556,
+    "f1": 0.7837837837837838
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 3,
+    "masked": 30,
+    "full_rate": 0.0833,
+    "partial_rate": 0.0833,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.1667
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.8948,
+    "recall": 0.8466,
+    "f1": 0.8689
+   },
+   "exposure": {
+    "full_rate": 0.0751,
+    "partial_rate": 0.0312,
+    "masked_rate": 0.8937,
+    "total_rate": 0.1063
+   },
+   "nonperson_fpr_macro": 0.0861
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": false,
+    "spans": []
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형지호형"
+    ]
+   ],
+   "over_merged": true
+  }
+ },
+ "R-s7": {
+  "fingerprint12": "c5388f8d02a0",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.8723404255319149,
+    "recall": 0.845360824742268,
+    "f1": 0.8586387434554974
+   },
+   "final_prf": {
+    "precision": 0.9310344827586207,
+    "recall": 0.8350515463917526,
+    "f1": 0.8804347826086957
+   },
+   "exposure": {
+    "full": 6,
+    "partial": 1,
+    "masked": 90,
+    "full_rate": 0.0619,
+    "partial_rate": 0.0103,
+    "masked_rate": 0.9278,
+    "total_rate": 0.0722
+   },
+   "nonperson_fpr": 0.0
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 0.96875,
+    "recall": 0.8611111111111112,
+    "f1": 0.911764705882353
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1": 0.8750000000000001
+   },
+   "exposure": {
+    "full": 8,
+    "partial": 0,
+    "masked": 28,
+    "full_rate": 0.2222,
+    "partial_rate": 0.0,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6382978723404256,
+    "recall": 0.8333333333333334,
+    "f1": 0.7228915662650603
+   },
+   "final_prf": {
+    "precision": 0.9354838709677419,
+    "recall": 0.8055555555555556,
+    "f1": 0.8656716417910448
+   },
+   "exposure": {
+    "full": 6,
+    "partial": 0,
+    "masked": 30,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0833
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.9555,
+    "recall": 0.8061,
+    "f1": 0.8737
+   },
+   "exposure": {
+    "full_rate": 0.1503,
+    "partial_rate": 0.0034,
+    "masked_rate": 0.8463,
+    "total_rate": 0.1537
+   },
+   "nonperson_fpr_macro": 0.0278
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      2,
+      "미래"
+     ]
+    ]
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     4,
+     7,
+     "지호형"
+    ]
+   ],
+   "over_merged": false
+  }
+ },
+ "R-s21": {
+  "fingerprint12": "b184729c3b2f",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.8901098901098901,
+    "recall": 0.8350515463917526,
+    "f1": 0.8617021276595744
+   },
+   "final_prf": {
+    "precision": 0.9101123595505618,
+    "recall": 0.8350515463917526,
+    "f1": 0.870967741935484
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 0,
+    "masked": 95,
+    "full_rate": 0.0206,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9794,
+    "total_rate": 0.0206
+   },
+   "nonperson_fpr": 0.1
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1": 0.9565217391304348
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1": 0.9565217391304348
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 0,
+    "masked": 33,
+    "full_rate": 0.0833,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9167,
+    "total_rate": 0.0833
+   },
+   "nonperson_fpr": 0.0417
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6739130434782609,
+    "recall": 0.8611111111111112,
+    "f1": 0.7560975609756099
+   },
+   "final_prf": {
+    "precision": 0.9117647058823529,
+    "recall": 0.8611111111111112,
+    "f1": 0.8857142857142858
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 32,
+    "full_rate": 0.0833,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8889,
+    "total_rate": 0.1111
+   },
+   "nonperson_fpr": 0.25
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.9406,
+    "recall": 0.8709,
+    "f1": 0.9044
+   },
+   "exposure": {
+    "full_rate": 0.0624,
+    "partial_rate": 0.0093,
+    "masked_rate": 0.9283,
+    "total_rate": 0.0717
+   },
+   "nonperson_fpr_macro": 0.1306
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      2,
+      "미래"
+     ]
+    ]
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     3,
+     7,
+     "형지호형"
+    ]
+   ],
+   "over_merged": false
+  }
+ },
+ "Amb-s42": {
+  "fingerprint12": "8040eb3a0f39",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.8829787234042553,
+    "recall": 0.8556701030927835,
+    "f1": 0.8691099476439791
+   },
+   "final_prf": {
+    "precision": 0.9111111111111111,
+    "recall": 0.845360824742268,
+    "f1": 0.8770053475935828
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 1,
+    "masked": 94,
+    "full_rate": 0.0206,
+    "partial_rate": 0.0103,
+    "masked_rate": 0.9691,
+    "total_rate": 0.0309
+   },
+   "nonperson_fpr": 0.1
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.7777777777777778,
+    "f1": 0.8750000000000001
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "exposure": {
+    "full": 9,
+    "partial": 0,
+    "masked": 27,
+    "full_rate": 0.25,
+    "partial_rate": 0.0,
+    "masked_rate": 0.75,
+    "total_rate": 0.25
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.5833333333333334,
+    "recall": 0.7777777777777778,
+    "f1": 0.6666666666666666
+   },
+   "final_prf": {
+    "precision": 0.8709677419354839,
+    "recall": 0.75,
+    "f1": 0.8059701492537312
+   },
+   "exposure": {
+    "full": 5,
+    "partial": 3,
+    "masked": 28,
+    "full_rate": 0.1389,
+    "partial_rate": 0.0833,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": 0.0833
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.9274,
+    "recall": 0.7818,
+    "f1": 0.8467
+   },
+   "exposure": {
+    "full_rate": 0.1365,
+    "partial_rate": 0.0312,
+    "masked_rate": 0.8323,
+    "total_rate": 0.1677
+   },
+   "nonperson_fpr_macro": 0.0611
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": false,
+    "spans": []
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": false,
+    "spans": []
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형지호형"
+    ]
+   ],
+   "over_merged": true
+  }
+ },
+ "Amb-s7": {
+  "fingerprint12": "7fd2cc134888",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.8913043478260869,
+    "recall": 0.845360824742268,
+    "f1": 0.8677248677248677
+   },
+   "final_prf": {
+    "precision": 0.9111111111111111,
+    "recall": 0.845360824742268,
+    "f1": 0.8770053475935828
+   },
+   "exposure": {
+    "full": 1,
+    "partial": 0,
+    "masked": 96,
+    "full_rate": 0.0103,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9897,
+    "total_rate": 0.0103
+   },
+   "nonperson_fpr": 0.1
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.8055555555555556,
+    "f1": 0.8923076923076924
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.8055555555555556,
+    "f1": 0.8923076923076924
+   },
+   "exposure": {
+    "full": 7,
+    "partial": 0,
+    "masked": 29,
+    "full_rate": 0.1944,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8056,
+    "total_rate": 0.1944
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.675,
+    "recall": 0.75,
+    "f1": 0.7105263157894738
+   },
+   "final_prf": {
+    "precision": 0.84375,
+    "recall": 0.75,
+    "f1": 0.7941176470588235
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 4,
+    "masked": 28,
+    "full_rate": 0.1111,
+    "partial_rate": 0.1111,
+    "masked_rate": 0.7778,
+    "total_rate": 0.2222
+   },
+   "nonperson_fpr": 0.0
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.9183,
+    "recall": 0.8003,
+    "f1": 0.8545
+   },
+   "exposure": {
+    "full_rate": 0.1053,
+    "partial_rate": 0.037,
+    "masked_rate": 0.8577,
+    "total_rate": 0.1423
+   },
+   "nonperson_fpr_macro": 0.0333
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      2,
+      "미래"
+     ]
+    ]
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형지호형"
+    ]
+   ],
+   "over_merged": true
+  }
+ },
+ "Amb-s21": {
+  "fingerprint12": "8d04ab32345b",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.9032258064516129,
+    "recall": 0.865979381443299,
+    "f1": 0.8842105263157894
+   },
+   "final_prf": {
+    "precision": 0.9222222222222223,
+    "recall": 0.8556701030927835,
+    "f1": 0.8877005347593583
+   },
+   "exposure": {
+    "full": 2,
+    "partial": 0,
+    "masked": 95,
+    "full_rate": 0.0206,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9794,
+    "total_rate": 0.0206
+   },
+   "nonperson_fpr": 0.05
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1": 0.9565217391304348
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1": 0.9565217391304348
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 0,
+    "masked": 33,
+    "full_rate": 0.0833,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9167,
+    "total_rate": 0.0833
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6444444444444445,
+    "recall": 0.8055555555555556,
+    "f1": 0.7160493827160493
+   },
+   "final_prf": {
+    "precision": 0.8529411764705882,
+    "recall": 0.8055555555555556,
+    "f1": 0.8285714285714286
+   },
+   "exposure": {
+    "full": 5,
+    "partial": 1,
+    "masked": 30,
+    "full_rate": 0.1389,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.1667
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.9251,
+    "recall": 0.8593,
+    "f1": 0.8909
+   },
+   "exposure": {
+    "full_rate": 0.0809,
+    "partial_rate": 0.0093,
+    "masked_rate": 0.9098,
+    "total_rate": 0.0902
+   },
+   "nonperson_fpr_macro": 0.0722
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      2,
+      "미래"
+     ]
+    ]
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": false,
+    "spans": []
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     2,
+     "민준"
+    ],
+    [
+     "PERSON",
+     4,
+     7,
+     "지호형"
+    ]
+   ],
+   "over_merged": false
+  }
+ },
+ "Vol-s42": {
+  "fingerprint12": "8c126979f3f4",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.9010989010989011,
+    "recall": 0.845360824742268,
+    "f1": 0.8723404255319148
+   },
+   "final_prf": {
+    "precision": 0.9101123595505618,
+    "recall": 0.8350515463917526,
+    "f1": 0.870967741935484
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 1,
+    "masked": 93,
+    "full_rate": 0.0309,
+    "partial_rate": 0.0103,
+    "masked_rate": 0.9588,
+    "total_rate": 0.0412
+   },
+   "nonperson_fpr": 0.05
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 1.0,
+    "recall": 0.9444444444444444,
+    "f1": 0.9714285714285714
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1": 0.9565217391304348
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 0,
+    "masked": 33,
+    "full_rate": 0.0833,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9167,
+    "total_rate": 0.0833
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.6458333333333334,
+    "recall": 0.8611111111111112,
+    "f1": 0.738095238095238
+   },
+   "final_prf": {
+    "precision": 0.9354838709677419,
+    "recall": 0.8055555555555556,
+    "f1": 0.8656716417910448
+   },
+   "exposure": {
+    "full": 5,
+    "partial": 1,
+    "masked": 30,
+    "full_rate": 0.1389,
+    "partial_rate": 0.0278,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.1667
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.9485,
+    "recall": 0.8524,
+    "f1": 0.8977
+   },
+   "exposure": {
+    "full_rate": 0.0844,
+    "partial_rate": 0.0127,
+    "masked_rate": 0.9029,
+    "total_rate": 0.0971
+   },
+   "nonperson_fpr_macro": 0.0722
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": false,
+    "spans": []
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형지호형"
+    ]
+   ],
+   "over_merged": true
+  }
+ },
+ "Vol-s7": {
+  "fingerprint12": "54938877e9ac",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8247422680412371,
+    "f1": 0.8556149732620321
+   },
+   "final_prf": {
+    "precision": 0.9047619047619048,
+    "recall": 0.7835051546391752,
+    "f1": 0.839779005524862
+   },
+   "exposure": {
+    "full": 7,
+    "partial": 0,
+    "masked": 90,
+    "full_rate": 0.0722,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9278,
+    "total_rate": 0.0722
+   },
+   "nonperson_fpr": 0.1
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 0.9411764705882353,
+    "recall": 0.8888888888888888,
+    "f1": 0.9142857142857143
+   },
+   "final_prf": {
+    "precision": 0.9696969696969697,
+    "recall": 0.8888888888888888,
+    "f1": 0.927536231884058
+   },
+   "exposure": {
+    "full": 3,
+    "partial": 0,
+    "masked": 33,
+    "full_rate": 0.0833,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9167,
+    "total_rate": 0.0833
+   },
+   "nonperson_fpr": 0.0
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.625,
+    "recall": 0.8333333333333334,
+    "f1": 0.7142857142857143
+   },
+   "final_prf": {
+    "precision": 0.6904761904761905,
+    "recall": 0.8055555555555556,
+    "f1": 0.7435897435897436
+   },
+   "exposure": {
+    "full": 6,
+    "partial": 0,
+    "masked": 30,
+    "full_rate": 0.1667,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.0833
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.855,
+    "recall": 0.826,
+    "f1": 0.837
+   },
+   "exposure": {
+    "full_rate": 0.1074,
+    "partial_rate": 0.0,
+    "masked_rate": 0.8926,
+    "total_rate": 0.1074
+   },
+   "nonperson_fpr_macro": 0.0611
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "보라색"
+     ]
+    ]
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      2,
+      "미래"
+     ]
+    ]
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     8,
+     "민준이형지호형이"
+    ]
+   ],
+   "over_merged": true
+  }
+ },
+ "Vol-s21": {
+  "fingerprint12": "76f6a27ff363",
+  "mode": "normal",
+  "실사용": {
+   "n_pos": 97,
+   "n_neg": 20,
+   "raw_prf": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8247422680412371,
+    "f1": 0.8290155440414508
+   },
+   "final_prf": {
+    "precision": 0.9058823529411765,
+    "recall": 0.7938144329896907,
+    "f1": 0.8461538461538461
+   },
+   "exposure": {
+    "full": 6,
+    "partial": 0,
+    "masked": 91,
+    "full_rate": 0.0619,
+    "partial_rate": 0.0,
+    "masked_rate": 0.9381,
+    "total_rate": 0.0619
+   },
+   "nonperson_fpr": 0.05
+  },
+  "중의성": {
+   "n_pos": 36,
+   "n_neg": 24,
+   "raw_prf": {
+    "precision": 0.9655172413793104,
+    "recall": 0.7777777777777778,
+    "f1": 0.8615384615384615
+   },
+   "final_prf": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+   },
+   "exposure": {
+    "full": 9,
+    "partial": 0,
+    "masked": 27,
+    "full_rate": 0.25,
+    "partial_rate": 0.0,
+    "masked_rate": 0.75,
+    "total_rate": 0.25
+   },
+   "nonperson_fpr": 0.0417
+  },
+  "스트레스": {
+   "n_pos": 36,
+   "n_neg": 12,
+   "raw_prf": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1": 0.75
+   },
+   "final_prf": {
+    "precision": 0.84375,
+    "recall": 0.75,
+    "f1": 0.7941176470588235
+   },
+   "exposure": {
+    "full": 4,
+    "partial": 2,
+    "masked": 30,
+    "full_rate": 0.1111,
+    "partial_rate": 0.0556,
+    "masked_rate": 0.8333,
+    "total_rate": 0.1667
+   },
+   "nonperson_fpr": 0.1667
+  },
+  "통합(매크로평균)": {
+   "final_prf": {
+    "precision": 0.9165,
+    "recall": 0.7646,
+    "f1": 0.8325
+   },
+   "exposure": {
+    "full_rate": 0.141,
+    "partial_rate": 0.0185,
+    "masked_rate": 0.8405,
+    "total_rate": 0.1595
+   },
+   "nonperson_fpr_macro": 0.0861
+  },
+  "1글자이름(정책, 통합 미포함)": {
+   "n": 14,
+   "full_exposure": 13,
+   "full_exposure_rate": 0.9286
+  },
+  "ambiguity_probe_specific": {
+   "amb-보라-nonperson-3": {
+    "text": "보라색을 가장 좋아한다",
+    "flagged": false,
+    "spans": []
+   },
+   "amb-미래-nonperson-2": {
+    "text": "미래에는 어떤 일이 생길까",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      2,
+      "미래"
+     ]
+    ]
+   },
+   "amb-지성-nonperson-3": {
+    "text": "지성미가 느껴졌다",
+    "flagged": true,
+    "spans": [
+     [
+      0,
+      3,
+      "지성미"
+     ]
+    ]
+   }
+  },
+  "alias_alias_concat": {
+   "text": "민준이형지호형이 같이 왔어",
+   "final_spans": [
+    [
+     "PERSON",
+     0,
+     7,
+     "민준이형지호형"
+    ]
+   ],
+   "over_merged": true
+  }
+ }
+}

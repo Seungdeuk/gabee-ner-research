@@ -1,0 +1,125 @@
+{
+ "run_id": "r11-B-s21",
+ "seed": 21,
+ "stopped_epoch": 6,
+ "best_epoch": 4,
+ "epochs": [
+  {
+   "epoch": 1,
+   "baseline_val_overlap_f1": 0.8765432098765432,
+   "checkpoint_sha256": "a4ef4eed4263dfcf7fd5dac7c76a78c1a751b5f29667667c4e8c4690be897ad2"
+  },
+  {
+   "epoch": 2,
+   "baseline_val_overlap_f1": 0.925925925925926,
+   "checkpoint_sha256": "cff070f1a21d8ae44280666bc116155b0e55d99ece0840bbe7c2abf77dbbe54d"
+  },
+  {
+   "epoch": 3,
+   "baseline_val_overlap_f1": 0.967741935483871,
+   "checkpoint_sha256": "829ce0a09f06a6aa1176046d8172eabe37a3c7de7b757cd4012953536bf49550"
+  },
+  {
+   "epoch": 4,
+   "baseline_val_overlap_f1": 0.9681528662420382,
+   "checkpoint_sha256": "6edc3b04c1c2f4457f45d5b975fb9799490cabbb259f015c9f9a5ff788bdfc25"
+  },
+  {
+   "epoch": 5,
+   "baseline_val_overlap_f1": 0.967741935483871,
+   "checkpoint_sha256": "b0b8145e3538bcee22eb61599d10e65735d9daf270f9f24d21f21fb61bc87b51"
+  },
+  {
+   "epoch": 6,
+   "baseline_val_overlap_f1": 0.967741935483871,
+   "checkpoint_sha256": "6ea515763e68c1e93e1ace68de861a9df5afff68e67c4c6fedd7f4f1c3cdcf93"
+  }
+ ],
+ "selection": {
+  "B_old_epoch": 4,
+  "B_new_epoch": 5,
+  "same_epoch": false,
+  "excluded_by_safety": [
+   1,
+   2,
+   3,
+   6
+  ]
+ },
+ "variants": {
+  "B-old": "r11-B-s21-ep4",
+  "B-new": "r11-B-s21-ep5",
+  "C-SWA": "r11-B-s21-swa"
+ },
+ "swa": {
+  "weights_sha256": "492a718047290f9e413d4592073d5d116ab6b5aefcb674972b286579c2dc650c",
+  "window_epochs": [
+   4,
+   5,
+   6
+  ],
+  "short_window": false
+ },
+ "train_time_s": 112.1,
+ "max_vram_mb": 784,
+ "timing": {
+  "avail_ram_mb_before": 5293,
+  "free_disk_gb_before": 11.1,
+  "train_s": 126.5,
+  "train_peak_rss_mb": 1529,
+  "evalfull_s": 11.5,
+  "export_best_s": 11.3,
+  "parity_s": 10.9,
+  "cands_s": 4.7,
+  "evalfull_ep1_s": 11.8,
+  "export_ep1_s": 14.2,
+  "evalfull_ep2_s": 11.5,
+  "export_ep2_s": 11.5,
+  "evalfull_ep3_s": 11.9,
+  "export_ep3_s": 13.9,
+  "evalfull_ep4_s": 11.5,
+  "export_ep4_s": 10.7,
+  "evalfull_ep5_s": 11.0,
+  "export_ep5_s": 10.3,
+  "evalfull_ep6_s": 11.3,
+  "export_ep6_s": 11.3,
+  "evalfull_swa_s": 10.9,
+  "export_swa_s": 10.6,
+  "valEval_s": 41.5,
+  "select_s": 0.1,
+  "devEval_s": 440.8
+ },
+ "total_pipeline_s": 811.9,
+ "resumed": false,
+ "reused_stages": [],
+ "sha256": {
+  "best/model.safetensors": "6edc3b04c1c2f4457f45d5b975fb9799490cabbb259f015c9f9a5ff788bdfc25",
+  "train_log.json": "4a0523a3ad732226d388d7af207d6db762c554adc79cef6123a094251041a70c",
+  "eval_full.json": "81524f03205f8526fc7f698b573c6d2a4af84a030325c44dc416aa4dc7322a77",
+  "parity.json": "c42229aae9aff423c702441907a731e3c9517c34b0d5dcaa1dbb5278c15f110c",
+  "cand_info.json": "5c32834da346ff4b1d4154c3445bb3437b5900cee688be70b9ee07a6414c6921",
+  "dev_result.json": "c1d286db45549e2b07f9a9f86cbe9794d9550ac94206375a9b95b829889dff49",
+  "cand_eval_full": {
+   "ep1": "2b836c11820f39a4464fcbb83e16a0e15f03235993c71338a184123fd8cb34ab",
+   "ep2": "d14aa3a65165b52d2f568a748643e9cc167468904dab1da2db2be2663629b913",
+   "ep3": "0746a0bebefcc0d2fb28fc7754e186bb767744a7d17d5ea5793f93dbd349d62f",
+   "ep4": "4907a6796e55f75a2038b83beb4f1f6a949f708c55aa55d228ea4003c84a4ff0",
+   "ep5": "0ee05fd7e2201f7b23d816ac8c2140a4ea7da5a1d86cc3e7f5c47dc836dec60e",
+   "ep6": "f40f3aff15d7c486b753a17bca3d5b45a1606f55b7612cda9b9095560709320c",
+   "swa": "f657f39faadb9360095f4d79429d5431b53a558878b675b899357ce4637edfcf"
+  },
+  "onnx": {
+   "r11-B-s21-ep4": "12d7410cdda78b5d673d8f59394a446c0bdb7f343cd56d8c10ceb3a4d1798b80",
+   "r11-B-s21-ep5": "3831601b7ffb6093a8d1b8c832e46ad140712c6e402f17b3054c3ec0f9ae4c94",
+   "r11-B-s21-swa": "c6c63461cc4f55c1468f873f54310c64aeec814ebde3f713ca6cc17f8cd3f7b7"
+  },
+  "train_data_files": {
+   "baseline_train": "61fdc12a6d2a25986d3ab110a04fc36b6c92e8104e3e04b6af80388ec2b2056a",
+   "synth_train": "2cfaca150bb8e2b5db9b47b5e7191fb8926df030d2dc0b3801a2ac7b72fc68ba",
+   "klue_train": "8e0753d632b74f314cf1caffcdde43b3e760b7d09c472b8d6ca2d3fb03ad524f",
+   "r9_Ffull_train": "3182dfbbef296cc66235668ccb1f5ad1ad58c59e9125459911e074ad17a2e0a5",
+   "r11_B_extra": "147cc4ffbee8777a55d258080c744a0394dd04c707599b6d14e061a4865960a9"
+  }
+ },
+ "best_equals_epoch_best_checkpoint": true
+}

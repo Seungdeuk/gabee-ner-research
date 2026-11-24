@@ -1,0 +1,36 @@
+{
+ "stage": "final-eval PREFLIGHT (frozen before the one-time run)",
+ "date": "2026-11-19",
+ "candidate": {
+  "run": "r9-F-full-s13",
+  "onnx_sha256": "997191d7874ca3d71e3030e232d566daafa2cd8c7f36d9cceb2cadb2447a9bdf",
+  "approved_sha256": "997191d7874ca3d71e3030e232d566daafa2cd8c7f36d9cceb2cadb2447a9bdf",
+  "checkpoint_sha256": "aeb7ad50076786df4c6f97eb9fd01aff7b5ab74b8955f784dbd7eb82719d7f96"
+ },
+ "service": {
+  "dir": "C:\\Users\\<user>\\Documents\\gabee-model-delivery\\ner-koelectra-small-v2b",
+  "model_card_name": "koelectra-small-v2b",
+  "run_id": "v2b-koelectra-small-klue10-s7",
+  "git_head_at_training": "f183728",
+  "onnx_sha256": "46210943c45f01b6a9fa500894fb9821b1c130be63de8d8f7ef603d2d87ccf8e",
+  "fingerprint12": "46210943c45f"
+ },
+ "code": {
+  "git_head": "158a46e44f70421b15544fd311a837cc33c1a5dc",
+  "working_tree_clean": true,
+  "evaluate_r9_final.py": "d78f5c67a48cc2fed7f436a912d2e54b1e74535f182a933411f56f8863d97dca",
+  "evaluate_r8_new180.py": "0a7341a9b3c473ca8725ac20e13035ba8a1d21503b548875560b2e9960b0e871",
+  "r8_eval_lib.py": "ede37d968da9f71e655d77143033077c9b9047bc401aa6a4a419843b6b56457c",
+  "evaluate_r8_dev.py": "c8e434a76598354f5726d94796385e10f917fd02b0d8ecbe17c1382b14cc31b3"
+ },
+ "sealed": {
+  "representative_rows": 1600,
+  "stress_rows": 800,
+  "status": "SEALED(verify_r9_seal.py, problems=0)",
+  "annotation_id_files_sha256": {
+   "annot_representative.json": "5f255fe9d2d5253341820aade2548b2aaf70248d4a997b2b59f8369fd7d032fa",
+   "annot_stress.json": "a72b90d0fe5e795ca8a3dd6938a50192821a75945928d0832b060bd1dc93206a"
+  }
+ },
+ "frozen_rules": "사전 등록 §5 지표, §6 게이트, §7 교체 권고 조건 5개 고정. 두 모델 같은 evaluate_r9_final.py·같은 ner.detect_with_ner 디코딩·후처리(lib.set_model 로 모델 폴더만 교체). 정책 차이는 층별(kin_adjacent / 정책 중립)로 분리 보고."
+}

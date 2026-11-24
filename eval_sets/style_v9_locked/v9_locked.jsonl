@@ -1,0 +1,100 @@
+{"id": "v9-0001", "group": "A_new_phrase", "category": "목적격", "word": "진달래", "text": "할머니가 진달래를 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": []}
+{"id": "v9-0002", "group": "A_new_phrase", "category": "목적격", "word": "민들레", "text": "할머니가 민들레를 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": []}
+{"id": "v9-0003", "group": "A_new_phrase", "category": "목적격", "word": "억새", "text": "할머니가 억새를 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": []}
+{"id": "v9-0004", "group": "A_new_phrase", "category": "목적격", "word": "솔잎", "text": "할머니가 솔잎을 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": []}
+{"id": "v9-0005", "group": "A_new_phrase", "category": "목적격", "word": "눈송이", "text": "할머니가 눈송이를 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": []}
+{"id": "v9-0006", "group": "A_new_phrase", "category": "목적격", "word": "빗방울", "text": "할머니가 빗방울을 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": []}
+{"id": "v9-0007", "group": "A_new_phrase", "category": "목적격", "word": "들꽃", "text": "할머니가 들꽃을 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": []}
+{"id": "v9-0008", "group": "A_new_phrase", "category": "목적격", "word": "메아리", "text": "할머니가 메아리를 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": []}
+{"id": "v9-0009", "group": "A_new_phrase", "category": "목적격", "word": "솔바람", "text": "할머니가 솔바람을 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 8}], "known_names": []}
+{"id": "v9-0010", "group": "A_new_phrase", "category": "목적격", "word": "꽃잎", "text": "할머니가 꽃잎을 많이 예뻐하셨어", "spans": [{"kind": "PERSON", "start": 5, "end": 7}], "known_names": []}
+{"id": "v9-0011", "group": "A_new_phrase", "category": "여격", "word": "진달래", "text": "진달래한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0012", "group": "A_new_phrase", "category": "여격", "word": "민들레", "text": "민들레한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0013", "group": "A_new_phrase", "category": "여격", "word": "억새", "text": "억새한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0014", "group": "A_new_phrase", "category": "여격", "word": "솔잎", "text": "솔잎한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0015", "group": "A_new_phrase", "category": "여격", "word": "눈송이", "text": "눈송이한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0016", "group": "A_new_phrase", "category": "여격", "word": "빗방울", "text": "빗방울한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0017", "group": "A_new_phrase", "category": "여격", "word": "들꽃", "text": "들꽃한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0018", "group": "A_new_phrase", "category": "여격", "word": "메아리", "text": "메아리한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0019", "group": "A_new_phrase", "category": "여격", "word": "솔바람", "text": "솔바람한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0020", "group": "A_new_phrase", "category": "여격", "word": "꽃잎", "text": "꽃잎한테 급식 맛있었는지 물어봤어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0021", "group": "A_new_phrase", "category": "호격", "word": "진달래", "text": "진달래야, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0022", "group": "A_new_phrase", "category": "호격", "word": "민들레", "text": "민들레야, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0023", "group": "A_new_phrase", "category": "호격", "word": "억새", "text": "억새야, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0024", "group": "A_new_phrase", "category": "호격", "word": "솔잎", "text": "솔잎아, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0025", "group": "A_new_phrase", "category": "호격", "word": "눈송이", "text": "눈송이야, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0026", "group": "A_new_phrase", "category": "호격", "word": "빗방울", "text": "빗방울아, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0027", "group": "A_new_phrase", "category": "호격", "word": "들꽃", "text": "들꽃아, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0028", "group": "A_new_phrase", "category": "호격", "word": "메아리", "text": "메아리야, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0029", "group": "A_new_phrase", "category": "호격", "word": "솔바람", "text": "솔바람아, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0030", "group": "A_new_phrase", "category": "호격", "word": "꽃잎", "text": "꽃잎아, 이리 와서 앉아봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0031", "group": "A_new_phrase", "category": "비교서술", "word": "진달래", "text": "진달래가 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0032", "group": "A_new_phrase", "category": "비교서술", "word": "민들레", "text": "민들레가 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0033", "group": "A_new_phrase", "category": "비교서술", "word": "억새", "text": "억새가 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0034", "group": "A_new_phrase", "category": "비교서술", "word": "솔잎", "text": "솔잎이 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0035", "group": "A_new_phrase", "category": "비교서술", "word": "눈송이", "text": "눈송이가 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0036", "group": "A_new_phrase", "category": "비교서술", "word": "빗방울", "text": "빗방울이 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0037", "group": "A_new_phrase", "category": "비교서술", "word": "들꽃", "text": "들꽃이 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0038", "group": "A_new_phrase", "category": "비교서술", "word": "메아리", "text": "메아리가 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0039", "group": "A_new_phrase", "category": "비교서술", "word": "솔바람", "text": "솔바람이 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0040", "group": "A_new_phrase", "category": "비교서술", "word": "꽃잎", "text": "꽃잎이 우리 학원에서 제일 성실해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0041", "group": "A_neg", "category": "nonperson", "word": "진달래", "text": "산기슭에 진달래가 활짝 피었다", "spans": [], "known_names": []}
+{"id": "v9-0042", "group": "A_neg", "category": "nonperson", "word": "진달래", "text": "진달래꽃으로 화전을 만들었다", "spans": [], "known_names": []}
+{"id": "v9-0043", "group": "A_neg", "category": "nonperson", "word": "민들레", "text": "길가에 민들레가 피어 있었다", "spans": [], "known_names": []}
+{"id": "v9-0044", "group": "A_neg", "category": "nonperson", "word": "민들레", "text": "민들레 홀씨가 바람에 날렸다", "spans": [], "known_names": []}
+{"id": "v9-0045", "group": "A_neg", "category": "nonperson", "word": "억새", "text": "가을 들판에 억새가 흔들렸다", "spans": [], "known_names": []}
+{"id": "v9-0046", "group": "A_neg", "category": "nonperson", "word": "억새", "text": "억새밭 사이로 길이 나 있었다", "spans": [], "known_names": []}
+{"id": "v9-0047", "group": "A_neg", "category": "nonperson", "word": "솔잎", "text": "솔잎 냄새가 은은하게 퍼졌다", "spans": [], "known_names": []}
+{"id": "v9-0048", "group": "A_neg", "category": "nonperson", "word": "솔잎", "text": "바닥에 솔잎이 수북이 쌓였다", "spans": [], "known_names": []}
+{"id": "v9-0049", "group": "A_neg", "category": "nonperson", "word": "눈송이", "text": "창밖으로 눈송이가 흩날렸다", "spans": [], "known_names": []}
+{"id": "v9-0050", "group": "A_neg", "category": "nonperson", "word": "눈송이", "text": "눈송이가 소복이 쌓였다", "spans": [], "known_names": []}
+{"id": "v9-0051", "group": "A_neg", "category": "nonperson", "word": "빗방울", "text": "창문에 빗방울이 맺혔다", "spans": [], "known_names": []}
+{"id": "v9-0052", "group": "A_neg", "category": "nonperson", "word": "빗방울", "text": "빗방울 떨어지는 소리가 들렸다", "spans": [], "known_names": []}
+{"id": "v9-0053", "group": "A_neg", "category": "nonperson", "word": "들꽃", "text": "들판에 들꽃이 가득 피었다", "spans": [], "known_names": []}
+{"id": "v9-0054", "group": "A_neg", "category": "nonperson", "word": "들꽃", "text": "들꽃을 꺾어 꽃다발을 만들었다", "spans": [], "known_names": []}
+{"id": "v9-0055", "group": "A_neg", "category": "nonperson", "word": "메아리", "text": "산에서 메아리가 울려 퍼졌다", "spans": [], "known_names": []}
+{"id": "v9-0056", "group": "A_neg", "category": "nonperson", "word": "메아리", "text": "메아리 소리가 점점 작아졌다", "spans": [], "known_names": []}
+{"id": "v9-0057", "group": "A_neg", "category": "nonperson", "word": "솔바람", "text": "소나무 숲에 솔바람이 불었다", "spans": [], "known_names": []}
+{"id": "v9-0058", "group": "A_neg", "category": "nonperson", "word": "솔바람", "text": "솔바람 소리가 시원했다", "spans": [], "known_names": []}
+{"id": "v9-0059", "group": "A_neg", "category": "nonperson", "word": "꽃잎", "text": "바람에 꽃잎이 흩날렸다", "spans": [], "known_names": []}
+{"id": "v9-0060", "group": "A_neg", "category": "nonperson", "word": "꽃잎", "text": "꽃잎이 바닥에 떨어졌다", "spans": [], "known_names": []}
+{"id": "v9-0061", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "진달래", "text": "진달래가 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0062", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "민들레", "text": "민들레가 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0063", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "억새", "text": "억새가 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0064", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "솔잎", "text": "솔잎이 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0065", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "눈송이", "text": "눈송이가 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0066", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "빗방울", "text": "빗방울이 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0067", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "들꽃", "text": "들꽃이 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0068", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "메아리", "text": "메아리가 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0069", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "솔바람", "text": "솔바람이 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0070", "group": "B_basic_phrase", "category": "기본_주어서술", "word": "꽃잎", "text": "꽃잎이 오늘 친구 생일파티 다녀왔대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0071", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "진달래", "text": "진달래 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0072", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "민들레", "text": "민들레 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0073", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "억새", "text": "억새 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0074", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "솔잎", "text": "솔잎 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0075", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "눈송이", "text": "눈송이 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0076", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "빗방울", "text": "빗방울 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0077", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "들꽃", "text": "들꽃 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0078", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "메아리", "text": "메아리 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0079", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "솔바람", "text": "솔바람 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v9-0080", "group": "B_basic_phrase", "category": "기본_단순언급", "word": "꽃잎", "text": "꽃잎 사진을 가족방에 올렸어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v9-0081", "group": "D_background_neg", "category": "background", "word": null, "text": "오늘 저녁 메뉴는 카레로 정했어", "spans": [], "known_names": []}
+{"id": "v9-0082", "group": "D_background_neg", "category": "background", "word": null, "text": "주말에 캠핑 가기로 했어", "spans": [], "known_names": []}
+{"id": "v9-0083", "group": "D_background_neg", "category": "background", "word": null, "text": "세탁기 소리가 너무 시끄러워", "spans": [], "known_names": []}
+{"id": "v9-0084", "group": "D_background_neg", "category": "background", "word": null, "text": "냉장고에 반찬 꺼내놨어", "spans": [], "known_names": []}
+{"id": "v9-0085", "group": "D_background_neg", "category": "background", "word": null, "text": "내일 병원 예약 시간 확인해줘", "spans": [], "known_names": []}
+{"id": "v9-0086", "group": "D_background_neg", "category": "background", "word": null, "text": "택배가 문 앞에 왔다고 문자왔어", "spans": [], "known_names": []}
+{"id": "v9-0087", "group": "D_background_neg", "category": "background", "word": null, "text": "오늘따라 길이 많이 막혔어", "spans": [], "known_names": []}
+{"id": "v9-0088", "group": "D_background_neg", "category": "background", "word": null, "text": "에어컨 필터 청소할 때 됐어", "spans": [], "known_names": []}
+{"id": "v9-0089", "group": "D_background_neg", "category": "background", "word": null, "text": "마트에서 장 보고 들어갈게", "spans": [], "known_names": []}
+{"id": "v9-0090", "group": "D_background_neg", "category": "background", "word": null, "text": "거실 조명이 하나 나갔어", "spans": [], "known_names": []}
+{"id": "v9-0091", "group": "D_background_neg", "category": "background", "word": null, "text": "분리수거는 내가 할게", "spans": [], "known_names": []}
+{"id": "v9-0092", "group": "D_background_neg", "category": "background", "word": null, "text": "오늘 운동 다녀왔어", "spans": [], "known_names": []}
+{"id": "v9-0093", "group": "D_background_neg", "category": "background", "word": null, "text": "휴대폰 배터리가 금방 닳네", "spans": [], "known_names": []}
+{"id": "v9-0094", "group": "D_background_neg", "category": "background", "word": null, "text": "창고 정리 좀 해야겠어", "spans": [], "known_names": []}
+{"id": "v9-0095", "group": "D_background_neg", "category": "background", "word": null, "text": "내일 일찍 일어나야 해", "spans": [], "known_names": []}
+{"id": "v9-0096", "group": "D_background_neg", "category": "background", "word": null, "text": "커피머신 고장난 것 같아", "spans": [], "known_names": []}
+{"id": "v9-0097", "group": "D_background_neg", "category": "background", "word": null, "text": "주차장 자리가 하나도 없었어", "spans": [], "known_names": []}
+{"id": "v9-0098", "group": "D_background_neg", "category": "background", "word": null, "text": "보일러 온도 좀 낮춰줘", "spans": [], "known_names": []}
+{"id": "v9-0099", "group": "D_background_neg", "category": "background", "word": null, "text": "책상 서랍 정리했어", "spans": [], "known_names": []}
+{"id": "v9-0100", "group": "D_background_neg", "category": "background", "word": null, "text": "빨래 널어놨으니까 걷어줘", "spans": [], "known_names": []}

@@ -1,0 +1,14 @@
+R6+기존병합: P=0.8205 R=0.7382 F1=0.7722 full=0.109 partial=0.0209 total=0.1298
+R6+B: P=0.8205 R=0.7382 F1=0.7722 full=0.109 partial=0.0209 total=0.1298
+R7+기존병합(참고): P=0.7746 R=0.7492 F1=0.7537 full=0.1328 partial=0.0139 total=0.1467
+R7+B(참고): P=0.7835 R=0.7917 F1=0.7765 full=0.0903 partial=0.0139 total=0.1042
+P+Amb-s7+기존병합: P=0.8217 R=0.7708 F1=0.7894 full=0.0764 partial=0.0209 total=0.0972
+P+Amb-s7+B: P=0.7909 R=0.75 F1=0.7641 full=0.0764 partial=0.0139 total=0.0903
+P+Amb-s13+기존병합: P=0.714 R=0.7153 F1=0.7048 full=0.1111 partial=0.0278 total=0.1389
+P+Amb-s13+B: P=0.714 R=0.7153 F1=0.7048 full=0.1111 partial=0.0278 total=0.1389
+P+Amb-s21+기존병합: P=0.757 R=0.7711 F1=0.7557 full=0.0901 partial=0.0347 total=0.1248
+P+Amb-s21+B: P=0.7619 R=0.7986 F1=0.7701 full=0.0625 partial=0.0347 total=0.0972
+P+Amb-s42+기존병합: P=0.8034 R=0.6693 F1=0.7251 full=0.2207 partial=0.0 total=0.2207
+P+Amb-s42+B: P=0.7362 R=0.6346 F1=0.6782 full=0.1721 partial=0.0139 total=0.186
+P+Amb-s99+기존병합: P=0.8035 R=0.7134 F1=0.7531 full=0.0922 partial=0.0347 total=0.1269
+P+Amb-s99+B: P=0.8035 R=0.7163 F1=0.7546 full=0.0892 partial=0.0347 total=0.1239

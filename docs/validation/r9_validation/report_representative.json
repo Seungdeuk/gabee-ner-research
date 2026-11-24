@@ -1,0 +1,127 @@
+{
+ "errors": {},
+ "warnings": {
+  "UNLABELED_KNOWN_NAME_LEN2": {
+   "count": 26,
+   "unique_ids": 25,
+   "ids": [
+    "R9R-0053",
+    "R9R-0106",
+    "R9R-0162",
+    "R9R-0301",
+    "R9R-0335",
+    "R9R-0373",
+    "R9R-0411",
+    "R9R-0554",
+    "R9R-0661",
+    "R9R-0773",
+    "R9R-0796",
+    "R9R-0828",
+    "R9R-0881",
+    "R9R-0897",
+    "R9R-0918",
+    "R9R-0977",
+    "R9R-1034",
+    "R9R-1037",
+    "R9R-1039",
+    "R9R-1081",
+    "R9R-1137",
+    "R9R-1314",
+    "R9R-1331",
+    "R9R-1401",
+    "R9R-1402"
+   ]
+  },
+  "NEAR_DUPLICATE_WITHIN_SET_4GRAM_GE_0.7": {
+   "count": 10,
+   "unique_ids": 10,
+   "ids": [
+    "R9R-0447",
+    "R9R-1308",
+    "R9R-1047",
+    "R9R-1452",
+    "R9R-0067",
+    "R9R-0548",
+    "R9R-0452",
+    "R9R-0586",
+    "R9R-1467",
+    "R9R-0506"
+   ]
+  }
+ },
+ "info": {
+  "rows_total": 1600,
+  "rows_excluded": 0,
+  "excluded_reasons": {},
+  "sentences": 1600,
+  "person_sentences": 950,
+  "other_only_sentences": 250,
+  "negative_sentences": 400,
+  "person_spans": 1098,
+  "person_alias_spans": 95,
+  "labels": {
+   "EMAIL": 62,
+   "PERSON": 1003,
+   "PHONE": 63,
+   "ADDRESS": 63,
+   "ACCOUNT": 62,
+   "PERSON_ALIAS": 95
+  },
+  "person_len_dist": {
+   "2": 335,
+   "3": 557,
+   "4": 111,
+   "5": 56,
+   "6": 35,
+   "7": 4
+  },
+  "multi_person_sentences": 148,
+  "distinct_person_values": 1098,
+  "distinct_ratio": 1.0,
+  "max_person_value_reuse": 1,
+  "values_reused_over_4": 0,
+  "categories": {
+   "가족 안부·심부름": 240,
+   "정산·돈·구매": 192,
+   "학교·학원": 320,
+   "병원·건강": 128,
+   "잡담·감정": 224,
+   "여행·이동·집 방문": 128,
+   "일정·약속": 240,
+   "사진·영상 공유": 128
+  },
+  "styles": {
+   "존댓말대화": 160,
+   "반말대화": 880,
+   "초단답": 160,
+   "메모·정리": 160,
+   "안내문복사": 240
+  },
+  "length_chars": {
+   "min": 10,
+   "max": 117,
+   "mean": 52.9
+  },
+  "targets": {
+   "total": 1600,
+   "person_sentences": 950,
+   "other_only_sentences": 250,
+   "negative_sentences": 400
+  },
+  "within_set": {
+   "skeleton_distinct": 1597,
+   "rows_with_skeleton_repeated_over_2": 0,
+   "rows_with_near_duplicate_partner": 10,
+   "near_duplicate_share": 0.0063
+  },
+  "reference": {
+   "files": 48,
+   "rows": 48602,
+   "sentence_equal_rows": 0,
+   "skeleton_equal_rows": 0,
+   "skeleton_similar_rows": 0,
+   "rows_with_name_seen_in_reference": 181,
+   "name_seen_share": 0.1131
+  }
+ }
+}

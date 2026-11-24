@@ -1,0 +1,703 @@
+{
+ "r10-C10s-s7": {
+  "label": "r10-C10s-s7",
+  "model_dir": "C:\\Users\\<user>\\venvs\\ner-runs\\r10\\export\\r10-C10s-s7",
+  "fingerprint12": "d88ca4e5136c",
+  "main5": {
+   "v7_namefreq": {
+    "n_sentences": 2454,
+    "n_gold_spans": 2376,
+    "n_neg_sentences": 78,
+    "prf": {
+     "tp": 2110,
+     "fp": 192,
+     "fn": 266,
+     "precision": 0.9165942658557776,
+     "recall": 0.8880471380471381,
+     "f1": 0.9020949123557076
+    },
+    "fp_boundary": 192,
+    "fp_pure": 0,
+    "full": 74,
+    "partial": 66,
+    "masked": 2236,
+    "full_rate": 0.031144781144781145,
+    "partial_rate": 0.027777777777777776,
+    "total_exposure_rate": 0.058922558922558925,
+    "total_exposure_ci": [
+     0.0501,
+     0.0691
+    ],
+    "neg_flagged": 21,
+    "nonperson_fpr": 0.2692307692307692,
+    "nonperson_fpr_ci": [
+     0.1834,
+     0.3768
+    ]
+   },
+   "realistic_family": {
+    "n_sentences": 222,
+    "n_gold_spans": 260,
+    "n_neg_sentences": 22,
+    "prf": {
+     "tp": 224,
+     "fp": 31,
+     "fn": 36,
+     "precision": 0.8784313725490196,
+     "recall": 0.8615384615384616,
+     "f1": 0.8699029126213592
+    },
+    "fp_boundary": 29,
+    "fp_pure": 2,
+    "full": 7,
+    "partial": 21,
+    "masked": 232,
+    "full_rate": 0.026923076923076925,
+    "partial_rate": 0.08076923076923077,
+    "total_exposure_rate": 0.1076923076923077,
+    "total_exposure_ci": [
+     0.0756,
+     0.1512
+    ],
+    "neg_flagged": 2,
+    "nonperson_fpr": 0.09090909090909091,
+    "nonperson_fpr_ci": [
+     0.0253,
+     0.2782
+    ]
+   },
+   "v14_realistic": {
+    "n_sentences": 111,
+    "n_gold_spans": 97,
+    "n_neg_sentences": 20,
+    "prf": {
+     "tp": 87,
+     "fp": 6,
+     "fn": 10,
+     "precision": 0.9354838709677419,
+     "recall": 0.8969072164948454,
+     "f1": 0.9157894736842105
+    },
+    "fp_boundary": 6,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 0,
+    "masked": 97,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.0,
+    "total_exposure_ci": [
+     0.0,
+     0.0381
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": 0.0,
+    "nonperson_fpr_ci": [
+     0.0,
+     0.1611
+    ]
+   },
+   "nemotron_full": {
+    "n_sentences": 2500,
+    "n_gold_spans": 2500,
+    "n_neg_sentences": 0,
+    "prf": {
+     "tp": 2334,
+     "fp": 148,
+     "fn": 166,
+     "precision": 0.9403706688154714,
+     "recall": 0.9336,
+     "f1": 0.9369731031714171
+    },
+    "fp_boundary": 148,
+    "fp_pure": 0,
+    "full": 18,
+    "partial": 53,
+    "masked": 2429,
+    "full_rate": 0.0072,
+    "partial_rate": 0.0212,
+    "total_exposure_rate": 0.0284,
+    "total_exposure_ci": [
+     0.0226,
+     0.0357
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": null,
+    "nonperson_fpr_ci": null
+   },
+   "nemotron_given": {
+    "n_sentences": 2474,
+    "n_gold_spans": 2474,
+    "n_neg_sentences": 0,
+    "prf": {
+     "tp": 2284,
+     "fp": 60,
+     "fn": 190,
+     "precision": 0.9744027303754266,
+     "recall": 0.9232012934518997,
+     "f1": 0.9481112494811125
+    },
+    "fp_boundary": 60,
+    "fp_pure": 0,
+    "full": 130,
+    "partial": 0,
+    "masked": 2344,
+    "full_rate": 0.05254648342764753,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.05254648342764753,
+    "total_exposure_ci": [
+     0.0444,
+     0.0621
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": null,
+    "nonperson_fpr_ci": null
+   }
+  },
+  "safety": {
+   "ambiguity_probe": {
+    "n_sentences": 177,
+    "n_gold_spans": 87,
+    "n_neg_sentences": 90,
+    "prf": {
+     "tp": 77,
+     "fp": 0,
+     "fn": 10,
+     "precision": 1.0,
+     "recall": 0.8850574712643678,
+     "f1": 0.9390243902439024
+    },
+    "fp_boundary": 0,
+    "fp_pure": 0,
+    "full": 10,
+    "partial": 0,
+    "masked": 77,
+    "full_rate": 0.11494252873563218,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.11494252873563218,
+    "total_exposure_ci": [
+     0.0636,
+     0.1988
+    ],
+    "neg_flagged": 14,
+    "nonperson_fpr": 0.15555555555555556,
+    "nonperson_fpr_ci": [
+     0.095,
+     0.2443
+    ]
+   }
+  },
+  "ref": {
+   "v12_locked": {
+    "n_sentences": 240,
+    "n_gold_spans": 180,
+    "n_neg_sentences": 60,
+    "prf": {
+     "tp": 84,
+     "fp": 17,
+     "fn": 96,
+     "precision": 0.8316831683168316,
+     "recall": 0.4666666666666667,
+     "f1": 0.597864768683274
+    },
+    "fp_boundary": 17,
+    "fp_pure": 0,
+    "full": 79,
+    "partial": 3,
+    "masked": 98,
+    "full_rate": 0.4388888888888889,
+    "partial_rate": 0.016666666666666666,
+    "total_exposure_rate": 0.45555555555555555,
+    "total_exposure_ci": [
+     0.3845,
+     0.5285
+    ],
+    "neg_flagged": 6,
+    "nonperson_fpr": 0.1,
+    "nonperson_fpr_ci": [
+     0.0466,
+     0.2015
+    ]
+   },
+   "v13_locked": {
+    "n_sentences": 260,
+    "n_gold_spans": 200,
+    "n_neg_sentences": 60,
+    "prf": {
+     "tp": 92,
+     "fp": 13,
+     "fn": 108,
+     "precision": 0.8761904761904762,
+     "recall": 0.46,
+     "f1": 0.6032786885245902
+    },
+    "fp_boundary": 13,
+    "fp_pure": 0,
+    "full": 95,
+    "partial": 0,
+    "masked": 105,
+    "full_rate": 0.475,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.475,
+    "total_exposure_ci": [
+     0.4069,
+     0.544
+    ],
+    "neg_flagged": 9,
+    "nonperson_fpr": 0.15,
+    "nonperson_fpr_ci": [
+     0.081,
+     0.2611
+    ]
+   },
+   "v8_independent": {
+    "n_sentences": 744,
+    "n_gold_spans": 681,
+    "n_neg_sentences": 63,
+    "prf": {
+     "tp": 627,
+     "fp": 13,
+     "fn": 54,
+     "precision": 0.9796875,
+     "recall": 0.920704845814978,
+     "f1": 0.9492808478425435
+    },
+    "fp_boundary": 13,
+    "fp_pure": 0,
+    "full": 41,
+    "partial": 0,
+    "masked": 640,
+    "full_rate": 0.06020558002936858,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.06020558002936858,
+    "total_exposure_ci": [
+     0.0447,
+     0.0807
+    ],
+    "neg_flagged": 8,
+    "nonperson_fpr": 0.12698412698412698,
+    "nonperson_fpr_ci": [
+     0.0658,
+     0.2311
+    ]
+   },
+   "r7b_realistic": {
+    "n_sentences": 90,
+    "n_gold_spans": 85,
+    "n_neg_sentences": 5,
+    "prf": {
+     "tp": 84,
+     "fp": 1,
+     "fn": 1,
+     "precision": 0.9882352941176471,
+     "recall": 0.9882352941176471,
+     "f1": 0.9882352941176471
+    },
+    "fp_boundary": 1,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 0,
+    "masked": 85,
+    "full_rate": 0.0,
+    "partial_rate": 0.0,
+    "total_exposure_rate": 0.0,
+    "total_exposure_ci": [
+     0.0,
+     0.0432
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": 0.0,
+    "nonperson_fpr_ci": [
+     0.0,
+     0.4345
+    ]
+   }
+  },
+  "overmerge": {
+   "count": 5,
+   "total_items": 28
+  },
+  "macro": {
+   "total_exposure": 0.049512270008502834,
+   "full_exposure": 0.02356286829910112,
+   "partial_exposure": 0.025949401709401708,
+   "exact_f1": 0.9145743302627614,
+   "precision": 0.9290565817126873,
+   "recall": 0.9006588219064688,
+   "nonperson_fpr": 0.12892385392385391
+  },
+  "r10dev": {
+   "B1": {
+    "n_sentences": 150,
+    "n_gold_spans": 166,
+    "n_neg_sentences": 0,
+    "prf": {
+     "tp": 145,
+     "fp": 24,
+     "fn": 21,
+     "precision": 0.8579881656804734,
+     "recall": 0.8734939759036144,
+     "f1": 0.8656716417910447
+    },
+    "fp_boundary": 20,
+    "fp_pure": 4,
+    "full": 1,
+    "partial": 17,
+    "masked": 148,
+    "full_rate": 0.006024096385542169,
+    "partial_rate": 0.10240963855421686,
+    "total_exposure_rate": 0.10843373493975904,
+    "total_exposure_ci": [
+     0.0697,
+     0.1649
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": null,
+    "nonperson_fpr_ci": null
+   },
+   "C2": {
+    "n_sentences": 120,
+    "n_gold_spans": 255,
+    "n_neg_sentences": 0,
+    "prf": {
+     "tp": 200,
+     "fp": 33,
+     "fn": 55,
+     "precision": 0.8583690987124464,
+     "recall": 0.7843137254901961,
+     "f1": 0.819672131147541
+    },
+    "fp_boundary": 29,
+    "fp_pure": 4,
+    "full": 12,
+    "partial": 7,
+    "masked": 236,
+    "full_rate": 0.047058823529411764,
+    "partial_rate": 0.027450980392156862,
+    "total_exposure_rate": 0.07450980392156863,
+    "total_exposure_ci": [
+     0.0482,
+     0.1134
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": null,
+    "nonperson_fpr_ci": null
+   },
+   "NEWNAME": {
+    "n_sentences": 150,
+    "n_gold_spans": 202,
+    "n_neg_sentences": 0,
+    "prf": {
+     "tp": 180,
+     "fp": 16,
+     "fn": 22,
+     "precision": 0.9183673469387755,
+     "recall": 0.8910891089108911,
+     "f1": 0.9045226130653267
+    },
+    "fp_boundary": 14,
+    "fp_pure": 2,
+    "full": 8,
+    "partial": 5,
+    "masked": 189,
+    "full_rate": 0.039603960396039604,
+    "partial_rate": 0.024752475247524754,
+    "total_exposure_rate": 0.06435643564356436,
+    "total_exposure_ci": [
+     0.038,
+     0.107
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": null,
+    "nonperson_fpr_ci": null
+   },
+   "D2": {
+    "n_sentences": 30,
+    "n_gold_spans": 0,
+    "n_neg_sentences": 30,
+    "prf": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "fp_boundary": 0,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 0,
+    "masked": 0,
+    "full_rate": null,
+    "partial_rate": null,
+    "total_exposure_rate": null,
+    "total_exposure_ci": null,
+    "neg_flagged": 1,
+    "nonperson_fpr": 0.03333333333333333,
+    "nonperson_fpr_ci": [
+     0.0059,
+     0.1667
+    ]
+   },
+   "D1_STANDALONE": {
+    "n_sentences": 20,
+    "n_gold_spans": 0,
+    "n_neg_sentences": 20,
+    "prf": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "fp_boundary": 0,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 0,
+    "masked": 0,
+    "full_rate": null,
+    "partial_rate": null,
+    "total_exposure_rate": null,
+    "total_exposure_ci": null,
+    "neg_flagged": 4,
+    "nonperson_fpr": 0.2,
+    "nonperson_fpr_ci": [
+     0.0807,
+     0.416
+    ]
+   },
+   "A3N": {
+    "n_sentences": 25,
+    "n_gold_spans": 0,
+    "n_neg_sentences": 25,
+    "prf": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "fp_boundary": 0,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 0,
+    "masked": 0,
+    "full_rate": null,
+    "partial_rate": null,
+    "total_exposure_rate": null,
+    "total_exposure_ci": null,
+    "neg_flagged": 1,
+    "nonperson_fpr": 0.04,
+    "nonperson_fpr_ci": [
+     0.0071,
+     0.1954
+    ]
+   },
+   "KIN_ONLY": {
+    "n_sentences": 25,
+    "n_gold_spans": 0,
+    "n_neg_sentences": 25,
+    "prf": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "fp_boundary": 0,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 0,
+    "masked": 0,
+    "full_rate": null,
+    "partial_rate": null,
+    "total_exposure_rate": null,
+    "total_exposure_ci": null,
+    "neg_flagged": 0,
+    "nonperson_fpr": 0.0,
+    "nonperson_fpr_ci": [
+     0.0,
+     0.1332
+    ]
+   },
+   "D1P": {
+    "n_sentences": 149,
+    "n_gold_spans": 149,
+    "n_neg_sentences": 0,
+    "prf": {
+     "tp": 69,
+     "fp": 11,
+     "fn": 80,
+     "precision": 0.8625,
+     "recall": 0.46308724832214765,
+     "f1": 0.6026200873362445
+    },
+    "fp_boundary": 10,
+    "fp_pure": 1,
+    "full": 70,
+    "partial": 5,
+    "masked": 74,
+    "full_rate": 0.4697986577181208,
+    "partial_rate": 0.03355704697986577,
+    "total_exposure_rate": 0.5033557046979866,
+    "total_exposure_ci": [
+     0.424,
+     0.5825
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": null,
+    "nonperson_fpr_ci": null
+   },
+   "D1": {
+    "n_sentences": 150,
+    "n_gold_spans": 0,
+    "n_neg_sentences": 150,
+    "prf": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "fp_boundary": 0,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 0,
+    "masked": 0,
+    "full_rate": null,
+    "partial_rate": null,
+    "total_exposure_rate": null,
+    "total_exposure_ci": null,
+    "neg_flagged": 55,
+    "nonperson_fpr": 0.36666666666666664,
+    "nonperson_fpr_ci": [
+     0.2938,
+     0.4462
+    ]
+   },
+   "NEWNAME_unseen_only": {
+    "n_sentences": 135,
+    "n_gold_spans": 181,
+    "n_neg_sentences": 0,
+    "prf": {
+     "tp": 164,
+     "fp": 13,
+     "fn": 17,
+     "precision": 0.9265536723163842,
+     "recall": 0.9060773480662984,
+     "f1": 0.9162011173184358
+    },
+    "fp_boundary": 11,
+    "fp_pure": 2,
+    "full": 6,
+    "partial": 3,
+    "masked": 172,
+    "full_rate": 0.03314917127071823,
+    "partial_rate": 0.016574585635359115,
+    "total_exposure_rate": 0.049723756906077346,
+    "total_exposure_ci": [
+     0.0264,
+     0.0918
+    ],
+    "neg_flagged": 0,
+    "nonperson_fpr": null,
+    "nonperson_fpr_ci": null
+   },
+   "D1_all_negative": {
+    "n_sentences": 170,
+    "n_gold_spans": 0,
+    "n_neg_sentences": 170,
+    "prf": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0,
+     "precision": null,
+     "recall": null,
+     "f1": null
+    },
+    "fp_boundary": 0,
+    "fp_pure": 0,
+    "full": 0,
+    "partial": 0,
+    "masked": 0,
+    "full_rate": null,
+    "partial_rate": null,
+    "total_exposure_rate": null,
+    "total_exposure_ci": null,
+    "neg_flagged": 59,
+    "nonperson_fpr": 0.34705882352941175,
+    "nonperson_fpr_ci": [
+     0.2796,
+     0.4213
+    ]
+   },
+   "ALL": {
+    "n_sentences": 819,
+    "n_gold_spans": 772,
+    "n_neg_sentences": 250,
+    "prf": {
+     "tp": 594,
+     "fp": 84,
+     "fn": 178,
+     "precision": 0.8761061946902655,
+     "recall": 0.7694300518134715,
+     "f1": 0.8193103448275862
+    },
+    "fp_boundary": 73,
+    "fp_pure": 11,
+    "full": 91,
+    "partial": 34,
+    "masked": 647,
+    "full_rate": 0.11787564766839378,
+    "partial_rate": 0.04404145077720207,
+    "total_exposure_rate": 0.16191709844559585,
+    "total_exposure_ci": [
+     0.1376,
+     0.1896
+    ],
+    "neg_flagged": 61,
+    "nonperson_fpr": 0.244,
+    "nonperson_fpr_ci": [
+     0.1949,
+     0.3009
+    ]
+   }
+  },
+  "targets_macro_exposure": 0.18766391980071967,
+  "klue_val": {
+   "n_sentences": 5000,
+   "n_gold_spans": 4418,
+   "n_neg_sentences": 2177,
+   "prf": {
+    "tp": 2789,
+    "fp": 879,
+    "fn": 1629,
+    "precision": 0.7603598691384951,
+    "recall": 0.6312811226799456,
+    "f1": 0.6898342814741528
+   },
+   "fp_boundary": 665,
+   "fp_pure": 214,
+   "full": 1093,
+   "partial": 353,
+   "masked": 2972,
+   "full_rate": 0.24739701222272523,
+   "partial_rate": 0.07990040742417383,
+   "total_exposure_rate": 0.32729741964689907,
+   "total_exposure_ci": [
+    0.3136,
+    0.3413
+   ],
+   "neg_flagged": 154,
+   "nonperson_fpr": 0.0707395498392283,
+   "nonperson_fpr_ci": [
+    0.0607,
+    0.0823
+   ]
+  }
+ }
+}

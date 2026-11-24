@@ -1,0 +1,60 @@
+{"id": "r7bdev-a-0001", "category": "기본", "style": "중의성", "text": "여유가 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0002", "category": "기본", "style": "중의성", "text": "고요가 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0003", "category": "기본", "style": "중의성", "text": "웃음이 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0004", "category": "기본", "style": "중의성", "text": "다복이 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0005", "category": "기본", "style": "중의성", "text": "뜨락이 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0006", "category": "기본", "style": "중의성", "text": "인정이 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0007", "category": "기본", "style": "중의성", "text": "배려가 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0008", "category": "기본", "style": "중의성", "text": "도움이 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0009", "category": "기본", "style": "중의성", "text": "성원이 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0010", "category": "기본", "style": "중의성", "text": "격려가 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0011", "category": "기본", "style": "중의성", "text": "끈기가 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0012", "category": "기본", "style": "중의성", "text": "여운이 요즘 통 소식이 없네", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7bdev-a-0013", "category": "목적격", "style": "중의성", "text": "삼촌이 여유를 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0014", "category": "목적격", "style": "중의성", "text": "삼촌이 고요를 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0015", "category": "목적격", "style": "중의성", "text": "삼촌이 웃음을 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0016", "category": "목적격", "style": "중의성", "text": "삼촌이 다복을 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0017", "category": "목적격", "style": "중의성", "text": "삼촌이 뜨락을 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0018", "category": "목적격", "style": "중의성", "text": "삼촌이 인정을 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0019", "category": "목적격", "style": "중의성", "text": "삼촌이 배려를 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0020", "category": "목적격", "style": "중의성", "text": "삼촌이 도움을 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0021", "category": "목적격", "style": "중의성", "text": "삼촌이 성원을 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0022", "category": "목적격", "style": "중의성", "text": "삼촌이 격려를 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0023", "category": "목적격", "style": "중의성", "text": "삼촌이 끈기를 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0024", "category": "목적격", "style": "중의성", "text": "삼촌이 여운을 유독 챙기셔", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7bdev-a-0025", "category": "호격", "style": "중의성", "text": "여유야, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0026", "category": "호격", "style": "중의성", "text": "고요야, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0027", "category": "호격", "style": "중의성", "text": "웃음아, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0028", "category": "호격", "style": "중의성", "text": "다복아, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0029", "category": "호격", "style": "중의성", "text": "뜨락아, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0030", "category": "호격", "style": "중의성", "text": "인정아, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0031", "category": "호격", "style": "중의성", "text": "배려야, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0032", "category": "호격", "style": "중의성", "text": "도움아, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0033", "category": "호격", "style": "중의성", "text": "성원아, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0034", "category": "호격", "style": "중의성", "text": "격려야, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0035", "category": "호격", "style": "중의성", "text": "끈기야, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0036", "category": "호격", "style": "중의성", "text": "여운아, 이리 와서 앉아", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7bdev-a-0037", "category": "nonperson", "style": "중의성", "text": "여유가 생겼다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0038", "category": "nonperson", "style": "중의성", "text": "마음의 여유를 가졌다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0039", "category": "nonperson", "style": "중의성", "text": "고요가 흘렀다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0040", "category": "nonperson", "style": "중의성", "text": "방 안이 고요했다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0041", "category": "nonperson", "style": "중의성", "text": "웃음이 터졌다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0042", "category": "nonperson", "style": "중의성", "text": "웃음소리가 들렸다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0043", "category": "nonperson", "style": "중의성", "text": "다복한 가정이었다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0044", "category": "nonperson", "style": "중의성", "text": "다복을 빌었다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0045", "category": "nonperson", "style": "중의성", "text": "뜨락에 꽃이 피었다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0046", "category": "nonperson", "style": "중의성", "text": "뜨락을 거닐었다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0047", "category": "nonperson", "style": "중의성", "text": "인정이 많았다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0048", "category": "nonperson", "style": "중의성", "text": "따뜻한 인정을 느꼈다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0049", "category": "nonperson", "style": "중의성", "text": "배려가 느껴졌다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0050", "category": "nonperson", "style": "중의성", "text": "작은 배려에 감동했다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0051", "category": "nonperson", "style": "중의성", "text": "도움이 됐다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0052", "category": "nonperson", "style": "중의성", "text": "큰 도움을 받았다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0053", "category": "nonperson", "style": "중의성", "text": "성원에 감사했다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0054", "category": "nonperson", "style": "중의성", "text": "뜨거운 성원을 보냈다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0055", "category": "nonperson", "style": "중의성", "text": "격려가 힘이 됐다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0056", "category": "nonperson", "style": "중의성", "text": "따뜻한 격려를 건넸다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0057", "category": "nonperson", "style": "중의성", "text": "끈기가 필요했다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0058", "category": "nonperson", "style": "중의성", "text": "끈기 있게 버텼다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0059", "category": "nonperson", "style": "중의성", "text": "여운이 남았다", "spans": [], "known_names": [], "template_id": "nonperson"}
+{"id": "r7bdev-a-0060", "category": "nonperson", "style": "중의성", "text": "깊은 여운을 느꼈다", "spans": [], "known_names": [], "template_id": "nonperson"}

@@ -1,0 +1,2202 @@
+[
+ {
+  "id": "r10pa-001",
+  "pair_id": "pa-001",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "토요일 약속 시간은 {NW1:sub} 전화로 정해서 알려줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-002",
+  "pair_id": "pa-001",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "토요일 약속 시간은 {WN1:sub} 뜨는 때에 맞춰 정해서 알려줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-003",
+  "pair_id": "pa-002",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "저녁 약속에 {NW1:obj} 데리고 가도 될까요?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-004",
+  "pair_id": "pa-002",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "저녁 약속에 {WN1:obj} 들고 가도 될까요?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-005",
+  "pair_id": "pa-003",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "{NW1:dat} 전화하는 날을 달력에 표시해 뒀어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-006",
+  "pair_id": "pa-003",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "{WN1:dat} 물 주는 날을 달력에 표시해 뒀어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-007",
+  "pair_id": "pa-004",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "{NW1:voc}, 내일 약속 시간에 맞춰 나올 수 있어?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-008",
+  "pair_id": "pa-004",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "{WN1:top} 내일 약속 시간에 맞춰 활짝 필 수 있을까?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-009",
+  "pair_id": "pa-005",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "{NW1:pos} 생일 모임은 일요일 점심으로 잡았어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-010",
+  "pair_id": "pa-005",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "{WN1:pos} 향기 가득한 모임은 일요일 점심으로 잡았어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-011",
+  "pair_id": "pa-006",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "이번 주 약속 마중은 {NW1:bare}, 나머지는 각자 와",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-012",
+  "pair_id": "pa-006",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "이번 주 약속 장소는 {WN1:bare}, 나머지는 각자 와",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-013",
+  "pair_id": "pa-007",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "{NW1:lit}라는 친구랑 목요일에 만나기로 했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-014",
+  "pair_id": "pa-007",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "{WN1:lit}라는 카페에서 목요일에 만나기로 했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-015",
+  "pair_id": "pa-008",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "다음 주 일정은 {NW1:sub} 제일 기다린대",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-016",
+  "pair_id": "pa-008",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "다음 주 일정은 {WN1:sub} 제일 기다려진대",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-017",
+  "pair_id": "pa-009",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "약속 장소에 {NW1:sub} 웃으며 먼저 와 있었어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-018",
+  "pair_id": "pa-009",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "약속 장소에 {WN1:sub} 젖은 채 먼저 와 있었어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-019",
+  "pair_id": "pa-010",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "{NW1:top} 다음 주 약속 날에 늦잠 자서 아직 답이 없네",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-020",
+  "pair_id": "pa-010",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "{WN1:top} 다음 주 약속 날에 비가 와서 아직 다 젖어 있네",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-021",
+  "pair_id": "pa-011",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "주말 일정표에 {NW1:obj} 초대해 둘까 말까 고민 중이야",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-022",
+  "pair_id": "pa-011",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "주말 일정표에 {WN1:obj} 적어 둘까 말까 고민 중이야",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-023",
+  "pair_id": "pa-012",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "점심 약속은 {NW1:com} 둘이서 조용히 하고 싶어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-024",
+  "pair_id": "pa-012",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "점심 약속은 {WN1:com} 어울리는 조용한 식당에서 하고 싶어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-025",
+  "pair_id": "pa-013",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "회식 날짜를 {NW1:dat} 먼저 알려주고 정하자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-026",
+  "pair_id": "pa-013",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "회식 날짜는 {WN1:top} 몰라도 정하자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-027",
+  "pair_id": "pa-014",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "이번 휴가 계획에 {NW1:sub} 꼭 함께해야 해",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-028",
+  "pair_id": "pa-014",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "이번 휴가 계획에 {WN1:sub} 꼭 포함돼야 해",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-029",
+  "pair_id": "pa-015",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "약속에 늦으면 {NW1:sub} 화낼 테니까 서둘러서 와",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-030",
+  "pair_id": "pa-015",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "약속에 늦으면 {WN1:sub} 질 테니까 서둘러서 와",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-031",
+  "pair_id": "pa-016",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "모임 끝나고 {NW1:voc}, 같이 가자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-032",
+  "pair_id": "pa-016",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "모임 끝나고 {WN1:top} 같이 가자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-033",
+  "pair_id": "pa-017",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "아침 일찍 {NW1:lit}씨를 공항에서 만나야 해요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-034",
+  "pair_id": "pa-017",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "아침 일찍 {WN1:lit}꽃을 공항에서 사야 해요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-035",
+  "pair_id": "pa-018",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "약속 취소됐다고 {NW1:dat} 말해 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-036",
+  "pair_id": "pa-018",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "약속 취소됐는데 {WN1:sub} 말라 버렸대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-037",
+  "pair_id": "pa-019",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "올해 모임은 {NW1:bare} 덕분에 즐거웠어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-038",
+  "pair_id": "pa-019",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "올해 모임은 {WN1:bare} 덕분에 아늑했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-039",
+  "pair_id": "pa-020",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "내일 오후 세 시에 {NW1:sub} 우리 집으로 온다고 연락했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-040",
+  "pair_id": "pa-020",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "내일 오후 세 시에 {WN1:sub} 우리 집 마당에 핀다고 하더라",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-041",
+  "pair_id": "pa-021",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "여행 일정 짜는 건 {NW1:top} 잘하니까 맡겨 보자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-042",
+  "pair_id": "pa-021",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "여행 일정 짜는 건 {WN1:top} 좋은 곳이니까 맡겨 보자",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-043",
+  "pair_id": "pa-022",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "다음 모임 사회는 {NW1:obj} 시키면 어때?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-044",
+  "pair_id": "pa-022",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "다음 모임 장소는 {WN1:obj} 고르면 어때?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-045",
+  "pair_id": "pa-023",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "{NW1:pos} 결혼식이 몇 시인지 기억해? 축의금도 챙기자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-046",
+  "pair_id": "pa-023",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "{WN1:pos} 개화 시기가 언제인지 기억해? 구경 일정도 챙기자",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-047",
+  "pair_id": "pa-024",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "약속 시간 지났는데 {NW1:sub} 아직도 안 보이네",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-048",
+  "pair_id": "pa-024",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "약속 시간 지났는데 {WN1:sub} 아직도 안 마르네",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-049",
+  "pair_id": "pa-025",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "내일 일정 다 취소하고 {NW1:com} 병원 같이 갈게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-050",
+  "pair_id": "pa-025",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "내일 일정 다 취소하고 {WN1:com} 어울리는 옷 사러 갈게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-051",
+  "pair_id": "pa-026",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "가족 모임 때 {NW1:sub} 노래 불러 주기로 했어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-052",
+  "pair_id": "pa-026",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "가족 모임 때 {WN1:sub} 배경 음악처럼 흘러나오기로 했어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-053",
+  "pair_id": "pa-027",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "토요일에 {NW1:dat} 선물 주러 가야 해서 일정 비워 놨어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-054",
+  "pair_id": "pa-027",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "토요일에 {WN1:dat} 거름 주러 가야 해서 일정 비워 놨어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-055",
+  "pair_id": "pa-028",
+  "role": "person",
+  "scenario": "일정·약속",
+  "text": "일정 공유할게. {NW1:top} 오전, 나는 오후에 시간 돼",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-056",
+  "pair_id": "pa-028",
+  "role": "noun",
+  "scenario": "일정·약속",
+  "text": "일정 공유할게. {WN1:top} 오전, 나는 오후에 가장 예뻐",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-057",
+  "pair_id": "pa-029",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "학원 끝나고 {NW1:sub} 숙제 도와줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-058",
+  "pair_id": "pa-029",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "학원 끝나고 {WN1:sub} 그쳐서 나왔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-059",
+  "pair_id": "pa-030",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "수업 시간에 {NW1:obj} 불러서 대답하게 했대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-060",
+  "pair_id": "pa-030",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "수업 시간에 {WN1:obj} 그려서 보여 줬대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-061",
+  "pair_id": "pa-031",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "{NW1:top} 오늘 학교에서 발표를 아주 잘했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-062",
+  "pair_id": "pa-031",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "{WN1:top} 오늘 학교 화단에서 아주 잘 피었어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-063",
+  "pair_id": "pa-032",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "선생님이 {NW1:obj} 칭찬하셨다고 하더라",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-064",
+  "pair_id": "pa-032",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "선생님이 {WN1:obj} 소개하셨다고 하더라",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-065",
+  "pair_id": "pa-033",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "학교 앞에서 {NW1:com} 마주쳐서 인사했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-066",
+  "pair_id": "pa-033",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "학교 앞에서 {WN1:com} 어우러진 풍경을 봤어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-067",
+  "pair_id": "pa-034",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "{NW1:voc}, 학원 숙제 다 했으면 나와서 밥 먹어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-068",
+  "pair_id": "pa-034",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "{WN1:top} 학원 앞마당에 다 쌓였으면 나와서 쓸어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-069",
+  "pair_id": "pa-035",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "담임 선생님이 {NW1:dat} 상담하자고 하셨대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-070",
+  "pair_id": "pa-035",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "담임 선생님이 {WN1:dat} 이름을 붙이자고 하셨대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-071",
+  "pair_id": "pa-036",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "우리 반에 {NW1:lit}라는 아이가 새로 왔어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-072",
+  "pair_id": "pa-036",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "우리 반에 {WN1:lit}라는 화분이 새로 왔어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-073",
+  "pair_id": "pa-037",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "오늘 체육 시간에 {NW1:sub} 달리기 일등 했어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-074",
+  "pair_id": "pa-037",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "오늘 체육 시간에 {WN1:sub} 세게 불어서 힘들었어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-075",
+  "pair_id": "pa-038",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "{NW1:pos} 시험 점수가 올라서 학원 선생님이 기뻐하셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-076",
+  "pair_id": "pa-038",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "{WN1:pos} 길이가 길어서 학원 선생님이 놀라셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-077",
+  "pair_id": "pa-039",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "방과 후 교실에서 {NW1:sub} 혼자 남아 기다리고 있었어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-078",
+  "pair_id": "pa-039",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "방과 후 교실에서 {WN1:sub} 혼자 남아 말라 가고 있었어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-079",
+  "pair_id": "pa-040",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "수학 학원 갈 때 {NW1:obj} 태워 줄 수 있어?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-080",
+  "pair_id": "pa-040",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "수학 학원 갈 때 {WN1:obj} 챙겨 줄 수 있어?",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-081",
+  "pair_id": "pa-041",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "현장학습 날 {NW1:com} 짝이 되어서 신나",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-082",
+  "pair_id": "pa-041",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "현장학습 날 {WN1:com} 어우러진 풍경을 봐서 신나",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-083",
+  "pair_id": "pa-042",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "{NW1:bare}가 반장이 됐다는 소식 들었어?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-084",
+  "pair_id": "pa-042",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "{WN1:bare}가 교정에 가득하다는 소식 들었어?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-085",
+  "pair_id": "pa-043",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "학교 끝나고 {NW1:top} 학원에 곧장 간다고 했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-086",
+  "pair_id": "pa-043",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "학교 끝나고 {WN1:top} 학원에 곧장 보낸다고 했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-087",
+  "pair_id": "pa-044",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "급식 먹다가 {NW1:sub} 친구랑 다퉈서 선생님한테 혼났대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-088",
+  "pair_id": "pa-044",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "급식 먹다가 {WN1:sub} 쏟아져서 선생님한테 혼났대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-089",
+  "pair_id": "pa-045",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "영어 학원에서 {NW1:dat} 받아쓰기 시험지를 나눠 줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-090",
+  "pair_id": "pa-045",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "영어 학원에서 {WN1:dat} 물을 줘서 키워 보라고 했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-091",
+  "pair_id": "pa-046",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "이번 학부모 상담 때 {NW1:obj} 칭찬할 거야",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-092",
+  "pair_id": "pa-046",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "이번 학부모 상담 때 {WN1:obj} 설명할 거야",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-093",
+  "pair_id": "pa-047",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "조별 과제를 {NW1:com} 같이 하기로 해서 걱정 없어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-094",
+  "pair_id": "pa-047",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "조별 과제를 {WN1:com} 같이 만들기로 해서 걱정 없어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-095",
+  "pair_id": "pa-048",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "{NW1:lit}씨는 우리 학원 새 선생님이야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-096",
+  "pair_id": "pa-048",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "{WN1:lit}꽃은 우리 학원 화단의 주인공이야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-097",
+  "pair_id": "pa-049",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "운동장에서 {NW1:sub} 친구들이랑 공놀이하고 있었어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-098",
+  "pair_id": "pa-049",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "운동장에서 {WN1:sub} 가을바람에 날리고 있었어요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-099",
+  "pair_id": "pa-050",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "하교 시간에 맞춰 {NW1:obj} 교문 앞에서 기다릴게",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-100",
+  "pair_id": "pa-050",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "하교 시간에 맞춰 {WN1:obj} 교문 앞에 가져다 놓을게",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-101",
+  "pair_id": "pa-051",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "시험 끝난 기념으로 {NW1:dat} 용돈을 주고 싶어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-102",
+  "pair_id": "pa-051",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "시험 끝난 기념으로 {WN1:dat} 이름을 지어 주고 싶어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-103",
+  "pair_id": "pa-052",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "학교 앞 분식집에서 {NW1:sub} 떡볶이를 사 줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-104",
+  "pair_id": "pa-052",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "학교 앞 분식집 간판 아래 {WN1:sub} 쌓여 있었어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-105",
+  "pair_id": "pa-053",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "{NW1:top} 학원이 어렵다고 투덜대는 중이네",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-106",
+  "pair_id": "pa-053",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "{WN1:top} 학원 앞에서 뿌옇게 흐려지는 중이네",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-107",
+  "pair_id": "pa-054",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "독서 숙제는 {NW1:pos} 이야기로 쓰기로 했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-108",
+  "pair_id": "pa-054",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "독서 숙제는 {WN1:pos} 사진으로 쓰기로 했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-109",
+  "pair_id": "pa-055",
+  "role": "person",
+  "scenario": "학교·학원",
+  "text": "운동회 달리기에서 {NW1:sub} 넘어졌는데 울지 않았대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-110",
+  "pair_id": "pa-055",
+  "role": "noun",
+  "scenario": "학교·학원",
+  "text": "운동회 달리기 코스에 {WN1:sub} 깔렸는데 미끄럽지 않았대",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-111",
+  "pair_id": "pa-056",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "할머니가 {NW1:obj} 보고 싶다고 전화하셨어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-112",
+  "pair_id": "pa-056",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "할머니가 {WN1:obj} 보고 싶다고 말씀하셨어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-113",
+  "pair_id": "pa-057",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "마트 가는 김에 {NW1:dat} 줄 간식도 사 올까?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-114",
+  "pair_id": "pa-057",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "마트 가는 김에 {WN1:dat} 줄 비료도 사 올까?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-115",
+  "pair_id": "pa-058",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "{NW1:voc}, 밥은 먹었어? 오늘 많이 추운데 잘 챙겨 입어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-116",
+  "pair_id": "pa-058",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "{WN1:top} 오늘 많이 추운데 잘 챙겨 줘야겠어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-117",
+  "pair_id": "pa-059",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "요즘 {NW1:sub} 잘 지내는지 궁금해서 연락해 봤어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-118",
+  "pair_id": "pa-059",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "요즘 {WN1:sub} 잘 자라는지 궁금해서 살펴봤어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-119",
+  "pair_id": "pa-060",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "퇴근길에 {NW1:com} 통화하면서 안부 전했어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-120",
+  "pair_id": "pa-060",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "퇴근길에 {WN1:com} 어울릴 만한 화분 하나 사 왔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-121",
+  "pair_id": "pa-061",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "{NW1:top} 감기 걸려서 병원 다녀왔대, 걱정이야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-122",
+  "pair_id": "pa-061",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "{WN1:top} 서리 맞아서 시들어 버렸대, 걱정이야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-123",
+  "pair_id": "pa-062",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "심부름 가는 길에 {NW1:pos} 집 앞을 지나왔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-124",
+  "pair_id": "pa-062",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "심부름 가는 길에 {WN1:pos} 꽃밭 앞을 지나왔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-125",
+  "pair_id": "pa-063",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "우체국에서 {NW1:lit}씨 앞으로 온 택배를 찾아왔어요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-126",
+  "pair_id": "pa-063",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "우체국에서 {WN1:lit}꽃 앞으로 온 택배를 찾아왔어요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-127",
+  "pair_id": "pa-064",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "엄마 심부름으로 {NW1:sub} 반찬을 가져다줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-128",
+  "pair_id": "pa-064",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "엄마 심부름으로 {WN1:sub} 담긴 반찬 통을 가져다줬어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-129",
+  "pair_id": "pa-065",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "안부 전화 드릴 때 {NW1:obj} 바꿔 드릴게요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-130",
+  "pair_id": "pa-065",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "안부 전화 드릴 때 {WN1:obj} 말씀드릴게요",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-131",
+  "pair_id": "pa-066",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "저녁에 {NW1:top} 안 오니까 먼저 먹고 있을게",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-132",
+  "pair_id": "pa-066",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "저녁에 {WN1:top} 안 어울리니까 먼저 먹고 있을게",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-133",
+  "pair_id": "pa-067",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "{NW1:bare}는 요즘 어떻게 지내? 소식 좀 알려 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-134",
+  "pair_id": "pa-067",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "{WN1:bare}는 요즘 어떻게 변했어? 소식 좀 알려 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-135",
+  "pair_id": "pa-068",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "약국에 들러서 {NW1:dat} 먹일 약 좀 사다 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-136",
+  "pair_id": "pa-068",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "약국에 들러서 {WN1:dat} 뿌릴 약 좀 사다 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-137",
+  "pair_id": "pa-069",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "{NW1:sub} 이사 갔다는 얘기 듣고 깜짝 놀랐어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-138",
+  "pair_id": "pa-069",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "{WN1:sub} 이삿짐 틈에서 나왔다는 얘기 듣고 깜짝 놀랐어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-139",
+  "pair_id": "pa-070",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "외출하는 김에 {NW1:obj} 만나서 안부를 전할게",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-140",
+  "pair_id": "pa-070",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "외출하는 김에 {WN1:obj} 구해서 집에 놓을게",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-141",
+  "pair_id": "pa-071",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "이모가 {NW1:com} 통화하다가 울컥하셨대",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-142",
+  "pair_id": "pa-071",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "이모가 {WN1:com} 섞어서 김치를 보내신대",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-143",
+  "pair_id": "pa-072",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "빨래 걷어 놓고 {NW1:voc}, 쓰레기도 좀 버려 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-144",
+  "pair_id": "pa-072",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "빨래 걷어 놓고 {WN1:top} 쓰레기통에도 좀 버려 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-145",
+  "pair_id": "pa-073",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "{NW1:pos} 생일이라서 케이크 사러 다녀올게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-146",
+  "pair_id": "pa-073",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "{WN1:pos} 계절이라서 과일 사러 다녀올게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-147",
+  "pair_id": "pa-074",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "동생한테 {NW1:sub} 잘 있다고 전해 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-148",
+  "pair_id": "pa-074",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "동생한테 {WN1:sub} 잘 크고 있다고 전해 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-149",
+  "pair_id": "pa-075",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "어제 {NW1:dat} 문자 보냈는데 아직 답장이 없어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-150",
+  "pair_id": "pa-075",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "어제 {WN1:dat} 물 줬는데 아직 싹이 없어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-151",
+  "pair_id": "pa-076",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "{NW1:top} 오늘도 학교 잘 다녀왔다고 카톡 왔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-152",
+  "pair_id": "pa-076",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "{WN1:top} 오늘도 하늘이 맑다고 카톡 왔어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-153",
+  "pair_id": "pa-077",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "장 보러 갈 건데 {NW1:lit}라는 아이 먹을 것도 살까?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-154",
+  "pair_id": "pa-077",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "장 보러 갈 건데 {WN1:lit}라는 과일도 살까?",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-155",
+  "pair_id": "pa-078",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "요즘 날도 추운데 {NW1:obj} 잘 돌봐 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-156",
+  "pair_id": "pa-078",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "요즘 날도 추운데 {WN1:obj} 잘 덮어 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-157",
+  "pair_id": "pa-079",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "아빠가 {NW1:com} 낚시 갔다가 일찍 돌아오셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-158",
+  "pair_id": "pa-079",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "아빠가 {WN1:com} 낚싯대 챙겨서 일찍 돌아오셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-159",
+  "pair_id": "pa-080",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "할머니께 {NW1:obj} 소개해 드리는 심부름은 내가 할게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-160",
+  "pair_id": "pa-080",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "할머니께 {WN1:obj} 선물해 드리는 심부름은 내가 할게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-161",
+  "pair_id": "pa-081",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "약 먹었는지 {NW1:top} 확인하고 알려 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-162",
+  "pair_id": "pa-081",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "비 맞았는지 {WN1:top} 확인하고 알려 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-163",
+  "pair_id": "pa-082",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "택배 온 거 {NW1:dat} 맡겨 놨으니까 가져가",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-164",
+  "pair_id": "pa-082",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "택배 온 거 {WN1:dat} 두었으니까 가져가",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-165",
+  "pair_id": "pa-083",
+  "role": "person",
+  "scenario": "안부·심부름",
+  "text": "밤늦게 {NW1:sub} 안 자고 기다려서 걱정했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-166",
+  "pair_id": "pa-083",
+  "role": "noun",
+  "scenario": "안부·심부름",
+  "text": "밤늦게 {WN1:sub} 안 마르고 젖어서 걱정했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-167",
+  "pair_id": "pa-084",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "어제 찍은 사진에 {NW1:sub} 웃고 있어서 올려 봐",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-168",
+  "pair_id": "pa-084",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "어제 찍은 사진에 {WN1:sub} 활짝 피어서 올려 봐",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-169",
+  "pair_id": "pa-085",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "영상 속에서 {NW1:obj} 안아 주는 장면이 제일 좋아",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-170",
+  "pair_id": "pa-085",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "영상 속에서 {WN1:obj} 비추는 장면이 제일 좋아",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-171",
+  "pair_id": "pa-086",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:top} 사진 찍기 싫다고 도망가 버렸어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-172",
+  "pair_id": "pa-086",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:top} 사진 찍기 좋다고 소문난 곳이야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-173",
+  "pair_id": "pa-087",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "가족사진 속 {NW1:pos} 표정이 정말 좋아",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-174",
+  "pair_id": "pa-087",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "가족사진 속 {WN1:pos} 색깔이 정말 좋아",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-175",
+  "pair_id": "pa-088",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:com} 같이 찍은 셀카 보내 줄게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-176",
+  "pair_id": "pa-088",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:com} 같이 찍힌 풍경 보내 줄게",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-177",
+  "pair_id": "pa-089",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:voc}, 지난번 여행 영상 어디 있는지 알려 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-178",
+  "pair_id": "pa-089",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:top} 지난번 여행 영상 어디쯤 찍혔는지 알려 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-179",
+  "pair_id": "pa-090",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속 {NW1:lit}라는 사람은 내 친구야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-180",
+  "pair_id": "pa-090",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "사진 속 {WN1:lit}라는 장소는 내 단골이야",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-181",
+  "pair_id": "pa-091",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진 {NW1:dat} 보내 주면 좋아할 것 같아",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-182",
+  "pair_id": "pa-091",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "이 사진 {WN1:dat} 붙여 놓으면 좋아 보일 것 같아",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-183",
+  "pair_id": "pa-092",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "돌잔치 영상에서 {NW1:sub} 걸음마를 처음 떼었어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-184",
+  "pair_id": "pa-092",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "돌잔치 영상에서 {WN1:sub} 처음 장식되었어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-185",
+  "pair_id": "pa-093",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "앨범에 {NW1:obj} 안고 있는 아빠 사진이 있더라",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-186",
+  "pair_id": "pa-093",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "앨범에 {WN1:obj} 심고 있는 아빠 사진이 있더라",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-187",
+  "pair_id": "pa-094",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "사진 보정은 {NW1:bare} 시켜 볼까",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-188",
+  "pair_id": "pa-094",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "사진 보정은 {WN1:bare} 써 볼까",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-189",
+  "pair_id": "pa-095",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "단톡방에 올린 영상에 {NW1:sub} 댓글 달았어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-190",
+  "pair_id": "pa-095",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "단톡방에 올린 영상에 {WN1:sub} 떨어지는 소리가 담겼어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-191",
+  "pair_id": "pa-096",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "캠핑 사진에서 {NW1:com} 불꽃놀이를 보며 웃고 있어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-192",
+  "pair_id": "pa-096",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "캠핑 사진에서 {WN1:com} 불꽃놀이가 어우러져 빛나고 있어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-193",
+  "pair_id": "pa-097",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "이번 앨범 표지는 {NW1:top} 어떨까 싶어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-194",
+  "pair_id": "pa-097",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "이번 앨범 표지에는 {WN1:top} 어떨까 싶어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-195",
+  "pair_id": "pa-098",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:sub} 보내 준 영상 보고 엄마가 눈물을 흘리셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-196",
+  "pair_id": "pa-098",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:sub} 담긴 영상 보고 엄마가 감탄하셨어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-197",
+  "pair_id": "pa-099",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:pos} 졸업식 사진 몇 장 더 올려 주세요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-198",
+  "pair_id": "pa-099",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:pos} 사계절 사진 몇 장 더 올려 주세요",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-199",
+  "pair_id": "pa-100",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "사진에 {NW1:obj} 안아서 크게 나오게 다시 찍어 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-200",
+  "pair_id": "pa-100",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "사진에 {WN1:obj} 가까이 대서 크게 나오게 다시 찍어 줘",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-201",
+  "pair_id": "pa-101",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "영상통화 캡처했는데 {NW1:sub} 눈을 감았네",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-202",
+  "pair_id": "pa-101",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "영상통화 캡처했는데 {WN1:sub} 흐릿하게 나왔네",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-203",
+  "pair_id": "pa-102",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:lit}씨가 찍어 준 가족사진 정말 잘 나왔다",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-204",
+  "pair_id": "pa-102",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:lit}꽃이 찍힌 가족사진 정말 잘 나왔다",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-205",
+  "pair_id": "pa-103",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:dat} 이 영상 전달해 달라고 부탁받았어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-206",
+  "pair_id": "pa-103",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:dat} 이 영상 자막을 달아 달라고 부탁받았어",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-207",
+  "pair_id": "pa-104",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "여기 사진 찍어 줄 사람은 {NW1:bare}",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-208",
+  "pair_id": "pa-104",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "여기 사진에 찍힐 것은 {WN1:bare}",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-209",
+  "pair_id": "pa-105",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "할머니 팔순 영상에 {NW1:com} 나란히 앉은 장면이 나와",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-210",
+  "pair_id": "pa-105",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "할머니 팔순 영상에 {WN1:com} 나란히 놓인 장면이 나와",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-211",
+  "pair_id": "pa-106",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:voc}, 오늘 찍은 사진 전부 단톡방에 올려 줘",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-212",
+  "pair_id": "pa-106",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:top} 오늘 찍은 사진 전부 단톡방에 올릴 만큼 예뻐",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-213",
+  "pair_id": "pa-107",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "가족 영상 편집은 {NW1:sub} 해 주기로 했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-214",
+  "pair_id": "pa-107",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "가족 영상 소재는 {WN1:sub} 되기로 했어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-215",
+  "pair_id": "pa-108",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "사진 정리하다가 {NW1:obj} 안은 아기 때 모습을 찾았어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-216",
+  "pair_id": "pa-108",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "사진 정리하다가 {WN1:obj} 심은 어린 시절 모습을 찾았어",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-217",
+  "pair_id": "pa-109",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "{NW1:top} 영상 속에서 노래를 제일 잘 부르더라",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-218",
+  "pair_id": "pa-109",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "{WN1:top} 영상 속에서 제일 반짝이더라",
+  "tags": [
+   "easy"
+  ]
+ },
+ {
+  "id": "r10pa-219",
+  "pair_id": "pa-110",
+  "role": "person",
+  "scenario": "사진·영상 공유",
+  "text": "산책 사진에 {NW1:pos} 웃는 모습이 담겨 있네",
+  "tags": [
+   "hard"
+  ]
+ },
+ {
+  "id": "r10pa-220",
+  "pair_id": "pa-110",
+  "role": "noun",
+  "scenario": "사진·영상 공유",
+  "text": "산책 사진에 {WN1:pos} 젖은 모습이 담겨 있네",
+  "tags": [
+   "hard"
+  ]
+ }
+]

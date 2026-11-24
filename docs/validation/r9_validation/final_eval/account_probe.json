@@ -1,0 +1,217 @@
+[
+ {
+  "case": "hyphen12+은행명",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.9
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "hyphen13+은행명(농협)",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.9
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "hyphen+계좌단어",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.8
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "hyphen+입금만",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.7
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "hyphen, 문맥 없음",
+  "detected": false,
+  "covers_value": false,
+  "scores": [],
+  "block_grade": false,
+  "apply_blocked_line": false,
+  "apply_raw_value_leaks": true,
+  "apply_values_raw_value_leaks": true
+ },
+ {
+  "case": "붙임 13자리, 문맥 없음",
+  "detected": false,
+  "covers_value": false,
+  "scores": [],
+  "block_grade": false,
+  "apply_blocked_line": false,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "붙임 13자리+계좌",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.7
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "9자리(하이픈)+계좌",
+  "detected": false,
+  "covers_value": false,
+  "scores": [],
+  "block_grade": false,
+  "apply_blocked_line": false,
+  "apply_raw_value_leaks": true,
+  "apply_values_raw_value_leaks": true
+ },
+ {
+  "case": "11자리+은행",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.9
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "공백 구분+은행",
+  "detected": false,
+  "covers_value": false,
+  "scores": [],
+  "block_grade": false,
+  "apply_blocked_line": false,
+  "apply_raw_value_leaks": true,
+  "apply_values_raw_value_leaks": true
+ },
+ {
+  "case": "엔대시 구분+은행",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.9
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "전각 숫자+은행",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.9
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "은행명이 번호 뒤",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.9
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "카카오뱅크 3333",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.9
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "토스뱅크 12자리 붙임",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.8
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ },
+ {
+  "case": "문맥이 20자보다 멀다",
+  "detected": false,
+  "covers_value": false,
+  "scores": [],
+  "block_grade": false,
+  "apply_blocked_line": false,
+  "apply_raw_value_leaks": true,
+  "apply_values_raw_value_leaks": true
+ },
+ {
+  "case": "주문번호 근처",
+  "detected": false,
+  "covers_value": false,
+  "scores": [],
+  "block_grade": false,
+  "apply_blocked_line": false,
+  "apply_raw_value_leaks": true,
+  "apply_values_raw_value_leaks": true
+ },
+ {
+  "case": "15자리",
+  "detected": false,
+  "covers_value": false,
+  "scores": [],
+  "block_grade": false,
+  "apply_blocked_line": false,
+  "apply_raw_value_leaks": true,
+  "apply_values_raw_value_leaks": true
+ },
+ {
+  "case": "두 계좌 한 문장",
+  "detected": true,
+  "covers_value": true,
+  "scores": [
+   0.9,
+   0.9
+  ],
+  "block_grade": true,
+  "apply_blocked_line": true,
+  "apply_raw_value_leaks": false,
+  "apply_values_raw_value_leaks": false
+ }
+]

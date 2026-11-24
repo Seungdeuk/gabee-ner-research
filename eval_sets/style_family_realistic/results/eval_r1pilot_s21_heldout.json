@@ -1,0 +1,54 @@
+{
+ "mode": "r1pilot-koelectra-small-klue10msg-s21",
+ "ner_status": {
+  "mode": "required",
+  "active": true,
+  "fingerprint": "efb258c8deba"
+ },
+ "ner_only": false,
+ "categories": {
+  "collision_holdout": {
+   "spans": 50,
+   "full": 48,
+   "partial": 0,
+   "none": 2,
+   "extra": 0,
+   "sentences": 50,
+   "flagged": 0,
+   "miss_examples": [
+    [
+     "none",
+     "조회민한테 저녁에 안부전화 좀 넣어줄래",
+     "조회민"
+    ],
+    [
+     "none",
+     "할머니가 조회민 보고싶다고 하셨어",
+     "조회민"
+    ]
+   ]
+  },
+  "collision_holdout_neg": {
+   "spans": 0,
+   "full": 0,
+   "partial": 0,
+   "none": 0,
+   "extra": 0,
+   "sentences": 5,
+   "flagged": 0,
+   "miss_examples": []
+  }
+ },
+ "person_total": {
+  "spans": 50,
+  "full": 48,
+  "partial": 0,
+  "none": 2,
+  "extra": 0
+ },
+ "latency_100chars": {
+  "median_ms": 4.075,
+  "p95_ms": 12.102,
+  "n": 100
+ }
+}

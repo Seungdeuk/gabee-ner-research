@@ -1,0 +1,753 @@
+{"id": "v8-신규고빈도-수인-시작", "category": "신규고빈도_시작", "name": "수인", "position": "시작", "text": "수인이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-수인-중간", "category": "신규고빈도_중간", "name": "수인", "position": "중간", "text": "어제 수인한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-수인-끝", "category": "신규고빈도_끝", "name": "수인", "position": "끝", "text": "방금 통화한 사람이 수인이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-태호-시작", "category": "신규고빈도_시작", "name": "태호", "position": "시작", "text": "태호가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-태호-중간", "category": "신규고빈도_중간", "name": "태호", "position": "중간", "text": "어제 태호한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-태호-끝", "category": "신규고빈도_끝", "name": "태호", "position": "끝", "text": "방금 통화한 사람이 태호였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-유리-시작", "category": "신규고빈도_시작", "name": "유리", "position": "시작", "text": "유리가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-유리-중간", "category": "신규고빈도_중간", "name": "유리", "position": "중간", "text": "어제 유리한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-유리-끝", "category": "신규고빈도_끝", "name": "유리", "position": "끝", "text": "방금 통화한 사람이 유리였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-현진-시작", "category": "신규고빈도_시작", "name": "현진", "position": "시작", "text": "현진이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-현진-중간", "category": "신규고빈도_중간", "name": "현진", "position": "중간", "text": "어제 현진한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-현진-끝", "category": "신규고빈도_끝", "name": "현진", "position": "끝", "text": "방금 통화한 사람이 현진이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-다경-시작", "category": "신규고빈도_시작", "name": "다경", "position": "시작", "text": "다경이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-다경-중간", "category": "신규고빈도_중간", "name": "다경", "position": "중간", "text": "어제 다경한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-다경-끝", "category": "신규고빈도_끝", "name": "다경", "position": "끝", "text": "방금 통화한 사람이 다경이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-유경-시작", "category": "신규고빈도_시작", "name": "유경", "position": "시작", "text": "유경이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-유경-중간", "category": "신규고빈도_중간", "name": "유경", "position": "중간", "text": "어제 유경한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-유경-끝", "category": "신규고빈도_끝", "name": "유경", "position": "끝", "text": "방금 통화한 사람이 유경이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-지운-시작", "category": "신규고빈도_시작", "name": "지운", "position": "시작", "text": "지운이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-지운-중간", "category": "신규고빈도_중간", "name": "지운", "position": "중간", "text": "어제 지운한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-지운-끝", "category": "신규고빈도_끝", "name": "지운", "position": "끝", "text": "방금 통화한 사람이 지운이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-도은-시작", "category": "신규고빈도_시작", "name": "도은", "position": "시작", "text": "도은이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-도은-중간", "category": "신규고빈도_중간", "name": "도은", "position": "중간", "text": "어제 도은한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-도은-끝", "category": "신규고빈도_끝", "name": "도은", "position": "끝", "text": "방금 통화한 사람이 도은이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-시환-시작", "category": "신규고빈도_시작", "name": "시환", "position": "시작", "text": "시환이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-시환-중간", "category": "신규고빈도_중간", "name": "시환", "position": "중간", "text": "어제 시환한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-시환-끝", "category": "신규고빈도_끝", "name": "시환", "position": "끝", "text": "방금 통화한 사람이 시환이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-서정-시작", "category": "신규고빈도_시작", "name": "서정", "position": "시작", "text": "서정이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-서정-중간", "category": "신규고빈도_중간", "name": "서정", "position": "중간", "text": "어제 서정한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-서정-끝", "category": "신규고빈도_끝", "name": "서정", "position": "끝", "text": "방금 통화한 사람이 서정이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-재우-시작", "category": "신규고빈도_시작", "name": "재우", "position": "시작", "text": "재우가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-재우-중간", "category": "신규고빈도_중간", "name": "재우", "position": "중간", "text": "어제 재우한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-재우-끝", "category": "신규고빈도_끝", "name": "재우", "position": "끝", "text": "방금 통화한 사람이 재우였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-정후-시작", "category": "신규고빈도_시작", "name": "정후", "position": "시작", "text": "정후가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-정후-중간", "category": "신규고빈도_중간", "name": "정후", "position": "중간", "text": "어제 정후한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-정후-끝", "category": "신규고빈도_끝", "name": "정후", "position": "끝", "text": "방금 통화한 사람이 정후였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-준석-시작", "category": "신규고빈도_시작", "name": "준석", "position": "시작", "text": "준석이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-준석-중간", "category": "신규고빈도_중간", "name": "준석", "position": "중간", "text": "어제 준석한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-준석-끝", "category": "신규고빈도_끝", "name": "준석", "position": "끝", "text": "방금 통화한 사람이 준석이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-도원-시작", "category": "신규고빈도_시작", "name": "도원", "position": "시작", "text": "도원이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-도원-중간", "category": "신규고빈도_중간", "name": "도원", "position": "중간", "text": "어제 도원한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-도원-끝", "category": "신규고빈도_끝", "name": "도원", "position": "끝", "text": "방금 통화한 사람이 도원이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-현승-시작", "category": "신규고빈도_시작", "name": "현승", "position": "시작", "text": "현승이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-현승-중간", "category": "신규고빈도_중간", "name": "현승", "position": "중간", "text": "어제 현승한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-현승-끝", "category": "신규고빈도_끝", "name": "현승", "position": "끝", "text": "방금 통화한 사람이 현승이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-현석-시작", "category": "신규고빈도_시작", "name": "현석", "position": "시작", "text": "현석이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-현석-중간", "category": "신규고빈도_중간", "name": "현석", "position": "중간", "text": "어제 현석한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-현석-끝", "category": "신규고빈도_끝", "name": "현석", "position": "끝", "text": "방금 통화한 사람이 현석이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-승환-시작", "category": "신규고빈도_시작", "name": "승환", "position": "시작", "text": "승환이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-승환-중간", "category": "신규고빈도_중간", "name": "승환", "position": "중간", "text": "어제 승환한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-승환-끝", "category": "신규고빈도_끝", "name": "승환", "position": "끝", "text": "방금 통화한 사람이 승환이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-지효-시작", "category": "신규고빈도_시작", "name": "지효", "position": "시작", "text": "지효가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-지효-중간", "category": "신규고빈도_중간", "name": "지효", "position": "중간", "text": "어제 지효한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-지효-끝", "category": "신규고빈도_끝", "name": "지효", "position": "끝", "text": "방금 통화한 사람이 지효였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-다겸-시작", "category": "신규고빈도_시작", "name": "다겸", "position": "시작", "text": "다겸이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-다겸-중간", "category": "신규고빈도_중간", "name": "다겸", "position": "중간", "text": "어제 다겸한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-다겸-끝", "category": "신규고빈도_끝", "name": "다겸", "position": "끝", "text": "방금 통화한 사람이 다겸이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-승재-시작", "category": "신규고빈도_시작", "name": "승재", "position": "시작", "text": "승재가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-승재-중간", "category": "신규고빈도_중간", "name": "승재", "position": "중간", "text": "어제 승재한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-승재-끝", "category": "신규고빈도_끝", "name": "승재", "position": "끝", "text": "방금 통화한 사람이 승재였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-대겸-시작", "category": "신규고빈도_시작", "name": "대겸", "position": "시작", "text": "대겸이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-대겸-중간", "category": "신규고빈도_중간", "name": "대겸", "position": "중간", "text": "어제 대겸한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-대겸-끝", "category": "신규고빈도_끝", "name": "대겸", "position": "끝", "text": "방금 통화한 사람이 대겸이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-단우-시작", "category": "신규고빈도_시작", "name": "단우", "position": "시작", "text": "단우가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-단우-중간", "category": "신규고빈도_중간", "name": "단우", "position": "중간", "text": "어제 단우한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-단우-끝", "category": "신규고빈도_끝", "name": "단우", "position": "끝", "text": "방금 통화한 사람이 단우였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-정희-시작", "category": "신규고빈도_시작", "name": "정희", "position": "시작", "text": "정희가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-정희-중간", "category": "신규고빈도_중간", "name": "정희", "position": "중간", "text": "어제 정희한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-정희-끝", "category": "신규고빈도_끝", "name": "정희", "position": "끝", "text": "방금 통화한 사람이 정희였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-혜정-시작", "category": "신규고빈도_시작", "name": "혜정", "position": "시작", "text": "혜정이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-혜정-중간", "category": "신규고빈도_중간", "name": "혜정", "position": "중간", "text": "어제 혜정한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-혜정-끝", "category": "신규고빈도_끝", "name": "혜정", "position": "끝", "text": "방금 통화한 사람이 혜정이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-상민-시작", "category": "신규고빈도_시작", "name": "상민", "position": "시작", "text": "상민이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-상민-중간", "category": "신규고빈도_중간", "name": "상민", "position": "중간", "text": "어제 상민한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-상민-끝", "category": "신규고빈도_끝", "name": "상민", "position": "끝", "text": "방금 통화한 사람이 상민이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-재혁-시작", "category": "신규고빈도_시작", "name": "재혁", "position": "시작", "text": "재혁이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-재혁-중간", "category": "신규고빈도_중간", "name": "재혁", "position": "중간", "text": "어제 재혁한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-재혁-끝", "category": "신규고빈도_끝", "name": "재혁", "position": "끝", "text": "방금 통화한 사람이 재혁이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-주혁-시작", "category": "신규고빈도_시작", "name": "주혁", "position": "시작", "text": "주혁이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-주혁-중간", "category": "신규고빈도_중간", "name": "주혁", "position": "중간", "text": "어제 주혁한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-주혁-끝", "category": "신규고빈도_끝", "name": "주혁", "position": "끝", "text": "방금 통화한 사람이 주혁이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-로이-시작", "category": "신규고빈도_시작", "name": "로이", "position": "시작", "text": "로이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-로이-중간", "category": "신규고빈도_중간", "name": "로이", "position": "중간", "text": "어제 로이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-로이-끝", "category": "신규고빈도_끝", "name": "로이", "position": "끝", "text": "방금 통화한 사람이 로이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-승빈-시작", "category": "신규고빈도_시작", "name": "승빈", "position": "시작", "text": "승빈이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-승빈-중간", "category": "신규고빈도_중간", "name": "승빈", "position": "중간", "text": "어제 승빈한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-승빈-끝", "category": "신규고빈도_끝", "name": "승빈", "position": "끝", "text": "방금 통화한 사람이 승빈이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-서원-시작", "category": "신규고빈도_시작", "name": "서원", "position": "시작", "text": "서원이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-서원-중간", "category": "신규고빈도_중간", "name": "서원", "position": "중간", "text": "어제 서원한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-서원-끝", "category": "신규고빈도_끝", "name": "서원", "position": "끝", "text": "방금 통화한 사람이 서원이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-수지-시작", "category": "신규고빈도_시작", "name": "수지", "position": "시작", "text": "수지가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-수지-중간", "category": "신규고빈도_중간", "name": "수지", "position": "중간", "text": "어제 수지한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-수지-끝", "category": "신규고빈도_끝", "name": "수지", "position": "끝", "text": "방금 통화한 사람이 수지였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-승희-시작", "category": "신규고빈도_시작", "name": "승희", "position": "시작", "text": "승희가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-승희-중간", "category": "신규고빈도_중간", "name": "승희", "position": "중간", "text": "어제 승희한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-승희-끝", "category": "신규고빈도_끝", "name": "승희", "position": "끝", "text": "방금 통화한 사람이 승희였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-소미-시작", "category": "신규고빈도_시작", "name": "소미", "position": "시작", "text": "소미가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-소미-중간", "category": "신규고빈도_중간", "name": "소미", "position": "중간", "text": "어제 소미한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-소미-끝", "category": "신규고빈도_끝", "name": "소미", "position": "끝", "text": "방금 통화한 사람이 소미였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-수영-시작", "category": "신규고빈도_시작", "name": "수영", "position": "시작", "text": "수영이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-수영-중간", "category": "신규고빈도_중간", "name": "수영", "position": "중간", "text": "어제 수영한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-수영-끝", "category": "신규고빈도_끝", "name": "수영", "position": "끝", "text": "방금 통화한 사람이 수영이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-준형-시작", "category": "신규고빈도_시작", "name": "준형", "position": "시작", "text": "준형이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-준형-중간", "category": "신규고빈도_중간", "name": "준형", "position": "중간", "text": "어제 준형한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-준형-끝", "category": "신규고빈도_끝", "name": "준형", "position": "끝", "text": "방금 통화한 사람이 준형이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-은재-시작", "category": "신규고빈도_시작", "name": "은재", "position": "시작", "text": "은재가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-은재-중간", "category": "신규고빈도_중간", "name": "은재", "position": "중간", "text": "어제 은재한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-은재-끝", "category": "신규고빈도_끝", "name": "은재", "position": "끝", "text": "방금 통화한 사람이 은재였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-유안-시작", "category": "신규고빈도_시작", "name": "유안", "position": "시작", "text": "유안이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-유안-중간", "category": "신규고빈도_중간", "name": "유안", "position": "중간", "text": "어제 유안한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-유안-끝", "category": "신규고빈도_끝", "name": "유안", "position": "끝", "text": "방금 통화한 사람이 유안이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-찬영-시작", "category": "신규고빈도_시작", "name": "찬영", "position": "시작", "text": "찬영이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-찬영-중간", "category": "신규고빈도_중간", "name": "찬영", "position": "중간", "text": "어제 찬영한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-찬영-끝", "category": "신규고빈도_끝", "name": "찬영", "position": "끝", "text": "방금 통화한 사람이 찬영이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-석현-시작", "category": "신규고빈도_시작", "name": "석현", "position": "시작", "text": "석현이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-석현-중간", "category": "신규고빈도_중간", "name": "석현", "position": "중간", "text": "어제 석현한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-석현-끝", "category": "신규고빈도_끝", "name": "석현", "position": "끝", "text": "방금 통화한 사람이 석현이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-혜주-시작", "category": "신규고빈도_시작", "name": "혜주", "position": "시작", "text": "혜주가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-혜주-중간", "category": "신규고빈도_중간", "name": "혜주", "position": "중간", "text": "어제 혜주한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-혜주-끝", "category": "신규고빈도_끝", "name": "혜주", "position": "끝", "text": "방금 통화한 사람이 혜주였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-영주-시작", "category": "신규고빈도_시작", "name": "영주", "position": "시작", "text": "영주가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-영주-중간", "category": "신규고빈도_중간", "name": "영주", "position": "중간", "text": "어제 영주한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-영주-끝", "category": "신규고빈도_끝", "name": "영주", "position": "끝", "text": "방금 통화한 사람이 영주였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-채민-시작", "category": "신규고빈도_시작", "name": "채민", "position": "시작", "text": "채민이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-채민-중간", "category": "신규고빈도_중간", "name": "채민", "position": "중간", "text": "어제 채민한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-채민-끝", "category": "신규고빈도_끝", "name": "채민", "position": "끝", "text": "방금 통화한 사람이 채민이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-태규-시작", "category": "신규고빈도_시작", "name": "태규", "position": "시작", "text": "태규가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-태규-중간", "category": "신규고빈도_중간", "name": "태규", "position": "중간", "text": "어제 태규한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-태규-끝", "category": "신규고빈도_끝", "name": "태규", "position": "끝", "text": "방금 통화한 사람이 태규였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-연준-시작", "category": "신규고빈도_시작", "name": "연준", "position": "시작", "text": "연준이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-연준-중간", "category": "신규고빈도_중간", "name": "연준", "position": "중간", "text": "어제 연준한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-연준-끝", "category": "신규고빈도_끝", "name": "연준", "position": "끝", "text": "방금 통화한 사람이 연준이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-성환-시작", "category": "신규고빈도_시작", "name": "성환", "position": "시작", "text": "성환이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-성환-중간", "category": "신규고빈도_중간", "name": "성환", "position": "중간", "text": "어제 성환한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-성환-끝", "category": "신규고빈도_끝", "name": "성환", "position": "끝", "text": "방금 통화한 사람이 성환이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-정환-시작", "category": "신규고빈도_시작", "name": "정환", "position": "시작", "text": "정환이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-정환-중간", "category": "신규고빈도_중간", "name": "정환", "position": "중간", "text": "어제 정환한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-정환-끝", "category": "신규고빈도_끝", "name": "정환", "position": "끝", "text": "방금 통화한 사람이 정환이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-신우-시작", "category": "신규고빈도_시작", "name": "신우", "position": "시작", "text": "신우가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-신우-중간", "category": "신규고빈도_중간", "name": "신우", "position": "중간", "text": "어제 신우한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-신우-끝", "category": "신규고빈도_끝", "name": "신우", "position": "끝", "text": "방금 통화한 사람이 신우였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-준범-시작", "category": "신규고빈도_시작", "name": "준범", "position": "시작", "text": "준범이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-준범-중간", "category": "신규고빈도_중간", "name": "준범", "position": "중간", "text": "어제 준범한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-준범-끝", "category": "신규고빈도_끝", "name": "준범", "position": "끝", "text": "방금 통화한 사람이 준범이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-재호-시작", "category": "신규고빈도_시작", "name": "재호", "position": "시작", "text": "재호가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-재호-중간", "category": "신규고빈도_중간", "name": "재호", "position": "중간", "text": "어제 재호한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-재호-끝", "category": "신규고빈도_끝", "name": "재호", "position": "끝", "text": "방금 통화한 사람이 재호였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-상원-시작", "category": "신규고빈도_시작", "name": "상원", "position": "시작", "text": "상원이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-상원-중간", "category": "신규고빈도_중간", "name": "상원", "position": "중간", "text": "어제 상원한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-상원-끝", "category": "신규고빈도_끝", "name": "상원", "position": "끝", "text": "방금 통화한 사람이 상원이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-나겸-시작", "category": "신규고빈도_시작", "name": "나겸", "position": "시작", "text": "나겸이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-나겸-중간", "category": "신규고빈도_중간", "name": "나겸", "position": "중간", "text": "어제 나겸한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-나겸-끝", "category": "신규고빈도_끝", "name": "나겸", "position": "끝", "text": "방금 통화한 사람이 나겸이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-은수-시작", "category": "신규고빈도_시작", "name": "은수", "position": "시작", "text": "은수가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-은수-중간", "category": "신규고빈도_중간", "name": "은수", "position": "중간", "text": "어제 은수한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-은수-끝", "category": "신규고빈도_끝", "name": "은수", "position": "끝", "text": "방금 통화한 사람이 은수였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-채현-시작", "category": "신규고빈도_시작", "name": "채현", "position": "시작", "text": "채현이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-채현-중간", "category": "신규고빈도_중간", "name": "채현", "position": "중간", "text": "어제 채현한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-채현-끝", "category": "신규고빈도_끝", "name": "채현", "position": "끝", "text": "방금 통화한 사람이 채현이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-재성-시작", "category": "신규고빈도_시작", "name": "재성", "position": "시작", "text": "재성이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-재성-중간", "category": "신규고빈도_중간", "name": "재성", "position": "중간", "text": "어제 재성한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-재성-끝", "category": "신규고빈도_끝", "name": "재성", "position": "끝", "text": "방금 통화한 사람이 재성이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-진아-시작", "category": "신규고빈도_시작", "name": "진아", "position": "시작", "text": "진아가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-진아-중간", "category": "신규고빈도_중간", "name": "진아", "position": "중간", "text": "어제 진아한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-진아-끝", "category": "신규고빈도_끝", "name": "진아", "position": "끝", "text": "방금 통화한 사람이 진아였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-다영-시작", "category": "신규고빈도_시작", "name": "다영", "position": "시작", "text": "다영이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-다영-중간", "category": "신규고빈도_중간", "name": "다영", "position": "중간", "text": "어제 다영한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-다영-끝", "category": "신규고빈도_끝", "name": "다영", "position": "끝", "text": "방금 통화한 사람이 다영이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-호진-시작", "category": "신규고빈도_시작", "name": "호진", "position": "시작", "text": "호진이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-호진-중간", "category": "신규고빈도_중간", "name": "호진", "position": "중간", "text": "어제 호진한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-호진-끝", "category": "신규고빈도_끝", "name": "호진", "position": "끝", "text": "방금 통화한 사람이 호진이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-우영-시작", "category": "신규고빈도_시작", "name": "우영", "position": "시작", "text": "우영이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-우영-중간", "category": "신규고빈도_중간", "name": "우영", "position": "중간", "text": "어제 우영한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-우영-끝", "category": "신규고빈도_끝", "name": "우영", "position": "끝", "text": "방금 통화한 사람이 우영이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-리안-시작", "category": "신규고빈도_시작", "name": "리안", "position": "시작", "text": "리안이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-리안-중간", "category": "신규고빈도_중간", "name": "리안", "position": "중간", "text": "어제 리안한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-리안-끝", "category": "신규고빈도_끝", "name": "리안", "position": "끝", "text": "방금 통화한 사람이 리안이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-윤슬-시작", "category": "신규고빈도_시작", "name": "윤슬", "position": "시작", "text": "윤슬이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-윤슬-중간", "category": "신규고빈도_중간", "name": "윤슬", "position": "중간", "text": "어제 윤슬한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-윤슬-끝", "category": "신규고빈도_끝", "name": "윤슬", "position": "끝", "text": "방금 통화한 사람이 윤슬이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-기태-시작", "category": "신규고빈도_시작", "name": "기태", "position": "시작", "text": "기태가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-기태-중간", "category": "신규고빈도_중간", "name": "기태", "position": "중간", "text": "어제 기태한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-기태-끝", "category": "신규고빈도_끝", "name": "기태", "position": "끝", "text": "방금 통화한 사람이 기태였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-주한-시작", "category": "신규고빈도_시작", "name": "주한", "position": "시작", "text": "주한이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-주한-중간", "category": "신규고빈도_중간", "name": "주한", "position": "중간", "text": "어제 주한한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-주한-끝", "category": "신규고빈도_끝", "name": "주한", "position": "끝", "text": "방금 통화한 사람이 주한이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-가을-시작", "category": "신규고빈도_시작", "name": "가을", "position": "시작", "text": "가을이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-가을-중간", "category": "신규고빈도_중간", "name": "가을", "position": "중간", "text": "어제 가을한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-가을-끝", "category": "신규고빈도_끝", "name": "가을", "position": "끝", "text": "방금 통화한 사람이 가을이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-정인-시작", "category": "신규고빈도_시작", "name": "정인", "position": "시작", "text": "정인이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-정인-중간", "category": "신규고빈도_중간", "name": "정인", "position": "중간", "text": "어제 정인한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-정인-끝", "category": "신규고빈도_끝", "name": "정인", "position": "끝", "text": "방금 통화한 사람이 정인이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-기범-시작", "category": "신규고빈도_시작", "name": "기범", "position": "시작", "text": "기범이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-기범-중간", "category": "신규고빈도_중간", "name": "기범", "position": "중간", "text": "어제 기범한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-기범-끝", "category": "신규고빈도_끝", "name": "기범", "position": "끝", "text": "방금 통화한 사람이 기범이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-이한-시작", "category": "신규고빈도_시작", "name": "이한", "position": "시작", "text": "이한이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-이한-중간", "category": "신규고빈도_중간", "name": "이한", "position": "중간", "text": "어제 이한한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-이한-끝", "category": "신규고빈도_끝", "name": "이한", "position": "끝", "text": "방금 통화한 사람이 이한이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-다희-시작", "category": "신규고빈도_시작", "name": "다희", "position": "시작", "text": "다희가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-다희-중간", "category": "신규고빈도_중간", "name": "다희", "position": "중간", "text": "어제 다희한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-다희-끝", "category": "신규고빈도_끝", "name": "다희", "position": "끝", "text": "방금 통화한 사람이 다희였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-은희-시작", "category": "신규고빈도_시작", "name": "은희", "position": "시작", "text": "은희가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-은희-중간", "category": "신규고빈도_중간", "name": "은희", "position": "중간", "text": "어제 은희한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-은희-끝", "category": "신규고빈도_끝", "name": "은희", "position": "끝", "text": "방금 통화한 사람이 은희였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-영진-시작", "category": "신규고빈도_시작", "name": "영진", "position": "시작", "text": "영진이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-영진-중간", "category": "신규고빈도_중간", "name": "영진", "position": "중간", "text": "어제 영진한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-영진-끝", "category": "신규고빈도_끝", "name": "영진", "position": "끝", "text": "방금 통화한 사람이 영진이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-동윤-시작", "category": "신규고빈도_시작", "name": "동윤", "position": "시작", "text": "동윤이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-동윤-중간", "category": "신규고빈도_중간", "name": "동윤", "position": "중간", "text": "어제 동윤한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-동윤-끝", "category": "신규고빈도_끝", "name": "동윤", "position": "끝", "text": "방금 통화한 사람이 동윤이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-우혁-시작", "category": "신규고빈도_시작", "name": "우혁", "position": "시작", "text": "우혁이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-우혁-중간", "category": "신규고빈도_중간", "name": "우혁", "position": "중간", "text": "어제 우혁한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-우혁-끝", "category": "신규고빈도_끝", "name": "우혁", "position": "끝", "text": "방금 통화한 사람이 우혁이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-세영-시작", "category": "신규고빈도_시작", "name": "세영", "position": "시작", "text": "세영이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-세영-중간", "category": "신규고빈도_중간", "name": "세영", "position": "중간", "text": "어제 세영한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-세영-끝", "category": "신규고빈도_끝", "name": "세영", "position": "끝", "text": "방금 통화한 사람이 세영이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-단아-시작", "category": "신규고빈도_시작", "name": "단아", "position": "시작", "text": "단아가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-단아-중간", "category": "신규고빈도_중간", "name": "단아", "position": "중간", "text": "어제 단아한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-단아-끝", "category": "신규고빈도_끝", "name": "단아", "position": "끝", "text": "방금 통화한 사람이 단아였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-서호-시작", "category": "신규고빈도_시작", "name": "서호", "position": "시작", "text": "서호가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-서호-중간", "category": "신규고빈도_중간", "name": "서호", "position": "중간", "text": "어제 서호한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-서호-끝", "category": "신규고빈도_끝", "name": "서호", "position": "끝", "text": "방금 통화한 사람이 서호였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-수경-시작", "category": "신규고빈도_시작", "name": "수경", "position": "시작", "text": "수경이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-수경-중간", "category": "신규고빈도_중간", "name": "수경", "position": "중간", "text": "어제 수경한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-수경-끝", "category": "신규고빈도_끝", "name": "수경", "position": "끝", "text": "방금 통화한 사람이 수경이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-요한-시작", "category": "신규고빈도_시작", "name": "요한", "position": "시작", "text": "요한이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-요한-중간", "category": "신규고빈도_중간", "name": "요한", "position": "중간", "text": "어제 요한한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-요한-끝", "category": "신규고빈도_끝", "name": "요한", "position": "끝", "text": "방금 통화한 사람이 요한이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-진희-시작", "category": "신규고빈도_시작", "name": "진희", "position": "시작", "text": "진희가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-진희-중간", "category": "신규고빈도_중간", "name": "진희", "position": "중간", "text": "어제 진희한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-진희-끝", "category": "신규고빈도_끝", "name": "진희", "position": "끝", "text": "방금 통화한 사람이 진희였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-재은-시작", "category": "신규고빈도_시작", "name": "재은", "position": "시작", "text": "재은이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-재은-중간", "category": "신규고빈도_중간", "name": "재은", "position": "중간", "text": "어제 재은한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-재은-끝", "category": "신규고빈도_끝", "name": "재은", "position": "끝", "text": "방금 통화한 사람이 재은이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-무성-시작", "category": "신규고빈도_시작", "name": "무성", "position": "시작", "text": "무성이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-무성-중간", "category": "신규고빈도_중간", "name": "무성", "position": "중간", "text": "어제 무성한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-무성-끝", "category": "신규고빈도_끝", "name": "무성", "position": "끝", "text": "방금 통화한 사람이 무성이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-연재-시작", "category": "신규고빈도_시작", "name": "연재", "position": "시작", "text": "연재가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-연재-중간", "category": "신규고빈도_중간", "name": "연재", "position": "중간", "text": "어제 연재한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-연재-끝", "category": "신규고빈도_끝", "name": "연재", "position": "끝", "text": "방금 통화한 사람이 연재였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-현빈-시작", "category": "신규고빈도_시작", "name": "현빈", "position": "시작", "text": "현빈이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-현빈-중간", "category": "신규고빈도_중간", "name": "현빈", "position": "중간", "text": "어제 현빈한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-현빈-끝", "category": "신규고빈도_끝", "name": "현빈", "position": "끝", "text": "방금 통화한 사람이 현빈이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-우재-시작", "category": "신규고빈도_시작", "name": "우재", "position": "시작", "text": "우재가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-우재-중간", "category": "신규고빈도_중간", "name": "우재", "position": "중간", "text": "어제 우재한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-우재-끝", "category": "신규고빈도_끝", "name": "우재", "position": "끝", "text": "방금 통화한 사람이 우재였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-재용-시작", "category": "신규고빈도_시작", "name": "재용", "position": "시작", "text": "재용이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-재용-중간", "category": "신규고빈도_중간", "name": "재용", "position": "중간", "text": "어제 재용한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-재용-끝", "category": "신규고빈도_끝", "name": "재용", "position": "끝", "text": "방금 통화한 사람이 재용이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-은유-시작", "category": "신규고빈도_시작", "name": "은유", "position": "시작", "text": "은유가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-은유-중간", "category": "신규고빈도_중간", "name": "은유", "position": "중간", "text": "어제 은유한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-은유-끝", "category": "신규고빈도_끝", "name": "은유", "position": "끝", "text": "방금 통화한 사람이 은유였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-여진-시작", "category": "신규고빈도_시작", "name": "여진", "position": "시작", "text": "여진이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-여진-중간", "category": "신규고빈도_중간", "name": "여진", "position": "중간", "text": "어제 여진한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-여진-끝", "category": "신규고빈도_끝", "name": "여진", "position": "끝", "text": "방금 통화한 사람이 여진이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-진영-시작", "category": "신규고빈도_시작", "name": "진영", "position": "시작", "text": "진영이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-진영-중간", "category": "신규고빈도_중간", "name": "진영", "position": "중간", "text": "어제 진영한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-진영-끝", "category": "신규고빈도_끝", "name": "진영", "position": "끝", "text": "방금 통화한 사람이 진영이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-민선-시작", "category": "신규고빈도_시작", "name": "민선", "position": "시작", "text": "민선이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-민선-중간", "category": "신규고빈도_중간", "name": "민선", "position": "중간", "text": "어제 민선한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-민선-끝", "category": "신규고빈도_끝", "name": "민선", "position": "끝", "text": "방금 통화한 사람이 민선이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-희정-시작", "category": "신규고빈도_시작", "name": "희정", "position": "시작", "text": "희정이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-희정-중간", "category": "신규고빈도_중간", "name": "희정", "position": "중간", "text": "어제 희정한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-희정-끝", "category": "신규고빈도_끝", "name": "희정", "position": "끝", "text": "방금 통화한 사람이 희정이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-예슬-시작", "category": "신규고빈도_시작", "name": "예슬", "position": "시작", "text": "예슬이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-예슬-중간", "category": "신규고빈도_중간", "name": "예슬", "position": "중간", "text": "어제 예슬한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-예슬-끝", "category": "신규고빈도_끝", "name": "예슬", "position": "끝", "text": "방금 통화한 사람이 예슬이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-도진-시작", "category": "신규고빈도_시작", "name": "도진", "position": "시작", "text": "도진이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-도진-중간", "category": "신규고빈도_중간", "name": "도진", "position": "중간", "text": "어제 도진한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-도진-끝", "category": "신규고빈도_끝", "name": "도진", "position": "끝", "text": "방금 통화한 사람이 도진이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-세인-시작", "category": "신규고빈도_시작", "name": "세인", "position": "시작", "text": "세인이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-세인-중간", "category": "신규고빈도_중간", "name": "세인", "position": "중간", "text": "어제 세인한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-세인-끝", "category": "신규고빈도_끝", "name": "세인", "position": "끝", "text": "방금 통화한 사람이 세인이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-선아-시작", "category": "신규고빈도_시작", "name": "선아", "position": "시작", "text": "선아가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-선아-중간", "category": "신규고빈도_중간", "name": "선아", "position": "중간", "text": "어제 선아한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-선아-끝", "category": "신규고빈도_끝", "name": "선아", "position": "끝", "text": "방금 통화한 사람이 선아였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-은솔-시작", "category": "신규고빈도_시작", "name": "은솔", "position": "시작", "text": "은솔이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-은솔-중간", "category": "신규고빈도_중간", "name": "은솔", "position": "중간", "text": "어제 은솔한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-은솔-끝", "category": "신규고빈도_끝", "name": "은솔", "position": "끝", "text": "방금 통화한 사람이 은솔이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-대영-시작", "category": "신규고빈도_시작", "name": "대영", "position": "시작", "text": "대영이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-대영-중간", "category": "신규고빈도_중간", "name": "대영", "position": "중간", "text": "어제 대영한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-대영-끝", "category": "신규고빈도_끝", "name": "대영", "position": "끝", "text": "방금 통화한 사람이 대영이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-현규-시작", "category": "신규고빈도_시작", "name": "현규", "position": "시작", "text": "현규가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-현규-중간", "category": "신규고빈도_중간", "name": "현규", "position": "중간", "text": "어제 현규한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-현규-끝", "category": "신규고빈도_끝", "name": "현규", "position": "끝", "text": "방금 통화한 사람이 현규였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-서인-시작", "category": "신규고빈도_시작", "name": "서인", "position": "시작", "text": "서인이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-서인-중간", "category": "신규고빈도_중간", "name": "서인", "position": "중간", "text": "어제 서인한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-서인-끝", "category": "신규고빈도_끝", "name": "서인", "position": "끝", "text": "방금 통화한 사람이 서인이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-영훈-시작", "category": "신규고빈도_시작", "name": "영훈", "position": "시작", "text": "영훈이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-영훈-중간", "category": "신규고빈도_중간", "name": "영훈", "position": "중간", "text": "어제 영훈한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-영훈-끝", "category": "신규고빈도_끝", "name": "영훈", "position": "끝", "text": "방금 통화한 사람이 영훈이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-태율-시작", "category": "신규고빈도_시작", "name": "태율", "position": "시작", "text": "태율이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-태율-중간", "category": "신규고빈도_중간", "name": "태율", "position": "중간", "text": "어제 태율한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-태율-끝", "category": "신규고빈도_끝", "name": "태율", "position": "끝", "text": "방금 통화한 사람이 태율이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-미소-시작", "category": "신규고빈도_시작", "name": "미소", "position": "시작", "text": "미소가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-미소-중간", "category": "신규고빈도_중간", "name": "미소", "position": "중간", "text": "어제 미소한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-미소-끝", "category": "신규고빈도_끝", "name": "미소", "position": "끝", "text": "방금 통화한 사람이 미소였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규고빈도-민하-시작", "category": "신규고빈도_시작", "name": "민하", "position": "시작", "text": "민하가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규고빈도-민하-중간", "category": "신규고빈도_중간", "name": "민하", "position": "중간", "text": "어제 민하한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규고빈도-민하-끝", "category": "신규고빈도_끝", "name": "민하", "position": "끝", "text": "방금 통화한 사람이 민하였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-호승-시작", "category": "신규저빈도_시작", "name": "호승", "position": "시작", "text": "호승이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-호승-중간", "category": "신규저빈도_중간", "name": "호승", "position": "중간", "text": "어제 호승한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-호승-끝", "category": "신규저빈도_끝", "name": "호승", "position": "끝", "text": "방금 통화한 사람이 호승이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-동경-시작", "category": "신규저빈도_시작", "name": "동경", "position": "시작", "text": "동경이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-동경-중간", "category": "신규저빈도_중간", "name": "동경", "position": "중간", "text": "어제 동경한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-동경-끝", "category": "신규저빈도_끝", "name": "동경", "position": "끝", "text": "방금 통화한 사람이 동경이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-주온-시작", "category": "신규저빈도_시작", "name": "주온", "position": "시작", "text": "주온이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-주온-중간", "category": "신규저빈도_중간", "name": "주온", "position": "중간", "text": "어제 주온한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-주온-끝", "category": "신규저빈도_끝", "name": "주온", "position": "끝", "text": "방금 통화한 사람이 주온이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-나무-시작", "category": "신규저빈도_시작", "name": "나무", "position": "시작", "text": "나무가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-나무-중간", "category": "신규저빈도_중간", "name": "나무", "position": "중간", "text": "어제 나무한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-나무-끝", "category": "신규저빈도_끝", "name": "나무", "position": "끝", "text": "방금 통화한 사람이 나무였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-태구-시작", "category": "신규저빈도_시작", "name": "태구", "position": "시작", "text": "태구가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-태구-중간", "category": "신규저빈도_중간", "name": "태구", "position": "중간", "text": "어제 태구한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-태구-끝", "category": "신규저빈도_끝", "name": "태구", "position": "끝", "text": "방금 통화한 사람이 태구였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-지홍-시작", "category": "신규저빈도_시작", "name": "지홍", "position": "시작", "text": "지홍이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-지홍-중간", "category": "신규저빈도_중간", "name": "지홍", "position": "중간", "text": "어제 지홍한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-지홍-끝", "category": "신규저빈도_끝", "name": "지홍", "position": "끝", "text": "방금 통화한 사람이 지홍이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-병관-시작", "category": "신규저빈도_시작", "name": "병관", "position": "시작", "text": "병관이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-병관-중간", "category": "신규저빈도_중간", "name": "병관", "position": "중간", "text": "어제 병관한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-병관-끝", "category": "신규저빈도_끝", "name": "병관", "position": "끝", "text": "방금 통화한 사람이 병관이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-명민-시작", "category": "신규저빈도_시작", "name": "명민", "position": "시작", "text": "명민이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-명민-중간", "category": "신규저빈도_중간", "name": "명민", "position": "중간", "text": "어제 명민한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-명민-끝", "category": "신규저빈도_끝", "name": "명민", "position": "끝", "text": "방금 통화한 사람이 명민이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-우겸-시작", "category": "신규저빈도_시작", "name": "우겸", "position": "시작", "text": "우겸이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-우겸-중간", "category": "신규저빈도_중간", "name": "우겸", "position": "중간", "text": "어제 우겸한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-우겸-끝", "category": "신규저빈도_끝", "name": "우겸", "position": "끝", "text": "방금 통화한 사람이 우겸이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-서담-시작", "category": "신규저빈도_시작", "name": "서담", "position": "시작", "text": "서담이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-서담-중간", "category": "신규저빈도_중간", "name": "서담", "position": "중간", "text": "어제 서담한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-서담-끝", "category": "신규저빈도_끝", "name": "서담", "position": "끝", "text": "방금 통화한 사람이 서담이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-경문-시작", "category": "신규저빈도_시작", "name": "경문", "position": "시작", "text": "경문이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-경문-중간", "category": "신규저빈도_중간", "name": "경문", "position": "중간", "text": "어제 경문한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-경문-끝", "category": "신규저빈도_끝", "name": "경문", "position": "끝", "text": "방금 통화한 사람이 경문이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-원빈-시작", "category": "신규저빈도_시작", "name": "원빈", "position": "시작", "text": "원빈이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-원빈-중간", "category": "신규저빈도_중간", "name": "원빈", "position": "중간", "text": "어제 원빈한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-원빈-끝", "category": "신규저빈도_끝", "name": "원빈", "position": "끝", "text": "방금 통화한 사람이 원빈이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-승목-시작", "category": "신규저빈도_시작", "name": "승목", "position": "시작", "text": "승목이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-승목-중간", "category": "신규저빈도_중간", "name": "승목", "position": "중간", "text": "어제 승목한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-승목-끝", "category": "신규저빈도_끝", "name": "승목", "position": "끝", "text": "방금 통화한 사람이 승목이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-근혁-시작", "category": "신규저빈도_시작", "name": "근혁", "position": "시작", "text": "근혁이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-근혁-중간", "category": "신규저빈도_중간", "name": "근혁", "position": "중간", "text": "어제 근혁한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-근혁-끝", "category": "신규저빈도_끝", "name": "근혁", "position": "끝", "text": "방금 통화한 사람이 근혁이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-한민-시작", "category": "신규저빈도_시작", "name": "한민", "position": "시작", "text": "한민이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-한민-중간", "category": "신규저빈도_중간", "name": "한민", "position": "중간", "text": "어제 한민한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-한민-끝", "category": "신규저빈도_끝", "name": "한민", "position": "끝", "text": "방금 통화한 사람이 한민이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-동구-시작", "category": "신규저빈도_시작", "name": "동구", "position": "시작", "text": "동구가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-동구-중간", "category": "신규저빈도_중간", "name": "동구", "position": "중간", "text": "어제 동구한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-동구-끝", "category": "신규저빈도_끝", "name": "동구", "position": "끝", "text": "방금 통화한 사람이 동구였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-선제-시작", "category": "신규저빈도_시작", "name": "선제", "position": "시작", "text": "선제가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-선제-중간", "category": "신규저빈도_중간", "name": "선제", "position": "중간", "text": "어제 선제한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-선제-끝", "category": "신규저빈도_끝", "name": "선제", "position": "끝", "text": "방금 통화한 사람이 선제였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-태상-시작", "category": "신규저빈도_시작", "name": "태상", "position": "시작", "text": "태상이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-태상-중간", "category": "신규저빈도_중간", "name": "태상", "position": "중간", "text": "어제 태상한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-태상-끝", "category": "신규저빈도_끝", "name": "태상", "position": "끝", "text": "방금 통화한 사람이 태상이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-동열-시작", "category": "신규저빈도_시작", "name": "동열", "position": "시작", "text": "동열이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-동열-중간", "category": "신규저빈도_중간", "name": "동열", "position": "중간", "text": "어제 동열한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-동열-끝", "category": "신규저빈도_끝", "name": "동열", "position": "끝", "text": "방금 통화한 사람이 동열이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-한선-시작", "category": "신규저빈도_시작", "name": "한선", "position": "시작", "text": "한선이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-한선-중간", "category": "신규저빈도_중간", "name": "한선", "position": "중간", "text": "어제 한선한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-한선-끝", "category": "신규저빈도_끝", "name": "한선", "position": "끝", "text": "방금 통화한 사람이 한선이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-기용-시작", "category": "신규저빈도_시작", "name": "기용", "position": "시작", "text": "기용이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-기용-중간", "category": "신규저빈도_중간", "name": "기용", "position": "중간", "text": "어제 기용한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-기용-끝", "category": "신규저빈도_끝", "name": "기용", "position": "끝", "text": "방금 통화한 사람이 기용이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-새영-시작", "category": "신규저빈도_시작", "name": "새영", "position": "시작", "text": "새영이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-새영-중간", "category": "신규저빈도_중간", "name": "새영", "position": "중간", "text": "어제 새영한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-새영-끝", "category": "신규저빈도_끝", "name": "새영", "position": "끝", "text": "방금 통화한 사람이 새영이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-일호-시작", "category": "신규저빈도_시작", "name": "일호", "position": "시작", "text": "일호가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-일호-중간", "category": "신규저빈도_중간", "name": "일호", "position": "중간", "text": "어제 일호한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-일호-끝", "category": "신규저빈도_끝", "name": "일호", "position": "끝", "text": "방금 통화한 사람이 일호였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-민세-시작", "category": "신규저빈도_시작", "name": "민세", "position": "시작", "text": "민세가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-민세-중간", "category": "신규저빈도_중간", "name": "민세", "position": "중간", "text": "어제 민세한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-민세-끝", "category": "신규저빈도_끝", "name": "민세", "position": "끝", "text": "방금 통화한 사람이 민세였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-희로-시작", "category": "신규저빈도_시작", "name": "희로", "position": "시작", "text": "희로가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-희로-중간", "category": "신규저빈도_중간", "name": "희로", "position": "중간", "text": "어제 희로한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-희로-끝", "category": "신규저빈도_끝", "name": "희로", "position": "끝", "text": "방금 통화한 사람이 희로였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-기웅-시작", "category": "신규저빈도_시작", "name": "기웅", "position": "시작", "text": "기웅이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-기웅-중간", "category": "신규저빈도_중간", "name": "기웅", "position": "중간", "text": "어제 기웅한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-기웅-끝", "category": "신규저빈도_끝", "name": "기웅", "position": "끝", "text": "방금 통화한 사람이 기웅이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-률-시작", "category": "신규저빈도_시작", "name": "률", "position": "시작", "text": "률이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 1}], "known_names": []}
+{"id": "v8-신규저빈도-률-중간", "category": "신규저빈도_중간", "name": "률", "position": "중간", "text": "어제 률한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 4}], "known_names": []}
+{"id": "v8-신규저빈도-률-끝", "category": "신규저빈도_끝", "name": "률", "position": "끝", "text": "방금 통화한 사람이 률이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 12}], "known_names": []}
+{"id": "v8-신규저빈도-민오-시작", "category": "신규저빈도_시작", "name": "민오", "position": "시작", "text": "민오가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-민오-중간", "category": "신규저빈도_중간", "name": "민오", "position": "중간", "text": "어제 민오한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-민오-끝", "category": "신규저빈도_끝", "name": "민오", "position": "끝", "text": "방금 통화한 사람이 민오였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-리차드-시작", "category": "신규저빈도_시작", "name": "리차드", "position": "시작", "text": "리차드가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v8-신규저빈도-리차드-중간", "category": "신규저빈도_중간", "name": "리차드", "position": "중간", "text": "어제 리차드한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 6}], "known_names": []}
+{"id": "v8-신규저빈도-리차드-끝", "category": "신규저빈도_끝", "name": "리차드", "position": "끝", "text": "방금 통화한 사람이 리차드였어", "spans": [{"kind": "PERSON", "start": 11, "end": 14}], "known_names": []}
+{"id": "v8-신규저빈도-름-시작", "category": "신규저빈도_시작", "name": "름", "position": "시작", "text": "름이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 1}], "known_names": []}
+{"id": "v8-신규저빈도-름-중간", "category": "신규저빈도_중간", "name": "름", "position": "중간", "text": "어제 름한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 4}], "known_names": []}
+{"id": "v8-신규저빈도-름-끝", "category": "신규저빈도_끝", "name": "름", "position": "끝", "text": "방금 통화한 사람이 름이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 12}], "known_names": []}
+{"id": "v8-신규저빈도-규상-시작", "category": "신규저빈도_시작", "name": "규상", "position": "시작", "text": "규상이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-규상-중간", "category": "신규저빈도_중간", "name": "규상", "position": "중간", "text": "어제 규상한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-규상-끝", "category": "신규저빈도_끝", "name": "규상", "position": "끝", "text": "방금 통화한 사람이 규상이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-현범-시작", "category": "신규저빈도_시작", "name": "현범", "position": "시작", "text": "현범이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-현범-중간", "category": "신규저빈도_중간", "name": "현범", "position": "중간", "text": "어제 현범한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-현범-끝", "category": "신규저빈도_끝", "name": "현범", "position": "끝", "text": "방금 통화한 사람이 현범이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-문승-시작", "category": "신규저빈도_시작", "name": "문승", "position": "시작", "text": "문승이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-문승-중간", "category": "신규저빈도_중간", "name": "문승", "position": "중간", "text": "어제 문승한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-문승-끝", "category": "신규저빈도_끝", "name": "문승", "position": "끝", "text": "방금 통화한 사람이 문승이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-테오-시작", "category": "신규저빈도_시작", "name": "테오", "position": "시작", "text": "테오가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-테오-중간", "category": "신규저빈도_중간", "name": "테오", "position": "중간", "text": "어제 테오한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-테오-끝", "category": "신규저빈도_끝", "name": "테오", "position": "끝", "text": "방금 통화한 사람이 테오였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-로원-시작", "category": "신규저빈도_시작", "name": "로원", "position": "시작", "text": "로원이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-로원-중간", "category": "신규저빈도_중간", "name": "로원", "position": "중간", "text": "어제 로원한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-로원-끝", "category": "신규저빈도_끝", "name": "로원", "position": "끝", "text": "방금 통화한 사람이 로원이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-문철-시작", "category": "신규저빈도_시작", "name": "문철", "position": "시작", "text": "문철이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-문철-중간", "category": "신규저빈도_중간", "name": "문철", "position": "중간", "text": "어제 문철한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-문철-끝", "category": "신규저빈도_끝", "name": "문철", "position": "끝", "text": "방금 통화한 사람이 문철이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-민창-시작", "category": "신규저빈도_시작", "name": "민창", "position": "시작", "text": "민창이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-민창-중간", "category": "신규저빈도_중간", "name": "민창", "position": "중간", "text": "어제 민창한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-민창-끝", "category": "신규저빈도_끝", "name": "민창", "position": "끝", "text": "방금 통화한 사람이 민창이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-준승-시작", "category": "신규저빈도_시작", "name": "준승", "position": "시작", "text": "준승이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-준승-중간", "category": "신규저빈도_중간", "name": "준승", "position": "중간", "text": "어제 준승한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-준승-끝", "category": "신규저빈도_끝", "name": "준승", "position": "끝", "text": "방금 통화한 사람이 준승이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-승곤-시작", "category": "신규저빈도_시작", "name": "승곤", "position": "시작", "text": "승곤이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-승곤-중간", "category": "신규저빈도_중간", "name": "승곤", "position": "중간", "text": "어제 승곤한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-승곤-끝", "category": "신규저빈도_끝", "name": "승곤", "position": "끝", "text": "방금 통화한 사람이 승곤이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-창영-시작", "category": "신규저빈도_시작", "name": "창영", "position": "시작", "text": "창영이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-창영-중간", "category": "신규저빈도_중간", "name": "창영", "position": "중간", "text": "어제 창영한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-창영-끝", "category": "신규저빈도_끝", "name": "창영", "position": "끝", "text": "방금 통화한 사람이 창영이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-치훈-시작", "category": "신규저빈도_시작", "name": "치훈", "position": "시작", "text": "치훈이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-치훈-중간", "category": "신규저빈도_중간", "name": "치훈", "position": "중간", "text": "어제 치훈한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-치훈-끝", "category": "신규저빈도_끝", "name": "치훈", "position": "끝", "text": "방금 통화한 사람이 치훈이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-기광-시작", "category": "신규저빈도_시작", "name": "기광", "position": "시작", "text": "기광이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-기광-중간", "category": "신규저빈도_중간", "name": "기광", "position": "중간", "text": "어제 기광한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-기광-끝", "category": "신규저빈도_끝", "name": "기광", "position": "끝", "text": "방금 통화한 사람이 기광이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-제백-시작", "category": "신규저빈도_시작", "name": "제백", "position": "시작", "text": "제백이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-제백-중간", "category": "신규저빈도_중간", "name": "제백", "position": "중간", "text": "어제 제백한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-제백-끝", "category": "신규저빈도_끝", "name": "제백", "position": "끝", "text": "방금 통화한 사람이 제백이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-준배-시작", "category": "신규저빈도_시작", "name": "준배", "position": "시작", "text": "준배가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-준배-중간", "category": "신규저빈도_중간", "name": "준배", "position": "중간", "text": "어제 준배한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-준배-끝", "category": "신규저빈도_끝", "name": "준배", "position": "끝", "text": "방금 통화한 사람이 준배였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-승협-시작", "category": "신규저빈도_시작", "name": "승협", "position": "시작", "text": "승협이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-승협-중간", "category": "신규저빈도_중간", "name": "승협", "position": "중간", "text": "어제 승협한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-승협-끝", "category": "신규저빈도_끝", "name": "승협", "position": "끝", "text": "방금 통화한 사람이 승협이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-형식-시작", "category": "신규저빈도_시작", "name": "형식", "position": "시작", "text": "형식이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-형식-중간", "category": "신규저빈도_중간", "name": "형식", "position": "중간", "text": "어제 형식한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-형식-끝", "category": "신규저빈도_끝", "name": "형식", "position": "끝", "text": "방금 통화한 사람이 형식이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-한빛-시작", "category": "신규저빈도_시작", "name": "한빛", "position": "시작", "text": "한빛이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-한빛-중간", "category": "신규저빈도_중간", "name": "한빛", "position": "중간", "text": "어제 한빛한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-한빛-끝", "category": "신규저빈도_끝", "name": "한빛", "position": "끝", "text": "방금 통화한 사람이 한빛이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-호인-시작", "category": "신규저빈도_시작", "name": "호인", "position": "시작", "text": "호인이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-호인-중간", "category": "신규저빈도_중간", "name": "호인", "position": "중간", "text": "어제 호인한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-호인-끝", "category": "신규저빈도_끝", "name": "호인", "position": "끝", "text": "방금 통화한 사람이 호인이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-무혁-시작", "category": "신규저빈도_시작", "name": "무혁", "position": "시작", "text": "무혁이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-무혁-중간", "category": "신규저빈도_중간", "name": "무혁", "position": "중간", "text": "어제 무혁한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-무혁-끝", "category": "신규저빈도_끝", "name": "무혁", "position": "끝", "text": "방금 통화한 사람이 무혁이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-호태-시작", "category": "신규저빈도_시작", "name": "호태", "position": "시작", "text": "호태가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-호태-중간", "category": "신규저빈도_중간", "name": "호태", "position": "중간", "text": "어제 호태한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-호태-끝", "category": "신규저빈도_끝", "name": "호태", "position": "끝", "text": "방금 통화한 사람이 호태였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-신욱-시작", "category": "신규저빈도_시작", "name": "신욱", "position": "시작", "text": "신욱이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-신욱-중간", "category": "신규저빈도_중간", "name": "신욱", "position": "중간", "text": "어제 신욱한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-신욱-끝", "category": "신규저빈도_끝", "name": "신욱", "position": "끝", "text": "방금 통화한 사람이 신욱이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-인건-시작", "category": "신규저빈도_시작", "name": "인건", "position": "시작", "text": "인건이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-인건-중간", "category": "신규저빈도_중간", "name": "인건", "position": "중간", "text": "어제 인건한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-인건-끝", "category": "신규저빈도_끝", "name": "인건", "position": "끝", "text": "방금 통화한 사람이 인건이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-인겸-시작", "category": "신규저빈도_시작", "name": "인겸", "position": "시작", "text": "인겸이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-인겸-중간", "category": "신규저빈도_중간", "name": "인겸", "position": "중간", "text": "어제 인겸한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-인겸-끝", "category": "신규저빈도_끝", "name": "인겸", "position": "끝", "text": "방금 통화한 사람이 인겸이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-정찬-시작", "category": "신규저빈도_시작", "name": "정찬", "position": "시작", "text": "정찬이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-정찬-중간", "category": "신규저빈도_중간", "name": "정찬", "position": "중간", "text": "어제 정찬한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-정찬-끝", "category": "신규저빈도_끝", "name": "정찬", "position": "끝", "text": "방금 통화한 사람이 정찬이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-택훈-시작", "category": "신규저빈도_시작", "name": "택훈", "position": "시작", "text": "택훈이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-택훈-중간", "category": "신규저빈도_중간", "name": "택훈", "position": "중간", "text": "어제 택훈한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-택훈-끝", "category": "신규저빈도_끝", "name": "택훈", "position": "끝", "text": "방금 통화한 사람이 택훈이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-예일-시작", "category": "신규저빈도_시작", "name": "예일", "position": "시작", "text": "예일이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-예일-중간", "category": "신규저빈도_중간", "name": "예일", "position": "중간", "text": "어제 예일한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-예일-끝", "category": "신규저빈도_끝", "name": "예일", "position": "끝", "text": "방금 통화한 사람이 예일이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-근휘-시작", "category": "신규저빈도_시작", "name": "근휘", "position": "시작", "text": "근휘가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-근휘-중간", "category": "신규저빈도_중간", "name": "근휘", "position": "중간", "text": "어제 근휘한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-근휘-끝", "category": "신규저빈도_끝", "name": "근휘", "position": "끝", "text": "방금 통화한 사람이 근휘였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-하륜-시작", "category": "신규저빈도_시작", "name": "하륜", "position": "시작", "text": "하륜이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-하륜-중간", "category": "신규저빈도_중간", "name": "하륜", "position": "중간", "text": "어제 하륜한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-하륜-끝", "category": "신규저빈도_끝", "name": "하륜", "position": "끝", "text": "방금 통화한 사람이 하륜이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-교빈-시작", "category": "신규저빈도_시작", "name": "교빈", "position": "시작", "text": "교빈이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-교빈-중간", "category": "신규저빈도_중간", "name": "교빈", "position": "중간", "text": "어제 교빈한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-교빈-끝", "category": "신규저빈도_끝", "name": "교빈", "position": "끝", "text": "방금 통화한 사람이 교빈이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-병하-시작", "category": "신규저빈도_시작", "name": "병하", "position": "시작", "text": "병하가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-병하-중간", "category": "신규저빈도_중간", "name": "병하", "position": "중간", "text": "어제 병하한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-병하-끝", "category": "신규저빈도_끝", "name": "병하", "position": "끝", "text": "방금 통화한 사람이 병하였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-규담-시작", "category": "신규저빈도_시작", "name": "규담", "position": "시작", "text": "규담이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-규담-중간", "category": "신규저빈도_중간", "name": "규담", "position": "중간", "text": "어제 규담한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-규담-끝", "category": "신규저빈도_끝", "name": "규담", "position": "끝", "text": "방금 통화한 사람이 규담이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-이룸-시작", "category": "신규저빈도_시작", "name": "이룸", "position": "시작", "text": "이룸이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-이룸-중간", "category": "신규저빈도_중간", "name": "이룸", "position": "중간", "text": "어제 이룸한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-이룸-끝", "category": "신규저빈도_끝", "name": "이룸", "position": "끝", "text": "방금 통화한 사람이 이룸이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-윤결-시작", "category": "신규저빈도_시작", "name": "윤결", "position": "시작", "text": "윤결이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-윤결-중간", "category": "신규저빈도_중간", "name": "윤결", "position": "중간", "text": "어제 윤결한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-윤결-끝", "category": "신규저빈도_끝", "name": "윤결", "position": "끝", "text": "방금 통화한 사람이 윤결이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-루한-시작", "category": "신규저빈도_시작", "name": "루한", "position": "시작", "text": "루한이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-루한-중간", "category": "신규저빈도_중간", "name": "루한", "position": "중간", "text": "어제 루한한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-루한-끝", "category": "신규저빈도_끝", "name": "루한", "position": "끝", "text": "방금 통화한 사람이 루한이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-유마-시작", "category": "신규저빈도_시작", "name": "유마", "position": "시작", "text": "유마가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-유마-중간", "category": "신규저빈도_중간", "name": "유마", "position": "중간", "text": "어제 유마한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-유마-끝", "category": "신규저빈도_끝", "name": "유마", "position": "끝", "text": "방금 통화한 사람이 유마였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-준화-시작", "category": "신규저빈도_시작", "name": "준화", "position": "시작", "text": "준화가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-준화-중간", "category": "신규저빈도_중간", "name": "준화", "position": "중간", "text": "어제 준화한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-준화-끝", "category": "신규저빈도_끝", "name": "준화", "position": "끝", "text": "방금 통화한 사람이 준화였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-바울-시작", "category": "신규저빈도_시작", "name": "바울", "position": "시작", "text": "바울이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-바울-중간", "category": "신규저빈도_중간", "name": "바울", "position": "중간", "text": "어제 바울한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-바울-끝", "category": "신규저빈도_끝", "name": "바울", "position": "끝", "text": "방금 통화한 사람이 바울이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-영범-시작", "category": "신규저빈도_시작", "name": "영범", "position": "시작", "text": "영범이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-영범-중간", "category": "신규저빈도_중간", "name": "영범", "position": "중간", "text": "어제 영범한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-영범-끝", "category": "신규저빈도_끝", "name": "영범", "position": "끝", "text": "방금 통화한 사람이 영범이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-호겸-시작", "category": "신규저빈도_시작", "name": "호겸", "position": "시작", "text": "호겸이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-호겸-중간", "category": "신규저빈도_중간", "name": "호겸", "position": "중간", "text": "어제 호겸한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-호겸-끝", "category": "신규저빈도_끝", "name": "호겸", "position": "끝", "text": "방금 통화한 사람이 호겸이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-찬슬-시작", "category": "신규저빈도_시작", "name": "찬슬", "position": "시작", "text": "찬슬이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-찬슬-중간", "category": "신규저빈도_중간", "name": "찬슬", "position": "중간", "text": "어제 찬슬한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-찬슬-끝", "category": "신규저빈도_끝", "name": "찬슬", "position": "끝", "text": "방금 통화한 사람이 찬슬이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-석찬-시작", "category": "신규저빈도_시작", "name": "석찬", "position": "시작", "text": "석찬이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-석찬-중간", "category": "신규저빈도_중간", "name": "석찬", "position": "중간", "text": "어제 석찬한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-석찬-끝", "category": "신규저빈도_끝", "name": "석찬", "position": "끝", "text": "방금 통화한 사람이 석찬이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-재언-시작", "category": "신규저빈도_시작", "name": "재언", "position": "시작", "text": "재언이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-재언-중간", "category": "신규저빈도_중간", "name": "재언", "position": "중간", "text": "어제 재언한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-재언-끝", "category": "신규저빈도_끝", "name": "재언", "position": "끝", "text": "방금 통화한 사람이 재언이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-현웅-시작", "category": "신규저빈도_시작", "name": "현웅", "position": "시작", "text": "현웅이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-현웅-중간", "category": "신규저빈도_중간", "name": "현웅", "position": "중간", "text": "어제 현웅한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-현웅-끝", "category": "신규저빈도_끝", "name": "현웅", "position": "끝", "text": "방금 통화한 사람이 현웅이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-효겸-시작", "category": "신규저빈도_시작", "name": "효겸", "position": "시작", "text": "효겸이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-효겸-중간", "category": "신규저빈도_중간", "name": "효겸", "position": "중간", "text": "어제 효겸한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-효겸-끝", "category": "신규저빈도_끝", "name": "효겸", "position": "끝", "text": "방금 통화한 사람이 효겸이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-휘성-시작", "category": "신규저빈도_시작", "name": "휘성", "position": "시작", "text": "휘성이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-휘성-중간", "category": "신규저빈도_중간", "name": "휘성", "position": "중간", "text": "어제 휘성한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-휘성-끝", "category": "신규저빈도_끝", "name": "휘성", "position": "끝", "text": "방금 통화한 사람이 휘성이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-강찬-시작", "category": "신규저빈도_시작", "name": "강찬", "position": "시작", "text": "강찬이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-강찬-중간", "category": "신규저빈도_중간", "name": "강찬", "position": "중간", "text": "어제 강찬한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-강찬-끝", "category": "신규저빈도_끝", "name": "강찬", "position": "끝", "text": "방금 통화한 사람이 강찬이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-종율-시작", "category": "신규저빈도_시작", "name": "종율", "position": "시작", "text": "종율이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-종율-중간", "category": "신규저빈도_중간", "name": "종율", "position": "중간", "text": "어제 종율한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-종율-끝", "category": "신규저빈도_끝", "name": "종율", "position": "끝", "text": "방금 통화한 사람이 종율이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-은섭-시작", "category": "신규저빈도_시작", "name": "은섭", "position": "시작", "text": "은섭이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-은섭-중간", "category": "신규저빈도_중간", "name": "은섭", "position": "중간", "text": "어제 은섭한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-은섭-끝", "category": "신규저빈도_끝", "name": "은섭", "position": "끝", "text": "방금 통화한 사람이 은섭이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-백현-시작", "category": "신규저빈도_시작", "name": "백현", "position": "시작", "text": "백현이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-백현-중간", "category": "신규저빈도_중간", "name": "백현", "position": "중간", "text": "어제 백현한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-백현-끝", "category": "신규저빈도_끝", "name": "백현", "position": "끝", "text": "방금 통화한 사람이 백현이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-희건-시작", "category": "신규저빈도_시작", "name": "희건", "position": "시작", "text": "희건이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-희건-중간", "category": "신규저빈도_중간", "name": "희건", "position": "중간", "text": "어제 희건한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-희건-끝", "category": "신규저빈도_끝", "name": "희건", "position": "끝", "text": "방금 통화한 사람이 희건이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-도언-시작", "category": "신규저빈도_시작", "name": "도언", "position": "시작", "text": "도언이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-도언-중간", "category": "신규저빈도_중간", "name": "도언", "position": "중간", "text": "어제 도언한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-도언-끝", "category": "신규저빈도_끝", "name": "도언", "position": "끝", "text": "방금 통화한 사람이 도언이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-오윤-시작", "category": "신규저빈도_시작", "name": "오윤", "position": "시작", "text": "오윤이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-오윤-중간", "category": "신규저빈도_중간", "name": "오윤", "position": "중간", "text": "어제 오윤한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-오윤-끝", "category": "신규저빈도_끝", "name": "오윤", "position": "끝", "text": "방금 통화한 사람이 오윤이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-은탁-시작", "category": "신규저빈도_시작", "name": "은탁", "position": "시작", "text": "은탁이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-은탁-중간", "category": "신규저빈도_중간", "name": "은탁", "position": "중간", "text": "어제 은탁한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-은탁-끝", "category": "신규저빈도_끝", "name": "은탁", "position": "끝", "text": "방금 통화한 사람이 은탁이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-담율-시작", "category": "신규저빈도_시작", "name": "담율", "position": "시작", "text": "담율이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-담율-중간", "category": "신규저빈도_중간", "name": "담율", "position": "중간", "text": "어제 담율한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-담율-끝", "category": "신규저빈도_끝", "name": "담율", "position": "끝", "text": "방금 통화한 사람이 담율이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-해건-시작", "category": "신규저빈도_시작", "name": "해건", "position": "시작", "text": "해건이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-해건-중간", "category": "신규저빈도_중간", "name": "해건", "position": "중간", "text": "어제 해건한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-해건-끝", "category": "신규저빈도_끝", "name": "해건", "position": "끝", "text": "방금 통화한 사람이 해건이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-종인-시작", "category": "신규저빈도_시작", "name": "종인", "position": "시작", "text": "종인이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-종인-중간", "category": "신규저빈도_중간", "name": "종인", "position": "중간", "text": "어제 종인한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-종인-끝", "category": "신규저빈도_끝", "name": "종인", "position": "끝", "text": "방금 통화한 사람이 종인이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-율찬-시작", "category": "신규저빈도_시작", "name": "율찬", "position": "시작", "text": "율찬이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-율찬-중간", "category": "신규저빈도_중간", "name": "율찬", "position": "중간", "text": "어제 율찬한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-율찬-끝", "category": "신규저빈도_끝", "name": "율찬", "position": "끝", "text": "방금 통화한 사람이 율찬이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-현담-시작", "category": "신규저빈도_시작", "name": "현담", "position": "시작", "text": "현담이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-현담-중간", "category": "신규저빈도_중간", "name": "현담", "position": "중간", "text": "어제 현담한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-현담-끝", "category": "신규저빈도_끝", "name": "현담", "position": "끝", "text": "방금 통화한 사람이 현담이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-선후-시작", "category": "신규저빈도_시작", "name": "선후", "position": "시작", "text": "선후가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-선후-중간", "category": "신규저빈도_중간", "name": "선후", "position": "중간", "text": "어제 선후한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-선후-끝", "category": "신규저빈도_끝", "name": "선후", "position": "끝", "text": "방금 통화한 사람이 선후였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-석주-시작", "category": "신규저빈도_시작", "name": "석주", "position": "시작", "text": "석주가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-석주-중간", "category": "신규저빈도_중간", "name": "석주", "position": "중간", "text": "어제 석주한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-석주-끝", "category": "신규저빈도_끝", "name": "석주", "position": "끝", "text": "방금 통화한 사람이 석주였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-희온-시작", "category": "신규저빈도_시작", "name": "희온", "position": "시작", "text": "희온이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-희온-중간", "category": "신규저빈도_중간", "name": "희온", "position": "중간", "text": "어제 희온한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-희온-끝", "category": "신규저빈도_끝", "name": "희온", "position": "끝", "text": "방금 통화한 사람이 희온이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-저스틴-시작", "category": "신규저빈도_시작", "name": "저스틴", "position": "시작", "text": "저스틴이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": []}
+{"id": "v8-신규저빈도-저스틴-중간", "category": "신규저빈도_중간", "name": "저스틴", "position": "중간", "text": "어제 저스틴한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 6}], "known_names": []}
+{"id": "v8-신규저빈도-저스틴-끝", "category": "신규저빈도_끝", "name": "저스틴", "position": "끝", "text": "방금 통화한 사람이 저스틴이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 14}], "known_names": []}
+{"id": "v8-신규저빈도-기안-시작", "category": "신규저빈도_시작", "name": "기안", "position": "시작", "text": "기안이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-기안-중간", "category": "신규저빈도_중간", "name": "기안", "position": "중간", "text": "어제 기안한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-기안-끝", "category": "신규저빈도_끝", "name": "기안", "position": "끝", "text": "방금 통화한 사람이 기안이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-렌-시작", "category": "신규저빈도_시작", "name": "렌", "position": "시작", "text": "렌이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 1}], "known_names": []}
+{"id": "v8-신규저빈도-렌-중간", "category": "신규저빈도_중간", "name": "렌", "position": "중간", "text": "어제 렌한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 4}], "known_names": []}
+{"id": "v8-신규저빈도-렌-끝", "category": "신규저빈도_끝", "name": "렌", "position": "끝", "text": "방금 통화한 사람이 렌이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 12}], "known_names": []}
+{"id": "v8-신규저빈도-이율-시작", "category": "신규저빈도_시작", "name": "이율", "position": "시작", "text": "이율이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-이율-중간", "category": "신규저빈도_중간", "name": "이율", "position": "중간", "text": "어제 이율한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-이율-끝", "category": "신규저빈도_끝", "name": "이율", "position": "끝", "text": "방금 통화한 사람이 이율이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-애론-시작", "category": "신규저빈도_시작", "name": "애론", "position": "시작", "text": "애론이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-애론-중간", "category": "신규저빈도_중간", "name": "애론", "position": "중간", "text": "어제 애론한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-애론-끝", "category": "신규저빈도_끝", "name": "애론", "position": "끝", "text": "방금 통화한 사람이 애론이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-서헌-시작", "category": "신규저빈도_시작", "name": "서헌", "position": "시작", "text": "서헌이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-서헌-중간", "category": "신규저빈도_중간", "name": "서헌", "position": "중간", "text": "어제 서헌한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-서헌-끝", "category": "신규저빈도_끝", "name": "서헌", "position": "끝", "text": "방금 통화한 사람이 서헌이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-죠셉-시작", "category": "신규저빈도_시작", "name": "죠셉", "position": "시작", "text": "죠셉이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-죠셉-중간", "category": "신규저빈도_중간", "name": "죠셉", "position": "중간", "text": "어제 죠셉한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-죠셉-끝", "category": "신규저빈도_끝", "name": "죠셉", "position": "끝", "text": "방금 통화한 사람이 죠셉이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규저빈도-데이비드-시작", "category": "신규저빈도_시작", "name": "데이비드", "position": "시작", "text": "데이비드가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 4}], "known_names": []}
+{"id": "v8-신규저빈도-데이비드-중간", "category": "신규저빈도_중간", "name": "데이비드", "position": "중간", "text": "어제 데이비드한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 7}], "known_names": []}
+{"id": "v8-신규저빈도-데이비드-끝", "category": "신규저빈도_끝", "name": "데이비드", "position": "끝", "text": "방금 통화한 사람이 데이비드였어", "spans": [{"kind": "PERSON", "start": 11, "end": 15}], "known_names": []}
+{"id": "v8-신규저빈도-리준-시작", "category": "신규저빈도_시작", "name": "리준", "position": "시작", "text": "리준이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규저빈도-리준-중간", "category": "신규저빈도_중간", "name": "리준", "position": "중간", "text": "어제 리준한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규저빈도-리준-끝", "category": "신규저빈도_끝", "name": "리준", "position": "끝", "text": "방금 통화한 사람이 리준이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-태이-시작", "category": "이가로끝남_시작", "name": "태이", "position": "시작", "text": "태이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-태이-중간", "category": "이가로끝남_중간", "name": "태이", "position": "중간", "text": "어제 태이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-태이-끝", "category": "이가로끝남_끝", "name": "태이", "position": "끝", "text": "방금 통화한 사람이 태이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-도이-시작", "category": "이가로끝남_시작", "name": "도이", "position": "시작", "text": "도이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-도이-중간", "category": "이가로끝남_중간", "name": "도이", "position": "중간", "text": "어제 도이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-도이-끝", "category": "이가로끝남_끝", "name": "도이", "position": "끝", "text": "방금 통화한 사람이 도이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-제이-시작", "category": "이가로끝남_시작", "name": "제이", "position": "시작", "text": "제이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-제이-중간", "category": "이가로끝남_중간", "name": "제이", "position": "중간", "text": "어제 제이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-제이-끝", "category": "이가로끝남_끝", "name": "제이", "position": "끝", "text": "방금 통화한 사람이 제이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-유이-시작", "category": "이가로끝남_시작", "name": "유이", "position": "시작", "text": "유이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-유이-중간", "category": "이가로끝남_중간", "name": "유이", "position": "중간", "text": "어제 유이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-유이-끝", "category": "이가로끝남_끝", "name": "유이", "position": "끝", "text": "방금 통화한 사람이 유이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-서이-시작", "category": "이가로끝남_시작", "name": "서이", "position": "시작", "text": "서이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-서이-중간", "category": "이가로끝남_중간", "name": "서이", "position": "중간", "text": "어제 서이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-서이-끝", "category": "이가로끝남_끝", "name": "서이", "position": "끝", "text": "방금 통화한 사람이 서이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-루이-시작", "category": "이가로끝남_시작", "name": "루이", "position": "시작", "text": "루이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-루이-중간", "category": "이가로끝남_중간", "name": "루이", "position": "중간", "text": "어제 루이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-루이-끝", "category": "이가로끝남_끝", "name": "루이", "position": "끝", "text": "방금 통화한 사람이 루이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-송이-시작", "category": "이가로끝남_시작", "name": "송이", "position": "시작", "text": "송이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-송이-중간", "category": "이가로끝남_중간", "name": "송이", "position": "중간", "text": "어제 송이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-송이-끝", "category": "이가로끝남_끝", "name": "송이", "position": "끝", "text": "방금 통화한 사람이 송이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-건이-시작", "category": "이가로끝남_시작", "name": "건이", "position": "시작", "text": "건이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-건이-중간", "category": "이가로끝남_중간", "name": "건이", "position": "중간", "text": "어제 건이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-건이-끝", "category": "이가로끝남_끝", "name": "건이", "position": "끝", "text": "방금 통화한 사람이 건이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-진이-시작", "category": "이가로끝남_시작", "name": "진이", "position": "시작", "text": "진이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-진이-중간", "category": "이가로끝남_중간", "name": "진이", "position": "중간", "text": "어제 진이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-진이-끝", "category": "이가로끝남_끝", "name": "진이", "position": "끝", "text": "방금 통화한 사람이 진이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-세이-시작", "category": "이가로끝남_시작", "name": "세이", "position": "시작", "text": "세이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-세이-중간", "category": "이가로끝남_중간", "name": "세이", "position": "중간", "text": "어제 세이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-세이-끝", "category": "이가로끝남_끝", "name": "세이", "position": "끝", "text": "방금 통화한 사람이 세이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-하이-시작", "category": "이가로끝남_시작", "name": "하이", "position": "시작", "text": "하이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-하이-중간", "category": "이가로끝남_중간", "name": "하이", "position": "중간", "text": "어제 하이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-하이-끝", "category": "이가로끝남_끝", "name": "하이", "position": "끝", "text": "방금 통화한 사람이 하이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-현이-시작", "category": "이가로끝남_시작", "name": "현이", "position": "시작", "text": "현이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-현이-중간", "category": "이가로끝남_중간", "name": "현이", "position": "중간", "text": "어제 현이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-현이-끝", "category": "이가로끝남_끝", "name": "현이", "position": "끝", "text": "방금 통화한 사람이 현이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-정이-시작", "category": "이가로끝남_시작", "name": "정이", "position": "시작", "text": "정이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-정이-중간", "category": "이가로끝남_중간", "name": "정이", "position": "중간", "text": "어제 정이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-정이-끝", "category": "이가로끝남_끝", "name": "정이", "position": "끝", "text": "방금 통화한 사람이 정이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-초이-시작", "category": "이가로끝남_시작", "name": "초이", "position": "시작", "text": "초이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-초이-중간", "category": "이가로끝남_중간", "name": "초이", "position": "중간", "text": "어제 초이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-초이-끝", "category": "이가로끝남_끝", "name": "초이", "position": "끝", "text": "방금 통화한 사람이 초이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이가로끝남-주이-시작", "category": "이가로끝남_시작", "name": "주이", "position": "시작", "text": "주이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이가로끝남-주이-중간", "category": "이가로끝남_중간", "name": "주이", "position": "중간", "text": "어제 주이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이가로끝남-주이-끝", "category": "이가로끝남_끝", "name": "주이", "position": "끝", "text": "방금 통화한 사람이 주이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규애칭-온이-시작", "category": "신규애칭_시작", "name": "온이", "position": "시작", "text": "온이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규애칭-온이-중간", "category": "신규애칭_중간", "name": "온이", "position": "중간", "text": "어제 온이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규애칭-온이-끝", "category": "신규애칭_끝", "name": "온이", "position": "끝", "text": "방금 통화한 사람이 온이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규애칭-린이-시작", "category": "신규애칭_시작", "name": "린이", "position": "시작", "text": "린이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규애칭-린이-중간", "category": "신규애칭_중간", "name": "린이", "position": "중간", "text": "어제 린이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규애칭-린이-끝", "category": "신규애칭_끝", "name": "린이", "position": "끝", "text": "방금 통화한 사람이 린이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규애칭-별이-시작", "category": "신규애칭_시작", "name": "별이", "position": "시작", "text": "별이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규애칭-별이-중간", "category": "신규애칭_중간", "name": "별이", "position": "중간", "text": "어제 별이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규애칭-별이-끝", "category": "신규애칭_끝", "name": "별이", "position": "끝", "text": "방금 통화한 사람이 별이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규애칭-결이-시작", "category": "신규애칭_시작", "name": "결이", "position": "시작", "text": "결이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규애칭-결이-중간", "category": "신규애칭_중간", "name": "결이", "position": "중간", "text": "어제 결이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규애칭-결이-끝", "category": "신규애칭_끝", "name": "결이", "position": "끝", "text": "방금 통화한 사람이 결이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규애칭-솔이-시작", "category": "신규애칭_시작", "name": "솔이", "position": "시작", "text": "솔이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규애칭-솔이-중간", "category": "신규애칭_중간", "name": "솔이", "position": "중간", "text": "어제 솔이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규애칭-솔이-끝", "category": "신규애칭_끝", "name": "솔이", "position": "끝", "text": "방금 통화한 사람이 솔이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규애칭-해이-시작", "category": "신규애칭_시작", "name": "해이", "position": "시작", "text": "해이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규애칭-해이-중간", "category": "신규애칭_중간", "name": "해이", "position": "중간", "text": "어제 해이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규애칭-해이-끝", "category": "신규애칭_끝", "name": "해이", "position": "끝", "text": "방금 통화한 사람이 해이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규애칭-다이-시작", "category": "신규애칭_시작", "name": "다이", "position": "시작", "text": "다이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규애칭-다이-중간", "category": "신규애칭_중간", "name": "다이", "position": "중간", "text": "어제 다이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규애칭-다이-끝", "category": "신규애칭_끝", "name": "다이", "position": "끝", "text": "방금 통화한 사람이 다이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규애칭-새이-시작", "category": "신규애칭_시작", "name": "새이", "position": "시작", "text": "새이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규애칭-새이-중간", "category": "신규애칭_중간", "name": "새이", "position": "중간", "text": "어제 새이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규애칭-새이-끝", "category": "신규애칭_끝", "name": "새이", "position": "끝", "text": "방금 통화한 사람이 새이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-신규애칭-노이-시작", "category": "신규애칭_시작", "name": "노이", "position": "시작", "text": "노이가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-신규애칭-노이-중간", "category": "신규애칭_중간", "name": "노이", "position": "중간", "text": "어제 노이한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-신규애칭-노이-끝", "category": "신규애칭_끝", "name": "노이", "position": "끝", "text": "방금 통화한 사람이 노이였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-여름-시작", "category": "이름문맥_일반단어_시작", "name": "여름", "position": "시작", "text": "여름이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-여름-중간", "category": "이름문맥_일반단어_중간", "name": "여름", "position": "중간", "text": "어제 여름한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-여름-끝", "category": "이름문맥_일반단어_끝", "name": "여름", "position": "끝", "text": "방금 통화한 사람이 여름이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-믿음-시작", "category": "이름문맥_일반단어_시작", "name": "믿음", "position": "시작", "text": "믿음이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-믿음-중간", "category": "이름문맥_일반단어_중간", "name": "믿음", "position": "중간", "text": "어제 믿음한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-믿음-끝", "category": "이름문맥_일반단어_끝", "name": "믿음", "position": "끝", "text": "방금 통화한 사람이 믿음이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-소망-시작", "category": "이름문맥_일반단어_시작", "name": "소망", "position": "시작", "text": "소망이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-소망-중간", "category": "이름문맥_일반단어_중간", "name": "소망", "position": "중간", "text": "어제 소망한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-소망-끝", "category": "이름문맥_일반단어_끝", "name": "소망", "position": "끝", "text": "방금 통화한 사람이 소망이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-기쁨-시작", "category": "이름문맥_일반단어_시작", "name": "기쁨", "position": "시작", "text": "기쁨이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-기쁨-중간", "category": "이름문맥_일반단어_중간", "name": "기쁨", "position": "중간", "text": "어제 기쁨한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-기쁨-끝", "category": "이름문맥_일반단어_끝", "name": "기쁨", "position": "끝", "text": "방금 통화한 사람이 기쁨이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-아름-시작", "category": "이름문맥_일반단어_시작", "name": "아름", "position": "시작", "text": "아름이 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-아름-중간", "category": "이름문맥_일반단어_중간", "name": "아름", "position": "중간", "text": "어제 아름한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-아름-끝", "category": "이름문맥_일반단어_끝", "name": "아름", "position": "끝", "text": "방금 통화한 사람이 아름이었어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-온유-시작", "category": "이름문맥_일반단어_시작", "name": "온유", "position": "시작", "text": "온유가 아침부터 기분이 좋아 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-온유-중간", "category": "이름문맥_일반단어_중간", "name": "온유", "position": "중간", "text": "어제 온유한테 문자 보냈는데 아직 답이 없어", "spans": [{"kind": "PERSON", "start": 3, "end": 5}], "known_names": []}
+{"id": "v8-이름문맥_일반단어-온유-끝", "category": "이름문맥_일반단어_끝", "name": "온유", "position": "끝", "text": "방금 통화한 사람이 온유였어", "spans": [{"kind": "PERSON", "start": 11, "end": 13}], "known_names": []}
+{"id": "v8-사물문맥_일반단어-여름-시작", "category": "사물문맥_일반단어_시작", "name": "여름", "position": "시작", "text": "여름 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-여름-중간", "category": "사물문맥_일반단어_중간", "name": "여름", "position": "중간", "text": "어제 여름 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-여름-끝", "category": "사물문맥_일반단어_끝", "name": "여름", "position": "끝", "text": "방금 본 게 여름이었어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-믿음-시작", "category": "사물문맥_일반단어_시작", "name": "믿음", "position": "시작", "text": "믿음 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-믿음-중간", "category": "사물문맥_일반단어_중간", "name": "믿음", "position": "중간", "text": "어제 믿음 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-믿음-끝", "category": "사물문맥_일반단어_끝", "name": "믿음", "position": "끝", "text": "방금 본 게 믿음이었어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-소망-시작", "category": "사물문맥_일반단어_시작", "name": "소망", "position": "시작", "text": "소망 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-소망-중간", "category": "사물문맥_일반단어_중간", "name": "소망", "position": "중간", "text": "어제 소망 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-소망-끝", "category": "사물문맥_일반단어_끝", "name": "소망", "position": "끝", "text": "방금 본 게 소망이었어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-기쁨-시작", "category": "사물문맥_일반단어_시작", "name": "기쁨", "position": "시작", "text": "기쁨 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-기쁨-중간", "category": "사물문맥_일반단어_중간", "name": "기쁨", "position": "중간", "text": "어제 기쁨 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-기쁨-끝", "category": "사물문맥_일반단어_끝", "name": "기쁨", "position": "끝", "text": "방금 본 게 기쁨이었어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-아름-시작", "category": "사물문맥_일반단어_시작", "name": "아름", "position": "시작", "text": "아름 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-아름-중간", "category": "사물문맥_일반단어_중간", "name": "아름", "position": "중간", "text": "어제 아름 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-아름-끝", "category": "사물문맥_일반단어_끝", "name": "아름", "position": "끝", "text": "방금 본 게 아름이었어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-온유-시작", "category": "사물문맥_일반단어_시작", "name": "온유", "position": "시작", "text": "온유 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-온유-중간", "category": "사물문맥_일반단어_중간", "name": "온유", "position": "중간", "text": "어제 온유 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-사물문맥_일반단어-온유-끝", "category": "사물문맥_일반단어_끝", "name": "온유", "position": "끝", "text": "방금 본 게 온유였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-책상-시작", "category": "순수비인명_시작", "name": "책상", "position": "시작", "text": "책상 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-책상-중간", "category": "순수비인명_중간", "name": "책상", "position": "중간", "text": "어제 책상 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-책상-끝", "category": "순수비인명_끝", "name": "책상", "position": "끝", "text": "방금 본 게 책상이었어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-컴퓨터-시작", "category": "순수비인명_시작", "name": "컴퓨터", "position": "시작", "text": "컴퓨터 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-컴퓨터-중간", "category": "순수비인명_중간", "name": "컴퓨터", "position": "중간", "text": "어제 컴퓨터 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-컴퓨터-끝", "category": "순수비인명_끝", "name": "컴퓨터", "position": "끝", "text": "방금 본 게 컴퓨터였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-자전거-시작", "category": "순수비인명_시작", "name": "자전거", "position": "시작", "text": "자전거 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-자전거-중간", "category": "순수비인명_중간", "name": "자전거", "position": "중간", "text": "어제 자전거 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-자전거-끝", "category": "순수비인명_끝", "name": "자전거", "position": "끝", "text": "방금 본 게 자전거였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-우산-시작", "category": "순수비인명_시작", "name": "우산", "position": "시작", "text": "우산 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-우산-중간", "category": "순수비인명_중간", "name": "우산", "position": "중간", "text": "어제 우산 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-우산-끝", "category": "순수비인명_끝", "name": "우산", "position": "끝", "text": "방금 본 게 우산이었어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-냄비-시작", "category": "순수비인명_시작", "name": "냄비", "position": "시작", "text": "냄비 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-냄비-중간", "category": "순수비인명_중간", "name": "냄비", "position": "중간", "text": "어제 냄비 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-냄비-끝", "category": "순수비인명_끝", "name": "냄비", "position": "끝", "text": "방금 본 게 냄비였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-모니터-시작", "category": "순수비인명_시작", "name": "모니터", "position": "시작", "text": "모니터 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-모니터-중간", "category": "순수비인명_중간", "name": "모니터", "position": "중간", "text": "어제 모니터 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-모니터-끝", "category": "순수비인명_끝", "name": "모니터", "position": "끝", "text": "방금 본 게 모니터였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-택배-시작", "category": "순수비인명_시작", "name": "택배", "position": "시작", "text": "택배 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-택배-중간", "category": "순수비인명_중간", "name": "택배", "position": "중간", "text": "어제 택배 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-택배-끝", "category": "순수비인명_끝", "name": "택배", "position": "끝", "text": "방금 본 게 택배였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-신호등-시작", "category": "순수비인명_시작", "name": "신호등", "position": "시작", "text": "신호등 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-신호등-중간", "category": "순수비인명_중간", "name": "신호등", "position": "중간", "text": "어제 신호등 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-신호등-끝", "category": "순수비인명_끝", "name": "신호등", "position": "끝", "text": "방금 본 게 신호등이었어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-가로등-시작", "category": "순수비인명_시작", "name": "가로등", "position": "시작", "text": "가로등 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-가로등-중간", "category": "순수비인명_중간", "name": "가로등", "position": "중간", "text": "어제 가로등 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-가로등-끝", "category": "순수비인명_끝", "name": "가로등", "position": "끝", "text": "방금 본 게 가로등이었어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-정류장-시작", "category": "순수비인명_시작", "name": "정류장", "position": "시작", "text": "정류장 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-정류장-중간", "category": "순수비인명_중간", "name": "정류장", "position": "중간", "text": "어제 정류장 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-정류장-끝", "category": "순수비인명_끝", "name": "정류장", "position": "끝", "text": "방금 본 게 정류장이었어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-세탁기-시작", "category": "순수비인명_시작", "name": "세탁기", "position": "시작", "text": "세탁기 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-세탁기-중간", "category": "순수비인명_중간", "name": "세탁기", "position": "중간", "text": "어제 세탁기 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-세탁기-끝", "category": "순수비인명_끝", "name": "세탁기", "position": "끝", "text": "방금 본 게 세탁기였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-청소기-시작", "category": "순수비인명_시작", "name": "청소기", "position": "시작", "text": "청소기 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-청소기-중간", "category": "순수비인명_중간", "name": "청소기", "position": "중간", "text": "어제 청소기 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-청소기-끝", "category": "순수비인명_끝", "name": "청소기", "position": "끝", "text": "방금 본 게 청소기였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-냉장고-시작", "category": "순수비인명_시작", "name": "냉장고", "position": "시작", "text": "냉장고 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-냉장고-중간", "category": "순수비인명_중간", "name": "냉장고", "position": "중간", "text": "어제 냉장고 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-냉장고-끝", "category": "순수비인명_끝", "name": "냉장고", "position": "끝", "text": "방금 본 게 냉장고였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-선풍기-시작", "category": "순수비인명_시작", "name": "선풍기", "position": "시작", "text": "선풍기 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-선풍기-중간", "category": "순수비인명_중간", "name": "선풍기", "position": "중간", "text": "어제 선풍기 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-선풍기-끝", "category": "순수비인명_끝", "name": "선풍기", "position": "끝", "text": "방금 본 게 선풍기였어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-보일러-시작", "category": "순수비인명_시작", "name": "보일러", "position": "시작", "text": "보일러 아침부터 어디 있는지 안 보여", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-보일러-중간", "category": "순수비인명_중간", "name": "보일러", "position": "중간", "text": "어제 보일러 찾는다고 한참 뒤졌어", "spans": [], "known_names": []}
+{"id": "v8-순수비인명-보일러-끝", "category": "순수비인명_끝", "name": "보일러", "position": "끝", "text": "방금 본 게 보일러였어", "spans": [], "known_names": []}

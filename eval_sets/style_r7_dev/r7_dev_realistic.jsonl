@@ -1,0 +1,86 @@
+{"id": "r7dev-0001", "category": "기본", "style": "실사용", "text": "지우가 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0002", "category": "기본", "style": "실사용", "text": "하윤이 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0003", "category": "기본", "style": "실사용", "text": "채원이 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0004", "category": "기본", "style": "실사용", "text": "연우가 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0005", "category": "기본", "style": "실사용", "text": "시현이 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0006", "category": "기본", "style": "실사용", "text": "건우가 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0007", "category": "기본", "style": "실사용", "text": "승민이 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0008", "category": "기본", "style": "실사용", "text": "정우가 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0009", "category": "기본", "style": "실사용", "text": "도현이 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0010", "category": "기본", "style": "실사용", "text": "해원이 요즘 바빠 보이더라", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0011", "category": "기본", "style": "실사용", "text": "뽀미가 요즘 바빠 보이더라", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0012", "category": "기본", "style": "실사용", "text": "달봉이가 요즘 바빠 보이더라", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 3}], "known_names": [], "template_id": "기본"}
+{"id": "r7dev-0013", "category": "목적격", "style": "실사용", "text": "엄마가 지우를 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0014", "category": "목적격", "style": "실사용", "text": "엄마가 하윤을 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0015", "category": "목적격", "style": "실사용", "text": "엄마가 채원을 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0016", "category": "목적격", "style": "실사용", "text": "엄마가 연우를 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0017", "category": "목적격", "style": "실사용", "text": "엄마가 시현을 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0018", "category": "목적격", "style": "실사용", "text": "엄마가 건우를 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0019", "category": "목적격", "style": "실사용", "text": "엄마가 승민을 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0020", "category": "목적격", "style": "실사용", "text": "엄마가 정우를 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0021", "category": "목적격", "style": "실사용", "text": "엄마가 도현을 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0022", "category": "목적격", "style": "실사용", "text": "엄마가 해원을 데리러 가신대", "spans": [{"kind": "PERSON", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0023", "category": "목적격", "style": "실사용", "text": "엄마가 뽀미를 데리러 가신대", "spans": [{"kind": "PERSON_ALIAS", "start": 4, "end": 6}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0024", "category": "목적격", "style": "실사용", "text": "엄마가 달봉이를 데리러 가신대", "spans": [{"kind": "PERSON_ALIAS", "start": 4, "end": 7}], "known_names": [], "template_id": "목적격"}
+{"id": "r7dev-0025", "category": "비교서술", "style": "실사용", "text": "지우가 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0026", "category": "비교서술", "style": "실사용", "text": "하윤이 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0027", "category": "비교서술", "style": "실사용", "text": "채원이 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0028", "category": "비교서술", "style": "실사용", "text": "연우가 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0029", "category": "비교서술", "style": "실사용", "text": "시현이 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0030", "category": "비교서술", "style": "실사용", "text": "건우가 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0031", "category": "비교서술", "style": "실사용", "text": "승민이 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0032", "category": "비교서술", "style": "실사용", "text": "정우가 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0033", "category": "비교서술", "style": "실사용", "text": "도현이 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0034", "category": "비교서술", "style": "실사용", "text": "해원이 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0035", "category": "비교서술", "style": "실사용", "text": "뽀미가 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0036", "category": "비교서술", "style": "실사용", "text": "달봉이가 반에서 제일 꼼꼼해", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 3}], "known_names": [], "template_id": "비교서술"}
+{"id": "r7dev-0037", "category": "여격", "style": "실사용", "text": "지우한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0038", "category": "여격", "style": "실사용", "text": "하윤한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0039", "category": "여격", "style": "실사용", "text": "채원한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0040", "category": "여격", "style": "실사용", "text": "연우한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0041", "category": "여격", "style": "실사용", "text": "시현한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0042", "category": "여격", "style": "실사용", "text": "건우한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0043", "category": "여격", "style": "실사용", "text": "승민한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0044", "category": "여격", "style": "실사용", "text": "정우한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0045", "category": "여격", "style": "실사용", "text": "도현한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0046", "category": "여격", "style": "실사용", "text": "해원한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0047", "category": "여격", "style": "실사용", "text": "뽀미한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0048", "category": "여격", "style": "실사용", "text": "달봉이한테 숙제 끝났는지 카톡 보내봐", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 3}], "known_names": [], "template_id": "여격"}
+{"id": "r7dev-0049", "category": "호격", "style": "실사용", "text": "지우야! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0050", "category": "호격", "style": "실사용", "text": "하윤아! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0051", "category": "호격", "style": "실사용", "text": "채원아! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0052", "category": "호격", "style": "실사용", "text": "연우야! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0053", "category": "호격", "style": "실사용", "text": "시현아! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0054", "category": "호격", "style": "실사용", "text": "건우야! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0055", "category": "호격", "style": "실사용", "text": "승민아! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0056", "category": "호격", "style": "실사용", "text": "정우야! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0057", "category": "호격", "style": "실사용", "text": "도현아! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0058", "category": "호격", "style": "실사용", "text": "해원아! 밥 먹으러 나와", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0059", "category": "호격", "style": "실사용", "text": "뽀미야! 밥 먹으러 나와", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 2}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0060", "category": "호격", "style": "실사용", "text": "달봉이야! 밥 먹으러 나와", "spans": [{"kind": "PERSON_ALIAS", "start": 0, "end": 3}], "known_names": [], "template_id": "호격"}
+{"id": "r7dev-0061", "category": "무공백인접", "style": "실사용", "text": "지우하윤 둘이 같이 하교했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "r7dev-0062", "category": "무공백인접", "style": "실사용", "text": "채원연우한테 준비물 알려줬어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "r7dev-0063", "category": "무공백인접", "style": "실사용", "text": "시현건우 둘이 같이 하교했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "r7dev-0064", "category": "무공백인접", "style": "실사용", "text": "승민정우한테 준비물 알려줬어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "r7dev-0065", "category": "무공백인접", "style": "실사용", "text": "도현뽀미 둘이 같이 하교했대", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON_ALIAS", "start": 2, "end": 4}], "known_names": [], "template_id": "무공백인접"}
+{"id": "r7dev-0066", "category": "무공백인접", "style": "실사용", "text": "해원달봉이한테 준비물 알려줬어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON_ALIAS", "start": 2, "end": 5}], "known_names": [], "template_id": "무공백인접"}
+{"id": "r7dev-0067", "category": "background", "style": "실사용", "text": "택배이 도착했다", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0068", "category": "background", "style": "실사용", "text": "주문 때문에 늦었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0069", "category": "background", "style": "실사용", "text": "배송을 확인해봤어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0070", "category": "background", "style": "실사용", "text": "환불이 도착했다", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0071", "category": "background", "style": "실사용", "text": "영수증 때문에 늦었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0072", "category": "background", "style": "실사용", "text": "장바구니을 확인해봤어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0073", "category": "background", "style": "실사용", "text": "사은품이 도착했다", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0074", "category": "background", "style": "실사용", "text": "반품 때문에 늦었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0075", "category": "background", "style": "실사용", "text": "쿠폰을 확인해봤어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0076", "category": "background", "style": "실사용", "text": "포인트이 도착했다", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0077", "category": "background", "style": "실사용", "text": "마트 때문에 늦었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0078", "category": "background", "style": "실사용", "text": "편의점을 확인해봤어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0079", "category": "background", "style": "실사용", "text": "시장이 도착했다", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0080", "category": "background", "style": "실사용", "text": "병원 때문에 늦었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0081", "category": "background", "style": "실사용", "text": "학교을 확인해봤어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0082", "category": "background", "style": "실사용", "text": "약국이 도착했다", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0083", "category": "background", "style": "실사용", "text": "은행 때문에 늦었어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0084", "category": "background", "style": "실사용", "text": "회사을 확인해봤어", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0085", "category": "background", "style": "실사용", "text": "학원이 도착했다", "spans": [], "known_names": [], "template_id": "background"}
+{"id": "r7dev-0086", "category": "background", "style": "실사용", "text": "카페 때문에 늦었어", "spans": [], "known_names": [], "template_id": "background"}

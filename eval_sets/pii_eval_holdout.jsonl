@@ -1,0 +1,81 @@
+{"id": "holdout-0001", "text": "내일 오후 3시 30분에 치과 가야 해", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0002", "text": "2026-11-03 10:30 예약했어", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0003", "text": "이번 달 관리비 182,340원 나왔어", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0004", "text": "아파트 15층이야, 1502호 아니고 1503호", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0005", "text": "버스 402번 타고 3정거장", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0006", "text": "쿠팡 주문번호 1000123456789 확인해봐", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0007", "text": "네이버 주문번호 2026102612345671 이야", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0008", "text": "우체국 택배 운송장 번호 6012345678901 이야", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0009", "text": "우체국 등기 1234567890123 조회해봐", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0010", "text": "CJ 운송장 612345678901 이래", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0011", "text": "엄마랑 통화 23분 12초 했어", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0012", "text": "비율은 3-1-4 로 섞어", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0013", "text": "스코어 2-1, 연장전 3-3", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0014", "text": "카카오 선물하기 주문번호 202611030012 로 조회해봐", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0015", "text": "카카오택시 예약번호 1234567890 이야", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0016", "text": "국민은행 3시에 만나자", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0017", "text": "농협 앞에서 2026-11-03 10:30에 보자", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0018", "text": "토스트 사왔어 10개", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0019", "text": "비밀번호 바꿨어, 2026-11-03에", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0020", "text": "비밀번호 8자 이상이어야 한대", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0021", "text": "인증번호 6자리 10분 안에 입력", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0022", "text": "비번 wifi 랑 같아", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0023", "text": "김치찌개랑 박수 치고 이사 준비", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0024", "text": "하나님 감사합니다", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0025", "text": "박사님이 그러는데 괜찮대", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0026", "text": "형수님 오신대", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0027", "text": "올레길 7코스 걷자", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0028", "text": "산책로 2바퀴 돌았어", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0029", "text": "진동 3단계로 해놔", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0030", "text": "서울 대도시라 복잡해", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0031", "text": "경기 신도시로 이사 갈까", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0032", "text": "3동 2호선 타고 와", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0033", "text": "1588-1234 로 전화해", "spans": [], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0034", "text": "하나도 안 먹었어", "spans": [], "known_names": ["김하나", "이영희"]}
+{"id": "holdout-0035", "text": "수정 좀 해줘, 수정이 필요해", "spans": [], "known_names": ["이수정"]}
+{"id": "holdout-0036", "text": "이거 보라고!", "spans": [], "known_names": ["박보라"]}
+{"id": "holdout-0037", "text": "더 나은 방법 없을까", "spans": [], "known_names": ["이나은"]}
+{"id": "holdout-0038", "text": "지원 신청 마감이 내일이야", "spans": [], "known_names": ["김지원"]}
+{"id": "holdout-0039", "text": "엄마가 아빠한테 전화했어", "spans": [], "known_names": ["엄마", "아빠", "김민수"]}
+{"id": "holdout-0040", "text": "010 1234 5678", "spans": [{"kind": "PHONE", "start": 0, "end": 13}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0041", "text": "010-1234-5678로 해", "spans": [{"kind": "PHONE", "start": 0, "end": 13}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0042", "text": "연락처 010–1234–5678 (엔대시)", "spans": [{"kind": "PHONE", "start": 4, "end": 17}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0043", "text": "０１０-１２３４-５６７８ 전각", "spans": [{"kind": "PHONE", "start": 0, "end": 13}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0044", "text": "010)1234-5678", "spans": [{"kind": "PHONE", "start": 0, "end": 13}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0045", "text": "010/1234/5678", "spans": [{"kind": "PHONE", "start": 0, "end": 13}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0046", "text": "공일공 일이삼사 오육칠팔", "spans": [{"kind": "PHONE", "start": 0, "end": 13}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0047", "text": "02 345 6789", "spans": [{"kind": "PHONE", "start": 0, "end": 11}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0048", "text": "주민번호 900101 - 1234567", "spans": [{"kind": "RRN", "start": 5, "end": 21}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0049", "text": "주민번호 900101-123456*", "spans": [{"kind": "RRN", "start": 5, "end": 19}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0050", "text": "주민등록번호 앞자리 900101 뒷자리 1234567", "spans": [{"kind": "RRN", "start": 11, "end": 29}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0051", "text": "9001011234567", "spans": [{"kind": "RRN", "start": 0, "end": 13}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0052", "text": "카드 4539-1488-0343-6467", "spans": [{"kind": "CARD", "start": 3, "end": 22}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0053", "text": "카드 4539 1488 0343 6467 유효기간 08/29 cvc 123", "spans": [{"kind": "CARD", "start": 3, "end": 22}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0054", "text": "카드번호 4539148803436467", "spans": [{"kind": "CARD", "start": 5, "end": 21}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0055", "text": "카드 4539-1488-0343-6467 비번 1234", "spans": [{"kind": "CARD", "start": 3, "end": 22}, {"kind": "SECRET", "start": 26, "end": 30}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0056", "text": "메일 KIM.TEST@Example.COM", "spans": [{"kind": "EMAIL", "start": 3, "end": 23}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0057", "text": "mom1962@example.net.", "spans": [{"kind": "EMAIL", "start": 0, "end": 19}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0058", "text": "kim @ example.net", "spans": [{"kind": "EMAIL", "start": 0, "end": 17}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0059", "text": "kim@example", "spans": [{"kind": "EMAIL", "start": 0, "end": 11}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0060", "text": "국민 123456-01-123456", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 19}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0061", "text": "계좌 110 123 456789", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 17}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0062", "text": "신한 110123456789 로 보내", "spans": [{"kind": "ACCOUNT", "start": 3, "end": 15}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0063", "text": "1002-345-678901 (우리)", "spans": [{"kind": "ACCOUNT", "start": 0, "end": 15}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0064", "text": "110-123-456789 로 보내줘", "spans": [{"kind": "ACCOUNT", "start": 0, "end": 14}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0065", "text": "현관 비밀번호 1234*", "spans": [{"kind": "SECRET", "start": 8, "end": 13}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0066", "text": "비밀번호: 공동현관 1234 세대 5678", "spans": [{"kind": "SECRET", "start": 11, "end": 15}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0067", "text": "인증번호 왔어? 482913", "spans": [{"kind": "SECRET", "start": 9, "end": 15}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0068", "text": "비번은 생일 뒤집은 거 1010", "spans": [{"kind": "SECRET", "start": 13, "end": 17}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0069", "text": "우리 집 서울시 중구 세종대로 110", "spans": [{"kind": "ADDRESS", "start": 5, "end": 20}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0070", "text": "부산 동구 좌천동 123-4", "spans": [{"kind": "ADDRESS", "start": 0, "end": 15}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0071", "text": "강남역 3번 출구 앞 빌라 302호", "spans": [{"kind": "ADDRESS", "start": 0, "end": 19}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0072", "text": "래미안 아파트 103동 1204호", "spans": [{"kind": "ADDRESS", "start": 8, "end": 18}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0073", "text": "테헤란로152", "spans": [{"kind": "ADDRESS", "start": 0, "end": 7}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0074", "text": "민수 전화 010-1234-5678, 지후 메일 jihoo@example.com", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PHONE", "start": 6, "end": 19}, {"kind": "PERSON", "start": 21, "end": 23}, {"kind": "EMAIL", "start": 27, "end": 44}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0075", "text": "영희씨고 민수는 아직", "spans": [{"kind": "PERSON", "start": 0, "end": 2}, {"kind": "PERSON", "start": 5, "end": 7}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0076", "text": "최서연이 아니라 최서윤이야", "spans": [{"kind": "PERSON", "start": 0, "end": 3}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0077", "text": "김민수님 박지후군 최서연양", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 5, "end": 8}, {"kind": "PERSON", "start": 10, "end": 13}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0078", "text": "철수한테 말해놨어", "spans": [{"kind": "PERSON", "start": 0, "end": 2}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0079", "text": "김철수선생님 박영숙씨 이수정님", "spans": [{"kind": "PERSON", "start": 0, "end": 3}, {"kind": "PERSON", "start": 7, "end": 10}, {"kind": "PERSON", "start": 12, "end": 15}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0080", "text": "김 민수 (띄어쓴 이름)", "spans": [{"kind": "PERSON", "start": 0, "end": 4}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
+{"id": "holdout-0081", "text": "민수기념관 갔다가 민수네 집", "spans": [{"kind": "PERSON", "start": 10, "end": 12}], "known_names": ["김민수", "이영희", "박지후", "최서연"]}
